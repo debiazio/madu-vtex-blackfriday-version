@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* inicio */
+
+* {
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+
+
+footer h2,
+footer p,
+footer a {
+  color: white;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+p,
+a {
+  padding: 5px 0;
+}
+
+.linha-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 30px 40px;
+  font-size: 12px
+}
+
+.coluna-1-footer,
+.coluna-2-footer,
+.coluna-3-footer,
+.coluna-4-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.coluna-4-footer {
+  justify-content: space-between;
+}
+
+.coluna-1-footer img {
+  width: 200px;
+}
+
+.coluna-1-footer h2{
+  color: transparent!important;
+}
+
+h2{
+  font-size: small;
+ }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #143B65;
+  font-family: 'Montserrat', sans-serif!important;
+  color: black;
+
+}
+
+.mfm-logo img {
+  max-width: 200px;
+}
+
+.images-redes img {
+  max-width: 20px;
+}
+
+.atendimento {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.atendimento p{
+  line-height: 1.5;
+ }
+
+.atendimento img {
+  max-width: 15px;
+  max-height: 15px;
+  margin-right: 5px;
+}
+
+.images-redes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.conteiner-linha-final{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+
+.linha-final-footer {
+    background-color: black;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+}
+
+.linha-final-footer {
+  font-size: small;
+}
+
+.bandeiras {
+  max-width: 500px;
+  max-height: 30px;
+}
+
+.outras-imgs img {
+  max-width: 50px;
+  margin: 0 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .coluna-1-footer,
+  .coluna-4-footer{
+    align-items: center;
+    text-align: center;
+  }
+
+  .linha-footer{
+    flex-direction: column;
+  }
+
+  .linha-final-footer{
+    flex-direction: column-reverse;
+  }
+
+  .bandeiras {
+  max-width: 300px;
+  max-height: 30px;
+  padding: 10px 0;
+}
+}

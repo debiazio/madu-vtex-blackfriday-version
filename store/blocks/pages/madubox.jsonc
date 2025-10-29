@@ -1,0 +1,3099 @@
+{
+  "store.custom#madubox": {
+    "blocks": [
+      "responsive-layout.mobile#handler-simples",
+      "flex-layout.row#desktop-banner-madubox",
+      "flex-layout.row#desktop-banner2-maletas-madubox",
+      "responsive-layout.mobile#diferencas-maletas-caixas",
+      "responsive-layout.desktop#diferencas-maletas-caixas",
+      "responsive-layout.mobile#banner3-caracteristicas-madubox",
+      "responsive-layout.desktop#banner3-caracteristicas-madubox",
+      "responsive-layout.desktop#handler",
+      "flex-layout.row#desktop-detalhes-tecnicos-titulo",
+      "flex-layout.row#desktop-detalhes-tecnicos-conteudo",
+      "responsive-layout.mobile#cores-madubox",
+      "responsive-layout.desktop#cores-madubox",
+      "flex-layout.row#desktop-combinam-combinam",
+      "flex-layout.row#slider-madubox",
+      "flex-layout.row#desktop-banner-final"
+    ]
+  },
+  "responsive-layout.mobile#handler-simples": {
+    "children": [
+      "dropdownmobile"
+    ]
+  },
+  "dropdownmobile": {},
+  // APP CUSTOM PARA O DISCLOSURE -  CHAMDO APENASD NO LAYOUT DESKTOP
+  "responsive-layout.desktop#handler": {
+    "children": [
+      "handler-visualization"
+    ]
+  },
+  "flex-layout.row#desktop-banner-madubox": {
+    "props": {
+      "blockClass": "linha-banner-madubox",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-front-banner1-banner-box"
+    ]
+  },
+  // LINHA DA FRENTE DO BANNER 1
+  "flex-layout.row#linha-front-banner1-banner-box": {
+    "props": {
+      "blockClass": "linha-frente-banner-1",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#banner1-coluna-esquerda",
+      "responsive-layout.desktop#coluna-direita",
+      "responsive-layout.mobile#imagem-mobile-banner1-madubox"
+    ]
+  },
+  "responsive-layout.desktop#coluna-direita": {
+    "children": [
+      "flex-layout.col#banner1-coluna-direita"
+    ]
+  },
+  // COLUNA DA ESQUERDA BANNER 1
+  "flex-layout.col#banner1-coluna-esquerda": {
+    "props": {
+      "blockClass": "coluna-esquerda-banner1-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#textos-coluna-esquerda-banner1",
+      "link#compreagora-madubox"
+    ]
+  },
+  "flex-layout.row#textos-coluna-esquerda-banner1": {
+    "props": {
+      "blockClass": "textos-coluna-esquerda-banner1-madubox",
+      "colSizing": "auto"
+    },
+    "children": [
+      "responsive-layout.desktop#titulo-madubox",
+      "responsive-layout.mobile#titulo-madubox",
+      "rich-text#subtitulo-banner1-madubox",
+      "rich-text#descricao-banner1-madubox"
+    ]
+  },
+  // TITULO DESKTOP BANNER INICIAL
+  "responsive-layout.desktop#titulo-madubox": {
+    "children": [
+      "image#titulo1-banner1-madubox",
+      "image#titulo2-banner1-madubox"
+    ]
+  },
+  "image#titulo1-banner1-madubox": {
+    "props": {
+      "src": "assets/madu-box/banner-inicial/caixas-maletas-desktop.webp",
+      "blockClass": "titulo-banner1-madubox",
+      "alt": "Título MaduBox"
+    }
+  },
+  "image#titulo2-banner1-madubox": {
+    "props": {
+      "src": "assets/madu-box/banner-inicial/madubox-desktop.webp",
+      "blockClass": "titulo-banner1-madubox",
+      "alt": "Título MaduBox"
+    }
+  },
+  // TITULO MOBILE
+  "responsive-layout.mobile#titulo-madubox": {
+    "children": [
+      "image#titulo-mobile-banner-inicial-madubox",
+      "image#subtitulo-mobile-banner-inicial-madubox"
+    ]
+  },
+  "image#titulo-mobile-banner-inicial-madubox": {
+    "props": {
+      "blockClass": "titulo-mobile-banner1-madu-box",
+      "src": "assets/madu-box/banner-inicial/subtitulo-caixas-maletas-mobile.webp"
+    }
+  },
+  "image#subtitulo-mobile-banner-inicial-madubox": {
+    "props": {
+      "blockClass": "titulo-mobile-banner1-madu-box",
+      "src": "assets/madu-box/banner-inicial/titulo-mobile-madubox.webp"
+    }
+  },
+  // SUBTITULO BANNER 1
+  "rich-text#subtitulo-banner1-madubox": {
+    "props": {
+      "text": "Organização, Estilo e Versatilidade em um só produto",
+      "blockClass": "subtitulo-banner1-madubox"
+    }
+  },
+  "rich-text#descricao-banner1-madubox": {
+    "props": {
+      "text": "As Maletas e Caixas MaduBox chegaram para transformar sua rotina, unindo praticidade, resistência e design inteligente. Produzidas em plástico PSI de alta qualidade, com tampa de acrílico transparente, elas permitem visualizar facilmente o conteúdo, manter tudo em ordem e ainda transportar seus itens com segurança e estilo.",
+      "blockClass": "descricao-banner1-madubox"
+    }
+  },
+  "link#compreagora-madubox": {
+    "props": {
+      "label": "Comprar Agora",
+      "href": "#",
+      "blockClass": "compreagora-madubox"
+    }
+  },
+  // IMAGEM FINAL DO BANNER 1 MOBILE
+  "responsive-layout.mobile#imagem-mobile-banner1-madubox": {
+    "children": [
+      "image#imagem-banner1-madubox"
+    ]
+  },
+  // COLUNA DA DIREITA BANNER 1
+  "flex-layout.col#banner1-coluna-direita": {
+    "props": {
+      "blockClass": "coluna-direita-banner1-madubox"
+    },
+    "children": [
+      "image#imagem-banner1-madubox"
+    ]
+  },
+  "image#imagem-banner1-madubox": {
+    "props": {
+      "src": "assets/maduboxes.webp",
+      "alt": "Maletas Madubox",
+      "blockClass": "imagem-banner1-madubox"
+    }
+  },
+  // MALETAS MADUBOX banner 2
+  "flex-layout.row#desktop-banner2-maletas-madubox": {
+    "props": {
+      "blockClass": "linha-maletas-madubox",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "responsive-layout.desktop#titulo-maletas",
+      "responsive-layout.mobile#titulo-maletas",
+      "flex-layout.row#linha-maletas-frente"
+    ]
+  },
+  // TITULO MALETAS - DESKTOP
+  "responsive-layout.desktop#titulo-maletas": {
+    "children": [
+      "flex-layout.row#titulo-banner-maletas"
+    ]
+  },
+  "flex-layout.row#titulo-banner-maletas": {
+    "props": {
+      "blockClass": "linha-titulo-maletas-madubox",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-maletas",
+      "image#logo-madubox",
+      "image#interrogacao"
+    ]
+  },
+  // TITULO MALETAS - MOBILE
+  "responsive-layout.mobile#titulo-maletas": {
+    "children": [
+      "image#titulo-maletas-mobile-madubox"
+    ]
+  },
+  // TITULO DESKTOP MALETAS
+  "rich-text#titulo-maletas": {
+    "props": {
+      "text": "Por que escolher as",
+      "blockClass": "titulo-maletas-madubox"
+    }
+  },
+  "image#logo-madubox": {
+    "props": {
+      "src": "assets/madu-box-logo.webp",
+      "alt": "Logo Madubox",
+      "blockClass": "logo-madubox"
+    }
+  },
+  "image#interrogacao": {
+    "props": {
+      "src": "assets/interrogacao.webp",
+      "alt": "Interrogação",
+      "blockClass": "interrogacao"
+    }
+  },
+  // IMAGEM TITULO MALETAS MOBILE
+  "image#titulo-maletas-mobile-madubox": {
+    "props": {
+      "blockClass": "titulo-maletas-mobile",
+      "src": "assets/madu-box/banner-maletas/maletas-titulo-mobile.webp"
+    }
+  },
+  // LINHA DA FRENTE DAS MALETAS
+  "flex-layout.row#linha-maletas-frente": {
+    "props": {
+      "blockClass": "linha-maletas-frente-madubox",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#maletas-esquerda",
+      "flex-layout.col#maletas-direita"
+    ]
+  },
+  // COLUNA MALETAS ESQUERDA
+  "flex-layout.col#maletas-esquerda": {
+    "props": {
+      "blockClass": "coluna-esquerda-maletas-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#maleta-fechada"
+    ]
+  },
+  "image#maleta-fechada": {
+    "props": {
+      "src": "assets/maleta-fechada-laranja.webp",
+      "alt": "Maleta Madubox Fechada",
+      "blockClass": "maleta-fechada-madubox"
+    }
+  },
+  // COLUNA DIREITA MALETAS
+  "flex-layout.col#maletas-direita": {
+    "props": {
+      "blockClass": "coluna-direita-maletas-madubox"
+    },
+    "children": [
+      "flex-layout.row#material-qualidade",
+      "flex-layout.row#transporte-praticidade",
+      "flex-layout.row#diversos-tamanhos",
+      "flex-layout.row#transparencia-visibilidade",
+      "flex-layout.row#paleta-cores",
+      "flex-layout.row#limpeza"
+    ]
+  },
+  // BOXES MALETAS
+  "flex-layout.row#material-qualidade": {
+    "props": {
+      "blockClass": "boxes-maletas",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#imagem-diamante",
+      "flex-layout.col#texto-diamante"
+    ]
+  },
+  "flex-layout.row#transporte-praticidade": {
+    "props": {
+      "blockClass": "boxes-maletas",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#imagem-praticidade",
+      "flex-layout.col#texto-praticidade"
+    ]
+  },
+  "flex-layout.row#diversos-tamanhos": {
+    "props": {
+      "blockClass": "boxes-maletas",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#imagem-tamanhos",
+      "flex-layout.col#texto-tamanhos"
+    ]
+  },
+  "flex-layout.row#transparencia-visibilidade": {
+    "props": {
+      "blockClass": "boxes-maletas",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#imagem-transparencia",
+      "flex-layout.col#texto-transparencia"
+    ]
+  },
+  "flex-layout.row#paleta-cores": {
+    "props": {
+      "blockClass": "boxes-maletas",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#imagem-paleta",
+      "flex-layout.col#texto-paleta"
+    ]
+  },
+  "flex-layout.row#limpeza": {
+    "props": {
+      "blockClass": "boxes-maletas",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#imagem-limpeza",
+      "flex-layout.col#texto-limpeza"
+    ]
+  },
+  // COLUNAS DOS BOXES
+  // DIAMANTE
+  "flex-layout.col#imagem-diamante": {
+    "props": {
+      "blockClass": "coluna-imagens-boxes-maletas",
+      "width": "40%"
+    },
+    "children": [
+      "image#diamante"
+    ]
+  },
+  "flex-layout.col#texto-diamante": {
+    "props": {
+      "blockClass": "coluna-textos-boxes-maletas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#diamante"
+    ]
+  },
+  // PRATICIDADE
+  "flex-layout.col#imagem-praticidade": {
+    "props": {
+      "blockClass": "coluna-imagens-boxes-maletas",
+      "width": "40%"
+    },
+    "children": [
+      "image#praticidade"
+    ]
+  },
+  "flex-layout.col#texto-praticidade": {
+    "props": {
+      "blockClass": "coluna-textos-boxes-maletas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#praticidade"
+    ]
+  },
+  // TAMANHOS
+  "flex-layout.col#imagem-tamanhos": {
+    "props": {
+      "blockClass": "coluna-imagens-boxes-maletas",
+      "width": "40%"
+    },
+    "children": [
+      "image#tamanhos"
+    ]
+  },
+  "flex-layout.col#texto-tamanhos": {
+    "props": {
+      "blockClass": "coluna-textos-boxes-maletas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#tamanhos"
+    ]
+  },
+  // TRANSPARENCIA
+  "flex-layout.col#imagem-transparencia": {
+    "props": {
+      "blockClass": "coluna-imagens-boxes-maletas",
+      "width": "40%"
+    },
+    "children": [
+      "image#transparencia"
+    ]
+  },
+  "flex-layout.col#texto-transparencia": {
+    "props": {
+      "blockClass": "coluna-textos-boxes-maletas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#transparencia"
+    ]
+  },
+  // PALETA
+  "flex-layout.col#imagem-paleta": {
+    "props": {
+      "blockClass": "coluna-imagens-boxes-maletas",
+      "width": "40%"
+    },
+    "children": [
+      "image#paleta"
+    ]
+  },
+  "flex-layout.col#texto-paleta": {
+    "props": {
+      "blockClass": "coluna-textos-boxes-maletas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#paleta"
+    ]
+  },
+  // LIMPEZA
+  "flex-layout.col#imagem-limpeza": {
+    "props": {
+      "blockClass": "coluna-imagens-boxes-maletas",
+      "width": "40%"
+    },
+    "children": [
+      "image#limpeza"
+    ]
+  },
+  "flex-layout.col#texto-limpeza": {
+    "props": {
+      "blockClass": "coluna-textos-boxes-maletas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#limpeza"
+    ]
+  },
+  // IMAGENS DOS BOXES
+  "image#diamante": {
+    "props": {
+      "blockClass": "imagens-boxes-maletas",
+      "src": "assets/diamante.webp"
+    }
+  },
+  "image#praticidade": {
+    "props": {
+      "blockClass": "imagens-boxes-maletas",
+      "src": "assets/praticidade.webp"
+    }
+  },
+  "image#tamanhos": {
+    "props": {
+      "blockClass": "imagens-boxes-maletas",
+      "src": "assets/diversos-tam.webp"
+    }
+  },
+  "image#transparencia": {
+    "props": {
+      "blockClass": "imagens-boxes-maletas",
+      "src": "assets/transparencia.webp"
+    }
+  },
+  "image#paleta": {
+    "props": {
+      "blockClass": "imagens-boxes-maletas",
+      "src": "assets/paletas.webp"
+    }
+  },
+  "image#limpeza": {
+    "props": {
+      "blockClass": "imagens-boxes-maletas",
+      "src": "assets/limpeza.webp"
+    }
+  },
+  // TEXTOS MALETAS BOX
+  "rich-text#diamante": {
+    "props": {
+      "blockClass": "textos-boxes-maletas",
+      "text": "Material de alta\n qualidade"
+    }
+  },
+  "rich-text#praticidade": {
+    "props": {
+      "blockClass": "textos-boxes-maletas",
+      "text": "Praticidade no\n transporte e no\n armazenamento"
+    }
+  },
+  "rich-text#tamanhos": {
+    "props": {
+      "blockClass": "textos-boxes-maletas",
+      "text": "Diversos\n tamanhos"
+    }
+  },
+  "rich-text#transparencia": {
+    "props": {
+      "blockClass": "textos-boxes-maletas",
+      "text": "Transparência\n para visualização\n do conteúdo"
+    }
+  },
+  "rich-text#paleta": {
+    "props": {
+      "blockClass": "textos-boxes-maletas",
+      "text": "Paleta de\n cores variadas"
+    }
+  },
+  "rich-text#limpeza": {
+    "props": {
+      "blockClass": "textos-boxes-maletas",
+      "text": "Facilidade\n de limpeza"
+    }
+  },
+  //INIVIO BLOCO - NOVO BANNER -DIFERENCAS - **MOBILE**
+  "responsive-layout.mobile#diferencas-maletas-caixas": {
+    "children": [
+      "flex-layout.row#conteiner-diferencas-maletas-caixas-mobile"
+    ]
+  },
+  "flex-layout.row#conteiner-diferencas-maletas-caixas-mobile": {
+    "props": {
+      "blockClass": "conteiner-diferencas-maletas-caixas-mobile"
+    },
+    "children": [
+      "flex-layout.row#linha-superior-diferencas-maletas-caixas-mobile",
+      "flex-layout.row#linha-meio-diferencas-maletas-caixas-mobile",
+      "flex-layout.row#linha-inferior-diferencas-maletas-caixas-mobile"
+    ]
+  },
+  // MOBILE- LINHA SUPERIOR - DIFERENCAS
+  "flex-layout.row#linha-superior-diferencas-maletas-caixas-mobile": {
+    "props": {
+      "blockClass": "linha-superior-diferencas-maletas-caixas-mobile"
+    },
+    "children": [
+      "image#texto-diferencas"
+    ]
+  },
+  // MOBILE- LINHA media - DIFERENCAS
+  "flex-layout.row#linha-meio-diferencas-maletas-caixas-mobile": {
+    "props": {
+      "blockClass": "linha-meio-diferencas-maletas-caixas-mobile"
+    },
+    "children": [
+      "image#maleta-preta-diferencas",
+      "image#caixa-vermelha-diferencas"
+    ]
+  },
+  // MOBILE- LINHA INFERIOR - DIFERENCAS
+  "flex-layout.row#linha-inferior-diferencas-maletas-caixas-mobile": {
+    "props": {
+      "blockClass": "linha-inferior-diferencas-maletas-caixas-mobile"
+    },
+    "children": [
+      "rich-text#texto-maletas-diferencas-madubox",
+      "rich-text#texto-caixas-diferencas-madubox"
+    ]
+  },
+  //INICIO BLOCO -  NOVO BANNER -DIFERENCAS - ** DESKTOP **
+  "responsive-layout.desktop#diferencas-maletas-caixas": {
+    "children": [
+      "flex-layout.row#banner-sobre-banner3-diferencas"
+    ]
+  },
+  "flex-layout.row#banner-sobre-banner3-diferencas": {
+    "props": {
+      "blockClass": "linha-diferencas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#banner-diferencas-linha-deslocada"
+    ]
+  },
+  "flex-layout.row#banner-diferencas-linha-deslocada": {
+    "props": {
+      "blockClass": "linha-deslocada-diferencas-madubox",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#diferencas-linha-imagens",
+      "flex-layout.row#diferencas-linha-textos"
+    ]
+  },
+  // LINHA DE IMAGENS -DIFERENCAS
+  "flex-layout.row#diferencas-linha-imagens": {
+    "props": {
+      "blockClass": "linha-imagens",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#coluna-imagem-maleta-preta",
+      "flex-layout.col#coluna-imagem-diferencas",
+      "flex-layout.col#coluna-imagem-caixa-vermelha"
+    ]
+  },
+  // IMAGENS - DIFERENCAS
+  "flex-layout.col#coluna-imagem-maleta-preta": {
+    "props": {
+      "blockClass": "coluna-imagem-maleta-preta",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#maleta-preta-diferencas"
+    ]
+  },
+  "image#maleta-preta-diferencas": {
+    "props": {
+      "blockClass": [
+        "imagens-diferencas-madubox",
+        "imagem-maleta-preta"
+      ],
+      "alt": "Imagens diferenças",
+      "src": "assets/madu-box/banner-maletas/maleta-preta.webp"
+    }
+  },
+  "flex-layout.col#coluna-imagem-diferencas": {
+    "props": {
+      "blockClass": "coluna-diferencas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#texto-diferencas"
+    ]
+  },
+  "image#texto-diferencas": {
+    "props": {
+      "blockClass": [
+        "imagens-diferencas-madubox",
+        "diferencas-texto"
+      ],
+      "alt": "Imagens diferenças",
+      "src": "assets/madu-box/banner-maletas/diferencas.webp"
+    }
+  },
+  "flex-layout.col#coluna-imagem-caixa-vermelha": {
+    "props": {
+      "blockClass": "coluna-imagem-caixa-vermelha",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#caixa-vermelha-diferencas"
+    ]
+  },
+  "image#caixa-vermelha-diferencas": {
+    "props": {
+      "blockClass": [
+        "imagens-diferencas-madubox",
+        "imagem-caixa-vermelha"
+      ],
+      "alt": "Imagens diferenças",
+      "src": "assets/madu-box/banner-maletas/caixa-vermelha.webp"
+    }
+  },
+  // LINHA TEXTOS - DIFERENCAS
+  "flex-layout.row#diferencas-linha-textos": {
+    "props": {
+      "blockClass": "linha-textos-diferencas",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#diferencas-madubox-coluna-esquerda",
+      "flex-layout.col#diferencas-madubox-coluna-direita"
+    ]
+  },
+  // COLUNAS TEXTOS DIFERENCAS
+  "flex-layout.col#diferencas-madubox-coluna-esquerda": {
+    "props": {
+      "blockClass": "colunas-textos-diferencas"
+    },
+    "children": [
+      "rich-text#texto-maletas-diferencas-madubox"
+    ]
+  },
+  "flex-layout.col#diferencas-madubox-coluna-direita": {
+    "props": {
+      "blockClass": "colunas-textos-diferencas"
+    },
+    "children": [
+      "rich-text#texto-caixas-diferencas-madubox"
+    ]
+  },
+  // TEXTOS DIFERENCAS
+  "rich-text#texto-maletas-diferencas-madubox": {
+    "props": {
+      "blockClass": "maleta-textos-diferencas-madubox",
+      "text": "Modelos compactos e fáceis de transportar. Todas as maletas possuem alça de transporte e fechos frontais, ideais para levar seus objetos com praticidade e segurança."
+    }
+  },
+  "rich-text#texto-caixas-diferencas-madubox": {
+    "props": {
+      "blockClass": "caixa-textos-diferencas-madubox",
+      "text": "Modelos maiores para quem precisa de mais espaço. As caixas não possuem alça de transporte, sendo perfeitas para organizar e armazenar itens em casa, no trabalho ou em qualquer ambiente."
+    }
+  },
+  // **MOBILE** CARACTERISTICAS MADUBOX banner 3
+  "responsive-layout.mobile#banner3-caracteristicas-madubox": {
+    "children": [
+      "flex-layout.row#mobile-banner3-caracteristicas-madubox"
+    ]
+  },
+  "flex-layout.row#mobile-banner3-caracteristicas-madubox": {
+    "props": {
+      "blockClass": "mobile-banner3-caracteristicas-madubox"
+    },
+    "children": [
+      "flex-layout.row#mobile-modulos-empilhaveis",
+      "flex-layout.row#mobile-fecho-duplo",
+      "flex-layout.row#mobile-alca-transparente",
+      "flex-layout.row#mobile-tampa-transparente"
+    ]
+  },
+  "flex-layout.row#mobile-modulos-empilhaveis": {
+    "props": {
+      "blockClass": "mobile-linhas-caracteristicas"
+    },
+    "children": [
+      "image#modulos",
+      "rich-text#titulo-modulos",
+      "rich-text#subtitulo-modulos"
+    ]
+  },
+  "flex-layout.row#mobile-fecho-duplo": {
+    "props": {
+      "blockClass": "mobile-linhas-caracteristicas"
+    },
+    "children": [
+      "image#fecho-duplo",
+      "rich-text#titulo-fecho-duplo",
+      "rich-text#subtitulo-fecho-duplo"
+    ]
+  },
+  "flex-layout.row#mobile-alca-transparente": {
+    "props": {
+      "blockClass": "mobile-linhas-caracteristicas"
+    },
+    "children": [
+      "image#alca-transparente",
+      "rich-text#titulo-alca-transparente",
+      "rich-text#subtitulo-alca-transparente"
+    ]
+  },
+  "flex-layout.row#mobile-tampa-transparente": {
+    "props": {
+      "blockClass": "mobile-linhas-caracteristicas"
+    },
+    "children": [
+      "image#tampa-transparente",
+      "rich-text#titulo-tampa-transparente",
+      "rich-text#subtitulo-tampa-transparente"
+    ]
+  },
+  // CARACTERISTICAS MADUBOX banner 3
+  "responsive-layout.desktop#banner3-caracteristicas-madubox": {
+    "children": [
+      "flex-layout.row#desktop-banner3-caracteristicas-madubox"
+    ]
+  },
+  "flex-layout.row#desktop-banner3-caracteristicas-madubox": {
+    "props": {
+      "blockClass": "linha-caracteristicas-madubox",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#modulos-empilhaveis",
+      "flex-layout.row#fecho-duplo",
+      "flex-layout.row#alca-transparente",
+      "flex-layout.row#tampa-transparente"
+    ]
+  },
+  // LINHAS CARACTERISTICAS MADUBOX
+  "flex-layout.row#modulos-empilhaveis": {
+    "props": {
+      "blockClass": "caracteristicas"
+    },
+    "children": [
+      "flex-layout.col#imagem-modulos",
+      "flex-layout.col#texto-modulos"
+    ]
+  },
+  "flex-layout.row#fecho-duplo": {
+    "props": {
+      "blockClass": "caracteristicas"
+    },
+    "children": [
+      "flex-layout.col#imagem-fecho-duplo",
+      "flex-layout.col#texto-fecho-duplo"
+    ]
+  },
+  "flex-layout.row#tampa-transparente": {
+    "props": {
+      "blockClass": "caracteristicas"
+    },
+    "children": [
+      "flex-layout.col#imagem-tampa-transparente",
+      "flex-layout.col#texto-tampa-transparente"
+    ]
+  },
+  "flex-layout.row#alca-transparente": {
+    "props": {
+      "blockClass": "caracteristicas"
+    },
+    "children": [
+      "flex-layout.col#imagem-alca-transparente",
+      "flex-layout.col#texto-alca-transparente"
+    ]
+  },
+  // COLUNAS CARACTERISTICAS MADUBOX
+  "flex-layout.col#imagem-modulos": {
+    "props": {
+      "blockClass": "coluna-imagens-caracteristicas",
+      "width": "40%"
+    },
+    "children": [
+      "image#modulos"
+    ]
+  },
+  "flex-layout.col#imagem-fecho-duplo": {
+    "props": {
+      "blockClass": "coluna-imagens-caracteristicas",
+      "width": "40%"
+    },
+    "children": [
+      "image#fecho-duplo"
+    ]
+  },
+  "flex-layout.col#imagem-tampa-transparente": {
+    "props": {
+      "blockClass": "coluna-imagens-caracteristicas",
+      "width": "40%"
+    },
+    "children": [
+      "image#tampa-transparente"
+    ]
+  },
+  "flex-layout.col#imagem-alca-transparente": {
+    "props": {
+      "blockClass": "coluna-imagens-caracteristicas",
+      "width": "40%"
+    },
+    "children": [
+      "image#alca-transparente"
+    ]
+  },
+  // IMAGENS CARACTERISTICAS MADUBOX
+  "image#modulos": {
+    "props": {
+      "blockClass": "imagens-caracteristicas",
+      "src": "assets/mod-empilhaveis.webp",
+      "alt": "Módulos Empilháveis"
+    }
+  },
+  "image#fecho-duplo": {
+    "props": {
+      "blockClass": "imagens-caracteristicas",
+      "src": "assets/fecho-duplo.webp",
+      "alt": "Fecho Duplo"
+    }
+  },
+  "image#tampa-transparente": {
+    "props": {
+      "blockClass": "imagens-caracteristicas",
+      "src": "assets/tampa-transparente.webp",
+      "alt": "Tampa Transparente"
+    }
+  },
+  "image#alca-transparente": {
+    "props": {
+      "blockClass": "imagens-caracteristicas",
+      "src": "assets/alca-tranporte.webp",
+      "alt": "Alça de Transporte"
+    }
+  },
+  // colunas TEXTOS CARACTERISTICAS MADUBOX
+  "flex-layout.col#texto-modulos": {
+    "props": {
+      "blockClass": "coluna-textos-caracteristicas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#titulo-modulos",
+      "rich-text#subtitulo-modulos"
+    ]
+  },
+  "flex-layout.col#texto-fecho-duplo": {
+    "props": {
+      "blockClass": "coluna-textos-caracteristicas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#titulo-fecho-duplo",
+      "rich-text#subtitulo-fecho-duplo"
+    ]
+  },
+  "flex-layout.col#texto-tampa-transparente": {
+    "props": {
+      "blockClass": "coluna-textos-caracteristicas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#titulo-tampa-transparente",
+      "rich-text#subtitulo-tampa-transparente"
+    ]
+  },
+  "flex-layout.col#texto-alca-transparente": {
+    "props": {
+      "blockClass": "coluna-textos-caracteristicas",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#titulo-alca-transparente",
+      "rich-text#subtitulo-alca-transparente"
+    ]
+  },
+  // TEXTOS CARACTERISTICAS MADUBOX
+  "rich-text#titulo-modulos": {
+    "props": {
+      "blockClass": "titulo-caracteristicas",
+      "text": "MóDULOS EMPILHÁVEIS:"
+    }
+  },
+  "rich-text#titulo-fecho-duplo": {
+    "props": {
+      "blockClass": "titulo-caracteristicas",
+      "text": "FECHO DUPLO:"
+    }
+  },
+  "rich-text#titulo-tampa-transparente": {
+    "props": {
+      "blockClass": "titulo-caracteristicas",
+      "text": "TAMPA TRANSPARENTE:"
+    }
+  },
+  "rich-text#titulo-alca-transparente": {
+    "props": {
+      "blockClass": "titulo-caracteristicas",
+      "text": "ALÇA DE TRANSPORTE:"
+    }
+  },
+  // subtitulos textos caracteristicas
+  "rich-text#subtitulo-modulos": {
+    "props": {
+      "blockClass": "subtitulo-caracteristicas",
+      "text": "As maletas box possuem encaixes na parte inferior que possibilitam empilhamento entre os mesmos tamanhos."
+    }
+  },
+  "rich-text#subtitulo-fecho-duplo": {
+    "props": {
+      "blockClass": "subtitulo-caracteristicas",
+      "text": "Fechamento seguro para transportar seus itens , com travas frontais."
+    }
+  },
+  "rich-text#subtitulo-tampa-transparente": {
+    "props": {
+      "blockClass": "subtitulo-caracteristicas",
+      "text": "Design moderno, garantindo fácil visualização de objetos."
+    }
+  },
+  "rich-text#subtitulo-alca-transparente": {
+    "props": {
+      "blockClass": "subtitulo-caracteristicas",
+      "text": "Nos tamanhos menores para facilitar seu dia- dia no transporte de itens."
+    }
+  },
+  // DETALHES TÉCNICOS
+  "flex-layout.row#desktop-detalhes-tecnicos-titulo": {
+    "props": {
+      "blockClass": "linha-detalhes-tecnicos-madubox"
+    },
+    "children": [
+      "responsive-layout.mobile#titulo-detalhes-tecnicos",
+      "responsive-layout.desktop#titulo-detalhes-tecnicos",
+      "responsive-layout.mobile#subtitulo-detalhes-tecnicos",
+      "responsive-layout.desktop#subtitulo-detalhes-tecnicos"
+    ]
+  },
+  // RESPONSIVE TITULO DETALHES TECNICOS
+  "responsive-layout.mobile#titulo-detalhes-tecnicos": {
+    "children": [
+      "rich-text#mobile-titulo-detalhes-tecnicos"
+    ]
+  },
+  "responsive-layout.desktop#titulo-detalhes-tecnicos": {
+    "children": [
+      "rich-text#titulo-detalhes-tecnicos"
+    ]
+  },
+  // TITULO DETALHES TECNICOS
+  "rich-text#mobile-titulo-detalhes-tecnicos": {
+    "props": {
+      "blockClass": "titulo-detalhes-tecnicos",
+      "text": "DETALHES\n TÉCNICOS da linha"
+    }
+  },
+  "rich-text#titulo-detalhes-tecnicos": {
+    "props": {
+      "blockClass": "titulo-detalhes-tecnicos",
+      "text": "DETALHES TÉCNICOS da linha"
+    }
+  },
+  // RESPONSIVE SUBTITULO
+  "responsive-layout.mobile#subtitulo-detalhes-tecnicos": {
+    "children": [
+      "rich-text#subtitulo-mobile-detalhes-tecnicos"
+    ]
+  },
+  "responsive-layout.desktop#subtitulo-detalhes-tecnicos": {
+    "children": [
+      "rich-text#subtitulo-detalhes-tecnicos"
+    ]
+  },
+  "rich-text#subtitulo-mobile-detalhes-tecnicos": {
+    "props": {
+      "blockClass": "subtitulo-detalhes-tecnicos",
+      "text": "Explicação de como\n a linha é organizada:"
+    }
+  },
+  "rich-text#subtitulo-detalhes-tecnicos": {
+    "props": {
+      "blockClass": "subtitulo-detalhes-tecnicos",
+      "text": "Explicação de como a linha é organizada:"
+    }
+  },
+  // DETALHES TÉCNICOS CONTEÚDO
+  "flex-layout.row#desktop-detalhes-tecnicos-conteudo": {
+    "props": {
+      "blockClass": "linha-conteudo-detalhes-tecnicos-madubox",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#detalhes-tecnicos-coluna-esquerda",
+      "flex-layout.col#detalhes-tecnicos-coluna-direita-tam3",
+      "flex-layout.col#detalhes-tecnicos-coluna-direita-tam4",
+      "flex-layout.col#detalhes-tecnicos-coluna-direita-tam6",
+      "flex-layout.col#detalhes-tecnicos-coluna-direita-tam8",
+      "flex-layout.col#detalhes-tecnicos-coluna-direita-tam10",
+      "flex-layout.col#detalhes-tecnicos-coluna-direita-tam12"
+    ]
+  },
+  // COLUNA ESQUERDA DETALHES TÉCNICOS - ACORDION
+  "flex-layout.col#detalhes-tecnicos-coluna-esquerda": {
+    "props": {
+      "blockClass": "coluna-accordion-detalhes-tecnicos",
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "disclosure-layout-group#group"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS ** MOBILE ** - IMAGENS TAM3
+  "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam3": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam3",
+      "flex-layout.row#linha-tamanhos-tam3"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - IMAGENS TAM3
+  "flex-layout.col#detalhes-tecnicos-coluna-direita-tam3": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos",
+        "coluna-tam3"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam3",
+      "flex-layout.row#linha-tamanhos-tam3"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - IMAGENS TAM4
+  "flex-layout.col#detalhes-tecnicos-coluna-direita-tam4": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam4",
+        "coluna-tam4"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam4",
+      "flex-layout.row#linha-tamanhos-tam4"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS ** MOBILE **- IMAGENS TAM4
+  "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam4": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam4"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam4",
+      "flex-layout.row#linha-tamanhos-tam4"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - ** MOBILE ** IMAGENS TAM6
+  "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam6": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam6"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam6",
+      "flex-layout.row#linha-tamanhos-tam6"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - IMAGENS TAM6
+  "flex-layout.col#detalhes-tecnicos-coluna-direita-tam6": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam6",
+        "coluna-tam6"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam6",
+      "flex-layout.row#linha-tamanhos-tam6"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - **MOBILE** IMAGENS TAM8
+  "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam8": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam8"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam8",
+      "flex-layout.row#linha-tamanhos-tam8"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - IMAGENS TAM8
+  "flex-layout.col#detalhes-tecnicos-coluna-direita-tam8": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam8",
+        "coluna-tam8"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam8",
+      "flex-layout.row#linha-tamanhos-tam8"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - **MOBILE** IMAGENS TAM10
+  "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam10": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam10"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam10",
+      "flex-layout.row#linha-tamanhos-tam10"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - IMAGENS TAM10
+  "flex-layout.col#detalhes-tecnicos-coluna-direita-tam10": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam10",
+        "coluna-tam10"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam10",
+      "flex-layout.row#linha-tamanhos-tam10"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - **MOBILE** IMAGENS TAM12
+  "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam12": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam12"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam12",
+      "flex-layout.row#linha-tamanhos-tam12"
+    ]
+  },
+  // COLUNA DIREITA DETALHES TÉCNICOS - IMAGENS TAM12
+  "flex-layout.col#detalhes-tecnicos-coluna-direita-tam12": {
+    "props": {
+      "blockClass": [
+        "coluna-imagem-detalhes-tecnicos-tam12",
+        "coluna-tam12"
+      ],
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-superior-tam12",
+      "flex-layout.row#linha-tamanhos-tam12"
+    ]
+  },
+  // linha da imagem principal tam 3
+  "flex-layout.row#linha-imagem-superior-tam3": {
+    "props": {
+      "blockClass": "linha-imagem-superior"
+    },
+    "children": [
+      "image#imagem-detalhes-tecnicos-tam3"
+    ]
+  },
+  // linha da imagem principal tam 4
+  "flex-layout.row#linha-imagem-superior-tam4": {
+    "props": {
+      "blockClass": "linha-imagem-superior"
+    },
+    "children": [
+      "image#imagem-detalhes-tecnicos-tam4"
+    ]
+  },
+  // linha da imagem principal tam 6
+  "flex-layout.row#linha-imagem-superior-tam6": {
+    "props": {
+      "blockClass": "linha-imagem-superior"
+    },
+    "children": [
+      "image#imagem-detalhes-tecnicos-tam6"
+    ]
+  },
+  // linha da imagem principal tam 8
+  "flex-layout.row#linha-imagem-superior-tam8": {
+    "props": {
+      "blockClass": "linha-imagem-superior"
+    },
+    "children": [
+      "image#imagem-detalhes-tecnicos-tam8"
+    ]
+  },
+  // linha da imagem principal tam 10
+  "flex-layout.row#linha-imagem-superior-tam10": {
+    "props": {
+      "blockClass": "linha-imagem-superior"
+    },
+    "children": [
+      "image#imagem-detalhes-tecnicos-tam10"
+    ]
+  },
+  // linha da imagem principal tam 12
+  "flex-layout.row#linha-imagem-superior-tam12": {
+    "props": {
+      "blockClass": "linha-imagem-superior"
+    },
+    "children": [
+      "image#imagem-detalhes-tecnicos-tam12"
+    ]
+  },
+  // CONTEUDO IMAGENS DETALHES TECNICOS TAM3
+  "flex-layout.row#linha-tamanhos-tam3": {
+    "props": {
+      "blockClass": "linha-tamanhos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-p-tam3",
+      "flex-layout.row#linha-imagem-m-tam3",
+      "flex-layout.row#linha-imagem-g-tam3",
+      "flex-layout.row#linha-imagem-gg-tam3"
+    ]
+  },
+  // CONTEUDO IMAGENS DETALHES TECNICOS TAM4
+  "flex-layout.row#linha-tamanhos-tam4": {
+    "props": {
+      "blockClass": "linha-tamanhos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-p-tam4",
+      "flex-layout.row#linha-imagem-m-tam4",
+      "flex-layout.row#linha-imagem-g-tam4",
+      "flex-layout.row#linha-imagem-gg-tam4"
+    ]
+  },
+  // CONTEUDO IMAGENS DETALHES TECNICOS TAM6
+  "flex-layout.row#linha-tamanhos-tam6": {
+    "props": {
+      "blockClass": "linha-tamanhos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-p-tam6",
+      "flex-layout.row#linha-imagem-m-tam6",
+      "flex-layout.row#linha-imagem-g-tam6",
+      "flex-layout.row#linha-imagem-gg-tam6"
+    ]
+  },
+  // CONTEUDO IMAGENS DETALHES TECNICOS TAM8
+  "flex-layout.row#linha-tamanhos-tam8": {
+    "props": {
+      "blockClass": "linha-tamanhos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-p-tam8",
+      "flex-layout.row#linha-imagem-m-tam8",
+      "flex-layout.row#linha-imagem-g-tam8",
+      "flex-layout.row#linha-imagem-gg-tam8"
+    ]
+  },
+  // CONTEUDO IMAGENS DETALHES TECNICOS TAM10
+  "flex-layout.row#linha-tamanhos-tam10": {
+    "props": {
+      "blockClass": "linha-tamanhos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-p-tam10",
+      "flex-layout.row#linha-imagem-m-tam10",
+      "flex-layout.row#linha-imagem-g-tam10",
+      "flex-layout.row#linha-imagem-gg-tam10"
+    ]
+  },
+  // CONTEUDO IMAGENS DETALHES TECNICOS TAM12
+  "flex-layout.row#linha-tamanhos-tam12": {
+    "props": {
+      "blockClass": "linha-tamanhos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-imagem-p-tam12",
+      "flex-layout.row#linha-imagem-m-tam12",
+      "flex-layout.row#linha-imagem-g-tam12",
+      "flex-layout.row#linha-imagem-gg-tam12"
+    ]
+  },
+  // LINHAS TAMANHOS  - TAM 3 - p
+  "flex-layout.row#linha-imagem-p-tam3": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam3-p",
+      "rich-text#tam-p"
+    ]
+  },
+  // LINHAS TAMANHOS  - TAM 4 - p
+  "flex-layout.row#linha-imagem-p-tam4": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam4-p",
+      "rich-text#tam-p"
+    ]
+  },
+  // LINHAS TAMANHOS  - TAM 6 - p
+  "flex-layout.row#linha-imagem-p-tam6": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam6-p",
+      "rich-text#tam-p"
+    ]
+  },
+  // LINHAS TAMANHOS  - TAM 8 - p
+  "flex-layout.row#linha-imagem-p-tam8": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam8-p",
+      "rich-text#tam-p"
+    ]
+  },
+  // LINHAS TAMANHOS  - TAM 10 - p
+  "flex-layout.row#linha-imagem-p-tam10": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam10-p",
+      "rich-text#tam-p"
+    ]
+  },
+  // LINHAS TAMANHOS  - TAM 12 - p
+  "flex-layout.row#linha-imagem-p-tam12": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam12-p",
+      "rich-text#tam-p"
+    ]
+  },
+  // LINHA TAMANHOS TAM3 - M
+  "flex-layout.row#linha-imagem-m-tam3": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam3-m",
+      "rich-text#tam-m"
+    ]
+  },
+  // LINHA TAMANHOS TAM4 - M
+  "flex-layout.row#linha-imagem-m-tam4": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam4-m",
+      "rich-text#tam-m"
+    ]
+  },
+  // LINHA TAMANHOS TAM6 - M
+  "flex-layout.row#linha-imagem-m-tam6": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam6-m",
+      "rich-text#tam-m"
+    ]
+  },
+  // LINHA TAMANHOS TAM8 - M
+  "flex-layout.row#linha-imagem-m-tam8": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam8-m",
+      "rich-text#tam-m"
+    ]
+  },
+  // LINHA TAMANHOS TAM10 - M
+  "flex-layout.row#linha-imagem-m-tam10": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam10-m",
+      "rich-text#tam-m"
+    ]
+  },
+  // LINHA TAMANHOS TAM12 - M
+  "flex-layout.row#linha-imagem-m-tam12": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam12-m",
+      "rich-text#tam-m"
+    ]
+  },
+  // LINHA TAMANHOS TAM3 - G
+  "flex-layout.row#linha-imagem-g-tam3": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam3-g",
+      "rich-text#tam-g"
+    ]
+  },
+  // LINHA TAMANHOS TAM4 - G
+  "flex-layout.row#linha-imagem-g-tam4": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam4-g",
+      "rich-text#tam-g"
+    ]
+  },
+  // LINHA TAMANHOS TAM6 - G
+  "flex-layout.row#linha-imagem-g-tam6": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam6-g",
+      "rich-text#tam-g"
+    ]
+  },
+  // LINHA TAMANHOS TAM8 - G
+  "flex-layout.row#linha-imagem-g-tam8": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam8-g",
+      "rich-text#tam-g"
+    ]
+  },
+  // LINHA TAMANHOS TAM10 - G
+  "flex-layout.row#linha-imagem-g-tam10": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam10-g",
+      "rich-text#tam-g"
+    ]
+  },
+  // LINHA TAMANHOS TAM12 - G
+  "flex-layout.row#linha-imagem-g-tam12": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam12-g",
+      "rich-text#tam-g"
+    ]
+  },
+  // LINHA TAMANHOS TAM3 - GG
+  "flex-layout.row#linha-imagem-gg-tam3": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam3-gg",
+      "rich-text#tam-gg"
+    ]
+  },
+  // LINHA TAMANHOS TAM4 - GG
+  "flex-layout.row#linha-imagem-gg-tam4": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam4-gg",
+      "rich-text#tam-gg"
+    ]
+  },
+  // LINHA TAMANHOS TAM6 - GG
+  "flex-layout.row#linha-imagem-gg-tam6": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam6-gg",
+      "rich-text#tam-gg"
+    ]
+  },
+  // LINHA TAMANHOS TAM8 - GG
+  "flex-layout.row#linha-imagem-gg-tam8": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam8-gg",
+      "rich-text#tam-gg"
+    ]
+  },
+  // LINHA TAMANHOS TAM10 - GG
+  "flex-layout.row#linha-imagem-gg-tam10": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam10-gg",
+      "rich-text#tam-gg"
+    ]
+  },
+  // LINHA TAMANHOS TAM12 - GG
+  "flex-layout.row#linha-imagem-gg-tam12": {
+    "props": {
+      "blockClass": "linha-imagem-tamanhos",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-tam12-gg",
+      "rich-text#tam-gg"
+    ]
+  },
+  // imagem PRINCIPAL linha detalhes técnicos tam3
+  "image#imagem-detalhes-tecnicos-tam3": {
+    "props": {
+      "src": "assets/madu-box/tamanho-3/tam3.webp",
+      "alt": "Imagem tamanho 3",
+      "blockClass": "imagem-detalhes-tecnicos"
+    }
+  },
+  // imagem PRINCIPAL linha detalhes técnicos tam4
+  "image#imagem-detalhes-tecnicos-tam4": {
+    "props": {
+      "src": "assets/madu-box/tamanho-4/tamanho-4.webp",
+      "alt": "Imagem tamanho 4",
+      "blockClass": "imagem-detalhes-tecnicos"
+    }
+  },
+  // imagem PRINCIPAL linha detalhes técnicos tam6
+  "image#imagem-detalhes-tecnicos-tam6": {
+    "props": {
+      "src": "assets/madu-box/tamanho-6/tamanho-6.webp",
+      "alt": "Imagem tamanho 6",
+      "blockClass": "imagem-detalhes-tecnicos"
+    }
+  },
+  // imagem PRINCIPAL linha detalhes técnicos tam8
+  "image#imagem-detalhes-tecnicos-tam8": {
+    "props": {
+      "src": "assets/madu-box/tamanho-8/tamanho-8.webp",
+      "alt": "Imagem tamanho 8",
+      "blockClass": "imagem-detalhes-tecnicos"
+    }
+  },
+  // imagem PRINCIPAL linha detalhes técnicos tam10
+  "image#imagem-detalhes-tecnicos-tam10": {
+    "props": {
+      "src": "assets/madu-box/tamanho-10/tamanho-10.webp",
+      "alt": "Imagem tamanho 10",
+      "blockClass": "imagem-detalhes-tecnicos"
+    }
+  },
+  // imagem PRINCIPAL linha detalhes técnicos tam12
+  "image#imagem-detalhes-tecnicos-tam12": {
+    "props": {
+      "src": "assets/madu-box/tamanho-12/tamanho-12.webp",
+      "alt": "Imagem tamanho 12",
+      "blockClass": "imagem-detalhes-tecnicos"
+    }
+  },
+  // IMAGENS MENORES TAMANHOS
+  // TAM3 - P
+  "image#imagem-tam3-p": {
+    "props": {
+      "src": "assets/madu-box/tamanho-3/tamanho-3-p.webp",
+      "alt": "Imagem tamanho 3 P",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM4 - P
+  "image#imagem-tam4-p": {
+    "props": {
+      "src": "assets/madu-box/tamanho-4/tamanho-4-p.webp",
+      "alt": "Imagem tamanho 4 P",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM6 - P
+  "image#imagem-tam6-p": {
+    "props": {
+      "src": "assets/madu-box/tamanho-6/tamanho-6-p.webp",
+      "alt": "Imagem tamanho 6 P",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM8 - P
+  "image#imagem-tam8-p": {
+    "props": {
+      "src": "assets/madu-box/tamanho-8/tamanho-8-p.webp",
+      "alt": "Imagem tamanho 8 P",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM10 - P
+  "image#imagem-tam10-p": {
+    "props": {
+      "src": "assets/madu-box/tamanho-10/tamanho-10-p.webp",
+      "alt": "Imagem tamanho 10 P",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM12 - P
+  "image#imagem-tam12-p": {
+    "props": {
+      "src": "assets/madu-box/tamanho-12/tamanho-12-p.webp",
+      "alt": "Imagem tamanho 12 P",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM3 - M
+  "image#imagem-tam3-m": {
+    "props": {
+      "src": "assets/madu-box/tamanho-3/tamanho-3-m.webp",
+      "alt": "Imagem tamanho 3 m",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM4 - M
+  "image#imagem-tam4-m": {
+    "props": {
+      "src": "assets/madu-box/tamanho-4/tamanho-4-m.webp",
+      "alt": "Imagem tamanho 4 m",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM6 - M
+  "image#imagem-tam6-m": {
+    "props": {
+      "src": "assets/madu-box/tamanho-6/tamanho-6-m.webp",
+      "alt": "Imagem tamanho 6 m",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM8 - M
+  "image#imagem-tam8-m": {
+    "props": {
+      "src": "assets/madu-box/tamanho-8/tamanho-8-m.webp",
+      "alt": "Imagem tamanho 8 m",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM10 - M
+  "image#imagem-tam10-m": {
+    "props": {
+      "src": "assets/madu-box/tamanho-10/tamanho-10-m.webp",
+      "alt": "Imagem tamanho 10 m",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM12 - M
+  "image#imagem-tam12-m": {
+    "props": {
+      "src": "assets/madu-box/tamanho-12/tamanho-12-m.webp",
+      "alt": "Imagem tamanho 12 m",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM3 - G
+  "image#imagem-tam3-g": {
+    "props": {
+      "src": "assets/madu-box/tamanho-3/tamanho-3-g.webp",
+      "alt": "Imagem tamanho 3 g",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM4 - G
+  "image#imagem-tam4-g": {
+    "props": {
+      "src": "assets/madu-box/tamanho-4/tamanho-4-g.webp",
+      "alt": "Imagem tamanho 4 g",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM6 - G
+  "image#imagem-tam6-g": {
+    "props": {
+      "src": "assets/madu-box/tamanho-6/tamanho-6-g.webp",
+      "alt": "Imagem tamanho 6 g",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM8 - G
+  "image#imagem-tam8-g": {
+    "props": {
+      "src": "assets/madu-box/tamanho-8/tamanho-8-g.webp",
+      "alt": "Imagem tamanho 8 g",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM10 - G
+  "image#imagem-tam10-g": {
+    "props": {
+      "src": "assets/madu-box/tamanho-10/tamanho-10-g.webp",
+      "alt": "Imagem tamanho 10 g",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM12 - G
+  "image#imagem-tam12-g": {
+    "props": {
+      "src": "assets/madu-box/tamanho-12/tamanho-12-g.webp",
+      "alt": "Imagem tamanho 12 g",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM3 - GG
+  "image#imagem-tam3-gg": {
+    "props": {
+      "src": "assets/madu-box/tamanho-3/tamanho-3-gg.webp",
+      "alt": "Imagem tamanho 3 gg",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM4 - GG
+  "image#imagem-tam4-gg": {
+    "props": {
+      "src": "assets/madu-box/tamanho-4/tamanho-4-gg.webp",
+      "alt": "Imagem tamanho 4 gg",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM6 - GG
+  "image#imagem-tam6-gg": {
+    "props": {
+      "src": "assets/madu-box/tamanho-6/tamanho-6-gg.webp",
+      "alt": "Imagem tamanho 6 gg",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM8 - GG
+  "image#imagem-tam8-gg": {
+    "props": {
+      "src": "assets/madu-box/tamanho-8/tamanho-8-gg.webp",
+      "alt": "Imagem tamanho 8 gg",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM10 - GG
+  "image#imagem-tam10-gg": {
+    "props": {
+      "src": "assets/madu-box/tamanho-10/tamanho-10-gg.webp",
+      "alt": "Imagem tamanho 10 gg",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // TAM12 - GG
+  "image#imagem-tam12-gg": {
+    "props": {
+      "src": "assets/madu-box/tamanho-12/tamanho-12-gg.webp",
+      "alt": "Imagem tamanho 12 gg",
+      "blockClass": "imagem-tamanhos"
+    }
+  },
+  // textos tamanhos
+  // TEXTO P
+  "rich-text#tam-p": {
+    "props": {
+      "blockClass": "textos-tamanhos",
+      "text": "**P:**\n6,3 Litros\n(L)24,3cm X (A)11,5cm (P)22,5cm"
+    }
+  },
+  // TEXTO M
+  "rich-text#tam-m": {
+    "props": {
+      "blockClass": "textos-tamanhos",
+      "text": "**M:**\n8,2 Litros\n(L)24,3cm X (A)15cm X (P)22,5cm"
+    }
+  },
+  // TEXTO G
+  "rich-text#tam-g": {
+    "props": {
+      "blockClass": "textos-tamanhos",
+      "text": "**G:**\n10,1 Litros\n(L)24,3cm X (A)18,5cm X (P)22,5cm"
+    }
+  },
+  // TEXTO GG
+  "rich-text#tam-gg": {
+    "props": {
+      "blockClass": "textos-tamanhos",
+      "text": "**GG:**\n12 Litros\n(L)24,3cm X (A)22cm (P)22,5cm"
+    }
+  },
+  // SESSÃO disclosure
+  "disclosure-layout-group#group": {
+    "props": {
+      "blockClass": "grupo-detalhes-tecnicos",
+      "maxVisible": "one"
+    },
+    "children": [
+      "disclosure-layout#tam3",
+      "disclosure-layout#tam4",
+      "disclosure-layout#tam6",
+      "disclosure-layout#tam8",
+      "disclosure-layout#tam10",
+      "disclosure-layout#tam12"
+    ]
+  },
+  // DISCLOSURE LAYOUTS
+  "disclosure-layout#tam3": {
+    "props": {
+      "initialVisibility": "visible",
+      "blockClass": [
+        "disclosure-class",
+        "disclosure-tam3"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#tam3",
+      "disclosure-content#tam3"
+    ]
+  },
+  "disclosure-layout#tam4": {
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": [
+        "disclosure-class",
+        "disclosure-tam4"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#tam4",
+      "disclosure-content#tam4"
+    ]
+  },
+  "disclosure-layout#tam6": {
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": [
+        "disclosure-class",
+        "disclosure-tam6"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#tam6",
+      "disclosure-content#tam6"
+    ]
+  },
+  "disclosure-layout#tam8": {
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": [
+        "disclosure-class",
+        "disclosure-tam8"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#tam8",
+      "disclosure-content#tam8"
+    ]
+  },
+  "disclosure-layout#tam10": {
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": [
+        "disclosure-class",
+        "disclosure-tam10"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#tam10",
+      "disclosure-content#tam10"
+    ]
+  },
+  "disclosure-layout#tam12": {
+    "props": {
+      "initialVisibility": "hidden",
+      "blockClass": [
+        "disclosure-class",
+        "disclosure-tam12"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#tam12",
+      "disclosure-content#tam12"
+    ]
+  },
+  // ÍCONE DO DISCLOSURE
+  "disclosure-state-indicator#detalhes-tec": {
+    "props": {
+      "Show": "icon-caret#down-detalhes-tec",
+      "Hide": "icon-caret#up-detalhes-tec"
+    }
+  },
+  "icon-caret#down-detalhes-tec": {
+    "props": {
+      "blockClass": "baixo",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-detalhes-tec": {
+    "props": {
+      "blockClass": "cima-detalhes-tec",
+      "orientation": "up"
+    }
+  },
+  // DISCLOSURE TRIGGER
+  "disclosure-trigger#tam3": {
+    "props": {
+      "blockClass": [
+        "trigger-class",
+        "trigger-tam3"
+      ]
+    },
+    "children": [
+      "flex-layout.row#titulo-status-dropdown-tam3",
+      "flex-layout.row#subtitulo-dropdown-tam3"
+    ]
+  },
+  "disclosure-trigger#tam4": {
+    "props": {
+      "blockClass": [
+        "trigger-class",
+        "trigger-tam4"
+      ]
+    },
+    "children": [
+      "flex-layout.row#titulo-status-dropdown-tam4",
+      "flex-layout.row#subtitulo-dropdown-tam4"
+    ]
+  },
+  "disclosure-trigger#tam6": {
+    "props": {
+      "blockClass": [
+        "trigger-class",
+        "trigger-tam6"
+      ]
+    },
+    "children": [
+      "flex-layout.row#titulo-status-dropdown-tam6",
+      "flex-layout.row#subtitulo-dropdown-tam6"
+    ]
+  },
+  "disclosure-trigger#tam8": {
+    "props": {
+      "blockClass": [
+        "trigger-class",
+        "trigger-tam8"
+      ]
+    },
+    "children": [
+      "flex-layout.row#titulo-status-dropdown-tam8",
+      "flex-layout.row#subtitulo-dropdown-tam8"
+    ]
+  },
+  "disclosure-trigger#tam10": {
+    "props": {
+      "blockClass": [
+        "trigger-class",
+        "trigger-tam10"
+      ]
+    },
+    "children": [
+      "flex-layout.row#titulo-status-dropdown-tam10",
+      "flex-layout.row#subtitulo-dropdown-tam10"
+    ]
+  },
+  "disclosure-trigger#tam12": {
+    "props": {
+      "blockClass": [
+        "trigger-tam12",
+        "trigger-class-12"
+      ]
+    },
+    "children": [
+      "flex-layout.row#titulo-status-dropdown-tam12",
+      "flex-layout.row#subtitulo-dropdown-tam12"
+    ]
+  },
+  // DISCLOSURE CONTENT
+  "disclosure-content#tam3": {
+    "props": {
+      "blockClass": [
+        "content-class",
+        "content-tam3"
+      ]
+    },
+    "children": [
+      "rich-text#content-tam3",
+      "responsive-layout.mobile#mobile-disclosure-tam3"
+    ]
+  },
+  // CHAMADA MOBILE DISCLOSUTE TAM3
+  "responsive-layout.mobile#mobile-disclosure-tam3": {
+    "children": [
+      "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam3"
+    ]
+  },
+  "disclosure-content#tam4": {
+    "props": {
+      "blockClass": [
+        "content-class",
+        "content-tam4"
+      ]
+    },
+    "children": [
+      "rich-text#content-tam4",
+      "responsive-layout.mobile#mobile-disclosure-tam4"
+    ]
+  },
+  // CHAMADA MOBILE DISCLOSUTE TAM4
+  "responsive-layout.mobile#mobile-disclosure-tam4": {
+    "children": [
+      "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam4"
+    ]
+  },
+  "disclosure-content#tam6": {
+    "props": {
+      "blockClass": [
+        "content-class",
+        "content-tam6"
+      ]
+    },
+    "children": [
+      "rich-text#content-tam6",
+      "responsive-layout.mobile#mobile-disclosure-tam6"
+    ]
+  },
+  // CHAMADA MOBILE DISCLOSUTE TAM6
+  "responsive-layout.mobile#mobile-disclosure-tam6": {
+    "children": [
+      "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam6"
+    ]
+  },
+  "disclosure-content#tam8": {
+    "props": {
+      "blockClass": [
+        "content-class",
+        "content-tam8"
+      ]
+    },
+    "children": [
+      "rich-text#content-tam8",
+      "responsive-layout.mobile#mobile-disclosure-tam8"
+    ]
+  },
+  // CHAMADA MOBILE DISCLOSUrE TAM8
+  "responsive-layout.mobile#mobile-disclosure-tam8": {
+    "children": [
+      "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam8"
+    ]
+  },
+  "disclosure-content#tam10": {
+    "props": {
+      "blockClass": [
+        "content-class",
+        "content-tam10"
+      ]
+    },
+    "children": [
+      "rich-text#content-tam10",
+      "responsive-layout.mobile#mobile-disclosure-tam10"
+    ]
+  },
+  // CHAMADA MOBILE DISCLOSUrE TAM10
+  "responsive-layout.mobile#mobile-disclosure-tam10": {
+    "children": [
+      "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam10"
+    ]
+  },
+  "disclosure-content#tam12": {
+    "props": {
+      "blockClass": [
+        "content-tam12",
+        "content-class-12"
+      ]
+    },
+    "children": [
+      "rich-text#content-tam12",
+      "responsive-layout.mobile#mobile-disclosure-tam12"
+    ]
+  },
+  // CHAMADA MOBILE DISCLOSUrE TAM12
+  "responsive-layout.mobile#mobile-disclosure-tam12": {
+    "children": [
+      "flex-layout.col#detalhes-tecnicos-mobile-coluna-direita-tam12"
+    ]
+  },
+  // LABEL DISCLOSURE
+  "flex-layout.row#titulo-status-dropdown-tam3": {
+    "props": {
+      "blockClass": "linha-titulo-status-dropdown",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#label-tam3",
+      "disclosure-state-indicator#detalhes-tec"
+    ]
+  },
+  "rich-text#label-tam3": {
+    "props": {
+      "text": "Tamanho **3**",
+      "blockClass": "label-text"
+    }
+  },
+  "flex-layout.row#titulo-status-dropdown-tam4": {
+    "props": {
+      "blockClass": "linha-titulo-status-dropdown",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#label-tam4",
+      "disclosure-state-indicator#detalhes-tec"
+    ]
+  },
+  "rich-text#label-tam4": {
+    "props": {
+      "text": "Tamanho **4**",
+      "blockClass": "label-text"
+    }
+  },
+  "flex-layout.row#titulo-status-dropdown-tam6": {
+    "props": {
+      "blockClass": "linha-titulo-status-dropdown",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#label-tam6",
+      "disclosure-state-indicator#detalhes-tec"
+    ]
+  },
+  "rich-text#label-tam6": {
+    "props": {
+      "text": "Tamanho **6**",
+      "blockClass": "label-text"
+    }
+  },
+  "flex-layout.row#titulo-status-dropdown-tam8": {
+    "props": {
+      "blockClass": "linha-titulo-status-dropdown",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#label-tam8",
+      "disclosure-state-indicator#detalhes-tec"
+    ]
+  },
+  "rich-text#label-tam8": {
+    "props": {
+      "text": "Tamanho **8**",
+      "blockClass": "label-text"
+    }
+  },
+  "flex-layout.row#titulo-status-dropdown-tam10": {
+    "props": {
+      "blockClass": "linha-titulo-status-dropdown",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#label-tam10",
+      "disclosure-state-indicator#detalhes-tec"
+    ]
+  },
+  "rich-text#label-tam10": {
+    "props": {
+      "text": "Tamanho **10**",
+      "blockClass": "label-text"
+    }
+  },
+  "flex-layout.row#titulo-status-dropdown-tam12": {
+    "props": {
+      "blockClass": "linha-titulo-status-dropdown",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#label-tam12",
+      "disclosure-state-indicator#detalhes-tec"
+    ]
+  },
+  "rich-text#label-tam12": {
+    "props": {
+      "text": "Tamanho **12**",
+      "blockClass": "label-text"
+    }
+  },
+  // linha subtitulo tam3
+  "flex-layout.row#subtitulo-dropdown-tam3": {
+    "props": {
+      "blockClass": "linha-subt-dropdown",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#icone-maleta-dropdown",
+      "rich-text#maleta-dropdown"
+    ]
+  },
+  // linha subtitulo tam4
+  "flex-layout.row#subtitulo-dropdown-tam4": {
+    "props": {
+      "blockClass": "linha-subt-dropdown",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#icone-maleta-dropdown",
+      "rich-text#maleta-dropdown"
+    ]
+  },
+  // linha subtitulo tam6
+  "flex-layout.row#subtitulo-dropdown-tam6": {
+    "props": {
+      "blockClass": "linha-subt-dropdown",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#icone-maleta-dropdown",
+      "rich-text#caixa-dropdown"
+    ]
+  },
+  // linha subtitulo tam8
+  "flex-layout.row#subtitulo-dropdown-tam8": {
+    "props": {
+      "blockClass": "linha-subt-dropdown",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#icone-maleta-dropdown",
+      "rich-text#caixa-dropdown"
+    ]
+  },
+  // linha subtitulo tam10
+  "flex-layout.row#subtitulo-dropdown-tam10": {
+    "props": {
+      "blockClass": "linha-subt-dropdown",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#icone-maleta-dropdown",
+      "rich-text#caixa-dropdown"
+    ]
+  },
+  // linha subtitulo tam12
+  "flex-layout.row#subtitulo-dropdown-tam12": {
+    "props": {
+      "blockClass": "linha-subt-dropdown",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#icone-maleta-dropdown",
+      "rich-text#caixa-dropdown"
+    ]
+  },
+  // ICONE MALETA
+  "image#icone-maleta-dropdown": {
+    "props": {
+      "blockClass": "icone-maleta",
+      "src": "assets/icons/icon-maletas.webp"
+    }
+  },
+  // TEXTO MALETA
+  "rich-text#maleta-dropdown": {
+    "props": {
+      "blockClass": "subtitulo-dropdow",
+      "text": "maletas"
+    }
+  },
+  "rich-text#caixa-dropdown": {
+    "props": {
+      "blockClass": "subtitulo-dropdow",
+      "text": "caixas"
+    }
+  },
+  // TEXTO CONTENT DISCLOSURE
+  "rich-text#content-tam3": {
+    "props": {
+      "text": "Formato quadrado, compacto e prático, ideal para guardar pequenos itens com leveza e estilo, possui alça para transporte.",
+      "blockClass": "content-text"
+    }
+  },
+  "rich-text#content-tam4": {
+    "props": {
+      "text": "Modelo retangular com alça e dois fechos frontais. Perfeito para transportar seus objetos com praticidade e segurança.",
+      "blockClass": "content-text"
+    }
+  },
+  "rich-text#content-tam6": {
+    "props": {
+      "text": "Versátil e espaçosa, com alça de transporte e dois fechos frontais. Ideal para organizar e levar o que precisar.",
+      "blockClass": "content-text"
+    }
+  },
+  "rich-text#content-tam8": {
+    "props": {
+      "text": "Formato maior e sem alça, perfeita para organizar materiais e acessórios em casa ou no trabalho.",
+      "blockClass": "content-text"
+    }
+  },
+  "rich-text#content-tam10": {
+    "props": {
+      "text": "Ampla e resistente, com tampa transparente que facilita a visualização do conteúdo. Ideal para manter tudo em ordem.",
+      "blockClass": "content-text"
+    }
+  },
+  "rich-text#content-tam12": {
+    "props": {
+      "text": "O maior modelo da linha — máxima capacidade para guardar e organizar objetos de todos os tipos com praticidade e estilo.",
+      "blockClass": "content-text"
+    }
+  },
+  // FINAL BLOCO DETALHES
+  // MOBILE
+  "responsive-layout.mobile#cores-madubox": {
+    "children": [
+      "flex-layout.row#textos-cores",
+      "flex-layout.row#mobile-cores-madubox",
+      "flex-layout.row#informativo-cores"
+    ]
+  },
+  "flex-layout.row#textos-cores": {
+    "children": [
+      "flex-layout.col#textos-cores"
+    ]
+  },
+  "flex-layout.row#mobile-cores-madubox": {
+    "props": {
+      "blockClass": "mobile-cores-madubox"
+    },
+    "children": [
+      // linha 1
+      "flex-layout.row#mobile-preto-cores-madubox",
+      "flex-layout.row#mobile-cinza-cores-madubox",
+      "flex-layout.row#mobile-verde-cores-madubox",
+      // linha 2
+      "flex-layout.row#mobile-amarelo-cores-madubox",
+      "flex-layout.row#mobile-laranja-cores-madubox",
+      "flex-layout.row#mobile-vermelho-cores-madubox",
+      //  linha 3
+      "flex-layout.row#mobile-pink-cores-madubox",
+      "flex-layout.row#mobile-azul-cores-madubox",
+      "flex-layout.row#mobile-azul-marinho-cores-madubox"
+    ]
+  },
+  // LINHAS MOBILE
+  "flex-layout.row#mobile-preto-cores-madubox": {
+    "props": {
+      "blockClass": [
+        "cores-mobile",
+        "mobile-preto-fundo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-preto"
+    ]
+  },
+  "flex-layout.row#mobile-cinza-cores-madubox": {
+    "props": {
+      "blockClass": [
+        "cores-mobile",
+        "mobile-cinza-fundo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-cinza"
+    ]
+  },
+  "flex-layout.row#mobile-verde-cores-madubox": {
+    "props": {
+      "blockClass": [
+        "cores-mobile",
+        "mobile-verde-fundo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-verde"
+    ]
+  },
+  "flex-layout.row#mobile-amarelo-cores-madubox": {
+    "props": {
+      "blockClass": [
+        "cores-mobile",
+        "mobile-amarelo-fundo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-amarelo"
+    ]
+  },
+  "flex-layout.row#mobile-laranja-cores-madubox": {
+    "props": {
+      "blockClass": [
+        "cores-mobile",
+        "mobile-laranja-fundo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-laranja"
+    ]
+  },
+  "flex-layout.row#mobile-vermelho-cores-madubox": {
+    "props": {
+      "blockClass": [
+        "cores-mobile",
+        "mobile-vermelho-fundo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-vermelho"
+    ]
+  },
+  "flex-layout.row#mobile-pink-cores-madubox": {
+    "props": {
+      "blockClass": [
+        "cores-mobile",
+        "mobile-pink-fundo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-pink"
+    ]
+  },
+  "flex-layout.row#mobile-azul-cores-madubox": {
+    "props": {
+      "blockClass": [
+        "cores-mobile",
+        "mobile-azul-fundo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-azul"
+    ]
+  },
+  "flex-layout.row#mobile-azul-marinho-cores-madubox": {
+    "props": {
+      "blockClass": [
+        "cores-mobile",
+        "mobile-azul-marinho-fundo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-azul-marinho"
+    ]
+  },
+  // BLOCO CORES QUE INSPIRAM desktop
+  "responsive-layout.desktop#cores-madubox": {
+    "children": [
+      "flex-layout.row#desktop-cores"
+    ]
+  },
+  "flex-layout.row#desktop-cores": {
+    "props": {
+      "blockClass": "content-cores",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#textos-cores",
+      "flex-layout.row#imagens-cores",
+      "flex-layout.row#informativo-cores"
+    ]
+  },
+  // BLOCO TEXTOS CORES QUE INSPIRAM
+  "flex-layout.col#textos-cores": {
+    "props": {
+      "blockClass": "linha-textos-cores",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-cores",
+      "rich-text#subtitulo-cores"
+    ]
+  },
+  "rich-text#titulo-cores": {
+    "props": {
+      "text": "Cores que organizam e inspiram",
+      "blockClass": "titulo-cores"
+    }
+  },
+  "rich-text#subtitulo-cores": {
+    "props": {
+      "text": "Mais do que organizar, a MaduBox ajuda a criar sistemas inteligentes de sinalização.",
+      "blockClass": "subtitulo-cores"
+    }
+  },
+  // BLOCO IMAGENS CORES QUE INSPIRAM
+  "flex-layout.row#imagens-cores": {
+    "props": {
+      "blockClass": "linha-imagens-cores",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#colunas-preto",
+      "flex-layout.col#colunas-cinza",
+      "flex-layout.col#colunas-verde",
+      "flex-layout.col#colunas-amarelo",
+      "flex-layout.col#colunas-laranja",
+      "flex-layout.col#colunas-vermelho",
+      "flex-layout.col#colunas-pink",
+      "flex-layout.col#colunas-azul",
+      "flex-layout.col#colunas-azul-marinho"
+    ]
+  },
+  // COLUNAS DAS CORES
+  "flex-layout.col#colunas-preto": {
+    "props": {
+      "blockClass": [
+        "colunas-imagens-cores",
+        "coluna-preto"
+      ]
+    },
+    "children": [
+      "rich-text#cores-preto"
+    ]
+  },
+  "flex-layout.col#colunas-cinza": {
+    "props": {
+      "blockClass": [
+        "colunas-imagens-cores",
+        "coluna-cinza"
+      ]
+    },
+    "children": [
+      "rich-text#cores-cinza"
+    ]
+  },
+  "flex-layout.col#colunas-verde": {
+    "props": {
+      "blockClass": [
+        "colunas-imagens-cores",
+        "coluna-verde"
+      ]
+    },
+    "children": [
+      "rich-text#cores-verde"
+    ]
+  },
+  "flex-layout.col#colunas-amarelo": {
+    "props": {
+      "blockClass": [
+        "colunas-imagens-cores",
+        "coluna-amarelo"
+      ]
+    },
+    "children": [
+      "rich-text#cores-amarelo"
+    ]
+  },
+  "flex-layout.col#colunas-laranja": {
+    "props": {
+      "blockClass": [
+        "colunas-imagens-cores",
+        "coluna-laranja"
+      ]
+    },
+    "children": [
+      "rich-text#cores-laranja"
+    ]
+  },
+  "flex-layout.col#colunas-vermelho": {
+    "props": {
+      "blockClass": [
+        "colunas-imagens-cores",
+        "coluna-vermelho"
+      ]
+    },
+    "children": [
+      "rich-text#cores-vermelho"
+    ]
+  },
+  "flex-layout.col#colunas-pink": {
+    "props": {
+      "blockClass": [
+        "colunas-imagens-cores",
+        "coluna-pink"
+      ]
+    },
+    "children": [
+      "rich-text#cores-pink"
+    ]
+  },
+  "flex-layout.col#colunas-azul": {
+    "props": {
+      "blockClass": [
+        "colunas-imagens-cores",
+        "coluna-azul"
+      ]
+    },
+    "children": [
+      "rich-text#cores-azul"
+    ]
+  },
+  "flex-layout.col#colunas-azul-marinho": {
+    "props": {
+      "blockClass": [
+        "colunas-imagens-cores",
+        "coluna-azul-marinho"
+      ]
+    },
+    "children": [
+      "rich-text#cores-azul-marinho"
+    ]
+  },
+  // TEXTOS DAS CORES
+  "rich-text#cores-preto": {
+    "props": {
+      "text": "preto",
+      "blockClass": "label-cores"
+    }
+  },
+  "rich-text#cores-cinza": {
+    "props": {
+      "text": "cinza",
+      "blockClass": "label-cores"
+    }
+  },
+  "rich-text#cores-verde": {
+    "props": {
+      "text": "verde",
+      "blockClass": "label-cores"
+    }
+  },
+  "rich-text#cores-amarelo": {
+    "props": {
+      "text": "amarelo",
+      "blockClass": "label-cores"
+    }
+  },
+  "rich-text#cores-laranja": {
+    "props": {
+      "text": "laranja",
+      "blockClass": "label-cores"
+    }
+  },
+  "rich-text#cores-vermelho": {
+    "props": {
+      "text": "vermelho",
+      "blockClass": "label-cores"
+    }
+  },
+  "rich-text#cores-pink": {
+    "props": {
+      "text": "pink",
+      "blockClass": "label-cores"
+    }
+  },
+  "rich-text#cores-azul": {
+    "props": {
+      "text": "azul",
+      "blockClass": "label-cores"
+    }
+  },
+  "rich-text#cores-azul-marinho": {
+    "props": {
+      "text": "azul marinho",
+      "blockClass": "label-cores"
+    }
+  },
+  // INFORMATIVO CORES
+  "flex-layout.row#informativo-cores": {
+    "props": {
+      "blockClass": "informativo-cores",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#icone-lampada",
+      "rich-text#informativo-texto"
+    ]
+  },
+  "image#icone-lampada": {
+    "props": {
+      "blockClass": "icone-lampada",
+      "src": "assets/madu-box/cores/lampada.webp"
+    }
+  },
+  "rich-text#informativo-texto": {
+    "props": {
+      "blockClass": "informativo-texto",
+      "text": "Escolha suas cores favoritas para identificar categorias, separar materiais ou simplesmente deixar seu espaço mais bonito. Afinal, organização também pode ser divertida e cheia de estilo!"
+    }
+  },
+  // BLOCO COMBINAM E SE COMBIANAM
+  "flex-layout.row#desktop-combinam-combinam": {
+    "props": {
+      "blockClass": "conteiner-combinam-madubox",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#linha-textos-combinam",
+      "responsive-layout.mobile#imagens-combinam",
+      "responsive-layout.desktop#imagens-combinam"
+    ]
+  },
+  // LINHA COM OS TEXTOS - COMBIANM E SE COMBINAM
+  "flex-layout.row#linha-textos-combinam": {
+    "props": {
+      "blockClass": "linha-textos-combinam",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-combinam-e-combinam",
+      "rich-text#subtitulo-combinam-e-combinam"
+    ]
+  },
+  // LINHA COM AS COLUNAS - COMBIAM E SE COMBINAM MOBILE
+  "responsive-layout.mobile#imagens-combinam": {
+    "children": [
+      "list-context.image-list#combinam-mobile-madubox"
+    ]
+  },
+  "list-context.image-list#combinam-mobile-madubox": {
+    "children": [
+      "slider-layout#madubox"
+    ],
+    "props": {
+      "height": 333,
+      "images": [
+        {
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/carrinho-kart-mobile.webp"
+        },
+        {
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/expand-mobile.webp"
+        },
+        {
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/express-mobile.webp"
+        },
+        {
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/extra-mobile.webp"
+        },
+        {
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/set-mobile.webp"
+        }
+      ]
+    }
+  },
+  "slider-layout#madubox": {
+    "props": {
+      "title": "Slider MADUBOX Mobile",
+      "blockClass": "slider-madubox-mobile",
+      "itemsPerPage": {
+        "phone": 3
+      },
+      "arrowSize": 50,
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
+    }
+  },
+  // LINHA COM AS COLUNAS - COMBIAM E SE COMBINAM DESKTOP
+  "responsive-layout.desktop#imagens-combinam": {
+    "children": [
+      "flex-layout.row#linha-imagens-combinam"
+    ]
+  },
+  "flex-layout.row#linha-imagens-combinam": {
+    "props": {
+      "blockClass": "linha-imagens-combinam",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#madubox-prat-exppress",
+      "flex-layout.col#madubox-linha-madu-set",
+      "flex-layout.col#madubox-carrinhos-expand",
+      "flex-layout.col#madubox-carrinhos-extra",
+      "flex-layout.col#madubox-carrinhos-kart"
+    ]
+  },
+  // TEXTOS COMBINAM E SE COMBINAM
+  "rich-text#titulo-combinam-e-combinam": {
+    "props": {
+      "blockClass": "titulo-combinam",
+      "text": "combinam e se combinam"
+    }
+  },
+  "rich-text#subtitulo-combinam-e-combinam": {
+    "props": {
+      "blockClass": "subtitulo-combinam",
+      "text": "A linha MaduBox foi pensada para dialogar com toda a linha de organização da marca. Elas combinam (e se combinam) com:"
+    }
+  },
+  // COLUNAS COMBINAM
+  "flex-layout.col#madubox-prat-exppress": {
+    "props": {
+      "blockClass": [
+        "coluna-combinam",
+        "col-combinan-express"
+      ]
+    },
+    "children": [
+      "rich-text#label-express"
+    ]
+  },
+  "flex-layout.col#madubox-linha-madu-set": {
+    "props": {
+      "blockClass": [
+        "coluna-combinam",
+        "col-combinan-set"
+      ]
+    },
+    "children": [
+      "rich-text#label-set"
+    ]
+  },
+  "flex-layout.col#madubox-carrinhos-expand": {
+    "props": {
+      "blockClass": [
+        "coluna-combinam",
+        "col-combinan-expand"
+      ]
+    },
+    "children": [
+      "rich-text#label-expand"
+    ]
+  },
+  "flex-layout.col#madubox-carrinhos-extra": {
+    "props": {
+      "blockClass": [
+        "coluna-combinam",
+        "col-combinan-extra"
+      ]
+    },
+    "children": [
+      "rich-text#label-extra"
+    ]
+  },
+  "flex-layout.col#madubox-carrinhos-kart": {
+    "props": {
+      "blockClass": [
+        "coluna-combinam",
+        "col-combinan-kart"
+      ]
+    },
+    "children": [
+      "rich-text#label-kart"
+    ]
+  },
+  // TEXTOS LABEL DAS IMAGENS
+  "rich-text#label-express": {
+    "props": {
+      "blockClass": "label-combinam-se",
+      "text": "Prateleiras\n Express"
+    }
+  },
+  "rich-text#label-set": {
+    "props": {
+      "blockClass": "label-combinam-se",
+      "text": "Linha\n MadU SET"
+    }
+  },
+  "rich-text#label-expand": {
+    "props": {
+      "blockClass": "label-combinam-se",
+      "text": "Carrinhos\n Expand"
+    }
+  },
+  "rich-text#label-extra": {
+    "props": {
+      "blockClass": "label-combinam-se",
+      "text": "Carrinhos\n Extra"
+    }
+  },
+  "rich-text#label-kart": {
+    "props": {
+      "blockClass": "label-combinam-se",
+      "text": "Carrinho\n kart"
+    }
+  },
+  // LINHA SLIDER MADU BOX
+  "flex-layout.row#slider-madubox":{
+    "props": {
+      "blockClass": "slider-madubox",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#titulo-prateleira-madubox",
+      "flex-layout.row#shelf-madubox"
+    ]
+  },
+  // linha TITULO PRATELEIRA MADUBOX
+  "flex-layout.row#titulo-prateleira-madubox":{
+    "props": {
+      "blockClass": "titulo-prateleiras-madubox"
+    },
+    "children": [
+      "rich-text#titulo-prateleiras",
+      "rich-text#subtitulo-prateleiras"
+    ]
+  },
+  // TITULO PRATELIRA
+  "rich-text#titulo-prateleiras":{
+    "props": {
+      "blockClass": "texto-titulo-prateleira-madubox",
+      "text": "COMPRE A SUA MADU BOX"
+    }
+  },
+  // SUBTITULO PRATELEIRA
+  "rich-text#subtitulo-prateleiras":{
+    "props": {
+      "blockClass": "texto-subtitulo-prateleira-madubox",
+      "text": "Conheça nossos modelos abaixo:"
+    }
+  },
+  // linha prateleira madubox
+  "flex-layout.row#shelf-madubox":{
+    "props": {
+      "blockClass": "linha-prateleira-madubox"
+    },
+    "children": [
+      "list-context.product-list#prateleira-madubox"
+    ]
+  },
+  "list-context.product-list#prateleira-madubox":{
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-madubox"
+    ],
+    "props": {
+      "orderBy": "OrderByNameDESC",
+      "category": "29/49/51",
+      "blockClass": "list-prateleira-home-madu-extra"
+    }
+  },
+  "slider-layout#prateleira-madubox":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "prateleira-home-madu-extra"
+    }
+  },
+
+  // BANNER FINAL
+  "flex-layout.row#desktop-banner-final": {
+    "props": {
+      "blockClass": "banner-final-madu-box"
+    },
+    "children": [
+      "rich-text#texto-banner-final",
+      "link#fale-especialista"
+    ]
+  },
+  // TEXTO BANNER FINAL
+  "rich-text#texto-banner-final": {
+    "props": {
+      "blockClass": "texto-banner-final-madubox",
+      "text": "adquira a sua\nMadu Box\n agora mesmo. "
+    }
+  },
+  // LINK FALE COM
+  "link#fale-especialista": {
+    "props": {
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20MAD.U!",
+      "label": "Falar com consultora",
+      "blockClass": "link-banner-final-madubox"
+    }
+  }
+}

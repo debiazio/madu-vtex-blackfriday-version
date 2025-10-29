@@ -1,0 +1,349 @@
+{
+  // SHOP BY CATEGORIES
+  "flex-layout.row#shop-by-category": {
+    "props": {
+      "blockClass": "linha-compre-por-categorias",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#linha-titulo-categoria",
+      "flex-layout.row#linha-colunas-categorias"
+
+    ]
+  },
+  "flex-layout.row#linha-titulo-categoria": {
+    "props": {
+      "blockClass": "linha-titulo-categoria"
+    },
+    "children": [
+      "rich-text#titulo-shop-by-categories"
+    ]
+  },
+"flex-layout.row#linha-colunas-categorias":{
+  "props": {
+    "blockClass": "linha-colunas-categoria"
+  },
+  "children": [
+      "flex-layout.col#shopby-carrinhos",
+      "flex-layout.col#shopby-armarios",
+      "flex-layout.col#shopby-estantes",
+      "flex-layout.col#shopby-organizadores",
+      "flex-layout.col#shopby-lancamentos"
+  ]
+},
+// TITULO DA SESSAO
+  "rich-text#titulo-shop-by-categories": {
+    "props": {
+    "blockClass": "mais-vendidos-text",
+      "text": "SHOP BY **CATEGORIAS**"
+    }
+  },
+  // colunas do shop by
+  "flex-layout.col#shopby-carrinhos": {
+    "props": {
+      "blockClass": "coluna-shopby",
+      "colSizing": "auto"
+    },
+    "children": [
+      "list-context.image-list#home-shopByCategorias-carrinhos",
+      "rich-text#titulo-categoria-carrinhos",
+      "rich-text#subtitulo-categoria-carrinhos",
+      "link#ver-produtos-shopby-carrinhos"
+    ]
+  },
+  "flex-layout.col#shopby-armarios": {
+    "props": {
+      "blockClass": "coluna-shopby",
+      "colSizing": "auto"
+    },
+    "children": [
+      "list-context.image-list#home-shopByCategorias-armarios",
+      "rich-text#titulo-categoria-armarios",
+      "rich-text#subtitulo-categoria-armarios",
+      "link#ver-produtos-shopby-armarios"
+    ]
+  },
+  "flex-layout.col#shopby-estantes": {
+    "props": {
+      "blockClass": "coluna-shopby",
+      "colSizing": "auto"
+    },
+    "children": [
+      "list-context.image-list#home-shopByCategorias-estantes",
+      "rich-text#titulo-categoria-estantes",
+      "rich-text#subtitulo-categoria-estantes",
+      "link#ver-produtos-shopby-estantes"
+    ]
+  },
+  "flex-layout.col#shopby-organizadores": {
+    "props": {
+      "blockClass": "coluna-shopby",
+      "colSizing": "auto"
+    },
+    "children": [
+      "list-context.image-list#home-shopByCategorias-organizadores",
+      "rich-text#titulo-categoria-organizadores",
+      "rich-text#subtitulo-categoria-organizadores",
+      "link#ver-produtos-shopby-organizadores"
+    ]
+  },
+  "flex-layout.col#shopby-lancamentos": {
+    "props": {
+      "blockClass": "coluna-shopby",
+      "colSizing": "auto"
+    },
+    "children": [
+      "list-context.image-list#home-shopByCategorias-lancamentos",
+      "rich-text#titulo-categoria-lancamentos",
+      "rich-text#subtitulo-categoria-lancamentos",
+      "link#ver-produtos-shopby-lancamentos"
+    ]
+  },
+  // SLIDERS
+  "list-context.image-list#home-shopByCategorias-carrinhos":{
+    "children": [
+      "slider-layout#shopByCategorias"
+    ],
+    "props": {
+      "preload": true,
+      // "height": 200,
+      "images": [
+        {
+          "mobileImage": "assets/carrinho2-shopby.webp",
+          "image": "assets/carrinho2-shopby.webp",
+          "description": "Categoria Carrinhos",
+          "width": "240px"
+        },
+        {
+          "mobileImage": "assets/carrinho3-shop-by.webp",
+          "image": "assets/carrinho3-shop-by.webp",
+          "description": "Categoria Carrinhos",
+          "width": "240px"
+        },
+        {
+          "mobileImage": "assets/carrinho1-shopby.webp",
+          "image": "assets/carrinho1-shopby.webp",
+          "description": "Categoria Carrinhos",
+          "width": "240px"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#home-shopByCategorias-armarios":{
+    "children": [
+      "slider-layout#shopByCategorias"
+    ],
+    "props": {
+      "preload": true,
+      // "height": 200,
+      "images": [
+        {
+          "mobileImage": "assets/armarios-1-shopby.webp",
+          "image": "assets/armarios-1-shopby.webp",
+          "description": "Categoria Armários",
+          "width": "240px"
+        },
+        {
+          "mobileImage": "assets/armarios2-shopby.webp",
+          "image": "assets/armarios2-shopby.webp",
+          "description": "Categoria Armários",
+          "width": "240px"
+        },
+        {
+          "mobileImage": "assets/armario3-shopby.webp",
+          "image": "assets/armario3-shopby.webp",
+          "description": "Categoria Armários",
+          "width": "240px"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#home-shopByCategorias-estantes":{
+    "children": [
+      "slider-layout#shopByCategorias"
+    ],
+    "props": {
+      "preload": true,
+      // "height": 200,
+      "images": [
+        {
+          "mobileImage": "assets/estantes1-shopby.webp",
+          "image": "assets/estantes1-shopby.webp",
+          "description": "Categoria Estantes",
+          "width": "240px"
+        },
+        {
+          "mobileImage": "assets/estantes2-shopby.webp",
+          "image": "assets/estantes2-shopby.webp",
+          "description": "Categoria Estantes",
+          "width": "240px"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#home-shopByCategorias-organizadores":{
+    "children": [
+      "slider-layout#shopByCategorias"
+    ],
+    "props": {
+      "preload": true,
+      // "height": 200,
+      "images": [
+        {
+          "mobileImage": "assets/bin1-shopby.webp",
+          "image": "assets/bin1-shopby.webp",
+          "description": "Categoria Organizadores",
+          "width": "240px"
+        },
+        {
+          "mobileImage": "assets/bin2-shopby.webp",
+          "image": "assets/bin2-shopby.webp",
+          "description": "Categoria Organizadores",
+          "width": "240px"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#home-shopByCategorias-lancamentos":{
+    "children": [
+      "slider-layout#shopByCategorias"
+    ],
+    "props": {
+      "preload": true,
+      // "height": 200,
+      "images": [
+        {
+          "mobileImage": "assets/lancamentos1-shopby.webp",
+          "image": "assets/lancamentos1-shopby.webp",
+          "description": "Categoria Lançamentos",
+          "width": "240px"
+        },
+        {
+          "mobileImage": "assets/lancamentos2-shopby.webp",
+          "image": "assets/lancamentos2-shopby.webp",
+          "description": "Categoria Lançamentos",
+          "width": "240px"
+        }
+      ]
+    }
+  },
+
+  // componente do slider
+  "slider-layout#shopByCategorias":{
+    "props": {
+      "title": "Slider shopByCategorias",
+      "blockClass": "slider-shopByCategorias",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 25,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
+    }
+  },
+  // titulo categorias
+  "rich-text#titulo-categoria-carrinhos": {
+    "props": {
+      "blockClass": "titulo-categorias-shopBy",
+      "text": "Carrinhos"
+    }
+  },
+  "rich-text#titulo-categoria-armarios": {
+    "props": {
+      "blockClass": "titulo-categorias-shopBy",
+      "text": "Armários"
+    }
+  },
+  "rich-text#titulo-categoria-estantes": {
+    "props": {
+      "blockClass": "titulo-categorias-shopBy",
+      "text": "Estantes"
+    }
+  },
+  "rich-text#titulo-categoria-organizadores": {
+    "props": {
+      "blockClass": "titulo-categorias-shopBy",
+      "text": "organizadores"
+    }
+  },
+  "rich-text#titulo-categoria-lancamentos": {
+    "props": {
+      "blockClass": "titulo-categorias-shopBy",
+      "text": "Lançamentos"
+    }
+  },
+  // SUBTITULOS CATEGORIAS SHOP BY
+  "rich-text#subtitulo-categoria-carrinhos":{
+    "props": {
+      "blockClass": "subtitulo-shopBy",
+      "text": "Carrinhos auxiliares projetados  para o dia a dia dos profissionais."
+    }
+  },
+  "rich-text#subtitulo-categoria-armarios":{
+    "props": {
+      "blockClass": "subtitulo-shopBy",
+      "text": "Grande capacidade de armazenamento, e design inteligente."
+    }
+  },
+  "rich-text#subtitulo-categoria-estantes":{
+    "props": {
+      "blockClass": "subtitulo-shopBy",
+      "text": "Estantes versáteis, desenvolvidas para as mais diversas finalidades."
+    }
+  },
+  "rich-text#subtitulo-categoria-organizadores":{
+    "props": {
+      "blockClass": "subtitulo-shopBy",
+      "text": "Caixas e organizadores para facilitar sua organização no seu dia a dia."
+    }
+  },
+  "rich-text#subtitulo-categoria-lancamentos":{
+    "props": {
+      "blockClass": "subtitulo-shopBy",
+      "text": "Conheça as recentes novidades e nossos últimos lançamentos."
+    }
+  },
+  // LINK VER PRODUTOS
+  "link#ver-produtos-shopby-carrinhos":{
+    "props": {
+      "href": "#",
+      "label": "Ver produtos",
+      "blockClass": "btn-shopby-verProdutos"
+    }
+  },
+  "link#ver-produtos-shopby-armarios":{
+    "props": {
+      "href": "#",
+      "label": "Ver produtos",
+      "blockClass": "btn-shopby-verProdutos"
+    }
+  },
+  "link#ver-produtos-shopby-estantes":{
+    "props": {
+      "href": "#",
+      "label": "Ver produtos",
+      "blockClass": "btn-shopby-verProdutos"
+    }
+  },
+  "link#ver-produtos-shopby-organizadores":{
+    "props": {
+      "href": "#",
+      "label": "Ver produtos",
+      "blockClass": "btn-shopby-verProdutos"
+    }
+  },
+  "link#ver-produtos-shopby-lancamentos":{
+    "props": {
+      "href": "#",
+      "label": "Ver produtos",
+      "blockClass": "btn-shopby-verProdutos"
+    }
+  }
+}

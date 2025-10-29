@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(assets/fonts/Montserrat-Regular.woff2),
+    url(assets/fonts/Montserrat-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url(assets/fonts/Montserrat-Bold.woff2),
+    url(assets/fonts/Montserrat-Bold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat Semibold";
+  src: url(assets/fonts/Montserrat-SemiBold.woff2),
+    url(assets/fonts/Montserrat-SemiBold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(assets/fonts/Rubik-Regular.woff2),
+    url(assets/fonts/Rubik-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik Medium";
+  src: url(assets/fonts/Rubik-Medium.woff2),
+    url(assets/fonts/Rubik-Medium.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik Bold";
+  src: url("assets/fonts/Rubik-Bold.woff2") format("woff2"),
+       url("assets/fonts/Rubik-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Rubik Light";
+  src: url(assets/fonts/Rubik-Light.woff2),
+    url(assets/fonts/Rubik-Light.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik ExtraBold";
+  src: url(assets/fonts/Rubik-ExtraBold.woff2),
+    url(assets/fonts/Rubik-ExtraBold.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik Light";
+  src: url(assets/fonts/Rubik-Light.woff2),
+    url(assets/fonts/Rubik-Light.ttf);
+  font-display: swap;
+}

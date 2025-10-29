@@ -1,0 +1,923 @@
+.paragraph--titulo-nossos-clientes {
+  font-family: "Montserrat Bold";
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #5F5F5F;
+  margin: 20px 5px;
+  text-align: center;
+}
+
+.paragraph--texto-subtitulo-prateleira-madubox {
+  font-family: "Rubik";
+  font-size: 22px;
+  margin: 0 0 20px 0;
+  color: #AEAEAE;
+  margin-bottom: 40px;
+  white-space: nowrap;
+}
+
+.paragraph--texto-titulo-prateleira-madubox {
+  font-family: "Rubik Bold";
+  font-size: 36px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #3F3F3F;
+  white-space: nowrap;
+}
+
+.paragraph--subtitulo-dropdow {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Rubik";
+  font-weight: 500;
+  color: #707070;
+  margin: 3px 10px 0;
+  padding: 0;
+}
+
+.container--maleta-textos-diferencas-madubox {
+  padding-right: 26px;
+  border-right: 1px solid #DBDBDB;
+}
+
+.paragraph--caixa-textos-diferencas-madubox {
+  font-family: "Rubik";
+  font-size: 16px;
+  color: #686868;
+}
+
+.paragraph--maleta-textos-diferencas-madubox {
+  font-family: "Rubik";
+  font-size: 16px;
+  text-align: end;
+  color: #686868;
+}
+
+.container--descricao-banner1-madubox {
+  width: 30vw !important;
+}
+
+.paragraph--texto-banner-final-madubox {
+  font-family: "Rubik Bold";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 55px;
+  color: #fff;
+}
+
+.container--label-combinam-se {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 24px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.container--label-combinam-se:hover {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 80%);
+}
+
+.paragraph--informativo-texto {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  color: #868686;
+}
+
+.paragraph--label-combinam-se {
+  font-family: "Rubik Bold";
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.paragraph--label-cores {
+  font-family: "Rubik Bold";
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: wrap;
+  text-align: center;
+}
+
+.container--textos-tamanhos {
+  display: flex;
+  align-items: center;
+}
+
+.paragraph--textos-tamanhos {
+  font-family: "Rubik";
+  font-size: 14px;
+  color: #636363;
+  margin: 0;
+}
+
+.paragraph--label-text {
+  text-transform: uppercase;
+  font-family: "Rubik Bold";
+  font-weight: 700;
+  font-size: 24px;
+  margin: 15px 20px 0 0 !important;
+}
+
+.paragraph--content-text {
+  font-family: "Rubik";
+  font-size: 16px;
+  color: #636363;
+  max-width: 480px;
+  margin-top: 0 !important;
+}
+
+.paragraph--label-text,
+.paragraph--content-text {
+  margin: 20px 0;
+}
+
+.container--titulo-caracteristicas {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.container--subtitulo-caracteristicas {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  color: #686868;
+}
+
+.paragraph--titulo-combinam,
+.paragraph--titulo-cores,
+.paragraph--titulo-detalhes-tecnicos {
+  font-family: "Rubik Bold";
+  font-size: 36px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #3F3F3F;
+  white-space: nowrap;
+}
+
+
+.paragraph--titulo-caracteristicas {
+  font-family: "Rubik Bold";
+  font-size: 24px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #3F3F3F;
+}
+
+.paragraph--subtitulo-combinam {
+  font-family: "Rubik";
+  font-size: 22px;
+  margin: 0 0 20px 0;
+  color: #686868;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 0 128px;
+}
+
+
+.paragraph--subtitulo-cores,
+.paragraph--subtitulo-detalhes-tecnicos {
+  font-family: "Rubik";
+  font-size: 22px;
+  margin: 0 0 20px 0;
+  color: #AEAEAE;
+  margin-bottom: 40px;
+  white-space: nowrap;
+}
+
+.paragraph--subtitulo-caracteristicas {
+  font-family: "Rubik";
+  font-size: 16px;
+  margin: 0 20px 0 0;
+}
+
+
+.paragraph--titulo-maletas-madubox {
+  font-family: Rubik Bold;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #505050;
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 0px 20px;
+}
+
+.wrapper--titulo-maletas-madubox {
+  font-family: "Rubik Bold";
+}
+
+.paragraph--textos-boxes-maletas {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  color: #686868;
+}
+
+.container--subtitulo-banner1-madubox {
+  white-space: nowrap;
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.paragraph--subtitulo-banner1-madubox {
+  font-family: "Rubik Medium";
+  font-weight: 500;
+  font-size: 17px;
+  margin: 0;
+  color: #5D5D5D;
+}
+
+.paragraph--descricao-banner1-madubox {
+  margin: 0;
+  color: #999999;
+  font-size: 14px;
+}
+
+
+
+.wrapper--subtitulo-banner1-madubox {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.paragraph--titulo-conheca {
+  padding: 5px;
+}
+
+.paragraph--label-conheca {
+  padding: 5px 15px;
+  border-radius: 35px;
+  background-color: #04264B;
+  color: #FFF;
+}
+
+.paragraph--label-conheca:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+.container--label-conheca {
+  cursor: pointer;
+}
+
+.paragraph--texto-veja-mais-produtos,
+.paragraph--produtos-relacionados {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  color: #313131;
+}
+
+.paragraph--categorias-final {
+  margin: 0;
+}
+
+.container--categorias-final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container--texto-banner-final {
+  text-align: center;
+}
+
+.paragraph--texto-banner-final {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.heading--texto-modal-modal {
+  font-size: 41px;
+  font-weight: 600;
+  color: #2C2C2C;
+  margin: 10px 0;
+}
+
+.strong--texto-modal-modal {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-block-end: 1rem;
+  margin-block-start: .5rem;
+}
+
+.container--texto-modal-modal {
+  padding: 20px 50px 20px 20px;
+  text-align: justify;
+}
+
+.paragraph--label-cep {
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.wrapper--subtitulo-shopBy {
+  height: 130px;
+  text-align: center;
+}
+
+
+.paragraph--titulo-categorias-shopBy {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.1em;
+
+  margin: 40px 0 0;
+}
+
+.container--frase-cupom-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+}
+
+.paragraph--frase-cupom-top {
+  margin: 0;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.paragraph--mais-vendidos-text {
+  font-family: "Montserrat Bold";
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #5F5F5F;
+  margin: 20px 5px;
+}
+
+.strong--mais-vendidos-text {
+  color: #173866;
+}
+
+.container--mais-vendidos-text {
+  display: flex;
+  justify-content: center;
+}
+
+
+.paragraph--texto-veja-mais-produtos {
+  font-size: 28px;
+  color: #3A3434;
+}
+
+.paragraph--botao-atendimento {
+  cursor: pointer;
+  user-select: none;
+  background-color: #153B64;
+  border: 2px solid #153B64;
+  padding: 5px 10px;
+  margin: 0;
+  color: white;
+  border-radius: 30px;
+}
+
+.paragraph--botao-atendimento:hover {
+  cursor: pointer;
+  user-select: none;
+  background-color: white;
+  color: #153B64;
+  border: 2px solid #153B64;
+}
+
+/* TOPO */
+.paragraph--frase-notification-bar {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.paragraph--texto-notification-bar {
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFF;
+  margin: 5px;
+}
+
+.container--shelfTitle {
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-size: 28px;
+  font-weight: 400;
+  color: #3A3434;
+  margin: 18px 0 24px;
+}
+
+.container--texto-notification-bar {
+  text-wrap-mode: nowrap;
+}
+
+.link--texto-notification-bar {
+  text-decoration: none;
+}
+
+/* MADU ONE  */
+.container--texto-madu-cat {
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* CATEGORIAS FINAL HOME  */
+.paragraph--categorias-final {
+  font-family: "Montserrat Bold";
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: -.6px;
+  color: #000;
+}
+
+.paragraph--titulo-categorias {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+.paragraph--texto-modal {
+  font-size: 16px;
+  font-family: "Montserrat Semibold";
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--texto-modal {
+  text-align: center;
+}
+
+.container--titulo-modal {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--titulo-modal {
+  background-color: #153B64;
+  font-family: "Montserrat";
+  font-weight: 600;
+  fill: #FFF;
+  color: #FFF;
+  border-radius: 30px 30px 30px 30px;
+  padding: 14px;
+  font-size: 13px;
+}
+
+.paragraph--titulo-modal:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+/* INSTITUCIONAIS */
+.strong--texto-intitucionais {
+  font-size: 27px;
+  font-weight: 600;
+  color: #242424;
+}
+
+.container--titulo-institucionais {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper--titulo-institucionais,
+.heading--titulo-institucionais {
+  font-size: 27px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.paragraph--conteudo-institucionais {
+  font-size: 15px;
+  color: #3A3434;
+  margin: 0;
+}
+
+/* CONTATO  */
+.paragraph--whatsapp-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+.paragraph--whatsapp-text,
+.link {
+  text-decoration: none;
+  color: #FFF;
+  margin: 0;
+}
+
+.link--link-contato {
+  color: #000;
+}
+
+.paragraph--contato-texto {
+  font-weight: 500;
+  color: #000;
+}
+
+.strong--contato-texto {
+  font-weight: 900;
+}
+
+.paragraph--whatsapp-text-contato,
+.paragraph--link-contato {
+  white-space: nowrap;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.paragraph--contato-titulo {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.1;
+  margin: 5px;
+}
+
+.flexColChild--contato-col1 {
+  font-size: 16px;
+}
+
+/* RODAPÉ */
+.paragraph--subtitle-logo-madu {
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  margin-left: 13px;
+}
+
+.paragraph--link-footer {
+  color: white;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.paragraph--link-footer:hover {
+  color: grey;
+  transition: color 0.3s ease;
+}
+
+.container--title-newsletter {
+  justify-content: center;
+}
+
+.heading--title-newsletter {
+  font-family: "Montserrat Semibold";
+  font-size: 18px;
+  letter-spacing: -.6px;
+  color: #242424;
+}
+
+.container--credits {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph--credits {
+  margin: 9px 0 13px;
+  color: white;
+  font-size: 12px;
+}
+
+.paragraph--title-footer {
+  margin: 0 0 14px;
+  color: white;
+  font: 14px "Montserrat Semibold";
+}
+
+.paragraph--subtitle-logo-madu {
+  color: white;
+}
+
+/* PLP */
+.container--notfound {
+  justify-content: center;
+}
+
+.paragraph--notfound {
+  font-size: 28px;
+  font-weight: 400;
+  color: #3A3434;
+  margin: 18px 0 24px;
+}
+
+/* PDP */
+.container--valor-unitario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paragraph--label-cep,
+.wrapper--texto-metodo-pgto-pdp {
+  white-space: nowrap;
+}
+
+.paragraph--texto-metodo-pgto-pdp {
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph--product-description {
+  margin: 0;
+  color: #3A3434;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.paragraph--guia-de-medidas {
+  margin: 10px 0 20px;
+  font-size: 13px;
+  color: #3A3434;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.paragraph--produtos-relacionados {
+  margin: 48px 0 27px;
+  font-size: 28px;
+  color: #3A3434;
+}
+
+/* INSTITUCIONAIS */
+.wrapper--texto-intitucionais {
+  color: #202020;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+
+/* MADE FOR YOU */
+.wrapper--texto--made-for-you {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.link--texto-intitucionais {
+  text-decoration: none;
+  color: #000;
+}
+
+.paragraph--avaliacao-nome {
+  margin: 10px 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 14px;
+  overflow: hidden;
+  padding-right: 25px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #000000;
+  margin-bottom: 2px;
+}
+
+.paragraph--avaliacao-data {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  opacity: 0.5;
+  font-size: 11.2px
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .wrapper--subtitulo-shopBy {
+    height: 15vh;
+  }
+
+  .paragraph--titulo-categorias-shopBy {
+    margin: 45px 0 0;
+  }
+
+  .paragraph--mais-vendidos-text {
+    font-size: 18px;
+    margin: 20px 5px;
+  }
+
+  .strong--texto-modal-modal {
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+
+  .container--texto-modal-modal {
+    padding: unset;
+  }
+
+  .paragraph--valor-unitario {
+    padding: 0 15px;
+  }
+
+  .wrapper--texto-intitucionais {
+    width: 100%;
+  }
+
+  .strong--texto-intitucionais {
+    font-size: 15px;
+  }
+
+  .wrapper--texto-modal-modal {
+    padding: 20px;
+  }
+
+  .container--credits {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexCol--footer-2-desktop {
+    margin-left: 15px;
+  }
+
+  .paragraph--subtitle-logo-madu {
+    margin-left: 0;
+  }
+
+  .subtitle-logo-madu {
+    font-size: 10px;
+  }
+
+  .headingLevel2--shelfTitle {
+    font-size: 20px;
+    margin: 16px 0 14px;
+  }
+
+  .heading--title-newsletter {
+    margin: 0 0 32px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .paragraph--link-footer {
+    font-size: 12px;
+  }
+
+  .paragraph--title-footer {
+    font: 12px "Montserrat Semibold";
+    color: white;
+    margin: 20px 0px;
+  }
+
+  .paragraph--produtos-relacionados {
+    margin: 38px 0 14px;
+    font-size: 20px;
+  }
+
+  /* notification bar */
+  .container--texto-notification-bar {
+    background-color: #04264B;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* TEXTO CATEGORIAS */
+  .paragraph--titulo-categorias {
+    font-size: 12px;
+
+  }
+
+  .paragraph--titulo-mobile-banner-inicial-madubox {
+    font-family: "Robik Bold";
+  }
+
+  .container--subtitulo-banner1-madubox {
+    white-space: wrap;
+  }
+
+  .paragraph--descricao-banner1-madubox {
+    margin-top: 50px;
+  }
+
+  .paragraph--subtitulo-banner1-madubox {
+    margin-top: 10px;
+  }
+
+  .flexRowContent--linha-frente-banner-1 {
+    white-space: wrap;
+  }
+
+  .paragraph--textos-boxes-maletas {
+    font-size: 14px;
+  }
+
+  .paragraph--titulo-caracteristicas {
+    margin: 30px 20px 0 10px;
+    font-size: unset;
+  }
+
+  .paragraph--subtitulo-caracteristicas {
+    margin: 10px 10px 40px;
+  }
+
+  .paragraph--titulo-detalhes-tecnicos {
+    font-size: 20px;
+    white-space: wrap;
+  }
+
+  .paragraph--subtitulo-detalhes-tecnicos {
+    font-size: 18px;
+  }
+
+  .paragraph--subtitulo-detalhes-tecnicos {
+    margin-bottom: 20px;
+  }
+
+  .paragraph--titulo-cores {
+    font-size: 20px;
+    white-space: unset;
+    margin-bottom: 15px;
+  }
+
+  .paragraph--subtitulo-cores {
+    font-size: 18px;
+    white-space: unset;
+    margin-bottom: 20px;
+  }
+
+  .container--informativo-texto {
+    padding: 20px;
+  }
+
+  .paragraph--texto-titulo-prateleira-madubox,
+  .paragraph--titulo-combinam {
+    font-size: 20px;
+    white-space: unset;
+  }
+
+
+  .paragraph--texto-subtitulo-prateleira-madubox,
+  .paragraph--subtitulo-combinam {
+    font-size: 18px;
+    white-space: unset;
+    margin: unset;
+    text-align: left;
+    padding: unset;
+  }
+
+  .paragraph--texto-banner-final-madubox {
+    font-size: 32px;
+  }
+
+  .container--descricao-banner1-madubox {
+    width: unset !important;
+  }
+
+  .paragraph--caixa-textos-diferencas-madubox {
+    padding-left: 26px;
+  }
+
+  .paragraph--maleta-textos-diferencas-madubox {
+    margin-left: 10px;
+  }
+
+  .paragraph--caixa-textos-diferencas-madubox {
+    margin-right: 10px;
+  }
+
+  .container--titulo-caracteristicas {
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .container--subtitulo-caracteristicas {
+    text-align: center;
+  }
+
+  .wrapper--titulo-cores {
+    width: 250px;
+  }
+
+  .container--label-cores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+}

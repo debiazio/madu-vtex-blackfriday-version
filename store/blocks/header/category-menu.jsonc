@@ -1,0 +1,745 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menu-principal"
+    },
+    "children": [
+      "menu-item#cat-carrinhos",
+      "menu-item#cat-armarios",
+      "menu-item#cat-estantes",
+      "menu-item#cat-acessorios-n",
+      "menu-item#cat-organizadores",
+      "menu-item#cat-linhas",
+      "menu-item#cat-ver-todos",
+      "menu-item#made-for-you",
+      "menu-item#catalogo",
+      "menu-item#atendimento"
+    ]
+  },
+  // MENU ITEMS - CATEGORIAS DO HEADER
+  "menu-item#cat-carrinhos": {
+    "props": {
+      "id": "menu-item-produtos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "moveis/carrinhos",
+        "noFollow": false,
+        "tagTitle": "Carrinhos",
+        "text": "Carrinhos"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  "menu-item#cat-estantes": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-nossas-linhas",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Estantes",
+        "text": "Estantes",
+        "href": "/moveis/estantes"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  // MENU PRINCIPAL ACESSÓRIOS
+  "menu-item#cat-acessorios-n": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-nossas-linhas",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios",
+        "href": "/moveis/modulos"
+      },
+      "blockClass": "menu-principal-item",
+      "iconProps": {
+        "id": "hpa-menu",
+        "isActive": true
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#acessorios-linhas"
+    ]
+  },
+  // BLOCO DROPDOWN ACESSORIOS LINHAS
+  "vtex.menu@2.x:submenu#acessorios-linhas": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#acessorios-linhas"
+    ]
+  },
+  "vtex.menu@2.x:menu#acessorios-linhas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "menu-item#acessorios-linhas-linhaExtra",
+      "menu-item#acessorios-linhas-linhaOne"
+    ]
+  },
+  // ITEM DO DROPDOWN ACESSORIOS LINHAS
+  "menu-item#acessorios-linhas-linhaExtra": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-acessorios-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios-linha-extra",
+        "noFollow": false,
+        "tagTitle": "Linha Extra",
+        "text": "Linha Extra"
+      }
+    }
+  },
+  "menu-item#acessorios-linhas-linhaOne": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-acessorios-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios-linha-one",
+        "noFollow": false,
+        "tagTitle": "Linha One",
+        "text": "Linha One"
+      }
+    }
+  },
+  "menu-item#cat-armarios": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-nossas-linhas",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Armários",
+        "text": "Armários",
+        "href": "/moveis/armarios"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  // MENU PRINCIPAL LINHAS
+  "menu-item#cat-linhas": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-nossas-linhas",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Linhas",
+        "text": "Linhas",
+        "href": "/moveis"
+      },
+      "blockClass": "menu-principal-item",
+      "iconProps": {
+        "id": "hpa-menu",
+        "isActive": true
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#linhas-maduOne"
+    ]
+  },
+  // BLOCO ACESSORIOS LINHAS MADU ONE
+  "vtex.menu@2.x:submenu#linhas-maduOne": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#linhas-maduOne"
+    ]
+  },
+  "vtex.menu@2.x:menu#linhas-maduOne": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "menu-item#linhas-madu-one",
+      "menu-item#linhas-madu-extra",
+      "menu-item#linhas-maduOne-expand",
+      "menu-item#linhas-maduOne-express",
+      "menu-item#linhas-madubox"
+
+    ]
+  },
+  // SUBMENU MADU ONE
+  "menu-item#linhas-madu-one": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MAD.U One",
+        "text": "MAD.U One"
+      },
+      "iconProps": {
+        "id": "nav-thin-caret--right",
+        "isActive": true
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#linhas-maduOne-submenu"
+    ]
+  },
+  // BLOCK DO SUBMENU INTERNO
+  "vtex.menu@2.x:submenu#linhas-maduOne-submenu": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#linhas-maduOne-submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#linhas-maduOne-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "menu-item#maduOne-560",
+      "menu-item#maduOne-740"
+    ]
+  },
+  "menu-item#maduOne-560": {
+    "props": {
+      "blockClass": "menu-principal-submenu",
+      "type": "custom",
+      "id": "menu-item-acessorios-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/madu-one-560",
+        "noFollow": false,
+        "tagTitle": "One 560",
+        "text": "One 560"
+      }
+    }
+  },
+  "menu-item#maduOne-740": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-acessorios-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/madu-one-740",
+        "noFollow": false,
+        "tagTitle": "One 740",
+        "text": "One 740"
+      }
+    }
+  },
+  // BLOCO ACESSORIOS LINHAS MADU EXTRA
+  // SUBMENU MADU EXTRA
+  "menu-item#linhas-madu-extra": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MAD.U Extra",
+        "text": "MAD.U Extra"
+      },
+      "iconProps": {
+        "id": "nav-thin-caret--right",
+        "isActive": true
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#linhas-maduExtra-submenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#linhas-maduExtra-submenu": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#linhas-maduExtra-submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#linhas-maduExtra-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "menu-item#maduExtra-380",
+      "menu-item#maduExtra-550"
+    ]
+  },
+  "menu-item#maduExtra-380": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/madu-extra-380",
+        "noFollow": false,
+        "tagTitle": "Extra 380",
+        "text": "Extra 380"
+      }
+    }
+  },
+  "menu-item#maduExtra-550": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/madu-extra-550",
+        "noFollow": false,
+        "tagTitle": "Extra 550",
+        "text": "Extra 550"
+      }
+    }
+  },
+  // SUBMENU DA EXPAND
+  "menu-item#linhas-maduOne-expand": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mad-u-expand",
+        "noFollow": false,
+        "tagTitle": "MAD.U Expand",
+        "text": "MAD.U Expand"
+      }
+    }
+  },
+  "menu-item#linhas-maduOne-express": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mad-u-express",
+        "noFollow": false,
+        "tagTitle": "MAD.U Express",
+        "text": "MAD.U Express"
+      }
+    }
+  },
+  "menu-item#linhas-madubox":{
+    "props": {
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/madubox",
+        "noFollow": false,
+        "tagTitle": "Caixas e Maletas MADUBOX",
+        "text": "Caixas e Maletas MADUBOX"
+      }
+    }
+  },
+  "menu-item#cat-ver-todos": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-nossas-linhas",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/moveis",
+        "tagTitle": "+ Ver Todos",
+        "text": "+ Ver Todos"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  "menu-item#cat-organizadores": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-nossas-linhas",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/moveis/organizadores",
+        "tagTitle": "Organizadores",
+        "text": "Organizadores"
+      },
+      "blockClass": [
+        "menu-principal-item"
+      ]
+    }
+  },
+  "menu-item#made-for-you": {
+    "props": {
+      "id": "menu-item-made-for-you",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/made-for-you",
+        "noFollow": true,
+        "tagTitle": "Made for You",
+        "text": "Made for You"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  "menu-item#catalogo": {
+    "props": {
+      "id": "menu-item-catalogo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/catalogo",
+        "noFollow": true,
+        "tagTitle": "Catálogo",
+        "text": "Catálogo"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  "menu-item#atendimento": {
+    "props": {
+      "id": "menu-item-contato",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contato",
+        "noFollow": true,
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
+      },
+      "blockClass": [
+        "menu-principal-item",
+        "menu-principal-lastchild"
+      ]
+    }
+  },
+  // MOBILE MENU
+  "vtex.menu@2.x:menu#category-menu-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menu-principal-mobile"
+    },
+    "children": [
+      "menu-item#cat-carrinhos-mobile",
+      "menu-item#cat-armarios-mobile",
+      "menu-item#cat-estantes-mobile",
+      "menu-item#cat-acessorios-n-mobile",
+      "menu-item#cat-organizadores-mobile",
+      "menu-item#nossas-linhas-mobile",
+      "menu-item#cat-ver-todos-mobile",
+      "menu-item#made-for-you",
+      "menu-item#catalogo",
+      "menu-item#atendimento"
+    ]
+  },
+  "menu-item#cat-carrinhos-mobile": {
+    "props": {
+      "id": "menu-item-produtos-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "moveis/carrinhos",
+        "noFollow": false,
+        "tagTitle": "Carrinhos",
+        "text": "Carrinhos"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  "menu-item#cat-armarios-mobile": {
+    "props": {
+      "id": "menu-item-produtos-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "moveis/armarios",
+        "noFollow": false,
+        "tagTitle": "Armários",
+        "text": "Armários"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  "menu-item#cat-estantes-mobile": {
+    "props": {
+      "id": "menu-item-produtos-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moveis/estantes",
+        "noFollow": false,
+        "tagTitle": "Estantes",
+        "text": "Estantes"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  "menu-item#cat-acessorios-n-mobile": {
+    "props": {
+      "id": "menu-item-nossas-linhas-mobile",
+      "type": "custom",
+      "iconPosition": "right",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios",
+        "href": "/moveis/modulos"
+      },
+      "blockClass": "menu-principal-item"
+    },
+    "blocks": [
+      "submenu.accordion#acessorios"
+    ]
+  },
+  // ACESSORIOS MENU MOBILE
+  "submenu.accordion#acessorios": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-accordion-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#acessorios-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#acessorios-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "menu-item#acessorios-linhas-linhaExtra",
+      "menu-item#acessorios-linhas-linhaOne"
+    ]
+  },
+  "menu-item#cat-organizadores-mobile": {
+    "props": {
+      "id": "menu-item-produtos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "moveis/organizadores",
+        "noFollow": false,
+        "tagTitle": "Organizadores",
+        "text": "Organizadores"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  },
+  // NOSSAS LINHAS MOBILE
+  "menu-item#nossas-linhas-mobile": {
+    "props": {
+      "id": "menu-item-nossas-linhas",
+      "type": "custom",
+      "iconPosition": "right",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Linhas",
+        "text": "Linhas",
+        "href": "/moveis"
+      },
+      "blockClass": "menu-principal-item"
+    },
+    "blocks": [
+      "submenu.accordion#nossas-linhas"
+    ]
+  },
+  // NOSSAS LINHAS MOBILE
+  "submenu.accordion#nossas-linhas": {
+    "props": {
+      "width": "auto",
+      "blockClass": "produtos-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#nossas-linhas-mobile"
+    ]
+  },
+  // menu dropdow mobile
+  "vtex.menu@2.x:menu#nossas-linhas-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "menu-item#linhas-madu-one-mobile",
+      "menu-item#linhas-madu-extra-mobile",
+      "menu-item#linhas-maduOne-expand-mobile",
+      "menu-item#linhas-maduOne-express-mobile",
+      "menu-item#madubox-mobile"
+    ]
+  },
+  "menu-item#linhas-madu-one-mobile": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mad-u-one",
+        "noFollow": false,
+        "tagTitle": "MAD.U One",
+        "text": "MAD.U One"
+      },
+      "blockClass": "menu-principal-item"
+    },
+    "blocks": [
+      "submenu.accordion#linhas-maduOne"
+    ]
+  },
+  "submenu.accordion#linhas-maduOne": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-accordion-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#linhas-maduOne-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#linhas-maduOne-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "menu-item#maduOne-560",
+      "menu-item#maduOne-740"
+    ]
+  },
+  // madu extra mobile
+  "menu-item#linhas-madu-extra-mobile": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mad-u-extra",
+        "noFollow": false,
+        "tagTitle": "MAD.U Extra",
+        "text": "MAD.U Extra"
+      },
+      "blockClass": "menu-principal-item"
+    },
+    "blocks": [
+      "submenu.accordion#linhas-maduExtra"
+    ]
+  },
+  "submenu.accordion#linhas-maduExtra": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-accordion-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#linhas-maduExtra-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#linhas-maduExtra-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal-submenu"
+    },
+    "children": [
+      "menu-item#maduExtra-380",
+      "menu-item#maduExtra-550"
+    ]
+  },
+  // SUBMENU DA EXPAND
+  "menu-item#linhas-maduOne-expand-mobile": {
+    "props": {
+      "blockClass": "menu-principal-item",
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mad-u-expand",
+        "noFollow": false,
+        "tagTitle": "MAD.U Expand",
+        "text": "MAD.U Expand"
+      }
+    }
+  },
+  "menu-item#linhas-maduOne-express-mobile": {
+    "props": {
+      "blockClass": "menu-principal-item",
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mad-u-express",
+        "noFollow": false,
+        "tagTitle": "MAD.U Express",
+        "text": "MAD.U Express"
+      }
+    }
+  },
+  "menu-item#madubox-mobile": {
+    "props": {
+      "blockClass": "menu-principal-item",
+      "type": "custom",
+      "id": "menu-item-linhas",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/madubox",
+        "noFollow": false,
+        "tagTitle": "Caixas e Maletas MADUBOX",
+        "text": "Caixas e Maletas MADUBOX"
+      }
+    }
+  },
+  "menu-item#cat-ver-todos-mobile": {
+    "props": {
+      "type": "custom",
+      "id": "menu-item-nossas-linhas",
+      "itemProps": {
+        "type": "internal",
+        "href": "/moveis",
+        "noFollow": false,
+        "tagTitle": "+ Ver Todos",
+        "text": "+ Ver Todos"
+      },
+      "blockClass": "menu-principal-item"
+    }
+  }
+}

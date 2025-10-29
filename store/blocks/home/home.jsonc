@@ -1,0 +1,275 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#home-desktop",
+      "flex-layout.row#shop-by-category",
+      // "responsive-layout.desktop#categorias",
+      // "responsive-layout.mobile#categorias",
+      "__fold__",
+      "flex-layout.row#mais-vendidos-madu-extra",
+      "flex-layout.row#mais-vendidos-madu-one",
+      "flex-layout.row#banner-final",
+      "flex-layout.row#banner-nossos-clientes"
+    ],
+    "parent": {
+      "header": "header"
+    }
+  },
+  // SLIDER HOME - DESKTOP
+  "list-context.image-list#home-desktop": {
+    "children": [
+      "slider-layout#home"
+    ],
+    "props": {
+      "height": 570,
+      "images": [
+        {
+          "mobileImage": "assets/banners/mobile/Banner-lancamento-madubox-mobile-1.webp",
+          "image": "assets/banners/desktop/Banner-lancamento-madubox-desktop-scaled.webp",
+          "link": {
+            "url": "/madubox"
+          }
+        },
+        {
+          "mobileImage": "assets/banners/mobile/01-Banner-mobile-Restaurante.webp",
+          "image": "assets/banners/desktop/Banner-desktop-Restaurante-scaled.webp",
+          "link": {
+            "url": "/moveis/carrinhos"
+          }
+        },
+        {
+          "mobileImage": "assets/banners/mobile/02-Banner-mobile-Escritorio.webp",
+          "image": "assets/banners/desktop/02-Banner-desktop-Escritorio-scaled.webp",
+          "link": {
+            "url": "/moveis/carrinhos"
+          }
+        },
+        {
+          "mobileImage": "assets/banners/mobile/03-Banner-mobile-Clinicas.webp",
+          "image": "assets/banners/desktop/03-Banner-desktop-Escritorio-clinicas-scaled.webp",
+          "link": {
+            "url": "/moveis/carrinhos"
+          }
+        },
+        {
+          "mobileImage": "assets/Banner-mobile-Coffee-Time.webp",
+          "image": "assets/coffe-banner-desktop.webp",
+          "description": "Banner 3",
+          "link": {
+            "url": "/produtos/carrinho-de-cafe-e-bebidas-multiuso-mad-u-one-740/"
+          }
+        }
+      ],
+      "title": "Banner home"
+    }
+  },
+  "slider-layout#home": {
+    "props": {
+      "title": "Slider home",
+      "blockClass": "slider-home-desktop",
+      "maxwidth": "1200",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 50,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
+    }
+  },
+  // MADU ONE
+  "flex-layout.row#mais-vendidos-madu-extra": {
+    "props": {
+      "blockClass": "content-madu-cat"
+    },
+    "children": [
+      "flex-layout.row#titulo-prateleiras-madu-extra",
+      "flex-layout.row#shelf"
+    ]
+  },
+  "flex-layout.row#titulo-prateleiras-madu-extra": {
+    "props": {
+      "blockClass": "titulo-prateleiras",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#plus-titulo-prateleira",
+      "rich-text#shelf-title1"
+    ]
+  },
+  "image#plus-titulo-prateleira": {
+    "props": {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgMzQ5LjAzIDM0OS4wMzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIGQ9Ik0zNDkuMDMgMTQxLjIyNnY2Ni41NzlhOS4wNzggOS4wNzggMCAwIDEtOS4wNzkgOS4wNzlIMjE2Ljg4NHYxMjMuMDY3YTkuMDc3IDkuMDc3IDAgMCAxLTkuMDc5IDkuMDc5aC02Ni41NzljLTUuMDA5IDAtOS4wNzktNC4wNjEtOS4wNzktOS4wNzlWMjE2Ljg4NEg5LjA3OUE5LjA4IDkuMDggMCAwIDEgMCAyMDcuODA1di02Ni41NzlhOS4wNzkgOS4wNzkgMCAwIDEgOS4wNzktOS4wNzloMTIzLjA2OFY5LjA3OWMwLTUuMDE4IDQuMDY5LTkuMDc5IDkuMDc5LTkuMDc5aDY2LjU3OWE5LjA3OCA5LjA3OCAwIDAgMSA5LjA3OSA5LjA3OXYxMjMuMDY4aDEyMy4wNjdhOS4wNzcgOS4wNzcgMCAwIDEgOS4wNzkgOS4wNzl6IiBmaWxsPSIjNWY1ZjVmIiBvcGFjaXR5PSIxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iIj48L3BhdGg+PC9nPjwvc3ZnPg==",
+      "maxWidth": "16px",
+      "blockClass": "plus-titulo"
+    }
+  },
+  "rich-text#shelf-title1": {
+    "props": {
+      "text": "MAIS VENDIDOS **MAD.U EXTRA**",
+      "blockClass": "mais-vendidos-text"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "props": {
+      "blockClass": "prateleira-madu-extra"
+    },
+    "children": [
+      "list-context.product-list#prateleira-home-madu-extra1"
+    ]
+  },
+  "list-context.product-list#prateleira-home-madu-extra1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-home1"
+    ],
+    "props": {
+      "orderBy": "OrderByPriceDESC",
+      "blockClass": "list-prateleira-home-madu-extra"
+    }
+  },
+  "slider-layout#prateleira-home1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "fullWidth": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "prateleira-home-madu-extra"
+    }
+  },
+  // MADU ONE
+  "flex-layout.row#mais-vendidos-madu-one": {
+    "props": {
+      "blockClass": "content-madu-cat"
+    },
+    "children": [
+      "flex-layout.row#titulo-prateleiras-madu-one",
+      "flex-layout.row#shelf-one"
+    ]
+  },
+  "flex-layout.row#titulo-prateleiras-madu-one": {
+    "props": {
+      "blockClass": "titulo-prateleiras",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#plus-titulo-prateleira",
+      "rich-text#shelf-title1-one"
+    ]
+  },
+  "rich-text#shelf-title1-one": {
+    "props": {
+      "text": "MAIS VENDIDOS **MAD.U One**",
+      "blockClass": "mais-vendidos-text"
+    }
+  },
+  "flex-layout.row#shelf-one": {
+    "children": [
+      "list-context.product-list#prateleira-home-one"
+    ]
+  },
+  "list-context.product-list#prateleira-home-one": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-home-one"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#prateleira-home-one": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "fullWidth": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": [
+        "prateleira-home-madu-extra",
+        "prateleira-home-madu-one"
+      ]
+    }
+  },
+  // LINHA NOSSOS CLIENTES
+  "flex-layout.row#banner-nossos-clientes": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "linha-nossos-clientes"
+    },
+    "children": [
+      "rich-text#titulo-nossos-clientes",
+      "list-context.image-list#nossos-clientes"
+    ]
+  },
+  // titulo nossos clientes
+  "rich-text#titulo-nossos-clientes":{
+    "props": {
+      "text": "nossos clientes",
+      "blockClass": "titulo-nossos-clientes"
+    }
+  },
+  "list-context.image-list#nossos-clientes": {
+    "children": [
+      "slider-layout#nossos-clientes-imgs"
+    ],
+    "props": {
+      "height": 300,
+      "images": [
+        {
+          "image": "assets/home/nossos-clientes/unimed-01.webp"
+        },
+        {
+          "image": "assets/home/nossos-clientes/einstein-01.webp"
+        },
+        {
+          "image": "assets/home/nossos-clientes/hCL-01.webp"
+        },
+        {
+          "image": "assets/home/nossos-clientes/hospital-01.webp"
+        },
+        {
+          "image": "assets/home/nossos-clientes/mack-01.webp"
+        },
+        {
+          "image": "assets/home/nossos-clientes/sirio-01.webp"
+        }
+      ]
+    }
+  },
+  "slider-layout#nossos-clientes-imgs": {
+    "props": {
+      "blockClass": "image-list-nossos-clientes",
+      "itemsPerPage": {
+        "desktop": 5,
+        "phone": 3
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "arrowSize": 25,
+      "infinite": true,
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

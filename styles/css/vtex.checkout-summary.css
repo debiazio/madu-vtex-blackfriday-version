@@ -1,0 +1,43 @@
+.summarySmallContent {
+  border-top: unset;
+}
+
+.summarySmallDisclaimer {
+  display: none;
+}
+
+.summaryItemContainer {
+  margin: 22px 0 23px;
+}
+
+.summaryItemLabel {
+  font-size: 14px;
+  color: #3A3434;
+}
+
+.price {
+  color: #153b64;
+  font: 16px "Montserrat Semibold";
+}
+
+.summarySmallContent--minicart-summary-header :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+  display: none;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .flexRow--main-header-mobile-2 {
+    padding: 10px 0;
+  }
+
+  .summaryItemContainer {
+    margin: 0;
+  }
+
+  .price {
+    margin-right: 5px;
+    margin-top: 8px;
+  }
+
+
+}

@@ -1,0 +1,19 @@
+.expandIcon {
+  color: #727273;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild) .cartIcon--minicart-empty-state {
+  overflow: visible;
+}
+
+.caretIcon {
+  padding-top: 3px;
+}
+
+.caretIcon--cima-detalhes-tec,
+.caretIcon--baixo {
+  position: relative;
+  top: 28px;
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,64 @@
+.triggerContainer--modal-layout-trigger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.backdrop--modal-layout-content{
+      background-color: rgba(0, 0, 0, 0.877);
+      opacity: 0.8;
+}
+
+.container--modal-layout-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButtonContainer--close-button-desconto {
+  z-index: 8;
+}
+
+.closeIcon--close-button-inov-qual-tec {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.triggerContainer--botao-contatos {
+  cursor: pointer;
+}
+
+.paper--botoes-contatos-modal {
+  overflow: hidden;
+  background-color: rgb(231, 229, 229);
+}
+
+.triggerContainer--guia-de-medidas {
+  border-bottom: 1px solid #D9D8D7;
+}
+
+.paperNotFullScreen {
+  max-width: 1000px;
+  border-radius: 10px;
+}
+
+.headerContainer--close-button-desconto {
+  margin-bottom: -53px;
+  border: none
+}
+
+.paper--modal-layout-pupup-trigger {
+  border: 12px solid white;
+}
+
+@media screen and (max-width: 1024px) {
+  .paperNotFullScreen {
+    margin: 6px !important;
+    height: 100%;
+    overflow: auto;
+  }
+
+
+
+}

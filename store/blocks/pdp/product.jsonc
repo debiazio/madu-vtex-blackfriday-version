@@ -1,0 +1,550 @@
+{
+  "store.product": {
+    "children": [
+      "responsive-layout.mobile#breadcrumb",
+      "responsive-layout.mobile#nome-do-produto",
+      "condition-layout.product#availability",
+      "flex-layout.row#relatedProducts",
+      "flex-layout.row#abas-pdp",
+      "flex-layout.row#veja-mais-produtos"
+    ]
+  },
+  "responsive-layout.mobile#nome-do-produto": {
+    "children": [
+      "flex-layout.row#product-name"
+    ]
+  },
+  // AVALIA SE O PRODUTO TEM ESTOQUE
+  "condition-layout.product#availability": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#product-main",
+      "Else": "flex-layout.row#product-availability"
+    }
+  },
+  // QUANDO O PRODUTO TEM ESTOQUE
+  "flex-layout.row#product-main": {
+    "props": {
+      "blockClass": "product-main",
+      "fullWidth": false,
+      "colSizing": "auto"
+    },
+    "children": [
+      "responsive-layout.desktop#breadcrumb",
+      "flex-layout.row#colunas-pdp"
+    ]
+  },
+  "responsive-layout.desktop#breadcrumb":{
+    "children": [
+      "flex-layout.row#product-breadcrumb"
+    ]
+  },
+  "flex-layout.row#colunas-pdp": {
+    "props": {
+      "blockClass": "product-main-colunas"
+    },
+    "children": [
+      "flex-layout.col#product-left-col",
+      "flex-layout.col#product-right-col"
+    ]
+  },
+  "flex-layout.col#product-left-col": {
+    "children": [
+      "stack-layout"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "stack-layout": {
+    "props": {
+      "blockClass": "product-image"
+    },
+    "children": [
+      "flex-layout.row#product-image"
+    ]
+  },
+  "flex-layout.row#product-image": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "auto"
+      },
+      "hiddenImages": "thumbcor",
+      "displayThumbnailsArrows": true,
+      "showNavigationArrows": false,
+      "showPaginationDots": true,
+      // "zoomMode":"open-modal",
+      // "ModalZoom": "modal-layout#product-zoom"
+      "thumbnailVisibility": "visible",
+      "thumbnailsOrientation": "horizontal"
+      // "displayMode": "list"
+    }
+  },
+  // "modal-layout#product-zoom": {
+  //   "children": [
+  //     "product-images.high-quality-image"
+  //   ]
+  // },
+  // "product-images.high-quality-image": {
+  //   "props": {
+  //     "zoomMode": "in-place-click",
+  //     "zoomFactor": 2
+  //   }
+  // },
+  "flex-layout.col#product-right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "50%",
+      "blockClass": "coluna-direita-produto"
+    },
+    "children": [
+      "responsive-layout.desktop#nome-do-produto",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      // "flex-layout.row#aviso-valor-unitario",
+      // "flex-layout.row#metodos-pagamento-pdp",
+      "sku-selector",
+      "flex-layout.col#product-recommendations-custom",
+      "similar-products-variants", //traz os produtos similares
+      "flex-layout.row#quantidade-seletor-comprar",
+      // "similares",
+      "change-text-pdp-app",
+      // "bundle",
+      "flex-layout.row#busca-cep",
+      "flex-layout.row#metodos-pagamento-pdp",
+      "image#bandeiras",
+      "flex-layout.row#contao-whatsapp"
+    ]
+  },
+  "responsive-layout.mobile#breadcrumb": {
+    "children": [
+      "flex-layout.row#product-breadcrumb"
+    ]
+  },
+  "flex-layout.col#product-recommendations-custom": {
+    "children": []
+  },
+  "sku-selector": {
+    "props": {
+      "maxItems": 30,
+      // "variationsSpacing": 3,
+      // "showValueNameForImageVariation": true,
+      "showVariationsLabels": "variationAndItemValue",
+      "visibility": "always",
+      "initialSelection": "complete",
+      "displayThumbnailsArrows": true,
+      "thumbnailImage": "thumbcor",
+      "imageHeight": 350
+    }
+  },
+  "similar-products-variants": {
+    "props": {
+      "blockClass": "similar-variant",
+      "imageLabel": "thumbcor"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "blockClass": "breadcrumb"
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "responsive-layout.desktop#nome-do-produto": {
+    "children": [
+      "flex-layout.row#product-name"
+    ]
+  },
+  "flex-layout.row#product-name": {
+    "children": [
+      "vtex.store-components:product-name"
+      // "add-to-list-btn"
+    ],
+    "props": {
+      "blockClass": "product-name",
+      "colSizing": "auto"
+    }
+  },
+  "vtex.store-components:product-name":{
+    "props": {
+      // "showSku": true,
+      "showProductReference": true
+    }
+  },
+  "rich-text#texto-valor-unitario": {
+    "props": {
+      "blockClass": "valor-unitario",
+      "text": "Valor unitário, consulte-nos para maiores informações"
+    }
+  },
+  // BUSCA CEP
+  "flex-layout.row#busca-cep": {
+    "props": {
+      "blockClass": "linha-cep",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#label-cep",
+      "shipping-simulator"
+    ]
+  },
+  "rich-text#label-cep": {
+    "props": {
+      "blockClass": "label-cep",
+      "text": "Consulte o frete e o prazo de entrega:"
+    }
+  },
+  "shipping-simulator": {
+    "props": {
+      "shouldUpdateOrderForm": "true"
+    }
+  },
+  // BANDEIRAS DE PAGAMENTO
+  // INFORMATIVO DE FORMAS DE PAGAMENTO
+  "flex-layout.row#metodos-pagamento-pdp": {
+    "props": {
+      "blockClass": "linha-info-metodos-pgto"
+    },
+    "children": [
+      "flex-layout.row#linha1-metodos-pgto",
+      "flex-layout.row#linha2-metodos-pgto",
+      "flex-layout.row#linha3-metodos-pgto"
+    ]
+  },
+  "flex-layout.row#linha1-metodos-pgto": {
+    "props": {
+      "blockClass": "linha-secundaria-metodos-pgto"
+    },
+    "children": [
+      "image#cartao-credito",
+      "rich-text#cartao-credito"
+    ]
+  },
+  "flex-layout.row#linha2-metodos-pgto": {
+    "props": {
+      "blockClass": "linha-secundaria-metodos-pgto"
+    },
+    "children": [
+      "image#boleto",
+      "rich-text#boleto"
+    ]
+  },
+  "flex-layout.row#linha3-metodos-pgto": {
+    "props": {
+      "blockClass": "linha-secundaria-metodos-pgto"
+    },
+    "children": [
+      "image#pix",
+      "rich-text#pix"
+    ]
+  },
+  // TEXTOS METODOS PAGTO
+  // CARTAO DE CREDITO
+  "rich-text#cartao-credito": {
+    "props": {
+      "text": "Cartão de crédito e débito",
+      "blockClass": "texto-metodo-pgto-pdp"
+    }
+  },
+  "rich-text#boleto": {
+    "props": {
+      "text": "Pagamento no boleto à vista",
+      "blockClass": "texto-metodo-pgto-pdp"
+    }
+  },
+  "rich-text#pix": {
+    "props": {
+      "text": "Pagamento com Pix",
+      "blockClass": "texto-metodo-pgto-pdp"
+    }
+  },
+  // IMAGEM CARTAO DE CREDITO PDP
+  "image#cartao-credito": {
+    "props": {
+      "src": "assets/credit-card.svg",
+      "blockClass": "imagem-metodos-pgto-pdp"
+    }
+  },
+  "image#boleto": {
+    "props": {
+      "src": "assets/cartao-de-identidade.svg",
+      "blockClass": "imagem-metodos-pgto-pdp"
+    }
+  },
+  "image#pix": {
+    "props": {
+      "src": "assets/jornal.svg",
+      "blockClass": "imagem-metodos-pgto-pdp"
+    }
+  },
+  // IMAGEM BANDEIRAS DE PAGAMENTO
+  "image#bandeiras": {
+    "props": {
+      "blockClass": "bandeiras-cartoes-pdp",
+      "src": "assets/bandeiras_cartoes-768x93.webp"
+    }
+  },
+  // COMPRE PELO WHATSAPP
+  "flex-layout.row#contao-whatsapp": {
+    "props": {
+      "blockClass": "texto-atencao"
+    },
+    "children": [
+      "link#compre-pelo-whatsapp"
+    ]
+  },
+  "link#compre-pelo-whatsapp": {
+    "props": {
+      "blockClass": "link-compre-pelo-wpp",
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20MAD.U!",
+      "label": "Compre pelo Whatsapp",
+      "target": "_blank"
+    },
+    "children": [
+      "image#atendimento-whatsapp"
+    ]
+  },
+  // SELETOR DE QUANTIDADES
+  "flex-layout.row#quantidade-seletor-comprar": {
+    "props": {
+      "blockClass": "linha-seletor-quantidade",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "product-quantity",
+      "flex-layout.row#buy-button"
+    ]
+  },
+  "product-quantity": {
+    "props": {
+      "showLabel": false
+    }
+  },
+  // BOTAO COMPRAR
+  "flex-layout.row#buy-button": {
+    "props": {
+      "blockClass": "buy-button-pdp"
+    },
+    "children": [
+      "add-to-cart-button#pdp"
+    ]
+  },
+  // LINHA DAS ABAS
+  "flex-layout.row#abas-pdp": {
+    "props": {
+      "blockClass": "content-linha-abas"
+    },
+    "children": [
+      "tab-layout#produto"
+    ]
+  },
+  // SECAO DE ABAS
+  "tab-layout#produto": {
+    "props": {
+      "blockClass": "secao-abas"
+    },
+    "children": [
+      "tab-list#produto",
+      "tab-content#produto"
+    ]
+  },
+  "tab-list#produto": {
+    "children": [
+      "tab-list.item#descricao",
+      "tab-list.item#info-tecnicas"
+      // "tab-list.item#indicacoes-uso"
+      // "tab-list.item#info-adicionais"
+    ]
+  },
+  // BOTAO DE DESCRICAO DO PRODUTO
+  "tab-list.item#descricao": {
+    "props": {
+      "tabId": "descricao",
+      "label": "Descrição do produto",
+      "defaultActiveTab": true
+    }
+  },
+  // BOTAO DE INFO. TECNICAS
+  "tab-list.item#info-tecnicas": {
+    "props": {
+      "tabId": "info-tecnicas",
+      "label": "Informações Técnicas"
+    }
+  },
+  // CONTENT DE DESCRICAO DO PRODUTO
+  "tab-content#produto": {
+    "children": [
+      "tab-content.item#descricao",
+      "tab-content.item#info-tecnicas"
+    ]
+  },
+  // CONTEUDO DE DESCRICAO
+  "tab-content.item#descricao": {
+    "children": [
+      "product-description"
+    ],
+    "props": {
+      "tabId": "descricao"
+    }
+  },
+  // CONTEUDO DAS INFO. TECNICAS
+  "tab-content.item#info-tecnicas": {
+    "children": [
+      "product-specifications"
+    ],
+    "props": {
+      "tabId": "info-tecnicas"
+    }
+  },
+  // DESCRICAO DO PRODUTO
+  "product-description": {
+    "props": {
+      "collapseContent": false,
+      "showTitle": false
+    }
+  },
+  // ESPECIFICACOES TECNICAS
+  "product-specifications": {
+    "props": {
+      "showTitle": false,
+      "collapseContent": false,
+      "blockClass": "product-spec"
+    }
+  },
+  // QUANDO O PRODUTO tem TEM ESTOQUE
+  "flex-layout.row#product-availability": {
+    "props": {
+      "blockClass": "product-main"
+    },
+    "children": [
+      "flex-layout.col#product-left-col",
+      "flex-layout.col#right-col-availability"
+    ]
+  },
+  "flex-layout.col#right-col-availability": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "50%",
+      "blockClass": "coluna-direita-disp"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      // "sku-selector",
+      "flex-layout.row#availability"
+      // "flex-layout.row#description",
+      // "flex-layout.row#specifications",
+    ]
+  },
+  "flex-layout.row#availability": {
+    "props": {
+      "blockClass": "message-availability"
+    },
+    "children": [
+      "availability-subscriber"
+    ]
+  },
+  // POSSIBILIDADES
+  "flex-layout.row#relatedProducts": {
+    "props": {
+      "blockClass": "linha-possibilidades"
+    },
+    "children": [
+      "rich-text#produtos-relacionados",
+      "list-context.product-list#sugestoes-pdp"
+    ]
+  },
+  "rich-text#produtos-relacionados": {
+    "props": {
+      "text": "Conheça nossos acessórios!",
+      "blockClass": "produtos-relacionados"
+    }
+  },
+  "list-context.product-list#sugestoes-pdp": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#sugestoes-pdp"
+    ],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "maxItems": 36,
+      "blockClass": "list-context"
+    }
+  },
+  "slider-layout#sugestoes-pdp": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "always",
+      "blockClass": "shelf",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    }
+  },
+  // VEJA MAIS PRODUTOS
+  "flex-layout.row#veja-mais-produtos": {
+    "props": {
+      "blockClass": "linha-veja-mais-produtos"
+    },
+    "children": [
+      "rich-text#veja-mais-produtos",
+      "list-context.product-list#veja-mais-produtos"
+    ]
+  },
+  "rich-text#veja-mais-produtos": {
+    "props": {
+      "text": "Veja mais produtos:",
+      "blockClass": "texto-veja-mais-produtos"
+    }
+  },
+  "list-context.product-list#veja-mais-produtos": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#veja-mais-produtos"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 8
+    }
+  },
+  "slider-layout#veja-mais-produtos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "always",
+      "blockClass": "shelf"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+.buttonText::before {
+  content: "Comprar";
+  font-size: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--buy-button-pdp) .buttonText {
+  color: #fff;
+  font: 0 "Montserrat Semibold";
+}

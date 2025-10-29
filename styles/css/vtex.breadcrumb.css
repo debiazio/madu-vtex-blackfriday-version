@@ -1,0 +1,88 @@
+.link--2 {
+  text-wrap: nowrap;
+}
+
+.container {
+  text-transform: capitalize;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.breadcrumb-1-x-link--1 {
+  font-size: 12px;
+}
+
+.homeIcon {
+  display: none;
+}
+
+.homeLink {
+  padding: 0;
+}
+
+.homeLink::before {
+  content: "Home";
+  font-size: .92em;
+  padding: 0;
+  line-height: 1;
+  color: #161616;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 500;
+  text-align: left;
+}
+
+.term {
+  font-size: .92em;
+  padding: 0;
+  line-height: 1;
+  color: #636363;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 500;
+  text-align: left;
+}
+
+.link {
+  font-size: .92em;
+  padding: 0;
+  line-height: 1;
+  color: #161616;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 500;
+  text-align: left;
+}
+
+.arrow {
+  padding: 0 5px;
+}
+
+.arrow::before {
+  content: "/";
+  font-size: 13px;
+  color: black;
+  padding-right: 5px;
+  line-height: 1;
+}
+
+.link:hover,
+.arrow:last-child .link,
+.term {
+  color: #636363;
+}
+
+.caretIcon {
+  display: none;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+
+  .link:hover,
+  .arrow:last-child .link {
+    color: #43483B;
+  }
+
+  .container {
+    text-align: center;
+    padding: 10px 0;
+  }
+}

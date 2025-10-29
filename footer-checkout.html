@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer MADU</title>
+    <style>
+      /* RESET */
+      html,
+      body,
+      div,
+      span,
+      applet,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      a,
+      abbr,
+      acronym,
+      address,
+      big,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      img,
+      ins,
+      kbd,
+      q,
+      s,
+      samp,
+      small,
+      strike,
+      strong,
+      sub,
+      sup,
+      tt,
+      var,
+      b,
+      u,
+      i,
+      center,
+      dl,
+      dt,
+      dd,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      article,
+      aside,
+      canvas,
+      details,
+      embed,
+      figure,
+      figcaption,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      output,
+      ruby,
+      section,
+      summary,
+      time,
+      mark,
+      audio,
+      video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+        font-family: "Montserrat", sans-serif;
+        color: black;
+      }
+      ol,
+      ul {
+        list-style: none;
+      }
+      blockquote,
+      q {
+        quotes: none;
+      }
+      blockquote:before,
+      blockquote:after,
+      q:before,
+      q:after {
+        content: "";
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      /* ESTILO */
+      * {
+        font-family: "Montserrat", sans-serif !important;
+      }
+      footer h2,
+      footer p,
+      footer a {
+        color: white;
+      }
+      a,
+      a:hover {
+        text-decoration: none;
+        color: white;
+      }
+      h2 {
+        font-weight: 900;
+        margin-bottom: 10px;
+        font-size: small;
+      }
+      p,
+      a {
+        padding: 5px 0;
+      }
+      footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #143b65;
+      }
+      .linha-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        padding: 30px 40px;
+        font-size: 12px;
+      }
+      .coluna-1-footer,
+      .coluna-2-footer,
+      .coluna-3-footer,
+      .coluna-4-footer {
+        display: flex;
+        flex-direction: column;
+      }
+      .coluna-4-footer {
+        justify-content: space-between;
+      }
+      .coluna-1-footer img {
+        width: 200px;
+      }
+      .coluna-1-footer h2 {
+        color: transparent !important;
+      }
+
+      .coluna-1-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 80px;
+        margin-left: -40px;
+      }
+      .mfm-logo img {
+        max-width: 200px;
+      }
+      .images-redes img {
+        max-width: 20px;
+      }
+      .atendimento {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .atendimento p {
+        line-height: 1.5;
+      }
+      .atendimento img {
+        max-width: 15px;
+        max-height: 15px;
+        margin-right: 5px;
+      }
+      .images-redes {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 10px;
+      }
+      .conteiner-linha-final {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+      }
+      .linha-final-footer {
+        background-color: black;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 1300px;
+        font-size: small;
+      }
+      .bandeiras {
+        max-width: 500px;
+        max-height: 30px;
+      }
+      .outras-imgs img {
+        max-width: 50px;
+        margin: 0 10px;
+      }
+
+      .header-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .linha-titulo-header-checkout {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: 40px;
+      }
+
+      /* RESPONSIVO */
+      @media screen and (max-width: 1000px) {
+        .coluna-1-footer,
+        .coluna-4-footer {
+          align-items: center;
+          text-align: center;
+        }
+        .linha-footer {
+          flex-direction: column;
+        }
+        .linha-final-footer {
+          flex-direction: column-reverse;
+        }
+        .bandeiras {
+          max-width: 300px;
+          max-height: 30px;
+          padding: 10px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-container">
+      <a href="/" title="Voltar para a home">
+        <img
+          src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7fd3f681-5c72-488b-906c-3ba8336141a3___1525ea936b56c1eccf0975e4eef4a9ad.webp"
+          width="257px"
+          alt="Madu"
+          class="logo__image"
+        />
+      </a>
+      <div class="linha-titulo-header-checkout">
+        <h1 class="titulo-header-checkout">Finalizar Compra</h1>
+      </div>
+      <hr />
+    </div>
+    <!-- PARTE QUE INTERESSA  -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="linha-footer">
+          <!-- PRIMEIRA COLUNA -LOGO  -->
+          <div class="coluna-1-footer">
+            <a href="#"
+              ><img
+                src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a0c9b3f2-f273-46e0-83a8-b3dca24587af___2e96938ceaa3a6a69f9186f723dd1968.png"
+                alt="Logo MADU"
+            /></a>
+          </div>
+          <!-- SEGUNDA COLUNA - ATENDIMENTO -->
+          <div class="coluna-2-footer">
+            <h2>Atendimento</h2>
+            <div class="atendimento">
+              <a
+                href="mailto:comercial@madumfm.com.br"
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 4px;
+                  text-decoration: none;
+                  color: inherit;
+                "
+              >
+                <img
+                  src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/52a0fa4d-02bd-42bf-a8a9-06a7e12d2a00___55414a402d2aef66f528b440d4acab36.svg"
+                  alt="Ícone email"
+                />
+                <p>comercial@madumfm.com.br</p>
+              </a>
+            </div>
+
+            <div class="atendimento">
+              <a
+                href="https://wa.me/5541999710465"
+                target="_blank"
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 4px;
+                  text-decoration: none;
+                  color: inherit;
+                "
+              >
+                <img
+                  src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/0592bb00-bc53-4d5b-b366-e2a8e3920e11___5c791f36d5d5bbe03099005b962f6147.svg"
+                  alt="Ícone whatsapp"
+                />
+                <p>(41) 99971-0465</p>
+              </a>
+            </div>
+
+            <div class="atendimento">
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=R.+Inajá,+695+-+Jardim+Pedro+Demeterco,+Pinhais+-+PR,+83324-225"
+                target="_blank"
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 4px;
+                  text-decoration: none;
+                  color: inherit;
+                "
+              >
+                <img
+                  src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/be345ee9-2799-4525-b820-2364c37a2a9b___5aa43324011b9e83b98bbaac114ca10d.webp"
+                  alt="Ícone maps"
+                />
+                <p>
+                  R. Inajá, 695 - Jardim Pedro Demeterco<br />
+                  Pinhais - PR, 83324-225
+                </p>
+              </a>
+            </div>
+
+            <div class="atendimento">
+              <img
+                src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ebb0541d-9cda-4e09-a78e-6174fe756821___986ca0e2615937e3c578931f26789283.png"
+                alt="Ícone telefone"
+              />
+              <p>0800 721 8533</p>
+            </div>
+          </div>
+          <!-- TERCEIRA COLUNA - INSTITUCIONAL  -->
+          <div class="coluna-3-footer">
+            <h2>Institucional</h2>
+            <a href="/made-for-you">Made For You</a>
+            <a href="/politica-de-privacidade">Política de Privacidade</a>
+            <a href="/trocas-e-devolucoes">Política de Trocas e Devoluções</a>
+            <a href="/politica-de-entregas">Política de Entregas</a>
+            <a href="/formas-de-pagamento">Formas de Pagamento</a>
+            <a href="/observacoes">Observações</a>
+          </div>
+          <!-- QUARTA COLUNA - SIGA-NOS  -->
+          <div class="coluna-4-footer">
+            <h2>Siga-nos</h2>
+            <div class="images-redes">
+              <a href="https://www.facebook.com/mfmmadu"
+                ><img
+                  src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/27771c78-5010-4efd-8ba2-f6861d103202___71a56bcbd8f7355d649bacbe46f86a98.png"
+                  alt="facebook"
+              /></a>
+              <a href="https://www.instagram.com/madumfm/"
+                ><img
+                  src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/10bd6e76-ccf4-45bb-b516-5162cd654ffa___c4b3e8378fa34db08f80e980b48ec48d.webp"
+                  alt="Instagram"
+              /></a>
+              <a href="https://www.linkedin.com/company/madumfm/"
+                ><img
+                  src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d3acb542-2c7d-4271-9e13-2a2898296210___de1466829ead534942edb91c17f5071f.webp"
+                  alt="Linkedin"
+              /></a>
+              <a href="https://vimeo.com/user154510707"
+                ><img
+                  src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1da8e86a-0e64-43dd-bba6-3806b313060c___59acacc626ebcc8ca83525cae785c0d9.webp"
+                  alt="Vimeo"
+              /></a>
+            </div>
+            <div class="mfm-logo">
+              <a href="#"
+                ><img
+                  src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8917a7ac-760e-4d20-ae3d-699f17e5de2e___b210f71b60b4f933cf1fb023dbc6d462.webp"
+                  alt="MFM Group"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="conteiner-linha-final">
+        <div class="linha-final-footer">
+          <p>Copyright © 2025 - Todos os direitos reservados.</p>
+          <img
+            class="bandeiras"
+            src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/31bf1763-6833-40a8-b571-2b5b64639cec___2a663141e992fab18e98de4c59b15148.webp"
+            alt="Cartões aceitos"
+          />
+          <div class="outras-imgs">
+            <img
+              src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/83f79e26-67d1-4ee0-af1d-c3d0e8fea48e___ed3a9c16ba5570fd76e66865223d1450.png"
+              alt="Vtex"
+            />
+            <img
+              src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/288b6559-b349-4db8-b917-3289aa2225f0___cf0cb9c5cb2b454cc58a8b13daa4952f.png"
+              alt="Let's Encrypt"
+            />
+            <img
+              src="https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/119408bd-4981-48e3-90d1-81a8e6d5ca29___1c84dba4a20c8414e89e3131153ac195.svg"
+              alt="Pagar.me"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- PARTE QUE INTERESSA -->
+  </body>
+</html>

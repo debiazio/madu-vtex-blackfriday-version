@@ -1,0 +1,563 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField":"OrderByScoreDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 30,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField":"OrderByScoreDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 9,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField":"OrderByScoreDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 9,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField":"OrderByScoreDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 9,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField":"OrderByScoreDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 9,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      // "flex-layout.row#banner-categoria",
+      // "flex-layout.row#categorias",
+      "flex-layout.row#banner-pesquisa",
+      // "flex-layout.row#conheca-nossas-linhas",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "infinite-scroll",
+      "preventRouteChange": true,
+      "showFacetQuantity": true,
+      "blockClass": "busca-desktop",
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  // BANNER PESQUISA
+  "flex-layout.row#banner-pesquisa": {
+    "props": {
+      "blockClass": "banner-pesquisa",
+      "fullWidth": true
+    },
+    "children": [
+      "search-title.v2"
+      // "image#banner-search"
+    ]
+  },
+  "image#banner-search": {
+    "props": {
+      "blockClass": "banner-search-image",
+      "src": "assets/cupom.svg",
+      "alt": "Banner Categoria"
+    }
+  },
+  // LINHA NOSSAS LINHAS
+  "flex-layout.row#conheca-nossas-linhas": {
+    "props": {
+      "blockClass": "linha-conheca",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#conheca",
+      "modal-trigger#conheca-madu-one",
+      "modal-trigger#conheca-expand",
+      "modal-trigger#conheca-express",
+      "modal-trigger#conheca-extra",
+      "modal-trigger#conheca-box",
+      "modal-trigger#conheca-set"
+    ]
+  },
+  // TEXTO LABEL CONHEÇA NOSSAS LINHAS
+  "rich-text#conheca": {
+    "props": {
+      "text": "Conheça nossas linhas:",
+      "blockClass": "titulo-conheca"
+    }
+  },
+  // TRIGGER CONHEÇA NOSSAS LINHAS
+  "modal-trigger#conheca-madu-one": {
+    "children": [
+      "rich-text#madu-one-conheca",
+      "modal-layout#madu-one-conheca"
+    ],
+    "props": {
+      "trigger": "click",
+      "blockClass": "trigger-conheca"
+    }
+  },
+  "modal-trigger#conheca-expand": {
+    "children": [
+      "rich-text#expand-conheca",
+      "modal-layout#expand-conheca"
+    ],
+    "props": {
+      "trigger": "click",
+      "blockClass": "trigger-conheca"
+    }
+  },
+  "modal-trigger#conheca-express": {
+    "children": [
+      "rich-text#express-conheca",
+      "modal-layout#express-conheca"
+    ],
+    "props": {
+      "trigger": "click",
+      "blockClass": "trigger-conheca"
+    }
+  },
+  "modal-trigger#conheca-extra": {
+    "children": [
+      "rich-text#extra-conheca",
+      "modal-layout#extra-conheca"
+    ],
+    "props": {
+      "trigger": "click",
+      "blockClass": "trigger-conheca"
+    }
+  },
+  "modal-trigger#conheca-box": {
+    "children": [
+      "rich-text#box-conheca",
+      "modal-layout#box-conheca"
+    ],
+    "props": {
+      "trigger": "click",
+      "blockClass": "trigger-conheca"
+    }
+  },
+  "modal-trigger#conheca-set": {
+    "children": [
+      "rich-text#set-conheca",
+      "modal-layout#set-conheca"
+    ],
+    "props": {
+      "trigger": "click",
+      "blockClass": "trigger-conheca"
+    }
+  },
+  // TEXTO TRIGGER
+  "rich-text#madu-one-conheca": {
+    "props": {
+      "text": "MAD.U One",
+      "blockClass": "label-conheca"
+    }
+  },
+  "rich-text#expand-conheca": {
+    "props": {
+      "text": "MAD.U Expand",
+      "blockClass": "label-conheca"
+    }
+  },
+  "rich-text#express-conheca": {
+    "props": {
+      "text": "MAD.U Express",
+      "blockClass": "label-conheca"
+    }
+  },
+  "rich-text#extra-conheca": {
+    "props": {
+      "text": "MAD.U Extra",
+      "blockClass": "label-conheca"
+    }
+  },
+  "rich-text#box-conheca": {
+    "props": {
+      "text": "MAD.U Box",
+      "blockClass": "label-conheca"
+    }
+  },
+  "rich-text#set-conheca": {
+    "props": {
+      "text": "MAD.U Set",
+      "blockClass": "label-conheca"
+    }
+  },
+  // CONTEUDO DO MODAL CONHECA NOSSAS LINHAS
+  "modal-layout#madu-one-conheca": {
+    "props": {
+      "blockClass": "modal-layout-conheca"
+    },
+    "children": [
+      "rich-text#madu-one-explicacao"
+    ]
+  },
+  "modal-layout#expand-conheca": {
+    "props": {
+      "blockClass": "modal-layout-conheca"
+    },
+    "children": [
+      "rich-text#expand-explicacao"
+    ]
+  },
+  "modal-layout#express-conheca": {
+    "props": {
+      "blockClass": "modal-layout-conheca"
+    },
+    "children": [
+      "rich-text#express-explicacao"
+    ]
+  },
+  "modal-layout#extra-conheca": {
+    "props": {
+      "blockClass": "modal-layout-conheca"
+    },
+    "children": [
+      "rich-text#extra-explicacao"
+    ]
+  },
+  "modal-layout#box-conheca": {
+    "props": {
+      "blockClass": "modal-layout-conheca"
+    },
+    "children": [
+      "rich-text#box-explicacao"
+    ]
+  },
+  "modal-layout#set-conheca": {
+    "props": {
+      "blockClass": "modal-layout-conheca"
+    },
+    "children": [
+      "rich-text#set-explicacao"
+    ]
+  },
+  // texto explicativo
+  "rich-text#madu-one-explicacao": {
+    "props": {
+      "text": "MADU ONE: essa é a nossa Linha Premium. Nela você encontrará milhares de combinações possíveis com o que há de melhor em qualidade, tecnologia e soluções de design.",
+      "blockClass": "texto-explicativo"
+    }
+  },
+  "rich-text#expand-explicacao": {
+    "props": {
+      "text": "MADU EXPAND: aqui você encontra produtos que permitem expandir ainda mais as possibilidades já existentes de uso, dentro das necessidades de cada usuário.",
+      "blockClass": "texto-explicativo"
+    }
+  },
+  "rich-text#express-explicacao": {
+    "props": {
+      "text": "MADU EXPRESS: conheça uma completa linha de prateleiras, bancadas, estações de trabalho e estantes em aço inoxidável e polímeros de engenharia para as mais diferentes aplicações num conceito de modularidade virtualmente infinita.",
+      "blockClass": "texto-explicativo"
+    }
+  },
+  "rich-text#extra-explicacao": {
+    "props": {
+      "text": "MADU EXTRA: essa é a nossa linha básica. Para quem procura uma solução leve, simples e prática. Qualidade e durabilidade numa linha extremamente competitiva.",
+      "blockClass": "texto-explicativo"
+    }
+  },
+  "rich-text#box-explicacao": {
+    "props": {
+      "text": "MADU BOX: uma completa linha de caixas com ou sem tampas, maletas de transporte, bandejas separadoras, bins e suportes para facilitar a organização dos mais diferentes tipos de produtos.",
+      "blockClass": "texto-explicativo"
+    }
+  },
+  "rich-text#set-explicacao": {
+    "props": {
+      "text": "MADU SET: linha de divisórias organizadoras para a separação de itens especializados como medicamentos, instrumentos e outros.",
+      "blockClass": "texto-explicativo"
+    }
+  },
+
+
+// EXIBE OS RESULTADOS
+  "flex-layout.row#result": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#content"
+    ],
+    "props": {
+      "blockClass": "plp-page"
+    }
+  },
+  "flex-layout.col#filter": {
+    "children": [
+      // "flex-layout.row#searchbread",
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "filterCol",
+      "verticalAlign": "top",
+      "width": "20%"
+    }
+  },
+  "filter-navigator.v3": {
+    "props": {
+      "initiallyCollapsed": true,
+      "scrollToTop": "smooth",
+      "blockClass": "filterCol",
+      "layout": "responsive",
+      "truncateFilters": true,
+      "appliedFiltersOverview": "show",
+      "showClearAllFiltersOnDesktop": true
+      // "navigationTypeOnMobile":"collapsible",
+    }
+  },
+  "flex-layout.row#searchbread": {
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.col#content": {
+    "children": [
+      // "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfo",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#products",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "width": "80%",
+      "colSizing": "auto",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#searchtitle": {
+    "children": [
+      "search-title.v2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "titulo-institucionais"
+    }
+  },
+  "flex-layout.row#searchinfo": {
+    "children": [
+      "flex-layout.col#productCount",
+      "flex-layout.row#orderBy"
+    ],
+    "props": {
+      "blockClass": "searchinfo"
+    }
+  },
+  "flex-layout.col#productCount": {
+    "children": [
+      "total-products.v2"
+    ],
+    "props": {
+      "blockClass": "productCountCol"
+    }
+  },
+  "flex-layout.row#orderBy": {
+    "children": [
+      "order-by.v2"
+    ],
+    "props": {
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "blockClass": "orderBy"
+    }
+  },
+  "flex-layout.row#fetchprevious": {
+    "children": [
+      "search-fetch-previous"
+    ],
+    "props": {
+      "blockClass": [
+        "fetch",
+        "fetchprevious"
+      ]
+    }
+  },
+  "flex-layout.row#fetchmore": {
+    "children": [
+      "search-fetch-more"
+    ],
+    "props": {
+      "blockClass": "fetch"
+    }
+  },
+  "search-fetch-previous": {
+    "props": {
+      "htmlElementForButton": "a"
+    }
+  },
+  "search-fetch-more": {
+    "props": {
+      "htmlElementForButton": "a"
+    }
+  },
+  "flex-layout.row#products": {
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 3,
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 2
+          }
+        }
+      ],
+      "GridSummary": "product-summary.shelf"
+    }
+  },
+  // MOBILE
+  "search-result-layout.mobile": {
+    "children": [
+      // "image#banner-dpto-mobile",
+      // "flex-layout.row#searchbread",
+      "flex-layout.row#banner-pesquisa",
+      "flex-layout.row#productCountMobile",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#contentmobile": {
+    "children": [
+      "search-content"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#searchinfomobile": {
+    "children": [
+      "flex-layout.col#filterMobile",
+      "flex-layout.col#orderByMobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "blockClass": "searchinfomobile"
+    }
+  },
+  "flex-layout.col#filterMobile": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+  "flex-layout.col#orderByMobile": {
+    "children": [
+      "order-by.v2"
+    ],
+    "props": {
+      "blockClass": "orderByMobileCol"
+    }
+  },
+  "flex-layout.row#productCountMobile": {
+    "children": [
+      "flex-layout.col#productCount"
+    ],
+    "props": {
+      "blockClass": "productCountMobileRow"
+    }
+  },
+  "search-not-found-layout": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#notfound"
+    ]
+  },
+  "flex-layout.row#notfound": {
+    "children": [
+      "flex-layout.col#notfound"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#notfound": {
+    "children": [
+      "not-found",
+      "rich-text#notfound",
+      "flex-layout.row#shelf"
+    ]
+  },
+  "rich-text#notfound": {
+    "props": {
+      "text": "Sugestões para você!",
+      "blockClass": "notfound"
+    }
+  }
+}

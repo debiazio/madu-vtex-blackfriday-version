@@ -1,0 +1,70 @@
+.label {
+  color: #4F4242;
+  font-size: 12px;
+  text-transform: none;
+  padding-left: 1px;
+  display: block;
+  margin-top: 3px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--topbar) .profileIcon {
+  width: 0.8px;
+  height: 1px;
+  margin-top: 4px;
+  overflow: visible;
+}
+
+
+.container {
+  margin-right: 37px;
+}
+
+.container :global(.vtex-button)::before {
+  content: "Minha conta";
+  text-transform: capitalize;
+  margin-right: 18px;
+  font-weight: 900;
+  color:#04264b
+}
+
+.container :global(.vtex-button) {
+  border: 0;
+  min-height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.container :global(.vtex-button__label) {
+  padding: 0 !important;
+  margin-top: -10px;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .container :global(.vtex-button)::before {
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-top: -2px;
+  }
+
+  .container {
+    margin-right: 31px;
+    margin-top: 6px;
+  }
+
+  .label {
+    display: none;
+  }
+
+  .container .profileIcon {
+    width: 0.5rem;
+    height: 0.05rem;
+    overflow: visible;
+    margin-top: 4px;
+    margin-left: 5px;
+  }
+
+
+
+}
