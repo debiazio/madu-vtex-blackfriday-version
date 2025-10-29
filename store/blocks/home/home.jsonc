@@ -3,6 +3,7 @@
     "blocks": [
       "list-context.image-list#home-desktop",
       "flex-layout.row#shop-by-category",
+      "modal-trigger#roleta",
       // "responsive-layout.desktop#categorias",
       // "responsive-layout.mobile#categorias",
       "__fold__",

@@ -1,11 +1,24 @@
+:root{
+  --fonte-montserrat-regular: "Montserrat";
+  --fonte-montserrat-bold: "Montserrat Bold";
+}
 
 
-.carouselGaleryThumbs .swiper-wrapper{
+/* CSS ROLETA ABAIXO  */
+.emailInputContainer--inputs-form-roleta input {
+  color: #bcb2ba;
+  width: 100%;
+}
+
+/* CSS ROLETA ACIMA  */
+
+
+.carouselGaleryThumbs .swiper-wrapper {
   gap: 10px;
 }
 
 
-:global(.vtex-address-form-4-x-input)::before{
+:global(.vtex-address-form-4-x-input)::before {
   content: "teste";
 }
 
@@ -13,7 +26,7 @@
   background-color: transparent;
 }
 
-:global(.vtex-render__container-id-search-result-layout){
+:global(.vtex-render__container-id-search-result-layout) {
   background-color: #F7F7F7;
 }
 
@@ -53,10 +66,10 @@ input:-webkit-autofill {
   -webkit-transition-delay: 9999s;
 }
 
-  input[type="text"],
-  input[type="email"] {
-    background-color: #F7F7F7;
-  }
+input[type="text"],
+input[type="email"] {
+  background-color: #F7F7F7;
+}
 
 
 /* ajusta bug de zoom nos inputs do iphone */

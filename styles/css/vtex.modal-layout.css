@@ -1,3 +1,53 @@
+/* CSS ROLETA  */
+.closeIcon--roleta-header {
+  width: 20px;
+}
+
+.headerContainer--roleta-header {
+  width: 100%;
+  border-bottom: none;
+}
+
+.container--form-roleta {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: #000000;
+}
+
+.paper--form-roleta {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 25px;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+
+.closeButton--botao-fechar-roleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  color: white;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.closeButtonLabel--botao-fechar-roleta {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS ROLETA  */
+
 .triggerContainer--modal-layout-trigger {
   display: flex;
   flex-direction: column;
@@ -5,9 +55,9 @@
 }
 
 
-.backdrop--modal-layout-content{
-      background-color: rgba(0, 0, 0, 0.877);
-      opacity: 0.8;
+.backdrop--modal-layout-content {
+  background-color: rgba(0, 0, 0, 0.877);
+  opacity: 0.8;
 }
 
 .container--modal-layout-content {
@@ -58,6 +108,29 @@
     height: 100%;
     overflow: auto;
   }
+
+  /* CSS ROLETA ABAIXO  */
+  .closeButton--botao-fechar-roleta {
+    right: 15px;
+  }
+
+  .paper--form-roleta {
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .headerContainer--roleta-header {
+    position: unset;
+    /* top: 70px; */
+    width: 100%;
+    border-bottom: none;
+  }
+
+  /* CSS ROLETA ACIMA  */
 
 
 

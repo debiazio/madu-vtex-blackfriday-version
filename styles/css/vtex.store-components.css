@@ -1,4 +1,23 @@
+/* CSS ROLETA ABAIXO */
+.imageElement--roleta-primeira-tela {
+  width: 400px;
+  margin-top: 20px;
+}
 
+.imageElement--imagem-link-para-roleta {
+  cursor: pointer;
+}
+
+.imageElement--tabela-primeira-tela {
+  max-width: 360px;
+  max-height: 106px;
+  margin-top: 42px;
+}
+
+/* CSS ROLETA ACIMA */
+.imageElement--titulo-img-roleta {
+  max-width: 333px;
+}
 
 .productReference {
   font-size: 0.7rem;
@@ -17,28 +36,29 @@
 
 
 
-.imageElement--telefone-header{
+.imageElement--telefone-header {
   width: 14px;
 }
 
-.imageElement--icone-maleta{
+.imageElement--icone-maleta {
   width: 18px;
   height: 14px;
   margin: 0;
   padding: 0;
 }
 
-.imageElement--imagem-caixa-vermelha{
+.imageElement--imagem-caixa-vermelha {
   position: relative;
   right: 33px;
   top: 10px;
 }
-.imageElement--imagem-maleta-preta{
+
+.imageElement--imagem-maleta-preta {
   position: relative;
   left: 33px;
 }
 
-.imageElement--diferencas-texto{
+.imageElement--diferencas-texto {
   width: 300px;
   height: 77px;
   margin-bottom: 20px;
@@ -1104,26 +1124,52 @@
     margin-top: 0;
   }
 
-  .imageElement--icone-lampada{
+  .imageElement--icone-lampada {
     margin: 22px;
   }
 
-  .imageElement--imagem-maleta-preta{
+  .imageElement--imagem-maleta-preta {
     position: unset;
     top: unset;
     width: 108px;
     height: 108px;
   }
 
-  .imageElement--imagem-caixa-vermelha{
+  .imageElement--imagem-caixa-vermelha {
     position: unset;
     top: unset;
     width: 178px;
     height: 114px;
   }
 
-  .imageElement--slider-madubox-mobile{
+  .imageElement--slider-madubox-mobile {
     height: 233px;
   }
+
+  /* CSS ROLETA ABAIXO  */
+  .imageElement--roleta-primeira-tela {
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .imageElement--titulo-img-roleta {
+    margin-top: 500px;
+    /* padding: 10px 0 10px 0; */
+    width: 70vw;
+  }
+
+  .imageElement--roleta-logotipo-idelaine {
+    width: 120px;
+    margin-left: 0;
+  }
+
+  .imageElement--tabela-primeira-tela {
+    max-width: 70vw;
+    max-height: fit-content;
+    padding-top: 10px;
+    margin: 0;
+  }
+
+  /* CSS ROLETA ACIMA  */
 
 }

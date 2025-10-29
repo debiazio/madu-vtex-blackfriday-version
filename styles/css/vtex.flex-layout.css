@@ -1,3 +1,83 @@
+/* CSS ROLETA  */
+
+.flexRowContent--rules-roleta-container {
+  max-width: 446px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCol--coluna-direita-roleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px 0 0;
+}
+
+.flexRow--row-form-roleta {
+  min-width: 400px;
+  margin: 0;
+  position: relative;
+  top: -30px
+}
+
+.flexRowContent--row-form-roleta {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--row-form-roleta {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--row-form-roleta .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexRowContent--layout2-roleta {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCol--coluna-esquerda-roleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.flexColChild--coluna-esquerda-roleta {
+  width: 444px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow--img-trigger-roleta {
+  display: flex;
+  background-color: black;
+}
+
+.flexRowContent--conteiner-confirmacao {
+  display: flex;
+  flex-direction: column;
+  width: 444px;
+  margin: 10px 0 10px 0;
+  padding-left: 0;
+  gap: 5px;
+}
+
+
+
+
+
+/* CSS ROLETA ACIMA */
+
+.flexColChild--coluna-esquerda-roleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .flexRowContent--linha-nossos-clientes {
   display: flex;
   flex-direction: column;
@@ -1618,9 +1698,54 @@
     margin-top: 65px;
   }
 
-  .flexRow--buy-button-pdp{
+  .flexRow--buy-button-pdp {
     margin-bottom: 8px;
   }
+
+
+  /* CSS ROLETA SMARTPHONE */
+  .flexRowContent--row-form-roleta .stretchChildrenWidth {
+    width: unset;
+  }
+
+  .flexColChild--coluna-direita-roleta {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexRow--row-form-roleta {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0;
+  }
+
+  .flexColChild--coluna-esquerda-roleta {
+    width: unset;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexCol--coluna-direita-roleta {
+    display: flex;
+    flex-direction: column;
+    margin-top: -549px;
+  }
+
+  .flexRowContent--rules-roleta-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 540px;
+    position: relative;
+    padding-bottom: 15px;
+    padding: 0;
+  }
+
+
+  /* CSS ROLETA SMARTPHONE */
 
 
 
