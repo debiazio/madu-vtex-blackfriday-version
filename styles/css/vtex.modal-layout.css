@@ -4,7 +4,7 @@
 }
 
 .headerContainer--roleta-header {
-  width: 100%;
+  width: 1100px;
   border-bottom: none;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .paperNotFullScreen {
-  max-width: 1000px;
+  max-width: 100%;
   border-radius: 10px;
 }
 
