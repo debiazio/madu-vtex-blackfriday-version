@@ -1729,7 +1729,8 @@
   .flexCol--coluna-direita-roleta {
     display: flex;
     flex-direction: column;
-    margin-top: -549px;
+    /* margin-top: -549px; */
+    margin: -500px 0 -263px 0;
   }
 
   .flexRowContent--rules-roleta-container {
@@ -1742,6 +1743,10 @@
     position: relative;
     padding-bottom: 15px;
     padding: 0;
+  }
+
+  .flexRowContent--conteiner-confirmacao {
+  width: 90vw;
   }
 
 

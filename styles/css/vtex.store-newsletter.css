@@ -211,7 +211,7 @@
   .phoneInputContainer--inputs-form-roleta,
   .emailInputContainer--inputs-form-roleta,
   .nameInputContainer--inputs-form-roleta {
-    width: 250px;
+    width: 90vw;
     margin: 5px;
   }
 
@@ -221,8 +221,8 @@
 
   .confirmationCheckboxContainer--aceito-termos,
   .confirmationCheckboxContainer--termo-concordo-roleta {
-    width: 80% !important;
-    padding-left: 0;
+    width: 100vw !important;
+    padding-left: 10px;
     margin-top: 10px;
     font-size: 12px;
   }

@@ -1171,10 +1171,12 @@
   .imageElement--roleta-primeira-tela {
     padding-bottom: 10px;
     margin-top: 30px;
+    width: 350px;
+    height: 350px;
   }
 
   .imageElement--titulo-img-roleta {
-    margin-top: 500px;
+    margin-top: 90vh;
     /* padding: 10px 0 10px 0; */
     width: 70vw;
   }
