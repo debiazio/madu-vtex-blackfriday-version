@@ -1,3 +1,24 @@
+.productNameContainer .productBrand:last-child {
+  font-size: 0.7rem;
+  font-weight: 200;
+  white-space: nowrap;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.productReference {
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+
+
+.productNameContainer .productBrand:last-child::before {
+  content: "CÓDIGO DO PRODUTO: ";
+  white-space: pre;
+}
+
+
 /* CSS ROLETA ABAIXO */
 .imageElement--roleta-primeira-tela {
   width: 400px;
