@@ -6,6 +6,8 @@
 .headerContainer--roleta-header {
   width: 1100px;
   border-bottom: none;
+  position: relative;
+  top: 50px;
 }
 
 .container--form-roleta {
