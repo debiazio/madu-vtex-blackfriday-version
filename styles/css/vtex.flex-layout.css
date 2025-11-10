@@ -1,3 +1,20 @@
+.flexRowContent--mobile-notification-bar {
+  background-color: #04264b;
+}
+
+
+.flexRowContent--linha-cupom-top {
+  background-color: black;
+}
+
+
+.flexRowContent--linha-cupom-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 /* CSS ROLETA  */
 
 .flexRowContent--rules-roleta-container {
@@ -539,8 +556,7 @@
 }
 
 .flexRowContent--prateleira-madu-extra {
-  display: flex;
-  flex-direction: column;
+  padding-bottom: 60px;
 }
 
 .flexRowContent--titulo-prateleiras {
@@ -1718,6 +1734,7 @@
     flex-direction: column;
     width: fit-content;
     margin: 0;
+    height: 80vh;
   }
 
   .flexColChild--coluna-esquerda-roleta {
@@ -1729,8 +1746,8 @@
   .flexCol--coluna-direita-roleta {
     display: flex;
     flex-direction: column;
-    /* margin-top: -549px; */
-    margin: -500px 0 -263px 0;
+    margin: 0;
+    align-items: center;
   }
 
   .flexRowContent--rules-roleta-container {
@@ -1739,7 +1756,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 540px;
+    top: 600px;
     position: relative;
     padding-bottom: 15px;
     padding: 0;

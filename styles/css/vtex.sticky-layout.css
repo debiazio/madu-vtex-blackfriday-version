@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 1024px) {
   .wrapper {
-    height: unset;
+    height: unset!important;
   }
 
   .wrapper--stuck {

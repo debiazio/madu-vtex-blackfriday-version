@@ -72,7 +72,8 @@
     "madumfm2.bundle": "0.x",
     "madumfm2.bannerroll": "0.x",
     "vtex.search-resolver": "1.x",
-    "madumfm2.roleta": "0.x"
+    "madumfm2.roleta": "0.x",
+    "madumfm2.cronometro": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x"

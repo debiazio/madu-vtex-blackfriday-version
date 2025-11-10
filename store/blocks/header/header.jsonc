@@ -60,28 +60,72 @@
     "children": [
       // "slider-layout#home-banner",
       // "modal-trigger#popup-cupom", //cupom popup
-      // "flex-layout.row#linha-cupom-top",
+      "flex-layout.row#linha-cronometro",
       "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
       "sticky-layout#3-desktop"
     ]
   },
-  // LINHA DO CUPOM
-  "flex-layout.row#linha-cupom-top": {
+  // LINHA DO cronometro
+  "flex-layout.row#linha-cronometro": {
     "props": {
       "fullWidth": true,
+      "colSizing": "auto",
       "blockClass": "linha-cupom-top"
+    },
+    "children": [
+      "flex-layout.row#titulo-cupomeblack",
+      "flex-layout.row#linha-filha-cronometro",
+      "flex-layout.row#linha-madu"
+    ]
+  },
+  // LINHA DO TITULO DO CRONOMETRO
+  "flex-layout.row#titulo-cupomeblack":{
+    "props": {
+      "blockClass": "linha-titulo-cronometro",
+      "colSizing": "auto"
     },
     "children": [
       "rich-text#frase-cupom-top"
     ]
   },
+  // texto do titulo
   "rich-text#frase-cupom-top": {
     "props": {
-      "text": "10% OFF! Utilize o cupom **PRIMEIRACOMPRA**",
+      "text": "10% OFF + FRETE GRÁTIS",
       "blockClass": "frase-cupom-top"
     }
   },
+  // LINHA ONDE APARECE O CRONOMETRO
+  "flex-layout.row#linha-filha-cronometro":{
+    "props": {
+      "blockClass": "linha-filha-cronometro",
+      "colSizing": "auto"
+    },
+    "children": [
+      "cronometro"
+    ]
+  },
+  // LINHA ONDE APARECE O NOME MADU
+  "flex-layout.row#linha-madu":{
+    "props": {
+      "blockClass": "linha-madu-nome-cronometro",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#nome-madu-logo-cronometro"
+    ]
+  },
+  // TEXTO COM O NOME MAUD
+  "rich-text#nome-madu-logo-cronometro":{
+    "props": {
+      "text": "black**mad.u**",
+      "blockClass": "logo-nome-madu"
+    }
+  },
+
+
+
   "flex-layout.row#1-desktop": {
     "children": [
       "flex-layout.col#header-col1",
@@ -240,6 +284,7 @@
   },
   "header-layout.mobile": {
     "children": [
+      "flex-layout.row#linha-cronometro",
       "flex-layout.row#1-mobile",
       "sticky-layout#2-mobile"
     ]

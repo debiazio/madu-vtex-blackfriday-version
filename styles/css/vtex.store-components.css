@@ -1169,15 +1169,14 @@
 
   /* CSS ROLETA ABAIXO  */
   .imageElement--roleta-primeira-tela {
-    padding-bottom: 10px;
-    margin-top: 30px;
+    /* padding-bottom: 10px; */
+    top: -150px;
     width: 350px;
     height: 350px;
+    position: relative;
   }
 
   .imageElement--titulo-img-roleta {
-    margin-top: 90vh;
-    /* padding: 10px 0 10px 0; */
     width: 70vw;
   }
 
@@ -1189,10 +1188,27 @@
   .imageElement--tabela-primeira-tela {
     max-width: 70vw;
     max-height: fit-content;
-    padding-top: 10px;
+    top: -100px;
     margin: 0;
+    position: relative;
   }
 
   /* CSS ROLETA ACIMA  */
 
+
+  .imageElement--slider-home-desktop {
+    width: 100vw !important;
+  }
+
+
+}
+
+
+@media screen and (max-width: 350px) {
+  .imageElement--roleta-primeira-tela {
+    top: -200px;
+    width: 280px;
+    height: 280px;
+    position: relative;
+  }
 }

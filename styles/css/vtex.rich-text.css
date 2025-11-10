@@ -1,3 +1,17 @@
+.paragraph--logo-nome-madu {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.strong--logo-nome-madu {
+  font-family: "Montserrat Bold";
+  color: #FFFFFF;
+}
+
+
 /* CSS ROLETA ABAIXO */
 .paragraph--titulo-regras-roleta {
   font-family: var(--fonte-montserrat-regular);
@@ -435,8 +449,8 @@
 .paragraph--frase-cupom-top {
   margin: 0;
   color: white;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
   padding: 5px;
 }
 
@@ -1048,4 +1062,28 @@
 
   /* CSS ROLETA ACIMA */
 
+  .container--frase-notification-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paragraph--frase-cupom-top,
+  .paragraph--logo-nome-madu{
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .paragraph--logo-nome-madu{
+    padding-right: 20px;
+
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  .paragraph--subtitulo-nova-roleta{
+    font-size: 10px;
+  }
 }

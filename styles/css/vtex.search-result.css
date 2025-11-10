@@ -272,11 +272,6 @@
   font-size: 22px;
 }
 
-.galleryTitle--layout::before {
-  content: "Resultados da pesquisa por: ";
-}
-
-
 /* MOBILE */
 @media screen and (max-width: 1024px) {
   .searchResultContainer {
