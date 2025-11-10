@@ -103,7 +103,7 @@
       "colSizing": "auto"
     },
     "children": [
-      "cronometro"
+      // "cronometro"
     ]
   },
   // LINHA ONDE APARECE O NOME MADU
@@ -119,7 +119,7 @@
   // TEXTO COM O NOME MAUD
   "rich-text#nome-madu-logo-cronometro":{
     "props": {
-      "text": "black**mad.u**",
+      "text": "| black**mad.u**",
       "blockClass": "logo-nome-madu"
     }
   },
