@@ -101,7 +101,7 @@
 }
 
 .formSubmitContainer--submit-button :global(.vtex-button__label) {
-  width: 446px;
+  width: unset;
 }
 
 .formSubmitContainer--submit-button :global(.vtex-button) {
