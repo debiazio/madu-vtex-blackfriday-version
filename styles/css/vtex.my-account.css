@@ -94,7 +94,11 @@ input[type="email"] {
   flex-direction: row-reverse;
 } */
 
-
+:global(.vtex-render__container-id-slider-desktop){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 :global(.vtex-account)>div {
   max-width: 1300px;

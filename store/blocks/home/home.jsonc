@@ -1,7 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#home-desktop",
+      "responsive-layout.desktop#slider-desktop",
+      "responsive-layout.mobile#slider-home-mobile",
+      // "list-context.image-list#home-desktop",
       "flex-layout.row#shop-by-category",
       "modal-trigger#roleta",
       // "responsive-layout.desktop#categorias",
@@ -29,35 +31,6 @@
           "image": "assets/banners/desktop/Banner-lancamento-madubox-desktop-scaled.webp",
           "link": {
             "url": "/madubox"
-          }
-        },
-        {
-          "mobileImage": "assets/banners/mobile/01-Banner-mobile-Restaurante.webp",
-          "image": "assets/banners/desktop/Banner-desktop-Restaurante-scaled.webp",
-          "link": {
-            "url": "/moveis/carrinhos"
-          }
-        },
-        {
-          "mobileImage": "assets/banners/mobile/02-Banner-mobile-Escritorio.webp",
-          "image": "assets/banners/desktop/02-Banner-desktop-Escritorio-scaled.webp",
-          "link": {
-            "url": "/moveis/carrinhos"
-          }
-        },
-        {
-          "mobileImage": "assets/banners/mobile/03-Banner-mobile-Clinicas.webp",
-          "image": "assets/banners/desktop/03-Banner-desktop-Escritorio-clinicas-scaled.webp",
-          "link": {
-            "url": "/moveis/carrinhos"
-          }
-        },
-        {
-          "mobileImage": "assets/Banner-mobile-Coffee-Time.webp",
-          "image": "assets/coffe-banner-desktop.webp",
-          "description": "Banner 3",
-          "link": {
-            "url": "/produtos/carrinho-de-cafe-e-bebidas-multiuso-mad-u-one-740/"
           }
         }
       ],

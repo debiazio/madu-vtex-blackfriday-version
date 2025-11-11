@@ -1,3 +1,7 @@
+.imageElement--cursor-pointer{
+  cursor: pointer;
+}
+
 .productNameContainer .productBrand:last-child {
   font-size: 0.7rem;
   font-weight: 200;
