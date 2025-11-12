@@ -669,10 +669,12 @@
 }
 
 .paragraph--link-footer {
+  font-size: 13px;
   color: white;
   margin: 0;
   transition: color 0.3s ease;
 }
+
 
 .paragraph--link-footer:hover {
   color: grey;

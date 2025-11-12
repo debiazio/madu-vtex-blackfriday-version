@@ -208,7 +208,7 @@
   },
   "link#endereco-footer": {
     "props": {
-      "href": "https://www.google.com/maps/dir/?api=1&destination=Rua+Emma+Rohrsetzer,+1011,+Pinhais+-+Grande+Curitiba+-+PR,+83324-190",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=R.+Inajá,+695,+Jardim+Pedro+Demeterco",
       "blockClass": "link-footer"
     },
     "children": [
@@ -217,7 +217,7 @@
   },
   "rich-text#endereco": {
     "props": {
-      "text": "Rua Emma Rohrsetzer, 1011, Pinhais - Grande\n Curitiba - PR, 83324-190",
+      "text": "R. Inajá, 695 - Jardim Pedro Demeterco, Pinhais - PR, 83324-225",
       "blockClass": "link-footer"
     }
   },
