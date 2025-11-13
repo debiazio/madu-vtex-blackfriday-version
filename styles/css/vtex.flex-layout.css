@@ -1,3 +1,25 @@
+.flexRowContent--linha-conteudo-avise-me{
+  margin: 20px;
+}
+
+.flexRow--linha-avise-me {
+  background-color: #D9D8D7;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.flexRow--linha-avise-me:hover {
+  background-color: #000000;
+}
+
+.flexRowContent--linha-avise-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
 .flexRowContent--mobile-notification-bar {
   background-color: #04264b;
 }
@@ -1276,6 +1298,10 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linha-conteudo-avise-me{
+  margin: 0;
+}
+
   .flexRowContent--minicart-footer {
     padding: 20px;
   }
@@ -1763,7 +1789,7 @@
   }
 
   .flexRowContent--conteiner-confirmacao {
-  width: 90vw;
+    width: 90vw;
   }
 
 

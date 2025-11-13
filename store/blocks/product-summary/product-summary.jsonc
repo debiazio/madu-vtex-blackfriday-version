@@ -3,15 +3,65 @@
     "children": [
       "stack-layout#prodsum",
       "flex-layout.col#product-info-summary",
-      "product-summary-buy-button"
+      "condition-layout.product#disponibilidade-shelf"
     ]
   },
+  // CONDICIONAL PARA APARECER DISPONIBLIDADE
+  "condition-layout.product#disponibilidade-shelf": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "product-summary-buy-button",
+      "Else": "overlay-trigger"
+    }
+  },
+  // GATILHO DO OVERLAY
+  "overlay-trigger": {
+    "children": [
+      "flex-layout.row#linha-avise-me",
+      "overlay-layout#avise-me"
+    ]
+  },
+  // LINHA AVISE-ME
+  "flex-layout.row#linha-avise-me":{
+    "props": {
+      "blockClass": "linha-avise-me"
+    },
+    "children": [
+      "rich-text#botao-aviseme"
+    ]
+  },
+  // botao do avise-me
+  "rich-text#botao-aviseme": {
+    "props": {
+      "text": "indisponível",
+      "blockClass": "botao-aviseme"
+    }
+  },
+  "overlay-layout#avise-me": {
+    "children": [
+      "flex-layout.row#linha-conteudo-avise-me"
+    ]
+  },
+  // LINHA AVISE ME
+  "flex-layout.row#linha-conteudo-avise-me":{
+    "props": {
+      "blockClass": "linha-conteudo-avise-me",
+      "colSizing": "auto"
+    },
+    "children": [
+      "availability-subscriber"
+    ]
+  },
+  // BOTAO COMPRAR
   "product-summary-buy-button": {
     "props": {
       "buyButtonText": "COMPRAR"
     }
   },
-
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
@@ -23,12 +73,12 @@
     "props": {
       "showBadge": false,
       "maxHeight": 400,
-      "width":{
-        "desktop":"300",
+      "width": {
+        "desktop": "300",
         "mobile": "200"
       },
-      "height":{
-        "desktop":"380",
+      "height": {
+        "desktop": "380",
         "mobile": "200"
       },
       "hoverImage": {
@@ -42,7 +92,7 @@
   //     "blockClass":"wishlist-shelf"
   //   }
   // },
-  "flex-layout.row#add-to-cart-summary":{
+  "flex-layout.row#add-to-cart-summary": {
     "children": [
       "product-summary-sku-selector",
       "add-to-cart-button"
@@ -55,18 +105,19 @@
       "colSizing": "auto"
     }
   },
-  "product-summary-sku-selector":{
+  "product-summary-sku-selector": {
     "props": {
-      "visibleVariations": ["Tamanho"]
+      "visibleVariations": [
+        "Tamanho"
+      ]
     }
   },
-  "add-to-cart-button":{
+  "add-to-cart-button": {
     "props": {
       "onClickBehavior": "add-to-cart"
     }
   },
-
-  "flex-layout.col#product-info-summary":{
+  "flex-layout.col#product-info-summary": {
     "children": [
       "product-summary-name",
       "product-list-price#summary",
@@ -75,28 +126,25 @@
       "product-installments#summary"
     ],
     "props": {
-      "blockClass":"product-info-summary"
+      "blockClass": "product-info-summary"
     }
   },
-
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary",
-      "message":"De: {listPriceValue}"
+      "message": "De: {listPriceValue}"
     }
   },
-
-  "product-spot-price#summary":{
-    "props":{
+  "product-spot-price#summary": {
+    "props": {
       "blockClass": "summary",
-      "message":"por {spotPriceValue} à vista",
-      "alwaysShow":true
+      "message": "por {spotPriceValue} à vista"
     }
   },
   "product-installments#summary": {
     "props": {
       "blockClass": "summary",
-      "message":"{hasMoreThanOne, select, true { em {installmentsNumber}X  {installmentValue} sem juros} false{ }}"
+      "message": "{hasMoreThanOne, select, true { em {installmentsNumber}X  {installmentValue} sem juros} false{ }}"
     }
   }
 }

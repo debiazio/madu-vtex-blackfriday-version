@@ -1,3 +1,47 @@
+.container--botao-aviseme {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.wrapper--botao-aviseme {
+  width: 100%;
+
+}
+
+.paragraph--botao-aviseme {
+  margin: 0;
+  white-space: nowrap;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 0.25em;
+  padding-bottom: 0.32em;
+  font-size: 13px;
+  font-family: "Montserrat";
+  margin: 5px 0;
+}
+
+.paragraph--botao-aviseme:hover {
+  font-size: 0;
+  margin: 9px;
+}
+
+.paragraph--botao-aviseme:hover::after {
+  content: "avise-me";
+  font-size: 13px!important;
+  font-family: "Montserrat";
+
+  white-space: nowrap;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 0.25em;
+  padding-bottom: 0.32em;
+  font-family: "Montserrat";
+}
+
+
 .paragraph--logo-nome-madu {
   text-transform: uppercase;
   font-family: "Montserrat";
@@ -1072,12 +1116,12 @@
   }
 
   .paragraph--frase-cupom-top,
-  .paragraph--logo-nome-madu{
+  .paragraph--logo-nome-madu {
     font-size: 10px;
     white-space: nowrap;
   }
 
-  .paragraph--logo-nome-madu{
+  .paragraph--logo-nome-madu {
     padding-right: 20px;
 
   }
@@ -1085,7 +1129,7 @@
 }
 
 @media screen and (max-width: 350px) {
-  .paragraph--subtitulo-nova-roleta{
+  .paragraph--subtitulo-nova-roleta {
     font-size: 10px;
   }
 }
