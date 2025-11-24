@@ -5,7 +5,7 @@
       "blockClass": "menu-principal"
     },
     "children": [
-      "menu-item#cat-carrinhos",
+      "menu-item#cat-carrinhos-alterado",
       "menu-item#cat-armarios",
       "menu-item#cat-estantes",
       "menu-item#cat-acessorios-n",
@@ -18,14 +18,14 @@
     ]
   },
   // MENU ITEMS - CATEGORIAS DO HEADER
-  "menu-item#cat-carrinhos": {
+  "menu-item#cat-carrinhos-alterado": {
     "props": {
       "id": "menu-item-produtos",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "moveis/carrinhos",
+        "href": "/moveis/carrinhos",
         "noFollow": false,
         "tagTitle": "Carrinhos",
         "text": "Carrinhos"
@@ -452,7 +452,7 @@
       "blockClass": "menu-principal-mobile"
     },
     "children": [
-      "menu-item#cat-carrinhos-mobile",
+      "menu-item#cat-carrinhos-mobile-alterado",
       "menu-item#cat-armarios-mobile",
       "menu-item#cat-estantes-mobile",
       "menu-item#cat-acessorios-n-mobile",
@@ -464,14 +464,14 @@
       "menu-item#atendimento"
     ]
   },
-  "menu-item#cat-carrinhos-mobile": {
+  "menu-item#cat-carrinhos-mobile-alterado": {
     "props": {
       "id": "menu-item-produtos-mobile",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "moveis/carrinhos",
+        "href": "/moveis/carrinhos",
         "noFollow": false,
         "tagTitle": "Carrinhos",
         "text": "Carrinhos"
