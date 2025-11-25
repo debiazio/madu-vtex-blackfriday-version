@@ -28,5 +28,8 @@
   },
   "store.custom#madubox":{
     "path": "/madubox"
+  },
+  "store.custom#template-pagina": {
+    "path": "/template"
   }
 }

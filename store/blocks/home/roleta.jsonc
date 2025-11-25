@@ -86,48 +86,48 @@
     }
   },
   // FORM
-  "newsletter-input-name#roleta": {
-    "props": {
-      "placeholderText": "Digite seu nome",
-      "blockClass": "inputs-form-roleta"
-    }
-  },
-  "newsletter-input-email#roleta": {
-    "props": {
-      "placeholderText": "Digite seu email",
-      "blockClass": "inputs-form-roleta"
-    }
-  },
-  "newsletter-input-phone#roleta": {
-    "props": {
-      "placeholderText": "Digite seu celular",
-      "blockClass": "inputs-form-roleta"
-    }
-  },
-  "flex-layout.row#linha-submit":{
-    "props": {
-      "blockClass": "linha-submit",
-      "colSizing": "auto"
-    },
-    "children": [
-      "newsletter-submit#roleta"
-    ]
-  },
+  // "newsletter-input-name#roleta": {
+  //   "props": {
+  //     "placeholderText": "Digite seu nome",
+  //     "blockClass": "inputs-form-roleta"
+  //   }
+  // },
+  // "newsletter-input-email#roleta": {
+  //   "props": {
+  //     "placeholderText": "Digite seu email",
+  //     "blockClass": "inputs-form-roleta"
+  //   }
+  // },
+  // "newsletter-input-phone#roleta": {
+  //   "props": {
+  //     "placeholderText": "Digite seu celular",
+  //     "blockClass": "inputs-form-roleta"
+  //   }
+  // },
+  // "flex-layout.row#linha-submit":{
+  //   "props": {
+  //     "blockClass": "linha-submit",
+  //     "colSizing": "auto"
+  //   },
+  //   "children": [
+  //     "newsletter-submit#roleta"
+  //   ]
+  // },
   "newsletter-submit#roleta": {
     "props": {
       "submitButtonLabel": "Enviar",
       "blockClass": "submit-button"
     }
   },
-  "flex-layout.row#confirm": {
-    "props": {
-      "blockClass": "conteiner-confirmacao"
-    },
-    "children": [
-      "newsletter-checkbox-confirmation#roleta",
-      "newsletter-checkbox-confirmation#roleta-termos"
-    ]
-  },
+  // "flex-layout.row#confirm": {
+  //   "props": {
+  //     "blockClass": "conteiner-confirmacao"
+  //   },
+  //   "children": [
+  //     "newsletter-checkbox-confirmation#roleta",
+  //     "newsletter-checkbox-confirmation#roleta-termos"
+  //   ]
+  // },
   "newsletter-checkbox-confirmation#roleta": {
     "props": {
       "checkboxLabel": "Eu concordo em  receber comunicações.",
