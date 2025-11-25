@@ -31,5 +31,8 @@
   },
   "store.custom#template-pagina": {
     "path": "/template"
+  },
+  "store.custom#banner": {
+    "path": "/banner"
   }
 }
