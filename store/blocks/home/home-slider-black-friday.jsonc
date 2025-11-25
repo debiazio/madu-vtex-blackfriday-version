@@ -23,6 +23,7 @@
       }
     },
     "children": [
+      "image#pronta-entrega",
       "modal-trigger#trigger2-roleta",
       "image#black-madu-banner",
       "image#carrinho-sedacao",
@@ -31,6 +32,16 @@
     ]
   },
   // TRIGGER ROLETA desktop
+  "image#pronta-entrega": {
+    "props": {
+      "src": "assets/banners/desktop/DESKTOP -BANNER SITE MADU CARRINHO EMERGENCIA grande.webp",
+      "alt": "Banner",
+      "blockClass": "image-slider-desktop",
+      "link": {
+        "url": "/pronta-entrega-madu"
+      }
+    }
+  },
   "modal-trigger#trigger2-roleta": {
     "props": {
       "trigger": "click"
@@ -118,12 +129,23 @@
       }
     },
     "children": [
+      "image#pronta-entrega-mobile",
       "modal-trigger#trigger2-roleta-mobile",
       "image#black-madu-banner-mobile",
       "image#carrinho-sedacao-mobile",
       "image#carrinho-emergencia-mobile",
       "image#maletas-madubox-banner-mobile"
     ]
+  },
+  "image#pronta-entrega-mobile": {
+    "props": {
+      "blockClass": "image-slider-mobile",
+      "alt": "Imagem ",
+      "src": "assets/banners/mobile/MOBILE - BANNER SITE MADU CARRINHO EMERGENCIA black.webp",
+      "link": {
+        "url": "/pronta-entrega-madu"
+      }
+    }
   },
   // TRIGGER ROLETA mobile
   "modal-trigger#trigger2-roleta-mobile": {
