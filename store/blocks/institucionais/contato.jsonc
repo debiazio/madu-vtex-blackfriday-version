@@ -136,14 +136,17 @@
       },
       "children": [
         // "rich-text#provisoriro",
-        "form"
+        "customformmadu"
       ]
+    },
+    "customformmadu":{
+
     },
 // FORMULARIO
   "form": {
     "props": {
-      "entity": "PE",
-      "schema": "Form"
+      "entity": "CO",
+      "schema": "Person"
     },
     "blocks": [
       "form-success"
