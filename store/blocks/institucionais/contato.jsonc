@@ -1,11 +1,20 @@
 {
   "store.custom#contato": {
     "blocks": [
+      "flex-layout.row#titulo-page-contato",
       "flex-layout.row#contato",
       "flex-layout.row#avaliacoes"
     ]
   },
-
+  "flex-layout.row#titulo-page-contato":{
+    "props": {
+      "blockClass": "linha-titulo-container",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#contato-titulo"
+    ]
+  },
   "flex-layout.row#contato": {
     "props": {
       "blockClass": "colunas-contato"
@@ -18,10 +27,10 @@
   // COLUNA 1 - CONTATO
   "flex-layout.col#contato-col1": {
     "props": {
-      "blockClass": "contato-col1"
+      "blockClass": "contato-col1",
+      "preventVerticalStretch": true
     },
     "children": [
-      "rich-text#contato-titulo",
       "rich-text#contato-texto",
       "flex-layout.row#contato-contatos"
     ]
