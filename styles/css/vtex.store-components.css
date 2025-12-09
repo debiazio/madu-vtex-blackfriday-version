@@ -747,7 +747,7 @@
 }
 
 .shippingContainer :global(.vtex-input__error) {
-  position: absolute;
+  position: unset!important;
   top: 100%;
   left: 100px;
 }
