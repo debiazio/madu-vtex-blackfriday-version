@@ -34,8 +34,5 @@
   },
   "store.custom#banner": {
     "path": "/banner"
-  },
-  "store.custom#teste-configurador":{
-    "path": "/configurador"
   }
 }
