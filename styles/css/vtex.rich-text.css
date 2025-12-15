@@ -645,8 +645,12 @@
 }
 
 /* INSTITUCIONAIS */
+.paragraph--titulo-institucionais {
+  font-size: 27px
+}
+
 .strong--texto-intitucionais {
-  font-size: 27px;
+  /* font-size: 27px; */
   font-weight: 600;
   color: #242424;
 }

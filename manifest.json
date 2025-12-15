@@ -74,7 +74,8 @@
     "vtex.search-resolver": "1.x",
     "madumfm2.roleta": "0.x",
     "vtex.overlay-layout": "0.x",
-    "madumfm2.appformmadu": "0.x"
+    "madumfm2.appformmadu": "0.x",
+    "madumfm2.configurador": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x"
