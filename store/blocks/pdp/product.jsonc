@@ -144,7 +144,7 @@
       "maxItems": 30,
       // "variationsSpacing": 3,
       // "showValueNameForImageVariation": true,
-      "showVariationsLabels": "variationAndItemValue",
+      "showVariationsLabels": "variation",
       "visibility": "always",
       "initialSelection": "complete",
       "displayThumbnailsArrows": true,
