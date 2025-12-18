@@ -99,7 +99,7 @@
   },
   "link#whatsapp": {
     "props": {
-      "href": "https://api.whatsapp.com/send?phone=5541999710465",
+      "href": "https://api.whatsapp.com/send?phone=5541996878783",
       "label": "WhatsApp",
       "openNewTab": true,
       "blockClass": "link-whatsapp-atendimento"

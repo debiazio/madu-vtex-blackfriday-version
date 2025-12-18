@@ -183,8 +183,8 @@
   },
   "link#fone-footer": {
     "props": {
-      "label": "(41) 99971-0465",
-      "href": "https://api.whatsapp.com/send?phone=5541999710465",
+      "label": "(41) 99687-8783",
+      "href": "https://api.whatsapp.com/send?phone=5541996878783",
       "target": "_blank",
       "blockClass": "link-footer"
     }
