@@ -120,7 +120,7 @@
       // "similares",
       "change-text-pdp-app",
       // "bundle",
-      "app-modalcep",
+      // "app-modalcep",
       "flex-layout.row#busca-cep",
 
       "flex-layout.row#metodos-pagamento-pdp",
