@@ -213,9 +213,7 @@
   color: #686868;
 }
 
-.container--descricao-banner1-madubox {
-  width: 30vw !important;
-}
+
 
 .paragraph--texto-banner-final-madubox {
   font-family: "Rubik Bold";
@@ -376,6 +374,10 @@
   font-weight: 400;
   font-size: 16px;
   color: #686868;
+}
+
+.container--subtitulo-banner1-madubox .stretchChildrenWidth{
+  width: 100% !important;
 }
 
 .container--subtitulo-banner1-madubox {
@@ -973,14 +975,18 @@
 
   .container--subtitulo-banner1-madubox {
     white-space: wrap;
+    padding: 0 20px;
   }
 
   .paragraph--descricao-banner1-madubox {
     margin-top: 50px;
+    padding: 0 20px;
+    text-align: justify;
   }
 
   .paragraph--subtitulo-banner1-madubox {
     margin-top: 10px;
+    text-align: center;
   }
 
   .flexRowContent--linha-frente-banner-1 {

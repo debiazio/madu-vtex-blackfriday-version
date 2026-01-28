@@ -2,8 +2,10 @@
   "store.custom#madubox": {
     "blocks": [
       "responsive-layout.mobile#handler-simples",
-      "flex-layout.row#desktop-banner-madubox",
-      "flex-layout.row#desktop-banner2-maletas-madubox",
+      "list-context.image-list#madubox-page",
+      // "flex-layout.row#desktop-banner-madubox",
+      // "flex-layout.row#desktop-banner2-maletas-madubox",
+      "flex-layout.row#texto-subbanner-madubox",
       "responsive-layout.mobile#diferencas-maletas-caixas",
       "responsive-layout.desktop#diferencas-maletas-caixas",
       "responsive-layout.mobile#banner3-caracteristicas-madubox",
@@ -29,6 +31,73 @@
     "children": [
       "handler-visualization"
     ]
+  },
+  // =========================
+  // BANNER INICIAL MADUBOX
+  // ========================
+  "list-context.image-list#madubox-page": {
+    "children": [
+      "slider-layout#madubox-page"
+    ],
+    "props": {
+      "height": 570,
+      "images": [
+        {
+          "mobileImage": "assets/madu-box/banner-home/mobile/Banner-lancamento-madubox-mobile.webp",
+          "image": "assets/madu-box/banner-home/Banner-lancamento-madubox.webp",
+          "link": {
+            "url": "/madubox"
+          }
+        }
+      ],
+      "title": "Banner MaduBox"
+    }
+  },
+  "slider-layout#madubox-page": {
+    "props": {
+      "title": "Slider MaudBox",
+      "blockClass": "slider-madubox",
+      "maxwidth": "1200",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 50,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
+    }
+  },
+  // ========================
+  // SUBBANNER MADUBOX
+  // ========================
+  "flex-layout.row#texto-subbanner-madubox": {
+    "props": {
+      "blockClass": "linha-texto-subbanner",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#subtitulo-banner1-madubox",
+      "rich-text#descricao-banner1-madubox"
+    ]
+  },
+  // SUBTITULO BANNER 1
+  "rich-text#subtitulo-banner1-madubox": {
+    "props": {
+      "text": "Organização, Estilo e Versatilidade em um só produto",
+      "blockClass": "subtitulo-banner1-madubox"
+    }
+  },
+  "rich-text#descricao-banner1-madubox": {
+    "props": {
+      "text": "As Maletas e Caixas MaduBox chegaram para transformar sua rotina, unindo praticidade, resistência e design inteligente. Produzidas em plástico PSI de alta qualidade, com tampa de acrílico transparente, elas permitem visualizar facilmente o conteúdo, manter tudo em ordem e ainda transportar seus itens com segurança e estilo.",
+      "blockClass": "descricao-banner1-madubox"
+    }
   },
   "flex-layout.row#desktop-banner-madubox": {
     "props": {
@@ -118,19 +187,6 @@
     "props": {
       "blockClass": "titulo-mobile-banner1-madu-box",
       "src": "assets/madu-box/banner-inicial/titulo-mobile-madubox.webp"
-    }
-  },
-  // SUBTITULO BANNER 1
-  "rich-text#subtitulo-banner1-madubox": {
-    "props": {
-      "text": "Organização, Estilo e Versatilidade em um só produto",
-      "blockClass": "subtitulo-banner1-madubox"
-    }
-  },
-  "rich-text#descricao-banner1-madubox": {
-    "props": {
-      "text": "As Maletas e Caixas MaduBox chegaram para transformar sua rotina, unindo praticidade, resistência e design inteligente. Produzidas em plástico PSI de alta qualidade, com tampa de acrílico transparente, elas permitem visualizar facilmente o conteúdo, manter tudo em ordem e ainda transportar seus itens com segurança e estilo.",
-      "blockClass": "descricao-banner1-madubox"
     }
   },
   "link#compreagora-madubox": {
@@ -3000,7 +3056,7 @@
     }
   },
   // LINHA SLIDER MADU BOX
-  "flex-layout.row#slider-madubox":{
+  "flex-layout.row#slider-madubox": {
     "props": {
       "blockClass": "slider-madubox",
       "colSizing": "auto"
@@ -3011,7 +3067,7 @@
     ]
   },
   // linha TITULO PRATELEIRA MADUBOX
-  "flex-layout.row#titulo-prateleira-madubox":{
+  "flex-layout.row#titulo-prateleira-madubox": {
     "props": {
       "blockClass": "titulo-prateleiras-madubox"
     },
@@ -3021,21 +3077,21 @@
     ]
   },
   // TITULO PRATELIRA
-  "rich-text#titulo-prateleiras":{
+  "rich-text#titulo-prateleiras": {
     "props": {
       "blockClass": "texto-titulo-prateleira-madubox",
       "text": "COMPRE A SUA MADU BOX"
     }
   },
   // SUBTITULO PRATELEIRA
-  "rich-text#subtitulo-prateleiras":{
+  "rich-text#subtitulo-prateleiras": {
     "props": {
       "blockClass": "texto-subtitulo-prateleira-madubox",
       "text": "Conheça nossos modelos abaixo:"
     }
   },
   // linha prateleira madubox
-  "flex-layout.row#shelf-madubox":{
+  "flex-layout.row#shelf-madubox": {
     "props": {
       "blockClass": "linha-prateleira-madubox"
     },
@@ -3043,7 +3099,7 @@
       "list-context.product-list#prateleira-madubox"
     ]
   },
-  "list-context.product-list#prateleira-madubox":{
+  "list-context.product-list#prateleira-madubox": {
     "blocks": [
       "product-summary.shelf"
     ],
@@ -3056,7 +3112,7 @@
       "blockClass": "list-prateleira-home-madu-extra"
     }
   },
-  "slider-layout#prateleira-madubox":{
+  "slider-layout#prateleira-madubox": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -3070,7 +3126,6 @@
       "blockClass": "prateleira-home-madu-extra"
     }
   },
-
   // BANNER FINAL
   "flex-layout.row#desktop-banner-final": {
     "props": {

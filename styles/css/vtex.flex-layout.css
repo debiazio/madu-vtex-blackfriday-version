@@ -1,4 +1,14 @@
-.flexRowContent--linha-banner-catalogo-madu .stretchChildrenWidth{
+.flexRow--linha-texto-subbanner {
+  margin: 65px 0 90px 0;
+}
+
+.flexRowContent--linha-texto-subbanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--linha-banner-catalogo-madu .stretchChildrenWidth {
   width: 100% !important;
 }
 
@@ -331,39 +341,39 @@
 
 
 .flexCol--coluna-preto {
-  background-image: url(assets/madu-box/cores/preto.webp);
+  background-image: url(assets/madu-box/cores/desk-preto.webp);
 }
 
 .flexCol--coluna-cinza {
-  background-image: url(assets/madu-box/cores/cinza.webp);
+  background-image: url(assets/madu-box/cores/desk-cinza.webp);
 }
 
 .flexCol--coluna-verde {
-  background-image: url(assets/madu-box/cores/verde.webp);
+  background-image: url(assets/madu-box/cores/desk-verde.webp);
 }
 
 .flexCol--coluna-amarelo {
-  background-image: url(assets/madu-box/cores/amarelo.webp);
+  background-image: url(assets/madu-box/cores/desk-amarelo.webp);
 }
 
 .flexCol--coluna-laranja {
-  background-image: url(assets/madu-box/cores/laranja.webp);
+  background-image: url(assets/madu-box/cores/desk-laranja.webp);
 }
 
 .flexCol--coluna-vermelho {
-  background-image: url(assets/madu-box/cores/vermelho.webp);
+  background-image: url(assets/madu-box/cores/desk-vermelho.webp);
 }
 
 .flexCol--coluna-pink {
-  background-image: url(assets/madu-box/cores/pink.webp);
+  background-image: url(assets/madu-box/cores/desk-pink.webp);
 }
 
 .flexCol--coluna-azul {
-  background-image: url(assets/madu-box/cores/azul.webp);
+  background-image: url(assets/madu-box/cores/desk-azul.webp);
 }
 
 .flexCol--coluna-azul-marinho {
-  background-image: url(assets/madu-box/cores/azul-marinho.webp);
+  background-image: url(assets/madu-box/cores/desk-azul-marinho.webp);
 }
 
 .flexCol--coluna-preto,
@@ -375,7 +385,7 @@
 .flexCol--coluna-pink,
 .flexCol--coluna-azul,
 .flexCol--coluna-azul-marinho {
-  background-repeat: no-repeat;
+  background-repeat: round;
   /* background-size: cover; */
   width: calc(1200px / 9);
   height: 189px;
@@ -1727,43 +1737,43 @@
   }
 
   .flexRowContent--mobile-preto-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-preto.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-preto.webp);
   }
 
   .flexRowContent--mobile-preto-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-preto.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-preto.webp);
   }
 
   .flexRowContent--mobile-cinza-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-cinza.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-cinza.webp);
   }
 
   .flexRowContent--mobile-verde-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-verde.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-verde.webp);
   }
 
   .flexRowContent--mobile-amarelo-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-amarelo.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-amarelo.webp);
   }
 
   .flexRowContent--mobile-laranja-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-laranja.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-laranja.webp);
   }
 
   .flexRowContent--mobile-vermelho-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-vermelho.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-vermelho.webp);
   }
 
   .flexRowContent--mobile-pink-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-rosa.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-pink.webp);
   }
 
   .flexRowContent--mobile-azul-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-azul.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-azul.webp);
   }
 
   .flexRowContent--mobile-azul-marinho-fundo {
-    background-image: url(assets/madu-box/cores/cores-mobile/mobile-azul-marinho.webp);
+    background-image: url(assets/madu-box/cores/cores-mobile/mobile2-azul-marinho.webp);
 
   }
 
