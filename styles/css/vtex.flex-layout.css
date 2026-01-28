@@ -1,4 +1,14 @@
-.flexRow--colunas-contato{
+.flexRowContent--linha-banner-catalogo-madu .stretchChildrenWidth{
+  width: 100% !important;
+}
+
+.flexRowContent--linha-banner-catalogo-madu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRow--colunas-contato {
   margin: 28px 0 64px 0;
 }
 

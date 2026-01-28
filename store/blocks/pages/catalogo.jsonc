@@ -2,11 +2,15 @@
   "store.custom#catalogo": {
     "blocks": [
       "flex-layout.row#banner-catalogo",
-      "flex-layout.row#catalogo",
-      "flex-layout.row#catalogo-download"
+      "flex-layout.row#linha-banner-catalogo-madu",
+      "flex-layout.row#linha-folder-maduset",
+      "flex-layout.row#linha-folder-maduset-menor"
     ]
   },
-  "flex-layout.row#banner-catalogo":{
+  // ===================
+  // Banner Catálogo
+  // ===================
+  "flex-layout.row#banner-catalogo": {
     "props": {
       "blockClass": "banner-institucionais",
       "fullWidth": true
@@ -15,11 +19,23 @@
       "rich-text#banner-catalogo"
     ]
   },
-  "rich-text#banner-catalogo":{
+  "rich-text#banner-catalogo": {
     "props": {
       "blockClass": "titulo-institucionais",
       "text": "## Catálogo"
     }
+  },
+  // ===================
+  // Linha Banner Catálogo MDU
+  // ===================
+  "flex-layout.row#linha-banner-catalogo-madu": {
+    "props": {
+      "blockClass": "linha-banner-catalogo-madu"
+    },
+    "children": [
+      "flex-layout.row#catalogo",
+      "flex-layout.row#catalogo-download"
+    ]
   },
   "flex-layout.row#catalogo": {
     "props": {
@@ -36,6 +52,9 @@
       "height": "800px"
     }
   },
+  // ===================
+  // linha download do catálogo MaDU
+  // ==================
   "flex-layout.row#catalogo-download": {
     "props": {
       "blockClass": "catalogo-download"
@@ -47,7 +66,116 @@
   "link#catalogo-download": {
     "props": {
       "href": "https://stermax.com.br/images_idealine/MDU_Catalogo-de-Produtos-Web-Ajuste.pdf",
-      "label": "Fazer download do PDF",
+      "label": "Fazer download do catálogo",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "download": true,
+      "blockClass": "catalogo-download"
+    }
+  },
+  // ===================
+  // Linha Folder Maduset
+  // ===================
+  "flex-layout.row#linha-folder-maduset": {
+    "props": {
+      "blockClass": "linha-banner-catalogo-madu"
+    },
+    "children": [
+      "flex-layout.row#titulo-folder-maduset",
+      "flex-layout.row#folder-madu-set",
+      "flex-layout.row#catalogo-download-folder"
+    ]
+  },
+  "flex-layout.row#titulo-folder-maduset": {
+    "props": {
+      "blockClass": "titulo-folder-maduset"
+    },
+    "children": [
+      "rich-text#titulo-maduset-folder"
+    ]
+  },
+  "rich-text#titulo-maduset-folder": {
+    "props": {
+      "blockClass": "mais-vendidos-text",
+      "text": "Folder MAD.U Set"
+    }
+  },
+  "flex-layout.row#folder-madu-set": {
+    "props": {
+      "blockClass": "leitor-catalogo"
+    },
+    "children": [
+      "iframe#folder-maduset"
+    ]
+  },
+  "iframe#folder-maduset": {
+    "props": {
+      "src": "https://online.fliphtml5.com/vmcvz/A4--MADU--SET/",
+      "width": "100%",
+      "height": "800px"
+    }
+  },
+  // ===================
+  // download do folder maduset
+  // ===================
+  "flex-layout.row#catalogo-download-folder": {
+    "props": {
+      "blockClass": "catalogo-download"
+    },
+    "children": [
+      "link#folder-download"
+    ]
+  },
+  "link#folder-download": {
+    "props": {
+      "href": "https://stermax.com.br/images_idealine/A4- MADU- SET.pdf",
+      "label": "Fazer download do folder",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "download": true,
+      "blockClass": "catalogo-download"
+    }
+  },
+  // ===================
+  // Linha Folder Maduset Menor
+  // ===================
+  "flex-layout.row#linha-folder-maduset-menor": {
+    "props": {
+      "blockClass": "linha-banner-catalogo-madu"
+    },
+    "children": [
+      "flex-layout.row#titulo-folder-maduset",
+      "flex-layout.row#folder-madu-set-menor",
+      "flex-layout.row#catalogo-download-folder-menor"
+    ]
+  },
+  "flex-layout.row#folder-madu-set-menor": {
+    "props": {
+      "blockClass": "leitor-catalogo"
+    },
+    "children": [
+      "iframe#folder-madu-set-menor"
+    ]
+  },
+  "iframe#folder-madu-set-menor": {
+    "props": {
+      "src": "https://online.fliphtml5.com/crsmz/MADU-Folder-LINHA-SET-3/",
+      "width": "100%",
+      "height": "800px"
+    }
+  },
+  "flex-layout.row#catalogo-download-folder-menor":{
+    "props": {
+      "blockClass": "catalogo-download"
+    },
+    "children": [
+      "link#folder-maduset-menor"
+    ]
+  },
+    "link#folder-maduset-menor": {
+    "props": {
+      "href": "https://stermax.com.br/images_idealine/MADU-Folder LINHA SET 3.pdf",
+      "label": "Fazer download do folder",
       "target": "_blank",
       "rel": "noopener noreferrer",
       "download": true,
