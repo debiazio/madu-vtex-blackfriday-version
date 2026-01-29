@@ -262,13 +262,15 @@
 .flexRowContent--banner-final-madu-box {
   display: flex;
   flex-direction: column;
+  height: 80vh;
+  justify-content: center;
 
 }
 
 .flexRow--banner-final-madu-box {
-  background-image: url(assets/madu-box/banner-final/banner-final-sombra.webp);
+  background-image: url(assets/madu-box/banner-final/Banner-footer-desk.webp);
   background-repeat: no-repeat;
-  height: 540px;
+  height: 80vh;
   margin-top: 100px;
   background-size: cover;
 }
@@ -1672,7 +1674,7 @@
   }
 
   .flexRow--banner-final-madu-box {
-    background-image: url(assets/madu-box/banner-final/banner-final-mobile-sombra.webp);
+    background-image: url(assets/madu-box/banner-final/Banner-footer-mobile.webp);
     background-repeat: no-repeat;
     height: 460px;
     margin-top: 140px;

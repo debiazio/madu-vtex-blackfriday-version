@@ -3129,7 +3129,9 @@
   // BANNER FINAL
   "flex-layout.row#desktop-banner-final": {
     "props": {
-      "blockClass": "banner-final-madu-box"
+      "blockClass": "banner-final-madu-box",
+      "colSizing": "auto",
+      "preventVerticalStretch": true
     },
     "children": [
       "rich-text#texto-banner-final",
