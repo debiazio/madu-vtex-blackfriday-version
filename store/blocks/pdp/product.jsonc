@@ -207,7 +207,7 @@
     "children": [
       "rich-text#label-cep",
 
-      "shipping-simulator"
+      "shipping-simulator#pdp"
     ]
   },
   "rich-text#label-cep": {
@@ -216,9 +216,10 @@
       "text": "Consulte o frete e o prazo de entrega:"
     }
   },
-  "shipping-simulator": {
+  "shipping-simulator#pdp": {
     "props": {
-      "shouldUpdateOrderForm": "true"
+      "shouldUpdateOrderForm": "true",
+      "pricingMode": "grouped"
     }
   },
   // BANDEIRAS DE PAGAMENTO
