@@ -1188,6 +1188,18 @@
   flex-direction: column;
 }
 
+.flexRowContent--product-main-sem-estoque {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--linha-main-sem-estoque {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+}
+
 .flexRowContent--product-main-colunas {
   gap: 30px;
 }
@@ -1353,6 +1365,15 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .flexRowContent--product-main-sem-estoque .flexRow--product-name{
+    display: none;
+  }
+
+.flexRowContent--linha-main-sem-estoque {
+  display: flex;
+  flex-direction: column;
+}
+
   .flexCol--linha-template-search-container {
     padding: 25px;
   }

@@ -982,8 +982,12 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .productNameContainer .productBrand:last-child {
+  justify-content: center;
+}
+
   .subscriberContainer{
-    max-width: 70vw;
+    max-width: unset;
     padding: 20px;
   }
 
