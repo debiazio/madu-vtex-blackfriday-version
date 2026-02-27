@@ -47,6 +47,16 @@
 }
 
 /* COR DAS PUXADORES  */
+.filter__container--couleur .filterTitleSpan--filterCol {
+  font-size: 0;
+}
+
+.filter__container--couleur .filterTitleSpan--filterCol::after {
+  content: "Cor Organizadores";
+  font-size: 16px;
+}
+
+/* COR DAS PUXADORES  */
 .filter__container--color .filterTitleSpan--filterCol {
   font-size: 0;
 }
