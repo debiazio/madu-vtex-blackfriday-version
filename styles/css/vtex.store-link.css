@@ -1,9 +1,9 @@
-.link--link-banner-final-madubox{
+.link--link-banner-final-madubox {
   text-decoration: none;
   cursor: pointer;
 }
 
-.label--link-banner-final-madubox{
+.label--link-banner-final-madubox {
   color: #FFF;
   font-family: "Rubik";
   font-weight: 400;
@@ -13,7 +13,7 @@
   border-radius: 30px;
 }
 
-.link--compreagora-madubox{
+.link--compreagora-madubox {
   text-decoration: none;
 }
 
@@ -28,7 +28,7 @@
   font-size: 24px;
 }
 
-.link--btn-shopby-verProdutos{
+.link--btn-shopby-verProdutos {
   text-decoration: none;
 }
 
@@ -212,6 +212,14 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .link--link-botao-atendimento-whatsapp{
+    padding: 6px 12px;
+  }
+  
+  .label--link-botao-atendimento-whatsapp {
+    display: none;
+  }
+
   .link--instagramTitle {
     margin: 21px 0 17px;
   }

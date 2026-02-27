@@ -60,6 +60,7 @@
     "children": [
       // "slider-layout#home-banner",
       // "modal-trigger#popup-cupom", //cupom popup
+      "flex-layout.row#botao-atendimento-whatsapp",
       "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
       "sticky-layout#3-desktop"
@@ -225,6 +226,7 @@
   },
   "header-layout.mobile": {
     "children": [
+      "flex-layout.row#botao-atendimento-whatsapp",
       "flex-layout.row#1-mobile",
       "sticky-layout#2-mobile"
     ]
