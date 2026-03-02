@@ -1,0 +1,40 @@
+{
+  "store.custom#trabalhe-conosco": {
+    "blocks": [
+      "flex-layout.row#linha-trabalhe-conosco",
+      "flex-layout.row#linha-formulario-trabalhe-conosco"
+    ]
+  },
+  "flex-layout.row#linha-trabalhe-conosco": {
+    "children": [
+      "flex-layout.row#titulo-page-trabalhe-conosco"
+    ]
+  },
+  "flex-layout.row#titulo-page-trabalhe-conosco": {
+    "props": {
+      "blockClass": "linha-titulo-container",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#trabalhe-conosco-titulo",
+      "rich-text#trabalhe-conosco-subtitulo"
+    ]
+  },
+  "rich-text#trabalhe-conosco-titulo":{
+    "props": {
+      "text": "Trabalhe conosco",
+      "blockClass": "contato-titulo"
+    }
+  },
+  "rich-text#trabalhe-conosco-subtitulo":{
+    "props": {
+      "text": "Venha trabalhar com a gente",
+      "blockClass": "contato-texto"
+    }
+  },
+  "flex-layout.row#linha-formulario-trabalhe-conosco":{
+    "children": [
+      "customformmadu"
+    ]
+  }
+}

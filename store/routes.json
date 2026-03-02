@@ -34,5 +34,8 @@
   },
   "store.custom#banner": {
     "path": "/banner"
+  },
+  "store.custom#trabalhe-conosco": {
+    "path": "/trabalhe-conosco"
   }
 }
