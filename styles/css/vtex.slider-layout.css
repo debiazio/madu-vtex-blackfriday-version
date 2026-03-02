@@ -236,11 +236,18 @@
   margin-right: -40px;
 }
 
+@media screen and (max-width: 1300px) {
+
+  .sliderLayoutContainer--slider-home-desktop {
+    padding: 0;
+  }
+}
+
 /* MOBILE */
 @media screen and (max-width: 1024px) {
 
   .sliderLayoutContainer--slider-home-desktop {
-    padding: 0;
+    padding: 20px 10px;
   }
 
   .sliderTrackContainer--slider-home-desktop {

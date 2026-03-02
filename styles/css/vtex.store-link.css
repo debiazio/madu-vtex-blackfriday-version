@@ -64,7 +64,7 @@
   flex-direction: row-reverse;
   align-items: center;
   background-color: #00B280;
-  padding: 12px 24px;
+  padding: 8px 24px;
   color: white;
   font-size: 15px;
   font-weight: 600;
@@ -72,14 +72,17 @@
 }
 
 .link--link-whatsapp-atendimento {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
   background-color: #25D366;
   border: 2px solid #25D366;
 }
 
 .link--link-whatsapp-atendimento:hover {
-  background-color: white;
-  color: #25D366;
-  border: 2px solid #25D366;
+  background-color: #04264B;
+  color: white;
+  border: 2px solid #04264B;
 }
 
 
@@ -112,8 +115,8 @@
   color: white;
   width: 100%;
   text-align: center;
-  padding: 15px 10px;
-  border-radius: 10px;
+  padding: 8px 10px;
+  border-radius: 100px;
 }
 
 .link--made-for-you-link,
@@ -212,10 +215,20 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
-  .link--link-botao-atendimento-whatsapp{
+  .link--link-whatsapp-atendimento {
+    text-decoration: none;
+    color: white;
+    width: unset !important;
+    text-align: center;
+    padding: 0 6px;
+    border-radius: 100px;
+    margin-bottom: 4px;
+  }
+
+  .link--link-botao-atendimento-whatsapp {
     padding: 6px 12px;
   }
-  
+
   .label--link-botao-atendimento-whatsapp {
     display: none;
   }

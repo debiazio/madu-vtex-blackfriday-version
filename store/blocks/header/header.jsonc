@@ -5,37 +5,6 @@
       "header-layout.mobile"
     ]
   },
-  // CUPOM POPUP
-  "modal-trigger#popup-cupom": {
-    "props": {
-      "trigger": "load-session",
-      "blockClass": "modal-layout-pupup-trigger"
-    },
-    "children": [
-      "modal-layout#cupom"
-    ]
-  },
-  "modal-layout#cupom": {
-    "props": {
-      "blockClass": "modal-layout-pupup-trigger"
-    },
-    "children": [
-      "modal-header#close-desconto",
-      "image#popup-desconto"
-    ]
-  },
-  "modal-header#close-desconto": {
-    "props": {
-      "showCloseButton": true,
-      "blockClass": "close-button-desconto"
-    }
-  },
-  "image#popup-desconto": {
-    "props": {
-      "src": "assets/POP-UP-saida-primeira-compra.webp",
-      "maxWidth": "400px"
-    }
-  },
   "header.full": {
     "blocks": [
       "header-layout.desktop",
@@ -243,7 +212,8 @@
   "sticky-layout#2-mobile": {
     "children": [
       "flex-layout.row#2-mobile",
-      "flex-layout.row#3-mobile"
+      "flex-layout.row#3-mobile",
+      "flex-layout.row#solicite-orcamento-mobile"
     ]
   },
   "flex-layout.row#2-mobile": {
@@ -257,6 +227,14 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+  "flex-layout.row#solicite-orcamento-mobile":{
+    "props": {
+      "blockClass": "linha-solicite-orcamento-mobile"
+    },
+    "children": [
+      "link#whatsapp"
+    ]
   },
   "flex-layout.row#3-mobile": {
     "children": [

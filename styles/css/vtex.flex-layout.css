@@ -1,3 +1,14 @@
+.flexRow--linha-solicite-orcamento-mobile{
+  background-color: white;
+}
+
+.flexCol--coluna-btn-solicitar-atendimento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .flexRow--linha-texto-subbanner {
   margin: 65px 0 90px 0;
 }
@@ -1361,18 +1372,26 @@
   .flexRow--categorias-madu {
     margin: 40px 20px 20px 20px;
   }
+
+  .flexRow--topbar {
+  padding: 15px 10px;
+}
+
+.flexRowContent--notification {
+  padding: 0 10px;
+}
 }
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
-  .flexRowContent--product-main-sem-estoque .flexRow--product-name{
+  .flexRowContent--product-main-sem-estoque .flexRow--product-name {
     display: none;
   }
 
-.flexRowContent--linha-main-sem-estoque {
-  display: flex;
-  flex-direction: column;
-}
+  .flexRowContent--linha-main-sem-estoque {
+    display: flex;
+    flex-direction: column;
+  }
 
   .flexCol--linha-template-search-container {
     padding: 25px;

@@ -9,7 +9,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar",
-      // "flex-layout.col#botao-contatos",
+      "flex-layout.col#botao-solicitar-orcamento",
       "flex-layout.col#2-desktop-col-2"
     ]
   },
@@ -39,151 +39,47 @@
       "search-bar"
     ]
   },
-
-  "rich-text#botao-atendimento": {
+  // ------------------------------------
+  // BOTOES DA SOLICITAR ORÇAMENTO
+  // ------------------------------------
+  "flex-layout.col#botao-solicitar-orcamento": {
     "props": {
-      "text": "Atendimento MAD.U",
-      "blockClass": "botao-atendimento"
-    }
-  },
-  "modal-layout#botoes-contatos": {
-    "props": {
-      "backdrop": "clickable",
-      "blockClass": "botoes-contatos-modal"
-    },
-    "children": [
-      "modal-header#close-desconto",
-      "flex-layout.row#modal-content"
-    ]
-  },
-  "flex-layout.row#modal-content": {
-    "props": {
-      "blockClass": "modal-content-central-atendimento",
-      "colSizing": "auto",
-      "fullWidth": true,
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "rich-text#titulo-atendimento",
-      "flex-layout.col#botoes"
-    ]
-  },
-  "rich-text#titulo-atendimento": {
-    "props": {
-      "text": "Central de Atendimento"
-    }
-  },
-  "flex-layout.col#botoes": {
-    "props": {
-      "blockClass": "coluna-botoes",
-      "colSizing": "auto",
-      "gap": "10px"
-    },
-    "children": [
-      "link#whatsapp",
-      "link#fale-conosco-atendimento",
-      "link#perguntas-frequentes-atendimento",
-      "flex-layout.col#linhas-contatos"
-    ]
-  },
-  "flex-layout.col#linhas-contatos": {
-    "props": {
-      "blockClass": "linha-contatos-atendimento",
+      "blockClass": "coluna-btn-solicitar-atendimento",
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.row#linha-whatsapp",
-      "flex-layout.row#linha-telefone",
-      "flex-layout.row#linha-email"
+      "link#whatsapp"
     ]
   },
   "link#whatsapp": {
     "props": {
-      "href": "https://api.whatsapp.com/send?phone=5541996878783",
-      "label": "WhatsApp",
+
+      "label": "Solicitar Orçamento",
       "openNewTab": true,
-      "blockClass": "link-whatsapp-atendimento"
-    }
-  },
-  "link#fale-conosco-atendimento": {
-    "props": {
-      "href": "/contato",
-      "label": "Fale Conosco",
-      "blockClass": "link-fale-conosco-atendimento"
-    }
-  },
-  "link#perguntas-frequentes-atendimento": {
-    "props": {
-      "href": "/perguntas-frequentes",
-      "label": "Perguntas Frequentes",
-      "blockClass": "link-perguntas-frequentes-atendimento"
-    }
-  },
-  "flex-layout.row#linha-telefone": {
-    "props": {
-      "blockClass": "linha-telefone",
-      "preventHorizontalStretch": true
+      "blockClass": "link-whatsapp-atendimento",
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20MAD.U%20e%20gostaria%20de%20um%20or%C3%A7amento.",
+
+      "target": "_blank"
     },
     "children": [
-      "image#telefone-atendimento",
-      "rich-text#0800"
+      "image#atendimento-whatsapp"
     ]
   },
-  "image#telefone-atendimento": {
-    "props": {
-      "src": "assets/telephone-call.png",
-      "maxWidth": "35px",
-      "maxHeight": "20px"
-    }
-  },
-  "flex-layout.row#linha-whatsapp": {
-    "props": {
-      "blockClass": "linha-whatsapp",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "image#whatsapp-image-popup",
-      "rich-text#numero-whatsapp"
-    ]
-  },
-  "image#whatsapp-image-popup": {
-    "props": {
-      "src": "assets/whatsapp-black.png",
-      "maxWidth": "35px",
-      "maxHeight": "20px"
-    }
-  },
-  "flex-layout.row#linha-email": {
-    "props": {
-      "blockClass": "linha-email-atendimento",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "image#email-atendimento",
-      "rich-text#email"
-    ]
-  },
-  "image#email-atendimento": {
-    "props": {
-      "src": "assets/mail_black.png",
-      "maxWidth": "35px",
-      "maxHeight": "20px"
-    }
-  },
+  // ------------------------------------
+  // minha conta e carrinho
+  // ------------------------------------
   "flex-layout.col#2-desktop-col-2": {
     "props": {
       "blockClass": [
         "topbar",
         "topbar-right"
-      ],
-      "width": "35%"
+      ]
+      // "width": "35%"
     },
     "children": [
       "flex-layout.row#2-desktop-col-2-1"
-
     ]
   },
-
   // COLUNA DO LOGIN
   "flex-layout.row#2-desktop-col-2-1": {
     "children": [
@@ -210,33 +106,33 @@
       "blockClass": "minha-conta"
     }
   },
-    // componente do carrinho
-    "minicart-summary#header":{
-      "blocks": [
-        "checkout-summary.compact#header"
-      ]
-    },
-    "checkout-summary.compact#header":{
-      "children": [
-        "summary-totalizers#header"
-      ],
-      "props": {
-        "blockClass": "minicart-summary-header",
-        "showTotalizers": true,
-        "showItems": true,
-        "showEmptyMessage": false,
-        "summaryText": "Meu Carrinho",
-        "emptyMessage": "Seu carrinho está vazio",
-        "iconColor": "#000000",
-        "iconSize": 24,
-        "side": "right"
-      }
-    },
-    "summary-totalizers#header":{
-      "props": {
-        "showTotal": false,
-        "showDeliveryTotal": false,
-        "showOriginalTotal": false
-      }
+  // componente do carrinho
+  "minicart-summary#header": {
+    "blocks": [
+      "checkout-summary.compact#header"
+    ]
+  },
+  "checkout-summary.compact#header": {
+    "children": [
+      "summary-totalizers#header"
+    ],
+    "props": {
+      "blockClass": "minicart-summary-header",
+      "showTotalizers": true,
+      "showItems": true,
+      "showEmptyMessage": false,
+      "summaryText": "Meu Carrinho",
+      "emptyMessage": "Seu carrinho está vazio",
+      "iconColor": "#000000",
+      "iconSize": 24,
+      "side": "right"
     }
+  },
+  "summary-totalizers#header": {
+    "props": {
+      "showTotal": false,
+      "showDeliveryTotal": false,
+      "showOriginalTotal": false
+    }
+  }
 }

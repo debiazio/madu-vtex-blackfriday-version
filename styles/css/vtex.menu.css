@@ -60,7 +60,6 @@
   height: 40px;
   display: flex;
   align-items: center;
-  margin-left: 15px;
 }
 
 .styledLinkContainer--menu-principal-lastchild {
@@ -144,6 +143,13 @@
 .styledLinkContent--menu-item-footer-inst:hover {
   color: grey;
   transition: color 0.3s ease;
+}
+
+
+@media screen and (max-width: 1225px) {
+  .styledLink--menu-principal-item {
+  font-size: 12px;
+}
 }
 
 /* MOBILE */
