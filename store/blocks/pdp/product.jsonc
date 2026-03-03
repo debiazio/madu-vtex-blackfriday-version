@@ -370,7 +370,8 @@
   "tab-list#produto": {
     "children": [
       "tab-list.item#descricao",
-      "tab-list.item#info-tecnicas"
+      "tab-list.item#info-tecnicas",
+      "tab-list.item#manual-uso"
       // "tab-list.item#indicacoes-uso"
       // "tab-list.item#info-adicionais"
     ]
@@ -390,11 +391,19 @@
       "label": "Informações Técnicas"
     }
   },
+  // BOTAO DE MANUAL DE USO
+  "tab-list.item#manual-uso": {
+    "props": {
+      "tabId": "manual-uso",
+      "label": "Manual de Uso e Conservação"
+    }
+  },
   // CONTENT DE DESCRICAO DO PRODUTO
   "tab-content#produto": {
     "children": [
       "tab-content.item#descricao",
-      "tab-content.item#info-tecnicas"
+      "tab-content.item#info-tecnicas",
+      "tab-content.item#manual-uso"
     ]
   },
   // CONTEUDO DE DESCRICAO
@@ -415,6 +424,15 @@
       "tabId": "info-tecnicas"
     }
   },
+  // CONTEUDO DO MANUAL DE USO
+  "tab-content.item#manual-uso": {
+    "children": [
+      "rich-text#conteudo-manual-uso"
+    ],
+    "props": {
+      "tabId": "manual-uso"
+    }
+  },
   // DESCRICAO DO PRODUTO
   "product-description": {
     "props": {
@@ -428,6 +446,12 @@
       "showTitle": false,
       "collapseContent": false,
       "blockClass": "product-spec"
+    }
+  },
+  "rich-text#conteudo-manual-uso":{
+    "props": {
+      "blockClass": "manual-uso-texto",
+      "text": "A MAD.U desenvolve seus produtos com foco em qualidade, funcionalidade e durabilidade, atendendo às demandas de diferentes ambientes que exigem organização, resistência e segurança no uso diário. Este produto foi projetado com atenção aos detalhes construtivos e operacionais, visando oferecer desempenho eficiente e longa vida útil. Para garantir a melhor experiência de uso e preservar suas características originais, recomendamos observar atentamente as orientações a seguir: \n- Mantenha o produto limpo. Seus componentes são resistentes aos principais produtos de limpeza. Entretanto evite produtos abrasivos e quimicamente agressivos. Em caso de dúvidas teste em uma pequena área antes de usar.\n- Algumas partes e/ou acessórios poderão ser enviados separadamente para evitar danos durante o transporte.\n- Não altere qualquer característica operacional ou construtiva do produto.\n- Evite acidentes. Ao locomover o produto não apoiar seu peso sobre o mesmo.\n- Mantenha as rodas e rodízios limpos. Sujeiras podem dificultar sua locomoção e diminuir sua vida útil.\n- Ao travar as rodas verifique que rampas íngremes poderão dificultar a frenagem.\n- Cuidado ao abrir diversas gavetas ao mesmo tempo, pois isto pode alterar o centro de gravidade do produto e acarretar seu tombamento.\n- Para a remoção completa das gavetas, utiliza as travas vermelhas localizadas nos trilhos das gavetas.\n- As gavetas foram projetadas para oferecer resistência e evitar uma abertura não intencional. Além dessa caracteristica perfeitamente normal, elas contam com travas de abertura escalonada para impedir que se abram indevidamente durante o deslocamento. Lubrificar os trilhos poderá faze-los perder essa ação.\n- Não exceder o peso máximo total recomendado que está indicado para o produto ou suas partes."
     }
   },
   // QUANDO O PRODUTO ESTÁ SEM ESTOQUE

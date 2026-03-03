@@ -1,5 +1,18 @@
+.container--manual-uso-texto{
+  padding: 16px 32px;
+}
+
+.list--manual-uso-texto,
+.paragraph--manual-uso-texto{
+  color:#727273;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: justify;
+}
+
 .container--contato-texto{
   padding-bottom: 32px;
+
 }
 
 .paragraph--titulo-template {

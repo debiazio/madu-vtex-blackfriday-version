@@ -10,8 +10,8 @@
       "menu-item#politica-troca-devol",
       "menu-item#entregas",
       "menu-item#formas-pagamento",
-      "menu-item#observacoes",
-      "menu-item#trabalhe-conosco"
+      "menu-item#observacoes"
+      // "menu-item#trabalhe-conosco"
     ]
   },
   "menu-item#made-for-you-footer": {
