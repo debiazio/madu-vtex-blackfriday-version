@@ -1,3 +1,7 @@
+.flexRow--linha-formularioworkwus{
+  margin-bottom: 32px;
+}
+
 .flexColChild--coluna-btn-solicitar-atendimento {
   display: flex;
   flex-direction: column;

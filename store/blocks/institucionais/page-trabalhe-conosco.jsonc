@@ -29,15 +29,18 @@
   "rich-text#trabalhe-conosco-subtitulo":{
     "props": {
       "text": "Venha trabalhar com a gente",
-      "blockClass": "contato-texto"
+      "blockClass": "contato-texto-subtitulo"
     }
   },
   "flex-layout.row#linha-formulario-trabalhe-conosco":{
+    "props": {
+      "blockClass": "linha-formularioworkwus"
+    },
     "children": [
       "formtrabalheconosco"
     ]
   },
   "formtrabalheconosco":{
-    
+
   }
 }
