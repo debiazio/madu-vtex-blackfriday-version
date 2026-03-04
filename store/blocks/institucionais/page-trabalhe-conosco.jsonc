@@ -34,7 +34,10 @@
   },
   "flex-layout.row#linha-formulario-trabalhe-conosco":{
     "children": [
-      "customformmadu"
+      "formtrabalheconosco"
     ]
+  },
+  "formtrabalheconosco":{
+    
   }
 }
