@@ -1,3 +1,7 @@
+.imageElement--banner-categoria{
+  border-radius: 20px;
+}
+
 .imageElement--cursor-pointer{
   cursor: pointer;
 }

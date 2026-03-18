@@ -7,7 +7,7 @@
   },
   "footer-layout.desktop": {
     "children": [
-      
+
       // "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
@@ -135,7 +135,7 @@
   },
   "rich-text#title-footer-4": {
     "props": {
-      "text": "Atendimento",
+      "text": "Contato",
       "blockClass": "title-footer"
     }
   },

@@ -66,6 +66,7 @@
 
 .sliderTrackContainer--slider-shopByCategorias {
   max-width: 240px;
+  height: 216px;
   border-style: solid;
   border-width: 0 0 6px 0;
   border-color: #153464;

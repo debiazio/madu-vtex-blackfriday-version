@@ -435,8 +435,8 @@
         "type": "internal",
         "href": "/contato",
         "noFollow": true,
-        "tagTitle": "Atendimento",
-        "text": "Atendimento"
+        "tagTitle": "Contato",
+        "text": "Contato"
       },
       "blockClass": [
         "menu-principal-item",
