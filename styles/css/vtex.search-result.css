@@ -282,6 +282,10 @@
   font-size: 22px;
 }
 
+.searchResultContainer{
+  max-width: unset!important;
+}
+
 /* MOBILE */
 @media screen and (max-width: 1024px) {
   .searchResultContainer {

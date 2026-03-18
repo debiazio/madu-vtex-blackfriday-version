@@ -12,7 +12,7 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      // "image#banner-template-copy",
+      "image#banner-template-copy",
       "rich-text#titulo-template-copy"
     ],
     "title": "Linha 1 "

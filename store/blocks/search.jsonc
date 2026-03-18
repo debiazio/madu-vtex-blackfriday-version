@@ -5,7 +5,7 @@
     ],
     "props": {
       "context": {
-        "orderByField":"OrderByScoreDESC",
+        "orderByField": "OrderByScoreDESC",
         "hideUnavailableItems": false,
         "maxItemsPerPage": 30,
         "skusFilter": "ALL_AVAILABLE",
@@ -19,7 +19,7 @@
     ],
     "props": {
       "context": {
-        "orderByField":"OrderByScoreDESC",
+        "orderByField": "OrderByScoreDESC",
         "hideUnavailableItems": false,
         "maxItemsPerPage": 9,
         "skusFilter": "ALL_AVAILABLE",
@@ -33,7 +33,7 @@
     ],
     "props": {
       "context": {
-        "orderByField":"OrderByScoreDESC",
+        "orderByField": "OrderByScoreDESC",
         "hideUnavailableItems": false,
         "maxItemsPerPage": 9,
         "skusFilter": "ALL_AVAILABLE",
@@ -47,7 +47,7 @@
     ],
     "props": {
       "context": {
-        "orderByField":"OrderByScoreDESC",
+        "orderByField": "OrderByScoreDESC",
         "hideUnavailableItems": false,
         "maxItemsPerPage": 9,
         "skusFilter": "ALL_AVAILABLE",
@@ -61,7 +61,7 @@
     ],
     "props": {
       "context": {
-        "orderByField":"OrderByScoreDESC",
+        "orderByField": "OrderByScoreDESC",
         "hideUnavailableItems": false,
         "maxItemsPerPage": 9,
         "skusFilter": "ALL_AVAILABLE",
@@ -80,7 +80,8 @@
     "children": [
       // "flex-layout.row#banner-categoria",
       // "flex-layout.row#categorias",
-      "flex-layout.row#banner-pesquisa",
+      "flex-layout.row#banner-categorias",
+      // "flex-layout.row#banner-pesquisa",
       // "flex-layout.row#conheca-nossas-linhas",
       "flex-layout.row#result"
     ],
@@ -92,16 +93,36 @@
       "defaultGalleryLayout": "grid"
     }
   },
-  // BANNER PESQUISA
-  "flex-layout.row#banner-pesquisa": {
+  // BANNER IMAGENS CATEGORIAS
+  "flex-layout.row#banner-categorias": {
     "props": {
-      "blockClass": "banner-pesquisa",
-      "fullWidth": true
+      "blockClass": "linha-banner-categorias",
+      "fullWidth": true,
+      "colSizing": "auto"
     },
     "children": [
-      "search-title.v2"
-      // "image#banner-search"
-    ]
+      "image#banner-departamento"
+    ],
+    "title": "Linha banner categoria"
+  },
+  // BANNER PESQUISA
+  // "flex-layout.row#banner-pesquisa": {
+  //   "props": {
+  //     "blockClass": "banner-pesquisa"
+  //   },
+  //   "children": [
+  //     "search-title.v2",
+  //     "image#banner-departamento"
+  //     // "image#banner-search"
+  //   ]
+  // },
+  "image#banner-departamento": {
+    "props": {
+      "src": "assets/banners/empty-img.png",
+      "alt": "Banner Categoria",
+      "blockClass": "banner-categoria"
+    },
+    "title": "Banner categoria"
   },
   "image#banner-search": {
     "props": {
@@ -317,9 +338,7 @@
       "blockClass": "texto-explicativo"
     }
   },
-
-
-// EXIBE OS RESULTADOS
+  // EXIBE OS RESULTADOS
   "flex-layout.row#result": {
     "children": [
       "flex-layout.col#filter",
@@ -474,7 +493,8 @@
     "children": [
       // "image#banner-dpto-mobile",
       // "flex-layout.row#searchbread",
-      "flex-layout.row#banner-pesquisa",
+      // "flex-layout.row#banner-pesquisa",
+      "flex-layout.row#banner-categorias-mobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
@@ -489,6 +509,17 @@
       },
       "defaultGalleryLayout": "grid"
     }
+  },
+  "flex-layout.row#banner-categorias-mobile": {
+    "props": {
+      "blockClass": "linha-banner-categorias",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#banner-departamento"
+    ],
+    "title": "Linha banner categoria Mobile"
   },
   "flex-layout.row#contentmobile": {
     "children": [
