@@ -52,6 +52,11 @@ html {
   scroll-behavior: smooth;
 }
 
+:global(.vtex-render__container-id-home-banner){
+  display: flex;
+  justify-content: center;
+}
+
 :global(.vtex-spinner_circle) {
   color: #251203;
 }

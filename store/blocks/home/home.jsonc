@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#home-desktop",
+      "list-context.image-list#home-banner",
       "flex-layout.row#shop-by-category",
       // "responsive-layout.desktop#categorias",
       // "responsive-layout.mobile#categorias",
@@ -16,18 +16,19 @@
     }
   },
   // SLIDER HOME - DESKTOP
-  "list-context.image-list#home-desktop": {
+  "list-context.image-list#home-banner": {
     "children": [
       "slider-layout#home"
     ],
     "props": {
+      "blocClass": "slider-home",
       "height": 570,
       "images": [
         {
-          "mobileImage": "assets/banners/mobile/Banner-lancamento-madubox-mobile-1.webp",
-          "image": "assets/banners/desktop/Banner-lancamento-madubox-desktop-scaled.webp",
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/59f528f4-11ed-43a0-a726-98bf1e421ec6___5aea491ff7d690748a6f09b0ac39cce2.gif",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/5370b1d8-6cfd-4d5e-bdf8-3f50824299d7___4f203129e1c6f59034da75c46b1c1f07.gif",
           "link": {
-            "url": "/madubox"
+            "url": ""
           }
         }
       ],
