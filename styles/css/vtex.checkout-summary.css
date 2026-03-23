@@ -18,6 +18,7 @@
 .price {
   color: #8282C8;
   font: 16px "Poppins SemiBold";
+  margin-top: 6px;
 }
 
 .summarySmallContent--minicart-summary-header :global(.vtex-checkout-summary-0-x-summaryItemLabel) {

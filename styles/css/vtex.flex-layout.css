@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.flexRowContent--btn-orcamento-mobile{
+.flexRowContent--btn-orcamento-mobile {
   width: fit-content;
 }
 
@@ -851,6 +851,9 @@
 
 .flexRowContent--topbar {
   max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .flexRowContent--notification .items-stretch {
