@@ -13,7 +13,7 @@
     margin-bottom:9px;
 }
 .productPrice{
-    color:#153b64;
+    color:#8282C8;
     font:14px "Poppins SemiBold";
 }
 .quantityDropdownContainer :global(.vtex-dropdown__container){

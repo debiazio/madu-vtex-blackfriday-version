@@ -13,7 +13,7 @@
 }
 
 .buyButton :global(.vtex-button){
-  background-color: #00b280;
+  background-color: #32A078;
   border: none;
   border-radius: 20px;
   font-weight: 900;
@@ -21,7 +21,7 @@
 }
 
 .buyButton :global(.vtex-button):hover{
-  background-color: black;
+  background-color: #5BB393;
 }
 
 .buyButtonText{

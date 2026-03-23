@@ -8,7 +8,7 @@
   font-family: "Poppins";
   font-weight: 400;
   font-size: 24px;
-  background-color: #04264B;
+  background-color: #8282C8;
   padding: 12px 28px;
   border-radius: 30px;
 }
@@ -20,7 +20,7 @@
 .label--compreagora-madubox {
   font-family: "Poppins";
   font-weight: 400;
-  background-color: #04264B;
+  background-color: #8282C8;
   border-radius: 30px 30px 30px 30px;
   color: #FFF;
   padding: 12px 24px;
@@ -34,7 +34,7 @@
 
 .label--btn-shopby-verProdutos {
   font-weight: 500;
-  background-color: #173866;
+  background-color: #8282C8;
   border-radius: 30px 30px 30px 30px;
 
   color: #FFF;
@@ -49,7 +49,7 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  background-color: #00B280;
+  background-color: #32A078;
   padding: 12px 24px;
   margin: 10px 0;
   color: white;
@@ -63,7 +63,7 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  background-color: #00B280;
+  background-color: #32A078;
   padding: 8px 24px;
   color: white;
   font-size: 15px;
@@ -75,40 +75,48 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  background-color: #25D366;
-  border: 2px solid #25D366;
+  background-color: #fff;
+  border: 2px solid #818181;
 }
 
 .link--link-whatsapp-atendimento:hover {
-  background-color: #04264B;
+  background-color: #8282C8;
   color: white;
-  border: 2px solid #04264B;
+  border: 2px solid #8282C8;
 }
 
 
 .link--link-fale-conosco-atendimento {
-  background-color: #04264B;
-  border: 2px solid #04264B;
+  background-color: #8282C8;
+  border: 2px solid #8282C8;
 }
 
 .link--link-fale-conosco-atendimento:hover {
   background-color: white;
-  color: #04264B;
-  border: 2px solid #04264B;
+  color: #8282C8;
+  border: 2px solid #8282C8;
 }
 
 .link--link-perguntas-frequentes-atendimento {
-  background-color: #04264B;
-  border: 2px solid #04264B;
+  background-color: #8282C8;
+  border: 2px solid #8282C8;
 }
 
 .link--link-perguntas-frequentes-atendimento:hover {
   background-color: white;
-  color: #04264B;
-  border: 2px solid #04264B;
+  color: #8282C8;
+  border: 2px solid #8282C8;
 }
 
-.link--link-whatsapp-atendimento,
+.link--link-whatsapp-atendimento {
+  color: #818181;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 100px;
+}
+
 .link--link-fale-conosco-atendimento,
 .link--link-perguntas-frequentes-atendimento {
   text-decoration: none;
@@ -177,7 +185,7 @@
 
 .label--catalogo-download,
 .label--link-ver-mais {
-  background-color: #153B64;
+  background-color: #8282C8;
   font-family: "Poppins";
   font-weight: 600;
   fill: #FFF;

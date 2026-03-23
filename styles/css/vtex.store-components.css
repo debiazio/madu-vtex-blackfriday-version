@@ -236,6 +236,11 @@
 }
 
 
+.imageElement--imagem-atendimento-whatsapp-top {
+  padding: 0 5px;
+  padding-top: 4px;
+}
+
 .imageElement--imagem-atendimento-whatsapp {
   padding: 0 5px;
   padding-top: 4px;

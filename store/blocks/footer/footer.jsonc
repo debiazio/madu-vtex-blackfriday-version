@@ -35,7 +35,7 @@
   },
   "image#atendimento-whatsapp":{
     "props": {
-      "src": "assets/whatsapp.svg",
+      "src": "assets/whatsapp-branco.svg",
       "alt": "Atendimento WhatsApp",
       "blockClass": "imagem-atendimento-whatsapp",
       "maxWidth": "15px"
@@ -176,7 +176,7 @@
   },
   "image#footer-whatsapp": {
     "props": {
-      "src": "assets/whatsapp.svg",
+      "src": "assets/whatsapp-branco.svg",
       "alt": "Ícone whatsapp",
       "blockClass": "icones-footer"
     }

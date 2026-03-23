@@ -9,7 +9,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar",
-      "flex-layout.col#botao-solicitar-orcamento",
+      "btnorcamento",
       "flex-layout.col#2-desktop-col-2"
     ]
   },
@@ -39,32 +39,7 @@
       "search-bar"
     ]
   },
-  // ------------------------------------
-  // BOTOES DA SOLICITAR ORÇAMENTO
-  // ------------------------------------
-  "flex-layout.col#botao-solicitar-orcamento": {
-    "props": {
-      "blockClass": "coluna-btn-solicitar-atendimento",
-      "colSizing": "auto"
-    },
-    "children": [
-      "link#whatsapp"
-    ]
-  },
-  "link#whatsapp": {
-    "props": {
 
-      "label": "Solicitar Orçamento",
-      "openNewTab": true,
-      "blockClass": "link-whatsapp-atendimento",
-      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20MAD.U%20e%20gostaria%20de%20um%20or%C3%A7amento.",
-
-      "target": "_blank"
-    },
-    "children": [
-      "image#atendimento-whatsapp"
-    ]
-  },
   // ------------------------------------
   // minha conta e carrinho
   // ------------------------------------

@@ -7,7 +7,7 @@
 .minicartQuantityBadgeDefault {
   top: -7px;
   right: -15px;
-  background: #153b64;
+  background: #8282C8;
   color: white;
   font-size: 13px;
 }
@@ -66,8 +66,12 @@
   border-radius: 100px;
   min-height: auto;
   border: 0;
-  background: #153b64;
+  background: #32A078;
   text-transform: none;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover {
+  background: #5BB393;
 }
 
 .minicartCheckoutButton :global(.vtex-button__label) {

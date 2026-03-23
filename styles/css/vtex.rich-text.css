@@ -430,7 +430,7 @@
 .paragraph--label-conheca {
   padding: 5px 15px;
   border-radius: 35px;
-  background-color: #04264B;
+  background-color: #8282C8;
   color: #FFF;
 }
 
@@ -535,7 +535,7 @@
 }
 
 .strong--mais-vendidos-text {
-  color: #173866;
+  color: #8282C8;
 }
 
 .container--mais-vendidos-text {
@@ -552,8 +552,8 @@
 .paragraph--botao-atendimento {
   cursor: pointer;
   user-select: none;
-  background-color: #153B64;
-  border: 2px solid #153B64;
+  background-color: #8282C8;
+  border: 2px solid #8282C8;
   padding: 5px 10px;
   margin: 0;
   color: white;
@@ -564,8 +564,8 @@
   cursor: pointer;
   user-select: none;
   background-color: white;
-  color: #153B64;
-  border: 2px solid #153B64;
+  color: #8282C8;
+  border: 2px solid #8282C8;
 }
 
 /* TOPO */
@@ -644,7 +644,7 @@
 }
 
 .paragraph--titulo-modal {
-  background-color: #153B64;
+  background-color: #8282C8;
   font-family: "Poppins";
   font-weight: 600;
   fill: #FFF;
@@ -969,7 +969,7 @@
 
   /* notification bar */
   .container--texto-notification-bar {
-    background-color: #04264B;
+    background-color: #8282C8;
     text-align: center;
     display: flex;
     flex-direction: row;

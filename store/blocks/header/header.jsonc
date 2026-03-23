@@ -91,10 +91,13 @@
       "blockClass": "coluna-tel-notif"
     },
     "children": [
-      "image#whatsapp",
+      // "image#whatsapp",
       "rich-text#numero-whatsapp"
     ]
   },
+
+
+
   "flex-layout.col#email": {
     "props": {
       "blockClass": "coluna-tel-notif"
@@ -117,7 +120,7 @@
   },
   "image#whatsapp": {
     "props": {
-      "src": "assets/whatsapp.svg",
+      "src": "assets/whatsapp-branco.svg",
       "alt": "Ícone whatsapp",
       "blockClass": "icone-notification"
     }
@@ -213,7 +216,16 @@
     "children": [
       "flex-layout.row#2-mobile",
       "flex-layout.row#3-mobile",
-      "flex-layout.row#solicite-orcamento-mobile"
+      "flex-layout.row#btn-orcamento"
+    ]
+  },
+  "flex-layout.row#btn-orcamento":{
+    "props": {
+      "blockClass": "btn-orcamento-mobile",
+      "colSizing": "auto"
+    },
+    "children": [
+      "btnorcamento"
     ]
   },
   "flex-layout.row#2-mobile": {
@@ -228,14 +240,7 @@
       "fullWidth": true
     }
   },
-  "flex-layout.row#solicite-orcamento-mobile":{
-    "props": {
-      "blockClass": "linha-solicite-orcamento-mobile"
-    },
-    "children": [
-      "link#whatsapp"
-    ]
-  },
+
   "flex-layout.row#3-mobile": {
     "children": [
       "minicart-summary#header",
