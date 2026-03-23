@@ -46,7 +46,7 @@
 
 .minicartTitle::before {
   content: "Meu Carrinho";
-  font: 15px "Montserrat Semibold";
+  font: 15px "Poppins SemiBold";
 }
 
 .minicartProductListContainer {

@@ -17,7 +17,7 @@
 
 .price {
   color: #153b64;
-  font: 16px "Montserrat Semibold";
+  font: 16px "Poppins SemiBold";
 }
 
 .summarySmallContent--minicart-summary-header :global(.vtex-checkout-summary-0-x-summaryItemLabel) {

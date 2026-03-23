@@ -447,7 +447,7 @@
 }
 
 .infoCardHeadline--mosaico-home-1 {
-  font: 400 29px "Montserrat";
+  font: 400 29px "Poppins";
   color: #251203;
   margin-top: 0;
 }
@@ -481,7 +481,7 @@
 
 .infoCardHeadline--mosaico-home-2 {
   margin: 0 0 0 16px;
-  font: 400 29px "Montserrat";
+  font: 400 29px "Poppins";
   color: #fff;
 }
 
@@ -564,7 +564,7 @@
 }
 
 .productBrand {
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Poppins", Sans-serif;
   font-size: 24px;
   font-weight: 600;
   color: #383838;
@@ -730,7 +730,7 @@
 /*
 .shippingContainer :global(.vtex-button__label)::before {
   content: "OK";
-  font: 13px "Montserrat Semibold";
+  font: 13px "Poppins SemiBold";
   color: #43483B;
 }
 

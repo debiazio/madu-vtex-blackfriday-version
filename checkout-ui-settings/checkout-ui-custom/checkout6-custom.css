@@ -104,7 +104,7 @@ section {
 
 body {
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: black;
   padding-bottom: unset !important;
 }
@@ -133,7 +133,7 @@ table {
 
 /* ESTILO */
 * {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .vtex-omnishipping-1-x-addressForm{

@@ -138,11 +138,11 @@ table {
 /* inicio */
 
 * {
-  font-family: 'Montserrat', sans-serif!important;
+  font-family: "Poppins", sans-serif!important;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: black;
 }
 
@@ -207,7 +207,7 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: #143B65;
-  font-family: 'Montserrat', sans-serif!important;
+  font-family: "Poppins", sans-serif!important;
   color: black;
 
 }

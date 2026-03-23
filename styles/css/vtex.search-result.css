@@ -361,7 +361,7 @@
 
   .filterBreadcrumbsText--filterCol {
     color: #fff;
-    font: 15px "Montserrat Semibold";
+    font: 15px "Poppins SemiBold";
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -378,7 +378,7 @@
 
   .filterBreadcrumbsItemName--filterCol {
     color: #fff;
-    font: 15px "Montserrat Semibold";
+    font: 15px "Poppins SemiBold";
     text-transform: uppercase;
   }
 

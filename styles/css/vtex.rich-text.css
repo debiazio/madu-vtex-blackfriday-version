@@ -5,7 +5,7 @@
 .list--manual-uso-texto,
 .paragraph--manual-uso-texto{
   color:#727273;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   font-weight: 400;
   text-align: justify;
 }
@@ -20,7 +20,7 @@
   font-weight: 700;
   text-transform: capitalize;
   font-size: 22px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 
 .container--botao-aviseme {
@@ -43,7 +43,7 @@
   padding-top: 0.25em;
   padding-bottom: 0.32em;
   font-size: 13px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   margin: 5px 0;
 }
 
@@ -55,7 +55,7 @@
 .paragraph--botao-aviseme:hover::after {
   content: "avise-me";
   font-size: 13px !important;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 
   white-space: nowrap;
   color: white;
@@ -63,20 +63,20 @@
   text-align: center;
   padding-top: 0.25em;
   padding-bottom: 0.32em;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 
 
 .paragraph--logo-nome-madu {
   text-transform: uppercase;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   color: #FFFFFF;
   font-size: 16px;
   margin: 15px 0;
 }
 
 .strong--logo-nome-madu {
-  font-family: "Montserrat Bold";
+  font-family: "Poppins Bold";
   color: #FFFFFF;
 }
 
@@ -171,7 +171,7 @@
 /* CSS ROLETA ACIMA */
 
 .paragraph--titulo-nossos-clientes {
-  font-family: "Montserrat Bold";
+  font-family: "Poppins Bold";
   font-size: 26px;
   font-weight: 900;
   text-transform: uppercase;
@@ -181,7 +181,7 @@
 }
 
 .paragraph--texto-subtitulo-prateleira-madubox {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-size: 22px;
   margin: 0 0 20px 0;
   color: #AEAEAE;
@@ -190,7 +190,7 @@
 }
 
 .paragraph--texto-titulo-prateleira-madubox {
-  font-family: "Rubik Bold";
+  font-family: "Poppins Bold";
   font-size: 36px;
   margin: 0;
   text-transform: uppercase;
@@ -201,7 +201,7 @@
 .paragraph--subtitulo-dropdow {
   font-size: 18px;
   text-transform: uppercase;
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-weight: 500;
   color: #707070;
   margin: 3px 10px 0;
@@ -214,13 +214,13 @@
 }
 
 .paragraph--caixa-textos-diferencas-madubox {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-size: 16px;
   color: #686868;
 }
 
 .paragraph--maleta-textos-diferencas-madubox {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-size: 16px;
   text-align: end;
   color: #686868;
@@ -229,7 +229,7 @@
 
 
 .paragraph--texto-banner-final-madubox {
-  font-family: "Rubik Bold";
+  font-family: "Poppins Bold";
   font-weight: 700;
   text-transform: uppercase;
   font-size: 55px;
@@ -250,14 +250,14 @@
 }
 
 .paragraph--informativo-texto {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
   color: #868686;
 }
 
 .paragraph--label-combinam-se {
-  font-family: "Rubik Bold";
+  font-family: "Poppins Bold";
   text-transform: uppercase;
   color: #fff;
   font-size: 18px;
@@ -265,7 +265,7 @@
 }
 
 .paragraph--label-cores {
-  font-family: "Rubik Bold";
+  font-family: "Poppins Bold";
   text-transform: uppercase;
   color: #fff;
   font-size: 18px;
@@ -280,7 +280,7 @@
 }
 
 .paragraph--textos-tamanhos {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-size: 14px;
   color: #636363;
   margin: 0;
@@ -288,14 +288,14 @@
 
 .paragraph--label-text {
   text-transform: uppercase;
-  font-family: "Rubik Bold";
+  font-family: "Poppins Bold";
   font-weight: 700;
   font-size: 24px;
   margin: 15px 20px 0 0 !important;
 }
 
 .paragraph--content-text {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-size: 16px;
   color: #636363;
   max-width: 480px;
@@ -323,7 +323,7 @@
 .paragraph--titulo-combinam,
 .paragraph--titulo-cores,
 .paragraph--titulo-detalhes-tecnicos {
-  font-family: "Rubik Bold";
+  font-family: "Poppins Bold";
   font-size: 36px;
   margin: 0;
   text-transform: uppercase;
@@ -333,7 +333,7 @@
 
 
 .paragraph--titulo-caracteristicas {
-  font-family: "Rubik Bold";
+  font-family: "Poppins Bold";
   font-size: 24px;
   margin: 0;
   text-transform: uppercase;
@@ -341,7 +341,7 @@
 }
 
 .paragraph--subtitulo-combinam {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-size: 22px;
   margin: 0 0 20px 0;
   color: #686868;
@@ -353,7 +353,7 @@
 
 .paragraph--subtitulo-cores,
 .paragraph--subtitulo-detalhes-tecnicos {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-size: 22px;
   margin: 0 0 20px 0;
   color: #AEAEAE;
@@ -362,7 +362,7 @@
 }
 
 .paragraph--subtitulo-caracteristicas {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-size: 16px;
   margin: 0 20px 0 0;
 }
@@ -379,11 +379,11 @@
 }
 
 .wrapper--titulo-maletas-madubox {
-  font-family: "Rubik Bold";
+  font-family: "Poppins Bold";
 }
 
 .paragraph--textos-boxes-maletas {
-  font-family: "Rubik";
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
   color: #686868;
@@ -402,7 +402,7 @@
 }
 
 .paragraph--subtitulo-banner1-madubox {
-  font-family: "Rubik Medium";
+  font-family: "Poppins";
   font-weight: 500;
   font-size: 17px;
   margin: 0;
@@ -445,7 +445,7 @@
 
 .paragraph--texto-veja-mais-produtos,
 .paragraph--produtos-relacionados {
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Poppins", Sans-serif;
   font-size: 23px;
   font-weight: 600;
   color: #313131;
@@ -526,7 +526,7 @@
 }
 
 .paragraph--mais-vendidos-text {
-  font-family: "Montserrat Bold";
+  font-family: "Poppins Bold";
   font-size: 26px;
   font-weight: 900;
   text-transform: uppercase;
@@ -614,7 +614,7 @@
 
 /* CATEGORIAS FINAL HOME  */
 .paragraph--categorias-final {
-  font-family: "Montserrat Bold";
+  font-family: "Poppins Bold";
   font-size: 25px;
   font-weight: 900;
   letter-spacing: -.6px;
@@ -629,7 +629,7 @@
 
 .paragraph--texto-modal {
   font-size: 16px;
-  font-family: "Montserrat Semibold";
+  font-family: "Poppins SemiBold";
   text-align: center;
   margin: 0;
 }
@@ -645,7 +645,7 @@
 
 .paragraph--titulo-modal {
   background-color: #153B64;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   font-weight: 600;
   fill: #FFF;
   color: #FFF;
@@ -761,7 +761,7 @@
 }
 
 .heading--title-newsletter {
-  font-family: "Montserrat Semibold";
+  font-family: "Poppins SemiBold";
   font-size: 18px;
   letter-spacing: -.6px;
   color: #242424;
@@ -782,7 +782,7 @@
 .paragraph--title-footer {
   margin: 0 0 14px;
   color: white;
-  font: 14px "Montserrat Semibold";
+  font: 14px "Poppins SemiBold";
 }
 
 .paragraph--subtitle-logo-madu {
@@ -845,7 +845,7 @@
 /* INSTITUCIONAIS */
 .wrapper--texto-intitucionais {
   color: #202020;
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Poppins", Sans-serif;
   font-weight: 400;
   line-height: 1.9em;
 }
@@ -957,7 +957,7 @@
   }
 
   .paragraph--title-footer {
-    font: 12px "Montserrat Semibold";
+    font: 12px "Poppins SemiBold";
     color: white;
     margin: 20px 0px;
   }

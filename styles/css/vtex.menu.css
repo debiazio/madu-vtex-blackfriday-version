@@ -194,7 +194,7 @@
   }
 
   .menuContainer--footer-mobile .styledLinkContent {
-    font: 12px "Montserrat Semibold";
+    font: 12px "Poppins SemiBold";
     text-transform: uppercase;
     color: #3A3434;
   }
@@ -215,7 +215,7 @@
 
   .menuContainer--footer-mobile .submenuAccordion .styledLinkContent {
     text-transform: capitalize;
-    font: 12px "Montserrat";
+    font: 12px "Poppins";
   }
 
   .styledLinkContainer--menu-principal-item {
