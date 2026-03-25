@@ -1,3 +1,7 @@
+.flexRowContent--madu-box-banner{
+  padding: 20px;
+}
+
 .flexRow--btn-orcamento-mobile {
   display: flex;
   justify-content: center;

@@ -1,10 +1,4 @@
-.sliderLayoutContainer--slider-madubox {
-  display: flex;
-  touch-action: pan-y;
-  padding: 20px;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 .sliderTrackContainer--slider-madubox{
   max-width: 1200px;

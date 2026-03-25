@@ -2,7 +2,9 @@
   "store.custom#madubox": {
     "blocks": [
       "responsive-layout.mobile#handler-simples",
-      "list-context.image-list#madubox-page",
+      "responsive-layout.desktop#imagem-banner-box",
+      "responsive-layout.mobile#imagem-banner-box",
+      // "list-context.image-list#madubox-page",
       // "flex-layout.row#desktop-banner-madubox",
       // "flex-layout.row#desktop-banner2-maletas-madubox",
       "flex-layout.row#texto-subbanner-madubox",
@@ -35,44 +37,89 @@
   // =========================
   // BANNER INICIAL MADUBOX
   // ========================
-  "list-context.image-list#madubox-page": {
+  "responsive-layout.desktop#imagem-banner-box":{
     "children": [
-      "slider-layout#madubox-page"
+      "flex-layout.row#imagem-banner-box"
+    ]
+  },
+  "flex-layout.row#imagem-banner-box":{
+    "props": {
+      "blockClass": "madu-box-banner"
+    },
+    "children": [
+      "image#banner-box"
     ],
+    "title": "Linha banner madubox"
+  },
+  "image#banner-box":{
     "props": {
-      "height": 570,
-      "images": [
-        {
-          "mobileImage": "assets/madu-box/banner-home/mobile/Banner-lancamento-madubox-mobile.webp",
-          "image": "assets/madu-box/banner-home/Banner-lancamento-madubox.webp",
-          "link": {
-            "url": "/madubox"
-          }
-        }
-      ],
-      "title": "Banner MaduBox"
+      "blockClass": "banner-box-image",
+      "alt": "Banner box desktop",
+      "title": "Banner box desktop",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/66969f59-310e-4746-92cd-4d55c670904d___012462b0fc9c218a4b68ba1cc6f0c9e5.webp"
     }
   },
-  "slider-layout#madubox-page": {
+  "responsive-layout.mobile#imagem-banner-box":{
+    "children": [
+      "flex-layout.row#imagem-banner-box-mobile"
+    ]
+  },
+  "flex-layout.row#imagem-banner-box-mobile":{
     "props": {
-      "title": "Slider MaudBox",
-      "blockClass": "madu-box-slider",
-      "maxwidth": "1200",
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "arrowSize": 50,
-      "infinite": false,
-      "showNavigationArrows": "always",
-      "showPaginationDots": "never"
-      // "autoplay": {
-      //   "timeout": 8000,
-      //   "stopOnHover": true
-      // }
+      "blockClass": "madu-box-banner"
+    },
+    "children": [
+      "image#banner-box-mobile"
+    ],
+    "title": "Linha banner madubox mobile"
+  },
+  "image#banner-box-mobile":{
+    "props": {
+      "blockClass": "banner-box-image",
+      "alt": "Banner box desktop",
+      "title": "Banner box desktop",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/97401824-5dc7-47e6-8b58-790ea76562cc___5cb9f7aee74a3068d95bc91fdf0f989e.webp"
     }
   },
+
+  // "list-context.image-list#madubox-page": {
+  //   "children": [
+  //     "slider-layout#madubox-page"
+  //   ],
+  //   "props": {
+  //     "height": 570,
+  //     "images": [
+  //       {
+  //         "mobileImage": "assets/madu-box/banner-home/mobile/Banner-lancamento-madubox-mobile.webp",
+  //         "image": "assets/madu-box/banner-home/Banner-lancamento-madubox.webp",
+  //         "link": {
+  //           "url": "/madubox"
+  //         }
+  //       }
+  //     ],
+  //     "title": "Banner MaduBox"
+  //   }
+  // },
+  // "slider-layout#madubox-page": {
+  //   "props": {
+  //     "title": "Slider MaudBox",
+  //     "blockClass": "madu-box-slider",
+  //     "maxwidth": "1200",
+  //     "itemsPerPage": {
+  //       "desktop": 1,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "arrowSize": 50,
+  //     "infinite": false,
+  //     "showNavigationArrows": "always",
+  //     "showPaginationDots": "never"
+  //     // "autoplay": {
+  //     //   "timeout": 8000,
+  //     //   "stopOnHover": true
+  //     // }
+  //   }
+  // },
   // ========================
   // SUBBANNER MADUBOX
   // ========================

@@ -188,10 +188,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/one/",
         "noFollow": false,
-        "tagTitle": "MAD.U One",
-        "text": "MAD.U One"
+        "tagTitle": "One",
+        "text": "One"
       },
       "iconProps": {
         "id": "nav-thin-caret--right",
@@ -263,8 +263,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "MAD.U Extra",
-        "text": "MAD.U Extra"
+        "tagTitle": "Extra",
+        "text": "Extra"
       },
       "iconProps": {
         "id": "nav-thin-caret--right",
@@ -331,10 +331,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mad-u-expand",
+        "href": "/expand/",
         "noFollow": false,
-        "tagTitle": "MAD.U Expand",
-        "text": "MAD.U Expand"
+        "tagTitle": "Expand",
+        "text": "Expand"
       }
     }
   },
@@ -345,10 +345,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mad-u-express",
+        "href": "/express/",
         "noFollow": false,
-        "tagTitle": "MAD.U Express",
-        "text": "MAD.U Express"
+        "tagTitle": "Express",
+        "text": "Express"
       }
     }
   },
@@ -614,10 +614,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mad-u-one",
+        "href": "/one/",
         "noFollow": false,
-        "tagTitle": "MAD.U One",
-        "text": "MAD.U One"
+        "tagTitle": "One",
+        "text": "One"
       },
       "blockClass": "menu-principal-item"
     },
@@ -652,10 +652,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mad-u-extra",
+        "href": "/extra",
         "noFollow": false,
-        "tagTitle": "MAD.U Extra",
-        "text": "MAD.U Extra"
+        "tagTitle": "Extra",
+        "text": "Extra"
       },
       "blockClass": "menu-principal-item"
     },
@@ -691,10 +691,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mad-u-expand",
+        "href": "/expand/",
         "noFollow": false,
-        "tagTitle": "MAD.U Expand",
-        "text": "MAD.U Expand"
+        "tagTitle": "Expand",
+        "text": "Expand"
       }
     }
   },
@@ -706,10 +706,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mad-u-express",
+        "href": "/express/",
         "noFollow": false,
-        "tagTitle": "MAD.U Express",
-        "text": "MAD.U Express"
+        "tagTitle": "Express",
+        "text": "Express"
       }
     }
   },
