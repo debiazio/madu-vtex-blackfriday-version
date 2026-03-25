@@ -56,7 +56,7 @@
   "slider-layout#madubox-page": {
     "props": {
       "title": "Slider MaudBox",
-      "blockClass": "slider-madubox",
+      "blockClass": "madu-box-slider",
       "maxwidth": "1200",
       "itemsPerPage": {
         "desktop": 1,
@@ -64,13 +64,13 @@
         "phone": 1
       },
       "arrowSize": 50,
-      "infinite": true,
+      "infinite": false,
       "showNavigationArrows": "always",
-      "showPaginationDots": "never",
-      "autoplay": {
-        "timeout": 8000,
-        "stopOnHover": true
-      }
+      "showPaginationDots": "never"
+      // "autoplay": {
+      //   "timeout": 8000,
+      //   "stopOnHover": true
+      // }
     }
   },
   // ========================

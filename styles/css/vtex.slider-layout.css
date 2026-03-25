@@ -1,4 +1,17 @@
-.sliderTrackContainer--image-list-nossos-clientes{
+.sliderLayoutContainer--slider-madubox {
+  display: flex;
+  touch-action: pan-y;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sliderTrackContainer--slider-madubox{
+  max-width: 1200px;
+  border-radius: 20px;
+}
+
+.sliderTrackContainer--image-list-nossos-clientes {
   margin: 0 48px;
 }
 
