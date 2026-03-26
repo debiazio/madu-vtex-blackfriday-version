@@ -11,10 +11,10 @@
 }
 .sellingPriceValue--summary,
 .sellingPriceValue{
-  font:25px/1 "Poppins SemiBold";
+  font:25px;
   margin:0 0 10px;
   display:block;
-  font-family: Montserrat;
+  font-family: "Poppins SemiBold";
   color: #000;
   font-weight: 500;
 }

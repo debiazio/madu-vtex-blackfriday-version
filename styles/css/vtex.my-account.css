@@ -313,6 +313,13 @@ input[type="email"] {
   display: inline-block;
 }
 
+:global(.vtex-checkbox__inner-container),
+:global(.vtex-slider__base-internal){
+  background-color: #8282C8!important;
+}
+
+
+
 .userName {
   margin-left: 4px;
 }

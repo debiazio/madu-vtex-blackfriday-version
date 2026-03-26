@@ -572,6 +572,10 @@
   padding: 0;
 }
 
+.productDescriptionText{
+  font-family: "Poppins", Sans-serif;
+}
+
 .productBrand {
   font-family: "Poppins", Sans-serif;
   font-size: 24px;
