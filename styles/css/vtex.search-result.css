@@ -137,7 +137,8 @@
 
 .filterItem :global(.vtex-checkbox__label) {
   color: #7B7979;
-  font-size: 13px;
+  font-size: 12px;
+  white-space: nowrap;
   display: block;
   padding: 7px 0;
 }
