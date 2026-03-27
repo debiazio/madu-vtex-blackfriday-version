@@ -1,41 +1,54 @@
 {
   "store.custom#contato": {
-    "path": "/contato"
+    "path": "/contato",
+    "isSitemapEntry": true
   },
   "store.custom#politica-de-entregas": {
-    "path": "/politica-de-entregas"
+    "path": "/politica-de-entregas",
+    "isSitemapEntry": true
   },
   "store.custom#trocas-e-devolucoes": {
-    "path": "/trocas-e-devolucoes"
+    "path": "/trocas-e-devolucoes",
+    "isSitemapEntry": true
   },
   "store.custom#observacoes": {
-    "path": "/observacoes"
+    "path": "/observacoes",
+    "isSitemapEntry": true
   },
   "store.custom#politica-de-privacidade": {
-    "path": "/politica-de-privacidade"
+    "path": "/politica-de-privacidade",
+    "isSitemapEntry": true
   },
   "store.custom#formas-de-pagamento": {
-    "path": "/formas-de-pagamento"
+    "path": "/formas-de-pagamento",
+    "isSitemapEntry": true
   },
   "store.custom#made-for-you": {
-    "path": "/made-for-you"
+    "path": "/made-for-you",
+    "isSitemapEntry": true
   },
   "store.custom#nossas-linhas": {
-    "path": "/nossas-linhas"
+    "path": "/nossas-linhas",
+    "isSitemapEntry": true
   },
   "store.custom#catalogo":{
-    "path": "/catalogo"
+    "path": "/catalogo",
+    "isSitemapEntry": true
   },
   "store.custom#madubox":{
-    "path": "/madubox"
+    "path": "/madubox",
+    "isSitemapEntry": true
   },
   "store.custom#template-pagina": {
-    "path": "/template"
+    "path": "/template",
+    "isSitemapEntry": true
   },
   "store.custom#banner": {
-    "path": "/banner"
+    "path": "/banner",
+    "isSitemapEntry": true
   },
   "store.custom#trabalhe-conosco": {
-    "path": "/trabalhe-conosco"
+    "path": "/trabalhe-conosco",
+    "isSitemapEntry": true
   }
 }
