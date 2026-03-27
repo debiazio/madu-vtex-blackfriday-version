@@ -17,7 +17,7 @@
 .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label),
 .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label) {
   color: #FFFFFF;
-  font-family: var(--fonte-montserrat-regular);
+  font-family: var(--fonte-regular);
   font-weight: 500;
   font-size: 10px;
 }
@@ -50,7 +50,7 @@
 .nameInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder,
 .emailInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder {
   color: #3D3D3D91 !important;
-  font-family: var(--fonte-montserrat-regular);
+  font-family: var(--fonte-regular);
   font-weight: 400;
   font-size: 12px;
 }
@@ -110,7 +110,7 @@
   color: #ffffff;
   font-size: 16px;
   font-weight: 900;
-  font-family: var(--fonte-montserrat-regular);
+  font-family: var(--fonte-regular);
   cursor: pointer;
   border-radius: 8px;
   transition: box-shadow 0.3s ease-in-out;

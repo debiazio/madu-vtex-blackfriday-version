@@ -50,6 +50,8 @@
 .container :global(.vtex-button__label) {
   padding: 0 !important;
   margin-top: -10px;
+  font-family: "Poppins"sans-serif!important;
+  color: #8282C8;
 }
 
 

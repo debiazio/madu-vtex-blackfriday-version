@@ -83,7 +83,7 @@
 
 /* CSS ROLETA ABAIXO */
 .paragraph--titulo-regras-roleta {
-  font-family: var(--fonte-montserrat-regular);
+  font-family: var(--fonte-regular);
   font-size: 14px;
   font-weight: 500;
   color: #FFFFFFB2;
@@ -97,7 +97,7 @@
 
 .paragraph--titulo-nova-roleta {
   color: #FFFFFF;
-  font-family: var(--fonte-montserrat-bold);
+  font-family: var(--fonte-bold);
   text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
@@ -107,7 +107,7 @@
 
 .paragraph--subtitulo-nova-roleta {
   color: #FFFFFF;
-  font-family: var(--fonte-montserrat-regular);
+  font-family: var(--fonte-regular);
   font-weight: 500;
   font-size: 12px;
   text-align: center;
@@ -145,7 +145,7 @@
   color: white;
   font-size: 40px;
   font-weight: bold;
-  font-family: var(--fonte-montserrat-regular);
+  font-family: var(--fonte-regular);
   display: none;
 }
 
@@ -160,7 +160,7 @@
 
 .paragraph--texto-rules-roleta {
   margin: 0;
-  font-family: var(--fonte-montserrat-regular);
+  font-family: var(--fonte-regular);
   font-weight: 400;
   font-size: 12px;
   color: #FFFFFFB2;
@@ -506,8 +506,12 @@
   font-weight: 600;
   text-transform: capitalize;
   line-height: 1.1em;
-
   margin: 40px 0 0;
+  font-family: "Poppins" sans-serif!important;
+}
+
+.paragraph--subtitulo-shopBy{
+  font-family: "Poppins" sans-serif!important;
 }
 
 .container--frase-cupom-top {
