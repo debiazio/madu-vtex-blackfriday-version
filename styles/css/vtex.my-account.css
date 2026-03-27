@@ -3,6 +3,10 @@
   --fonte-bold: "Poppins Bold";
 }
 
+*{
+  font-family: "Poppins", sans-serif!important;
+}
+
 
 /* CSS ROLETA ABAIXO  */
 .emailInputContainer--inputs-form-roleta input {
@@ -46,6 +50,7 @@
 body,
 html {
   touch-action: pan-y;
+  font-family: "Poppins", sans-serif!important;
 }
 
 html {
