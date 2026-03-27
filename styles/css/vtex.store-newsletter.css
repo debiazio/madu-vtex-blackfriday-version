@@ -165,7 +165,7 @@
 .formSubmitContainer :global(.vtex-button__label) {
   padding: 13px 30px !important;
   background-color: #8282C8;
-  font-family: "Poppins";
+  font-family: "Poppins", Sans-serif!important;
   font-weight: 600;
   color: #FFF;
   border-radius: 30px 30px 30px 30px;

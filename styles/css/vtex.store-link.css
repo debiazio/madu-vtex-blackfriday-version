@@ -201,6 +201,7 @@
 
 /* RODAPÉ  */
 .label--link-footer {
+  font-family: "Poppins", Sans-serif!important;
   color: white;
   transition: color 0.3s ease;
 }

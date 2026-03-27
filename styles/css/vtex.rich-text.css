@@ -469,6 +469,7 @@
   font-size: 16px;
   font-weight: 500;
   color: #000;
+  font-family: "Poppins", Sans-serif!important;
 }
 
 .heading--texto-modal-modal {
@@ -507,11 +508,11 @@
   text-transform: capitalize;
   line-height: 1.1em;
   margin: 40px 0 0;
-  font-family: "Poppins" sans-serif!important;
+  font-family: "Poppins", Sans-serif!important;
 }
 
 .paragraph--subtitulo-shopBy{
-  font-family: "Poppins" sans-serif!important;
+  font-family: "Poppins", Sans-serif!important;
 }
 
 .container--frase-cupom-top {
@@ -740,11 +741,13 @@
 
 /* RODAPÉ */
 .paragraph--subtitle-logo-madu {
+  font-family: "Poppins", Sans-serif!important;
   margin: 0;
   font-size: 14px;
   line-height: 14px;
   font-weight: bold;
   margin-left: 13px;
+  color: white;
 }
 
 .paragraph--link-footer {
@@ -789,9 +792,7 @@
   font: 14px "Poppins SemiBold";
 }
 
-.paragraph--subtitle-logo-madu {
-  color: white;
-}
+
 
 /* PLP */
 .container--notfound {

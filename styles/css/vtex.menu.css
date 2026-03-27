@@ -1,6 +1,7 @@
 .styledLinkContent {
   font-weight: 900 !important;
   color: black;
+  font-family: "Poppins", Sans-serif;
 }
 
 .styledLinkContent--menu-principal-item:hover {

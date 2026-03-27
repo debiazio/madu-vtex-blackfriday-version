@@ -124,7 +124,7 @@ input[type="email"] {
 }
 
 :global(.vtex-slider__selector){
-  background-color: #8282C8;
+  background-color: #8282C8!important;
 }
 
 :global(.vtex-account__page) {
