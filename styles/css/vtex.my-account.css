@@ -123,6 +123,10 @@ input[type="email"] {
   height: fit-content;
 }
 
+:global(.vtex-slider__selector){
+  background-color: #8282C8;
+}
+
 :global(.vtex-account__page) {
   width: 75%;
   margin-left: 3%;

@@ -59,6 +59,7 @@
   display: block;
   overflow: hidden;
   font-weight: 900;
+  font-family: "Poppins" sans-serif!important;
 }
 
 /* .element:hover :global(.vtex-stack-layout-0-x-stackItem--add-to-cart-summary){

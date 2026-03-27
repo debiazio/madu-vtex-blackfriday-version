@@ -1,3 +1,7 @@
+.filterTitle{
+  font-family: "Poppins" sans-serif!important;
+}
+
 .filter__container--filterCol :global(.vtex-button) :global(.vtex-button__label)::before{
   content: "limpar filtos";
   font-size: 1rem;

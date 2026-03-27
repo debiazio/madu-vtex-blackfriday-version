@@ -1,12 +1,12 @@
-.imageElement--banner-box-image{
+.imageElement--banner-box-image {
   border-radius: 20px;
 }
 
-.imageElement--banner-categoria{
+.imageElement--banner-categoria {
   border-radius: 20px;
 }
 
-.imageElement--cursor-pointer{
+.imageElement--cursor-pointer {
   cursor: pointer;
 }
 
@@ -65,6 +65,10 @@
 .productBrand {
   display: flex;
   flex-direction: column;
+  font-family: "Poppins", Sans-serif!important;
+  font-size: 24px;
+  font-weight: 600;
+  color: #383838;
 }
 
 
@@ -572,16 +576,11 @@
   padding: 0;
 }
 
-.productDescriptionText{
+.productDescriptionText {
   font-family: "Poppins", Sans-serif;
 }
 
-.productBrand {
-  font-family: "Poppins", Sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  color: #383838;
-}
+
 
 .skuSelectorTextContainer {
   margin-bottom: 10px;
@@ -764,7 +763,7 @@
 }
 
 .shippingContainer :global(.vtex-input__error) {
-  position: unset!important;
+  position: unset !important;
   top: 100%;
   left: 100px;
 }
@@ -1000,10 +999,10 @@
 /* MOBILE */
 @media screen and (max-width: 1024px) {
   .productNameContainer .productBrand:last-child {
-  justify-content: center;
-}
+    justify-content: center;
+  }
 
-  .subscriberContainer{
+  .subscriberContainer {
     max-width: unset;
     padding: 20px;
   }
