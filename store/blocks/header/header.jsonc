@@ -184,7 +184,8 @@
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "placeholder": "Buscar..."
+      "placeholder": "Buscar...",
+      "blockClass": "buscar-placeholder"
     }
   },
   "autocomplete-result-list.v2": {

@@ -364,6 +364,12 @@
   border-radius: 100px;
   /* height: 3.5em; */
   flex-direction: row-reverse;
+  font-family: "Poppins", sans-serif!important;
+}
+
+:global(.vtex-input-prefix__group),
+:global(.vtex-styleguide-9-x-input){
+  font-family: "Poppins", sans-serif!important;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {

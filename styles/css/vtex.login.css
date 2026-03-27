@@ -1,3 +1,7 @@
+.formTitle{
+  font-family: "Poppins", sans-serif!important;
+}
+
 .label {
   color: #4F4242;
   font-size: 12px;
@@ -16,6 +20,7 @@
 
 .accessCodeOptionBtn :global(.vtex-button){
   color: #8282C8;
+  font-family: "Poppins", sans-serif!important;
 }
 
 .container {
@@ -33,6 +38,7 @@
 }
 
 .container :global(.vtex-button)::before {
+  font-family: "Poppins", sans-serif!important;
   content: "Minha conta";
   text-transform: capitalize;
   margin-right: 18px;

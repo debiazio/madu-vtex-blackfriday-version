@@ -1,9 +1,16 @@
 .spotPrice--summary{
   color: #8282C8;
   font-weight: 900;
+  font-family: "Poppins", sans-serif!important;
+}
+
+.spotPriceValue,
+.spotPriceValue--summary{
+  font-family: "Poppins", sans-serif!important;
 }
 
 .listPrice {
+  font-family: "Poppins", sans-serif!important;
   color: #7B7979;
   margin-bottom: 5px;
   font-size: 13px;
@@ -19,14 +26,17 @@
   font-weight: 500;
 }
 .installments--summary{
+  font-family: "Poppins", sans-serif!important;
   color:#7B7979;
   font-size:13px;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--selling-price) .sellingPriceValue{
   font-size:25px;
   margin:0;
+  font-family: "Poppins", sans-serif!important;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--selling-price) .installments{
   color:#7B7979;
   font-size:13px;
+  font-family: "Poppins", sans-serif!important;
 }

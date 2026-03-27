@@ -1,3 +1,7 @@
+.paragraph{
+  font-family: "Poppins", sans-serif!important;
+}
+
 .container--manual-uso-texto{
   padding: 16px 32px;
 }
@@ -541,6 +545,7 @@
 
 .strong--mais-vendidos-text {
   color: #8282C8;
+  font-family: "Poppins", sans-serif!important;
 }
 
 .container--mais-vendidos-text {
@@ -563,6 +568,7 @@
   margin: 0;
   color: white;
   border-radius: 30px;
+  font-family: "Poppins", sans-serif!important;
 }
 
 .paragraph--botao-atendimento:hover {
@@ -733,6 +739,7 @@
   color: #000;
   line-height: 1.1;
   margin: 5px;
+  font-family: "Poppins", sans-serif!important;
 }
 
 .flexColChild--contato-col1 {
@@ -751,6 +758,7 @@
 }
 
 .paragraph--link-footer {
+  font-family: "Poppins", sans-serif!important;
   font-size: 13px;
   color: white;
   margin: 0;
