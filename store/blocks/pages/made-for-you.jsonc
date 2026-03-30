@@ -94,7 +94,9 @@
       "flex-layout.col#avaliacao3",
       "flex-layout.col#avaliacao4",
       "flex-layout.col#avaliacao5",
-      "flex-layout.col#avaliacao6"
+      "flex-layout.col#avaliacao6",
+      "flex-layout.col#avaliacao7",
+      "flex-layout.col#avaliacao8"
     ],
     "props": {
       "blockClass": "slider-avaliacoes",
@@ -608,6 +610,160 @@
   "rich-text#avaliacao6": {
     "props": {
       "text": "Excelente produto. Possuem uma linha muito grande de mobiliário com muitos acessórios que permitem criar produtos muito personalizados",
+      "blockClass": "avaliacao-descricao"
+    }
+  },
+  // setima avaliacao
+  "flex-layout.col#avaliacao7": {
+    "props": {
+      "blockClass": "conteiner-avaliacao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#avaliacao7-heading",
+      "flex-layout.row#estrelas",
+      "rich-text#avaliacao7"
+    ]
+  },
+  "flex-layout.row#avaliacao7-heading": {
+    "props": {
+      "blockClass": "avaliacao-heading",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#aval7-avatar-nome-data",
+      "flex-layout.col#google"
+    ]
+  },
+  // COLUNA DO AVATAR, NOME E DATA
+  "flex-layout.col#aval7-avatar-nome-data": {
+    "props": {
+      "blockClass": "avaliacao-col-nome-data",
+      "width": "70%"
+    },
+    "children": [
+      "flex-layout.col#aval7-coluna-avatar",
+      "flex-layout.col#aval7-coluna-nome-data"
+    ]
+  },
+  // COLUNA DO AVATAR
+  "flex-layout.col#aval7-coluna-avatar": {
+    "props": {
+      "blockClass": "coluna-avatar"
+    },
+    "children": [
+      "image#avaliacao7-imagem"
+    ]
+  },
+  // AVATAR
+  "image#avaliacao7-imagem": {
+    "props": {
+      "src": "assets/setima.png",
+      "blockClass": "avaliacao-avatar"
+    }
+  },
+  // NOME E DATA
+  "flex-layout.col#aval7-coluna-nome-data": {
+    "props": {
+      "blockClass": "coluna-nome-data"
+    },
+    "children": [
+      "rich-text#avaliacao7-nome",
+      "rich-text#avaliacao7-data"
+    ]
+  },
+  "rich-text#avaliacao7-nome": {
+    "props": {
+      "text": "Fabio Dahmer",
+      "blockClass": "avaliacao-nome"
+    }
+  },
+  "rich-text#avaliacao7-data": {
+    "props": {
+      "text": "Editado 2 anos atrás",
+      "blockClass": "avaliacao-data"
+    }
+  },
+  "rich-text#avaliacao7": {
+    "props": {
+      "text": "Comprei um carrinho dessa marca, o qual não representa a qualidade dos demais produtos. A empresa percebendo minha insatisfação prontamente resolveu a situação, foi honrada e ética, merecem respeito.",
+      "blockClass": "avaliacao-descricao"
+    }
+  },
+  // oitava avaliacao
+  "flex-layout.col#avaliacao8": {
+    "props": {
+      "blockClass": "conteiner-avaliacao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#avaliacao8-heading",
+      "flex-layout.row#estrelas",
+      "rich-text#avaliacao8"
+    ]
+  },
+  "flex-layout.row#avaliacao8-heading": {
+    "props": {
+      "blockClass": "avaliacao-heading",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#aval8-avatar-nome-data",
+      "flex-layout.col#google"
+    ]
+  },
+  // COLUNA DO AVATAR, NOME E DATA
+  "flex-layout.col#aval8-avatar-nome-data": {
+    "props": {
+      "blockClass": "avaliacao-col-nome-data",
+      "width": "70%"
+    },
+    "children": [
+      "flex-layout.col#aval8-coluna-avatar",
+      "flex-layout.col#aval8-coluna-nome-data"
+    ]
+  },
+  // COLUNA DO AVATAR
+  "flex-layout.col#aval8-coluna-avatar": {
+    "props": {
+      "blockClass": "coluna-avatar"
+    },
+    "children": [
+      "image#avaliacao8-imagem"
+    ]
+  },
+  // AVATAR
+  "image#avaliacao8-imagem": {
+    "props": {
+      "src": "assets/oitava.png",
+      "blockClass": "avaliacao-avatar"
+    }
+  },
+  // NOME E DATA
+  "flex-layout.col#aval8-coluna-nome-data": {
+    "props": {
+      "blockClass": "coluna-nome-data"
+    },
+    "children": [
+      "rich-text#avaliacao8-nome",
+      "rich-text#avaliacao8-data"
+    ]
+  },
+  "rich-text#avaliacao8-nome": {
+    "props": {
+      "text": "Marcela Lopes",
+      "blockClass": "avaliacao-nome"
+    }
+  },
+  "rich-text#avaliacao8-data": {
+    "props": {
+      "text": "3 anos atrás",
+      "blockClass": "avaliacao-data"
+    }
+  },
+  "rich-text#avaliacao8": {
+    "props": {
+      "text": "Fiz uma compra de um carro com gavetas recentemente, fui muito bem atendida. Produto de qualidade excelente! Recomendo",
       "blockClass": "avaliacao-descricao"
     }
   }
