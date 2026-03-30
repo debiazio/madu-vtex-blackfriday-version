@@ -55,8 +55,7 @@
     },
     "children": [
       "flex-layout.row#email-contato",
-      "flex-layout.row#whatsapp-contato",
-      "flex-layout.row#telefone-contato"
+      "flex-layout.row#whatsapp-contato"
     ]
   },
   // linha de email - contato
@@ -121,8 +120,7 @@
       "blockClass": "coluna-contato"
     },
     "children": [
-      "image#telefone-contato-icone",
-      "rich-text#telefone-contato"
+      "image#telefone-contato-icone"
     ]
   },
   "image#telefone-contato-icone":{

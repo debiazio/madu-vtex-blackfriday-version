@@ -126,8 +126,8 @@
       "rich-text#title-footer-4",
       "flex-layout.row#footer-email",
       "flex-layout.row#footer-whatsapp",
-      "flex-layout.row#footer-endereco",
-      "flex-layout.row#footer-telefone"
+      "flex-layout.row#footer-endereco"
+      // "flex-layout.row#footer-telefone"
     ],
     "props": {
       "blockClass": "footer-2-desktop"
@@ -227,8 +227,7 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "image#icone-telefone-footer",
-      "link#fone-telefone-footer"
+      "image#icone-telefone-footer"
     ]
   },
   "image#icone-telefone-footer": {
