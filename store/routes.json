@@ -50,5 +50,9 @@
   "store.custom#trabalhe-conosco": {
     "path": "/trabalhe-conosco",
     "isSitemapEntry": true
+  },
+  "store.custom#feira-hospitalar": {
+    "path": "/feira-hospitalar",
+    "isSitemapEntry": true
   }
 }

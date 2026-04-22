@@ -1,0 +1,99 @@
+{
+  "store.custom#feira-hospitalar": {
+    "blocks": [
+      "flex-layout.row#banner-inicial-feiraHospitalar",
+      "flex-layout.row#linhas-texto-introdutorio-feiraHospitalar"
+    ]
+  },
+  // =============================================
+  // BANNER INICIAL
+  // =============================================
+  "flex-layout.row#banner-inicial-feiraHospitalar": {
+    "props": {
+      "blockClass": "linha-banner-inicial-feiraHospitalar",
+      "colSizing": "equal",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#coluna-1-banner-inicial-feiraHospitalar",
+      "flex-layout.col#coluna-2-banner-inicial-feiraHospitalar"
+    ]
+  },
+  // COLUNA 1 BANNER
+  // =============================================
+  "flex-layout.col#coluna-1-banner-inicial-feiraHospitalar": {
+    "props": {
+      "blockClass": "coluna-1-banner-inicial-feiraHospitalar",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-banner-inicial-feiraHospitalar",
+      "rich-text#subtitulo-banner-inicial-feiraHospitalar",
+      "image#img-madu-banner-feiraHosp"
+    ]
+  },
+  "rich-text#titulo-banner-inicial-feiraHospitalar": {
+    "props": {
+      "blockClass": "titulo-banner-inicial-feiraHospitalar",
+      "text": "# MAD.U  na Feira # \n # Hospitalar 2026 # \n # Garanta seu # \n # ingresso gratuito #"
+    }
+  },
+  "rich-text#subtitulo-banner-inicial-feiraHospitalar": {
+    "props": {
+      "blockClass": "subtitulo-banner-inicial-feiraHospitalar",
+      "text": "De 19 a 22 de maio | São Paulo Expo"
+    }
+  },
+  "image#img-madu-banner-feiraHosp": {
+    "props": {
+      "blockClass": "image-madu-banner-feiraHosp",
+      "src": "assets/feira-hospitalar/desktop/lgo-madu-feirahosp.webp",
+      "alt": "Image MAdu banner feira hospitalar",
+      "title": "Image MAdu banner feira hospitalar"
+    }
+  },
+  // COLUNA 2 BANNER
+  // =============================================
+  "flex-layout.col#coluna-2-banner-inicial-feiraHospitalar": {
+    "props": {
+      "blockClass": "coluna-2-banner-inicial-feiraHospitalar",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#banner-inicial-feiraHospitalar"
+    ]
+  },
+  "image#banner-inicial-feiraHospitalar": {
+    "props": {
+      "blockClass": "image-banner-feiraHosp",
+      "src": "assets/feira-hospitalar/desktop/banner-feira-moveis.webp",
+      "alt": "Moveis banner feira hospitalar",
+      "title": "Moveis banner feira hospitalar"
+    }
+  },
+  "flex-layout.row#linhas-texto-introdutorio-feiraHospitalar":{
+    "props": {
+      "blockClass": "linha-texto-introdutorio-feiraHospitalar"
+    },
+    "children": [
+      "flex-layout.col#textos-introdutorios-feiraHospitalar"
+
+    ]
+  },
+  "flex-layout.col#textos-introdutorios-feiraHospitalar":{
+    "children": [
+      "rich-text#conheca-lancamentos-feiraHospitalar",
+      "rich-text#lista-lancamentos-feiraHospitalar"
+    ]
+  },
+  "rich-text#conheca-lancamentos-feiraHospitalar":{
+    "props": {
+      "text": "## Conheça lançamentos, novas soluções em mobiliário modular e condições exclusivas para a feira. ##"
+    }
+  },
+  "rich-text#lista-lancamentos-feiraHospitalar":{
+    "props": {
+      "text": "✅ Lançamento de Nova Linha ✅ Condições especiais para compras a feira ✅ Atendimento consultivo com especialistas ✅ Ativações e brindes exclusivos"
+    }
+  }
+}

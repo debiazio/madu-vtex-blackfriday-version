@@ -1,0 +1,16 @@
+.flexRow--linha-banner-inicial-feiraHospitalar {
+  background-color: #e7e1dc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.flexRowContent--linha-banner-inicial-feiraHospitalar {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
