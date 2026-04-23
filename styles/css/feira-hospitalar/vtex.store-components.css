@@ -1,3 +1,11 @@
 .imageElement--image-banner-feiraHosp {
   margin-bottom: -5px;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  .imageElement--image-banner-feiraHosp {
+    margin-bottom: -4px;
+  }
+}

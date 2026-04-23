@@ -1,7 +1,7 @@
-.heading--titulo-banner-inicial-feiraHospitalar{
+.heading--titulo-banner-inicial-feiraHospitalar {
   margin: 0;
   padding: 0;
-  font-family: "Poppins Black",sans-serif;
+  font-family: "Poppins Black", sans-serif;
   font-size: 32px;
   line-height: 99%;
   text-transform: uppercase;
@@ -10,11 +10,19 @@
   color: #8282CD;
 }
 
-.paragraph--subtitulo-banner-inicial-feiraHospitalar{
+.paragraph--subtitulo-banner-inicial-feiraHospitalar {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   line-height: 137%;
   text-transform: uppercase;
   font-weight: 500;
   color: #FF9A00;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .paragraph--subtitulo-banner-inicial-feiraHospitalar,
+  .heading--titulo-banner-inicial-feiraHospitalar {
+    text-align: center;
+  }
 }
