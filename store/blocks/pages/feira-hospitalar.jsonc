@@ -2,7 +2,8 @@
   "store.custom#feira-hospitalar": {
     "blocks": [
       "flex-layout.row#banner-inicial-feiraHospitalar",
-      "flex-layout.row#linhas-texto-introdutorio-feiraHospitalar"
+      "flex-layout.row#linhas-texto-introdutorio-feiraHospitalar",
+      "flex-layout.row#formulario-final-feiraHospitalar"
     ]
   },
   // =============================================
@@ -82,18 +83,15 @@
   },
   "flex-layout.col#textos-introdutorios-feiraHospitalar":{
     "children": [
-      "rich-text#conheca-lancamentos-feiraHospitalar",
-      "rich-text#lista-lancamentos-feiraHospitalar"
+      "form-lpfeirahospitalar"
     ]
   },
-  "rich-text#conheca-lancamentos-feiraHospitalar":{
+  "flex-layout.row#formulario-final-feiraHospitalar":{
     "props": {
-      "text": "## Conheça lançamentos, novas soluções em mobiliário modular e condições exclusivas para a feira. ##"
-    }
-  },
-  "rich-text#lista-lancamentos-feiraHospitalar":{
-    "props": {
-      "text": "✅ Lançamento de Nova Linha ✅ Condições especiais para compras a feira ✅ Atendimento consultivo com especialistas ✅ Ativações e brindes exclusivos"
-    }
+      "blockClass": "linha-formulario-feiraHospitalar"
+    },
+    "children": [
+      "form-lp-final"
+    ]
   }
 }
