@@ -12,7 +12,7 @@
   "flex-layout.row#banner-inicial-feiraHospitalar": {
     "props": {
       "blockClass": "linha-banner-inicial-feiraHospitalar",
-      "colSizing": "equal",
+      "colSizing": "auto",
       "preventHorizontalStretch": true
     },
     "children": [
@@ -36,13 +36,13 @@
   "rich-text#titulo-banner-inicial-feiraHospitalar": {
     "props": {
       "blockClass": "titulo-banner-inicial-feiraHospitalar",
-      "text": "# MAD.U  na Feira # \n # Hospitalar 2026 # \n # Garanta seu # \n # ingresso gratuito #"
+      "text": "# MAD.U  na Feira Hospitalar 2026 # \n  Garanta seu ingresso gratuito "
     }
   },
   "rich-text#subtitulo-banner-inicial-feiraHospitalar": {
     "props": {
       "blockClass": "subtitulo-banner-inicial-feiraHospitalar",
-      "text": "De 19 a 22 de maio | São Paulo Expo"
+      "text": "De **19** a **22** de maio | São Paulo Expo"
     }
   },
   "image#img-madu-banner-feiraHosp": {
