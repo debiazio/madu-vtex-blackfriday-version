@@ -48,11 +48,11 @@
       "arrowSize": 50,
       "infinite": true,
       "showNavigationArrows": "always",
-      "showPaginationDots": "never"
-      // "autoplay": {
-      //   "timeout": 8000,
-      //   "stopOnHover": true
-      // }
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     }
   },
   // MADU ONE
