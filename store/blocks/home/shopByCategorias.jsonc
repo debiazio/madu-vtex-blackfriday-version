@@ -241,11 +241,11 @@
       "arrowSize": 25,
       "infinite": true,
       "showNavigationArrows": "always",
-      "showPaginationDots": "always",
-      "autoplay": {
-        "timeout": 8000,
-        "stopOnHover": true
-      }
+      "showPaginationDots": "always"
+      // "autoplay": {
+      //   "timeout": 8000,
+      //   "stopOnHover": true
+      // }
     }
   },
   // titulo categorias
