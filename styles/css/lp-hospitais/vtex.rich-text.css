@@ -1,0 +1,45 @@
+.container--texto-deals-hospitais {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--texto-deals-hospitais {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 137%;
+  color: #8282C8;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+
+.paragraph--titulo-sistema-mod-hosp {
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88%;
+  text-transform: uppercase;
+  color: #4CAB86;
+  margin: 0;
+}
+
+.paragraph--tituloprincipal-sistema-mod-hosp {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 88%;
+  text-transform: uppercase;
+  color: #4CAB86;
+  margin: 0;
+}
+
+.paragraph--subtitulo-sistema-mod-hosp {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 137%;
+  color: #575757;
+  margin: 0;
+  padding-top: 10px;
+}

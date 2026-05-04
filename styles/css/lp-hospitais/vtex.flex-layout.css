@@ -1,6 +1,12 @@
-.flexRow--linha-banner-inicial-publico-hospitalar{
-  background-image: url(assets/lp-hospitais/ambientacao-banner-hosp.webp);
-  background-size: cover;
-  background-position: center;
-  min-height: 585px;
+.flexRow--linhas-texto-deals-hospitais {
+  background-color: #EFEFEF;
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--linhas-texto-deals-hospitais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1600px;
 }
