@@ -109,8 +109,8 @@
     },
     "children": [
       "responsive-layout.desktop#nome-do-produto",
-      "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
+      // "flex-layout.row#list-price-savings",
+      // "flex-layout.row#selling-price",
       // "flex-layout.row#aviso-valor-unitario",
       // "flex-layout.row#metodos-pagamento-pdp",
       "sku-selector",
@@ -330,8 +330,8 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "product-quantity",
-      "flex-layout.row#buy-button"
+      "product-quantity"
+      // "flex-layout.row#buy-button"
     ]
   },
   "product-quantity": {
@@ -345,7 +345,7 @@
       "blockClass": "buy-button-pdp"
     },
     "children": [
-      "add-to-cart-button#pdp"
+      // "add-to-cart-button#pdp"
     ]
   },
   // LINHA DAS ABAS

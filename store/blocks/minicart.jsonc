@@ -5,7 +5,8 @@
       "customPixelEventId": "evento-add-ao-carrinho",
       "text": "COMPRAR",
       "unavailableText": "Produto indisponível",
-      "blockClass": "botao-comprar-summary"
+      "blockClass": "botao-comprar-summary",
+      "onClickBehavior": "go-to-product-page"
     }
   },
   "minicart.v2": {

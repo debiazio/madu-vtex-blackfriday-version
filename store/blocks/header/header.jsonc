@@ -244,8 +244,8 @@
 
   "flex-layout.row#3-mobile": {
     "children": [
-      "minicart-summary#header",
-      "minicart.v2",
+      // "minicart-summary#header",
+      // "minicart.v2",
       "login",
       "drawer"
     ],

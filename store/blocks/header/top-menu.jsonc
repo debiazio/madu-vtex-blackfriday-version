@@ -58,9 +58,9 @@
   // COLUNA DO LOGIN
   "flex-layout.row#2-desktop-col-2-1": {
     "children": [
-      "login",
-      "minicart-summary#header",
-      "minicart.v2"
+      "login"
+      // "minicart-summary#header"
+      // "minicart.v2"
     ],
     "props": {
       "blockClass": "topbar-right",
