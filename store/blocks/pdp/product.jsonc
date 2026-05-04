@@ -1,7 +1,7 @@
 {
   "store.product": {
     "children": [
-      "responsive-layout.mobile#breadcrumb",
+      // "responsive-layout.mobile#breadcrumb",
       "responsive-layout.mobile#nome-do-produto",
       "condition-layout.product#availability",
       "flex-layout.row#relatedProducts",
@@ -116,7 +116,7 @@
       "sku-selector",
       "flex-layout.col#product-recommendations-custom",
       "similar-products-variants", //traz os produtos similares
-      "flex-layout.row#quantidade-seletor-comprar",
+      // "flex-layout.row#quantidade-seletor-comprar",
       // "similares",
       "change-text-pdp-app",
       // "bundle",
@@ -127,12 +127,12 @@
       "flex-layout.row#contao-whatsapp"
     ]
   },
-  "app-modalcep": {},
-  "responsive-layout.mobile#breadcrumb": {
-    "children": [
-      "flex-layout.row#product-breadcrumb"
-    ]
-  },
+  // "app-modalcep": {},
+  // "responsive-layout.mobile#breadcrumb": {
+  //   "children": [
+  //     "flex-layout.row#product-breadcrumb"
+  //   ]
+  // },
   "flex-layout.col#product-recommendations-custom": {
     "children": []
   },
@@ -188,12 +188,12 @@
       "showSku": true
     }
   },
-  "rich-text#texto-valor-unitario": {
-    "props": {
-      "blockClass": "valor-unitario",
-      "text": "Valor unitário, consulte-nos para maiores informações"
-    }
-  },
+  // "rich-text#texto-valor-unitario": {
+  //   "props": {
+  //     "blockClass": "valor-unitario",
+  //     "text": "Valor unitário, consulte-nos para maiores informações"
+  //   }
+  // },
   // BUSCA CEP
   "flex-layout.row#busca-cep": {
     "props": {

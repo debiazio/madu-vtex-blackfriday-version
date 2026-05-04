@@ -37,17 +37,17 @@
   },
 
 
-  "flex-layout.row#1-desktop": {
-    "children": [
-      "flex-layout.col#header-col1",
-      "flex-layout.col#header-col2"
-    ],
-    "props": {
-      "fullWidth": true,
-      "blockClass": "notification",
-      "preventHorizontalStretch": true
-    }
-  },
+  // "flex-layout.row#1-desktop": {
+  //   "children": [
+  //     "flex-layout.col#header-col1",
+  //     "flex-layout.col#header-col2"
+  //   ],
+  //   "props": {
+  //     "fullWidth": true,
+  //     "blockClass": "notification",
+  //     "preventHorizontalStretch": true
+  //   }
+  // },
   "flex-layout.col#header-col1": {
     "props": {
       "blockClass": "header-col1",
@@ -118,13 +118,13 @@
       ]
     }
   },
-  "image#whatsapp": {
-    "props": {
-      "src": "assets/whatsapp-branco.svg",
-      "alt": "Ícone whatsapp",
-      "blockClass": "icone-notification"
-    }
-  },
+  // "image#whatsapp": {
+  //   "props": {
+  //     "src": "assets/whatsapp-branco.svg",
+  //     "alt": "Ícone whatsapp",
+  //     "blockClass": "icone-notification"
+  //   }
+  // },
   "image#email": {
     "props": {
       "src": "assets/mail.svg",
@@ -204,15 +204,15 @@
       "sticky-layout#2-mobile"
     ]
   },
-  "flex-layout.row#1-mobile": {
-    "props": {
-      "fullWidth": true,
-      "blockClass": "mobile-notification-bar"
-    },
-    "children": [
-      "rich-text#notification-bar"
-    ]
-  },
+  // "flex-layout.row#1-mobile": {
+  //   "props": {
+  //     "fullWidth": true,
+  //     "blockClass": "mobile-notification-bar"
+  //   },
+  //   "children": [
+  //     "rich-text#notification-bar"
+  //   ]
+  // },
   "sticky-layout#2-mobile": {
     "children": [
       "flex-layout.row#2-mobile",

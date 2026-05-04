@@ -1,0 +1,6 @@
+.flexRow--linha-banner-inicial-publico-hospitalar{
+  background-image: url(assets/lp-hospitais/ambientacao-banner-hosp.webp);
+  background-size: cover;
+  background-position: center;
+  min-height: 585px;
+}

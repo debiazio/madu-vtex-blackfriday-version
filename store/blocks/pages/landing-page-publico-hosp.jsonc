@@ -1,0 +1,99 @@
+{
+  "store.custom#publico-hospitalar": {
+    "blocks": [
+      "flex-layout.row#banner-inicial-publico-hospitalar",
+      "flex-layout.row#linhas-texto-deals-hospitais"
+    ]
+  },
+  // =============================================
+  // BANNER INICIAL
+  // =============================================
+  "flex-layout.row#banner-inicial-publico-hospitalar": {
+    "props": {
+      "blockClass": "linha-banner-inicial-publico-hospitalar",
+      "colSizing": "auto",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#coluna-sistema-mod-hosp",
+      "flex-layout.col#coluna-solicite-orc-hosp"
+    ]
+  },
+  "flex-layout.col#coluna-sistema-mod-hosp": {
+    "props": {
+      "blockClass": "coluna-filhas-banner-inic-hosp",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#sistma-hosp",
+      "rich-text#subtitulo-sistma-hosp"
+    ]
+  },
+  "rich-text#sistma-hosp": {
+    "props": {
+      "blockClass": "titulo-sistema-mod-hosp",
+      "text": "Sistema modular hospitar"
+    }
+  },
+  "rich-text#subtitulo-sistma-hosp": {
+    "props": {
+      "blockClass": "subtitulo-sistema-mod-hosp",
+      "text": "Soluções que se adaptam, evoluem e crescem com a sua operação."
+    }
+  },
+  "flex-layout.col#coluna-solicite-orc-hosp": {
+    "props": {
+      "blockClass": "coluna-filhas-banner-inic-hosp",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#formulario-hosp"
+    ]
+  },
+  "rich-text#formulario-hosp": {
+    "props": {
+      "text": "app custom formulario"
+    }
+  },
+  "flex-layout.row#linhas-texto-deals-hospitais": {
+    "props": {
+      "blockClass": "linhas-texto-deals-hospitais"
+    },
+    "children": [
+      "rich-text#coluna-alta-performance-hospitais",
+      "image#coluna-imagem-doisd-hospitais",
+      "rich-text#coluna-robustez-hospitais",
+      "image#coluna-imagem-tresd-hospitais",
+      "rich-text#coluna-personalizacao-hospitais"
+    ]
+  },
+  "rich-text#coluna-alta-performance-hospitais": {
+    "props": {
+      "text": "alta performance",
+      "blockClass": "texto-deals-hospitais"
+    }
+  },
+  "image#coluna-imagem-doisd-hospitais": {
+    "props": {
+      "src": "assets/lp-hospitais/2d.webp",
+      "blockClass": "imagem-ds-hospitais"
+    }
+  },
+  "rich-text#coluna-personalizacao-hospitais": {
+    "props": {
+      "text": "robustez"
+    }
+  },
+  "image#coluna-imagem-tresd-hospitais": {
+    "props": {
+      "src": "assets/lp-hospitais/3d.webp",
+      "blockClass": "imagem-ds-hospitais"
+    }
+  },
+  "rich-text#coluna-robustez-hospitais": {
+    "props": {
+      "text": "personalização",
+      "blockClass": "texto-deals-hospitais"
+    }
+  }
+}
