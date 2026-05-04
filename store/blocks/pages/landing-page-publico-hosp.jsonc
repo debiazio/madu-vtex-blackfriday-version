@@ -45,92 +45,115 @@
       "alt": "Eficiência e segurança"
     }
   },
-// =============================================
-// LINHAS DE TEXTO DE DEALS HOSPITAIS
-// =============================================
-"flex-layout.row#linhas-texto-deals-hospitais": {
-  "props": {
-    "blockClass": "linhas-texto-deals-hospitais",
-    "fullWidth": true
+  // =============================================
+  // LINHAS DE TEXTO DE DEALS HOSPITAIS
+  // =============================================
+  "flex-layout.row#linhas-texto-deals-hospitais": {
+    "props": {
+      "blockClass": "linhas-texto-deals-hospitais",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#coluna-alta-performance-hospitais",
+      "image#coluna-imagem-doisd-hospitais",
+      "rich-text#coluna-robustez-hospitais",
+      "image#coluna-imagem-tresd-hospitais",
+      "rich-text#coluna-personalizacao-hospitais"
+    ]
   },
-  "children": [
-    "rich-text#coluna-alta-performance-hospitais",
-    "image#coluna-imagem-doisd-hospitais",
-    "rich-text#coluna-robustez-hospitais",
-    "image#coluna-imagem-tresd-hospitais",
-    "rich-text#coluna-personalizacao-hospitais"
-  ]
-},
-"rich-text#coluna-alta-performance-hospitais": {
-  "props": {
-    "text": "alta performance",
-    "blockClass": "texto-deals-hospitais"
-  }
-},
-"image#coluna-imagem-doisd-hospitais": {
-  "props": {
-    "src": "assets/lp-hospitais/2d.webp",
-    "blockClass": "imagem-ds-hospitais"
-  }
-},
-"rich-text#coluna-personalizacao-hospitais": {
-  "props": {
-    "text": "robustez",
-    "blockClass": "texto-deals-hospitais"
-  }
-},
-"image#coluna-imagem-tresd-hospitais": {
-  "props": {
-    "src": "assets/lp-hospitais/3d.webp",
-    "blockClass": "imagem-ds-hospitais"
-  }
-},
-"rich-text#coluna-robustez-hospitais": {
-  "props": {
-    "text": "personalização",
-    "blockClass": "texto-deals-hospitais"
-  }
-},
-// =============================================
-// LINHA ONE HOSPITAIS
-// =============================================
-"flex-layout.row#linha-linha-one-hospitais":{
-  "props": {
-    "blockClass": "linha-linha-one-hospitais",
-    "fullWidth": true
-  },
-  "children": [
-    "flex-layout.col#imagem-linha-one-hospital",
-    "flex-layout.col#texto-linha-one-hospital"
-  ]
-},
-    "flex-layout.col#imagem-linha-one-hospital":{
-      "props": {
-        "blockClass": "coluna-linha-one-hospital"
-      },
-      "children": [
-        "image#imagem-doctor-hospitais"
-      ]
-    },
-    "image#imagem-doctor-hospitais":{
-      "props": {
-        "src": "assets/lp-hospitais/doctor.webp",
-        "alt": "Doctor",
-        "blockClass": "imagem-doctor-hospitais"
-      }
-    },
-    "flex-layout.col#texto-linha-one-hospital":{
-      "props": {
-        "blockClass": "coluna-linha-one-hospital"
-      },
-      "children": [
-        "rich-text#texto-linha-one-hospital"
-      ]
-    },
-    "rich-text#texto-linha-one-hospital":{
-      "props": {
-        "text": "a linha"
-      }
+  "rich-text#coluna-alta-performance-hospitais": {
+    "props": {
+      "text": "alta performance",
+      "blockClass": "texto-deals-hospitais"
     }
+  },
+  "image#coluna-imagem-doisd-hospitais": {
+    "props": {
+      "src": "assets/lp-hospitais/2d.webp",
+      "blockClass": "imagem-ds-hospitais"
+    }
+  },
+  "rich-text#coluna-personalizacao-hospitais": {
+    "props": {
+      "text": "personalização",
+      "blockClass": "texto-deals-hospitais"
+    }
+  },
+  "image#coluna-imagem-tresd-hospitais": {
+    "props": {
+      "src": "assets/lp-hospitais/3d.webp",
+      "blockClass": "imagem-ds-hospitais"
+    }
+  },
+  "rich-text#coluna-robustez-hospitais": {
+    "props": {
+      "text": "robustez",
+      "blockClass": "texto-deals-hospitais"
+    }
+  },
+  // =============================================
+  // LINHA ONE HOSPITAIS
+  // =============================================
+  "flex-layout.row#linha-linha-one-hospitais": {
+    "props": {
+      "blockClass": "linha-linha-one-hospitais",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#imagem-linha-one-hospital",
+      "flex-layout.col#texto-linha-one-hospital"
+    ]
+  },
+  "flex-layout.col#imagem-linha-one-hospital": {
+    "props": {
+      "blockClass": "coluna-linha-one-hospital-doctor",
+      "width": "60%"
+    },
+    "children": [
+      "image#imagem-doctor-hospitais"
+    ]
+  },
+  "image#imagem-doctor-hospitais": {
+    "props": {
+      "src": "assets/lp-hospitais/doctor.webp",
+      "alt": "Doctor",
+      "blockClass": "imagem-doctor-hospitais"
+    }
+  },
+  "flex-layout.col#texto-linha-one-hospital": {
+    "props": {
+      "blockClass": "coluna-linha-one-hospital",
+      "width": "40%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#texto-linha-one-hospital",
+      "flex-layout.row#linha-one",
+      "rich-text#texto-one-hospital",
+      "rich-text#texto-texto-linha-one-hospital"
+    ]
+  },
+  "rich-text#texto-linha-one-hospital": {
+    "props": {
+      "blockClass": "texto-linha-one-hospital",
+      "text": "a linha"
+    }
+  },
+  "flex-layout.row#linha-one":{
+    "props": {
+      
+    }
+  },
+  "rich-text#texto-one-hospital": {
+    "props": {
+      "blockClass": "texto-one-hospital",
+      "text": "+ one"
+    }
+  },
+  "rich-text#texto-texto-linha-one-hospital": {
+    "props": {
+      "blockClass": "texto-texto-linha-one-hospital",
+      "text": "É a solução ideal para quem precisa de desempenho máximo aliado a design e tecnologia."
+    }
+  }
 }
-

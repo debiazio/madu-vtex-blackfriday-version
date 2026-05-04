@@ -1,3 +1,26 @@
+.list--texto-one-hospital {
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 137%;
+  color: #FFFFFF;
+}
+
+.listItem--texto-one-hospital::marker{
+  font-size: 40px;
+  color: #FFA207;
+}
+
+.paragraph--texto-linha-one-hospital {
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 137%;
+  color: #FFFFFF;
+}
+
 .container--texto-deals-hospitais {
   display: flex;
   justify-content: center;

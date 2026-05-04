@@ -10,3 +10,15 @@
   justify-content: space-between;
   max-width: 1600px;
 }
+
+.flexCol--coluna-linha-one-hospital {
+  background-image: url(assets/lp-hospitais/Rectangle-arredondado.webp);
+  background-repeat: no-repeat;
+  background-position: top top;
+  background-size: cover;
+}
+
+.flexRow--linha-linha-one-hospitais{
+  background-color: #8282C8;
+}
+

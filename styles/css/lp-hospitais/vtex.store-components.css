@@ -1,3 +1,7 @@
 .imageElement--imagem-ds-hospitais{
   max-height: 21px;
 }
+
+.imageElement--imagem-doctor-hospitais{
+  width: 100%;
+}
