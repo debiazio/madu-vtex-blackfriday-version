@@ -1,0 +1,17 @@
+.sliderLayoutContainer--carousel-home {
+  width: 100%;
+}
+
+
+.paginationDotsContainer--carousel-home {
+  bottom: 30px !important;
+}
+
+
+.paginationDot--carousel-home--isActive{
+  background-color: #ED5AB8;
+}
+
+.sliderArrows--carousel-home{
+  z-index: 2;
+}

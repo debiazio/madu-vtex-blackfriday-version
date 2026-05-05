@@ -121,7 +121,7 @@
       "change-text-pdp-app",
       // "bundle",
       // "app-modalcep",
-      "flex-layout.row#busca-cep",
+      // "flex-layout.row#busca-cep",
       "flex-layout.row#metodos-pagamento-pdp",
       "image#bandeiras",
       "flex-layout.row#contao-whatsapp"

@@ -1,3 +1,99 @@
+.flexRow--linha-nossosDifer-hospitais{
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAF5;
+}
+.flexRowContent--linha-nossosDifer-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  padding: 0 20px;
+}
+
+.flexColChild--rotina-colunaImagem-hospitais {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.flexCol--rotina-Texto-hospitais {
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flexRow--linha-rotina-hospitais {
+  background-color: #8282C8;
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--linha-rotina-hospitais {
+  max-width: 1600px;
+  padding: 0 20px;
+}
+
+.flexCol--sistemaModular-coluna-textos {
+  background-color: #FAFAF5 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stretchChildrenWidth .flexRow--formulario-banner-hospitais {
+  width: 0% !important;
+}
+
+.flexRow--linhaconteinerprincipal-hospitais {
+  width: 100% !important;
+  position: relative;
+  display: block;
+  /* max-width: 1600px; */
+}
+
+.flexRowContent--linhaconteinerprincipal-hospitais {
+  display: flow;
+}
+
+/* .flexRow--linhaconteinerprincipal-hospitais .stretchChildrenWidth {
+  width: 100%!important;
+} */
+
+.flexRow--formulario-banner-hosp {
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+}
+
+.flexRow--colunas-bannerprincipal-hospitais {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.flexRowContent--linha-one-bolinha {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 11px;
+  border: 2px solid white;
+  border-radius: 0 50px 50px 0;
+  padding: 10px 14px 10px 14px;
+}
+
+.flexColChild--coluna-linha-one-hospital {
+  max-width: 253px;
+  margin-left: 20%;
+}
+
 .flexRow--linhas-texto-deals-hospitais {
   background-color: #EFEFEF;
   display: flex;
@@ -12,13 +108,20 @@
 }
 
 .flexCol--coluna-linha-one-hospital {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url(assets/lp-hospitais/Rectangle-arredondado.webp);
   background-repeat: no-repeat;
-  background-position: top top;
+  background-position: top;
   background-size: cover;
 }
 
-.flexRow--linha-linha-one-hospitais{
-  background-color: #8282C8;
+
+.flexRow--linha-sistemaModular-hospitais {
+  background-color: #FFA207;
 }
 
+.flexRow--linha-linha-one-hospitais {
+  background-color: #8282C8;
+}

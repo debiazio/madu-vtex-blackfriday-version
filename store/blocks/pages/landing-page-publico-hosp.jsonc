@@ -1,15 +1,40 @@
 {
   "store.custom#publico-hospitalar": {
     "blocks": [
-      "slider-layout#home-teste",
+      "flex-layout.row#formulario-hospitais",
+      "flex-layout.row#linhabanner-hospitalar",
       "flex-layout.row#linhas-texto-deals-hospitais",
-      "flex-layout.row#linha-linha-one-hospitais"
+      "flex-layout.row#linha-linha-one-hospitais",
+      "flex-layout.row#linha-sistemaModular-hospitais",
+      "flex-layout.row#linha-rotina",
+      "flex-layout.row#linha-nossosDifer-hospitais"
     ]
   },
-  // =============================================
-  // BANNER INICIAL
-  // =============================================
-  "slider-layout#home-teste": {
+  // ==============================
+  // formulario
+  // =============================
+  "flex-layout.row#formulario-hospitais": {
+    "props": {
+      "blockClass": "formulario-banner-hosp",
+      "width": "0%"
+    },
+    "children": [
+      "form-solicita-orcamento"
+    ]
+  },
+  "flex-layout.row#linhabanner-hospitalar": {
+    "props": {
+      "blockClass": "linhaprincipalbanner-hospitalar",
+      "fullWidth": true
+    },
+    "children": [
+      "slider-layout#home-hospitais"
+    ]
+  },
+  // ==============================================
+  // slider hospitais
+  // ==============================================
+  "slider-layout#home-hospitais": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -19,30 +44,173 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel-home",
-      "fullWidth": true
+      "fullWidth": true,
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     },
     "children": [
-      "image#banner-inicial-publico-hospitalar",
-      "image#seadapta",
-      "image#eficiencia"
+      "flex-layout.row#linhaconteinerprincipal",
+      "flex-layout.row#linhaconteinerSeAdapta",
+      "flex-layout.row#linhaconteinerEficiencia"
     ]
   },
-  "image#banner-inicial-publico-hospitalar": {
+  // banner 1
+  "flex-layout.row#linhaconteinerprincipal": {
     "props": {
-      "src": "assets/lp-hospitais/principal.webp",
-      "alt": "Banner inicial público hospitalar"
+      "blockClass": "linhaconteinerprincipal-hospitais",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#banner-principal-hospitais",
+      "flex-layout.row#textos-bannerprincipal-hospitais"
+    ]
+  },
+  "image#banner-principal-hospitais": {
+    "props": {
+      "blockClass": "banner-principal-hosp",
+      "src": "assets/lp-hospitais/ambientacao-banner-hosp.webp",
+      "title": "Ambientacao Hospital",
+      "alt": "Ambientacao Hospital"
     }
   },
-  "image#seadapta": {
+  "flex-layout.row#textos-bannerprincipal-hospitais": {
     "props": {
-      "src": "assets/lp-hospitais/seadapta.webp",
-      "alt": "Se adapta a qualquer hospital"
+      "blockClass": "colunas-bannerprincipal-hospitais"
+    },
+    "children": [
+      "flex-layout.col#textos-bannerprincipal-hosp"
+    ]
+  },
+  "flex-layout.col#textos-bannerprincipal-hosp": {
+    "props": {
+      "blockClass": "textos-bannerprincipal-hosp",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#sistema-hosp",
+      "rich-text#modular-hosp",
+      "rich-text#descricao-bannerprincipla-hosp"
+    ]
+  },
+  "rich-text#sistema-hosp": {
+    "props": {
+      "blockClass": "titulo-sistema-mod-hosp",
+      "text": "sistema"
     }
   },
-  "image#eficiencia": {
+  "rich-text#modular-hosp": {
     "props": {
-      "src": "assets/lp-hospitais/eficiencia.webp",
-      "alt": "Eficiência e segurança"
+      "blockClass": "tituloprincipal-sistema-mod-hosp",
+      "text": "modular hospitalar"
+    }
+  },
+  "rich-text#descricao-bannerprincipla-hosp": {
+    "props": {
+      "blockClass": "subtitulo-sistema-mod-hosp",
+      "text": "Soluções que se adaptam, evoluem e crescem com a sua operação."
+    }
+  },
+  // banner 2
+  "flex-layout.row#linhaconteinerSeAdapta": {
+    "props": {
+      "blockClass": "linhaconteinerprincipal-hospitais",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#banner-SeAdapta-hospitais",
+      "flex-layout.row#textos-bannerSeAdapta-hospitais"
+    ]
+  },
+  "image#banner-SeAdapta-hospitais": {
+    "props": {
+      "blockClass": "banner-principal-hosp",
+      "src": "assets/lp-hospitais/ambientacao-adapta.webp",
+      "title": "Ambientacao Hospital",
+      "alt": "Ambientacao Hospital"
+    }
+  },
+  "flex-layout.row#textos-bannerSeAdapta-hospitais": {
+    "props": {
+      "blockClass": "colunas-bannerprincipal-hospitais"
+    },
+    "children": [
+      "flex-layout.col#textos-bannerSeAdapta-hosp"
+    ]
+  },
+  "flex-layout.col#textos-bannerSeAdapta-hosp": {
+    "props": {
+      "blockClass": "textos-bannerprincipal-hosp",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#textobanner-seAdpta",
+      "rich-text#descricao-bannerSeAdapta-hosp"
+    ]
+  },
+  "rich-text#textobanner-seAdpta": {
+    "props": {
+      "blockClass": "texto-banner-seAdapta",
+      "text": "Se **adapta** \n a cada \n **movimento**"
+    }
+  },
+  "rich-text#descricao-bannerSeAdapta-hosp": {
+    "props": {
+      "blockClass": "subtitulo-sistema-mod-hosp",
+      "text": "Carrinhos e módulos pensados para otimizar fluxos e facilitar a rotina hospitalar."
+    }
+  },
+  // banner 3
+  "flex-layout.row#linhaconteinerEficiencia": {
+    "props": {
+      "blockClass": "linhaconteinerprincipal-hospitais",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#banner-Eficiencia-hospitais",
+      "flex-layout.row#textos-bannerEficiencia-hospitais"
+    ]
+  },
+  "image#banner-Eficiencia-hospitais": {
+    "props": {
+      "blockClass": "banner-principal-hosp",
+      "src": "assets/lp-hospitais/ambientacao-eficiencia.webp",
+      "title": "Ambientacao Hospital",
+      "alt": "Ambientacao Hospital"
+    }
+  },
+  "flex-layout.row#textos-bannerEficiencia-hospitais": {
+    "props": {
+      "blockClass": "colunas-bannerprincipal-hospitais"
+    },
+    "children": [
+      "flex-layout.col#textos-bannerEficiencia-hosp"
+    ]
+  },
+  "flex-layout.col#textos-bannerEficiencia-hosp": {
+    "props": {
+      "blockClass": "textos-bannerprincipal-hosp",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#textobanner-Eficiencia",
+      "rich-text#descricao-bannerEficiencia-hosp"
+    ]
+  },
+  "rich-text#textobanner-Eficiencia": {
+    "props": {
+      "blockClass": "texto-banner-Eficiencia",
+      "text": "**Eficiência** \n começa na \n **estrutura**"
+    }
+  },
+  "rich-text#descricao-bannerEficiencia-hosp": {
+    "props": {
+      "blockClass": "subtitulo-sistema-mod-hosp",
+      "text": "Ambientes hospitalares exigem organização, agilidade e precisão em cada detalhe."
     }
   },
   // =============================================
@@ -94,6 +262,7 @@
   // =============================================
   // LINHA ONE HOSPITAIS
   // =============================================
+  // linha 1
   "flex-layout.row#linha-linha-one-hospitais": {
     "props": {
       "blockClass": "linha-linha-one-hospitais",
@@ -128,8 +297,7 @@
     },
     "children": [
       "rich-text#texto-linha-one-hospital",
-      "flex-layout.row#linha-one",
-      "rich-text#texto-one-hospital",
+      "flex-layout.row#linha-one-hospitais",
       "rich-text#texto-texto-linha-one-hospital"
     ]
   },
@@ -139,21 +307,342 @@
       "text": "a linha"
     }
   },
-  "flex-layout.row#linha-one":{
+  "flex-layout.row#linha-one-hospitais": {
     "props": {
-      
+      "blockClass": "linha-one-bolinha",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#bolinha-amarela",
+      "rich-text#texto-one-hospital"
+    ]
+  },
+  "image#bolinha-amarela": {
+    "props": {
+      "blockClass": "bolinha-one",
+      "src": "assets/lp-hospitais/bolinha-amarela.webp"
     }
   },
   "rich-text#texto-one-hospital": {
     "props": {
       "blockClass": "texto-one-hospital",
-      "text": "+ one"
+      "text": "one"
     }
   },
   "rich-text#texto-texto-linha-one-hospital": {
     "props": {
       "blockClass": "texto-texto-linha-one-hospital",
       "text": "É a solução ideal para quem precisa de desempenho máximo aliado a design e tecnologia."
+    }
+  },
+  // linha 2
+  "flex-layout.row#linha-sistemaModular-hospitais": {
+    "props": {
+      "blockClass": "linha-sistemaModular-hospitais",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#texto-sistemaModular-hospital",
+      "flex-layout.col#imagem-sistemaModular--hospital"
+    ]
+  },
+  "flex-layout.col#texto-sistemaModular-hospital": {
+    "props": {
+      "blockClass": "sistemaModular-coluna-textos",
+      "width": "60%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#texto-sistemaModular-hospital",
+      "rich-text#subtexto-sistemaModular-hospital"
+    ]
+  },
+  "rich-text#texto-sistemaModular-hospital": {
+    "props": {
+      "blockClass": "texto-sistemaModular-hospital",
+      "text": "Com um \n **sistema** \n **totalmente** \n **modular**"
+    }
+  },
+  "rich-text#subtexto-sistemaModular-hospital": {
+    "props": {
+      "blockClass": "subtexto-sistemaModular-hospital",
+      "text": "Se adapta com precisão a diferentes ambientes."
+    }
+  },
+  "flex-layout.col#imagem-sistemaModular--hospital": {
+    "props": {
+      "blockClass": "coluna-sistemaModular-hospital",
+      "width": "40%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#imagem-carrinho-hospitais"
+    ]
+  },
+  "image#imagem-carrinho-hospitais": {
+    "props": {
+      "src": "assets/lp-hospitais/ambientes-git.gif",
+      "alt": "Carrinho",
+      "title": "Carrinho",
+      "blockClass": "imagem-carrinho-hospitais"
+    }
+  },
+  // =================
+  //  linha rotina
+  // =========================
+  "flex-layout.row#linha-rotina": {
+    "props": {
+      "blockClass": "linha-rotina-hospitais",
+      "fullWidth": true,
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#rotina-colunaImagem-hospitais",
+      "flex-layout.col#rotina-Texto-hospitais"
+    ]
+  },
+  "flex-layout.col#rotina-colunaImagem-hospitais": {
+    "props": {
+      "blockClass": "rotina-colunaImagem-hospitais"
+    },
+    "children": [
+      "image#imagem-rotina-hospitais"
+    ]
+  },
+  "image#imagem-rotina-hospitais": {
+    "props": {
+      "blockClass": "imagem-rotina-hospitais",
+      "src": "assets/lp-hospitais/image-rotinas.webp",
+      "title": "Rotinas",
+      "alt": "Rotinas"
+    }
+  },
+  "flex-layout.col#rotina-Texto-hospitais": {
+    "props": {
+      "blockClass": "rotina-Texto-hospitais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-rotina-hospitais",
+      "rich-text#subtitulo-rotina-hospitais"
+    ]
+  },
+  "rich-text#titulo-rotina-hospitais": {
+    "props": {
+      "blockClass": "titulo-rotina-hospitais",
+      "text": "**Cada detalhe** \n foi **pensado** \n  para **facilitar** \n **a rotina:**"
+    }
+  },
+  "rich-text#subtitulo-rotina-hospitais": {
+    "props": {
+      "blockClass": "subtitulo-rotina-hospitais",
+      "text": "Organização inteligente, ergonomia no uso e um visual moderno que valoriza o ambiente."
+    }
+  },
+  // =========================
+  // nossos diferenciais
+  // ====================
+  "flex-layout.row#linha-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "linha-nossosDifer-hospitais",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-nossosDifer-hospitais",
+      "flex-layout.row#colunas-nossosDifer-hospitais"
+    ]
+  },
+  "rich-text#titulo-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "titulo-nossosDifer-hospitais",
+      "text": "nossos diferenciais"
+    }
+  },
+  "flex-layout.row#colunas-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "colunas-nossosDifer-hospitais",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#coluna-antimicrobaiana-hospitais",
+      "flex-layout.col#coluna-estrutura-hospitais",
+      "flex-layout.col#coluna-personalizacao-hospitais"
+    ]
+  },
+  // coluna 1
+  "flex-layout.col#coluna-antimicrobaiana-hospitais": {
+    "props": {
+      "blockClass": "colunasFilhas-nossosDifer-hospitais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#microbiana-hospitais",
+      "flex-layout.row#tituloimg-nossosDifer-hospitais",
+      "rich-text#subtitulo-nossosDifer-hospitais",
+      "rich-text#subtexto-nossosDifer-hospitais"
+    ]
+  },
+  "image#microbiana-hospitais": {
+    "props": {
+      "blockClass": "img-nossosDifer-hospitais",
+      "src": "assets/lp-hospitais/img-antimicrob.webp",
+      "title": "antimicrobiana",
+      "alt": "antimicrobiana"
+    }
+  },
+  "flex-layout.row#tituloimg-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "tituloimg-nossosDifer-hospitais",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#tecnologia-hospitais",
+      "image#imagenzina-titulo-hospitais"
+    ]
+  },
+  "rich-text#tecnologia-hospitais": {
+    "props": {
+      "blockClass": "titulo-tecnologia-hospitais",
+      "text": "tecnologia"
+    }
+  },
+  "image#imagenzina-titulo-hospitais": {
+    "props": {
+      "blockClass": "img-detalhe",
+      "src": "assets/lp-hospitais/imagenzinha-tecnologia.webp",
+      "title": "Detalhe",
+      "alt": "Detalhe"
+    }
+  },
+  "rich-text#subtitulo-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "titulo-nossosDifer-hospitais",
+      "text": "antimicrobiana"
+    }
+  },
+  "rich-text#subtexto-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "subtexto-nossosDifer-hospitais",
+      "text": "O material dos nossos produtos recebe aditivos antimicrobianos, que é indispensável para ambientes seguros."
+    }
+  },
+  // coluna 2
+  "flex-layout.col#coluna-estrutura-hospitais": {
+    "props": {
+      "blockClass": "colunasFilhas-nossosDifer-hospitais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#estrutura-hospitais",
+      "flex-layout.row#tituloimgEstrutura-nossosDifer-hospitais",
+      "rich-text#subtituloEstrut-nossosDifer-hospitais",
+      "rich-text#subtextoEstrut-nossosDifer-hospitais"
+    ]
+  },
+  "image#estrutura-hospitais": {
+    "props": {
+      "blockClass": "img-nossosDifer-hospitais",
+      "src": "assets/lp-hospitais/img-estrutura.webp",
+      "title": "Estrutura",
+      "alt": "Estrutura"
+    }
+  },
+  "flex-layout.row#tituloimgEstrutura-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "tituloimg-nossosDifer-hospitais",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#estrutura-hospitais",
+      "image#imagenzinaEstrut-titulo-hospitais"
+    ]
+  },
+  "rich-text#estrutura-hospitais": {
+    "props": {
+      "blockClass": "titulo-tecnologia-hospitais",
+      "text": "estrutura"
+    }
+  },
+  "image#imagenzinaEstrut-titulo-hospitais": {
+    "props": {
+      "blockClass": "img-detalhe",
+      "src": "assets/lp-hospitais/imagenzinha2.webp",
+      "title": "Detalhe",
+      "alt": "Detalhe"
+    }
+  },
+  "rich-text#subtituloEstrut-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "titulo-nossosDifer-hospitais",
+      "text": "em aço inox"
+    }
+  },
+  "rich-text#subtextoEstrut-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "subtexto-nossosDifer-hospitais",
+      "text": "Com tratamento anticorrosão, garantindo alta durabilidade mesmo em uso intenso."
+    }
+  },
+  // coluna 3
+  "flex-layout.col#coluna-personalizacao-hospitais": {
+    "props": {
+      "blockClass": "colunasFilhas-nossosDifer-hospitais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#person-nossosDifer-hospitais",
+      "flex-layout.row#tituloimgPerson-nossosDifer-hospitais",
+      "rich-text#subtituloPerson-nossosDifer-hospitais",
+      "rich-text#subtextoPerson-nossosDifer-hospitais"
+    ]
+  },
+  "image#person-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "img-nossosDifer-hospitais",
+      "src": "assets/lp-hospitais/img-ampla.webp",
+      "title": "Personalização",
+      "alt": "Personalização"
+    }
+  },
+  "flex-layout.row#tituloimgPerson-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "tituloimg-nossosDifer-hospitais",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#person-hospitais",
+      "image#imagenzinaEstrut-titulo-person"
+    ]
+  },
+  "rich-text#person-hospitais": {
+    "props": {
+      "blockClass": "titulo-tecnologia-hospitais",
+      "text": "ampla"
+    }
+  },
+  "image#imagenzinaEstrut-titulo-person": {
+    "props": {
+      "blockClass": "img-detalhe",
+      "src": "assets/lp-hospitais/imagenzinha3.png",
+      "title": "Detalhe",
+      "alt": "Detalhe"
+    }
+  },
+  "rich-text#subtituloPerson-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "titulo-nossosDifer-hospitais",
+      "text": "personalização"
+    }
+  },
+  "rich-text#subtextoPerson-nossosDifer-hospitais": {
+    "props": {
+      "blockClass": "subtexto-nossosDifer-hospitais",
+      "text": "Escolha de cores, tamanhos, configurações e até a aplicação da sua marca no produto."
     }
   }
 }

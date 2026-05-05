@@ -1,10 +1,96 @@
-.list--texto-one-hospital {
+
+.container--subtitulo-rotina-hospitais{
+  max-width: 420px;
+}
+
+.paragraph--subtitulo-rotina-hospitais{
+  font-family: "Poppins",sans-serif!important;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 108%;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.container--texto-sistemaModular-hospital,
+.container--subtexto-sistemaModular-hospital{
+  max-width: 550px;
+  margin-left: 25%;
+}
+
+.container--texto-banner-Eficiencia,
+.container--texto-banner-seAdapta,
+.container--subtitulo-sistema-mod-hosp,
+.container--titulo-sistema-mod-hosp,
+.container--tituloprincipal-sistema-mod-hosp{
+  max-width: 550px;
+  padding: 0 50px;
+}
+
+.paragraph--titulo-rotina-hospitais{
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 88%;
+  text-transform: uppercase;
+  margin: 0;
+  color: #FFFFFF;
+}
+.paragraph--subtexto-sistemaModular-hospital{
+  font-family: "Poppins",sans-serif!important;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 108%;
+  color: #8282C8;
+}
+
+.paragraph--texto-sistemaModular-hospital{
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 88%;
+  text-transform: uppercase;
+  color: #FFA207;
+  margin: 0;
+}
+
+.paragraph--texto-banner-Eficiencia{
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 88%;
+  text-transform: uppercase;
+  color: #25652B;
+  margin: 0;
+}
+.paragraph--texto-banner-seAdapta{
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 88%;
+  text-transform: uppercase;
+  color: #FFA207;
+  margin: 0;
+}
+
+.paragraph--texto-texto-linha-one-hospital{
+  font-family: "Poppins",sans-serif!important;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 108%;
+  color: #FFFFFF;
+}
+
+
+
+.paragraph--texto-one-hospital {
   font-family: "Poppins Bold", sans-serif !important;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 40px;
   line-height: 137%;
   color: #FFFFFF;
+  margin: 0;
 }
 
 .listItem--texto-one-hospital::marker{
@@ -19,6 +105,7 @@
   font-size: 40px;
   line-height: 137%;
   color: #FFFFFF;
+  margin: 0;
 }
 
 .container--texto-deals-hospitais {
@@ -38,8 +125,8 @@
 
 
 .paragraph--titulo-sistema-mod-hosp {
-  font-family: "Poppins Bold", sans-serif !important;
-  font-weight: 700;
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
   font-size: 64px;
   line-height: 88%;
   text-transform: uppercase;
