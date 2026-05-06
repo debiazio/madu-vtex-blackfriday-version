@@ -1,3 +1,7 @@
+.sliderTrackContainer--slider-maisVendidos{
+  overflow: hidden;
+}
+
 .sliderLayoutContainer--carousel-home {
   width: 100%;
 }

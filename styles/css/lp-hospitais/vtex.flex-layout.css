@@ -1,4 +1,31 @@
-.flexRowContent--linha-onOne-hospitais{
+.flexRow--linha-maisVendidos-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--linha-maisVendidos-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+}
+
+.flexRowContent--linha-setBinsOrg-hospitais {
+  gap: 43px;
+}
+
+.flexCol--colunas-setBinOrg-hospitais {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% 50% 0 0;
+  padding: 25px;
+}
+
+.flexRowContent--linha-onOne-hospitais {
   padding: 0 62px;
 }
 
@@ -8,7 +35,7 @@
 }
 
 .flexColChild--colunas-oneOne-hospitais:first-child {
-  padding: 65px 65px 0;
+  padding: 65px 65px 15px;
 }
 
 .flexRowContent--linha-onOne-hospitais {
@@ -20,6 +47,7 @@
   border-radius: 46px;
   padding: 43px;
   margin: 0 40px;
+  gap: 44px;
 }
 
 .flexRow--linha-conhecaCat-hospitais {
@@ -60,7 +88,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 1600px;
-  padding: 0 20px;
+  padding: 0 40px;
   gap: 40px;
 }
 
@@ -129,6 +157,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  max-width: 1600px;
 }
 
 

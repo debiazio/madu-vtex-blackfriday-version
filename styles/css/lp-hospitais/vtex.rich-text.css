@@ -1,4 +1,27 @@
 
+.strong--titulo-ones-hospitais{
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 89%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.paragraph--titulo-ones-hospitais{
+  font-family: "Poppins",sans-serif!important;
+  font-weight: 400;
+  font-weight: 24px;
+  line-height: 89%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #585858;
+  margin: 0;
+}
+.paragraph--subtexto-onone{
+  max-width: 470px;
+  text-align: center;
+}
+
 .paragraph--subtexto-nossosDifer-hospitais{
   font-family: "Poppins",sans-serif!important;
   font-weight: 400;
