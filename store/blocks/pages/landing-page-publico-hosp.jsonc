@@ -7,7 +7,8 @@
       "flex-layout.row#linha-linha-one-hospitais",
       "flex-layout.row#linha-sistemaModular-hospitais",
       "flex-layout.row#linha-rotina",
-      "flex-layout.row#linha-nossosDifer-hospitais"
+      "flex-layout.row#linha-nossosDifer-hospitais",
+      "flex-layout.row#linha-conhecaCat-hospitais"
     ]
   },
   // ==============================
@@ -456,8 +457,8 @@
   },
   "rich-text#titulo-nossosDifer-hospitais": {
     "props": {
-      "blockClass": "titulo-nossosDifer-hospitais",
-      "text": "nossos diferenciais"
+      "blockClass": "tituloSuperior-nossosDifer-hospitais",
+      "text": "nossos \n **diferenciais**"
     }
   },
   "flex-layout.row#colunas-nossosDifer-hospitais": {
@@ -486,7 +487,7 @@
   },
   "image#microbiana-hospitais": {
     "props": {
-      "blockClass": "img-nossosDifer-hospitais",
+      "blockClass": "img-inteira-hospitais",
       "src": "assets/lp-hospitais/img-antimicrob.webp",
       "title": "antimicrobiana",
       "alt": "antimicrobiana"
@@ -544,7 +545,7 @@
   },
   "image#estrutura-hospitais": {
     "props": {
-      "blockClass": "img-nossosDifer-hospitais",
+      "blockClass": "img-inteira-hospitais",
       "src": "assets/lp-hospitais/img-estrutura.webp",
       "title": "Estrutura",
       "alt": "Estrutura"
@@ -602,7 +603,7 @@
   },
   "image#person-nossosDifer-hospitais": {
     "props": {
-      "blockClass": "img-nossosDifer-hospitais",
+      "blockClass": "img-inteira-hospitais",
       "src": "assets/lp-hospitais/img-ampla.webp",
       "title": "Personalização",
       "alt": "Personalização"
@@ -643,6 +644,217 @@
     "props": {
       "blockClass": "subtexto-nossosDifer-hospitais",
       "text": "Escolha de cores, tamanhos, configurações e até a aplicação da sua marca no produto."
+    }
+  },
+  // ============================
+  // conheça nossas categorias
+  // ============================
+  "flex-layout.row#linha-conhecaCat-hospitais": {
+    "props": {
+      "blockClass": "linha-conhecaCat-hospitais",
+      "fullWidth": true,
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-conhecaCat-hospitais",
+      "flex-layout.col#linha-menor-oneOne-hospitais"
+    ]
+  },
+  "flex-layout.col#linha-menor-oneOne-hospitais":{
+    "props": {
+      "blockClass": "linha-menor-oneOne-hospitais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#linha-onOne-hospitais",
+      "flex-layout.row#linha-setBinsOrg-hospitais"
+    ]
+  },
+  "rich-text#titulo-conhecaCat-hospitais": {
+    "props": {
+      "blockClass": "tituloSuperior-nossosDifer-hospitais",
+      "text": "conheça as \n **categorias**"
+    }
+  },
+  // linha das duas colunas
+  "flex-layout.row#linha-onOne-hospitais": {
+    "props": {
+      "blockClass": "linha-onOne-hospitais"
+    },
+    "children": [
+      "flex-layout.col#coluna-one560-hospitais",
+      "flex-layout.col#coluna-one740-hospitais"
+    ]
+  },
+  // coluna 560
+  "flex-layout.col#coluna-one560-hospitais": {
+    "props": {
+      "blockClass": "colunas-oneOne-hospitais"
+    },
+    "children": [
+      "image#one560-hospitais",
+      "rich-text#titulo-one560-hospitais",
+      "rich-text#subtitulo-one560-hospitais"
+    ]
+  },
+  "image#one560-hospitais":{
+    "props": {
+      "blockClass": ["img-inteira-hospitais", "img-padding-hosp"],
+      "src": "assets/lp-hospitais/one560.webp",
+      "title": "One 560",
+      "alt": "One 560"
+    }
+  },
+  "rich-text#titulo-one560-hospitais":{
+    "props": {
+      "blockClass": "titulo-ones-hospitais",
+      "text": "**one** 560"
+    }
+  },
+  "rich-text#subtitulo-one560-hospitais":{
+    "props": {
+      "blockClass": "subtexto-nossosDifer-hospitais",
+      "text": "Compacto, sem abrir mão da função. O ONE 560 oferece organização, mobilidade e adaptação."
+    }
+  },
+  // coluna 740
+  "flex-layout.col#coluna-one740-hospitais": {
+    "props": {
+      "blockClass": "colunas-oneOne-hospitais"
+    },
+    "children": [
+        "image#one740-hospitais",
+        "rich-text#titulo-one740-hospitais",
+        "rich-text#subtitulo-740-hospitais"
+    ]
+  },
+  "image#one740-hospitais":{
+    "props": {
+      "blockClass": ["img-inteira-hospitais", "img-padding-hosp"],
+      "src": "assets/lp-hospitais/one740.webp",
+      "title": "One 740",
+      "alt": "One 740"
+    }
+  },
+  "rich-text#titulo-one740-hospitais":{
+    "props": {
+      "blockClass": "titulo-ones-hospitais",
+      "text": "**one** 740"
+    }
+  },
+  "rich-text#subtitulo-740-hospitais":{
+    "props": {
+      "blockClass": "subtexto-nossosDifer-hospitais",
+      "text": "Mais capacidade para rotinas intensas. O ONE 740 organiza o fluxo com eficiência, mobilidade."
+    }
+  },
+  //  linha das 3 colunas
+  "flex-layout.row#linha-setBinsOrg-hospitais":{
+    "props": {
+      "blockClass": "linha-setBinsOrg-hospitais",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#coluna-set-hospitais",
+      "flex-layout.col#coluna-bins-hospitais",
+      "flex-layout.col#coluna-org-hospitais"
+    ]
+  },
+  // linha set
+  "flex-layout.col#coluna-set-hospitais":{
+    "props": {
+      "blockClass": "colunas-setBinOrg-hospitais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#set-hospitais",
+      "rich-text#titulo-set-hospitais",
+      "rich-text#subtitulo-set-hospitais"
+    ]
+  },
+  "image#set-hospitais":{
+    "props": {
+      "blockClass": "img-inteira-hospitais",
+      "src": "assets/lp-hospitais/set.webp",
+      "title": "Set",
+      "alt": "Set"
+    }
+  },
+  "rich-text#titulo-set-hospitais":{
+    "props": {
+      "blockClass": "titulo-nossosDifer-hospitais",
+      "text": "set"
+    }
+  },
+  "rich-text#subtitulo-set-hospitais":{
+    "props": {
+      "blockClass": "subtexto-nossosDifer-hospitais",
+      "text": "Monte, remonte, transforme. Módulos que se adaptam à sua rotina."
+    }
+  },
+  // linha bins
+  "flex-layout.col#coluna-bins-hospitais":{
+    "props": {
+      "blockClass": "colunas-setBinOrg-hospitais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#bins-hospitais",
+      "rich-text#titulo-bins-hospitais",
+      "rich-text#subtitulo-bins-hospitais"
+    ]
+  },
+  "image#bins-hospitais":{
+    "props": {
+      "blockClass": "img-inteira-hospitais",
+      "src": "assets/lp-hospitais/bin.webp",
+      "title": "Bins",
+      "alt": "Bins"
+    }
+  },
+  "rich-text#titulo-bins-hospitais":{
+    "props": {
+      "blockClass": "titulo-nossosDifer-hospitais",
+      "text": "bins"
+    }
+  },
+  "rich-text#subtitulo-bins-hospitais":{
+    "props": {
+      "blockClass": "subtexto-nossosDifer-hospitais",
+      "text": "Organização protegida. Caixas com tampa e material antimicrobiano."
+    }
+  },
+  // linha organizadores
+  "flex-layout.col#coluna-org-hospitais":{
+    "props": {
+      "blockClass": "colunas-setBinOrg-hospitais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#orgs-hospitais",
+      "rich-text#titulo-orgs-hospitais",
+      "rich-text#subtitulo-orgs-hospitais"
+    ]
+  },
+  "image#orgs-hospitais":{
+    "props": {
+      "blockClass": "img-inteira-hospitais",
+      "src": "assets/lp-hospitais/orgs.webp",
+      "title": "Organizadores",
+      "alt": "Organizadores"
+    }
+  },
+  "rich-text#titulo-orgs-hospitais":{
+    "props": {
+      "blockClass": "titulo-nossosDifer-hospitais",
+      "text": "orgs"
+    }
+  },
+  "rich-text#subtitulo-orgs-hospitais":{
+    "props": {
+      "blockClass": "subtexto-nossosDifer-hospitais",
+      "text": "Simples, práticos e sempre à mão, pra organizar o essencial com agilidade."
     }
   }
 }

@@ -1,5 +1,11 @@
+
+.imageElement--img-inteira-hospitais {
+  width: auto;
+  height: 100%;
+}
+
 .imageElement--imagem-rotina-hospitais,
-.imageElement--imagem-doctor-hospitais{
+.imageElement--imagem-doctor-hospitais {
   height: 100%;
 }
 

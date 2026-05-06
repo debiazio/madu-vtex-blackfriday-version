@@ -1,14 +1,67 @@
-.flexRow--linha-nossosDifer-hospitais{
+.flexRowContent--linha-onOne-hospitais{
+  padding: 0 62px;
+}
+
+.flexColChild--colunas-oneOne-hospitais {
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--colunas-oneOne-hospitais:first-child {
+  padding: 65px 65px 0;
+}
+
+.flexRowContent--linha-onOne-hospitais {
+  gap: 84px;
+}
+
+.flexCol--linha-menor-oneOne-hospitais {
+  background-color: #FAFAF5;
+  border-radius: 46px;
+  padding: 43px;
+  margin: 0 40px;
+}
+
+.flexRow--linha-conhecaCat-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--linha-conhecaCat-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1600px;
+}
+
+.flexRowContent--tituloimg-nossosDifer-hospitais {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 41px;
+  align-items: center;
+}
+
+.flexRowContent--colunas-nossosDifer-hospitais {
+  gap: 120px;
+}
+
+.flexRow--linha-nossosDifer-hospitais {
   display: flex;
   justify-content: center;
   background-color: #FAFAF5;
 }
+
 .flexRowContent--linha-nossosDifer-hospitais {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 1600px;
   padding: 0 20px;
+  gap: 40px;
 }
 
 .flexColChild--rotina-colunaImagem-hospitais {
