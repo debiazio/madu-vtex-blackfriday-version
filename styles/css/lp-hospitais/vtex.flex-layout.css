@@ -201,10 +201,20 @@
   width: 100%!important;
 } */
 
+.flexRow--formulario-banner-hosp .stretchChildrenWidth{
+  padding-right: -100%;
+}
+
 .flexRow--formulario-banner-hosp {
-  position: absolute;
+  background: transparent;
+  margin-bottom: -100%;
+  margin-left: 25%;
+  z-index: 2;
+  position: relative;
+
+  /* position: absolute;
   z-index: 1;
-  right: 20px;
+  right: 20px; */
 }
 
 .flexRow--colunas-bannerprincipal-hospitais {
@@ -264,4 +274,45 @@
 
 .flexRow--linha-linha-one-hospitais {
   background-color: #8282C8;
+}
+
+@media (max-width: 1650px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 1560px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 15%;
+  }
+}
+@media (max-width: 1460px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 1380px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1310px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 0%;
+  }
+}
+@media (max-width: 1220px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: -8%;
+  }
+}
+@media (max-width: 1150px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: -15%;
+  }
+}
+@media (max-width: 1080px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: -20%;
+  }
 }

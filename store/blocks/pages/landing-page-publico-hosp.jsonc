@@ -987,15 +987,8 @@
       "label": "ver todos os produtos"
     },
     "children": [
-      // "rich-text#texto-link-verTodos-hospitais",
       "image#img-link-verTodos-hospitais"
     ]
-  },
-  "rich-text#texto-link-verTodos-hospitais":{
-    "props": {
-      "text": "ver todos os produtos",
-      "blockClass": "texto-link-verTodos-hospitais"
-    }
   },
   "image#img-link-verTodos-hospitais":{
     "props": {
