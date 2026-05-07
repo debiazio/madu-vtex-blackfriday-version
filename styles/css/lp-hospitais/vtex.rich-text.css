@@ -1,4 +1,17 @@
 
+.strong--texto-falarEspec-hospitais{
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+}
+.paragraph--texto-falarEspec-hospitais{
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 .strong--titulo-ones-hospitais{
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;

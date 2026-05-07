@@ -9,7 +9,8 @@
       "flex-layout.row#linha-rotina",
       "flex-layout.row#linha-nossosDifer-hospitais",
       "flex-layout.row#linha-conhecaCat-hospitais",
-      "flex-layout.row#linha-maisVendidos-hospitais"
+      "flex-layout.row#linha-maisVendidos-hospitais",
+      "flex-layout.row#linha-falarEspec-hospitais"
     ]
   },
   // ==============================
@@ -791,8 +792,8 @@
     "props": {
       "blockClass": "img-inteira-hospitais",
       "src": "assets/lp-hospitais/set.webp",
-      "title": "Set",
-      "alt": "Set"
+      "title": "Sets",
+      "alt": "Sets"
     }
   },
   "rich-text#titulo-set-hospitais": {
@@ -1148,6 +1149,34 @@
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
       "usePagination": false
+    }
+  },
+  // ================================
+  // linha falar com especialista
+  // ===============================
+  "flex-layout.row#linha-falarEspec-hospitais": {
+    "props": {
+      "blockClass": "linha-falarEspec-hospitais",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#texto-falarEspec-hospitais",
+      "link#link-falarEspec-hospitais"
+    ]
+  },
+  "rich-text#texto-falarEspec-hospitais":{
+    "props": {
+      "blockClass": "texto-falarEspec-hospitais",
+      "text": "Uma **solução completa,** sofisticada e feita \n **sob medida** para quem **exige o melhor.**"
+    }
+  },
+  "link#link-falarEspec-hospitais":{
+    "props": {
+      "blockClass": "link-falarEspec-hospitais",
+      "label": "falar com especialista",
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20produtos%20Hospitalares%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%21"
+
     }
   }
 }

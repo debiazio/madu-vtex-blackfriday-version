@@ -1,0 +1,22 @@
+.link--link-falarEspec-hospitais {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.label--link-falarEspec-hospitais:hover{
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  background-color: #80C2A8;
+}
+
+.label--link-falarEspec-hospitais {
+  background-color: #4CAB86;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px ;
+}
