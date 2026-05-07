@@ -1,3 +1,7 @@
+.listItemActive :global(.vtex-button){
+  background-color: transparent;
+}
+
 .container--tabela-maisVendidas-hospitais {
   display: flex;
   flex-direction: column;
@@ -15,14 +19,20 @@
 
 .contentContainer--conteudoTabela-maisVendidos-hospitais {
   border: unset;
+  width: calc(100vw - 300px);
+  max-width: 1600px;
 }
 
 .listContainer--itensTabela-maisVendidos-hospitais {
   background-color: #EEEEEE;
+  border-radius: 44px;
+  padding: 0 5px;
 }
 
 .listContainer--itensTabela-maisVendidos-hospitais .listItemActive {
   background-color: #FFFFFF;
+  border-radius: 32px;
+  border: none;
 }
 
 
@@ -41,3 +51,4 @@
   text-align: center;
   color: #1E1E1E;
 }
+

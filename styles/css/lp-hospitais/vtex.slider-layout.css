@@ -1,4 +1,18 @@
-.sliderTrackContainer--slider-maisVendidos{
+.sliderTrack--slider-maisVendidos {
+  gap: 16px;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.slide--slider-maisVendidos {
+  box-shadow: 0px 4px 20px 0px #0000001A;
+  opacity: 1;
+  border-radius: 30px;
+  max-width: 25%;
+}
+
+.sliderTrackContainer--slider-maisVendidos {
   overflow: hidden;
 }
 
@@ -12,10 +26,10 @@
 }
 
 
-.paginationDot--carousel-home--isActive{
+.paginationDot--carousel-home--isActive {
   background-color: #ED5AB8;
 }
 
-.sliderArrows--carousel-home{
+.sliderArrows--carousel-home {
   z-index: 2;
 }

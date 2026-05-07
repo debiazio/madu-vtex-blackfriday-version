@@ -10,7 +10,8 @@
       "flex-layout.row#linha-nossosDifer-hospitais",
       "flex-layout.row#linha-conhecaCat-hospitais",
       "flex-layout.row#linha-maisVendidos-hospitais",
-      "flex-layout.row#linha-falarEspec-hospitais"
+      "flex-layout.row#linha-falarEspec-hospitais",
+      "flex-layout.row#linha-nossosClientes-hospitais"
     ]
   },
   // ==============================
@@ -893,12 +894,13 @@
     },
     "children": [
       "rich-text#titulo-maisVendidos-hospitais",
-      "flex-layout.row#table-maisVendidos-hospitais"
+      "flex-layout.row#table-maisVendidos-hospitais",
+      "link#verTodos-maisVendidos-hospitais"
     ]
   },
   "rich-text#titulo-maisVendidos-hospitais": {
     "props": {
-      "blockClass": "tituloSuperior-nossosDifer-hospitais",
+      "blockClass": "tituloSuperior-maisVendidos-hospitais",
       "text": "mais vendidos"
     }
   },
@@ -976,6 +978,63 @@
       "tab-content.item#orgs-maisVendidos-hospitais"
     ]
   },
+  // link ver todos
+  "link#verTodos-maisVendidos-hospitais":{
+    "props": {
+      "blockClass": "link-linha-vertodos-hospitais",
+      "href": "/moveis/",
+      "openNewTab": true,
+      "label": "ver todos os produtos"
+    },
+    "children": [
+      // "rich-text#texto-link-verTodos-hospitais",
+      "image#img-link-verTodos-hospitais"
+    ]
+  },
+  "rich-text#texto-link-verTodos-hospitais":{
+    "props": {
+      "text": "ver todos os produtos",
+      "blockClass": "texto-link-verTodos-hospitais"
+    }
+  },
+  "image#img-link-verTodos-hospitais":{
+    "props": {
+      "blockClass": "img-inteira-hospitais",
+      "src": "assets/lp-hospitais/abrir-branco.webp"
+    }
+  },
+  // ===================
+  //  IMAGEM DO PRODUTO CARROSSEL PRATELEIRA SHELF
+  // =====================
+  "product-summary.shelf#lp-hospitais": {
+    "props": {
+      "blockClass": "container-slider-hospitais"
+    },
+    "children": [
+      "product-summary-image#slider-hospitais",
+      "product-summary-name#slider-hospitais",
+      "product-summary-buy-button#slider-hospitais"
+    ]
+  },
+  "product-summary-image#slider-hospitais": {
+    "props": {
+      "blockClass": "productImage-hospitais"
+    }
+  },
+  "product-summary-name#slider-hospitais": {
+    "props": {
+      "blockClass": "productName-hospitais"
+    }
+  },
+  "product-summary-buy-button#slider-hospitais": {
+    "props": {
+      "blockClass": "productButButton-hospitais",
+      "isOneClickBuy": false,
+      "buyButtonBehavior": "alwaysGoToProduct",
+      "buyButtonText": "topage",
+      "openNewTab": true
+    }
+  },
   // one560
   "tab-content.item#one560-maisVendidos-hospitais": {
     "props": {
@@ -988,7 +1047,7 @@
   },
   "list-context.product-list#one560-maisVendidos-hospitais": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#lp-hospitais"
     ],
     "props": {
       "collection": "154"
@@ -1023,7 +1082,7 @@
   },
   "list-context.product-list#one740-maisVendidos-hospitais": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#lp-hospitais"
     ],
     "props": {
       "collection": "150"
@@ -1058,7 +1117,7 @@
   },
   "list-context.product-list#bins-maisVendidos-hospitais": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#lp-hospitais"
     ],
     "props": {
       "collection": "151"
@@ -1093,7 +1152,7 @@
   },
   "list-context.product-list#sets-maisVendidos-hospitais": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#lp-hospitais"
     ],
     "props": {
       "collection": "152"
@@ -1128,10 +1187,10 @@
   },
   "list-context.product-list#orgs-maisVendidos-hospitais": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#lp-hospitais"
     ],
     "props": {
-      "collection": "152"
+      "collection": "153"
     },
     "children": [
       "slider-layout#orgs-maisVendidos-hospitais"
@@ -1165,18 +1224,165 @@
       "link#link-falarEspec-hospitais"
     ]
   },
-  "rich-text#texto-falarEspec-hospitais":{
+  "rich-text#texto-falarEspec-hospitais": {
     "props": {
       "blockClass": "texto-falarEspec-hospitais",
       "text": "Uma **solução completa,** sofisticada e feita \n **sob medida** para quem **exige o melhor.**"
     }
   },
-  "link#link-falarEspec-hospitais":{
+  "link#link-falarEspec-hospitais": {
     "props": {
       "blockClass": "link-falarEspec-hospitais",
       "label": "falar com especialista",
       "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20produtos%20Hospitalares%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%21"
+    }
+  },
+  // ================================
+  // linha falar com especialista
+  // ===============================
+  "flex-layout.row#linha-nossosClientes-hospitais": {
+    "props": {
+      "blockClass": "linha-nossosClientes-hospitais",
+      "fullWidth": true,
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-nossosClientes-hospitais",
+      "flex-layout.row#logos1-nossosCLientes-hospitais"
+    ]
+  },
+  "rich-text#titulo-nossosClientes-hospitais": {
+    "props": {
+      "blockClass": "tituloSuperior-nossosDifer-hospitais",
+      "text": "nossos \n **clientes**"
+    }
+  },
+  // linha 1
+  "flex-layout.row#logos1-nossosCLientes-hospitais": {
+    "props": {
+      "blockClass": "linhas-logos-nossosClientes-hospitais",
+      "colSizing": "equal"
 
+    },
+    "children": [
+      "image#unimed-hospitais",
+      "image#einstein-hospitais",
+      "image#mackenzie-hospitais",
+      "image#sirioLibanes-hospitais",
+      "image#oncoClinicas-hospitais",
+      "image#santaCasa-hospitais",
+      "image#hcLondrina-hospitais",
+      "image#hIbirapuera-hospitais",
+      "image#medsenior-hospitais",
+      "image#erastoGaertner-hospitais"
+    ]
+  },
+  "image#unimed-hospitais": {
+    "props": {
+      "blockClass": [
+        "img-inteira-hospitais",
+        "imgs-logos-hospitais"
+      ],
+      "src": "assets/lp-hospitais/logos/logo-unimed.webp",
+      "title": "unimed logo",
+      "alt": "unimed logo"
+    }
+  },
+  "image#einstein-hospitais": {
+    "props": {
+      "blockClass": [
+        "img-inteira-hospitais",
+        "imgs-logos-hospitais"
+      ],
+      "src": "assets/lp-hospitais/logos/logo-einstein.webp",
+      "title": "einstein logo",
+      "alt": "einstein logo"
+    }
+  },
+  "image#mackenzie-hospitais": {
+    "props": {
+      "blockClass": [
+        "img-inteira-hospitais",
+        "imgs-logos-hospitais"
+      ],
+      "src": "assets/lp-hospitais/logos/logo-mackenzie.webp",
+      "title": "mackenzie logo",
+      "alt": "mackenzie logo"
+    }
+  },
+  "image#sirioLibanes-hospitais": {
+    "props": {
+      "blockClass": [
+        "img-inteira-hospitais",
+        "imgs-logos-hospitais"
+      ],
+      "src": "assets/lp-hospitais/logos/logo-hsirio.webp",
+      "title": "sirioLibanes logo",
+      "alt": "sirioLibanes logo"
+    }
+  },
+  "image#oncoClinicas-hospitais": {
+    "props": {
+      "blockClass": [
+        "img-inteira-hospitais",
+        "imgs-logos-hospitais"
+      ],
+      "src": "assets/lp-hospitais/logos/oncoclinicas.webp",
+      "title": "oncoClinicas logo",
+      "alt": "oncoClinicas logo"
+    }
+  },
+  "image#santaCasa-hospitais": {
+    "props": {
+      "blockClass": [
+        "img-inteira-hospitais",
+        "imgs-logos-hospitais"
+      ],
+      "src": "assets/lp-hospitais/logos/logo-stacasactba.webp",
+      "title": "Sta Casa Curitiba logo",
+      "alt": "Sta Casa Curitiba logo"
+    }
+  },
+  "image#hcLondrina-hospitais": {
+    "props": {
+      "blockClass": [
+        "img-inteira-hospitais",
+        "imgs-logos-hospitais"
+      ],
+      "src": "assets/lp-hospitais/logos/logo-hclondrina.webp",
+      "title": "hcLondrina logo",
+      "alt": "hcLondrina logo"
+    }
+  },
+  "image#hIbirapuera-hospitais": {
+    "props": {
+      "blockClass": [
+        "img-inteira-hospitais",
+        "imgs-logos-hospitais"
+      ],
+      "src": "assets/lp-hospitais/logos/logo-hibirapuera.webp",
+      "title": "hIbirapuera logo",
+      "alt": "hIbirapuera logo"
+    }
+  },
+  "image#medsenior-hospitais": {
+    "props": {
+      "blockClass": [
+        "img-inteira-hospitais",
+        "imgs-logos-hospitais"
+      ],
+      "src": "assets/lp-hospitais/logos/logo-medsenior.webp",
+      "title": "MedSenior logo",
+      "alt": "MedSenior logo"
+    }
+  },
+  "image#erastoGaertner-hospitais": {
+    "props": {
+      "blockClass": "imgs-logos-hospitais",
+      "src": "assets/lp-hospitais/logos/logo-erastog.webp",
+      "title": "Erasto logo",
+      "alt": "Erasto logo"
     }
   }
 }

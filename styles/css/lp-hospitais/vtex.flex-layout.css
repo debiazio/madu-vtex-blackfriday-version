@@ -1,13 +1,51 @@
-.flexRow--linha-falarEspec-hospitais{
+.childrenContainer--link-linha-vertodos-hospitais{
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--linhas-logos-nossosClientes-hospitais .stretchChildrenWidth{
+  width: 100%!important;
+  border: 1px solid #EBEBEB
+}
+
+.flexRowContent--linhas-logos-nossosClientes-hospitais{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.flexRow--linha-nossosClientes-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--linha-nossosClientes-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  width: calc(100vw - 300px);
+}
+
+.flexRow--linha-maisVendidos-hospitais {
+  padding: 89px 0;
+}
+
+.flexRow--linha-falarEspec-hospitais {
   display: flex;
   justify-content: center;
   background-color: #FFA207;
 }
 
-.flexRowContent--linha-falarEspec-hospitais{
+.flexRowContent--linha-falarEspec-hospitais {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: calc(100vw - 300px);
   max-width: 1600px;
   align-items: center;
 }
@@ -22,6 +60,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: calc(100vw - 300px);
   max-width: 1600px;
 }
 
@@ -76,6 +115,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: calc(100vw - 300px);
   max-width: 1600px;
 }
 
@@ -101,6 +141,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: calc(100vw - 300px);
   max-width: 1600px;
   padding: 0 40px;
   gap: 40px;
@@ -129,6 +170,7 @@
 }
 
 .flexRowContent--linha-rotina-hospitais {
+  width: calc(100vw - 300px);
   max-width: 1600px;
   padding: 0 20px;
 }
@@ -171,6 +213,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: calc(100vw - 300px);
   max-width: 1600px;
 }
 
@@ -200,6 +243,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: calc(100vw - 300px);
   max-width: 1600px;
 }
 

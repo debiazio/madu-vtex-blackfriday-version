@@ -1,3 +1,7 @@
+.imageElement--imgs-logos-hospitais{
+  object-fit: scale-down;
+
+}
 
 .imageElement--img-inteira-hospitais {
   width: auto;

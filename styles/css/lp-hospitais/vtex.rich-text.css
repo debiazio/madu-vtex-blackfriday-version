@@ -1,4 +1,17 @@
 
+
+
+.paragraph--tituloSuperior-maisVendidos-hospitais{
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #585858;
+  margin: 0;
+  line-height: 185%;
+}
+
 .strong--texto-falarEspec-hospitais{
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;
