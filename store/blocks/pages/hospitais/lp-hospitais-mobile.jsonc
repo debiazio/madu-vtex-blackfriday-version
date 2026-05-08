@@ -1,7 +1,7 @@
 {
   "responsive-layout.mobile#slider-mobile": {
     "children": [
-      "form-solicita-orcamento-mobile",
+      // "form-solicita-orcamento-mobile",
       "slider-layout#home-hospitais-mobile"
     ]
   },
