@@ -1179,7 +1179,7 @@
         "phone": 1
       },
       "infinite": true,
-      "maxItems": 4,
+      "maxItems": 1,
       "fullWidth": true,
       "showNavigationArrows": "mobileOnly",
       "showPaginationDots": "never",
@@ -1219,7 +1219,7 @@
         "phone": 1
       },
       "infinite": true,
-      "maxItems": 4,
+      "maxItems": 1,
       "fullWidth": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
@@ -1259,7 +1259,7 @@
         "phone": 1
       },
       "infinite": true,
-      "maxItems": 4,
+      "maxItems": 1,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
       "usePagination": false,
