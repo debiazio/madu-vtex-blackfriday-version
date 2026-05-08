@@ -33,3 +33,14 @@
 .sliderArrows--carousel-home {
   z-index: 2;
 }
+
+@media (max-width: 1000px) {
+  .sliderTrack--slider-maisVendidos {
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  .sliderTrack--slider-maisVendidos{
+    width: 300%!important;
+  }
+}

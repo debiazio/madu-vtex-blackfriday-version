@@ -1,20 +1,24 @@
-.childrenContainer--link-linha-vertodos-hospitais{
+.flexRow--linha-one-bolinha {
+  width: fit-content;
+}
+
+.childrenContainer--link-linha-vertodos-hospitais {
   display: flex;
   align-items: center;
 }
 
-.flexRowContent--linhas-logos-nossosClientes-hospitais .stretchChildrenWidth{
-  width: 100%!important;
+.flexRowContent--linhas-logos-nossosClientes-hospitais .stretchChildrenWidth {
+  width: 100% !important;
   border: 1px solid #EBEBEB
 }
 
-.flexRowContent--linhas-logos-nossosClientes-hospitais{
+.flexRowContent--linhas-logos-nossosClientes-hospitais {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, auto);
   justify-items: center;
-  width: 100%!important;
-  height: 100%!important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .flexRow--linha-nossosClientes-hospitais {
@@ -137,6 +141,10 @@
   background-color: #FAFAF5;
 }
 
+.flexRow--linha-nossosDifer-hospitais-mobile {
+  background-color: #FAFAF5;
+}
+
 .flexRowContent--linha-nossosDifer-hospitais {
   display: flex;
   flex-direction: column;
@@ -201,7 +209,7 @@
   width: 100%!important;
 } */
 
-.flexRow--formulario-banner-hosp .stretchChildrenWidth{
+.flexRow--formulario-banner-hosp .stretchChildrenWidth {
   padding-right: -100%;
 }
 
@@ -235,7 +243,7 @@
   gap: 11px;
   border: 2px solid white;
   border-radius: 0 50px 50px 0;
-  padding: 10px 14px 10px 14px;
+  padding: 0px 30px 0px 14px;
 }
 
 .flexColChild--coluna-linha-one-hospital {
@@ -281,38 +289,169 @@
     margin-left: 20%;
   }
 }
+
 @media (max-width: 1560px) {
   .flexRow--formulario-banner-hosp {
     margin-left: 15%;
   }
 }
+
 @media (max-width: 1460px) {
   .flexRow--formulario-banner-hosp {
     margin-left: 10%;
   }
 }
+
 @media (max-width: 1380px) {
   .flexRow--formulario-banner-hosp {
     margin-left: 5%;
   }
 }
+
 @media (max-width: 1310px) {
   .flexRow--formulario-banner-hosp {
     margin-left: 0%;
   }
 }
+
 @media (max-width: 1220px) {
   .flexRow--formulario-banner-hosp {
     margin-left: -8%;
   }
 }
+
 @media (max-width: 1150px) {
   .flexRow--formulario-banner-hosp {
     margin-left: -15%;
   }
 }
+
 @media (max-width: 1080px) {
   .flexRow--formulario-banner-hosp {
     margin-left: -20%;
+  }
+}
+
+/* celualr */
+@media (max-width: 1000px) {
+  .flexRow--linhas-texto-deals-hospitais-mobile {
+    padding: 7px 0px;
+  }
+
+  .flexRowContent--linha-imageTexto-deals-mobile-hospitais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .flexRowContent--linha-linha-one-hospitais {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flexCol--sistemaModular-coluna-textos {
+    padding: 80px 0 58px;
+  }
+
+  .flexRow--linha-rotina-hospitais {
+    padding: 0;
+  }
+
+  .flexRowContent--linha-rotina-hospitais {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 80px 30px 0 20px;
+  }
+
+  .flexCol--rotina-Texto-hospitais {
+    padding-left: unset;
+  }
+
+  .flexRowContent--nossosDifer-hospitais-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 20px;
+    gap: 13px;
+  }
+
+  .flexRowContent--linha-nossosDifer-hospitais-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 20px;
+  }
+
+  .flexRowContent--linha-conhecaCat-hospitais {
+    width: 100%;
+  }
+
+  .flexRowContent--linha-filha-conhecaCat-hospitais-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flexRow--linha-filha-conhecaCat-hospitais-mobile {
+    padding: 45px 0 0 0;
+  }
+
+  .flexRow--arco-mobile {
+    padding: 20px;
+  }
+
+  .flexRowContent--arco-mobile {
+    padding: 30px 0;
+    border-radius: 50% 50% 0 0;
+    background-color: #FAFAF5;
+  }
+
+  .flexRow--linha-conhecaCat-hospitais {
+    margin: 98px 0 0 0;
+  }
+
+  .flexRowContent--linha-maisVendidos-hospitais {
+    width: 100%;
+  }
+
+  .flexRowContent--linha-falarEspec-hospitais {
+    width: 100%;
+  }
+
+  .flexRowContent--linha-falarEspec-hospitais {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRow--linha-falarEspec-hospitais {
+    padding-bottom: 30px;
+  }
+
+  .flexRowContent--linha-falarEspec-hospitais {
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .flexRowContent--linha-nossosClientes-hospitais {
+    width: 100%;
+  }
+
+  .flexRowContent--linhas-logos-nossosClientes-hospitais {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+
+  .flexRowContent--linhas-logos-nossosClientes-hospitais .stretchChildrenWidth:last-child {
+    display: none;
+  }
+
+  .flexRowContent--linha-nossosClientes-hospitais{
+    margin-top: 58px;
+    gap: 46px;
   }
 }

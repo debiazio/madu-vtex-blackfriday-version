@@ -35,3 +35,13 @@
 .imageElement--imagem-doctor-hospitais {
   width: 100%;
 }
+
+@media (max-width: 1000px) {
+  .imageElement--imagem-doctor-hospitais{
+    margin-bottom: -5px;
+  }
+
+  .imageElement--img-detalhe{
+    width: 80%;
+  }
+}

@@ -1,17 +1,26 @@
 {
   "store.custom#publico-hospitalar": {
     "blocks": [
-      "flex-layout.row#formulario-hospitais",
-      "flex-layout.row#linhabanner-hospitalar",
-      "flex-layout.row#linhas-texto-deals-hospitais",
+      "responsive-layout.desktop#formulario-desktop",
+      "responsive-layout.desktop#slider-desktop",
+      "responsive-layout.mobile#slider-mobile",
+      "responsive-layout.desktop#deals-desktop",
+      "responsive-layout.mobile#deals-mobile",
       "flex-layout.row#linha-linha-one-hospitais",
       "flex-layout.row#linha-sistemaModular-hospitais",
       "flex-layout.row#linha-rotina",
-      "flex-layout.row#linha-nossosDifer-hospitais",
-      "flex-layout.row#linha-conhecaCat-hospitais",
+      "responsive-layout.desktop#linha-nossosDifer-hospitais",
+      "responsive-layout.mobile#linha-nossosDifer-hospitais",
+      "responsive-layout.desktop#linha-conhecaCat-hospitais",
+      "responsive-layout.mobile#linha-conhecaCat-hospitais",
       "flex-layout.row#linha-maisVendidos-hospitais",
       "flex-layout.row#linha-falarEspec-hospitais",
       "flex-layout.row#linha-nossosClientes-hospitais"
+    ]
+  },
+  "responsive-layout.desktop#formulario-desktop": {
+    "children": [
+      "flex-layout.row#formulario-hospitais"
     ]
   },
   // ==============================
@@ -31,6 +40,11 @@
       "blockClass": "linhaprincipalbanner-hospitalar",
       "fullWidth": true
     },
+    "children": [
+      "slider-layout#home-hospitais"
+    ]
+  },
+  "responsive-layout.desktop#slider-desktop": {
     "children": [
       "slider-layout#home-hospitais"
     ]
@@ -220,6 +234,11 @@
   // =============================================
   // LINHAS DE TEXTO DE DEALS HOSPITAIS
   // =============================================
+  "responsive-layout.desktop#deals-desktop": {
+    "children": [
+      "flex-layout.row#linhas-texto-deals-hospitais"
+    ]
+  },
   "flex-layout.row#linhas-texto-deals-hospitais": {
     "props": {
       "blockClass": "linhas-texto-deals-hospitais",
@@ -270,11 +289,21 @@
   "flex-layout.row#linha-linha-one-hospitais": {
     "props": {
       "blockClass": "linha-linha-one-hospitais",
-      "fullWidth": true
+      "fullWidth": true,
+      "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#imagem-linha-one-hospital",
+      "responsive-layout.desktop#imagem-doctor-hospitais",
+      "responsive-layout.mobile#imagem-doctor-mobile-hospitais",
       "flex-layout.col#texto-linha-one-hospital"
+    ]
+  },
+  "responsive-layout.desktop#imagem-doctor-hospitais": {
+    "props": {
+      "width": "60%"
+    },
+    "children": [
+      "flex-layout.col#imagem-linha-one-hospital"
     ]
   },
   "flex-layout.col#imagem-linha-one-hospital": {
@@ -307,7 +336,10 @@
   },
   "rich-text#texto-linha-one-hospital": {
     "props": {
-      "blockClass": "texto-linha-one-hospital",
+      "blockClass": [
+        "texto-linha-one-hospital",
+        "texto-linha-one-hospital-mobile"
+      ],
       "text": "a linha"
     }
   },
@@ -447,6 +479,11 @@
   // =========================
   // nossos diferenciais
   // ====================
+  "responsive-layout.desktop#linha-nossosDifer-hospitais": {
+    "children": [
+      "flex-layout.row#linha-nossosDifer-hospitais"
+    ]
+  },
   "flex-layout.row#linha-nossosDifer-hospitais": {
     "props": {
       "blockClass": "linha-nossosDifer-hospitais",
@@ -653,6 +690,11 @@
   // ============================
   // conheça nossas categorias
   // ============================
+  "responsive-layout.desktop#linha-conhecaCat-hospitais": {
+    "children": [
+      "flex-layout.row#linha-conhecaCat-hospitais"
+    ]
+  },
   "flex-layout.row#linha-conhecaCat-hospitais": {
     "props": {
       "blockClass": "linha-conhecaCat-hospitais",
@@ -792,7 +834,7 @@
   "image#set-hospitais": {
     "props": {
       "blockClass": "img-inteira-hospitais",
-      "src": "assets/lp-hospitais/set.webp",
+      "src": "assets/lp-hospitais/Open-set.png",
       "title": "Sets",
       "alt": "Sets"
     }
@@ -979,7 +1021,7 @@
     ]
   },
   // link ver todos
-  "link#verTodos-maisVendidos-hospitais":{
+  "link#verTodos-maisVendidos-hospitais": {
     "props": {
       "blockClass": "link-linha-vertodos-hospitais",
       "href": "/moveis/",
@@ -990,7 +1032,7 @@
       "image#img-link-verTodos-hospitais"
     ]
   },
-  "image#img-link-verTodos-hospitais":{
+  "image#img-link-verTodos-hospitais": {
     "props": {
       "blockClass": "img-inteira-hospitais",
       "src": "assets/lp-hospitais/abrir-branco.webp"
@@ -1054,13 +1096,18 @@
       "blockClass": "slider-maisVendidos",
       "itemsPerPage": {
         "desktop": 4,
-        "phone": 2
+        "phone": 1
       },
-      "infinite": false,
+      "infinite": true,
       "maxItems": 4,
+      "fullWidth": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
-      "usePagination": false
+      "usePagination": true,
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     }
   },
   //  one740
@@ -1089,13 +1136,18 @@
       "blockClass": "slider-maisVendidos",
       "itemsPerPage": {
         "desktop": 4,
-        "phone": 2
+        "phone": 1
       },
-      "infinite": false,
+      "infinite": true,
       "maxItems": 4,
+      "fullWidth": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
-      "usePagination": false
+      "usePagination": true,
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     }
   },
   //  bins
@@ -1124,13 +1176,18 @@
       "blockClass": "slider-maisVendidos",
       "itemsPerPage": {
         "desktop": 4,
-        "phone": 2
+        "phone": 1
       },
-      "infinite": false,
+      "infinite": true,
       "maxItems": 4,
-      "showNavigationArrows": "never",
+      "fullWidth": true,
+      "showNavigationArrows": "mobileOnly",
       "showPaginationDots": "never",
-      "usePagination": false
+      "usePagination": true,
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     }
   },
   //  sets
@@ -1159,13 +1216,18 @@
       "blockClass": "slider-maisVendidos",
       "itemsPerPage": {
         "desktop": 4,
-        "phone": 2
+        "phone": 1
       },
-      "infinite": false,
+      "infinite": true,
       "maxItems": 4,
+      "fullWidth": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
-      "usePagination": false
+      "usePagination": true,
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     }
   },
   //  orgs
@@ -1194,13 +1256,17 @@
       "blockClass": "slider-maisVendidos",
       "itemsPerPage": {
         "desktop": 4,
-        "phone": 2
+        "phone": 1
       },
-      "infinite": false,
+      "infinite": true,
       "maxItems": 4,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
-      "usePagination": false
+      "usePagination": false,
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     }
   },
   // ================================
@@ -1213,8 +1279,14 @@
       "colSizing": "auto"
     },
     "children": [
-      "rich-text#texto-falarEspec-hospitais",
+      "responsive-layout.desktop#linha-falarEspec-hospitais",
+      "responsive-layout.mobile#linha-falarEspec-hospitais",
       "link#link-falarEspec-hospitais"
+    ]
+  },
+  "responsive-layout.desktop#linha-falarEspec-hospitais":{
+    "children": [
+      "rich-text#texto-falarEspec-hospitais"
     ]
   },
   "rich-text#texto-falarEspec-hospitais": {
@@ -1256,7 +1328,6 @@
     "props": {
       "blockClass": "linhas-logos-nossosClientes-hospitais",
       "colSizing": "equal"
-
     },
     "children": [
       "image#unimed-hospitais",

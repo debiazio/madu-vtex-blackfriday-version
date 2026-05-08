@@ -1,7 +1,4 @@
-
-
-
-.paragraph--tituloSuperior-maisVendidos-hospitais{
+.paragraph--tituloSuperior-maisVendidos-hospitais {
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;
   font-size: 64px;
@@ -12,11 +9,12 @@
   line-height: 185%;
 }
 
-.strong--texto-falarEspec-hospitais{
+.strong--texto-falarEspec-hospitais {
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;
 }
-.paragraph--texto-falarEspec-hospitais{
+
+.paragraph--texto-falarEspec-hospitais {
   font-family: "Poppins Bold", sans-serif !important;
   font-weight: 700;
   font-size: 32px;
@@ -25,7 +23,7 @@
   color: #FFFFFF;
 }
 
-.strong--titulo-ones-hospitais{
+.strong--titulo-ones-hospitais {
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;
   font-size: 40px;
@@ -33,8 +31,9 @@
   text-align: center;
   text-transform: uppercase;
 }
-.paragraph--titulo-ones-hospitais{
-  font-family: "Poppins",sans-serif!important;
+
+.paragraph--titulo-ones-hospitais {
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-weight: 24px;
   line-height: 89%;
@@ -43,13 +42,14 @@
   color: #585858;
   margin: 0;
 }
-.paragraph--subtexto-onone{
+
+.paragraph--subtexto-onone {
   max-width: 470px;
   text-align: center;
 }
 
-.paragraph--subtexto-nossosDifer-hospitais{
-  font-family: "Poppins",sans-serif!important;
+.paragraph--subtexto-nossosDifer-hospitais {
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-size: 24px;
   line-height: 108%;
@@ -57,7 +57,7 @@
 }
 
 .paragraph--titulo-nossosDifer-hospitais,
-.paragraph--titulo-tecnologia-hospitais{
+.paragraph--titulo-tecnologia-hospitais {
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;
   font-size: 32px;
@@ -66,7 +66,7 @@
   margin: 0;
 }
 
-.strong--tituloSuperior-nossosDifer-hospitais{
+.strong--tituloSuperior-nossosDifer-hospitais {
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;
   font-size: 64px;
@@ -74,8 +74,8 @@
 
 }
 
-.paragraph--tituloSuperior-nossosDifer-hospitais{
-  font-family: "Poppins",sans-serif!important;
+.paragraph--tituloSuperior-nossosDifer-hospitais {
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-size: 18px;
   line-height: 137%;
@@ -85,12 +85,12 @@
   margin: 60px 28px 38px;
 }
 
-.container--subtitulo-rotina-hospitais{
+.container--subtitulo-rotina-hospitais {
   max-width: 420px;
 }
 
-.paragraph--subtitulo-rotina-hospitais{
-  font-family: "Poppins",sans-serif!important;
+.paragraph--subtitulo-rotina-hospitais {
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-size: 24px;
   line-height: 108%;
@@ -99,7 +99,7 @@
 }
 
 .container--texto-sistemaModular-hospital,
-.container--subtexto-sistemaModular-hospital{
+.container--subtexto-sistemaModular-hospital {
   max-width: 550px;
   margin-left: 25%;
 }
@@ -108,12 +108,12 @@
 .container--texto-banner-seAdapta,
 .container--subtitulo-sistema-mod-hosp,
 .container--titulo-sistema-mod-hosp,
-.container--tituloprincipal-sistema-mod-hosp{
+.container--tituloprincipal-sistema-mod-hosp {
   max-width: 550px;
   padding: 0 50px;
 }
 
-.paragraph--titulo-rotina-hospitais{
+.paragraph--titulo-rotina-hospitais {
   font-family: "Poppins Light", sans-serif !important;
   font-weight: 300;
   font-size: 48px;
@@ -122,15 +122,16 @@
   margin: 0;
   color: #FFFFFF;
 }
-.paragraph--subtexto-sistemaModular-hospital{
-  font-family: "Poppins",sans-serif!important;
+
+.paragraph--subtexto-sistemaModular-hospital {
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-size: 24px;
   line-height: 108%;
   color: #8282C8;
 }
 
-.paragraph--texto-sistemaModular-hospital{
+.paragraph--texto-sistemaModular-hospital {
   font-family: "Poppins Light", sans-serif !important;
   font-weight: 300;
   font-size: 64px;
@@ -140,7 +141,7 @@
   margin: 0;
 }
 
-.paragraph--texto-banner-Eficiencia{
+.paragraph--texto-banner-Eficiencia {
   font-family: "Poppins Light", sans-serif !important;
   font-weight: 300;
   font-size: 64px;
@@ -149,7 +150,8 @@
   color: #25652B;
   margin: 0;
 }
-.paragraph--texto-banner-seAdapta{
+
+.paragraph--texto-banner-seAdapta {
   font-family: "Poppins Light", sans-serif !important;
   font-weight: 300;
   font-size: 64px;
@@ -159,8 +161,8 @@
   margin: 0;
 }
 
-.paragraph--texto-texto-linha-one-hospital{
-  font-family: "Poppins",sans-serif!important;
+.paragraph--texto-texto-linha-one-hospital {
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-size: 24px;
   line-height: 108%;
@@ -179,7 +181,7 @@
   margin: 0;
 }
 
-.listItem--texto-one-hospital::marker{
+.listItem--texto-one-hospital::marker {
   font-size: 40px;
   color: #FFA207;
 }
@@ -238,4 +240,100 @@
   color: #575757;
   margin: 0;
   padding-top: 10px;
+}
+
+/* celualr */
+@media (max-width: 1000px) {
+  .paragraph--texto-deals-hospitais-mobile {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 700;
+    line-height: 137%;
+    color: #8282C8;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  .paragraph--texto-texto-linha-one-hospital {
+    font-family: "Poppins Light", sans-serif !important;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .paragraph--texto-sistemaModular-hospital {
+    font-size: 40px;
+  }
+
+  .paragraph--subtexto-sistemaModular-hospital {
+    margin: 0;
+    font-family: "Poppins Light", sans-serif !important;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .container--subtexto-sistemaModular-hospital,
+  .container--texto-sistemaModular-hospital {
+    margin-left: unset;
+    padding: 20px;
+  }
+
+  .container--texto-linha-one-hospital-mobile {
+    margin-top: 106px;
+  }
+
+  .paragraph--titulo-rotina-hospitais {
+    font-size: 40px;
+  }
+
+  .paragraph--subtitulo-rotina-hospitais {
+    font-family: "Poppins Light", sans-serif !important;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .strong--tituloSuperior-nossosDifer-hospitais {
+    font-size: 40px;
+  }
+
+  .paragraph--titulo-tecnologia-hospitais,
+  .paragraph--titulo-nossosDifer-hospitais {
+    font-size: 20px;
+  }
+
+  .paragraph--titulo-nossosDifer-hospitais {
+    margin: 2px;
+  }
+
+  .paragraph--subtexto-nossosDifer-hospitais {
+    font-family: "Poppins Light", sans-serif !important;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .paragraph--tituloSuperior-nossosDifer-hospitais {
+    margin: unset;
+  }
+
+  .paragraph--subtexto-onone {
+    max-width: unset !important;
+    font-family: "Poppins Light", sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 20px !important;
+  }
+
+  .paragraph--tituloSuperior-maisVendidos-hospitais {
+    font-size: 36px;
+  }
+
+  .container--subtexto-nossosDifer-hospitais {
+    padding: 0 20px;
+  }
+
+  .paragraph--texto-falarEspec-hospitais {
+    font-family: "Poppins Light", sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 20px;
+  }
 }
