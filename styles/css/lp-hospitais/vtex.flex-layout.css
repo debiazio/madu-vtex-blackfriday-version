@@ -1,0 +1,318 @@
+.childrenContainer--link-linha-vertodos-hospitais{
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--linhas-logos-nossosClientes-hospitais .stretchChildrenWidth{
+  width: 100%!important;
+  border: 1px solid #EBEBEB
+}
+
+.flexRowContent--linhas-logos-nossosClientes-hospitais{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.flexRow--linha-nossosClientes-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--linha-nossosClientes-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  width: calc(100vw - 300px);
+}
+
+.flexRow--linha-maisVendidos-hospitais {
+  padding: 89px 0;
+}
+
+.flexRow--linha-falarEspec-hospitais {
+  display: flex;
+  justify-content: center;
+  background-color: #FFA207;
+}
+
+.flexRowContent--linha-falarEspec-hospitais {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100vw - 300px);
+  max-width: 1600px;
+  align-items: center;
+}
+
+.flexRow--linha-maisVendidos-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--linha-maisVendidos-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100vw - 300px);
+  max-width: 1600px;
+}
+
+.flexRowContent--linha-setBinsOrg-hospitais {
+  gap: 43px;
+}
+
+.flexCol--colunas-setBinOrg-hospitais {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% 50% 0 0;
+  padding: 25px;
+}
+
+.flexRowContent--linha-onOne-hospitais {
+  padding: 0 62px;
+}
+
+.flexColChild--colunas-oneOne-hospitais {
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--colunas-oneOne-hospitais:first-child {
+  padding: 65px 65px 15px;
+}
+
+.flexRowContent--linha-onOne-hospitais {
+  gap: 84px;
+}
+
+.flexCol--linha-menor-oneOne-hospitais {
+  background-color: #FAFAF5;
+  border-radius: 46px;
+  padding: 43px;
+  margin: 0 40px;
+  gap: 44px;
+}
+
+.flexRow--linha-conhecaCat-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--linha-conhecaCat-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100vw - 300px);
+  max-width: 1600px;
+}
+
+.flexRowContent--tituloimg-nossosDifer-hospitais {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 41px;
+  align-items: center;
+}
+
+.flexRowContent--colunas-nossosDifer-hospitais {
+  gap: 120px;
+}
+
+.flexRow--linha-nossosDifer-hospitais {
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAF5;
+}
+
+.flexRowContent--linha-nossosDifer-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100vw - 300px);
+  max-width: 1600px;
+  padding: 0 40px;
+  gap: 40px;
+}
+
+.flexColChild--rotina-colunaImagem-hospitais {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.flexCol--rotina-Texto-hospitais {
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flexRow--linha-rotina-hospitais {
+  background-color: #8282C8;
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--linha-rotina-hospitais {
+  width: calc(100vw - 300px);
+  max-width: 1600px;
+  padding: 0 20px;
+}
+
+.flexCol--sistemaModular-coluna-textos {
+  background-color: #FAFAF5 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stretchChildrenWidth .flexRow--formulario-banner-hospitais {
+  width: 0% !important;
+}
+
+.flexRow--linhaconteinerprincipal-hospitais {
+  width: 100% !important;
+  position: relative;
+  display: block;
+  /* max-width: 1600px; */
+}
+
+.flexRowContent--linhaconteinerprincipal-hospitais {
+  display: flow;
+}
+
+/* .flexRow--linhaconteinerprincipal-hospitais .stretchChildrenWidth {
+  width: 100%!important;
+} */
+
+.flexRow--formulario-banner-hosp .stretchChildrenWidth{
+  padding-right: -100%;
+}
+
+.flexRow--formulario-banner-hosp {
+  background: transparent;
+  margin-bottom: -100%;
+  margin-left: 25%;
+  z-index: 2;
+  position: relative;
+
+  /* position: absolute;
+  z-index: 1;
+  right: 20px; */
+}
+
+.flexRow--colunas-bannerprincipal-hospitais {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: calc(100vw - 300px);
+  max-width: 1600px;
+}
+
+
+.flexRowContent--linha-one-bolinha {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 11px;
+  border: 2px solid white;
+  border-radius: 0 50px 50px 0;
+  padding: 10px 14px 10px 14px;
+}
+
+.flexColChild--coluna-linha-one-hospital {
+  max-width: 253px;
+  margin-left: 20%;
+}
+
+.flexRow--linhas-texto-deals-hospitais {
+  background-color: #EFEFEF;
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--linhas-texto-deals-hospitais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100vw - 300px);
+  max-width: 1600px;
+}
+
+.flexCol--coluna-linha-one-hospital {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(assets/lp-hospitais/Rectangle-arredondado.webp);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+
+.flexRow--linha-sistemaModular-hospitais {
+  background-color: #FFA207;
+}
+
+.flexRow--linha-linha-one-hospitais {
+  background-color: #8282C8;
+}
+
+@media (max-width: 1650px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 1560px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 15%;
+  }
+}
+@media (max-width: 1460px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 1380px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1310px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: 0%;
+  }
+}
+@media (max-width: 1220px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: -8%;
+  }
+}
+@media (max-width: 1150px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: -15%;
+  }
+}
+@media (max-width: 1080px) {
+  .flexRow--formulario-banner-hosp {
+    margin-left: -20%;
+  }
+}

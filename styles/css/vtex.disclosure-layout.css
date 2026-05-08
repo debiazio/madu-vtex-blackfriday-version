@@ -1,0 +1,67 @@
+.trigger--trigger-class {
+  padding: 0;
+  margin: 0;
+}
+
+.trigger--trigger-class {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.content--content-class--visible-12 {
+  border: none !important;
+}
+
+.content--content-class--visible,
+.trigger--trigger-class--hidden {
+  border-bottom: 1px solid #AEAEAE;
+}
+
+.trigger--trigger-class-12 {
+  border-bottom: none !important;
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+
+
+.trigger--product-description,
+.trigger--footer-payments,
+.trigger--question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  padding: 15px 0;
+  background: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+.trigger--footer-payments::after {
+  content: "";
+  width: 8px;
+  height: 14px;
+  display: block;
+  background: url(assets/arrow-menu.png) no-repeat transparent;
+  transition: 0.5s ease all;
+}
+
+.trigger--footer-payments--visible::after {
+  transform: rotate(90deg);
+  transition: 0.5s ease all;
+}
+
+.content--footer-payments {
+  padding: 10px 0;
+}

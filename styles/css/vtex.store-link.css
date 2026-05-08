@@ -1,0 +1,260 @@
+.link--link-banner-final-madubox {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.label--link-banner-final-madubox {
+  color: #FFF;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  background-color: #8282C8;
+  padding: 12px 28px;
+  border-radius: 30px;
+}
+
+.link--compreagora-madubox {
+  text-decoration: none;
+}
+
+.label--compreagora-madubox {
+  font-family: "Poppins";
+  font-weight: 400;
+  background-color: #8282C8;
+  border-radius: 30px 30px 30px 30px;
+  color: #FFF;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.link--btn-shopby-verProdutos {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif!important;
+}
+
+.label--btn-shopby-verProdutos {
+  font-weight: 500;
+  background-color: #8282C8;
+  border-radius: 30px 30px 30px 30px;
+  font-family: "Poppins", sans-serif!important;
+  color: #FFF;
+  padding: 12px 24px;
+  text-align: center;
+}
+
+
+
+.link--link-compre-pelo-wpp {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: #32A078;
+  padding: 12px 24px;
+  margin: 10px 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+.link--link-botao-atendimento-whatsapp {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: #32A078;
+  padding: 8px 24px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px 30px 0;
+  font-family: "Poppins", sans-serif!important;
+}
+
+.link--link-whatsapp-atendimento {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #818181;
+  font-family: "Poppins", sans-serif!important;
+}
+
+.link--link-whatsapp-atendimento:hover {
+  background-color: #8282C8;
+  color: white;
+  border: 2px solid #8282C8;
+}
+
+
+.link--link-fale-conosco-atendimento {
+  background-color: #8282C8;
+  border: 2px solid #8282C8;
+  font-family: "Poppins", sans-serif!important;
+}
+
+.link--link-fale-conosco-atendimento:hover {
+  background-color: white;
+  color: #8282C8;
+  border: 2px solid #8282C8;
+}
+
+.link--link-perguntas-frequentes-atendimento {
+  background-color: #8282C8;
+  border: 2px solid #8282C8;
+}
+
+.link--link-perguntas-frequentes-atendimento:hover {
+  background-color: white;
+  color: #8282C8;
+  border: 2px solid #8282C8;
+}
+
+.link--link-whatsapp-atendimento {
+  color: #818181;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 100px;
+}
+
+.link--link-fale-conosco-atendimento,
+.link--link-perguntas-frequentes-atendimento {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 100px;
+}
+
+.link--made-for-you-link,
+.link--whats-header,
+.link--meus-pedidos-link {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.link--made-for-you-link:hover,
+.link--whats-header:hover,
+.link--meus-pedidos-link:hover {
+  color: rgb(194, 193, 193);
+}
+
+.childrenContainer--whats-header {
+  display: flex;
+}
+
+.link--instagramTitle {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+  color: #3A3434;
+  margin: 46px 0 27px;
+}
+
+.link--link-footer {
+  font-size: 13px;
+  color: #3A3434;
+  text-decoration: none;
+  display: block;
+  margin-left: 10px;
+}
+
+.link--link-categorias {
+  text-decoration: none;
+}
+
+
+
+/* MADU ONE  */
+.link--link-ver-mais {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.link--catalogo-download {
+  text-decoration: none;
+}
+
+.label--catalogo-download,
+.label--link-ver-mais {
+  background-color: #8282C8;
+  font-family: "Poppins";
+  font-weight: 600;
+  fill: #FFF;
+  color: #FFF;
+  border-radius: 30px 30px 30px 30px;
+  padding: 15PX;
+}
+
+.label--link-ver-mais:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+/* RODAPÉ  */
+.label--link-footer {
+  font-family: "Poppins", Sans-serif!important;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.label--link-footer:hover {
+  color: grey;
+  transition: color 0.3s ease;
+}
+
+/* CONTATO  */
+.link--link-contato {
+  text-decoration: none;
+}
+
+.childrenContainer--link-contato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .link--link-whatsapp-atendimento {
+    text-decoration: none;
+    color: white;
+    width: unset !important;
+    text-align: center;
+    padding: 0 6px;
+    border-radius: 100px;
+    margin-bottom: 4px;
+  }
+
+  .link--link-botao-atendimento-whatsapp {
+    padding: 6px 12px;
+  }
+
+  .label--link-botao-atendimento-whatsapp {
+    display: none;
+  }
+
+  .link--instagramTitle {
+    margin: 21px 0 17px;
+  }
+
+  .childrenContainer--link-categorias {
+    border-bottom: 1px solid #DFDFDF;
+  }
+
+  .childrenContainer--link-grupo-mfm {
+    margin-top: 20px;
+  }
+}

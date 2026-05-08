@@ -1,0 +1,113 @@
+{
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "topbar",
+      "colSizing": "auto",
+      "preventHorizontalStretch": false,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#search-bar",
+      "btnorcamento",
+      "flex-layout.col#2-desktop-col-2"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "logo-desktop"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo MADU",
+      "href": "/",
+      "url": "assets/header/logo-madu.webp",
+      "width": "302",
+      "height": "119"
+    }
+  },
+  "flex-layout.col#search-bar": {
+    "props": {
+      "blockClass": "search-bar"
+    },
+    "children": [
+      "search-bar"
+    ]
+  },
+
+  // ------------------------------------
+  // minha conta e carrinho
+  // ------------------------------------
+  "flex-layout.col#2-desktop-col-2": {
+    "props": {
+      "blockClass": [
+        "topbar",
+        "topbar-right"
+      ]
+      // "width": "35%"
+    },
+    "children": [
+      "flex-layout.row#2-desktop-col-2-1"
+    ]
+  },
+  // COLUNA DO LOGIN
+  "flex-layout.row#2-desktop-col-2-1": {
+    "children": [
+      "login"
+      // "minicart-summary#header"
+      // "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "topbar-right",
+      "preventHorizontalStretch": true
+    }
+  },
+  "login": {
+    "props": {
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "optionsTitle": "Acesse sua conta",
+      "emailAndPasswordTitle": "Login",
+      "accessCodeTitle": "Receba sua chave por e-mail",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Senha",
+      "accessCodePlaceholder": "Insira o código de acesso",
+      "showPasswordVerificationIntoTooltip": true,
+      "blockClass": "minha-conta"
+    }
+  },
+  // componente do carrinho
+  "minicart-summary#header": {
+    "blocks": [
+      "checkout-summary.compact#header"
+    ]
+  },
+  "checkout-summary.compact#header": {
+    "children": [
+      "summary-totalizers#header"
+    ],
+    "props": {
+      "blockClass": "minicart-summary-header",
+      "showTotalizers": true,
+      "showItems": true,
+      "showEmptyMessage": false,
+      "summaryText": "Meu Carrinho",
+      "emptyMessage": "Seu carrinho está vazio",
+      "iconColor": "#000000",
+      "iconSize": 24,
+      "side": "right"
+    }
+  },
+  "summary-totalizers#header": {
+    "props": {
+      "showTotal": false,
+      "showDeliveryTotal": false,
+      "showOriginalTotal": false
+    }
+  }
+}

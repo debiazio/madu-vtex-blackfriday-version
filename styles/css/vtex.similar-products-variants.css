@@ -1,0 +1,46 @@
+/* .img--similar-variant{
+    height: 80px;
+} */
+
+.var-wrap--similar-variant {
+  display: flex;
+  gap: 10px;
+}
+
+.img {
+  margin: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.title--similar-variant::before {
+  content: "Outras Cores de gavetas";
+  display: block;
+}
+
+.title--similar-variant {
+  visibility: hidden;
+  position: relative;
+  color: #202020;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.title--similar-variant::before {
+  visibility: visible;
+  position: absolute;
+}
+
+.variants--similar-variant {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .variants--similar-variant,
+  .title--similar-variant{
+    margin-left: 40px;
+  }
+}

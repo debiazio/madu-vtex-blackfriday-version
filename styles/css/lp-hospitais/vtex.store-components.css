@@ -1,0 +1,37 @@
+.imageElement--imgs-logos-hospitais{
+  object-fit: scale-down;
+
+}
+
+.imageElement--img-inteira-hospitais {
+  width: auto;
+  height: 100%;
+}
+
+.imageElement--imagem-rotina-hospitais,
+.imageElement--imagem-doctor-hospitais {
+  height: 100%;
+}
+
+.imageElement--imagem-carrinho-hospitais {
+  width: 100%;
+  border-radius: 0 0 50% 50%;
+}
+
+.imageElement--banner-principal-hosp {
+  width: 100%;
+  display: block;
+}
+
+.imageElement--bolinha-one {
+  width: 36px;
+  height: 36px;
+}
+
+.imageElement--imagem-ds-hospitais {
+  max-height: 21px;
+}
+
+.imageElement--imagem-doctor-hospitais {
+  width: 100%;
+}

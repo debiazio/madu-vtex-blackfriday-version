@@ -1,0 +1,313 @@
+{
+  "flex-layout.row#banner-final": {
+    "props": {
+      "blockClass": [
+        "categorias-madu",
+        "categorias"
+      ],
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#inovacao",
+      "flex-layout.col#qualidade",
+      "flex-layout.col#tecnologia"
+    ]
+  },
+  // COLUNA INOVACAO
+  "flex-layout.col#inovacao": {
+    "props": {
+      "blockClass": "colunas-categorias",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "modal-trigger#inovacao"
+    ]
+  },
+  // TRIGGER INOVAÇÃO
+  "modal-trigger#inovacao": {
+    "props": {
+      "blockClass": "modal-layout-trigger"
+    },
+    "children": [
+      "image#inovacao",
+      "rich-text#titulo-inovacao",
+      "rich-text#texto-inovacao",
+      "modal-layout#inovacao"
+    ]
+  },
+  // COLUNA QUALIDADE
+  "flex-layout.col#qualidade": {
+    "props": {
+      "blockClass": "colunas-categorias",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "modal-trigger#saiba-mais-qualidade"
+    ]
+  },
+  // trigger QUALIDADE
+  "modal-trigger#saiba-mais-qualidade": {
+    "props": {
+      "blockClass": "modal-layout-trigger"
+    },
+    "children": [
+      "image#qualidade",
+      "rich-text#titulo-qualidade",
+      "rich-text#texto-qualidade",
+      "modal-layout#qualidade"
+    ]
+  },
+  // COLUNA TECNOLOGIA
+  "flex-layout.col#tecnologia": {
+    "props": {
+      "blockClass": "colunas-categorias",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "modal-trigger#saiba-mais-tecnologia"
+    ]
+  },
+  // TRIGGER TECNOLOGIA
+  "modal-trigger#saiba-mais-tecnologia": {
+    "props": {
+      "blockClass": "modal-layout-trigger"
+    },
+    "children": [
+      "image#tecnologia",
+      "rich-text#titulo-tecnologia",
+      "rich-text#texto-tecnologia",
+      "modal-layout#tecnologia"
+    ]
+  },
+  // imagens banner final
+  "image#inovacao": {
+    "props": {
+      "src": "assets/Carrinho-Explodido 2.webp",
+      "alt": "Imagem inovação",
+      "blockClass": "imagem-categorias"
+    }
+  },
+  "image#qualidade": {
+    "props": {
+      "src": "assets/qualidade.webp",
+      "alt": "Imagem qualidade",
+      "blockClass": "imagem-categorias"
+    }
+  },
+  "image#tecnologia": {
+    "props": {
+      "src": "assets/tecnologia.webp",
+      "alt": "Imagem tecnologia",
+      "blockClass": "imagem-categorias"
+    }
+  },
+  // TITULOS BANNER FINAL
+  "rich-text#titulo-inovacao": {
+    "props": {
+      "text": "Inovação",
+      "blockClass": "categorias-final"
+    }
+  },
+  "rich-text#titulo-qualidade": {
+    "props": {
+      "text": "Qualidade",
+      "blockClass": "categorias-final"
+    }
+  },
+  "rich-text#titulo-tecnologia": {
+    "props": {
+      "text": "Tecnologia",
+      "blockClass": "categorias-final"
+    }
+  },
+  // TEXTOS BANNER FINAL
+  "rich-text#texto-inovacao": {
+    "props": {
+      "text": "Inovar é a LIBERDADE para escolher o que, onde e principalmente QUANDO quiser!",
+      "blockClass": "texto-banner-final"
+    }
+  },
+  "rich-text#texto-qualidade": {
+    "props": {
+      "text": "Mobiliário técnico feito 100% no Brasil, com a melhor qualidade disponível no Mundo.",
+      "blockClass": "texto-banner-final"
+    }
+  },
+  "rich-text#texto-tecnologia": {
+    "props": {
+      "text": "A MAIOR linha de mobiliário técnico do mundo também merece a MELHOR tecnologia do mundo.",
+      "blockClass": "texto-banner-final"
+    }
+  },
+  // JANELA MODAL
+  "modal-layout#inovacao": {
+    "props": {
+      "scroll": "body",
+      "blockClass": "modal-layout-content"
+    },
+    "children": [
+      "modal-header#close",
+      "flex-layout.row#linha-inovacao"
+    ]
+  },
+  "modal-header#close": {
+    "props": {
+      "blockClass": [
+        "close-button-desconto",
+        "close-button-inov-qual-tec"
+      ],
+      "showCloseButton": true
+    }
+  },
+  "flex-layout.row#linha-inovacao": {
+    "props": {
+      "blockClass": "linha-modal"
+    },
+    "children": [
+      "flex-layout.col#coluna-imagem",
+      "flex-layout.col#coluna-inovacao"
+    ]
+  },
+  "flex-layout.col#coluna-imagem": {
+    "props": {
+      "blockClass": "modal-inovacao-coluna-imagem",
+      "colSizing": "auto",
+      "width": "40%"
+    },
+    "children": [
+      "image#inovacao-modal"
+    ]
+  },
+  "flex-layout.col#coluna-inovacao": {
+    "props": {
+      "blockClass": "coluna-modal",
+      "colSizing": "auto",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#modal-inovacao"
+    ]
+  },
+  "rich-text#modal-inovacao": {
+    "props": {
+      "blockClass": "texto-modal-modal",
+      "text": "## Inovação ##\n**Inovar é a LIBERDADE para escolher o que, onde e principalmente QUANDO quiser!**\n\nA maior linha de mobiliário técnico do mundo foi feita para aqueles que desejam ampla liberdade de escolha. São **milhares** de possibilidades de modelos, tamanhos, formatos, materiais, montagens, acessórios e cores que criam combinações e **múltiplas utilizações** de acordo com a necessidade de cada cliente.\n\nA MAD.U inova nos mínimos detalhes. **Como num jogo de blocos de montar** os produtos podem ser fornecidos individualmente ou em conjuntos completos montados, formando composições intercambiáveis com a possibilidade de reconfiguração para **novos modelos, novas composições, novas utilizações e em qualquer momento da vida do seu mobiliário.**"
+    }
+  },
+  // JANELA MODAL
+  "modal-layout#qualidade": {
+    "props": {
+      "scroll": "body",
+      "blockClass": "modal-layout-content"
+    },
+    "children": [
+      "modal-header#close",
+      "flex-layout.row#linha-qualidade"
+    ]
+  },
+  "flex-layout.row#linha-qualidade": {
+    "props": {
+      "blockClass": "linha-modal",
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "flex-layout.col#coluna-imagem-qualidade",
+      "flex-layout.col#coluna-qualidade"
+    ]
+  },
+  "flex-layout.col#coluna-imagem-qualidade": {
+    "props": {
+      "blockClass": "modal-inovacao-coluna-imagem",
+      "colSizing": "auto",
+      "width": "40%"
+    },
+    "children": [
+      "image#qualidade-modal"
+    ]
+  },
+  "flex-layout.col#coluna-qualidade": {
+    "props": {
+      "blockClass": "coluna-modal",
+      "colSizing": "auto",
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#modal-qualidade"
+    ]
+  },
+  "rich-text#modal-qualidade": {
+    "props": {
+      "blockClass": "texto-modal-modal",
+      "text": "## Qualidade ##\n**Mobiliário técnico feito 100% no Brasil, com a melhor qualidade disponível no Mundo.**\n\nA MAD.U tem sua própria infraestrutura de indústria dominando a cadeia produtiva desde o projeto inicial até sua fabricação final.\n\nTodos os componentes são desenvolvidos para uso específico, sem a utilização de partes genéricas ou adaptadas.\n\nPartes plásticas produzidas por injeção em polímeros de engenharia de altíssima durabilidade, totalmente imunes à oxidação ou ferrugem, elevada resistência ao impacto, agentes químicos, raios ultravioletas ou outras intempéries. Com aditivo antimicrobiano para proteção contra a proliferação de microrganismos e diminuição da contaminação cruzada.\n\nPartes metálicas com chassi totalmente em aço anticorrosivo ou aço inoxidável, as peças sujeitas ao manejo constante estão recobertas por componentes plásticos projetados para facilitar a limpeza e promover elevada resistência ao uso evitando corrosão.\n\nCada componente e seus materiais foram pensados e especificados para o seu melhor uso."
+    }
+  },
+  // JANELA MODAL
+  "modal-layout#tecnologia": {
+    "props": {
+      "scroll": "body",
+      "blockClass": "modal-layout-content"
+    },
+    "children": [
+      "modal-header#close",
+      "flex-layout.row#linha-tecnologia"
+    ]
+  },
+  "flex-layout.row#linha-tecnologia": {
+    "props": {
+      "blockClass": "linha-modal",
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "flex-layout.col#coluna-tecnologia-imagem",
+      "flex-layout.col#coluna-tecnologia"
+    ]
+  },
+  "flex-layout.col#coluna-tecnologia-imagem": {
+    "props": {
+      "blockClass": "modal-inovacao-coluna-imagem",
+      "preventVerticalStretch": true,
+      "width": "40%"
+    },
+    "children": [
+      "image#tecnologia-modal"
+    ]
+  },
+  "flex-layout.col#coluna-tecnologia": {
+    "props": {
+      "blockClass": "coluna-modal",
+      "preventVerticalStretch": true,
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#modal-tecnologia"
+    ]
+  },
+  "rich-text#modal-tecnologia": {
+    "props": {
+      "blockClass": "texto-modal-modal",
+      "text": "## Tecnologia ##\n\n**A MAIOR linha de mobiliário técnico do mundo também merece a MELHOR tecnologia do mundo.**\n\nCada parte foi estritamente pensada e desenvolvida para o uso específico e resistente permitindo a agilidade na manutenção e eventual substituição de peças.\n\nRodízios especialmente desenvolvidos para uso extra silencioso e de alta durabilidade, com rotação e translação 360°. Bandas de rodagem com perfil reduzido para evitar o arrasto de contaminantes.\n\nGavetas com trilhos imunes à oxidação ou ferrugem, auto lubrificados e com exclusivo sistema de interferência de abertura escalonada para maior segurança nos deslocamentos.\n\nDiversas opções de tampos, hastes, suportes, rodas, travas, pés, para-choques, prateleiras e outros.\n\n**Tudo feito para você.**"
+    }
+  },
+  // IMAGENS MODAL
+  "image#inovacao-modal": {
+    "props": {
+      "src": "assets/Carrinho-Explodido 2.webp",
+      "alt": "Imagem inovação",
+      "blockClass": "imagem-categorias-modal"
+    }
+  },
+  "image#qualidade-modal": {
+    "props": {
+      "src": "assets/qualidade.webp",
+      "alt": "Imagem qualidade",
+      "blockClass": "imagem-categorias-modal"
+    }
+  },
+  "image#tecnologia-modal": {
+    "props": {
+      "src": "assets/tecnologia.webp",
+      "alt": "Imagem tecnologia",
+      "blockClass": "imagem-categorias-modal"
+    }
+  }
+}

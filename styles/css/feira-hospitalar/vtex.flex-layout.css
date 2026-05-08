@@ -1,0 +1,40 @@
+.flexRow--linha-banner-inicial-feiraHospitalar {
+  background-color: #e7e1dc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.flexRowContent--linha-banner-inicial-feiraHospitalar {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.flexRow--linha-formulario-feiraHospitalar {
+  background-color: #F0F0F0;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .flexRowContent--linha-banner-inicial-feiraHospitalar {
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flexCol--coluna-1-banner-inicial-feiraHospitalar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px 0;
+  }
+}

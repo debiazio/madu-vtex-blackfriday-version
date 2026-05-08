@@ -1,0 +1,1183 @@
+.paragraph{
+  font-family: "Poppins", sans-serif!important;
+}
+
+.container--manual-uso-texto{
+  padding: 16px 32px;
+}
+
+.list--manual-uso-texto,
+.paragraph--manual-uso-texto{
+  color:#727273;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: justify;
+}
+
+.container--contato-texto{
+  padding-bottom: 32px;
+
+}
+
+.paragraph--titulo-template {
+  color: #000;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-family: "Poppins";
+}
+
+.container--botao-aviseme {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.wrapper--botao-aviseme {
+  width: 100%;
+
+}
+
+.paragraph--botao-aviseme {
+  margin: 0;
+  white-space: nowrap;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 0.25em;
+  padding-bottom: 0.32em;
+  font-size: 13px;
+  font-family: "Poppins";
+  margin: 5px 0;
+}
+
+.paragraph--botao-aviseme:hover {
+  font-size: 0;
+  margin: 9px;
+}
+
+.paragraph--botao-aviseme:hover::after {
+  content: "avise-me";
+  font-size: 13px !important;
+  font-family: "Poppins";
+
+  white-space: nowrap;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 0.25em;
+  padding-bottom: 0.32em;
+  font-family: "Poppins";
+}
+
+
+.paragraph--logo-nome-madu {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.strong--logo-nome-madu {
+  font-family: "Poppins Bold";
+  color: #FFFFFF;
+}
+
+
+/* CSS ROLETA ABAIXO */
+.paragraph--titulo-regras-roleta {
+  font-family: var(--fonte-regular);
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFFB2;
+}
+
+.container--subtitulo-nova-roleta,
+.container--titulo-nova-roleta {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--titulo-nova-roleta {
+  color: #FFFFFF;
+  font-family: var(--fonte-bold);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--subtitulo-nova-roleta {
+  color: #FFFFFF;
+  font-family: var(--fonte-regular);
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.container--titulo-form-roleta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+}
+
+.wrapper--titulo-form-roleta {
+  color: #ffffff;
+  font-size: 40px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.paragraph--titulo-form-roleta {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper--titulo-form-roleta {
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+}
+
+.paragraph--confirm-form-roleta {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--fonte-regular);
+  display: none;
+}
+
+.container--titulo-regras-roleta {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.container--texto-rules-roleta {
+  padding-top: 10px;
+}
+
+.paragraph--texto-rules-roleta {
+  margin: 0;
+  font-family: var(--fonte-regular);
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFFB2;
+}
+
+
+
+/* CSS ROLETA ACIMA */
+
+.paragraph--titulo-nossos-clientes {
+  font-family: "Poppins Bold";
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #5F5F5F;
+  margin: 20px 5px;
+  text-align: center;
+}
+
+.paragraph--texto-subtitulo-prateleira-madubox {
+  font-family: "Poppins";
+  font-size: 22px;
+  margin: 0 0 20px 0;
+  color: #AEAEAE;
+  margin-bottom: 40px;
+  white-space: nowrap;
+}
+
+.paragraph--texto-titulo-prateleira-madubox {
+  font-family: "Poppins Bold";
+  font-size: 36px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #3F3F3F;
+  white-space: nowrap;
+}
+
+.paragraph--subtitulo-dropdow {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #707070;
+  margin: 3px 10px 0;
+  padding: 0;
+}
+
+.container--maleta-textos-diferencas-madubox {
+  padding-right: 26px;
+  border-right: 1px solid #DBDBDB;
+}
+
+.paragraph--caixa-textos-diferencas-madubox {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #686868;
+}
+
+.paragraph--maleta-textos-diferencas-madubox {
+  font-family: "Poppins";
+  font-size: 16px;
+  text-align: end;
+  color: #686868;
+}
+
+
+
+.paragraph--texto-banner-final-madubox {
+  font-family: "Poppins Bold";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 55px;
+  color: #fff;
+}
+
+.container--label-combinam-se {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 24px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.container--label-combinam-se:hover {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 80%);
+}
+
+.paragraph--informativo-texto {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #868686;
+}
+
+.paragraph--label-combinam-se {
+  font-family: "Poppins Bold";
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.paragraph--label-cores {
+  font-family: "Poppins Bold";
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  white-space: wrap;
+  text-align: center;
+}
+
+.container--textos-tamanhos {
+  display: flex;
+  align-items: center;
+}
+
+.paragraph--textos-tamanhos {
+  font-family: "Poppins";
+  font-size: 14px;
+  color: #636363;
+  margin: 0;
+}
+
+.paragraph--label-text {
+  text-transform: uppercase;
+  font-family: "Poppins Bold";
+  font-weight: 700;
+  font-size: 24px;
+  margin: 15px 20px 0 0 !important;
+}
+
+.paragraph--content-text {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #636363;
+  max-width: 480px;
+  margin-top: 0 !important;
+}
+
+.paragraph--label-text,
+.paragraph--content-text {
+  margin: 20px 0;
+}
+
+.container--titulo-caracteristicas {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.container--subtitulo-caracteristicas {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  color: #686868;
+}
+
+.paragraph--titulo-combinam,
+.paragraph--titulo-cores,
+.paragraph--titulo-detalhes-tecnicos {
+  font-family: "Poppins Bold";
+  font-size: 36px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #3F3F3F;
+  white-space: nowrap;
+}
+
+
+.paragraph--titulo-caracteristicas {
+  font-family: "Poppins Bold";
+  font-size: 24px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #3F3F3F;
+}
+
+.paragraph--subtitulo-combinam {
+  font-family: "Poppins";
+  font-size: 22px;
+  margin: 0 0 20px 0;
+  color: #686868;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 0 128px;
+}
+
+
+.paragraph--subtitulo-cores,
+.paragraph--subtitulo-detalhes-tecnicos {
+  font-family: "Poppins";
+  font-size: 22px;
+  margin: 0 0 20px 0;
+  color: #AEAEAE;
+  margin-bottom: 40px;
+  white-space: nowrap;
+}
+
+.paragraph--subtitulo-caracteristicas {
+  font-family: "Poppins";
+  font-size: 16px;
+  margin: 0 20px 0 0;
+}
+
+
+.paragraph--titulo-maletas-madubox {
+  font-family: Rubik Bold;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #505050;
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 0px 20px;
+}
+
+.wrapper--titulo-maletas-madubox {
+  font-family: "Poppins Bold";
+}
+
+.paragraph--textos-boxes-maletas {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #686868;
+}
+
+.container--subtitulo-banner1-madubox .stretchChildrenWidth{
+  width: 100% !important;
+}
+
+.container--subtitulo-banner1-madubox {
+  white-space: nowrap;
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.paragraph--subtitulo-banner1-madubox {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 17px;
+  margin: 0;
+  color: #5D5D5D;
+}
+
+.paragraph--descricao-banner1-madubox {
+  margin: 0;
+  color: #999999;
+  font-size: 14px;
+}
+
+
+
+.wrapper--subtitulo-banner1-madubox {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.paragraph--titulo-conheca {
+  padding: 5px;
+}
+
+.paragraph--label-conheca {
+  padding: 5px 15px;
+  border-radius: 35px;
+  background-color: #8282C8;
+  color: #FFF;
+}
+
+.paragraph--label-conheca:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+.container--label-conheca {
+  cursor: pointer;
+}
+
+.paragraph--texto-veja-mais-produtos,
+.paragraph--produtos-relacionados {
+  font-family: "Poppins", Sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  color: #313131;
+}
+
+.paragraph--categorias-final {
+  margin: 0;
+}
+
+.container--categorias-final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container--texto-banner-final {
+  text-align: center;
+}
+
+.paragraph--texto-banner-final {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Poppins", Sans-serif!important;
+}
+
+.heading--texto-modal-modal {
+  font-size: 41px;
+  font-weight: 600;
+  color: #2C2C2C;
+  margin: 10px 0;
+}
+
+.strong--texto-modal-modal {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-block-end: 1rem;
+  margin-block-start: .5rem;
+}
+
+.container--texto-modal-modal {
+  padding: 20px 50px 20px 20px;
+  text-align: justify;
+}
+
+.paragraph--label-cep {
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.wrapper--subtitulo-shopBy {
+  height: 130px;
+  text-align: center;
+}
+
+
+.paragraph--titulo-categorias-shopBy {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.1em;
+  margin: 40px 0 0;
+  font-family: "Poppins", Sans-serif!important;
+}
+
+.paragraph--subtitulo-shopBy{
+  font-family: "Poppins", Sans-serif!important;
+}
+
+.container--frase-cupom-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+}
+
+.paragraph--frase-cupom-top {
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.paragraph--mais-vendidos-text {
+  font-family: "Poppins Bold";
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #5F5F5F;
+  margin: 20px 5px;
+}
+
+.strong--mais-vendidos-text {
+  color: #8282C8;
+  font-family: "Poppins", sans-serif!important;
+}
+
+.container--mais-vendidos-text {
+  display: flex;
+  justify-content: center;
+}
+
+
+.paragraph--texto-veja-mais-produtos {
+  font-size: 28px;
+  color: #3A3434;
+}
+
+.paragraph--botao-atendimento {
+  cursor: pointer;
+  user-select: none;
+  background-color: #8282C8;
+  border: 2px solid #8282C8;
+  padding: 5px 10px;
+  margin: 0;
+  color: white;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif!important;
+}
+
+.paragraph--botao-atendimento:hover {
+  cursor: pointer;
+  user-select: none;
+  background-color: white;
+  color: #8282C8;
+  border: 2px solid #8282C8;
+}
+
+/* TOPO */
+.paragraph--frase-notification-bar {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.paragraph--texto-notification-bar {
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFF;
+  margin: 5px;
+}
+
+.container--shelfTitle {
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-size: 28px;
+  font-weight: 400;
+  color: #3A3434;
+  margin: 18px 0 24px;
+}
+
+.container--texto-notification-bar {
+  text-wrap-mode: nowrap;
+}
+
+.link--texto-notification-bar {
+  text-decoration: none;
+}
+
+/* MADU ONE  */
+.container--texto-madu-cat {
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* CATEGORIAS FINAL HOME  */
+.paragraph--categorias-final {
+  font-family: "Poppins Bold";
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: -.6px;
+  color: #000;
+}
+
+.paragraph--titulo-categorias {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+.paragraph--texto-modal {
+  font-size: 16px;
+  font-family: "Poppins SemiBold";
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--texto-modal {
+  text-align: center;
+}
+
+.container--titulo-modal {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--titulo-modal {
+  background-color: #8282C8;
+  font-family: "Poppins";
+  font-weight: 600;
+  fill: #FFF;
+  color: #FFF;
+  border-radius: 30px 30px 30px 30px;
+  padding: 14px;
+  font-size: 13px;
+}
+
+.paragraph--titulo-modal:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+/* INSTITUCIONAIS */
+.paragraph--titulo-institucionais {
+  font-size: 27px
+}
+
+.strong--texto-intitucionais {
+  /* font-size: 27px; */
+  font-weight: 600;
+  color: #242424;
+}
+
+.container--titulo-institucionais {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper--titulo-institucionais,
+.heading--titulo-institucionais {
+  font-size: 27px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.paragraph--conteudo-institucionais {
+  font-size: 15px;
+  color: #3A3434;
+  margin: 0;
+}
+
+/* CONTATO  */
+.paragraph--whatsapp-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+.paragraph--whatsapp-text,
+.link {
+  text-decoration: none;
+  color: #FFF;
+  margin: 0;
+}
+
+.link--link-contato {
+  color: #000;
+}
+
+.paragraph--contato-texto {
+  font-weight: 500;
+  color: #000;
+}
+
+.strong--contato-texto {
+  font-weight: 900;
+}
+
+.paragraph--whatsapp-text-contato,
+.paragraph--link-contato {
+  white-space: nowrap;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.paragraph--contato-titulo {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.1;
+  margin: 5px;
+  font-family: "Poppins", sans-serif!important;
+}
+
+.flexColChild--contato-col1 {
+  font-size: 16px;
+}
+
+/* RODAPÉ */
+.paragraph--subtitle-logo-madu {
+  font-family: "Poppins", Sans-serif!important;
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  margin-left: 13px;
+  color: white;
+}
+
+.paragraph--link-footer {
+  font-family: "Poppins", sans-serif!important;
+  font-size: 13px;
+  color: white;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+
+.paragraph--link-footer:hover {
+  color: grey;
+  transition: color 0.3s ease;
+}
+
+.container--title-newsletter {
+  justify-content: center;
+}
+
+.heading--title-newsletter {
+  font-family: "Poppins SemiBold";
+  font-size: 18px;
+  letter-spacing: -.6px;
+  color: #242424;
+}
+
+.container--credits {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph--credits {
+  margin: 9px 0 13px;
+  color: white;
+  font-size: 12px;
+}
+
+.paragraph--title-footer {
+  margin: 0 0 14px;
+  color: white;
+  font: 14px "Poppins SemiBold";
+}
+
+
+
+/* PLP */
+.container--notfound {
+  justify-content: center;
+}
+
+.paragraph--notfound {
+  font-size: 28px;
+  font-weight: 400;
+  color: #3A3434;
+  margin: 18px 0 24px;
+}
+
+/* PDP */
+.container--valor-unitario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paragraph--label-cep,
+.wrapper--texto-metodo-pgto-pdp {
+  white-space: nowrap;
+}
+
+.paragraph--texto-metodo-pgto-pdp {
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph--product-description {
+  margin: 0;
+  color: #3A3434;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.paragraph--guia-de-medidas {
+  margin: 10px 0 20px;
+  font-size: 13px;
+  color: #3A3434;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.paragraph--produtos-relacionados {
+  margin: 48px 0 27px;
+  font-size: 28px;
+  color: #3A3434;
+}
+
+/* INSTITUCIONAIS */
+.wrapper--texto-intitucionais {
+  color: #202020;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+
+/* MADE FOR YOU */
+.wrapper--texto--made-for-you {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.link--texto-intitucionais {
+  text-decoration: none;
+  color: #000;
+}
+
+.paragraph--avaliacao-nome {
+  margin: 10px 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 14px;
+  overflow: hidden;
+  padding-right: 25px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #000000;
+  margin-bottom: 2px;
+}
+
+.paragraph--avaliacao-data {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  opacity: 0.5;
+  font-size: 11.2px
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .wrapper--subtitulo-shopBy {
+    height: 15vh;
+  }
+
+  .paragraph--titulo-categorias-shopBy {
+    margin: 45px 0 0;
+  }
+
+  .paragraph--mais-vendidos-text {
+    font-size: 18px;
+    margin: 20px 5px;
+  }
+
+  .strong--texto-modal-modal {
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+
+  .container--texto-modal-modal {
+    padding: unset;
+  }
+
+  .paragraph--valor-unitario {
+    padding: 0 15px;
+  }
+
+  .wrapper--texto-intitucionais {
+    width: 100%;
+  }
+
+  .strong--texto-intitucionais {
+    font-size: 15px;
+  }
+
+  .wrapper--texto-modal-modal {
+    padding: 20px;
+  }
+
+  .container--credits {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexCol--footer-2-desktop {
+    margin-left: 15px;
+  }
+
+  .paragraph--subtitle-logo-madu {
+    margin-left: 0;
+  }
+
+  .subtitle-logo-madu {
+    font-size: 10px;
+  }
+
+  .headingLevel2--shelfTitle {
+    font-size: 20px;
+    margin: 16px 0 14px;
+  }
+
+  .heading--title-newsletter {
+    margin: 0 0 32px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .paragraph--link-footer {
+    font-size: 12px;
+  }
+
+  .paragraph--title-footer {
+    font: 12px "Poppins SemiBold";
+    color: white;
+    margin: 20px 0px;
+  }
+
+  .paragraph--produtos-relacionados {
+    margin: 38px 0 14px;
+    font-size: 20px;
+  }
+
+  /* notification bar */
+  .container--texto-notification-bar {
+    background-color: #8282C8;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* TEXTO CATEGORIAS */
+  .paragraph--titulo-categorias {
+    font-size: 12px;
+
+  }
+
+  .paragraph--titulo-mobile-banner-inicial-madubox {
+    font-family: "Robik Bold";
+  }
+
+  .container--subtitulo-banner1-madubox {
+    white-space: wrap;
+    padding: 0 20px;
+  }
+
+  .paragraph--descricao-banner1-madubox {
+    margin-top: 50px;
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  .paragraph--subtitulo-banner1-madubox {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .flexRowContent--linha-frente-banner-1 {
+    white-space: wrap;
+  }
+
+  .paragraph--textos-boxes-maletas {
+    font-size: 14px;
+  }
+
+  .paragraph--titulo-caracteristicas {
+    margin: 30px 20px 0 10px;
+    font-size: unset;
+  }
+
+  .paragraph--subtitulo-caracteristicas {
+    margin: 10px 10px 40px;
+  }
+
+  .paragraph--titulo-detalhes-tecnicos {
+    font-size: 20px;
+    white-space: wrap;
+  }
+
+  .paragraph--subtitulo-detalhes-tecnicos {
+    font-size: 18px;
+  }
+
+  .paragraph--subtitulo-detalhes-tecnicos {
+    margin-bottom: 20px;
+  }
+
+  .paragraph--titulo-cores {
+    font-size: 20px;
+    white-space: unset;
+    margin-bottom: 15px;
+  }
+
+  .paragraph--subtitulo-cores {
+    font-size: 18px;
+    white-space: unset;
+    margin-bottom: 20px;
+  }
+
+  .container--informativo-texto {
+    padding: 20px;
+  }
+
+  .paragraph--texto-titulo-prateleira-madubox,
+  .paragraph--titulo-combinam {
+    font-size: 20px;
+    white-space: unset;
+  }
+
+
+  .paragraph--texto-subtitulo-prateleira-madubox,
+  .paragraph--subtitulo-combinam {
+    font-size: 18px;
+    white-space: unset;
+    margin: unset;
+    text-align: left;
+    padding: unset;
+  }
+
+  .paragraph--texto-banner-final-madubox {
+    font-size: 32px;
+  }
+
+  .container--descricao-banner1-madubox {
+    width: unset !important;
+  }
+
+  .paragraph--caixa-textos-diferencas-madubox {
+    padding-left: 26px;
+  }
+
+  .paragraph--maleta-textos-diferencas-madubox {
+    margin-left: 10px;
+  }
+
+  .paragraph--caixa-textos-diferencas-madubox {
+    margin-right: 10px;
+  }
+
+  .container--titulo-caracteristicas {
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .container--subtitulo-caracteristicas {
+    text-align: center;
+  }
+
+  .wrapper--titulo-cores {
+    width: 250px;
+  }
+
+  .container--label-cores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* CSS ROLETA ABAIXO */
+  .container--titulo-regras-roleta {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container--texto-rules-roleta {
+    width: fit-content;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 5px;
+    max-width: 80vw;
+    padding: 0 25px;
+  }
+
+  .wrapper--titulo-form-roleta {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .paragraph--confirm-form-roleta {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .container--confirm-form-roleta {
+    text-align: center;
+  }
+
+  .paragraph--texto-rules-roleta {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+
+  /* CSS ROLETA ACIMA */
+
+  .container--frase-notification-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paragraph--frase-cupom-top,
+  .paragraph--logo-nome-madu {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .paragraph--logo-nome-madu {
+    padding-right: 20px;
+
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  .paragraph--subtitulo-nova-roleta {
+    font-size: 10px;
+  }
+}

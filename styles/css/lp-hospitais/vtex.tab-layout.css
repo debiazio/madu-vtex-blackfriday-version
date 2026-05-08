@@ -1,0 +1,54 @@
+.listItemActive :global(.vtex-button){
+  background-color: transparent;
+}
+
+.container--tabela-maisVendidas-hospitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.listContainer--itensTabela-maisVendidos-hospitais {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentContainer--conteudoTabela-maisVendidos-hospitais {
+  border: unset;
+  width: calc(100vw - 300px);
+  max-width: 1600px;
+}
+
+.listContainer--itensTabela-maisVendidos-hospitais {
+  background-color: #EEEEEE;
+  border-radius: 44px;
+  padding: 0 5px;
+}
+
+.listContainer--itensTabela-maisVendidos-hospitais .listItemActive {
+  background-color: #FFFFFF;
+  border-radius: 32px;
+  border: none;
+}
+
+
+.listContainer--itensTabela-maisVendidos-hospitais :global(.vtex-button__label) {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px;
+  text-align: center;
+  color: #1E1E1E;
+}
+
+.listContainer--itensTabela-maisVendidos-hospitais .listItemActive :global(.vtex-button__label) {
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  color: #1E1E1E;
+}
+

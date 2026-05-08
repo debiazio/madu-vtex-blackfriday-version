@@ -1,0 +1,9 @@
+{
+  // ESSA PAGINA PUXA DOIS BLOCOS DE LINHAS DE PRODUTOS DA HOME
+  "store.custom#nossas-linhas": {
+    "blocks": [
+      "flex-layout.row#mais-vendidos-madu-extra",
+      "flex-layout.row#mais-vendidos-madu-one"
+    ]
+  }
+}

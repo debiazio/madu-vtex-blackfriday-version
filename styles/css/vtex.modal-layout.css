@@ -1,0 +1,140 @@
+.closeIcon--roleta-header {
+  width: 20px;
+}
+
+.headerContainer--roleta-header {
+  width: 1100px;
+  border-bottom: none;
+  position: relative;
+  top: 50px;
+}
+
+.container--form-roleta {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: #000000;
+}
+
+.paper--form-roleta {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 25px;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+
+.closeButton--botao-fechar-roleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  color: white;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.closeButtonLabel--botao-fechar-roleta {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS ROLETA  */
+
+.triggerContainer--modal-layout-trigger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.backdrop--modal-layout-content {
+  background-color: rgba(0, 0, 0, 0.877);
+  opacity: 0.8;
+}
+
+.container--modal-layout-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButtonContainer--close-button-desconto {
+  z-index: 8;
+}
+
+.closeIcon--close-button-inov-qual-tec {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.triggerContainer--botao-contatos {
+  cursor: pointer;
+}
+
+.paper--botoes-contatos-modal {
+  overflow: hidden;
+  background-color: rgb(231, 229, 229);
+}
+
+.triggerContainer--guia-de-medidas {
+  border-bottom: 1px solid #D9D8D7;
+}
+
+.paperNotFullScreen {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.headerContainer--close-button-desconto {
+  margin-bottom: -53px;
+  border: none
+}
+
+.paper--modal-layout-pupup-trigger {
+  border: 12px solid white;
+}
+
+@media screen and (max-width: 1024px) {
+  .paperNotFullScreen {
+    margin: 6px !important;
+    height: 100%;
+    overflow: auto;
+  }
+
+  /* CSS ROLETA ABAIXO  */
+  .closeButton--botao-fechar-roleta {
+    right: 15px;
+  }
+
+  .paper--form-roleta {
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    /* padding-bottom: 10px; */
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .headerContainer--roleta-header {
+    position: unset;
+    /* top: 70px; */
+    width: 100%;
+    border-bottom: none;
+  }
+
+  /* CSS ROLETA ACIMA  */
+
+
+
+}
