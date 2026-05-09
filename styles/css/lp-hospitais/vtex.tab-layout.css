@@ -56,4 +56,10 @@
 .contentContainer--conteudoTabela-maisVendidos-hospitais{
   width: 100vw;
 }
+
+.listContainer--itensTabela-maisVendidos-hospitais .listItemActive :global(.vtex-button__label),
+.listContainer--itensTabela-maisVendidos-hospitais :global(.vtex-button__label) {
+  font-size: 10px;
+}
+
 }

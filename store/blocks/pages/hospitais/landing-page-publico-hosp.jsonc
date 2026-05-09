@@ -1098,7 +1098,7 @@
         "desktop": 4,
         "phone": 1
       },
-      "infinite": true,
+      "infinite": false,
       "maxItems": 4,
       "fullWidth": true,
       "showNavigationArrows": "never",
@@ -1138,7 +1138,7 @@
         "desktop": 4,
         "phone": 1
       },
-      "infinite": true,
+      "infinite": false,
       "maxItems": 4,
       "fullWidth": true,
       "showNavigationArrows": "never",
@@ -1178,7 +1178,7 @@
         "desktop": 4,
         "phone": 1
       },
-      "infinite": true,
+      "infinite": false,
       "maxItems": 1,
       "fullWidth": true,
       "showNavigationArrows": "mobileOnly",
@@ -1218,7 +1218,7 @@
         "desktop": 4,
         "phone": 1
       },
-      "infinite": true,
+      "infinite": false,
       "maxItems": 1,
       "fullWidth": true,
       "showNavigationArrows": "never",
@@ -1258,7 +1258,7 @@
         "desktop": 4,
         "phone": 1
       },
-      "infinite": true,
+      "infinite": false,
       "maxItems": 1,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",

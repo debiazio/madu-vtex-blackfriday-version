@@ -298,7 +298,7 @@
 
   .paragraph--titulo-tecnologia-hospitais,
   .paragraph--titulo-nossosDifer-hospitais {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .paragraph--titulo-nossosDifer-hospitais {
@@ -327,9 +327,9 @@
     font-size: 36px;
   }
 
-  .container--subtexto-nossosDifer-hospitais {
+  /* .container--subtexto-nossosDifer-hospitais {
     padding: 0 20px;
-  }
+  } */
 
   .paragraph--texto-falarEspec-hospitais {
     font-family: "Poppins Light", sans-serif !important;

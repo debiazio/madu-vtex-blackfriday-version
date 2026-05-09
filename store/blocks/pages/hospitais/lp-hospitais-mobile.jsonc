@@ -200,7 +200,6 @@
   "flex-layout.row#linha-nossosDifer-hospitais-mobile": {
     "props": {
       "blockClass": "linha-nossosDifer-hospitais-mobile",
-      "colSizing": "auto",
       "preventHorizontalStretch": true
     },
     "children": [
@@ -213,17 +212,26 @@
   // microbaianas
   "flex-layout.row#nossosDifer-tecMicrob-hospitais-mobile": {
     "props": {
-      "blockClass": "nossosDifer-hospitais-mobile",
-      "colSizing": "auto"
+      "blockClass": "nossosDifer-hospitais-mobile"
     },
     "children": [
-      "image#microbiana-hospitais",
-      "flex-layout.row#linha-tecMicrob-nossDifer-hospitais-mobile"
+      "flex-layout.col#imagem-nossosDifer-hospitais-mobile",
+      "flex-layout.col#linha-tecMicrob-nossDifer-hospitais-mobile"
     ]
   },
-  "flex-layout.row#linha-tecMicrob-nossDifer-hospitais-mobile": {
+  "flex-layout.col#imagem-nossosDifer-hospitais-mobile": {
     "props": {
-      "blockClass": "linha-filha-nossDifer-hospitais-mobile"
+      "blockClass": "col-imagem-nossosDifer-hospitais-mobile",
+      "width": "40%"
+    },
+    "children": [
+      "image#microbiana-hospitais"
+    ]
+  },
+  "flex-layout.col#linha-tecMicrob-nossDifer-hospitais-mobile": {
+    "props": {
+      "blockClass": "linha-filha-nossDifer-hospitais-mobile",
+      "width": "60%"
     },
     "children": [
       "flex-layout.row#tituloimg-nossosDifer-hospitais",
@@ -238,13 +246,23 @@
       "colSizing": "auto"
     },
     "children": [
-      "image#estrutura-hospitais",
-      "flex-layout.row#linha-estrut-nossDifer-hospitais-mobile"
+      "flex-layout.col#imagem-nossosDifer-Estrutura-hospitais-mobile",
+      "flex-layout.col#linha-estrut-nossDifer-hospitais-mobile"
     ]
   },
-  "flex-layout.row#linha-estrut-nossDifer-hospitais-mobile": {
+  "flex-layout.col#imagem-nossosDifer-Estrutura-hospitais-mobile": {
     "props": {
-      "blockClass": "linha-filha-nossDifer-hospitais-mobile"
+      "blockClass": "col-imagem-nossosDifer-hospitais-mobile",
+      "width": "40%"
+    },
+    "children": [
+      "image#estrutura-hospitais"
+    ]
+  },
+  "flex-layout.col#linha-estrut-nossDifer-hospitais-mobile": {
+    "props": {
+      "blockClass": "linha-filha-nossDifer-hospitais-mobile",
+      "width": "60%"
     },
     "children": [
       "flex-layout.row#tituloimgEstrutura-nossosDifer-hospitais",
@@ -259,13 +277,23 @@
       "colSizing": "auto"
     },
     "children": [
-      "image#person-nossosDifer-hospitais",
-      "flex-layout.row#linha-amplaPerson-nossDifer-hospitais-mobile"
+      "flex-layout.col#imagem-nossosDifer-amplaPerson-hospitais-mobile",
+      "flex-layout.col#linha-amplaPerson-nossDifer-hospitais-mobile"
     ]
   },
-  "flex-layout.row#linha-amplaPerson-nossDifer-hospitais-mobile": {
+  "flex-layout.col#imagem-nossosDifer-amplaPerson-hospitais-mobile":{
     "props": {
-      "blockClass": "linha-filha-nossDifer-hospitais-mobile"
+      "blockClass": "col-imagem-nossosDifer-hospitais-mobile",
+      "width": "40%"
+    },
+    "children": [
+      "image#person-nossosDifer-hospitais"
+    ]
+  },
+  "flex-layout.col#linha-amplaPerson-nossDifer-hospitais-mobile": {
+    "props": {
+      "blockClass": "linha-filha-nossDifer-hospitais-mobile",
+      "width": "60%"
     },
     "children": [
       "flex-layout.row#tituloimgPerson-nossosDifer-hospitais",
