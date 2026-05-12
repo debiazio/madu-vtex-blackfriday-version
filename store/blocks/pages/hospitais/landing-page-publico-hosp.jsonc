@@ -35,15 +35,6 @@
       "form-solicita-orcamento"
     ]
   },
-  "flex-layout.row#linhabanner-hospitalar": {
-    "props": {
-      "blockClass": "linhaprincipalbanner-hospitalar",
-      "fullWidth": true
-    },
-    "children": [
-      "slider-layout#home-hospitais"
-    ]
-  },
   "responsive-layout.desktop#slider-desktop": {
     "children": [
       "slider-layout#home-hospitais"

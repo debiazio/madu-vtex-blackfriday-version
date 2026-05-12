@@ -897,6 +897,10 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .paragraph--subtitulo-shopBy{
+    padding: 0 20px;
+  }
+
   .wrapper--subtitulo-shopBy {
     height: 15vh;
   }

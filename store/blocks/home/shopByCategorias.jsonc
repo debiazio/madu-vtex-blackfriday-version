@@ -45,7 +45,7 @@
       "colSizing": "auto"
     },
     "children": [
-      "list-context.image-list#home-shopByCategorias-carrinhos",
+      "list-context.image-list#home-shopByCategorias-hospitalar",
       "rich-text#titulo-categoria-carrinhos",
       "rich-text#subtitulo-categoria-carrinhos",
       "link#ver-produtos-shopby-carrinhos"
@@ -100,7 +100,7 @@
     ]
   },
   // SLIDERS
-  "list-context.image-list#home-shopByCategorias-carrinhos":{
+  "list-context.image-list#home-shopByCategorias-hospitalar":{
     "children": [
       "slider-layout#shopByCategorias"
     ],
@@ -109,21 +109,9 @@
       // "height": 200,
       "images": [
         {
-          "mobileImage": "assets/carrinho2-shopby.webp",
-          "image": "assets/carrinho2-shopby.webp",
-          "description": "Categoria Carrinhos",
-          "width": "240px"
-        },
-        {
-          "mobileImage": "assets/carrinho3-shop-by.webp",
-          "image": "assets/carrinho3-shop-by.webp",
-          "description": "Categoria Carrinhos",
-          "width": "240px"
-        },
-        {
-          "mobileImage": "assets/carrinho1-shopby.webp",
-          "image": "assets/carrinho1-shopby.webp",
-          "description": "Categoria Carrinhos",
+          "mobileImage": "assets/hospitalar-slider.webp",
+          "image": "assets/hospitalar-slider.webp",
+          "description": "Categoria Hospitalar",
           "width": "240px"
         }
       ]
@@ -239,7 +227,7 @@
         "phone": 1
       },
       "arrowSize": 25,
-      "infinite": true,
+      "infinite": false,
       "showNavigationArrows": "always",
       "showPaginationDots": "always"
       // "autoplay": {
