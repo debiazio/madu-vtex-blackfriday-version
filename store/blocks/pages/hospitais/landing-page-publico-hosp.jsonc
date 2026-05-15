@@ -80,7 +80,7 @@
   "image#banner-principal-hospitais": {
     "props": {
       "blockClass": "banner-principal-hosp",
-      "src": "assets/lp-hospitais/ambientacao-banner-hosp.webp",
+      "src": "assets/lp-hospitais/carrinho-bins-banner.webp",
       "title": "Ambientacao Hospital",
       "alt": "Ambientacao Hospital"
     }
@@ -137,7 +137,7 @@
   "image#banner-SeAdapta-hospitais": {
     "props": {
       "blockClass": "banner-principal-hosp",
-      "src": "assets/lp-hospitais/ambientacao-adapta.webp",
+      "src": "assets/lp-hospitais/armario-banner.webp",
       "title": "Ambientacao Hospital",
       "alt": "Ambientacao Hospital"
     }
@@ -187,7 +187,7 @@
   "image#banner-Eficiencia-hospitais": {
     "props": {
       "blockClass": "banner-principal-hosp",
-      "src": "assets/lp-hospitais/ambientacao-eficiencia.webp",
+      "src": "assets/lp-hospitais/carrinhoverde-banner.webp",
       "title": "Ambientacao Hospital",
       "alt": "Ambientacao Hospital"
     }
