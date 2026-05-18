@@ -1,4 +1,8 @@
 
+.priceContainer{
+  display: none;
+}
+
 .biggy-autocomplete-wrapper{
   width: 320px;
 }
