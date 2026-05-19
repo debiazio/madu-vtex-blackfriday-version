@@ -1,0 +1,26 @@
+{
+  "store.custom#video-maduset":{
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "blocks": [
+      "video#madu-set"
+    ]
+  },
+  "video#madu-set": {
+    "props": {
+      "width": "auto",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "controlsType": "native",
+      "src": "https://stermax.com.br/images_idealine/MAD.U-SET.mp4",
+      "blockClass": "video-maduset",
+      "description": "Video mostrando a utilidade do Mad.u Set"
+    }
+  }
+
+
+}
