@@ -611,7 +611,7 @@
   "rich-text#subtituloEstrut-nossosDifer-hospitais": {
     "props": {
       "blockClass": "titulo-nossosDifer-hospitais",
-      "text": "em aço inox"
+      "text": "em aço"
     }
   },
   "rich-text#subtextoEstrut-nossosDifer-hospitais": {
