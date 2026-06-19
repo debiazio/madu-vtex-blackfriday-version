@@ -1,3 +1,8 @@
+.flexRowContent--linhaText-ErrosAcontecem-maduset {
+  display: flex;
+  flex-direction: column;
+}
+
 .flexRowContent--primeiraLinha-maduset,
 .flexRow--linhaTextos-primeiraLinha-maduset {
   background-color: #FFA207;
@@ -16,12 +21,12 @@
   justify-content: center;
 }
 
-.flexRowContent--linhaTextos-primeiraLinha-maduset .stretchChildrenWidth   {
+.flexRowContent--linhaTextos-primeiraLinha-maduset .stretchChildrenWidth {
   justify-content: flex-start;
 }
 
 @media screen and (max-width: 1024px) {
-  .flexRowContent--primeiraLinha-maduset{
+  .flexRowContent--primeiraLinha-maduset {
     display: unset;
   }
 

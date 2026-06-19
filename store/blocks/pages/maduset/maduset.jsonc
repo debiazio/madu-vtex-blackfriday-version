@@ -1,24 +1,25 @@
 {
-  "store.custom#maduset":{
+  "store.custom#maduset": {
     "blocks": [
-      "flex-layout.row#primeiraLinha-maduset"
+      "flex-layout.row#primeiraLinha-maduset",
+      "flex-layout.row#linhaErrosAcontecem-maduset"
     ]
   },
   // -------------------------------
   // Primeira Linha
   // -------------------------------
-  "flex-layout.row#primeiraLinha-maduset":{
-    "props":{
+  "flex-layout.row#primeiraLinha-maduset": {
+    "props": {
       "blockClass": "primeiraLinha-maduset",
       "colSizing": "auto",
       "fullWidth": true
     },
-    "children":[
+    "children": [
       "flex-layout.row#linhaTextos-primeiraLinha-maduset",
       "flex-layout.row#linhaImagem-primeiraLinha-maduset"
     ]
   },
-  "flex-layout.row#linhaTextos-primeiraLinha-maduset":{
+  "flex-layout.row#linhaTextos-primeiraLinha-maduset": {
     "props": {
       "blockClass": "linhaTextos-primeiraLinha-maduset",
       "colSizing": "auto"
@@ -29,26 +30,26 @@
       "link#solicitarCotacao-maduset"
     ]
   },
-  "rich-text#titulo-maduset":{
-    "props":{
+  "rich-text#titulo-maduset": {
+    "props": {
       "blockClass": "titulo-maduset",
       "text": "# **UM SISTEMA MODULAR** \n PARA TODAS AS OPERAÇÕES"
     }
   },
-  "rich-text#subtitulo-maduset":{
+  "rich-text#subtitulo-maduset": {
     "props": {
       "blockClass": "subtitulo-maduset",
       "text": "Crie uma organização personalizada para sua operação e tenha mais controle, rapidez e eficiência no dia a dia."
     }
   },
-  "link#solicitarCotacao-maduset":{
+  "link#solicitarCotacao-maduset": {
     "props": {
       "href": "#",
       "label": "solicitar cotação",
       "blockClass": "link-solicitarCotacao-maduset"
     }
   },
-  "flex-layout.row#linhaImagem-primeiraLinha-maduset":{
+  "flex-layout.row#linhaImagem-primeiraLinha-maduset": {
     "props": {
       "blockClass": "linhaImagem-primeiraLinha-maduset",
       "colSizing": "auto"
@@ -57,10 +58,79 @@
       "image#imagem-maduset"
     ]
   },
-  "image#imagem-maduset":{
-    "props":{
+  "image#imagem-maduset": {
+    "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/9dcf93b0-238a-4f83-bcd6-a6ccd4e10482___06eba80dd46a3352d148e24bc9d310e4.gif",
       "alt": "Maduset"
+    }
+  },
+  // -------------------------------
+  // Linha Erros Acontecem
+  // -------------------------------
+  "flex-layout.row#linhaErrosAcontecem-maduset": {
+    "props": {
+      "blockClass": "linhaErrosAcontecem-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linhaImagens-ErrosAcontecem-maduset",
+      "flex-layout.row#linhaText-ErrosAcontecem-maduset"
+    ]
+  },
+  "flex-layout.row#linhaImagens-ErrosAcontecem-maduset": {
+    "props": {
+      "blockClass": "linhaImagens-ErrosAcontecem-maduset",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#imagem1-ErrosAcontecem-maduset",
+      "image#imagem2-ErrosAcontecem-maduset",
+      "image#imagem3-ErrosAcontecem-maduset"
+    ]
+  },
+  "image#imagem1-ErrosAcontecem-maduset": {
+    "props": {
+      "blockClass": "imagem-errosacontecem-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/82c48e41-6db8-42d1-90b1-3a6c54cd4e16___396dd97a8d9c4c292d1920c2a467cc3c.webp",
+      "alt": "Remédios"
+    }
+  },
+  "image#imagem2-ErrosAcontecem-maduset": {
+    "props": {
+      "blockClass": "imagem-errosacontecem-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/57e17cf5-6019-409f-87d5-42b51d01cd3a___b3f25e1a5e6a526cc4ab39a5c1d92580.webp",
+      "alt": "Capsulas"
+    }
+  },
+  "image#imagem3-ErrosAcontecem-maduset": {
+    "props": {
+      "blockClass": "imagem-errosacontecem-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/954197d8-eb72-4e11-907f-35acd45d36d2___cdcabc78a06be476ccf74f98af454b3a.webp",
+      "alt": "Cosméticos"
+    }
+  },
+  "flex-layout.row#linhaText-ErrosAcontecem-maduset": {
+    "props": {
+      "blockClass": "linhaText-ErrosAcontecem-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-ErrosAcontecem-maduset",
+      "rich-text#subtitulo-ErrosAcontecem-maduset"
+    ]
+  },
+  "rich-text#titulo-ErrosAcontecem-maduset": {
+    "props": {
+      "blockClass": "titulo-ErrosAcontecem-maduset",
+      "text": "## Quando a **organização não acompanha** a operação, os **erros aparecem**."
+    }
+  },
+  "rich-text#subtitulo-ErrosAcontecem-maduset": {
+    "props": {
+      "blockClass": "subtitulo-ErrosAcontecem-maduset",
+      "text": "O crescimento da operação exige sistemas flexíveis. Soluções fixas rapidamente deixam de atender novas demandas."
     }
   }
 }
