@@ -1,0 +1,66 @@
+{
+  "store.custom#maduset":{
+    "blocks": [
+      "flex-layout.row#primeiraLinha-maduset"
+    ]
+  },
+  // -------------------------------
+  // Primeira Linha
+  // -------------------------------
+  "flex-layout.row#primeiraLinha-maduset":{
+    "props":{
+      "blockClass": "primeiraLinha-maduset",
+      "colSizing": "auto",
+      "fullWidth": true
+    },
+    "children":[
+      "flex-layout.row#linhaTextos-primeiraLinha-maduset",
+      "flex-layout.row#linhaImagem-primeiraLinha-maduset"
+    ]
+  },
+  "flex-layout.row#linhaTextos-primeiraLinha-maduset":{
+    "props": {
+      "blockClass": "linhaTextos-primeiraLinha-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-maduset",
+      "rich-text#subtitulo-maduset",
+      "link#solicitarCotacao-maduset"
+    ]
+  },
+  "rich-text#titulo-maduset":{
+    "props":{
+      "blockClass": "titulo-maduset",
+      "text": "# **UM SISTEMA MODULAR** \n PARA TODAS AS OPERAÇÕES"
+    }
+  },
+  "rich-text#subtitulo-maduset":{
+    "props": {
+      "blockClass": "subtitulo-maduset",
+      "text": "Crie uma organização personalizada para sua operação e tenha mais controle, rapidez e eficiência no dia a dia."
+    }
+  },
+  "link#solicitarCotacao-maduset":{
+    "props": {
+      "href": "#",
+      "label": "solicitar cotação",
+      "blockClass": "link-solicitarCotacao-maduset"
+    }
+  },
+  "flex-layout.row#linhaImagem-primeiraLinha-maduset":{
+    "props": {
+      "blockClass": "linhaImagem-primeiraLinha-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-maduset"
+    ]
+  },
+  "image#imagem-maduset":{
+    "props":{
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/9dcf93b0-238a-4f83-bcd6-a6ccd4e10482___06eba80dd46a3352d148e24bc9d310e4.gif",
+      "alt": "Maduset"
+    }
+  }
+}
