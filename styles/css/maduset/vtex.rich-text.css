@@ -1,12 +1,40 @@
-.paragraph--subtitulo-ErrosAcontecem-maduset {
-  font-family: Poppins;
+.paragraph--subtitle-infinitasCombinacoes-maduset {
+  font-family: "Poppins Light", sans-serif !important;
   font-weight: 300;
-  font-style: Light;
+  font-size: 24px;
+  line-height: 108%;
+  letter-spacing: 0%;
+  color: #FAFAF5;
+  margin-bottom: 0;
+}
+
+.heading--titulo-infinitasPossibilidades-maduset {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 40px;
+  color: #FAFAF5;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.strong--titulo-infinitasPossibilidades-maduset {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.paragraph--subtitulo-ErrosAcontecem-maduset {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
   font-size: 24px;
   color: #B4B4B4;
   line-height: 108%;
   letter-spacing: -3%;
-
 }
 
 .heading--titulo-ErrosAcontecem-maduset {
@@ -82,9 +110,22 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .paragraph--subtitle-infinitasCombinacoes-maduset {
+    font-size: 16px;
+  }
+
+  .strong--titulo-infinitasPossibilidades-maduset {
+    font-size: 30px;
+  }
+
+  .heading--titulo-infinitasPossibilidades-maduset {
+    font-size: 30px;
+  }
+
   .paragraph--subtitulo-ErrosAcontecem-maduset {
     font-size: 16px;
   }
+
   .heading--titulo-ErrosAcontecem-maduset {
     font-size: 30px;
   }

@@ -1,8 +1,37 @@
 .imageElement--imagem-banner-inicial-maduset {
   height: 100vh;
+  width: 100%;
+}
+
+.imageElement--set-maduset {
+  width: 134px;
+  height: 53.38211441040039px;
+  opacity: 1;
+  top: 1328px;
+  left: 156px;
+  margin: 0px 10px;
+}
+
+.imageElement--gif-infinitasPossibilidades {
+  width: 430px;
+  height: 493px;
+  opacity: 1;
+  top: 1213px;
+  left: 776px;
+
 }
 
 @media screen and (max-width: 1024px) {
+  .imageElement--set-maduset {
+    width: 87.86px;
+    height: 100%;
+  }
+
+  .imageElement--gif-infinitasPossibilidades {
+    width: 100%;
+    height: auto;
+  }
+
   .imageElement--imagem-banner-inicial-maduset {
     height: unset;
   }

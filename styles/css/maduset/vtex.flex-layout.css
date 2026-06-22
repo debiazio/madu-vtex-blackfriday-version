@@ -1,4 +1,36 @@
-.flexRow--linhaErrosAcontecem-maduset{
+.flexRowContent--linhaInfinitasCombinacoes-maduset {
+  padding: 63px 36px 0 36px;
+}
+
+.flexRowContent--linha-textoImagem-maduset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRow--linhaTextos-infinitasCompinacoes-maduset {
+  display: flex;
+}
+
+.flexRowContent--linhaTextos-infinitasCompinacoes-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.flexRowContent--linhaInfinitasCombinacoes-maduset {
+  max-width: 1200px;
+}
+
+.flexRow--linhaInfinitasCombinacoes-maduset {
+  display: flex;
+  justify-content: center;
+  background-color: #8282C8;
+}
+
+
+.flexRow--linhaErrosAcontecem-maduset {
   background-color: #FAFAF5;
 }
 
@@ -53,11 +85,11 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .flexRowContent--linhaImagens-ErrosAcontecem-maduset{
+  .flexRowContent--linhaImagens-ErrosAcontecem-maduset {
     margin-top: 26px;
   }
 
-  .flexRowContent--linhaErrosAcontecem-maduset{
+  .flexRowContent--linhaErrosAcontecem-maduset {
     display: flex;
     flex-direction: column-reverse;
     gap: unset;

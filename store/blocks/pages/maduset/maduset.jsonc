@@ -2,7 +2,8 @@
   "store.custom#maduset": {
     "blocks": [
       "flex-layout.row#primeiraLinha-maduset",
-      "flex-layout.row#linhaErrosAcontecem-maduset"
+      "flex-layout.row#linhaErrosAcontecem-maduset",
+      "flex-layout.row#linhaInfinitasCombinacoes-maduset"
     ]
   },
   // -------------------------------
@@ -131,6 +132,85 @@
     "props": {
       "blockClass": "subtitulo-ErrosAcontecem-maduset",
       "text": "O crescimento da operação exige sistemas flexíveis. Soluções fixas rapidamente deixam de atender novas demandas."
+    }
+  },
+  // -------------------------------------
+  // infinitas combinações
+  // --------------------------------------
+  "flex-layout.row#linhaInfinitasCombinacoes-maduset": {
+    "props": {
+      "blockClass": "linhaInfinitasCombinacoes-maduset",
+      // "colSizing": "auto",
+      "fullWidth": true,
+      "width": "50%"
+    },
+    "children": [
+      "flex-layout.row#linhaTextos-infinitasCompinacoes-maduset",
+      "flex-layout.row#linhaImagem-infinitasCompinacoes-maduset"
+    ]
+  },
+  "flex-layout.row#linhaTextos-infinitasCompinacoes-maduset": {
+    "props": {
+      "blockClass": "linhaTextos-infinitasCompinacoes-maduset",
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-textoImagem-maduset",
+      "rich-text#infinitas-comb-maduset",
+      "rich-text#subtitle-infinitasCombinacoes-maduset"
+    ]
+  },
+  "rich-text#subtitle-infinitasCombinacoes-maduset": {
+    "props": {
+      "blockClass": "subtitle-infinitasCombinacoes-maduset",
+      "text": "MAD.U SET possui diversos formatos disponíveis, permitindo a escolha das bases e open sets de acordo com a sua necessidade."
+    }
+  },
+  "flex-layout.row#linha-textoImagem-maduset": {
+    "props": {
+      "blockClass": "linha-textoImagem-maduset",
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#um-maduset",
+      "image#set-maduset"
+    ]
+  },
+  "rich-text#um-maduset": {
+    "props": {
+      "blockClass": "titulo-infinitasPossibilidades-maduset",
+      "text": "## um"
+    }
+  },
+  "image#set-maduset": {
+    "props": {
+      "blockClass": "set-maduset",
+      "alt": "Set",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b5eec611-a781-4f6c-a87d-cb3981704418___25c7b823a6e5a37354149d5fbaa7af1b.webp"
+    }
+  },
+  "rich-text#infinitas-comb-maduset": {
+    "props": {
+      "blockClass": "titulo-infinitasPossibilidades-maduset",
+      "text": "## **INFINITAS COMBINAÇÕES.**"
+    }
+  },
+  "flex-layout.row#linhaImagem-infinitasCompinacoes-maduset": {
+    "props": {
+      "blockClass": "linhaImagem-infinitasCompinacoes-maduset"
+    },
+    "children": [
+      "image#gif-infinitasPossibilidades"
+    ]
+  },
+  "image#gif-infinitasPossibilidades": {
+    "props": {
+      "blockClass": "gif-infinitasPossibilidades",
+      "alt": "gif infinitas possibilidades",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/df59e70d-5e75-4617-81c9-4f9ce377a5de___54b93a32c39729e2914f53d6cd336d4c.gif"
     }
   }
 }
