@@ -3,7 +3,8 @@
     "blocks": [
       "flex-layout.row#primeiraLinha-maduset",
       "flex-layout.row#linhaErrosAcontecem-maduset",
-      "flex-layout.row#linhaInfinitasCombinacoes-maduset"
+      "flex-layout.row#linhaInfinitasCombinacoes-maduset",
+      "flex-layout.row#linhaCaracteristicas-maduset"
     ]
   },
   // -------------------------------
@@ -211,6 +212,169 @@
       "blockClass": "gif-infinitasPossibilidades",
       "alt": "gif infinitas possibilidades",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/df59e70d-5e75-4617-81c9-4f9ce377a5de___54b93a32c39729e2914f53d6cd336d4c.gif"
+    }
+  },
+  // -------------------------------------
+  // caracteristicas maduset
+  // -------------------------------------
+  "flex-layout.row#linhaCaracteristicas-maduset": {
+    "props": {
+      "blockClass": "linhaCaracteristicas-maduset",
+      "fullWidth": true,
+      "width": "50%"
+    },
+    "children": [
+      "flex-layout.row#linha-imgCaracteristicasMaduset-maduset",
+      "flex-layout.row#linha-listaCaracteristicasMaduset-maduset"
+    ]
+  },
+  "flex-layout.row#linha-imgCaracteristicasMaduset-maduset": {
+    "props": {
+      "blockClass": "linha-imgCaracteristicasMaduset-maduset"
+    },
+    "children": [
+      "image#img-linhaCaracteristicas-maduset"
+    ]
+  },
+  "image#img-linhaCaracteristicas-maduset": {
+    "props": {
+      "blockClass": "img-linhaCaracteristicas-maduset",
+      "alt": "Características Maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8644c76f-1389-44d5-b4a3-4be4beab07f8___5f068a3a2d0b379d169d0e718d84aae0.webp"
+    }
+  },
+  "flex-layout.row#linha-listaCaracteristicasMaduset-maduset": {
+    "props": {
+      "blockClass": "linha-listaCaracteristicasMaduset-maduset",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#iconeTexto-listaCarac1-maduset",
+      "flex-layout.row#iconeTexto-listaCarac2-maduset",
+      "flex-layout.row#iconeTexto-listaCarac3-maduset",
+      "flex-layout.row#iconeTexto-listaCarac4-maduset",
+      "flex-layout.row#iconeTexto-listaCarac5-maduset"
+    ]
+  },
+  "flex-layout.row#iconeTexto-listaCarac1-maduset": {
+    "props": {
+      "blockClass": "iconeTexto-lista-maduset",
+      "colSizing": "equal",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#durabilidade-maduset",
+      "rich-text#durabilidade-maduset"
+    ]
+  },
+  "image#durabilidade-maduset": {
+    "props": {
+      "blockClass": "image-lista-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f95030b7-43b1-4961-8af7-b715a83bcdd5___e1281c994084d6511e0fdf7d5ccd3379.webp",
+      "alt": "Alta durabilidade"
+    }
+  },
+  "rich-text#durabilidade-maduset": {
+    "props": {
+      "blockClass": "texto-listacarac-maduset",
+      "text": "**Material de Alta Durabilidade** \n Polímeros injetados resistentes à absorção e oxidação."
+    }
+  },
+  "flex-layout.row#iconeTexto-listaCarac2-maduset": {
+    "props": {
+      "blockClass": "iconeTexto-lista-maduset",
+      "colSizing": "equal",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#organizacao-maduset",
+      "rich-text#organizacao-maduset"
+    ]
+  },
+  "rich-text#organizacao-maduset": {
+    "props": {
+      "blockClass": "texto-listacarac-maduset",
+      "text": "**Organização Inteligente** \n Liberdade para criar layouts personalizados."
+    }
+  },
+  "image#organizacao-maduset": {
+    "props": {
+      "blockClass": "image-lista-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/5db1537f-6fdf-414d-a14d-3faf478b22ee___07b72282ce1ba9bfed0a1a51270a8cd5.webp",
+      "alt": "Organizacao inteligente"
+    }
+  },
+  "flex-layout.row#iconeTexto-listaCarac3-maduset": {
+    "props": {
+      "blockClass": "iconeTexto-lista-maduset",
+      "colSizing": "equal",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#identificacao-maduset",
+      "rich-text#identificacao-maduset"
+    ]
+  },
+  "rich-text#identificacao-maduset": {
+    "props": {
+      "blockClass": "texto-listacarac-maduset",
+      "text": "**Identificação Permanente** \n Gravação indelével personalizada."
+    }
+  },
+  "image#identificacao-maduset": {
+    "props": {
+      "blockClass": "image-lista-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/50b3c06e-8268-4af9-a158-2686f7e4525c___031a96944a11495fae31866afda80e8d.webp",
+      "alt": "Identificação permanente"
+    }
+  },
+  "flex-layout.row#iconeTexto-listaCarac4-maduset": {
+    "props": {
+      "blockClass": "iconeTexto-lista-maduset",
+      "colSizing": "equal",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#higienizacao-maduset",
+      "rich-text#higienizacao-maduset"
+    ]
+  },
+  "rich-text#higienizacao-maduset": {
+    "props": {
+      "blockClass": "texto-listacarac-maduset",
+      "text": "**Higienização Facilitada** \n Conjuntos desenvolvidos para limpeza rápida."
+    }
+  },
+  "image#higienizacao-maduset": {
+    "props": {
+      "blockClass": "image-lista-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/33755d5d-3acc-41d3-a7f2-db29521b48e4___b1ce4f8697ab47688d8b4c3840de2605.webp",
+      "alt": "Higienização facilitada"
+    }
+  },
+  "flex-layout.row#iconeTexto-listaCarac5-maduset": {
+    "props": {
+      "blockClass": "iconeTexto-lista-maduset",
+      "colSizing": "equal",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#escalabilidade-maduset",
+      "rich-text#escalabilidade-maduset"
+    ]
+  },
+  "image#escalabilidade-maduset": {
+    "props": {
+      "blockClass": "image-lista-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/dd79da0c-46d1-4e81-a69d-21ab31ade0d6___c1d9d4c8db4c0210489119d2f6731eba.webp",
+      "alt": "Escalabilidade"
+    }
+  },
+  "rich-text#escalabilidade-maduset": {
+    "props": {
+      "blockClass": "texto-listacarac-maduset",
+      "text": "**Escalabilidade** \n O sistema cresce junto com a operação."
     }
   }
 }
