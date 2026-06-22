@@ -1,0 +1,9 @@
+.imageElement--imagem-banner-inicial-maduset {
+  height: 100vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .imageElement--imagem-banner-inicial-maduset {
+    height: unset;
+  }
+}

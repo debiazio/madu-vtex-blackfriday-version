@@ -448,6 +448,10 @@
   border-radius: 50%;
 }
 
+.skuSelectorItemImage{
+  height: auto!important;
+}
+
 .skuSelectorItemImageValue {
   border-radius: 50%;
 }

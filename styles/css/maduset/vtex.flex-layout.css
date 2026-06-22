@@ -1,6 +1,33 @@
+.flexRow--linhaErrosAcontecem-maduset{
+  background-color: #FAFAF5;
+}
+
+.flexRowContent--linhaErrosAcontecem-maduset {
+  gap: 80px;
+}
+
+.flexRowContent--linhaImagens-ErrosAcontecem-maduset {
+  margin-top: 59px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.flexRowContent--linhaText-ErrosAcontecem-maduset .stretchChildrenWidth {
+  width: auto !important;
+}
+
+.flexRow--linhaText-ErrosAcontecem-maduset {
+  display: flex;
+}
+
 .flexRowContent--linhaText-ErrosAcontecem-maduset {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .flexRowContent--primeiraLinha-maduset,
@@ -11,7 +38,7 @@
 .flexRowContent--primeiraLinha-maduset {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -26,6 +53,17 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linhaImagens-ErrosAcontecem-maduset{
+    margin-top: 26px;
+  }
+
+  .flexRowContent--linhaErrosAcontecem-maduset{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: unset;
+    padding: 36px;
+  }
+
   .flexRowContent--primeiraLinha-maduset {
     display: unset;
   }

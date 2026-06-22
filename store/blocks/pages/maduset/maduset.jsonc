@@ -61,7 +61,8 @@
   "image#imagem-maduset": {
     "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/9dcf93b0-238a-4f83-bcd6-a6ccd4e10482___06eba80dd46a3352d148e24bc9d310e4.gif",
-      "alt": "Maduset"
+      "alt": "Maduset",
+      "blockClass": "imagem-banner-inicial-maduset"
     }
   },
   // -------------------------------
@@ -80,9 +81,8 @@
   "flex-layout.row#linhaImagens-ErrosAcontecem-maduset": {
     "props": {
       "blockClass": "linhaImagens-ErrosAcontecem-maduset",
-      "colSizing": "auto",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true
+      "width": "50%",
+      "preventHorizontalStretch": true
     },
     "children": [
       "image#imagem1-ErrosAcontecem-maduset",
@@ -114,7 +114,7 @@
   "flex-layout.row#linhaText-ErrosAcontecem-maduset": {
     "props": {
       "blockClass": "linhaText-ErrosAcontecem-maduset",
-      "colSizing": "auto"
+      "width": "50%"
     },
     "children": [
       "rich-text#titulo-ErrosAcontecem-maduset",
@@ -124,7 +124,7 @@
   "rich-text#titulo-ErrosAcontecem-maduset": {
     "props": {
       "blockClass": "titulo-ErrosAcontecem-maduset",
-      "text": "## Quando a **organização não acompanha** a operação, os **erros aparecem**."
+      "text": "## Quando a \n ## **organização** \n ## **não acompanha** \n ## a operação, os \n ## **erros aparecem**."
     }
   },
   "rich-text#subtitulo-ErrosAcontecem-maduset": {

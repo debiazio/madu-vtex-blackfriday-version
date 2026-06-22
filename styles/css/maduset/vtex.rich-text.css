@@ -1,10 +1,42 @@
+.paragraph--subtitulo-ErrosAcontecem-maduset {
+  font-family: Poppins;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 24px;
+  color: #B4B4B4;
+  line-height: 108%;
+  letter-spacing: -3%;
+
+}
+
+.heading--titulo-ErrosAcontecem-maduset {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 108%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #4CAB86;
+  margin: 0;
+}
+
+.strong--titulo-ErrosAcontecem-maduset {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 108%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 .container--subtitulo-maduset {
-  padding: 0 100px;
+  padding: 0 150px;
   max-width: 60%;
 }
 
 .container--titulo-maduset {
-  padding: 40px 100px 0;
+  padding: 40px 150px 0;
 }
 
 .paragraph--subtitulo-maduset {
@@ -50,6 +82,19 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .paragraph--subtitulo-ErrosAcontecem-maduset {
+    font-size: 16px;
+  }
+  .heading--titulo-ErrosAcontecem-maduset {
+    font-size: 30px;
+  }
+
+  .strong--titulo-ErrosAcontecem-maduset {
+    font-size: 30px;
+  }
+
+
+
   .strong--titulo-maduset {
     font-family: "Poppins Black", sans-serif !important;
     font-weight: 900;
