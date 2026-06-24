@@ -1,3 +1,30 @@
+.flexRowContent--disclosure-comoConfig-maduset .stretchChildrenWidth {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.flexRowContent--comoConfig-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRow--linhaDisclosure-comoXonfig-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FAFAF5;
+}
+
+.flexRowContent--linhaDisclosure-comoXonfig-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+}
+
 .flexRow--linha-liberdade-maduset {
   background-color: #FAFAF5;
   display: flex;
@@ -152,11 +179,11 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .flexRow--linha-liberdade-maduset{
+  .flexRow--linha-liberdade-maduset {
     padding-top: 0;
   }
 
-  .flexRowContent--linha-liberdade-maduset{
+  .flexRowContent--linha-liberdade-maduset {
     padding: 36px;
   }
 

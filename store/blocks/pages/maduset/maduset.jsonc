@@ -5,7 +5,8 @@
       "flex-layout.row#linhaErrosAcontecem-maduset",
       "flex-layout.row#linhaInfinitasCombinacoes-maduset",
       "flex-layout.row#linhaCaracteristicas-maduset",
-      "flex-layout.row#linhaLiberdadeOrganizar"
+      "flex-layout.row#linhaLiberdadeOrganizar",
+      "flex-layout.row#linhaDisclosure-comoXonfig-maduset"
     ]
   },
   // -------------------------------
@@ -260,7 +261,10 @@
   },
   "flex-layout.row#iconeTexto-listaCarac1-maduset": {
     "props": {
-      "blockClass": ["iconeTexto-lista-maduset", "carac1-maduset"],
+      "blockClass": [
+        "iconeTexto-lista-maduset",
+        "carac1-maduset"
+      ],
       "colSizing": "equal",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
@@ -285,7 +289,10 @@
   },
   "flex-layout.row#iconeTexto-listaCarac2-maduset": {
     "props": {
-      "blockClass": ["iconeTexto-lista-maduset", "carac2-maduset"],
+      "blockClass": [
+        "iconeTexto-lista-maduset",
+        "carac2-maduset"
+      ],
       "colSizing": "equal",
       "preventHorizontalStretch": true
     },
@@ -309,7 +316,10 @@
   },
   "flex-layout.row#iconeTexto-listaCarac3-maduset": {
     "props": {
-      "blockClass": ["iconeTexto-lista-maduset", "carac3-maduset"],
+      "blockClass": [
+        "iconeTexto-lista-maduset",
+        "carac3-maduset"
+      ],
       "colSizing": "equal",
       "preventHorizontalStretch": true
     },
@@ -333,7 +343,10 @@
   },
   "flex-layout.row#iconeTexto-listaCarac4-maduset": {
     "props": {
-      "blockClass": ["iconeTexto-lista-maduset", "carac4-maduset"],
+      "blockClass": [
+        "iconeTexto-lista-maduset",
+        "carac4-maduset"
+      ],
       "colSizing": "equal",
       "preventHorizontalStretch": true
     },
@@ -357,7 +370,10 @@
   },
   "flex-layout.row#iconeTexto-listaCarac5-maduset": {
     "props": {
-      "blockClass": ["iconeTexto-lista-maduset", "carac5-maduset"],
+      "blockClass": [
+        "iconeTexto-lista-maduset",
+        "carac5-maduset"
+      ],
       "colSizing": "equal",
       "preventHorizontalStretch": true
     },
@@ -382,7 +398,7 @@
   // -----------------------------------
   // liberdade
   // -----------------------------------
-  "flex-layout.row#linhaLiberdadeOrganizar":{
+  "flex-layout.row#linhaLiberdadeOrganizar": {
     "props": {
       "blockClass": "linha-liberdade-maduset",
       "colSizing": "auto"
@@ -392,7 +408,7 @@
       "flex-layout.row#imgs-liberdade-maduset"
     ]
   },
-  "flex-layout.row#titulo-liberdade-maduset":{
+  "flex-layout.row#titulo-liberdade-maduset": {
     "props": {
       "blockClass": "linha-titulo-liberdade-maduset"
     },
@@ -400,7 +416,7 @@
       "rich-text#titulo-liberdade-maduset"
     ]
   },
-  "rich-text#titulo-liberdade-maduset":{
+  "rich-text#titulo-liberdade-maduset": {
     "props": {
       "text": "## Para quem quer \n ## **liberdade total para organizar**",
       "blockClass": "titulo-liberdade-maduset",
@@ -408,7 +424,7 @@
       "textAlignment": "CENTER"
     }
   },
-  "flex-layout.row#imgs-liberdade-maduset":{
+  "flex-layout.row#imgs-liberdade-maduset": {
     "props": {
       "blockClass": "imgs-liberdade-maduset"
     },
@@ -417,28 +433,587 @@
       "responsive-layout.mobile#imgs-liberdade-maduset"
     ]
   },
-  "responsive-layout.desktop#imgs-liberdade-maduset":{
+  "responsive-layout.desktop#imgs-liberdade-maduset": {
     "children": [
       "image#imgs-liberdade-maduset"
     ]
   },
-  "image#imgs-liberdade-maduset":{
+  "image#imgs-liberdade-maduset": {
     "props": {
       "blockClass": "imageDesktop-liberdade-maduset",
       "alt": "Produtos liberdade desktop",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f165beec-a4b2-4faa-8b82-120a289611d1___45a72acd6636e5b46c9097d65c68874d.webp"
     }
   },
-  "responsive-layout.mobile#imgs-liberdade-maduset":{
+  "responsive-layout.mobile#imgs-liberdade-maduset": {
     "children": [
       "image#imgsMobile-liberdade-maduset"
     ]
   },
-  "image#imgsMobile-liberdade-maduset":{
+  "image#imgsMobile-liberdade-maduset": {
     "props": {
       "blockClass": "imageMobile-liberdade-maduset",
       "alt": "Produtos liberdade mobile",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6cb937e1-fcac-4f8e-8fc1-522a41229f7f___13ffa47f4875c110309f255775533498.webp"
+    }
+  },
+  // ----------------------------------------
+  // disclosure - como configurar
+  // ----------------------------------------
+  // ÍCONE DO DISCLOSURE
+  "disclosure-state-indicator#configSet-maduset": {
+    "props": {
+      "Show": "icon-caret#down-configSet-maduset",
+      "Hide": "icon-caret#up-configSet-maduset"
+    }
+  },
+  "icon-caret#down-configSet-maduset": {
+    "props": {
+      "blockClass": "caret-baixo-maduset",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-configSet-maduset": {
+    "props": {
+      "blockClass": "cima-configSet-maduset",
+      "orientation": "up"
+    }
+  },
+  "flex-layout.row#linhaDisclosure-comoXonfig-maduset": {
+    "props": {
+      "blockClass": "linhaDisclosure-comoXonfig-maduset",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#textos-comoConfig-maduset",
+      "flex-layout.row#disclosure-comoConfig-maduset"
+    ]
+  },
+  "flex-layout.row#textos-comoConfig-maduset": {
+    "props": {
+      "blockClass": "comoConfig-maduset"
+    },
+    "children": [
+      "rich-text#tituloComoConfig-maduset",
+      "rich-text#subTituloComoConfig-maduset"
+    ]
+  },
+  "rich-text#tituloComoConfig-maduset": {
+    "props": {
+      "text": "## COMO **CONFIGURAR**?",
+      "blockClass": "titulo-liberdade-maduset",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#subTituloComoConfig-maduset": {
+    "props": {
+      "text": "Monte seu MADU SET em 4 etapas",
+      "blockClass": "subtitulo-comoConfig-maduset",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#disclosure-comoConfig-maduset": {
+    "props": {
+      "blockClass": "disclosure-comoConfig-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "disclosure-layout-group#comoConfig-maduset"
+    ]
+  },
+  "disclosure-layout-group#comoConfig-maduset": {
+    "props": {
+      "blockClass": "group-comoConfig-maduset"
+    },
+    "children": [
+      "disclosure-layout#tamanhoBases-maduset",
+      "disclosure-layout#openSets-maduset",
+      "disclosure-layout#coresSet-maduset",
+      "disclosure-layout#gravacaoPersonalizada-maduset"
+    ]
+  },
+  // tamanho base
+  "disclosure-layout#tamanhoBases-maduset": {
+    "props": {
+      "blockClass": "layout-comoConfig-maduset"
+    },
+    "children": [
+      "disclosure-trigger#tamanhoBases-maduset",
+      "disclosure-content#tamanhoBases-maduset"
+    ]
+  },
+  "disclosure-trigger#tamanhoBases-maduset": {
+    "props": {
+      "blockClass": "trigger-comoConfig-maduset"
+    },
+    "children": [
+      "rich-text#trigger-tamanhoBases-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "disclosure-content#tamanhoBases-maduset": {
+    "props": {
+      "blockClass": "content-comoConfig-maduset"
+    },
+    "children": [
+      "image#img1content-openSets-maduset",
+      "image#img2content-openSets-maduset",
+      "image#img3content-openSets-maduset",
+      "image#img4content-openSets-maduset",
+      "image#img5content-openSets-maduset",
+      "image#img6content-openSets-maduset",
+      "image#img7content-openSets-maduset",
+      "image#img8content-openSets-maduset"
+    ]
+  },
+  "rich-text#trigger-tamanhoBases-maduset": {
+    "props": {
+      "blockClass": "texto-trigger-comoConfig-maduset",
+      "text": "#### 1 Escolha o tamanho das bases"
+    }
+  },
+  "image#img1content-openSets-maduset": {
+    "props": {
+      "blockClass": "img-modulosDisclosure-maduset",
+      "alt": "1Modulos",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4fc72814-ecc7-49b9-bd7a-a911b8268e01___5854bf35f7056fe7eaf57094974ae8b6.webp"
+    }
+  },
+  "image#img2content-openSets-maduset": {
+    "props": {
+      "blockClass": "img-modulosDisclosure-maduset",
+      "alt": "2Modulos",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/18f03de7-a693-4e41-b66f-fffc1e35477a___8bd84f442511898f180f95739ae0991a.webp"
+    }
+  },
+  "image#img3content-openSets-maduset": {
+    "props": {
+      "blockClass": "img-modulosDisclosure-maduset",
+      "alt": "3Modulos",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fa9de514-4c86-4aa4-a75a-7057f9f29379___9ff50a525d5ae9b06670fd5b02bd6e8b.webp"
+    }
+  },
+  "image#img4content-openSets-maduset": {
+    "props": {
+      "blockClass": "img-modulosDisclosure-maduset",
+      "alt": "4Modulos",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/cc291fb5-0492-454f-9f76-3df8467627b7___b9c2cf22871ba9c899abfa6a0d581801.webp"
+    }
+  },
+  "image#img5content-openSets-maduset": {
+    "props": {
+      "blockClass": "img-modulosDisclosure-maduset",
+      "alt": "6Modulos",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6df5c9e4-8c7f-4540-bdb1-74e3ba001a22___0f48dede15fad5e31eb5cd6c1ec997ef.webp"
+    }
+  },
+  "image#img6content-openSets-maduset": {
+    "props": {
+      "blockClass": "img-modulosDisclosure-maduset",
+      "alt": "8Modulos",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6df5c9e4-8c7f-4540-bdb1-74e3ba001a22___0f48dede15fad5e31eb5cd6c1ec997ef.webp"
+    }
+  },
+  "image#img7content-openSets-maduset": {
+    "props": {
+      "blockClass": "img-modulosDisclosure-maduset",
+      "alt": "10Modulos",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/22d1a4dd-1a40-44f9-8ac4-979eedfccb90___2bcae94012069dee6a3ba062d5a22207.webp"
+    }
+  },
+  "image#img8content-openSets-maduset": {
+    "props": {
+      "blockClass": "img-modulosDisclosure-maduset",
+      "alt": "12Modulos",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/24b955f1-e3b9-4762-a9a4-ea2a3f291484___2bfdd137ca576eaf53b666d27a88cdaa.webp"
+    }
+  },
+  // open set
+  "disclosure-layout#openSets-maduset": {
+    "props": {
+      "blockClass": "layout-comoConfig-maduset"
+    },
+    "children": [
+      "disclosure-trigger#openSets-maduset",
+      "disclosure-content#openSets-maduset"
+    ]
+  },
+  "disclosure-trigger#openSets-maduset": {
+    "props": {
+      "blockClass": "trigger-comoConfig-maduset"
+    },
+    "children": [
+      "rich-text#trigger-openSets-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "disclosure-content#openSets-maduset": {
+    "props": {
+      "blockClass": "content-comoConfig-maduset"
+    },
+    "children": [
+      "image#img-openSet-maduset"
+    ]
+  },
+  "rich-text#trigger-openSets-maduset": {
+    "props": {
+      "blockClass": "texto-trigger-comoConfig-maduset",
+      "text": "#### 2 Escolha seu open set"
+    }
+  },
+  "image#img-openSet-maduset": {
+    "props": {
+      "blockClass": "img-modulosDisclosure-maduset",
+      "alt": "openset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/90fbc83d-285d-49c4-938c-749d5dc3ecc5___0a18983195a7df122ecf535a73a83496.webp"
+    }
+  },
+  // cores open set
+  "disclosure-layout#coresSet-maduset": {
+    "props": {
+      "blockClass": "layout-comoConfig-maduset"
+    },
+    "children": [
+      "disclosure-trigger#coresSet-maduset",
+      "disclosure-content#coresSet-maduset"
+    ]
+  },
+  "disclosure-trigger#coresSet-maduset": {
+    "props": {
+      "blockClass": "trigger-comoConfig-maduset"
+    },
+    "children": [
+      "rich-text#trigger-coresSet-maduset"
+    ]
+  },
+  "disclosure-content#coresSet-maduset": {
+    "props": {
+      "blockClass": "content-comoConfig-maduset"
+    },
+    "children": [
+      "flex-layout.col#branco-maduset",
+      "flex-layout.col#cinza-maduset",
+      "flex-layout.col#preto-maduset",
+      "flex-layout.col#azul-maduset",
+      "flex-layout.col#verde-maduset",
+      "flex-layout.col#amarelo-maduset",
+      "flex-layout.col#laranja-maduset",
+      "flex-layout.col#vermelho-maduset",
+      "flex-layout.col#lilas-maduset",
+      "flex-layout.col#azul-listras-maduset",
+      "flex-layout.col#laranja-listras-maduset",
+      "flex-layout.col#lilas-listras-maduset"
+    ]
+  },
+  "rich-text#trigger-coresSet-maduset": {
+    "props": {
+      "blockClass": "texto-trigger-comoConfig-maduset",
+      "text": "#### 3 Escolha as cores de seu open set"
+    }
+  },
+  "flex-layout.col#branco-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#branco-maduset",
+      "rich-text#branco-maduset"
+    ]
+  },
+  "image#branco-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f0ce8703-6db7-4657-898e-1b9b374faa82___c7dd0a7b2174308d50dc2b6398a065a2.webp"
+    }
+  },
+  "rich-text#branco-maduset": {
+    "props": {
+      "text": "branco",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#cinza-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#cinza-maduset",
+      "rich-text#cinza-maduset"
+    ]
+  },
+  "image#cinza-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/24b8ae3f-0339-451f-8d7c-0a6f7a18d90e___21ec03c93836885414b5baadb10335f9.webp"
+    }
+  },
+  "rich-text#cinza-maduset": {
+    "props": {
+      "text": "cinza",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#preto-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#preto-maduset",
+      "rich-text#preto-maduset"
+    ]
+  },
+  "image#preto-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/548f6871-14f4-42bd-a047-9b93b2ce610e___c6a34761c9a82aaf7b286e3d3630fd17.webp"
+    }
+  },
+  "rich-text#preto-maduset": {
+    "props": {
+      "text": "preto",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#azul-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#azul-maduset",
+      "rich-text#azul-maduset"
+    ]
+  },
+  "image#azul-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/00586027-b4b6-434a-afd8-e0c1c34b290f___cf0fa732a86843cb6623cf653ccae927.webp"
+    }
+  },
+  "rich-text#azul-maduset": {
+    "props": {
+      "text": "azul",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#verde-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#verde-maduset",
+      "rich-text#verde-maduset"
+    ]
+  },
+  "image#verde-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/2774e1ee-484d-401d-9214-f3d589b43c04___751d51581e30fefc192313b59ce5e8ac.webp"
+    }
+  },
+  "rich-text#verde-maduset": {
+    "props": {
+      "text": "verde",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#amarelo-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#amarelo-maduset",
+      "rich-text#amarelo-maduset"
+    ]
+  },
+  "image#amarelo-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/2e80b7d1-2a3d-4841-82c3-5edc07545892___0b5745742ea8be4fb24d4d052b48a8e7.webp"
+    }
+  },
+  "rich-text#amarelo-maduset": {
+    "props": {
+      "text": "amarelo",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#laranja-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#laranja-maduset",
+      "rich-text#laranja-maduset"
+    ]
+  },
+  "image#laranja-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c595383b-e889-47df-843a-5310e96722ad___8db68dc3dfbd8757aa2c2919cadb1340.webp"
+    }
+  },
+  "rich-text#laranja-maduset": {
+    "props": {
+      "text": "laranja",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#vermelho-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#vermelho-maduset",
+      "rich-text#vermelho-maduset"
+    ]
+  },
+  "image#vermelho-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/90342b10-5a23-4054-b405-2733d682041f___27ecb89c9ad9b7c9f8de9a987577263b.webp"
+    }
+  },
+  "rich-text#vermelho-maduset": {
+    "props": {
+      "text": "vermelho",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#lilas-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#lilas-maduset",
+      "rich-text#lilas-maduset"
+    ]
+  },
+  "image#lilas-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/952a4acc-70bf-41d1-b50c-e673fefc6180___5007cf74060a81a99bbd188b46c01eba.webp"
+    }
+  },
+  "rich-text#lilas-maduset": {
+    "props": {
+      "text": "lilas",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#azul-listras-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#azul-listras-maduset",
+      "rich-text#azul-listras-maduset"
+    ]
+  },
+  "image#azul-listras-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4207158c-980b-4653-a916-1c307a1c299e___cf0fa732a86843cb6623cf653ccae927.webp"
+    }
+  },
+  "rich-text#azul-listras-maduset": {
+    "props": {
+      "text": "azul-listras",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#laranja-listras-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#laranja-listras-maduset",
+      "rich-text#laranja-listras-maduset"
+    ]
+  },
+  "image#laranja-listras-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4207158c-980b-4653-a916-1c307a1c299e___cf0fa732a86843cb6623cf653ccae927.webp"
+    }
+  },
+  "rich-text#laranja-listras-maduset": {
+    "props": {
+      "text": "laranja-listras",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  "flex-layout.col#lilas-listras-maduset": {
+    "props": {
+      "blockClass": "linha-cores-disclosure-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#lilas-listras-maduset",
+      "rich-text#lilas-listras-maduset"
+    ]
+  },
+  "image#lilas-listras-maduset": {
+    "props": {
+      "blockClass": "disclosure-cores-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c543427a-f9b3-4319-bc6e-a183d9a79ff7___5007cf74060a81a99bbd188b46c01eba.webp"
+    }
+  },
+  "rich-text#lilas-listras-maduset": {
+    "props": {
+      "text": "lilas-listras",
+      "blockClass": "disclosure-texto-cores"
+    }
+  },
+  // cores open set
+  "disclosure-layout#gravacaoPersonalizada-maduset": {
+    "props": {
+      "blockClass": "layout-comoConfig-maduset"
+    },
+    "children": [
+      "disclosure-trigger#gravacaoPersonalizada-maduset",
+      "disclosure-content#gravacaoPersonalizada-maduset"
+    ]
+  },
+  "disclosure-trigger#gravacaoPersonalizada-maduset": {
+    "props": {
+      "blockClass": "trigger-comoConfig-maduset"
+    },
+    "children": [
+      "rich-text#trigger-gravacaoPersonalizada-maduset"
+    ]
+  },
+  "disclosure-content#gravacaoPersonalizada-maduset": {
+    "props": {
+      "blockClass": "content-comoConfig-maduset"
+    },
+    "children": [
+      "image#imagemgravação"
+    ]
+  },
+  "rich-text#trigger-gravacaoPersonalizada-maduset": {
+    "props": {
+      "blockClass": "texto-trigger-comoConfig-maduset",
+      "text": "#### 4 Escolha sua gravação personalizada"
+    }
+  },
+  "image#imagemgravação": {
+    "props": {
+      "blockClass": "image-gravacao-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/14d7b9ff-4d54-4db8-9e22-7ab99684c77e___81e562d909cb2649e84d11ef61b15aed.webp"
     }
   }
 }
