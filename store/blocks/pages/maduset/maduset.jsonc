@@ -4,7 +4,8 @@
       "flex-layout.row#primeiraLinha-maduset",
       "flex-layout.row#linhaErrosAcontecem-maduset",
       "flex-layout.row#linhaInfinitasCombinacoes-maduset",
-      "flex-layout.row#linhaCaracteristicas-maduset"
+      "flex-layout.row#linhaCaracteristicas-maduset",
+      "flex-layout.row#linhaLiberdadeOrganizar"
     ]
   },
   // -------------------------------
@@ -259,9 +260,10 @@
   },
   "flex-layout.row#iconeTexto-listaCarac1-maduset": {
     "props": {
-      "blockClass": "iconeTexto-lista-maduset",
+      "blockClass": ["iconeTexto-lista-maduset", "carac1-maduset"],
       "colSizing": "equal",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
     },
     "children": [
       "image#durabilidade-maduset",
@@ -283,7 +285,7 @@
   },
   "flex-layout.row#iconeTexto-listaCarac2-maduset": {
     "props": {
-      "blockClass": "iconeTexto-lista-maduset",
+      "blockClass": ["iconeTexto-lista-maduset", "carac2-maduset"],
       "colSizing": "equal",
       "preventHorizontalStretch": true
     },
@@ -307,7 +309,7 @@
   },
   "flex-layout.row#iconeTexto-listaCarac3-maduset": {
     "props": {
-      "blockClass": "iconeTexto-lista-maduset",
+      "blockClass": ["iconeTexto-lista-maduset", "carac3-maduset"],
       "colSizing": "equal",
       "preventHorizontalStretch": true
     },
@@ -331,7 +333,7 @@
   },
   "flex-layout.row#iconeTexto-listaCarac4-maduset": {
     "props": {
-      "blockClass": "iconeTexto-lista-maduset",
+      "blockClass": ["iconeTexto-lista-maduset", "carac4-maduset"],
       "colSizing": "equal",
       "preventHorizontalStretch": true
     },
@@ -355,7 +357,7 @@
   },
   "flex-layout.row#iconeTexto-listaCarac5-maduset": {
     "props": {
-      "blockClass": "iconeTexto-lista-maduset",
+      "blockClass": ["iconeTexto-lista-maduset", "carac5-maduset"],
       "colSizing": "equal",
       "preventHorizontalStretch": true
     },
@@ -375,6 +377,68 @@
     "props": {
       "blockClass": "texto-listacarac-maduset",
       "text": "**Escalabilidade** \n O sistema cresce junto com a operação."
+    }
+  },
+  // -----------------------------------
+  // liberdade
+  // -----------------------------------
+  "flex-layout.row#linhaLiberdadeOrganizar":{
+    "props": {
+      "blockClass": "linha-liberdade-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#titulo-liberdade-maduset",
+      "flex-layout.row#imgs-liberdade-maduset"
+    ]
+  },
+  "flex-layout.row#titulo-liberdade-maduset":{
+    "props": {
+      "blockClass": "linha-titulo-liberdade-maduset"
+    },
+    "children": [
+      "rich-text#titulo-liberdade-maduset"
+    ]
+  },
+  "rich-text#titulo-liberdade-maduset":{
+    "props": {
+      "text": "## Para quem quer \n ## **liberdade total para organizar**",
+      "blockClass": "titulo-liberdade-maduset",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#imgs-liberdade-maduset":{
+    "props": {
+      "blockClass": "imgs-liberdade-maduset"
+    },
+    "children": [
+      "responsive-layout.desktop#imgs-liberdade-maduset",
+      "responsive-layout.mobile#imgs-liberdade-maduset"
+    ]
+  },
+  "responsive-layout.desktop#imgs-liberdade-maduset":{
+    "children": [
+      "image#imgs-liberdade-maduset"
+    ]
+  },
+  "image#imgs-liberdade-maduset":{
+    "props": {
+      "blockClass": "imageDesktop-liberdade-maduset",
+      "alt": "Produtos liberdade desktop",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f165beec-a4b2-4faa-8b82-120a289611d1___45a72acd6636e5b46c9097d65c68874d.webp"
+    }
+  },
+  "responsive-layout.mobile#imgs-liberdade-maduset":{
+    "children": [
+      "image#imgsMobile-liberdade-maduset"
+    ]
+  },
+  "image#imgsMobile-liberdade-maduset":{
+    "props": {
+      "blockClass": "imageMobile-liberdade-maduset",
+      "alt": "Produtos liberdade mobile",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6cb937e1-fcac-4f8e-8fc1-522a41229f7f___13ffa47f4875c110309f255775533498.webp"
     }
   }
 }
