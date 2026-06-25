@@ -572,7 +572,7 @@
   "rich-text#trigger-tamanhoBases-maduset": {
     "props": {
       "blockClass": "texto-trigger-comoConfig-maduset",
-      "text": "#### 1 Escolha o tamanho das bases"
+      "text": "**1** Escolha o tamanho das bases"
     }
   },
   "image#img1content-openSets-maduset": {
@@ -661,7 +661,7 @@
   "rich-text#trigger-openSets-maduset": {
     "props": {
       "blockClass": "texto-trigger-comoConfig-maduset",
-      "text": "#### 2 Escolha seu open set"
+      "text": "**2** Escolha seu open set"
     }
   },
   "image#img-openSet-maduset": {
@@ -686,7 +686,8 @@
       "blockClass": "trigger-comoConfig-maduset"
     },
     "children": [
-      "rich-text#trigger-coresSet-maduset"
+      "rich-text#trigger-coresSet-maduset",
+      "disclosure-state-indicator#configSet-maduset"
     ]
   },
   "disclosure-content#coresSet-maduset": {
@@ -711,7 +712,7 @@
   "rich-text#trigger-coresSet-maduset": {
     "props": {
       "blockClass": "texto-trigger-comoConfig-maduset",
-      "text": "#### 3 Escolha as cores de seu open set"
+      "text": "**3** Escolha as cores de seu open set"
     }
   },
   "flex-layout.col#branco-maduset": {
@@ -732,8 +733,10 @@
   },
   "rich-text#branco-maduset": {
     "props": {
-      "text": "branco",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Branco",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#cinza-maduset": {
@@ -754,8 +757,10 @@
   },
   "rich-text#cinza-maduset": {
     "props": {
-      "text": "cinza",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Cinza",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#preto-maduset": {
@@ -776,8 +781,10 @@
   },
   "rich-text#preto-maduset": {
     "props": {
-      "text": "preto",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Preto",
+      "blockClass": "disclosure-texto-cores",
+            "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#azul-maduset": {
@@ -798,8 +805,10 @@
   },
   "rich-text#azul-maduset": {
     "props": {
-      "text": "azul",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Azul",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#verde-maduset": {
@@ -820,8 +829,10 @@
   },
   "rich-text#verde-maduset": {
     "props": {
-      "text": "verde",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Verde",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#amarelo-maduset": {
@@ -842,8 +853,10 @@
   },
   "rich-text#amarelo-maduset": {
     "props": {
-      "text": "amarelo",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Amarelo",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#laranja-maduset": {
@@ -864,8 +877,10 @@
   },
   "rich-text#laranja-maduset": {
     "props": {
-      "text": "laranja",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Laranja",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#vermelho-maduset": {
@@ -886,8 +901,10 @@
   },
   "rich-text#vermelho-maduset": {
     "props": {
-      "text": "vermelho",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Vermelho",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#lilas-maduset": {
@@ -908,8 +925,10 @@
   },
   "rich-text#lilas-maduset": {
     "props": {
-      "text": "lilas",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Lilás",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#azul-listras-maduset": {
@@ -930,8 +949,10 @@
   },
   "rich-text#azul-listras-maduset": {
     "props": {
-      "text": "azul-listras",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Azul c/ listras",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#laranja-listras-maduset": {
@@ -952,8 +973,10 @@
   },
   "rich-text#laranja-listras-maduset": {
     "props": {
-      "text": "laranja-listras",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Laranja c/ listras",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   "flex-layout.col#lilas-listras-maduset": {
@@ -974,8 +997,10 @@
   },
   "rich-text#lilas-listras-maduset": {
     "props": {
-      "text": "lilas-listras",
-      "blockClass": "disclosure-texto-cores"
+      "text": "Lilás c/ listras",
+      "blockClass": "disclosure-texto-cores",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
   // cores open set
@@ -993,7 +1018,8 @@
       "blockClass": "trigger-comoConfig-maduset"
     },
     "children": [
-      "rich-text#trigger-gravacaoPersonalizada-maduset"
+      "rich-text#trigger-gravacaoPersonalizada-maduset",
+      "disclosure-state-indicator#configSet-maduset"
     ]
   },
   "disclosure-content#gravacaoPersonalizada-maduset": {
@@ -1001,19 +1027,26 @@
       "blockClass": "content-comoConfig-maduset"
     },
     "children": [
-      "image#imagemgravação"
+      "image#imagemgravação",
+      "link#configurarMeu-maduset"
     ]
   },
   "rich-text#trigger-gravacaoPersonalizada-maduset": {
     "props": {
       "blockClass": "texto-trigger-comoConfig-maduset",
-      "text": "#### 4 Escolha sua gravação personalizada"
+      "text": "**4** Escolha sua gravação personalizada"
     }
   },
   "image#imagemgravação": {
     "props": {
       "blockClass": "image-gravacao-maduset",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/14d7b9ff-4d54-4db8-9e22-7ab99684c77e___81e562d909cb2649e84d11ef61b15aed.webp"
+    }
+  },
+  "link#configurarMeu-maduset":{
+    "props": {
+      "label": "Configurar o meu",
+      "href": "#"
     }
   }
 }

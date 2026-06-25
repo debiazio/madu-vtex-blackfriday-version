@@ -7,6 +7,17 @@
   font-family: "Poppins", sans-serif!important;
 }
 
+:global(.vtex-disclosure-layout-1-x-trigger--hidden)
+  :global(.vtex-rich-text-0-x-strong--texto-trigger-comoConfig-maduset) {
+  background: #D8D8D8;
+  color: #A7A7A7;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--visible)
+  :global(.vtex-rich-text-0-x-strong--texto-trigger-comoConfig-maduset) {
+  background: #8282C8;
+  color: #FFFFFF;
+}
 
 
 /* CSS ROLETA ABAIXO  */

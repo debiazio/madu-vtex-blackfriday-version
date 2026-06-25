@@ -1,3 +1,27 @@
+.paragraph--texto-trigger-comoConfig-maduset {
+  margin: 75px 0;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;}
+
+.strong--texto-trigger-comoConfig-maduset {
+  background-color: #8282C8;
+  padding: 10px 35px 10px 25px;
+  border-radius: 0 50% 50% 0;
+  margin: 0 23px 0 0;
+  color: #FFFFFF;
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
 .headingLevel2--titulo-liberdade-maduset {
   font-family: "Poppins Light", sans-serif !important;
   font-weight: 300;
@@ -137,11 +161,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+
   .strong--titulo-liberdade-maduset,
   .headingLevel2--titulo-liberdade-maduset {
     font-size: 30px;
   }
-  
+
   .strong--texto-listacarac-maduset {
     font-size: 14px;
     white-space: nowrap;

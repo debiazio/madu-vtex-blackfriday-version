@@ -1,8 +1,23 @@
+.flexCol--linha-cores-disclosure-maduset {
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--imgs-liberdade-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--imgs-liberdade-maduset .stretchChildrenWidth {
+  width: 100% !important;
+}
+
 .flexRowContent--disclosure-comoConfig-maduset .stretchChildrenWidth {
-  width: 100%;
+  width: 100% !important;
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .flexRowContent--comoConfig-maduset {
@@ -23,6 +38,10 @@
   flex-direction: column;
   align-items: center;
   max-width: 1200px;
+}
+
+.flexRowContent--linhaDisclosure-comoXonfig-maduset .stretchChildrenWidth {
+  width: 100% !important;
 }
 
 .flexRow--linha-liberdade-maduset {
