@@ -1,3 +1,20 @@
+.content--content-gravacao-maduset {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center !important;
+  border-radius: 0 0 20px 20px;
+
+}
+
+.trigger--trigger-gravacao-maduset {
+  border-radius: 0 0 20px 20px;
+  padding: 0 0 54px!important ;
+}
+
+.trigger--trigger-gravacao-maduset--visible {
+  border-radius: unset;
+}
+
 .content--content-comoConfig-maduset {
   display: flex;
   flex-direction: row;
@@ -15,9 +32,12 @@
   border: none;
   background-color: #FFFFFF;
   padding: 0;
-  margin: 0;
+  margin: 0 10px 0 0;
 }
 
 .trigger--trigger-comoConfig-maduset:first-child {
   border-radius: 20px 20px 0 0;
+  padding: 54px 0 0;
 }
+
+

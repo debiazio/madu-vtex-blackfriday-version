@@ -1,13 +1,21 @@
-.imageElement--img-modulosDisclosure-maduset{
+.imageElement--img-gabaritoSuporte-maduset {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 17px;
+  padding-top: 19px;
+  max-width: 161px;
+}
+
+.imageElement--img-modulosDisclosure-maduset {
   height: fit-content;
 }
 
-.imageElement--imageMobile-liberdade-maduset{
+.imageElement--imageMobile-liberdade-maduset {
   margin-top: 30px;
 }
 
 
-.imageElement--image-lista-maduset{
+.imageElement--image-lista-maduset {
   height: 100%;
   width: 59px;
 }

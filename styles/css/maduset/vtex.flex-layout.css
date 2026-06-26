@@ -1,3 +1,148 @@
+.flexRowContent--disclosure-faq-maduset .stretchChildrenWidth{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow--linhaFAQs-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FAFAF5;
+}
+
+.flexRowContent--linhaFAQs-maduset {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRow--titulo-linhaKits-maduset {
+  padding-bottom: 59px;
+
+}
+
+.flexRowContent--linhaKitsProntos-maduset {
+  padding: 100px 0;
+}
+
+.flexCol--colunasKits-maduset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 380px;
+  margin-bottom: 30px;
+}
+
+.flexRowContent--kits-linhaKits-maduset {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+/* .flexRowContent--kits-linhaKits-maduset .stretchChildrenWidth {
+  width: 100% !important;
+} */
+
+.flexRowContent--titulo-linhaKits-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRow--linhaKitsProntos-maduset {
+  background-color: #FAFAF5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--linhaKitsProntos-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.flexCol--titulos-emacao-maduset {
+  align-items: start !important;
+  width: 60% !important;
+}
+
+.flexCol--colunasVejaEmAcao-maduset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow--linhavejaMaduSetAcao-maduset {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--linhavejaMaduSetAcao-maduset {
+  max-width: 1200px;
+}
+
+.flexRowContent--linhavejaMaduSetAcao-maduset {
+  padding: 54px 0;
+}
+
+.flexCol--video-maduset-maduset {
+  background-image: url(https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f23db60b-9e71-45e5-91a2-6a5702410a0f___ea5fc6c8c236860b1d1679e03f00a74c.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px 0;
+}
+
+.flexRowContent--linhatextoLink-maduset .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexCol--colunaGabarito-maduset {
+  background-color: #8282C8;
+  border-radius: 20px;
+}
+
+.flexCol--colunaFaleConsultor-maduset {
+  background-color: #FFA207;
+  border-radius: 20px;
+}
+
+.flexRowContent--linhatextoLink-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flexCol--colunasGabaritoConsultor-maduset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 27px;
+  padding-right: 20px;
+}
+
+.flexRow--linhaGabaritoFaleConsultor-maduset {
+  background-color: #EDEDED;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--disclosure-comoConfig-maduset {
+  padding-bottom: 100px;
+}
+
 .flexCol--linha-cores-disclosure-maduset {
   display: flex;
   align-items: center;
@@ -31,6 +176,15 @@
   flex-direction: column;
   align-items: center;
   background-color: #FAFAF5;
+}
+
+.flexRowContent--linhaGabaritoFaleConsultor-maduset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  gap: 40px;
+  padding: 67px 0;
 }
 
 .flexRowContent--linhaDisclosure-comoXonfig-maduset {

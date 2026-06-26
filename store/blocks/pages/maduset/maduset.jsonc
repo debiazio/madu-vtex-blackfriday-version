@@ -6,7 +6,11 @@
       "flex-layout.row#linhaInfinitasCombinacoes-maduset",
       "flex-layout.row#linhaCaracteristicas-maduset",
       "flex-layout.row#linhaLiberdadeOrganizar",
-      "flex-layout.row#linhaDisclosure-comoXonfig-maduset"
+      "flex-layout.row#linhaDisclosure-comoXonfig-maduset",
+      "flex-layout.row#linhaGabaritoFaleConsultor-maduset",
+      "flex-layout.row#linhavejaMaduSetAcao-maduset",
+      "flex-layout.row#linhaKitsProntos-maduset",
+      "flex-layout.row#linhaFAQs-maduset"
     ]
   },
   // -------------------------------
@@ -783,7 +787,7 @@
     "props": {
       "text": "Preto",
       "blockClass": "disclosure-texto-cores",
-            "textPosition": "CENTER",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
   },
@@ -1006,7 +1010,10 @@
   // cores open set
   "disclosure-layout#gravacaoPersonalizada-maduset": {
     "props": {
-      "blockClass": "layout-comoConfig-maduset"
+      "blockClass": [
+        "layout-comoConfig-maduset",
+        "layout-gravacao-maduset"
+      ]
     },
     "children": [
       "disclosure-trigger#gravacaoPersonalizada-maduset",
@@ -1015,7 +1022,10 @@
   },
   "disclosure-trigger#gravacaoPersonalizada-maduset": {
     "props": {
-      "blockClass": "trigger-comoConfig-maduset"
+      "blockClass": [
+        "trigger-comoConfig-maduset",
+        "trigger-gravacao-maduset"
+      ]
     },
     "children": [
       "rich-text#trigger-gravacaoPersonalizada-maduset",
@@ -1024,7 +1034,10 @@
   },
   "disclosure-content#gravacaoPersonalizada-maduset": {
     "props": {
-      "blockClass": "content-comoConfig-maduset"
+      "blockClass": [
+        "content-comoConfig-maduset",
+        "content-gravacao-maduset"
+      ]
     },
     "children": [
       "image#imagemgravação",
@@ -1043,10 +1056,1101 @@
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/14d7b9ff-4d54-4db8-9e22-7ab99684c77e___81e562d909cb2649e84d11ef61b15aed.webp"
     }
   },
-  "link#configurarMeu-maduset":{
+  "link#configurarMeu-maduset": {
     "props": {
       "label": "Configurar o meu",
+      "href": "#",
+      "blockClass": "btnConfigurarMeu-maduset"
+    }
+  },
+  // ---------------------------------
+  //  fale com consultor e gabarito
+  // ---------------------------------
+  "flex-layout.row#linhaGabaritoFaleConsultor-maduset": {
+    "props": {
+      "blockClass": "linhaGabaritoFaleConsultor-maduset",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#colunaGabarito-maduset",
+      "flex-layout.col#colunaFaleConsultor-maduset"
+    ]
+  },
+  "flex-layout.col#colunaGabarito-maduset": {
+    "props": {
+      "blockClass": [
+        "colunasGabaritoConsultor-maduset",
+        "colunaGabarito-maduset"
+      ]
+    },
+    "children": [
+      "image#gabarito-maduset",
+      "flex-layout.row#textoLink-maduset"
+    ]
+  },
+  "image#gabarito-maduset": {
+    "props": {
+      "blockClass": "img-gabaritoSuporte-maduset",
+      "alt": "Imagem Gabarito",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/45022432-ccc1-4829-9265-f9557fa65966___7cfd28cf92721044a9ea22ff1ad30197.webp"
+    }
+  },
+  "flex-layout.row#textoLink-maduset": {
+    "props": {
+      "blockClass": "linhatextoLink-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#tituloGabarito-maduset",
+      "link#baixarPDF-maduset"
+    ]
+  },
+  "rich-text#tituloGabarito-maduset": {
+    "props": {
+      "text": "Imprima o gabarito e \n **confira as medidas reais.**",
+      "blockClass": "tituloGabaritoSuporte-maduset"
+    }
+  },
+  "link#baixarPDF-maduset": {
+    "props": {
+      "blockClass": [
+        "link-solicitarCotacao-maduset",
+        "link-baixarpdfConsultor-maduset"
+      ],
+      "label": "baixar pdf",
       "href": "#"
+    }
+  },
+  "flex-layout.col#colunaFaleConsultor-maduset": {
+    "props": {
+      "blockClass": [
+        "colunasGabaritoConsultor-maduset",
+        "colunaFaleConsultor-maduset"
+      ]
+    },
+    "children": [
+      "image#suporte-maduset",
+      "flex-layout.row#textoLink-suporte-maduset"
+    ]
+  },
+  "image#suporte-maduset": {
+    "props": {
+      "blockClass": "img-gabaritoSuporte-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/da469eb9-64ff-423e-921b-9a1f8a240e9d___ce2502a7e4e316485190c7fc4645d69a.webp",
+      "alt": "Equipe Suporte"
+    }
+  },
+  "flex-layout.row#textoLink-suporte-maduset": {
+    "props": {
+      "blockClass": "linhatextoLink-maduset"
+    },
+    "children": [
+      "rich-text#tituloSuporte-maduset",
+      "link#suporte-maduset"
+    ]
+  },
+  "rich-text#tituloSuporte-maduset": {
+    "props": {
+      "text": "Precisa de ajuda? \n **Nossa equipe configura para você.**",
+      "blockClass": "tituloGabaritoSuporte-maduset"
+    }
+  },
+  "link#suporte-maduset": {
+    "props": {
+      "blockClass": [
+        "link-solicitarCotacao-maduset",
+        "link-baixarpdfConsultor-maduset"
+      ],
+      "label": "falar com consultor",
+      "href": "#"
+    }
+  },
+  // ---------------------------------------
+  // veja o maduset em ação
+  // ---------------------------------------
+  "flex-layout.row#linhavejaMaduSetAcao-maduset": {
+    "props": {
+      "blockClass": "linhavejaMaduSetAcao-maduset",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#colunaTextosAcao-maduset",
+      "flex-layout.col#colunaVideoAcao-maduset"
+    ]
+  },
+  "flex-layout.col#colunaTextosAcao-maduset": {
+    "props": {
+      "blockClass": [
+        "colunasVejaEmAcao-maduset",
+        "titulos-emacao-maduset"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-vejaEmAcao-maduset",
+      "rich-text#subTitulo-vejaEmAcao-maduset"
+    ]
+  },
+  "rich-text#titulo-vejaEmAcao-maduset": {
+    "props": {
+      "blockClass": "titulo-vejaEmAcao-maduset",
+      "text": "### Veja o MAD.U \n ### **Set em ação**"
+    }
+  },
+  "rich-text#subTitulo-vejaEmAcao-maduset": {
+    "props": {
+      "blockClass": "subTitulo-vejaEmAcao-maduset",
+      "text": "Descubra como um sistema modular pode transformar a organização, identificação e gestão de diferentes operações."
+    }
+  },
+  "flex-layout.col#colunaVideoAcao-maduset": {
+    "props": {
+      "blockClass": [
+        "colunasVejaEmAcao-maduset",
+        "video-maduset-maduset"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "video#madu-set3"
+    ]
+  },
+  "video#madu-set3": {
+    "props": {
+      "width": "231px",
+      "height": "407px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "controlsType": "native",
+      "src": "https://stermax.com.br/images_idealine/MAD.U-SET%203.mp4",
+      "blockClass": "video-maduset-maduset",
+      "description": "Video mostrando a utilidade do Mad.u Set"
+    }
+  },
+  // ---------------------------------------
+  // kits prontos
+  // --------------------------------------
+  "flex-layout.row#linhaKitsProntos-maduset": {
+    "props": {
+      "blockClass": "linhaKitsProntos-maduset",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-linhaKits-maduset",
+      "flex-layout.row#kits-linhaKits-maduset"
+    ]
+  },
+  "flex-layout.row#titulo-linhaKits-maduset": {
+    "props": {
+      "blockClass": "titulo-linhaKits-maduset"
+    },
+    "children": [
+      "rich-text#titulo-kitsProntos-maduset",
+      "rich-text#subTitulo-kitsProntos-maduset"
+    ]
+  },
+  "rich-text#titulo-kitsProntos-maduset": {
+    "props": {
+      "text": "### KITS PRONTOS",
+      "blockClass": "titulo-kitsprontos-maduset",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#subTitulo-kitsProntos-maduset": {
+    "props": {
+      "text": "Soluções já configuradas",
+      "blockClass": "subtitulo-kitsprontos-maduset",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#kits-linhaKits-maduset": {
+    "props": {
+      "blockClass": "kits-linhaKits-maduset",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#estetica-maduset",
+      "flex-layout.col#veterinaria-maduset",
+      "flex-layout.col#homeCare-maduset",
+      "flex-layout.col#sedacao-maduset",
+      "flex-layout.col#enfermagem-maduset",
+      "flex-layout.col#anestesia-maduset",
+      "flex-layout.col#centroCirurgico-maduset",
+      "flex-layout.col#beauty-maduset"
+    ]
+  },
+  "flex-layout.col#estetica-maduset": {
+    "props": {
+      "blockClass": "colunasKits-maduset"
+    },
+    "children": [
+      "image#estetica-maduset",
+      "rich-text#estetica-maduset",
+      "rich-text#subtitulo-estetica-maduset",
+      "link#estetica-maduset"
+    ]
+  },
+  "image#estetica-maduset": {
+    "props": {
+      "blockClass": "img-kits-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7960197b-3386-4c90-959d-dd205f312455___a72cf382cd5797f68c4f7f2875619a83.webp",
+      "alt": "Imagens Kits"
+    }
+  },
+  "rich-text#estetica-maduset": {
+    "props": {
+      "blockClass": "titulo-kits-maduset",
+      "text": "Estética"
+    }
+  },
+  "rich-text#subtitulo-estetica-maduset": {
+    "props": {
+      "blockClass": "subtitulo-kits-maduset",
+      "text": "R$ 300,00"
+    }
+  },
+  "link#estetica-maduset": {
+    "props": {
+      "blockClass": "links-kitsprontos-maduset",
+      "label": "ver kit",
+      "href": "#"
+    }
+  },
+  "flex-layout.col#veterinaria-maduset": {
+    "props": {
+      "blockClass": "colunasKits-maduset"
+    },
+    "children": [
+      "image#veterinaria-maduset",
+      "rich-text#veterinaria-maduset",
+      "rich-text#subtitulo-veterinaria-maduset",
+      "link#veterinaria-maduset"
+    ]
+  },
+  "image#veterinaria-maduset": {
+    "props": {
+      "blockClass": "img-kits-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/740a3401-5c29-41e1-b65e-19ec4e66906f___87bf35afd95465315534f05b6d5b3fe7.webp",
+      "alt": "Imagens Kits"
+    }
+  },
+  "rich-text#veterinaria-maduset": {
+    "props": {
+      "blockClass": "titulo-kits-maduset",
+      "text": "Veterinária"
+    }
+  },
+  "rich-text#subtitulo-veterinaria-maduset": {
+    "props": {
+      "blockClass": "subtitulo-kits-maduset",
+      "text": "R$ 300,00"
+    }
+  },
+  "link#veterinaria-maduset": {
+    "props": {
+      "blockClass": "links-kitsprontos-maduset",
+      "label": "ver kit",
+      "href": "#"
+    }
+  },
+  "flex-layout.col#homeCare-maduset": {
+    "props": {
+      "blockClass": "colunasKits-maduset"
+    },
+    "children": [
+      "image#homecare-maduset",
+      "rich-text#homecare-maduset",
+      "rich-text#subtitulo-homecare-maduset",
+      "link#homecare-madusetk"
+    ]
+  },
+  "image#homecare-maduset": {
+    "props": {
+      "blockClass": "img-kits-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ae68802f-bb44-471c-bb0c-25fc64cd34ac___8e4021ef82d78083229cbbf6db57eb40.webp",
+      "alt": "Imagens Kits"
+    }
+  },
+  "rich-text#homecare-maduset": {
+    "props": {
+      "blockClass": "titulo-kits-maduset",
+      "text": "Home Care"
+    }
+  },
+  "rich-text#subtitulo-homecare-maduset": {
+    "props": {
+      "blockClass": "subtitulo-kits-maduset",
+      "text": "R$ 300,00"
+    }
+  },
+  "link#homecare-madusetk": {
+    "props": {
+      "blockClass": "links-kitsprontos-maduset",
+      "label": "ver kit",
+      "href": "#"
+    }
+  },
+  "flex-layout.col#sedacao-maduset": {
+    "props": {
+      "blockClass": "colunasKits-maduset"
+    },
+    "children": [
+      "image#sedacao-maduset",
+      "rich-text#sedacao-maduset",
+      "rich-text#subtitulo-sedacao-maduset",
+      "link#sedacao-maduset"
+    ]
+  },
+  "image#sedacao-maduset": {
+    "props": {
+      "blockClass": "img-kits-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/3716dcbb-30b3-40be-8fe9-f20d1c03ce1e___0bc8b52d6fdab4516df2a5a797bab374.webp",
+      "alt": "Imagens Kits"
+    }
+  },
+  "rich-text#sedacao-maduset": {
+    "props": {
+      "blockClass": "titulo-kits-maduset",
+      "text": "sEDAÇÃO"
+    }
+  },
+  "rich-text#subtitulo-sedacao-maduset": {
+    "props": {
+      "blockClass": "subtitulo-kits-maduset",
+      "text": "R$ 300,00"
+    }
+  },
+  "link#sedacao-maduset": {
+    "props": {
+      "blockClass": "links-kitsprontos-maduset",
+      "label": "ver kit",
+      "href": "#"
+    }
+  },
+  "flex-layout.col#enfermagem-maduset": {
+    "props": {
+      "blockClass": "colunasKits-maduset"
+    },
+    "children": [
+      "image#enfermagem-maduset",
+      "rich-text#enfermagem-maduset",
+      "rich-text#subtitulo-enfermagem-maduset",
+      "link#enfermagem-maduset"
+    ]
+  },
+  "image#enfermagem-maduset": {
+    "props": {
+      "blockClass": "img-kits-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/9a16fc7d-414c-426d-8888-8f3288d61eab___bba4a1a58999a6c1a4860ef6063933f4.webp",
+      "alt": "Imagens Kits"
+    }
+  },
+  "rich-text#subtitulo-enfermagem-maduset": {
+    "props": {
+      "blockClass": "subtitulo-kits-maduset",
+      "text": "R$ 300,00"
+    }
+  },
+  "rich-text#enfermagem-maduset": {
+    "props": {
+      "blockClass": "titulo-kits-maduset",
+      "text": "eNFERMAGEM"
+    }
+  },
+  "link#enfermagem-maduset": {
+    "props": {
+      "blockClass": "links-kitsprontos-maduset",
+      "label": "ver kit",
+      "href": "#"
+    }
+  },
+  "flex-layout.col#anestesia-maduset": {
+    "props": {
+      "blockClass": "colunasKits-maduset"
+    },
+    "children": [
+      "image#anestesia-maduset",
+      "rich-text#anestesia-maduset",
+      "rich-text#subtitulo-anestesia-maduset",
+      "link#anestesia-maduset"
+    ]
+  },
+  "image#anestesia-maduset": {
+    "props": {
+      "blockClass": "img-kits-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/57630904-7bfa-4f5a-a346-3dce0b180b48___e65a55a98167ea8addeee4586d5f3055.webp",
+      "alt": "Imagens Kits"
+    }
+  },
+  "rich-text#anestesia-maduset": {
+    "props": {
+      "blockClass": "titulo-kits-maduset",
+      "text": "anestesia"
+    }
+  },
+  "rich-text#subtitulo-anestesia-maduset": {
+    "props": {
+      "blockClass": "subtitulo-kits-maduset",
+      "text": "R$ 300,00"
+    }
+  },
+  "link#anestesia-maduset": {
+    "props": {
+      "blockClass": "links-kitsprontos-maduset",
+      "label": "ver kit",
+      "href": "#"
+    }
+  },
+  "flex-layout.col#centroCirurgico-maduset": {
+    "props": {
+      "blockClass": "colunasKits-maduset"
+    },
+    "children": [
+      "image#centroCirurgico-maduset",
+      "rich-text#centroCirurgico-maduset",
+      "rich-text#subtitulo-centroCirurgico-maduset",
+      "link#centroCirurgico-maduset"
+    ]
+  },
+  "image#centroCirurgico-maduset": {
+    "props": {
+      "blockClass": "img-kits-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/387e97b8-1377-4e0c-a964-20b28229d3cc___f7e87dc9237b671209329ba7659dbc19.webp",
+      "alt": "Imagens Kits"
+    }
+  },
+  "rich-text#centroCirurgico-maduset": {
+    "props": {
+      "blockClass": "titulo-kits-maduset",
+      "text": "CENTRO CIRúRGICO"
+    }
+  },
+  "rich-text#subtitulo-centroCirurgico-maduset": {
+    "props": {
+      "blockClass": "subtitulo-kits-maduset",
+      "text": "R$ 300,00"
+    }
+  },
+  "link#centroCirurgico-maduset": {
+    "props": {
+      "blockClass": "links-kitsprontos-maduset",
+      "label": "ver kit",
+      "href": "#"
+    }
+  },
+  "flex-layout.col#beauty-maduset": {
+    "props": {
+      "blockClass": "colunasKits-maduset"
+    },
+    "children": [
+      "image#beauty-maduset",
+      "rich-text#beauty-maduset",
+      "rich-text#subtitulo-beauty-maduset",
+      "link#beauty-maduset"
+    ]
+  },
+  "image#beauty-maduset": {
+    "props": {
+      "blockClass": "img-kits-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/3a02e9bc-10b0-4d20-8855-77c92748613e___ddfd048a9889d1eb80757c4256076f1e.webp",
+      "alt": "Imagens Kits"
+    }
+  },
+  "rich-text#beauty-maduset": {
+    "props": {
+      "blockClass": "titulo-kits-maduset",
+      "text": "BEAUTY"
+    }
+  },
+  "rich-text#subtitulo-beauty-maduset": {
+    "props": {
+      "blockClass": "subtitulo-kits-maduset",
+      "text": "R$ 300,00"
+    }
+  },
+  "link#beauty-maduset": {
+    "props": {
+      "blockClass": "links-kitsprontos-maduset",
+      "label": "ver kit",
+      "href": "#"
+    }
+  },
+  // ----------------------------------
+  // FAQs
+  // ---------------------------------
+  "flex-layout.row#linhaFAQs-maduset": {
+    "props": {
+      "blockClass": "linhaFAQs-maduset",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textos-faq-maduset",
+      "flex-layout.row#disclosure-faq-maduset"
+    ]
+  },
+  "flex-layout.row#textos-faq-maduset": {
+    "props": {
+      "blockClass": "textos-faq-maduset"
+    },
+    "children": [
+      "rich-text#tituloFAQs-maduset",
+      "rich-text#subTituloFAQs-maduset"
+    ]
+  },
+  "rich-text#tituloFAQs-maduset": {
+    "props": {
+      "blockClass": "titulo-kitsprontos-maduset",
+      "text": "### FAQ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#subTituloFAQs-maduset": {
+    "props": {
+      "blockClass": "subtitulo-kitsprontos-maduset",
+      "text": "Perguntas frequentes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#disclosure-faq-maduset": {
+    "props": {
+      "blockClass": "disclosure-faq-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "disclosure-layout-group#faq-maduset"
+    ]
+  },
+  "disclosure-layout-group#faq-maduset": {
+    "props": {
+      "blockClass": "group-faq-maduset"
+    },
+    "children": [
+      "disclosure-layout#oqEhMaduset-maduset",
+      "disclosure-layout#paraQuaisSegmentos-maduset",
+      "disclosure-layout#beneficiosPrincipais-maduset",
+      "disclosure-layout#podeSerPersonalizada-maduset",
+      "disclosure-layout#compativelCarrinhosGavetas-maduset",
+      "disclosure-layout#identificacaoPorCores-maduset",
+      "disclosure-layout#possuiPatente-maduset",
+      "disclosure-layout#modulosSubstituidosReorganizados-maduset",
+      "disclosure-layout#materialFabricacao-maduset",
+      "disclosure-layout#limpezaOrganizadores-maduset",
+      "disclosure-layout#solicitarOrcamento-maduset",
+      "disclosure-layout#atendimentoBrasil-maduset",
+      "disclosure-layout#trocaPlacaEmbalagem-maduset"
+    ]
+  },
+  // o que é
+  "disclosure-layout#oqEhMaduset-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#oqEhMaduSet-maduset",
+      "disclosure-content#oqEhMaduSet-maduset"
+    ]
+  },
+  "disclosure-trigger#oqEhMaduSet-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+            "rich-text#trigger-oqEhMaduSet-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-oqEhMaduSet-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O que é a MAD.U SET?"
+    }
+  },
+  "disclosure-content#oqEhMaduSet-maduset":{
+        "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-oqEhMaduSet-maduset"
+    ]
+  },
+  "rich-text#content-oqEhMaduSet-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A MAD.U SET é uma solução inteligente para organização, identificação e armazenamento de medicamentos, insumos e materiais. Seu sistema modular permite personalizar a organização conforme a necessidade de cada ambiente, proporcionando mais praticidade, segurança e agilidade na rotina."
+    }
+  },
+  // para quais segmentos
+  "disclosure-layout#paraQuaisSegmentos-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#paraQuaisSegmentos-maduset",
+      "disclosure-content#paraQuaisSegmentos-maduset"
+    ]
+  },
+  "disclosure-trigger#paraQuaisSegmentos-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+            "rich-text#trigger-paraQuaisSegmentos-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-paraQuaisSegmentos-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Para quais segmentos a MAD.U SET é indicada?"
+    }
+  },
+  "disclosure-content#paraQuaisSegmentos-maduset":{
+        "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-paraQuaisSegmentos-maduset"
+    ]
+  },
+  "rich-text#content-paraQuaisSegmentos-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A MAD.U SET pode ser utilizada em hospitais, clínicas, consultórios, laboratórios, farmácias, centros de estética, veterinárias, home care e diversos ambientes que necessitam de organização eficiente de medicamentos e materiais."
+    }
+  },
+  // FAQ - Benefícios da MAD.U SET
+  "disclosure-layout#beneficiosPrincipais-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#beneficiosPrincipais-maduset",
+      "disclosure-content#beneficiosPrincipais-maduset"
+    ]
+  },
+  "disclosure-trigger#beneficiosPrincipais-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-beneficiosPrincipais-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-beneficiosPrincipais-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Quais são os principais benefícios da MAD.U SET?"
+    }
+  },
+  "disclosure-content#beneficiosPrincipais-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-beneficiosPrincipais-maduset"
+    ]
+  },
+  "rich-text#content-beneficiosPrincipais-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Entre os principais benefícios estão: \n\n- Organização visual inteligente; \n- Agilidade na localização dos itens; \n- Redução de erros operacionais; \n- Melhor aproveitamento do espaço; \n- Facilidade de reposição e controle; \n- Sistema modular e personalizável; \n- Material resistente e de alta durabilidade."
+    }
+  },
+  // FAQ - Personalização da MAD.U SET
+  "disclosure-layout#podeSerPersonalizada-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#podeSerPersonalizada-maduset",
+      "disclosure-content#podeSerPersonalizada-maduset"
+    ]
+  },
+  "disclosure-trigger#podeSerPersonalizada-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-podeSerPersonalizada-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-podeSerPersonalizada-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### A MAD.U SET pode ser personalizada?"
+    }
+  },
+  "disclosure-content#podeSerPersonalizada-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-podeSerPersonalizada-maduset"
+    ]
+  },
+  "rich-text#content-podeSerPersonalizada-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. Os módulos e organizadores podem ser configurados de acordo com a necessidade de cada operação, permitindo criar soluções específicas para diferentes fluxos de trabalho."
+    }
+  },
+  // FAQ - Compatibilidade com carrinhos e gavetas
+  "disclosure-layout#compativelCarrinhosGavetas-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#compativelCarrinhosGavetas-maduset",
+      "disclosure-content#compativelCarrinhosGavetas-maduset"
+    ]
+  },
+  "disclosure-trigger#compativelCarrinhosGavetas-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-compativelCarrinhosGavetas-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-compativelCarrinhosGavetas-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O sistema é compatível com carrinhos e gavetas?"
+    }
+  },
+  "disclosure-content#compativelCarrinhosGavetas-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-compativelCarrinhosGavetas-maduset"
+    ]
+  },
+  "rich-text#content-compativelCarrinhosGavetas-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. A MAD.U SET foi desenvolvida para se adaptar aos mobiliários técnicos da MAD.U e também pode ser utilizada em gavetas, armários, bancadas e outros espaços de armazenamento."
+    }
+  },
+  // FAQ - Identificação por cores
+  "disclosure-layout#identificacaoPorCores-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#identificacaoPorCores-maduset",
+      "disclosure-content#identificacaoPorCores-maduset"
+    ]
+  },
+  "disclosure-trigger#identificacaoPorCores-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-identificacaoPorCores-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-identificacaoPorCores-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Como funciona a identificação por cores?"
+    }
+  },
+  "disclosure-content#identificacaoPorCores-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-identificacaoPorCores-maduset"
+    ]
+  },
+  "rich-text#content-identificacaoPorCores-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Os organizadores podem ser utilizados com diferentes cores para criar categorias visuais, facilitando a identificação rápida de medicamentos, materiais ou processos específicos."
+    }
+  },
+  // FAQ - Patente da MAD.U SET
+  "disclosure-layout#possuiPatente-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#possuiPatente-maduset",
+      "disclosure-content#possuiPatente-maduset"
+    ]
+  },
+  "disclosure-trigger#possuiPatente-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-possuiPatente-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-possuiPatente-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### A MAD.U SET possui patente?"
+    }
+  },
+  "disclosure-content#possuiPatente-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-possuiPatente-maduset"
+    ]
+  },
+  "rich-text#content-possuiPatente-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. A MAD.U SET é um produto patenteado, desenvolvido exclusivamente pela MAD.U, oferecendo uma solução inovadora e diferenciada para organização inteligente."
+    }
+  },
+  // FAQ - Módulos substituídos ou reorganizados
+  "disclosure-layout#modulosSubstituidosReorganizados-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#modulosSubstituidosReorganizados-maduset",
+      "disclosure-content#modulosSubstituidosReorganizados-maduset"
+    ]
+  },
+  "disclosure-trigger#modulosSubstituidosReorganizados-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-modulosSubstituidosReorganizados-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-modulosSubstituidosReorganizados-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Os módulos podem ser substituídos ou reorganizados?"
+    }
+  },
+  "disclosure-content#modulosSubstituidosReorganizados-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-modulosSubstituidosReorganizados-maduset"
+    ]
+  },
+  "rich-text#content-modulosSubstituidosReorganizados-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. O sistema é modular e flexível. Os organizadores podem ser reposicionados, removidos ou substituídos conforme a evolução das necessidades da operação."
+    }
+  },
+  // FAQ - Material de fabricação
+  "disclosure-layout#materialFabricacao-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#materialFabricacao-maduset",
+      "disclosure-content#materialFabricacao-maduset"
+    ]
+  },
+  "disclosure-trigger#materialFabricacao-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-materialFabricacao-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-materialFabricacao-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Qual o material utilizado na fabricação?"
+    }
+  },
+  "disclosure-content#materialFabricacao-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-materialFabricacao-maduset"
+    ]
+  },
+  "rich-text#content-materialFabricacao-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A MAD.U SET é produzida com materiais de alta qualidade, resistentes e adequados para ambientes que exigem durabilidade, organização e facilidade de higienização."
+    }
+  },
+// FAQ - Limpeza dos organizadores
+  "disclosure-layout#limpezaOrganizadores-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#limpezaOrganizadores-maduset",
+      "disclosure-content#limpezaOrganizadores-maduset"
+    ]
+  },
+  "disclosure-trigger#limpezaOrganizadores-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-limpezaOrganizadores-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-limpezaOrganizadores-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### É fácil realizar a limpeza dos organizadores?"
+    }
+  },
+  "disclosure-content#limpezaOrganizadores-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-limpezaOrganizadores-maduset"
+    ]
+  },
+  "rich-text#content-limpezaOrganizadores-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. O design foi desenvolvido para facilitar a limpeza e a manutenção, contribuindo para ambientes mais organizados e seguros."
+    }
+  },
+  // FAQ - Como solicitar orçamento
+  "disclosure-layout#solicitarOrcamento-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#solicitarOrcamento-maduset",
+      "disclosure-content#solicitarOrcamento-maduset"
+    ]
+  },
+  "disclosure-trigger#solicitarOrcamento-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-solicitarOrcamento-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-solicitarOrcamento-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Como solicitar um orçamento?"
+    }
+  },
+  "disclosure-content#solicitarOrcamento-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-solicitarOrcamento-maduset"
+    ]
+  },
+  "rich-text#content-solicitarOrcamento-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Você pode solicitar um orçamento diretamente pelo formulário desta página ou entrar em contato com nossa equipe comercial. Um especialista MAD.U irá entender sua necessidade e indicar a melhor configuração para sua operação."
+    }
+  },
+  // FAQ - Atendimento em todo o Brasil
+  "disclosure-layout#atendimentoBrasil-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#atendimentoBrasil-maduset",
+      "disclosure-content#atendimentoBrasil-maduset"
+    ]
+  },
+  "disclosure-trigger#atendimentoBrasil-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-atendimentoBrasil-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-atendimentoBrasil-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### A MAD.U atende todo o Brasil?"
+    }
+  },
+  "disclosure-content#atendimentoBrasil-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-atendimentoBrasil-maduset"
+    ]
+  },
+  "rich-text#content-atendimentoBrasil-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. A MAD.U possui estrutura para atender clientes em todo o território nacional, oferecendo suporte comercial e soluções personalizadas para cada projeto."
+    }
+  },
+  // FAQ - Troca de placa quando medicamento muda de embalagem
+  "disclosure-layout#trocaPlacaEmbalagem-maduset": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#trocaPlacaEmbalagem-maduset",
+      "disclosure-content#trocaPlacaEmbalagem-maduset"
+    ]
+  },
+  "disclosure-trigger#trocaPlacaEmbalagem-maduset":{
+    "props": {
+      "blockClass":"trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-trocaPlacaEmbalagem-maduset",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-trocaPlacaEmbalagem-maduset":{
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Preciso trocar toda a placa quando um medicamento muda de embalagem?"
+    }
+  },
+  "disclosure-content#trocaPlacaEmbalagem-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-trocaPlacaEmbalagem-maduset"
+    ]
+  },
+  "rich-text#content-trocaPlacaEmbalagem-maduset":{
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Não. Com a MAD.U SET, você substitui apenas o SET do medicamento que sofreu alteração de tamanho ou apresentação. Toda a estrutura organizadora permanece a mesma, gerando economia, praticidade e maior vida útil para o sistema de organização. Essa é uma das grandes vantagens da tecnologia modular patenteada da MAD.U."
     }
   }
 }

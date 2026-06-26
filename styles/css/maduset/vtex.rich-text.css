@@ -1,12 +1,114 @@
+.paragraph--subtitulo-kits-maduset {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 24px;
+  color: #787878;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-align: center;
+  margin: 0;
+  /* padding-bottom: 10px; */
+}
+
+.paragraph--titulo-kits-maduset {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 30px;
+  color: #000000;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  /* padding: 10px 0; */
+}
+
+.heading--titulo-kitsprontos-maduset {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 40px;
+  color: #000000;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.paragraph--subtitulo-kitsprontos-maduset {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  line-height: 108%;
+  letter-spacing: -3%;
+  white-space: nowrap;
+  margin: 0;
+
+}
+
+.paragraph--subTitulo-vejaEmAcao-maduset {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  line-height: 108%;
+  letter-spacing: -3%;
+
+}
+
+.headingLevel3--titulo-vejaEmAcao-maduset {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 40px;
+  color: #000000;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.strong--titulo-vejaEmAcao-maduset {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.paragraph--tituloGabaritoSuporte-maduset {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 10px 0;
+}
+
+.strong--tituloGabaritoSuporte-maduset {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+
+}
+
+
 .paragraph--texto-trigger-comoConfig-maduset {
-  margin: 75px 0;
+  margin: 20px 0;
   font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   font-size: 24px;
   color: #000000;
   line-height: 108%;
   letter-spacing: -3%;
-  text-transform: uppercase;}
+  text-transform: uppercase;
+}
 
 .strong--texto-trigger-comoConfig-maduset {
   background-color: #8282C8;
