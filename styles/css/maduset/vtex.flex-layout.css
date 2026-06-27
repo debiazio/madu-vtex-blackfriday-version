@@ -1,6 +1,67 @@
-.flexRowContent--disclosure-faq-maduset .stretchChildrenWidth{
+.flexRow--linha-imagemPreFooter-maduset{
+  background-color: #FAFAF5;
+}
+
+.flexColChild--colunas-linhaPreFooter-maduset{
+  white-space: nowrap;
+}
+
+
+.flexCol--colunas-linkPreFooter-maduset{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.flexRowContent--linha-imagemPreFooter-maduset{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+
+.flexRow--linhaPreFooter-maduset {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFA207;
+}
+
+
+
+
+.flexRowContent--linhaPreFooter-maduset {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1200px;
+  padding: 26px 0;
+
+}
+
+.flexRowContent--textos-faq-maduset {
+  padding-bottom: 64px;
+}
+
+.flexRowContent--disclosure-faq-maduset {
+  padding: 75px 47px 75px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.flexRowContent--textos-faq-maduset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--disclosure-faq-maduset .stretchChildrenWidth {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
 }
 
 .flexRow--linhaFAQs-maduset {
@@ -8,6 +69,10 @@
   flex-direction: column;
   align-items: center;
   background-color: #FAFAF5;
+}
+
+.flexRowContent--linhaFAQs-maduset .stretchChildrenWidth {
+  width: 100% !important;
 }
 
 .flexRowContent--linhaFAQs-maduset {

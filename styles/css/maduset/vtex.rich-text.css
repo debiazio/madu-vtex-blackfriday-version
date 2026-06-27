@@ -1,3 +1,50 @@
+.paragraph--empty-maduset{
+  color: transparent;
+  user-select: none;
+}
+
+.paragraph--texto-preFooter-maduset {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 108%;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.strong--texto-preFooter-maduset {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 108%;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+
+}
+
+.heading--text-trigger-faq-madu {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.headingLevel4--content-faq-maduset {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 108%;
+  letter-spacing: 0%;
+  color: #686868;
+}
+
+
 .paragraph--subtitulo-kits-maduset {
   font-family: "Poppins Light", sans-serif !important;
   font-weight: 300;

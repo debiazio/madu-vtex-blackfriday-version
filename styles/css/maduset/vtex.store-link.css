@@ -44,6 +44,7 @@
   padding: 0 !important;
 }
 
+.label--solicitarCotacao-linhaprefooter-maduset,
 .label--links-kitsprontos-maduset:hover,
 .label--btnConfigurarMeu-maduset:hover,
 .label--link-solicitarCotacao-maduset:hover {
@@ -94,6 +95,38 @@
   text-align: center;
   text-transform: uppercase;
 
+}
+
+.link--solicitarCotacao-linhaprefooter-maduset {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-decoration: none;
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 185%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.label--solicitarCotacao-linhaprefooter-maduset {
+  background-color: #4CAB86;
+  width: 252;
+  height: 47;
+  opacity: 1;
+  top: 519px;
+  left: 83px;
+  border-radius: 100px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  gap: 10px;
+  white-space: nowrap;
 }
 
 .label--link-solicitarCotacao-maduset {

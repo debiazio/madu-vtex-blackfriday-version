@@ -10,7 +10,9 @@
       "flex-layout.row#linhaGabaritoFaleConsultor-maduset",
       "flex-layout.row#linhavejaMaduSetAcao-maduset",
       "flex-layout.row#linhaKitsProntos-maduset",
-      "flex-layout.row#linhaFAQs-maduset"
+      "flex-layout.row#linhaFAQs-maduset",
+      "flex-layout.row#linha-imagemPreFooter-maduset",
+      "flex-layout.row#linhaPreFooter-maduset"
     ]
   },
   // -------------------------------
@@ -1656,30 +1658,30 @@
       "disclosure-content#oqEhMaduSet-maduset"
     ]
   },
-  "disclosure-trigger#oqEhMaduSet-maduset":{
+  "disclosure-trigger#oqEhMaduSet-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
-            "rich-text#trigger-oqEhMaduSet-maduset",
+      "rich-text#trigger-oqEhMaduSet-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-oqEhMaduSet-maduset":{
+  "rich-text#trigger-oqEhMaduSet-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### O que é a MAD.U SET?"
     }
   },
-  "disclosure-content#oqEhMaduSet-maduset":{
-        "props": {
+  "disclosure-content#oqEhMaduSet-maduset": {
+    "props": {
       "blockClass": "content-faq-maduset"
     },
     "children": [
       "rich-text#content-oqEhMaduSet-maduset"
     ]
   },
-  "rich-text#content-oqEhMaduSet-maduset":{
+  "rich-text#content-oqEhMaduSet-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### A MAD.U SET é uma solução inteligente para organização, identificação e armazenamento de medicamentos, insumos e materiais. Seu sistema modular permite personalizar a organização conforme a necessidade de cada ambiente, proporcionando mais praticidade, segurança e agilidade na rotina."
@@ -1695,30 +1697,30 @@
       "disclosure-content#paraQuaisSegmentos-maduset"
     ]
   },
-  "disclosure-trigger#paraQuaisSegmentos-maduset":{
+  "disclosure-trigger#paraQuaisSegmentos-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
-            "rich-text#trigger-paraQuaisSegmentos-maduset",
+      "rich-text#trigger-paraQuaisSegmentos-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-paraQuaisSegmentos-maduset":{
+  "rich-text#trigger-paraQuaisSegmentos-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### Para quais segmentos a MAD.U SET é indicada?"
     }
   },
-  "disclosure-content#paraQuaisSegmentos-maduset":{
-        "props": {
+  "disclosure-content#paraQuaisSegmentos-maduset": {
+    "props": {
       "blockClass": "content-faq-maduset"
     },
     "children": [
       "rich-text#content-paraQuaisSegmentos-maduset"
     ]
   },
-  "rich-text#content-paraQuaisSegmentos-maduset":{
+  "rich-text#content-paraQuaisSegmentos-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### A MAD.U SET pode ser utilizada em hospitais, clínicas, consultórios, laboratórios, farmácias, centros de estética, veterinárias, home care e diversos ambientes que necessitam de organização eficiente de medicamentos e materiais."
@@ -1734,22 +1736,22 @@
       "disclosure-content#beneficiosPrincipais-maduset"
     ]
   },
-  "disclosure-trigger#beneficiosPrincipais-maduset":{
+  "disclosure-trigger#beneficiosPrincipais-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-beneficiosPrincipais-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-beneficiosPrincipais-maduset":{
+  "rich-text#trigger-beneficiosPrincipais-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### Quais são os principais benefícios da MAD.U SET?"
     }
   },
-  "disclosure-content#beneficiosPrincipais-maduset":{
+  "disclosure-content#beneficiosPrincipais-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -1757,7 +1759,7 @@
       "rich-text#content-beneficiosPrincipais-maduset"
     ]
   },
-  "rich-text#content-beneficiosPrincipais-maduset":{
+  "rich-text#content-beneficiosPrincipais-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Entre os principais benefícios estão: \n\n- Organização visual inteligente; \n- Agilidade na localização dos itens; \n- Redução de erros operacionais; \n- Melhor aproveitamento do espaço; \n- Facilidade de reposição e controle; \n- Sistema modular e personalizável; \n- Material resistente e de alta durabilidade."
@@ -1773,22 +1775,22 @@
       "disclosure-content#podeSerPersonalizada-maduset"
     ]
   },
-  "disclosure-trigger#podeSerPersonalizada-maduset":{
+  "disclosure-trigger#podeSerPersonalizada-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-podeSerPersonalizada-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-podeSerPersonalizada-maduset":{
+  "rich-text#trigger-podeSerPersonalizada-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### A MAD.U SET pode ser personalizada?"
     }
   },
-  "disclosure-content#podeSerPersonalizada-maduset":{
+  "disclosure-content#podeSerPersonalizada-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -1796,7 +1798,7 @@
       "rich-text#content-podeSerPersonalizada-maduset"
     ]
   },
-  "rich-text#content-podeSerPersonalizada-maduset":{
+  "rich-text#content-podeSerPersonalizada-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Sim. Os módulos e organizadores podem ser configurados de acordo com a necessidade de cada operação, permitindo criar soluções específicas para diferentes fluxos de trabalho."
@@ -1812,22 +1814,22 @@
       "disclosure-content#compativelCarrinhosGavetas-maduset"
     ]
   },
-  "disclosure-trigger#compativelCarrinhosGavetas-maduset":{
+  "disclosure-trigger#compativelCarrinhosGavetas-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-compativelCarrinhosGavetas-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-compativelCarrinhosGavetas-maduset":{
+  "rich-text#trigger-compativelCarrinhosGavetas-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### O sistema é compatível com carrinhos e gavetas?"
     }
   },
-  "disclosure-content#compativelCarrinhosGavetas-maduset":{
+  "disclosure-content#compativelCarrinhosGavetas-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -1835,7 +1837,7 @@
       "rich-text#content-compativelCarrinhosGavetas-maduset"
     ]
   },
-  "rich-text#content-compativelCarrinhosGavetas-maduset":{
+  "rich-text#content-compativelCarrinhosGavetas-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Sim. A MAD.U SET foi desenvolvida para se adaptar aos mobiliários técnicos da MAD.U e também pode ser utilizada em gavetas, armários, bancadas e outros espaços de armazenamento."
@@ -1851,22 +1853,22 @@
       "disclosure-content#identificacaoPorCores-maduset"
     ]
   },
-  "disclosure-trigger#identificacaoPorCores-maduset":{
+  "disclosure-trigger#identificacaoPorCores-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-identificacaoPorCores-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-identificacaoPorCores-maduset":{
+  "rich-text#trigger-identificacaoPorCores-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### Como funciona a identificação por cores?"
     }
   },
-  "disclosure-content#identificacaoPorCores-maduset":{
+  "disclosure-content#identificacaoPorCores-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -1874,7 +1876,7 @@
       "rich-text#content-identificacaoPorCores-maduset"
     ]
   },
-  "rich-text#content-identificacaoPorCores-maduset":{
+  "rich-text#content-identificacaoPorCores-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Os organizadores podem ser utilizados com diferentes cores para criar categorias visuais, facilitando a identificação rápida de medicamentos, materiais ou processos específicos."
@@ -1890,22 +1892,22 @@
       "disclosure-content#possuiPatente-maduset"
     ]
   },
-  "disclosure-trigger#possuiPatente-maduset":{
+  "disclosure-trigger#possuiPatente-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-possuiPatente-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-possuiPatente-maduset":{
+  "rich-text#trigger-possuiPatente-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### A MAD.U SET possui patente?"
     }
   },
-  "disclosure-content#possuiPatente-maduset":{
+  "disclosure-content#possuiPatente-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -1913,7 +1915,7 @@
       "rich-text#content-possuiPatente-maduset"
     ]
   },
-  "rich-text#content-possuiPatente-maduset":{
+  "rich-text#content-possuiPatente-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Sim. A MAD.U SET é um produto patenteado, desenvolvido exclusivamente pela MAD.U, oferecendo uma solução inovadora e diferenciada para organização inteligente."
@@ -1929,22 +1931,22 @@
       "disclosure-content#modulosSubstituidosReorganizados-maduset"
     ]
   },
-  "disclosure-trigger#modulosSubstituidosReorganizados-maduset":{
+  "disclosure-trigger#modulosSubstituidosReorganizados-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-modulosSubstituidosReorganizados-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-modulosSubstituidosReorganizados-maduset":{
+  "rich-text#trigger-modulosSubstituidosReorganizados-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### Os módulos podem ser substituídos ou reorganizados?"
     }
   },
-  "disclosure-content#modulosSubstituidosReorganizados-maduset":{
+  "disclosure-content#modulosSubstituidosReorganizados-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -1952,7 +1954,7 @@
       "rich-text#content-modulosSubstituidosReorganizados-maduset"
     ]
   },
-  "rich-text#content-modulosSubstituidosReorganizados-maduset":{
+  "rich-text#content-modulosSubstituidosReorganizados-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Sim. O sistema é modular e flexível. Os organizadores podem ser reposicionados, removidos ou substituídos conforme a evolução das necessidades da operação."
@@ -1968,22 +1970,22 @@
       "disclosure-content#materialFabricacao-maduset"
     ]
   },
-  "disclosure-trigger#materialFabricacao-maduset":{
+  "disclosure-trigger#materialFabricacao-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-materialFabricacao-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-materialFabricacao-maduset":{
+  "rich-text#trigger-materialFabricacao-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### Qual o material utilizado na fabricação?"
     }
   },
-  "disclosure-content#materialFabricacao-maduset":{
+  "disclosure-content#materialFabricacao-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -1991,13 +1993,13 @@
       "rich-text#content-materialFabricacao-maduset"
     ]
   },
-  "rich-text#content-materialFabricacao-maduset":{
+  "rich-text#content-materialFabricacao-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### A MAD.U SET é produzida com materiais de alta qualidade, resistentes e adequados para ambientes que exigem durabilidade, organização e facilidade de higienização."
     }
   },
-// FAQ - Limpeza dos organizadores
+  // FAQ - Limpeza dos organizadores
   "disclosure-layout#limpezaOrganizadores-maduset": {
     "props": {
       "blockClass": "layout-faq-maduset"
@@ -2007,22 +2009,22 @@
       "disclosure-content#limpezaOrganizadores-maduset"
     ]
   },
-  "disclosure-trigger#limpezaOrganizadores-maduset":{
+  "disclosure-trigger#limpezaOrganizadores-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-limpezaOrganizadores-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-limpezaOrganizadores-maduset":{
+  "rich-text#trigger-limpezaOrganizadores-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### É fácil realizar a limpeza dos organizadores?"
     }
   },
-  "disclosure-content#limpezaOrganizadores-maduset":{
+  "disclosure-content#limpezaOrganizadores-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -2030,7 +2032,7 @@
       "rich-text#content-limpezaOrganizadores-maduset"
     ]
   },
-  "rich-text#content-limpezaOrganizadores-maduset":{
+  "rich-text#content-limpezaOrganizadores-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Sim. O design foi desenvolvido para facilitar a limpeza e a manutenção, contribuindo para ambientes mais organizados e seguros."
@@ -2046,22 +2048,22 @@
       "disclosure-content#solicitarOrcamento-maduset"
     ]
   },
-  "disclosure-trigger#solicitarOrcamento-maduset":{
+  "disclosure-trigger#solicitarOrcamento-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-solicitarOrcamento-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-solicitarOrcamento-maduset":{
+  "rich-text#trigger-solicitarOrcamento-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### Como solicitar um orçamento?"
     }
   },
-  "disclosure-content#solicitarOrcamento-maduset":{
+  "disclosure-content#solicitarOrcamento-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -2069,7 +2071,7 @@
       "rich-text#content-solicitarOrcamento-maduset"
     ]
   },
-  "rich-text#content-solicitarOrcamento-maduset":{
+  "rich-text#content-solicitarOrcamento-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Você pode solicitar um orçamento diretamente pelo formulário desta página ou entrar em contato com nossa equipe comercial. Um especialista MAD.U irá entender sua necessidade e indicar a melhor configuração para sua operação."
@@ -2085,22 +2087,22 @@
       "disclosure-content#atendimentoBrasil-maduset"
     ]
   },
-  "disclosure-trigger#atendimentoBrasil-maduset":{
+  "disclosure-trigger#atendimentoBrasil-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": "trigger-faq-maduset"
     },
     "children": [
       "rich-text#trigger-atendimentoBrasil-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-atendimentoBrasil-maduset":{
+  "rich-text#trigger-atendimentoBrasil-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### A MAD.U atende todo o Brasil?"
     }
   },
-  "disclosure-content#atendimentoBrasil-maduset":{
+  "disclosure-content#atendimentoBrasil-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -2108,7 +2110,7 @@
       "rich-text#content-atendimentoBrasil-maduset"
     ]
   },
-  "rich-text#content-atendimentoBrasil-maduset":{
+  "rich-text#content-atendimentoBrasil-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Sim. A MAD.U possui estrutura para atender clientes em todo o território nacional, oferecendo suporte comercial e soluções personalizadas para cada projeto."
@@ -2124,22 +2126,25 @@
       "disclosure-content#trocaPlacaEmbalagem-maduset"
     ]
   },
-  "disclosure-trigger#trocaPlacaEmbalagem-maduset":{
+  "disclosure-trigger#trocaPlacaEmbalagem-maduset": {
     "props": {
-      "blockClass":"trigger-faq-maduset"
+      "blockClass": [
+        "trigger-faq-maduset",
+        "trocaPlacaEmbalagem"
+      ]
     },
     "children": [
       "rich-text#trigger-trocaPlacaEmbalagem-maduset",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-trocaPlacaEmbalagem-maduset":{
+  "rich-text#trigger-trocaPlacaEmbalagem-maduset": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### Preciso trocar toda a placa quando um medicamento muda de embalagem?"
     }
   },
-  "disclosure-content#trocaPlacaEmbalagem-maduset":{
+  "disclosure-content#trocaPlacaEmbalagem-maduset": {
     "props": {
       "blockClass": "content-faq-maduset"
     },
@@ -2147,10 +2152,83 @@
       "rich-text#content-trocaPlacaEmbalagem-maduset"
     ]
   },
-  "rich-text#content-trocaPlacaEmbalagem-maduset":{
+  "rich-text#content-trocaPlacaEmbalagem-maduset": {
     "props": {
       "blockClass": "content-faq-maduset",
       "text": "#### Não. Com a MAD.U SET, você substitui apenas o SET do medicamento que sofreu alteração de tamanho ou apresentação. Toda a estrutura organizadora permanece a mesma, gerando economia, praticidade e maior vida útil para o sistema de organização. Essa é uma das grandes vantagens da tecnologia modular patenteada da MAD.U."
+    }
+  },
+  // -------------------------------------------------------
+  // pre footer
+  // =----------------------------------------------------
+  "flex-layout.row#linha-imagemPreFooter-maduset": {
+    "props": {
+      "blockClass": "linha-imagemPreFooter-maduset",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#img-prefooter-maduset"
+    ]
+  },
+  "image#img-prefooter-maduset": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1b3f7040-6ada-4e54-a497-cfdb55f9b5b0___ac0846bd29f1994ee91fe9c5b91aa4c2.webp",
+      "alt": "Maduset aberta",
+      "blockClass": "img-prefooter-maduset"
+    }
+  },
+  "flex-layout.row#linhaPreFooter-maduset": {
+    "props": {
+      "blockClass": "linhaPreFooter-maduset",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#empty-linhaPreFooter-maduset",
+      "flex-layout.col#titulo-linhaPreFooter-maduset",
+      "flex-layout.col#link-linhaPreFooter-maduset"
+    ]
+  },
+  "flex-layout.col#empty-linhaPreFooter-maduset":{
+    "props": {
+      "blockClass": "empty-maduset"
+    },
+    "children": [
+      "rich-text#empty-maduset"
+    ]
+  },
+  "rich-text#empty-maduset":{
+    "props": {
+      "text": "maduset",
+      "blockClass": "empty-maduset"
+    }
+  },
+  "flex-layout.col#titulo-linhaPreFooter-maduset": {
+    "props": {
+      "blockClass": "colunas-linhaPreFooter-maduset"
+    },
+    "children": [
+      "rich-text#texto-preFooter-maduset"
+    ]
+  },
+  "rich-text#texto-preFooter-maduset": {
+    "props": {
+      "text": "**Uma solução completa,** \n sofisticada e feita **sob medida** \n para quem **exige o melhor.**",
+      "blockClass": "texto-preFooter-maduset"
+    }
+  },
+  "flex-layout.col#link-linhaPreFooter-maduset": {
+    "props": {
+      "blockClass": "colunas-linkPreFooter-maduset"
+    },
+    "children": [
+      "link#solicitarCotacao-linhaprefooter-maduset"
+    ]
+  },
+  "link#solicitarCotacao-linhaprefooter-maduset":{
+    "props": {
+      "blockClass": "solicitarCotacao-linhaprefooter-maduset",
+      "label": "fazer cotação",
+      "href": "#"
     }
   }
 }

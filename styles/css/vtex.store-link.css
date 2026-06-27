@@ -211,7 +211,7 @@
 }
 
 .label--link-footer:hover {
-  color: grey;
+  color: #fff;
   transition: color 0.3s ease;
 }
 

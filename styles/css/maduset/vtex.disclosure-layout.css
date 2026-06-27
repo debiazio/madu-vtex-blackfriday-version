@@ -1,3 +1,27 @@
+.trigger--trigger-faq-maduset--visible{
+  border-bottom: none!important;
+}
+
+
+.content--content-faq-maduset--visible{
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.content--content-faq-maduset{
+  background-color: #FFFFFF;
+}
+
+
+.trigger--trigger-faq-maduset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E3E3E3;
+}
+
 .content--content-gravacao-maduset {
   display: flex;
   flex-direction: column !important;
@@ -6,9 +30,10 @@
 
 }
 
+
 .trigger--trigger-gravacao-maduset {
   border-radius: 0 0 20px 20px;
-  padding: 0 0 54px!important ;
+  padding: 0 0 54px !important;
 }
 
 .trigger--trigger-gravacao-maduset--visible {
@@ -39,5 +64,3 @@
   border-radius: 20px 20px 0 0;
   padding: 54px 0 0;
 }
-
-
