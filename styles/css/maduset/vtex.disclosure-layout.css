@@ -1,13 +1,13 @@
-.trigger--trigger-faq-maduset--visible{
-  border-bottom: none!important;
+.trigger--trigger-faq-maduset--visible {
+  border-bottom: none !important;
 }
 
 
-.content--content-faq-maduset--visible{
+.content--content-faq-maduset--visible {
   border-bottom: 1px solid #E3E3E3;
 }
 
-.content--content-faq-maduset{
+.content--content-faq-maduset {
   background-color: #FFFFFF;
 }
 
@@ -63,4 +63,37 @@
 .trigger--trigger-comoConfig-maduset:first-child {
   border-radius: 20px 20px 0 0;
   padding: 54px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .trigger--trigger-comoConfig-maduset:first-child {
+    padding: 30px 0 0;
+  }
+
+  .trigger--trigger-gravacao-maduset {
+    padding: 0 0 30px !important;
+  }
+
+  .content--grid-coresSet-maduset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .content--tamanhos-bases-maduset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding: 13px;
+    align-items: stretch;
+    justify-items: center;
+    gap: 5px;
+  }
+
 }

@@ -153,7 +153,17 @@
 
 
 @media screen and (max-width: 1024px) {
+  .link--link-baixarpdfConsultor-maduset {
+    top: 0!important;
+  }
+
+  .label--btnConfigurarMeu-maduset {
+    max-width: unset;
+    width: unset;
+  }
+
   .label--link-solicitarCotacao-maduset {
+    font-size: 12px;
     background-color: #4CAB86;
     width: 210;
     height: 40;

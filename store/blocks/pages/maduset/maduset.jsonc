@@ -9,7 +9,7 @@
       "flex-layout.row#linhaDisclosure-comoXonfig-maduset",
       "flex-layout.row#linhaGabaritoFaleConsultor-maduset",
       "flex-layout.row#linhavejaMaduSetAcao-maduset",
-      "flex-layout.row#linhaKitsProntos-maduset",
+      // "flex-layout.row#linhaKitsProntos-maduset",
       "flex-layout.row#linhaFAQs-maduset",
       "flex-layout.row#linha-imagemPreFooter-maduset",
       "flex-layout.row#linhaPreFooter-maduset"
@@ -54,9 +54,10 @@
   },
   "link#solicitarCotacao-maduset": {
     "props": {
-      "href": "#",
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%20vim%20da%20p%C3%A1gina%20Madu%20Set%2C%20quero%20um%20or%C3%A7amento",
       "label": "solicitar cotação",
-      "blockClass": "link-solicitarCotacao-maduset"
+      "blockClass": "link-solicitarCotacao-maduset",
+      "target": "_blank"
     }
   },
   "flex-layout.row#linhaImagem-primeiraLinha-maduset": {
@@ -562,7 +563,7 @@
   },
   "disclosure-content#tamanhoBases-maduset": {
     "props": {
-      "blockClass": "content-comoConfig-maduset"
+      "blockClass": ["content-comoConfig-maduset", "tamanhos-bases-maduset"]
     },
     "children": [
       "image#img1content-openSets-maduset",
@@ -698,7 +699,7 @@
   },
   "disclosure-content#coresSet-maduset": {
     "props": {
-      "blockClass": "content-comoConfig-maduset"
+        "blockClass": ["content-comoConfig-maduset", "grid-coresSet-maduset"]
     },
     "children": [
       "flex-layout.col#branco-maduset",
@@ -1061,8 +1062,9 @@
   "link#configurarMeu-maduset": {
     "props": {
       "label": "Configurar o meu",
-      "href": "#",
-      "blockClass": "btnConfigurarMeu-maduset"
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%20eu%20quero%20configurar%20o%20meu%20maduset",
+      "blockClass": "btnConfigurarMeu-maduset",
+      "target": "_blank"
     }
   },
   // ---------------------------------
@@ -1120,7 +1122,8 @@
         "link-baixarpdfConsultor-maduset"
       ],
       "label": "baixar pdf",
-      "href": "#"
+      "href": "https://stermax.com.br/images_idealine/madu-set-para-impressão%201.pdf",
+      "target": "_blank"
     }
   },
   "flex-layout.col#colunaFaleConsultor-maduset": {
@@ -1164,7 +1167,8 @@
         "link-baixarpdfConsultor-maduset"
       ],
       "label": "falar com consultor",
-      "href": "#"
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%20vim%20da%20p%C3%A1gina%20Madu%20Set%2C%20quero%20um%20or%C3%A7amento",
+      "target": "_blank"
     }
   },
   // ---------------------------------------
@@ -2228,7 +2232,7 @@
     "props": {
       "blockClass": "solicitarCotacao-linhaprefooter-maduset",
       "label": "fazer cotação",
-      "href": "#"
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%20vim%20da%20p%C3%A1gina%20Madu%20Set%2C%20quero%20um%20or%C3%A7amento"
     }
   }
 }

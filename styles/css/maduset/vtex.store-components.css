@@ -49,6 +49,14 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .imageElement--img-prefooter-maduset{
+    position: relative;
+    margin-bottom: -80px;
+  }
+
+  .imageElement--img-gabaritoSuporte-maduset{
+    max-width: 105px;
+  }
   .imageElement--set-maduset {
     width: 87.86px;
     height: 100%;
