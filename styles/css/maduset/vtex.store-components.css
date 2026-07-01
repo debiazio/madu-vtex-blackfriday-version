@@ -1,4 +1,4 @@
-.imageElement--img-prefooter-maduset{
+.imageElement--img-prefooter-maduset {
   position: relative;
   margin-bottom: -153px;
 }
@@ -26,8 +26,7 @@
 }
 
 .imageElement--imagem-banner-inicial-maduset {
-  height: 50vh;
-  width: 100%;
+  min-width: max-content;
 }
 
 .imageElement--set-maduset {
@@ -49,14 +48,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .imageElement--img-prefooter-maduset{
+  .imageElement--imagem-banner-inicial-maduset {
+    min-width: unset;
+  }
+
+  .imageElement--img-prefooter-maduset {
     position: relative;
     margin-bottom: -80px;
   }
 
-  .imageElement--img-gabaritoSuporte-maduset{
+  .imageElement--img-gabaritoSuporte-maduset {
     max-width: 105px;
   }
+
   .imageElement--set-maduset {
     width: 87.86px;
     height: 100%;

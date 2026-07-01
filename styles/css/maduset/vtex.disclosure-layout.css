@@ -64,15 +64,18 @@
 .trigger--trigger-comoConfig-maduset:first-child {
   border-radius: 20px 20px 0 0;
   padding: 54px 10px 0 0;
+
 }
 
 @media screen and (max-width: 1024px) {
   .trigger--trigger-comoConfig-maduset:first-child {
     padding: 30px 0 0;
+    padding-right: 10px;
   }
 
   .trigger--trigger-gravacao-maduset {
     padding: 0 0 30px !important;
+    padding-right: 10px!important;
   }
 
   .content--grid-coresSet-maduset {

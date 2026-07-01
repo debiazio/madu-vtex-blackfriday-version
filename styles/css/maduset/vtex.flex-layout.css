@@ -1,3 +1,10 @@
+.flexRow--primeiraLinha-maduset{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFA207;
+}
+
 .flexRow--linha-imagemPreFooter-maduset {
   background-color: #FAFAF5;
 }
@@ -396,8 +403,8 @@
 .flexRowContent--primeiraLinha-maduset {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   align-items: center;
+  max-width: 1200px;
 }
 
 .flexRowContent--linhaTextos-primeiraLinha-maduset {

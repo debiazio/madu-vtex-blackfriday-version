@@ -37,7 +37,7 @@
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
-  padding: 0 150px;
+  /* padding: 0 150px; */
 }
 
 .link--link-baixarpdfConsultor-maduset {
@@ -145,11 +145,11 @@
   white-space: nowrap;
 }
 
-@media screen and (min-width: 1600px) {
+/* @media screen and (min-width: 1600px) {
   .link--link-solicitarCotacao-maduset {
     padding-left: 200px;
   }
-}
+} */
 
 
 @media screen and (max-width: 1024px) {

@@ -533,7 +533,8 @@
   },
   "disclosure-layout-group#comoConfig-maduset": {
     "props": {
-      "blockClass": "group-comoConfig-maduset"
+      "blockClass": "group-comoConfig-maduset",
+      "maxVisible": "one"
     },
     "children": [
       "disclosure-layout#tamanhoBases-maduset",
@@ -545,6 +546,7 @@
   // tamanho base
   "disclosure-layout#tamanhoBases-maduset": {
     "props": {
+      "initialVisibility": "visible",
       "blockClass": "layout-comoConfig-maduset"
     },
     "children": [
@@ -563,7 +565,10 @@
   },
   "disclosure-content#tamanhoBases-maduset": {
     "props": {
-      "blockClass": ["content-comoConfig-maduset", "tamanhos-bases-maduset"]
+      "blockClass": [
+        "content-comoConfig-maduset",
+        "tamanhos-bases-maduset"
+      ]
     },
     "children": [
       "image#img1content-openSets-maduset",
@@ -699,7 +704,10 @@
   },
   "disclosure-content#coresSet-maduset": {
     "props": {
-        "blockClass": ["content-comoConfig-maduset", "grid-coresSet-maduset"]
+      "blockClass": [
+        "content-comoConfig-maduset",
+        "grid-coresSet-maduset"
+      ]
     },
     "children": [
       "flex-layout.col#branco-maduset",
@@ -1014,8 +1022,7 @@
   "disclosure-layout#gravacaoPersonalizada-maduset": {
     "props": {
       "blockClass": [
-        "layout-comoConfig-maduset",
-        "layout-gravacao-maduset"
+        "layout-comoConfig-maduset"
       ]
     },
     "children": [
@@ -2192,7 +2199,7 @@
       "flex-layout.col#link-linhaPreFooter-maduset"
     ]
   },
-  "flex-layout.col#empty-linhaPreFooter-maduset":{
+  "flex-layout.col#empty-linhaPreFooter-maduset": {
     "props": {
       "blockClass": "empty-maduset"
     },
@@ -2200,7 +2207,7 @@
       "rich-text#empty-maduset"
     ]
   },
-  "rich-text#empty-maduset":{
+  "rich-text#empty-maduset": {
     "props": {
       "text": "maduset",
       "blockClass": "empty-maduset"
@@ -2228,7 +2235,7 @@
       "link#solicitarCotacao-linhaprefooter-maduset"
     ]
   },
-  "link#solicitarCotacao-linhaprefooter-maduset":{
+  "link#solicitarCotacao-linhaprefooter-maduset": {
     "props": {
       "blockClass": "solicitarCotacao-linhaprefooter-maduset",
       "label": "fazer cotação",
