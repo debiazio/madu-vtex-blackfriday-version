@@ -1,3 +1,13 @@
+.flexRowContent--precificacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--precificacao .stretchChildrenWidth{
+  width: 100%!important;
+}
+
 .flexRow--linha-one-bolinha {
   width: fit-content;
 }
@@ -450,7 +460,7 @@
     display: none;
   }
 
-  .flexRowContent--linha-nossosClientes-hospitais{
+  .flexRowContent--linha-nossosClientes-hospitais {
     margin-top: 58px;
     gap: 46px;
   }

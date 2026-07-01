@@ -109,23 +109,227 @@
     },
     "children": [
       "responsive-layout.desktop#nome-do-produto",
-      // "flex-layout.row#list-price-savings",
-      // "flex-layout.row#selling-price",
+      "flex-layout.row#list-price-savings",
+      "condition-layout.product#preco-venda",
       // "flex-layout.row#aviso-valor-unitario",
-      // "flex-layout.row#metodos-pagamento-pdp",
       "sku-selector",
       "flex-layout.col#product-recommendations-custom",
       "similar-products-variants", //traz os produtos similares
-      // "flex-layout.row#quantidade-seletor-comprar",
+      "condition-layout.product#seletorQuantidade-condicao",
       // "similares",
       "change-text-pdp-app",
-      // "bundle",
+      "bundle",
       // "app-modalcep",
-      // "flex-layout.row#busca-cep",
+      "condition-layout.product#busca-cep-condicao",
+
       "flex-layout.row#metodos-pagamento-pdp",
       "image#bandeiras",
       "flex-layout.row#contao-whatsapp"
     ]
+  },
+  "condition-layout.product#preco-venda": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "470"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "471"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "472"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "473"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "474"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "475"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "477"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "478"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "479"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "480"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#selling-price"
+    }
+  },
+  "condition-layout.product#seletorQuantidade-condicao": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "470"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "471"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "472"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "473"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "474"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "475"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "477"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "478"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "479"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "480"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#quantidade-seletor-comprar"
+    }
+  },
+  "condition-layout.product#busca-cep-condicao": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "470"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "471"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "472"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "473"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "474"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "475"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "477"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "478"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "479"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "480"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#busca-cep"
+    }
   },
   // "app-modalcep": {},
   // "responsive-layout.mobile#breadcrumb": {
@@ -330,8 +534,8 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "product-quantity"
-      // "flex-layout.row#buy-button"
+      "product-quantity",
+      "flex-layout.row#buy-button"
     ]
   },
   "product-quantity": {
@@ -345,7 +549,7 @@
       "blockClass": "buy-button-pdp"
     },
     "children": [
-      // "add-to-cart-button#pdp"
+      "add-to-cart-button#pdp"
     ]
   },
   // LINHA DAS ABAS
@@ -448,7 +652,7 @@
       "blockClass": "product-spec"
     }
   },
-  "rich-text#conteudo-manual-uso":{
+  "rich-text#conteudo-manual-uso": {
     "props": {
       "blockClass": "manual-uso-texto",
       "text": "A MAD.U desenvolve seus produtos com foco em qualidade, funcionalidade e durabilidade, atendendo às demandas de diferentes ambientes que exigem organização, resistência e segurança no uso diário. Este produto foi projetado com atenção aos detalhes construtivos e operacionais, visando oferecer desempenho eficiente e longa vida útil. Para garantir a melhor experiência de uso e preservar suas características originais, recomendamos observar atentamente as orientações a seguir: \n- Mantenha o produto limpo. Seus componentes são resistentes aos principais produtos de limpeza. Entretanto evite produtos abrasivos e quimicamente agressivos. Em caso de dúvidas teste em uma pequena área antes de usar.\n- Algumas partes e/ou acessórios poderão ser enviados separadamente para evitar danos durante o transporte.\n- Não altere qualquer característica operacional ou construtiva do produto.\n- Evite acidentes. Ao locomover o produto não apoiar seu peso sobre o mesmo.\n- Mantenha as rodas e rodízios limpos. Sujeiras podem dificultar sua locomoção e diminuir sua vida útil.\n- Ao travar as rodas verifique que rampas íngremes poderão dificultar a frenagem.\n- Cuidado ao abrir diversas gavetas ao mesmo tempo, pois isto pode alterar o centro de gravidade do produto e acarretar seu tombamento.\n- Para a remoção completa das gavetas, utiliza as travas vermelhas localizadas nos trilhos das gavetas.\n- As gavetas foram projetadas para oferecer resistência e evitar uma abertura não intencional. Além dessa caracteristica perfeitamente normal, elas contam com travas de abertura escalonada para impedir que se abram indevidamente durante o deslocamento. Lubrificar os trilhos poderá faze-los perder essa ação.\n- Não exceder o peso máximo total recomendado que está indicado para o produto ou suas partes."

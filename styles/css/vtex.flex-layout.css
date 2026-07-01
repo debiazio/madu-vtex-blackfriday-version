@@ -1535,9 +1535,9 @@
     flex-direction: column;
   }
 
-  .flexRow--add-to-cart-summary {
+  /* .flexRow--add-to-cart-summary {
     display: none;
-  }
+  } */
 
   .flexRow--main-header-mobile {
     background-color: #fff;

@@ -2,9 +2,77 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
-      "flex-layout.col#product-info-summary"
-      // "condition-layout.product#disponibilidade-shelf"
+      "flex-layout.col#product-info-summary",
+      "condition-layout.product#produtos-selecionados-btnComprar"
     ]
+  },
+  "condition-layout.product#produtos-selecionados-btnComprar": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "470"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "471"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "472"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "473"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "474"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "475"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "477"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "478"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "479"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "480"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "condition-layout.product#disponibilidade-shelf"
+    }
   },
   // CONDICIONAL PARA APARECER DISPONIBLIDADE
   "condition-layout.product#disponibilidade-shelf": {
@@ -26,7 +94,7 @@
     ]
   },
   // LINHA AVISE-ME
-  "flex-layout.row#linha-avise-me":{
+  "flex-layout.row#linha-avise-me": {
     "props": {
       "blockClass": "linha-avise-me"
     },
@@ -47,7 +115,7 @@
     ]
   },
   // LINHA AVISE ME
-  "flex-layout.row#linha-conteudo-avise-me":{
+  "flex-layout.row#linha-conteudo-avise-me": {
     "props": {
       "blockClass": "linha-conteudo-avise-me",
       "colSizing": "auto"
@@ -94,8 +162,8 @@
   // },
   "flex-layout.row#add-to-cart-summary": {
     "children": [
-      "product-summary-sku-selector"
-      // "add-to-cart-button"
+      "product-summary-sku-selector",
+      "add-to-cart-button"
     ],
     "props": {
       "blockClass": "add-to-cart-summary",
@@ -119,15 +187,91 @@
   },
   "flex-layout.col#product-info-summary": {
     "children": [
-      "product-summary-name"
-      // "product-list-price#summary",
-      // "product-selling-price#summary",
-      // "product-spot-price#summary",
-      // "product-installments#summary"
+      "product-summary-name",
+      "condition-layout.product#produtos-selecionados-precos"
     ],
     "props": {
       "blockClass": "product-info-summary"
     }
+  },
+  "condition-layout.product#produtos-selecionados-precos": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "470"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "471"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "472"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "473"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "474"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "475"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "477"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "478"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "479"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "480"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#precificacao"
+    }
+  },
+  "flex-layout.row#precificacao": {
+    "props": {
+      "blockClass": "precificacao"
+    },
+    "children": [
+      "product-list-price#summary",
+      // "product-selling-price#summary",
+      "product-spot-price#summary",
+      "product-installments#summary"
+    ]
   },
   "product-list-price#summary": {
     "props": {

@@ -20,7 +20,7 @@
       "blockClass": "list-price-savings"
     },
     "children": [
-      "product-list-price"
+      "product-list-price#summary"
     ]
   }
 }

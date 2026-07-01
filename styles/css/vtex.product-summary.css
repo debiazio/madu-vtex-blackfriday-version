@@ -1,18 +1,17 @@
-
-.brandName{
+.brandName {
   text-align: center;
 }
 
-.clearLink{
+.clearLink {
   background-color: white;
 }
 
-.containerNormal{
-  max-width: unset!important;
+.containerNormal {
+  max-width: unset !important;
   margin: 0;
 }
 
-.buyButton :global(.vtex-button){
+.buyButton :global(.vtex-button) {
   background-color: #32A078;
   border: none;
   border-radius: 20px;
@@ -20,20 +19,21 @@
   width: 90%;
 }
 
-.buyButton :global(.vtex-button):hover{
+.buyButton :global(.vtex-button):hover {
   background-color: #5BB393;
 }
 
-.buyButtonText{
+.buyButtonText {
   font-size: 0;
-  font-family: "Poppins" sans-serif!important;
+  font-family: "Poppins" sans-serif !important;
 }
 
 
-.buyButtonText::after{
+.buyButtonText::after {
   content: "COMPRAR";
   font-size: 13px;
 }
+
 /* .image{
   box-shadow:0 4px 8px #ccc;
 } */
@@ -60,7 +60,7 @@
   display: block;
   overflow: hidden;
   font-weight: 900;
-  font-family: "Poppins" sans-serif!important;
+  font-family: "Poppins" sans-serif !important;
 }
 
 /* .element:hover :global(.vtex-stack-layout-0-x-stackItem--add-to-cart-summary){
@@ -68,6 +68,8 @@
 } */
 .SKUSelectorContainer {
   margin-bottom: 5px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .hoverImage {
