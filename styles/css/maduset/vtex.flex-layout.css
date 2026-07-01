@@ -327,7 +327,8 @@
 }
 
 .flexRowContent--linhaInfinitasCombinacoes-maduset {
-  padding: 63px 36px 0 36px;
+  padding: 0px 36px 0 36px;
+  max-width: 1200px;
 }
 
 .flexRowContent--linha-textoImagem-maduset {
@@ -347,9 +348,6 @@
   justify-content: center;
 }
 
-.flexRowContent--linhaInfinitasCombinacoes-maduset {
-  max-width: 1200px;
-}
 
 .flexRow--linhaInfinitasCombinacoes-maduset {
   display: flex;
@@ -418,6 +416,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linhaInfinitasCombinacoes-maduset {
+    padding: 63px 36px 0 36px;
+  }
+
   .flexRowContent--linha-imagemPreFooter-maduset {
     justify-content: center;
   }
