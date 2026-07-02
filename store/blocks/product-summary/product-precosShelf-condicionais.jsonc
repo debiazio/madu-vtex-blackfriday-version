@@ -1,0 +1,178 @@
+{
+  "condition-layout.product#produtos-selecionados-precos": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "514"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "511"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "512"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "513"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "515"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "516"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "517"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "518"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "519"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "492"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "493"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "494"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "495"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "496"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "497"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "498"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "499"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "500"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "470"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "471"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "472"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "473"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "474"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "475"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "477"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "478"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "479"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "480"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#precificacao"
+    }
+  }
+}

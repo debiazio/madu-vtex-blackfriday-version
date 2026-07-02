@@ -6,74 +6,7 @@
       "condition-layout.product#produtos-selecionados-btnComprar"
     ]
   },
-  "condition-layout.product#produtos-selecionados-btnComprar": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "470"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "471"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "472"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "473"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "474"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "475"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "477"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "478"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "479"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "480"
-          }
-        }
-      ],
-      "matchType": "any",
-      "Then": "condition-layout.product#disponibilidade-shelf"
-    }
-  },
+
   // CONDICIONAL PARA APARECER DISPONIBLIDADE
   "condition-layout.product#disponibilidade-shelf": {
     "props": {
@@ -194,74 +127,7 @@
       "blockClass": "product-info-summary"
     }
   },
-  "condition-layout.product#produtos-selecionados-precos": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "470"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "471"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "472"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "473"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "474"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "475"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "477"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "478"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "479"
-          }
-        },
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "480"
-          }
-        }
-      ],
-      "matchType": "any",
-      "Then": "flex-layout.row#precificacao"
-    }
-  },
+
   "flex-layout.row#precificacao": {
     "props": {
       "blockClass": "precificacao"
