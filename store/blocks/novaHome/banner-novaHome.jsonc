@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#banner-inicial-novaHome": {
+    "props": {
+      "blockClass": "banner-inicial-novaHome",
+      "fullWidth": true
+    },
+    "children": [
+      "list-context.image-list#home-banner"
+    ]
+  }
+}

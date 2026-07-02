@@ -1,3 +1,9 @@
+.skuSelectorContainer{
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .skuSelectorSubcontainer--colour{
   display: none;
 }

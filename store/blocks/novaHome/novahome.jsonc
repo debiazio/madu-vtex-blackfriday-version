@@ -1,0 +1,7 @@
+{
+  "store.custom#novahome":{
+    "blocks": [
+      "flex-layout.row#banner-inicial-novaHome"
+    ]
+  }
+}

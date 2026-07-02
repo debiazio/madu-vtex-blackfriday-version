@@ -66,5 +66,8 @@
   "store.custom#maduset":{
     "path": "/maduset",
     "isSitemapEntry": true
+  },
+  "store.custom#novahome":{
+    "path": "/novahome"
   }
 }

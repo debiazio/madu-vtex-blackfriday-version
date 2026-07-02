@@ -66,11 +66,7 @@
 /* .element:hover :global(.vtex-stack-layout-0-x-stackItem--add-to-cart-summary){
   display:block;
 } */
-.SKUSelectorContainer {
-  margin-bottom: 5px;
-  display: flex;
-  flex-direction: column-reverse;
-}
+
 
 .hoverImage {
   z-index: 9;
