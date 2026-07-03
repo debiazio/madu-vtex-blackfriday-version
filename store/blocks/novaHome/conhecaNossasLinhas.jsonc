@@ -13,7 +13,7 @@
   "rich-text#titulo-conhecaNossasLinhas-maduHome": {
     "props": {
       "text": "# conheça as **linhas**",
-      "blockClass": "titulo-conhecaNossasLinhas-maduHome"
+      "blockClass": "titulo--maduHome"
     }
   },
   "flex-layout.row#linhas-cards-conhecaLinhas-maduHome": {
