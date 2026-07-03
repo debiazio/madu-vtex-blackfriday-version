@@ -1,7 +1,7 @@
 {
   "flex-layout.row#novahome-conhecaNossasLinhas": {
     "props": {
-      "blockClass": "conhecaNossasLinhas-novaHome",
+      "blockClass": "linha-novaHome",
       "fullWidth": true,
       "colSizing": "auto"
     },
@@ -42,7 +42,7 @@
   },
   "image#cardOne-linhas-novaHome": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/56dfc190-e0c2-44b0-a318-ebae9159219e___9b2c7fe3055eb5aa0f3c858038f7db10.webp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a093ca66-f016-4b8a-9905-319faf72ad9c___d5390ac56092ec28747180a32c4279b5.webp",
       "blockClass": "imgs-cards-linhas-novaHome",
       "alt": "Linha One"
     }

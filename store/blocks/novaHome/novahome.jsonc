@@ -2,7 +2,8 @@
   "store.custom#novahome":{
     "blocks": [
       "flex-layout.row#banner-inicial-novaHome",
-      "flex-layout.row#novahome-conhecaNossasLinhas"
+      "flex-layout.row#novahome-conhecaNossasLinhas",
+      "flex-layout.row#navegueSegmentos-novaHome"
     ]
   }
 }
