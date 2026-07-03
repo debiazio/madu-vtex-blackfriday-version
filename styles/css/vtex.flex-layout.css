@@ -1,4 +1,4 @@
-.flexRowContent--madu-box-banner{
+.flexRowContent--madu-box-banner {
   padding: 20px;
 }
 
@@ -1416,10 +1416,18 @@
   .flexRowContent--notification {
     padding: 0 10px;
   }
+
+  .flexRowContent--product-main {
+    padding: 0 10px;
+  }
 }
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .flexRowContent--product-main {
+    padding: 0 10px;
+  }
+
   .flexRowContent--product-main-sem-estoque .flexRow--product-name {
     display: none;
   }

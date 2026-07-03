@@ -40,8 +40,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .variants--similar-variant,
-  .title--similar-variant{
+
+  .variants--similar-variant {
+    display: flex;
+    justify-content: center;
     margin-left: 0;
+  }
+
+  .title--similar-variant{
+    display: none;
   }
 }

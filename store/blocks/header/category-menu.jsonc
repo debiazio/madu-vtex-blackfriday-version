@@ -291,21 +291,21 @@
       "blockClass": "menu-principal-submenu"
     },
     "children": [
-      "menu-item#maduExtra-380",
+      "menu-item#maduExtra-385",
       "menu-item#maduExtra-550"
     ]
   },
-  "menu-item#maduExtra-380": {
+  "menu-item#maduExtra-385": {
     "props": {
       "type": "custom",
       "id": "menu-item-linhas",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/madu-extra-380",
+        "href": "/madu-extra-380/",
         "noFollow": false,
-        "tagTitle": "Extra 380",
-        "text": "Extra 380"
+        "tagTitle": "Extra 385",
+        "text": "Extra 385"
       }
     }
   },
@@ -678,7 +678,7 @@
       "blockClass": "menu-principal-submenu"
     },
     "children": [
-      "menu-item#maduExtra-380",
+      "menu-item#maduExtra-385",
       "menu-item#maduExtra-550"
     ]
   },

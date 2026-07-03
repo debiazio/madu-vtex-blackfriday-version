@@ -128,7 +128,7 @@
     ]
   },
 
-  
+
   // "app-modalcep": {},
   // "responsive-layout.mobile#breadcrumb": {
   //   "children": [
@@ -523,7 +523,7 @@
     ],
     "props": {
       "orderBy": "OrderByPriceASC",
-      "maxItems": 36,
+      "maxItems": 8,
       "blockClass": "list-context"
     }
   },
@@ -534,9 +534,10 @@
         "tablet": 2,
         "phone": 1
       },
-      "infinite": true,
+      "infinite": false,
       "fullWidth": true,
       "showNavigationArrows": "always",
+      "showPaginationDots": "always",
       "blockClass": "shelf",
       "autoplay": {
         "timeout": 4000,
