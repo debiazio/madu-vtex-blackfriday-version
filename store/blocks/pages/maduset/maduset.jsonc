@@ -1244,17 +1244,17 @@
   // ---------------------------------------
   // kits prontos
   // --------------------------------------
-  "flex-layout.row#linhaKitsProntos-maduset": {
-    "props": {
-      "blockClass": "linhaKitsProntos-maduset",
-      "fullWidth": true,
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "flex-layout.row#titulo-linhaKits-maduset",
-      "flex-layout.row#kits-linhaKits-maduset"
-    ]
-  },
+  // "flex-layout.row#linhaKitsProntos-maduset": {
+  //   "props": {
+  //     "blockClass": "linhaKitsProntos-maduset",
+  //     "fullWidth": true,
+  //     "preventHorizontalStretch": true
+  //   },
+  //   "children": [
+  //     "flex-layout.row#titulo-linhaKits-maduset",
+  //     "flex-layout.row#kits-linhaKits-maduset"
+  //   ]
+  // },
   "flex-layout.row#titulo-linhaKits-maduset": {
     "props": {
       "blockClass": "titulo-linhaKits-maduset"

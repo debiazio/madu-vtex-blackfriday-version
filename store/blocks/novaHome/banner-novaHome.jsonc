@@ -5,7 +5,55 @@
       "fullWidth": true
     },
     "children": [
-      "list-context.image-list#home-banner"
+      "list-context.image-list#home-banner-novaHome"
     ]
+  },
+  "list-context.image-list#home-banner-novaHome": {
+    "props": {
+      "blocClass": "listContext-novahome",
+      "height": 570,
+      "images": [
+        {
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/102ef035-0e22-4652-98d4-6fba6112113f___9c08e34460e9fd23b2796add47a951d7.webp",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/15bb13b5-171b-4d0a-80a5-6f5523e1685f___4ea31d94563956f7d32728769dc029c6.webp",
+          "link": {
+            "url": ""
+          }
+        },
+        {
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/42027a3c-71e6-4f00-b241-fa843490c00f___6010e8bfb922d5cd51c01688e80f9e3a.webp",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c63b4f48-f4d0-45ac-905f-c9c4fde57a23___0dbf1ede8b7800fc5c6966ab682502b8.webp",
+          "link": {
+            "url": ""
+          }
+        },
+        {
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a3b1c767-6da2-44b5-83c6-891daf4d3ceb___88f2e2881a4d9c64a7b5b6320421929a.webp",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4318337e-d0c2-4915-8ef1-106828af8cfd___e465e66310ddaa717b51e5b820019a50.webp",
+          "link": {
+            "url": ""
+          }
+        }
+      ]
+    },
+    "children": [
+      "slider-layout#home-novaHome"
+    ]
+  },
+  "slider-layout#home-novaHome": {
+    "props": {
+      "title": "Slider home",
+      "blockClass": "slider-novaHome",
+      "maxwidth": "1200",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 50,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never"
+    }
   }
 }

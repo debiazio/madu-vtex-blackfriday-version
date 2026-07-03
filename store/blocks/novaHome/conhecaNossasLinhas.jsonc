@@ -1,0 +1,146 @@
+{
+  "flex-layout.row#novahome-conhecaNossasLinhas": {
+    "props": {
+      "blockClass": "conhecaNossasLinhas-novaHome",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-conhecaNossasLinhas-maduHome",
+      "flex-layout.row#linhas-cards-conhecaLinhas-maduHome"
+    ]
+  },
+  "rich-text#titulo-conhecaNossasLinhas-maduHome": {
+    "props": {
+      "text": "# conheça as **linhas**",
+      "blockClass": "titulo-conhecaNossasLinhas-maduHome"
+    }
+  },
+  "flex-layout.row#linhas-cards-conhecaLinhas-maduHome": {
+    "props": {
+      "blockClass": "linhas-cards-conhecaLinhas-maduHome",
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#one-Linhas-novaHome",
+      "link#two-Linhas-novaHome",
+      "link#extra-Linhas-novaHome",
+      "link#box-Linhas-novaHome",
+      "link#set-Linhas-novaHome",
+      "link#expand-Linhas-novaHome",
+      "link#express-Linhas-novaHome"
+    ]
+  },
+  "link#one-Linhas-novaHome": {
+    "props": {
+      "href": "",
+      "blockClass": "cards-linhas-novaHome"
+    },
+    "children": [
+      "image#cardOne-linhas-novaHome"
+    ]
+  },
+  "image#cardOne-linhas-novaHome": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/56dfc190-e0c2-44b0-a318-ebae9159219e___9b2c7fe3055eb5aa0f3c858038f7db10.webp",
+      "blockClass": "imgs-cards-linhas-novaHome",
+      "alt": "Linha One"
+    }
+  },
+  "link#two-Linhas-novaHome": {
+    "props": {
+      "href": "",
+      "blockClass": "cards-linhas-novaHome"
+    },
+    "children": [
+      "image#cardTwo-linhas-novaHome"
+    ]
+  },
+  "image#cardTwo-linhas-novaHome": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1dfec351-cda9-4bac-8dfe-faa3e7e40179___8545b52dac03200df8750077520dd81c.webp",
+      "blockClass": "imgs-cards-linhas-novaHome",
+      "alt": "Linha Two"
+    }
+  },
+  "link#extra-Linhas-novaHome": {
+    "props": {
+      "href": "",
+      "blockClass": "cards-linhas-novaHome"
+    },
+    "children": [
+      "image#cardExtra-linhas-novaHome"
+    ]
+  },
+  "image#cardExtra-linhas-novaHome": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4660571c-9540-4174-bb82-ed2c52b5de4b___ea7aea446ac470b77cf10b93d4926838.webp",
+      "blockClass": "imgs-cards-linhas-novaHome",
+      "alt": "Linha Extra"
+    }
+  },
+  "link#box-Linhas-novaHome": {
+    "props": {
+      "href": "",
+      "blockClass": "cards-linhas-novaHome"
+    },
+    "children": [
+      "image#cardBox-linhas-novaHome"
+    ]
+  },
+  "image#cardBox-linhas-novaHome": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/eded91dc-b666-45a9-92a1-a396e8d8d468___f2d171b77fd5dc11a6c4475fb8299185.webp",
+      "blockClass": "imgs-cards-linhas-novaHome",
+      "alt": "Linha Box"
+    }
+  },
+  "link#set-Linhas-novaHome": {
+    "props": {
+      "href": "",
+      "blockClass": "cards-linhas-novaHome"
+    },
+    "children": [
+      "image#cardSet-linhas-novaHome"
+    ]
+  },
+  "image#cardSet-linhas-novaHome": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d8ea77d1-f7db-4eeb-aca2-a38b7a1350bb___7ff0197fa5724b4dce1e9067a4644d93.webp",
+      "blockClass": "imgs-cards-linhas-novaHome",
+      "alt": "Linha Set"
+    }
+  },
+  "link#expand-Linhas-novaHome": {
+    "props": {
+      "href": "",
+      "blockClass": "cards-linhas-novaHome"
+    },
+    "children": [
+      "image#cardExpand-linhas-novaHome"
+    ]
+  },
+  "image#cardExpand-linhas-novaHome": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f490e8eb-5afd-46d4-97a8-fd329738e297___9d9adf37e204cbfa797fee0ffae68ed9.webp",
+      "blockClass": "imgs-cards-linhas-novaHome",
+      "alt": "Linha Expand"
+    }
+  },
+  "link#express-Linhas-novaHome": {
+    "props": {
+      "href": "",
+      "blockClass": "cards-linhas-novaHome"
+    },
+    "children": [
+      "image#cardExpress-linhas-novaHome"
+    ]
+  },
+  "image#cardExpress-linhas-novaHome": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/64cf1fbb-3a40-494d-9ae5-6ace7074ffeb___cfabcc6c3064e954c7e40cc8dff1ae7c.webp",
+      "blockClass": "imgs-cards-linhas-novaHome",
+      "alt": "Linha Express"
+    }
+  }
+}

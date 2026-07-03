@@ -1,9 +1,9 @@
 {
-  "product-specification-group#table": {
-    "children": [
-      "product-specification"
-    ]
-  },
+  // "product-specification-group#table": {
+  //   "children": [
+  //     "product-specification"
+  //   ]
+  // },
   "product-specification": {
     "children": [
       "flex-layout.row#spec-item"
