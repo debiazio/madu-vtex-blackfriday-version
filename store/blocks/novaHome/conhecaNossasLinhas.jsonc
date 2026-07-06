@@ -23,7 +23,7 @@
     },
     "children": [
       "link#one-Linhas-novaHome",
-      "link#two-Linhas-novaHome",
+      // "link#two-Linhas-novaHome",
       "link#extra-Linhas-novaHome",
       "link#box-Linhas-novaHome",
       "link#set-Linhas-novaHome",
@@ -42,7 +42,7 @@
   },
   "image#cardOne-linhas-novaHome": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a093ca66-f016-4b8a-9905-319faf72ad9c___d5390ac56092ec28747180a32c4279b5.webp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4714434e-13ba-4f63-905b-d73c19ae9d5b___d5390ac56092ec28747180a32c4279b5.webp",
       "blockClass": "imgs-cards-linhas-novaHome",
       "alt": "Linha One"
     }
@@ -58,7 +58,7 @@
   },
   "image#cardTwo-linhas-novaHome": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1dfec351-cda9-4bac-8dfe-faa3e7e40179___8545b52dac03200df8750077520dd81c.webp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/088a7e18-cc71-470d-82f2-ccc2878f5b44___82234f1647e00dbb3e58774abd8f984b.webp",
       "blockClass": "imgs-cards-linhas-novaHome",
       "alt": "Linha Two"
     }
@@ -74,7 +74,7 @@
   },
   "image#cardExtra-linhas-novaHome": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4660571c-9540-4174-bb82-ed2c52b5de4b___ea7aea446ac470b77cf10b93d4926838.webp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d6c45eef-5914-4c7d-bab6-660e7592794b___040a4c358c08e4d9634b4322aa9588b9.webp",
       "blockClass": "imgs-cards-linhas-novaHome",
       "alt": "Linha Extra"
     }
@@ -90,7 +90,7 @@
   },
   "image#cardBox-linhas-novaHome": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/eded91dc-b666-45a9-92a1-a396e8d8d468___f2d171b77fd5dc11a6c4475fb8299185.webp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8d1b88ac-02ed-44ec-8322-61021416600d___ac601704bf00aeaacde42bc2bac62d16.webp",
       "blockClass": "imgs-cards-linhas-novaHome",
       "alt": "Linha Box"
     }
@@ -106,7 +106,7 @@
   },
   "image#cardSet-linhas-novaHome": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d8ea77d1-f7db-4eeb-aca2-a38b7a1350bb___7ff0197fa5724b4dce1e9067a4644d93.webp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/9be64b07-8d38-4387-9214-2dfb5bcac81b___deae1eb40034a8c45d7ebae43febaa6b.webp",
       "blockClass": "imgs-cards-linhas-novaHome",
       "alt": "Linha Set"
     }
@@ -122,14 +122,14 @@
   },
   "image#cardExpand-linhas-novaHome": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f490e8eb-5afd-46d4-97a8-fd329738e297___9d9adf37e204cbfa797fee0ffae68ed9.webp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/42bbb278-f703-43b3-8b74-ad8567745f0a___5fddfbfc1bbbb714abb8490ad44fa2ce.webp",
       "blockClass": "imgs-cards-linhas-novaHome",
       "alt": "Linha Expand"
     }
   },
   "link#express-Linhas-novaHome": {
     "props": {
-      "href": "",
+      "href": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/42bbb278-f703-43b3-8b74-ad8567745f0a___5fddfbfc1bbbb714abb8490ad44fa2ce.webp",
       "blockClass": "cards-linhas-novaHome"
     },
     "children": [
@@ -138,8 +138,7 @@
   },
   "image#cardExpress-linhas-novaHome": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/64cf1fbb-3a40-494d-9ae5-6ace7074ffeb___cfabcc6c3064e954c7e40cc8dff1ae7c.webp",
-      "blockClass": "imgs-cards-linhas-novaHome",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/461873f3-381d-4c0f-9bd2-ae526000ed77___8b09aad55a129b3efcba12acaf1ad311.webp",
       "alt": "Linha Express"
     }
   }

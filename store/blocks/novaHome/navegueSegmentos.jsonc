@@ -1,8 +1,12 @@
 {
   "flex-layout.row#navegueSegmentos-novaHome": {
     "props": {
-      "blockClass": "linha-novaHome",
-      "colSizing": "auto"
+      "blockClass": [
+        "linha-novaHome",
+        "segmentos-linha"
+      ],
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
     },
     "children": [
       "rich-text#titulo-navegueSegmentos-novaHome",
@@ -17,7 +21,9 @@
   },
   "flex-layout.row#linhaSlider-navegueSegmentos-novaHome": {
     "props": {
-      "blockClass": "linhaSlider-navegueSegmentos-novaHome"
+      "blockClass": "linhaSlider-navegueSegmentos-novaHome",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
     },
     "children": [
       "slider-layout#slider-navegueSegmentos-novaHome"
@@ -30,7 +36,7 @@
         "tablet": 1,
         "phone": 1
       },
-      "infinite": false,
+      "infinite": true,
       "showNavigationArrows": "always",
       "blockClass": "slider-navegueSegmentos-novaHome"
     },
@@ -56,6 +62,10 @@
     }
   },
   "flex-layout.row#titulo-link-segmentos-novaHome": {
+    "props": {
+      "blockClass": "linha-titulo-link-segmentos-novaHome",
+      "preventHorizontalStretch": true
+    },
     "children": [
       "flex-layout.col#col1-segmentos-novoHome",
       "flex-layout.col#col2-segmentos-novoHome"
@@ -100,13 +110,49 @@
       "flex-layout.row#tituloVet-link-segmentos-novaHome"
     ]
   },
-   "image#imageVet-segmentos-novahome":{
-       "props": {
+  "image#imageVet-segmentos-novahome": {
+    "props": {
       "blockClass": "image-segmentos-novaHome",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/bf770424-b5ee-493e-bc45-85eda982482c___89e12dda5ef67b3300700b0c26fc403d.webp"
     }
-   },
-   "flex-layout.row#tituloVet-link-segmentos-novaHome":{
-    
-   }
+  },
+  "flex-layout.row#tituloVet-link-segmentos-novaHome": {
+    "props": {
+      "blockClass": "linha-titulo-link-segmentos-novaHome",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#col1Vet-segmentos-novoHome",
+      "flex-layout.col#col2Vet-segmentos-novoHome"
+    ]
+  },
+  "flex-layout.col#col1Vet-segmentos-novoHome": {
+    "children": [
+      "rich-text#tituloVet-segmento-novoHome",
+      "rich-text#subtituloVet-segmento-novoHome"
+    ]
+  },
+  "rich-text#tituloVet-segmento-novoHome": {
+    "props": {
+      "text": "### veterinária",
+      "blockClass": "titulo-segmento-novaHome"
+    }
+  },
+  "rich-text#subtituloVet-segmento-novoHome": {
+    "props": {
+      "text": "#### Organização que gera controle.",
+      "blockClass": "subtitulo-segmento-novaHome"
+    }
+  },
+  "flex-layout.col#col2Vet-segmentos-novoHome": {
+    "children": [
+      "rich-text#arrowVet-segmento-novoHome"
+    ]
+  },
+  "rich-text#arrowVet-segmento-novoHome": {
+    "props": {
+      "text": "➜",
+      "blockClass": "arrow-segmento-novaHome"
+    }
+  }
 }

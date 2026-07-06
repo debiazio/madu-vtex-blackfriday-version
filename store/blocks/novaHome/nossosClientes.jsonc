@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#linha-nossosClientes": {
+    "props": {
+      "blockClass": "linha-novaHome",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-nossosClientes-novaHome",
+      "flex-layout.row#linha-logosNossosClientes-novaHome"
+    ]
+  },
+  "rich-text#titulo-nossosClientes-novaHome": {
+    "props": {
+      "blockClass": "titulo--maduHome",
+      "text": "# nossos **clientes**"
+    }
+  },
+  "flex-layout.row#linha-logosNossosClientes-novaHome":{
+    "props": {
+      "blockClass": "linha-logosNossosClientes-novaHome"
+    },
+    "children": [
+      "image#nossosClientes-novaHome"
+    ]
+  },
+  "image#nossosClientes-novaHome":{
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1e95b9dd-d491-4310-a236-dd49a4f7da7c___a37f586d9cf82c4538651d2fe5c1aadc.webp",
+      "alt": "Nossos clientes",
+      "title": "Nossos clientes",
+      "blockClass": "image-nossosClientes-novaHome"
+    }
+  }
+}

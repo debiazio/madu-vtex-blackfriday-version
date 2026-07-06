@@ -1,3 +1,26 @@
+.flexRow--linha-logosNossosClientes-novaHome{
+  display: contents;
+}
+.flexRowContent--linha-logosNossosClientes-novaHome{
+  justify-content: center;
+}
+
+.flexRowContent--prateleira-novaHome{
+  max-width: 1200px;
+}
+
+.flexRowContent--linha-titulo-link-segmentos-novaHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 11px 11px 22px 11px;
+}
+
+.flexRow--linhaSlider-navegueSegmentos-novaHome {
+  min-width: 1200px;
+}
+
 .flexRowContent--linha-novaHome {
   display: flex;
   flex-direction: column;
@@ -15,4 +38,15 @@
 
 .flexRowContent--linhas-cards-conhecaLinhas-maduHome {
   width: 100%;
+  gap: 16px;
+}
+
+.flexRow--segmentos-linha {
+  background-color: #F4F4F4;
+}
+
+.flexRowContent--linha-titulo-link-segmentos-novaHome {
+  background-color: #E7E1DB;
+  border-radius: 0 0 10px 10px;
+
 }

@@ -7,6 +7,12 @@
   font-family: "Poppins", sans-serif!important;
 }
 
+#nav-thin-caret--left,
+#nav-thin-caret--right {
+  width: 10px;
+  height: 15px;
+}
+
 :global(.vtex-disclosure-layout-1-x-trigger--hidden)
   :global(.vtex-rich-text-0-x-strong--texto-trigger-comoConfig-maduset) {
   background: #D8D8D8;

@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#linha-maisVendidosExtra-novaHome": {
+    "props": {
+      "blockClass": [
+        "linha-novaHome",
+        "linha-maisVendidos-novaHome"
+      ],
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-maisVendidosExtra-novaHome",
+      "flex-layout.row#prateleira-maisVendidosExtra-novaHome"
+    ]
+  },
+  "rich-text#titulo-maisVendidosExtra-novaHome": {
+    "props": {
+      "blockClass": "titulo--maduHome",
+      "text": "# + vendidos **linha EXTRA**"
+    }
+  },
+  "flex-layout.row#prateleira-maisVendidosExtra-novaHome": {
+    "props": {
+      "blockClass": "prateleira-novaHome"
+    },
+    "children": [
+      "list-context.product-list#prateleira-novaHomeExtra"
+    ]
+  },
+  "list-context.product-list#prateleira-novaHomeExtra": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleira-maisvendidos-novahomeExtra"
+    ],
+    "props": {
+      // "category": "6/7",
+      "collection": "156",
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "prateleira-novaHome",
+      "maxItems": 20
+    }
+  },
+  "slider-layout#prateleira-maisvendidos-novahomeExtra": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "fullWidth": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "prateleira-novaHome"
+    }
+  }
+}

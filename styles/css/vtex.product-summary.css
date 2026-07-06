@@ -9,6 +9,7 @@
 .containerNormal {
   max-width: unset !important;
   margin: 0;
+  border-radius: 10px;
 }
 
 .buyButton :global(.vtex-button) {

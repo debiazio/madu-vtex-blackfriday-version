@@ -3,7 +3,11 @@
     "blocks": [
       "flex-layout.row#banner-inicial-novaHome",
       "flex-layout.row#novahome-conhecaNossasLinhas",
-      "flex-layout.row#navegueSegmentos-novaHome"
+      "flex-layout.row#navegueSegmentos-novaHome",
+      "flex-layout.row#linha-maisVendidos-novaHome",
+      "flex-layout.row#linha-maisVendidosExtra-novaHome",
+      "flex-layout.row#linha-maisVendidosExpand-novaHome",
+      "flex-layout.row#linha-nossosClientes"
     ]
   }
 }
