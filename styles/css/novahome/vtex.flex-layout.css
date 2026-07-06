@@ -1,11 +1,19 @@
-.flexRow--linha-logosNossosClientes-novaHome{
+.flexRowContent--linha-icones-redesSociais-novaHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+
+.flexRow--linha-logosNossosClientes-novaHome {
   display: contents;
 }
-.flexRowContent--linha-logosNossosClientes-novaHome{
+
+.flexRowContent--linha-logosNossosClientes-novaHome {
   justify-content: center;
 }
 
-.flexRowContent--prateleira-novaHome{
+.flexRowContent--prateleira-novaHome {
   max-width: 1200px;
 }
 

@@ -1,4 +1,28 @@
 .imageElement--slider-novaHome{
   max-height: 100%!important;
 }
-  
+
+.imageElement--img-icones-redesSociais-novaHome {
+  /* Transição no estado BASE para animar entrada E saída */
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.4s ease;
+
+  /* Otimização de performance */
+  will-change: transform, box-shadow;
+
+}
+
+
+.imageElement--img-icones-redesSociais-novaHome:hover {
+  transform: translateY(-2px) scale(1.02);
+  /* box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12),
+              0 4px 10px rgba(0, 0, 0, 0.06); */
+
+}
+
+
+.imageElement--img-icones-redesSociais-novaHome:active {
+  transform: translateY(-2px) scale(1.01);
+  transition-duration: 0.15s;
+}

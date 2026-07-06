@@ -1,0 +1,112 @@
+{
+  "flex-layout.row#linha-nossasRedesSociais-novaHome": {
+    "props": {
+      "blockClass": "linha-novaHome",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-nossasRedes-novaHome",
+      "flex-layout.row#icones-redesSociais-novaHome"
+    ]
+  },
+  "rich-text#titulo-nossasRedes-novaHome": {
+    "props": {
+      "blockClass": "titulo-nossasRedes-novaHome",
+      "text": "Siga Nossas redes sociais"
+    }
+  },
+  "flex-layout.row#icones-redesSociais-novaHome": {
+    "props": {
+      "blockClass": "linha-icones-redesSociais-novaHome",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link#instagram-novaHome",
+      "link#youtube-novaHome",
+      "link#tiktok-novaHome",
+      "link#facebook-novaHome",
+      "link#pinterest-novaHome"
+    ]
+  },
+  "link#instagram-novaHome": {
+    "props": {
+      "href": "https://www.instagram.com/pensemadu/",
+      "blockClass": "link-redesSociais-novaHome"
+    },
+    "children": [
+      "image#instagram-novaHome"
+    ]
+  },
+  "link#youtube-novaHome": {
+    "props": {
+      "href": "#",
+      "blockClass": "link-redesSociais-novaHome"
+    },
+    "children": [
+      "image#youtube-novaHome"
+    ]
+  },
+  "link#tiktok-novaHome": {
+    "props": {
+      "href": "https://www.tiktok.com/@pensemadu",
+      "blockClass": "link-redesSociais-novaHome"
+    },
+    "children": [
+      "image#tiktok-novaHome"
+    ]
+  },
+  "link#facebook-novaHome": {
+    "props": {
+      "href": "https://www.facebook.com/mfmmadu/",
+      "blockClass": "link-redesSociais-novaHome"
+    },
+    "children": [
+      "image#facebook-novaHome"
+    ]
+  },
+  "link#pinterest-novaHome": {
+    "props": {
+      "href": "https://br.pinterest.com/pensemadu/",
+      "blockClass": "link-redesSociais-novaHome"
+    },
+    "children": [
+      "image#pinterest-novaHome"
+    ]
+  },
+  "image#instagram-novaHome": {
+    "props": {
+      "blockClass": "img-icones-redesSociais-novaHome",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/50dddb5a-eb9f-4b6e-9456-cd8e05b5fabd___cd34e5f1cd48240a57498281beb647f7.webp",
+      "alt": "Icon Instagram"
+    }
+  },
+  "image#youtube-novaHome": {
+    "props": {
+      "blockClass": "img-icones-redesSociais-novaHome",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/281ccf8d-cb80-45c8-b5ae-6c23081d52d9___9dc59d753d35ed8747ee91f2502d5799.webp",
+      "alt": "Icon Youtube"
+    }
+  },
+  "image#tiktok-novaHome": {
+    "props": {
+      "blockClass": "img-icones-redesSociais-novaHome",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6ded98ca-08fd-4109-ab3b-43084e506106___c8b6cfe0e6eaa830d2f55938113c1d9d.webp",
+      "alt": "Icon TikTok"
+    }
+  },
+  "image#facebook-novaHome": {
+    "props": {
+      "blockClass": "img-icones-redesSociais-novaHome",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/84ee849f-ce0a-4573-b609-fca0486fff95___38ebb91eb19107339b0749ae24390e77.webp",
+      "alt": "Icon Facebook"
+    }
+  },
+  "image#pinterest-novaHome": {
+    "props": {
+      "blockClass": "img-icones-redesSociais-novaHome",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7a46e4f6-3504-4053-8b23-d0d2bf2835e9___05cd9a04d02d0f3895bb7337224119c3.webp",
+      "alt": "Icon Pinterest"
+    }
+  }
+}
