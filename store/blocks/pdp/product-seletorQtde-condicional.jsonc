@@ -325,6 +325,12 @@
           "arguments": {
             "id": "521"
           }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "353"
+          }
         }
       ],
       "matchType": "any",
