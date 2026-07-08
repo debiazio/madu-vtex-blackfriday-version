@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#novidades-novahome": {
+    "props": {
+      "blockClass": "linha-recebaNovidades-novaHome",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#texto-receba-novaHome",
+      "rich-text#texto-provisorio"
+    ]
+  },
+  "rich-text#texto-receba-novaHome": {
+    "props": {
+      "blockClass": "texto-receba-novahome",
+      "text": "### Receba ofertas e novidades da Mad.U"
+    }
+  },
+  "rich-text#texto-provisorio": {
+    "props": {
+      "blockClass": "texto-receba-novahome",
+      "text": "provisorio"
+    }
+  }
+}

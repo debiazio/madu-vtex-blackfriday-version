@@ -1,0 +1,27 @@
+{
+  "responsive-layout.desktop#video-novaHome": {
+    "children": [
+      "flex-layout.row#linha-videoDesktop-novaHome"
+    ]
+  },
+  "flex-layout.row#linha-videoDesktop-novaHome": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "linha-video-novaHome"
+    },
+    "children": [
+      "video#videoDesktop-maduHome"
+    ]
+  },
+  "video#videoDesktop-maduHome": {
+    "props": {
+      "height": "600px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "controlsType": "native",
+      "blockClass": "video-maduhome",
+      "src": "https://stermax.com.br/images_idealine/desktop-video-madu-hospitalar2026-novahome.mp4"
+    }
+  }
+}

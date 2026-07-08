@@ -1,5 +1,5 @@
 {
-  "store.custom#novahome":{
+  "store.custom#novahome": {
     "blocks": [
       "flex-layout.row#banner-inicial-novaHome",
       "flex-layout.row#novahome-conhecaNossasLinhas",
@@ -8,7 +8,10 @@
       "flex-layout.row#linha-maisVendidosExtra-novaHome",
       "flex-layout.row#linha-maisVendidosExpand-novaHome",
       "flex-layout.row#linha-nossosClientes",
-      "flex-layout.row#linha-nossasRedesSociais-novaHome"
+      "responsive-layout.desktop#video-novaHome",
+      "flex-layout.row#linha-nossasRedesSociais-novaHome",
+      "flex-layout.row#linhaFAQs-maduset",
+      "flex-layout.row#novidades-novahome"
     ]
   }
 }

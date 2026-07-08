@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#linha-fag-novahome": {
+    "props": {
+      "blockClass": "linhaFAQs-maduset",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textos-faq-novaHome",
+      "flex-layout.row#disclosure-faq-novaHome"
+    ]
+  },
+  "flex-layout.row#textos-faq-novaHome": {
+    "props": {
+      "blockClass": "textos-faq-maduset"
+    },
+    "children": [
+      "rich-text#tituloFAQs-novaHome",
+      "rich-text#subTituloFAQs-novaHome"
+    ]
+  },
+  "rich-text#tituloFAQs-novaHome": {
+    "props": {
+      "blockClass": "titulo-kitsprontos-maduset",
+      "text": "### FAQ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#subTituloFAQs-novaHome": {
+    "props": {
+      "blockClass": "subtitulo-kitsprontos-maduset",
+      "text": "Perguntas frequentes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#disclosure-faq-novaHome":{
+    
+  }
+}

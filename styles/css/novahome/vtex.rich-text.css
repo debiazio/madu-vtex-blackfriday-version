@@ -1,3 +1,14 @@
+.headingLevel3--texto-receba-novahome {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 103%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
+}
+
 .paragraph--titulo-nossasRedes-novaHome {
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;
