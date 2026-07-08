@@ -1,20 +1,31 @@
-.paragraph{
-  font-family: "Poppins", sans-serif!important;
+.headingLevel4--title-newsletter {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 103%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
 }
 
-.container--manual-uso-texto{
+.paragraph {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.container--manual-uso-texto {
   padding: 16px 32px;
 }
 
 .list--manual-uso-texto,
-.paragraph--manual-uso-texto{
-  color:#727273;
+.paragraph--manual-uso-texto {
+  color: #727273;
   font-family: "Poppins";
   font-weight: 400;
   text-align: justify;
 }
 
-.container--contato-texto{
+.container--contato-texto {
   padding-bottom: 32px;
 
 }
@@ -393,7 +404,7 @@
   color: #686868;
 }
 
-.container--subtitulo-banner1-madubox .stretchChildrenWidth{
+.container--subtitulo-banner1-madubox .stretchChildrenWidth {
   width: 100% !important;
 }
 
@@ -473,7 +484,7 @@
   font-size: 16px;
   font-weight: 500;
   color: #000;
-  font-family: "Poppins", Sans-serif!important;
+  font-family: "Poppins", Sans-serif !important;
 }
 
 .heading--texto-modal-modal {
@@ -512,11 +523,11 @@
   text-transform: capitalize;
   line-height: 1.1em;
   margin: 40px 0 0;
-  font-family: "Poppins", Sans-serif!important;
+  font-family: "Poppins", Sans-serif !important;
 }
 
-.paragraph--subtitulo-shopBy{
-  font-family: "Poppins", Sans-serif!important;
+.paragraph--subtitulo-shopBy {
+  font-family: "Poppins", Sans-serif !important;
 }
 
 .container--frase-cupom-top {
@@ -545,7 +556,7 @@
 
 .strong--mais-vendidos-text {
   color: #8282C8;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .container--mais-vendidos-text {
@@ -568,7 +579,7 @@
   margin: 0;
   color: white;
   border-radius: 30px;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .paragraph--botao-atendimento:hover {
@@ -739,7 +750,7 @@
   color: #000;
   line-height: 1.1;
   margin: 5px;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .flexColChild--contato-col1 {
@@ -748,39 +759,33 @@
 
 /* RODAPÉ */
 .paragraph--subtitle-logo-madu {
-  font-family: "Poppins", Sans-serif!important;
-  margin: 0;
+  font-family: "Poppins", Sans-serif !important;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 14px;
-  font-weight: bold;
-  margin-left: 13px;
-  color: white;
+  line-height: 122%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #555555;
+  padding: 0px 34px 45px 34px;
 }
 
 .paragraph--link-footer {
-  font-family: "Poppins", sans-serif!important;
-  font-size: 13px;
-  color: white;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  line-height: 122%;
+  letter-spacing: 0%;
   margin: 0;
-  transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
-
-.paragraph--link-footer:hover {
-  color: #fff;
-  transition: color 0.3s ease;
-}
 
 .container--title-newsletter {
   justify-content: center;
 }
 
-.heading--title-newsletter {
-  font-family: "Poppins SemiBold";
-  font-size: 18px;
-  letter-spacing: -.6px;
-  color: #242424;
-}
+
 
 .container--credits {
   justify-content: center;
@@ -789,15 +794,23 @@
 }
 
 .paragraph--credits {
-  margin: 9px 0 13px;
-  color: white;
-  font-size: 12px;
+  font-family: "Poppins", Sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  line-height: 122%;
+  letter-spacing: 0%;
+
 }
 
 .paragraph--title-footer {
-  margin: 0 0 14px;
-  color: white;
-  font: 14px "Poppins SemiBold";
+  font-family: "Poppins", Sans-serif !important;
+  font-weight: 900;
+  font-size: 20px;
+  color: #000000;
+  line-height: 122%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
 }
 
 
@@ -897,7 +910,11 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
-  .paragraph--subtitulo-shopBy{
+  .headingLevel4--title-newsletter {
+    padding: 0 40px;
+  }
+
+  .paragraph--subtitulo-shopBy {
     padding: 0 20px;
   }
 
@@ -946,9 +963,6 @@
     align-items: center;
   }
 
-  .flexCol--footer-2-desktop {
-    margin-left: 15px;
-  }
 
   .paragraph--subtitle-logo-madu {
     margin-left: 0;
@@ -971,12 +985,6 @@
 
   .paragraph--link-footer {
     font-size: 12px;
-  }
-
-  .paragraph--title-footer {
-    font: 12px "Poppins SemiBold";
-    color: white;
-    margin: 20px 0px;
   }
 
   .paragraph--produtos-relacionados {

@@ -918,17 +918,19 @@
 }
 
 /* RODAPE  */
+
+.imageElement--footer-transportadoras,
 .imageElement--logo-rede-social {
   transition: scale 0.3s ease;
 }
 
+.imageElement--footer-transportadoras,
 .imageElement--logo-rede-social:hover {
   scale: 1.2;
   transition: scale 0.3s ease-in-out;
 }
 
 .imageElement--logo-branca-footer {
-  width: 140px;
   transition: scale 0.3s ease-in-out;
 }
 
@@ -961,8 +963,8 @@
 }
 
 .imageElement--icones-footer {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
 }
 
 .searchResultContainer--busca-desktop {

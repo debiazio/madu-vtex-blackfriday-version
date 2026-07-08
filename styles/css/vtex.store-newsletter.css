@@ -1,3 +1,10 @@
+.newsletterForm--newsletter-form-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9px;
+}
+
 /* CSS ROLETA ABAIXO  */
 .defaultErrorMessage--formulario-roleta {
   color: #ffffff
@@ -147,6 +154,7 @@
   min-height: auto;
   border: 0;
   border-radius: 20px;
+  height: 32px;
 }
 
 .nameInputContainer :global(.vtex-styleguide-9-x-input),
@@ -159,22 +167,34 @@
 
 .nameInputContainer :global(.vtex-styleguide-9-x-input)::placeholder,
 .emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
-  color: #000;
+  color: #9E9E9E;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 103%;
+  letter-spacing: 0%;
+
 }
 
 .formSubmitContainer :global(.vtex-button__label) {
   padding: 13px 30px !important;
-  background-color: #8282C8;
-  font-family: "Poppins", Sans-serif!important;
-  font-weight: 600;
-  color: #FFF;
-  border-radius: 30px 30px 30px 30px;
-  padding: 14px;
-  font-size: 13px;
+  background-color: #4CAB86;
+  font-family: Poppins;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+color: #FFFFFF;
+border-radius: 30px;
+line-height: 122%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+
 }
+
 .formSubmitContainer :global(.vtex-button__label):hover {
-  background-color: #0a1b31;
-  color: #969696;
+  background-color: #80C2A8;
+  color: #FFFFFF;
 }
 
 .newsletterForm :global(.vtex-input__error) {
@@ -192,14 +212,15 @@
 /* MOBILE */
 @media screen and (max-width: 1024px) {
   .newsletterForm {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
+    padding: 0 40px;
   }
 
   .nameInputContainer,
   .emailInputContainer,
-  .phoneInputConteiner  {
+  .phoneInputConteiner {
     width: 100%;
   }
 
@@ -232,7 +253,7 @@
     gap: unset;
   }
 
-    .formSubmitContainer--submit-button :global(.vtex-button__label) {
+  .formSubmitContainer--submit-button :global(.vtex-button__label) {
     width: unset;
   }
 

@@ -7,14 +7,13 @@
   },
   "footer-layout.desktop": {
     "children": [
-
-      // "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
   },
   // BOTAO WHATSAPP FLUTUANTE
-  "flex-layout.row#botao-atendimento-whatsapp":{
+  "flex-layout.row#botao-atendimento-whatsapp": {
     "props": {
       "blockClass": "conteiner-botao-atendimento-whatsapp"
     },
@@ -33,7 +32,7 @@
       "image#atendimento-whatsapp"
     ]
   },
-  "image#atendimento-whatsapp":{
+  "image#atendimento-whatsapp": {
     "props": {
       "src": "assets/whatsapp-branco.svg",
       "alt": "Atendimento WhatsApp",
@@ -55,18 +54,23 @@
       "newsletter-form"
     ],
     "props": {
-      "blockClass": "newsletter-row"
+      "blockClass": "newsletter-row",
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
     }
   },
   "rich-text#title-newsletter": {
     "props": {
-      "text": "#### RECEBA NOVIDADES E PROMOÇÕES DA MAD.U",
+      "text": "#### Receba ofertas e novidades da Mad.U",
       "blockClass": "title-newsletter"
     }
   },
   "newsletter-form": {
+    "props": {
+      "blockClass": "newsletter-form-footer"
+    },
     "children": [
-      "newsletter-input-name",
+      // "newsletter-input-name",
       "newsletter-input-email",
       "newsletter-submit"
     ]
@@ -78,7 +82,8 @@
   },
   "newsletter-input-email": {
     "props": {
-      "placeholderText": "E-mail"
+      "blockClass": "input-email-newsletter",
+      "placeholderText": "Digite seu e-mail"
     }
   },
   "newsletter-submit": {
@@ -89,27 +94,30 @@
   "flex-layout.row#footer-2-desktop": {
     "children": [
       "flex-layout.col#footer-logo-footer",
-      "flex-layout.col#footer-atendimento",
       "flex-layout.col#footer-institucional",
-      "flex-layout.col#footer-siga-nos"
+      "flex-layout.col#footer-atendimento",
+      "flex-layout.col#footer-pagueCom"
     ],
     "props": {
       "blockClass": "footer-2-desktop",
-      "colSizing": "auto"
+      "colSizing": "equal"
     }
   },
   "flex-layout.col#footer-logo-footer": {
     "children": [
-      "image#logo-branca-footer",
+      "image#logo-branca-footer-novahome",
       "rich-text#subtitle-logo-madu"
     ],
     "props": {
-      "blockClass": "footer-2-desktop"
+      "blockClass": [
+        "footer-2-desktop",
+        "coluna-logo-footer"
+      ]
     }
   },
-  "image#logo-branca-footer": {
+  "image#logo-branca-footer-novahome": {
     "props": {
-      "src": "assets/logo-madu-branca.png",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e785ffb2-b136-4bcc-933c-207c5a6908cf___813eb61214eca7736172c564b03d208d.webp",
       "alt": "Logo",
       "blockClass": "logo-branca-footer",
       "maxWidth": "200px"
@@ -117,7 +125,7 @@
   },
   "rich-text#subtitle-logo-madu": {
     "props": {
-      "text": "A maior linha de mobiliário técnico do mundo!",
+      "text": "A maior linha de \n mobiliário técnico \n do mundo!",
       "blockClass": "subtitle-logo-madu"
     }
   },
@@ -151,7 +159,7 @@
   },
   "image#email-footer": {
     "props": {
-      "src": "assets/mail.svg",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d87d5d69-dd2f-4a94-83da-344c15d454ad___ba2d4c7a440710cc3b7cfc66232a810a.webp",
       "alt": "logo de email",
       "blockClass": "icones-footer"
     }
@@ -176,7 +184,7 @@
   },
   "image#footer-whatsapp": {
     "props": {
-      "src": "assets/whatsapp-branco.svg",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/004a68af-6588-48ee-bf22-0692871163c9___5582445a3a40f1201bee1363d4cf3106.webp",
       "alt": "Ícone whatsapp",
       "blockClass": "icones-footer"
     }
@@ -191,8 +199,7 @@
   },
   "flex-layout.row#footer-endereco": {
     "props": {
-      "blockClass": "content-footer-atendimento",
-      "preventHorizontalStretch": true
+      "blockClass": "content-footer-atendimento"
     },
     "children": [
       "image#endereco-footer",
@@ -201,15 +208,16 @@
   },
   "image#endereco-footer": {
     "props": {
-      "src": "assets/localization.svg",
-      "alt": "logo de email",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/2e35802b-5022-4c99-81cd-86f12cbc22a4___954251e8e691b216db2bcbabf2a2f400.webp",
+      "alt": "logo de maps",
       "blockClass": "icones-footer"
     }
   },
   "link#endereco-footer": {
     "props": {
-      "href": "https://www.google.com/maps/dir/?api=1&destination=R.+Inajá,+695,+Jardim+Pedro+Demeterco",
-      "blockClass": "link-footer"
+      "href": "https://www.google.com/maps/dir/?api=1&destination=R.+Jandaia+do+Sul,+471+-+Emiliano+Perneta,+Pinhais+-+PR,+83324-440",
+      "blockClass": "link-footer",
+      "target": "_blank"
     },
     "children": [
       "rich-text#endereco"
@@ -217,7 +225,7 @@
   },
   "rich-text#endereco": {
     "props": {
-      "text": "R. Inajá, 695 - Jardim Pedro Demeterco, Pinhais - PR, 83324-225",
+      "text": "R. Jandaia do Sul, 471 - Emiliano \n Perneta, Pinhais - PR, 83324-440",
       "blockClass": "link-footer"
     }
   },
@@ -259,21 +267,53 @@
       "blockClass": "title-footer"
     }
   },
-  "flex-layout.col#footer-siga-nos": {
+  "flex-layout.col#footer-pagueCom": {
     "children": [
-      "rich-text#title-footer-siga-nos",
+      "rich-text#title-footer-pagueCom",
       "flex-layout.row#redes-sociais",
-      "flex-layout.row#grupomfm"
+      "rich-text#title-footer-formasEnvio",
+      "flex-layout.row#linha-imgs-formasEnvio"
     ],
     "props": {
       "colSizing": "auto",
-      "blockClass": "footer-2-desktop-1"
+      "blockClass": "footer-2-desktop"
     }
   },
-  "rich-text#title-footer-siga-nos": {
+  "rich-text#title-footer-pagueCom": {
     "props": {
-      "text": "Siga-nos",
+      "text": "pague com",
       "blockClass": "title-footer"
+    }
+  },
+  "rich-text#title-footer-formasEnvio": {
+    "props": {
+      "text": "formas de envio",
+      "blockClass": "title-footer"
+    }
+  },
+  "flex-layout.row#linha-imgs-formasEnvio": {
+    "props": {
+      "blockClass": "conteiner-imgs-trans",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#movii",
+      "image#jamef"
+    ]
+  },
+  "image#movii": {
+    "props": {
+      "blockClass": "footer-transportadoras",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/005d22b9-8037-495d-9013-394ff21f923b___5f81c76bbef01ccc18d09c084f2c6456.webp",
+      "alt": "Movii"
+    }
+  },
+  "image#jamef": {
+    "props": {
+      "blockClass": "footer-transportadoras",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e91e2f49-398d-41af-92da-97345731a6b9___58bbc402db53dc0ee35b4be0ca9f083c.webp",
+      "alt": "Jamef"
     }
   },
   "flex-layout.row#redes-sociais": {
@@ -282,84 +322,59 @@
       "colSizing": "auto"
     },
     "children": [
-      "image#footer-facebook",
-      "image#footer-instagram",
-      "image#footer-vimeo",
-      "image#footer-linkedin"
+      "image#footer-visa",
+      "image#footer-master",
+      "image#footer-elo",
+      "image#footer-americanEx",
+      "image#footer-boleto",
+      "image#footer-pix"
     ]
   },
-  "image#footer-facebook": {
+  "image#footer-visa": {
     "props": {
       "blockClass": "logo-rede-social",
-      "src": "assets/icons/fb.svg",
-      "alt": "Facebook",
-      "link": {
-        "openNewTab": true,
-        "url": "https://www.facebook.com/mfmmadu"
-      }
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f4bd8fb7-61c0-4b21-a0a4-5fbd97b16603___d222791db15bd8a0ce9509f59ca1a8f3.webp",
+      "alt": "Visa Card"
     }
   },
-  "image#footer-instagram": {
+  "image#footer-master": {
     "props": {
       "blockClass": "logo-rede-social",
-      "src": "assets/icons/insta.svg",
-      "alt": "Instagram",
-      "link": {
-        "openNewTab": true,
-        "url": "https://www.instagram.com/madumfm/"
-      }
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/85886022-7314-4468-a2fe-f72e81a6585b___c0f607e8ec35de1bfa707e10dbe2e934.webp",
+      "alt": "Mastercard"
     }
   },
-  "image#footer-vimeo": {
+  "image#footer-elo": {
     "props": {
       "blockClass": "logo-rede-social",
-      "src": "assets/icons/vimeo.svg",
-      "alt": "Vimeo",
-      "link": {
-        "openNewTab": true,
-        "url": "https://vimeo.com/user154510707"
-      }
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a1dc85f9-3824-4e02-9a10-6aa446bfd2e4___c914f1e04bd64846dd432f82a8166795.webp",
+      "alt": "Elo card"
     }
   },
-  "image#footer-linkedin": {
+  "image#footer-americanEx": {
     "props": {
       "blockClass": "logo-rede-social",
-      "src": "assets/icons/linked in.svg",
-      "alt": "Linkedin",
-      "link": {
-        "openNewTab": true,
-        "url": "https://www.linkedin.com/company/madumfm/"
-      }
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6ada8a8d-21b0-4dd9-8956-c990dfbb3787___e5ea5a0dd594b7ba18c0c6e63d0d6f4d.webp",
+      "alt": "American Express card"
     }
   },
-  "flex-layout.row#grupomfm": {
+  "image#footer-boleto": {
     "props": {
-      "blockClass": "logo-grupo-mfm"
-    },
-    "children": [
-      "link#link-grupo-mfm"
-    ]
+      "blockClass": "logo-rede-social",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/0b40d04f-39f6-4018-bb04-5f1b2a6adb43___762dd903cab692df5866e504b464ab02.webp",
+      "alt": "Boleto"
+    }
   },
-  "link#link-grupo-mfm": {
+  "image#footer-pix": {
     "props": {
-      "blockClass": "link-grupo-mfm",
-      "href": "https://grupomfm.com.br"
-    },
-    "children": [
-      "image#logo-grupomfm"
-    ]
-  },
-  "image#logo-grupomfm": {
-    "props": {
-      "src": "assets/logo-grupo-1.png.webp",
-      "blockClass": "logo-nav-grupo-mfm"
+      "blockClass": "logo-rede-social",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/72017afe-bb31-4c0a-8375-420a33ca21df___9a2fc9c319e40921f4620791e9a797f4.webp",
+      "alt": "Pix"
     }
   },
   "flex-layout.row#footer-3-desktop": {
     "children": [
-      "rich-text#footer-3-desktop",
-      "image#payments",
-      "flex-layout.col#footer-seguranca"
+      "rich-text#footer-3-desktop"
     ],
     "props": {
       "blockClass": "credits"
@@ -432,7 +447,7 @@
   },
   "footer-layout.mobile": {
     "children": [
-      // "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
