@@ -1,4 +1,9 @@
 {
+  "responsive-layout.desktop#conhecaNosasLinhas": {
+    "children": [
+      "flex-layout.row#novahome-conhecaNossasLinhas"
+    ]
+  },
   "flex-layout.row#novahome-conhecaNossasLinhas": {
     "props": {
       "blockClass": "linha-novaHome",
@@ -47,15 +52,15 @@
       "alt": "Linha One"
     }
   },
-  "link#two-Linhas-novaHome": {
-    "props": {
-      "href": "",
-      "blockClass": "cards-linhas-novaHome"
-    },
-    "children": [
-      "image#cardTwo-linhas-novaHome"
-    ]
-  },
+  // "link#two-Linhas-novaHome": {
+  //   "props": {
+  //     "href": "",
+  //     "blockClass": "cards-linhas-novaHome"
+  //   },
+  //   "children": [
+  //     "image#cardTwo-linhas-novaHome"
+  //   ]
+  // },
   "image#cardTwo-linhas-novaHome": {
     "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/088a7e18-cc71-470d-82f2-ccc2878f5b44___82234f1647e00dbb3e58774abd8f984b.webp",

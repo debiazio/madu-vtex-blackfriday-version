@@ -1,0 +1,56 @@
+{
+  "responsive-layout.mobile#conhecaNosasLinhas":{
+    "children": [
+      "flex-layout.row#novahome-mobile-conhecaNossasLinhas"
+    ]
+  },
+  "flex-layout.row#novahome-mobile-conhecaNossasLinhas":{
+     "props": {
+      "blockClass": "linha-mobile-novaHome",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-conhecaNossasLinhas-mobile-maduHome",
+      "flex-layout.row#linhaSliderMobile-cards-conhecaLinhas-maduHome"
+    ]
+  },
+    "rich-text#titulo-conhecaNossasLinhas-mobile-maduHome": {
+    "props": {
+      "text": "# conheça \n # as **linhas**",
+      "blockClass": "titulo--maduHome"
+    }
+  },
+    "flex-layout.row#linhaSliderMobile-cards-conhecaLinhas-maduHome": {
+    "props": {
+      "blockClass": "linhaSliderMobile-cards-conhecaLinhas-maduHome",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "slider-layout#slider-mobile-Cards-novaHome"
+    ]
+  },
+  "slider-layout#slider-mobile-Cards-novaHome":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "slider-mobile-Cards-novaHome",
+      "showPaginationDots": "never"
+    },
+    "children": [
+       "link#one-Linhas-novaHome",
+      // "link#two-Linhas-novaHome",
+      "link#extra-Linhas-novaHome",
+      "link#box-Linhas-novaHome",
+      "link#set-Linhas-novaHome",
+      "link#expand-Linhas-novaHome",
+      "link#express-Linhas-novaHome"
+    ]
+  }
+}

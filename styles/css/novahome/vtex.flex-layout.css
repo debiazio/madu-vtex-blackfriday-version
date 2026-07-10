@@ -1,3 +1,15 @@
+.flexRow--linhaSliderMobile-cards-conhecaLinhas-maduHome {
+  padding-top: 14px;
+  padding-bottom: 38px;
+}
+
+
+.flexRowContent--linha-mobile-novaHome {
+  padding-left: 37px;
+  padding-top: 47px;
+}
+
+
 .flexRowContent--linha-icones-redesSociais-novaHome {
   display: flex;
   flex-direction: row;
@@ -86,4 +98,36 @@
   background-color: #E7E1DB;
   border-radius: 0 0 10px 10px;
 
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .flexRowContent--prateleira-novaHome {
+    max-width: unset;
+  }
+
+  .flexRow--linha-maisVendidos-novaHome {
+    display: unset;
+  }
+
+  .flexRowContent--segmentos-linha {
+    background-color: #F4F4F4;
+  }
+
+  .flexRowContent--linha-novaHome {
+    
+    padding-left: 37px;
+  }
+
+  .flexRow--linhaSlider-navegueSegmentos-novaHome {
+    min-width: unset;
+  }
+
+  .flexRow--segmentos-linha {
+    display: unset;
+  }
+
+  .flexRowContent--linha-novaHome {
+    max-width: unset;
+  }
 }
