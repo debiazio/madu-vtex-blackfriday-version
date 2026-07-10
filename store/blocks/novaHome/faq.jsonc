@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#linha-fag-novahome": {
+  "flex-layout.row#linhaFAQs-novaHome": {
     "props": {
       "blockClass": "linhaFAQs-maduset",
       "fullWidth": true
@@ -34,7 +34,566 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#disclosure-faq-novaHome":{
-    
+  "flex-layout.row#disclosure-faq-novaHome": {
+    "props": {
+      "blockClass": "disclosure-faq-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "disclosure-layout-group#faq-novaHome"
+    ]
+  },
+  "disclosure-layout-group#faq-novaHome": {
+    "props": {
+      "blockClass": "group-faq-maduset"
+    },
+    "children": [
+      "disclosure-layout#oqEhMadu-novaHome",
+      "disclosure-layout#paraQuaisSegmentos-novaHome",
+      "disclosure-layout#beneficiosPrincipais-novaHome",
+      "disclosure-layout#podeSerPersonalizada-novaHome",
+      "disclosure-layout#compativelCarrinhosGavetas-novaHome",
+      "disclosure-layout#identificacaoPorCores-novaHome",
+      "disclosure-layout#possuiPatente-novaHome",
+      "disclosure-layout#modulosSubstituidosReorganizados-novaHome",
+      "disclosure-layout#materialFabricacao-novaHome",
+      "disclosure-layout#limpezaOrganizadores-novaHome",
+      "disclosure-layout#solicitarOrcamento-novaHome",
+      "disclosure-layout#atendimentoBrasil-novaHome",
+      "disclosure-layout#trocaPlacaEmbalagem-novaHome",
+      "disclosure-layout#contatoMadu-novaHome"
+    ]
+  },
+  "disclosure-layout#oqEhMadu-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#oqEhMadu-novaHome",
+      "disclosure-content#oqEhMadu-novaHome"
+    ]
+  },
+  "disclosure-trigger#oqEhMadu-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-oqEhMadu-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-oqEhMadu-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O que é a MAD.U?"
+    }
+  },
+  "disclosure-content#oqEhMadu-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-oqEhMadu-novaHome"
+    ]
+  },
+  "rich-text#content-oqEhMadu-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A MAD.U desenvolve mobiliário modular de alta qualidade para hospitais, clínicas, consultórios, laboratórios, farmácias, veterinárias, estéticas, escritórios e diversos outros ambientes profissionais. Nossos produtos combinam durabilidade, higiene, organização e personalização."
+    }
+  },
+  "disclosure-layout#paraQuaisSegmentos-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#paraQuaisSegmentos-novaHome",
+      "disclosure-content#paraQuaisSegmentos-novaHome"
+    ]
+  },
+  "disclosure-trigger#paraQuaisSegmentos-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-paraQuaisSegmentos-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-paraQuaisSegmentos-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Os produtos podem ser personalizados?"
+    }
+  },
+  "disclosure-content#paraQuaisSegmentos-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-paraQuaisSegmentos-novaHome"
+    ]
+  },
+  "rich-text#content-paraQuaisSegmentos-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. Grande parte dos produtos da MAD.U é modular e permite diversas configurações de gavetas, acessórios, cores e opcionais, conforme a necessidade de cada projeto."
+    }
+  },
+  "disclosure-layout#beneficiosPrincipais-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#beneficiosPrincipais-novaHome",
+      "disclosure-content#beneficiosPrincipais-novaHome"
+    ]
+  },
+  "disclosure-trigger#beneficiosPrincipais-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-beneficiosPrincipais-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-beneficiosPrincipais-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Quais são os materiais utilizados?"
+    }
+  },
+  "disclosure-content#beneficiosPrincipais-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-beneficiosPrincipais-novaHome"
+    ]
+  },
+  "rich-text#content-beneficiosPrincipais-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Nossos móveis são produzidos com materiais de alta resistência, desenvolvidos para oferecer longa vida útil, fácil higienização e excelente acabamento, ideais para ambientes que exigem altos padrões de limpeza."
+    }
+  },
+  "disclosure-layout#podeSerPersonalizada-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#podeSerPersonalizada-novaHome",
+      "disclosure-content#podeSerPersonalizada-novaHome"
+    ]
+  },
+  "disclosure-trigger#podeSerPersonalizada-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-podeSerPersonalizada-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-podeSerPersonalizada-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Os móveis são indicados apenas para hospitais?"
+    }
+  },
+  "disclosure-content#podeSerPersonalizada-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-podeSerPersonalizada-novaHome"
+    ]
+  },
+  "rich-text#content-podeSerPersonalizada-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Não. Embora sejam amplamente utilizados na área hospitalar, nossos produtos também atendem clínicas médicas, odontológicas, veterinárias, centros estéticos, laboratórios, farmácias, escritórios, escolas, indústrias e diversos outros segmentos."
+    }
+  },
+  "disclosure-layout#compativelCarrinhosGavetas-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#compativelCarrinhosGavetas-novaHome",
+      "disclosure-content#compativelCarrinhosGavetas-novaHome"
+    ]
+  },
+  "disclosure-trigger#compativelCarrinhosGavetas-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-compativelCarrinhosGavetas-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-compativelCarrinhosGavetas-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Como escolher a configuração ideal?"
+    }
+  },
+  "disclosure-content#compativelCarrinhosGavetas-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-compativelCarrinhosGavetas-novaHome"
+    ]
+  },
+  "rich-text#content-compativelCarrinhosGavetas-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Nossa equipe comercial pode auxiliar na escolha da melhor configuração de acordo com sua rotina, espaço disponível e necessidade de armazenamento."
+    }
+  },
+  "disclosure-layout#identificacaoPorCores-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#identificacaoPorCores-novaHome",
+      "disclosure-content#identificacaoPorCores-novaHome"
+    ]
+  },
+  "disclosure-trigger#identificacaoPorCores-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-identificacaoPorCores-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-identificacaoPorCores-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Quais são as formas de pagamento?"
+    }
+  },
+  "disclosure-content#identificacaoPorCores-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-identificacaoPorCores-novaHome"
+    ]
+  },
+  "rich-text#content-identificacaoPorCores-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Aceitamos:\n\n- PIX (com 5% de desconto);\n- Cartão de crédito em até 5x sem juros;\n- Boleto faturado para empresas, sujeito à análise de crédito."
+    }
+  },
+  "disclosure-layout#possuiPatente-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#possuiPatente-novaHome",
+      "disclosure-content#possuiPatente-novaHome"
+    ]
+  },
+  "disclosure-trigger#possuiPatente-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-possuiPatente-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-possuiPatente-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Qual é o prazo de fabricação?"
+    }
+  },
+  "disclosure-content#possuiPatente-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-possuiPatente-novaHome"
+    ]
+  },
+  "rich-text#content-possuiPatente-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### O prazo médio de fabricação é de 10 dias úteis, podendo variar conforme o volume do pedido e a personalização escolhida."
+    }
+  },
+  "disclosure-layout#modulosSubstituidosReorganizados-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#modulosSubstituidosReorganizados-novaHome",
+      "disclosure-content#modulosSubstituidosReorganizados-novaHome"
+    ]
+  },
+  "disclosure-trigger#modulosSubstituidosReorganizados-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-modulosSubstituidosReorganizados-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-modulosSubstituidosReorganizados-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Qual é o prazo de entrega?"
+    }
+  },
+  "disclosure-content#modulosSubstituidosReorganizados-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-modulosSubstituidosReorganizados-novaHome"
+    ]
+  },
+  "rich-text#content-modulosSubstituidosReorganizados-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### O prazo de entrega depende da região e é informado durante o orçamento ou no fechamento da compra."
+    }
+  },
+  "disclosure-layout#materialFabricacao-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#materialFabricacao-novaHome",
+      "disclosure-content#materialFabricacao-novaHome"
+    ]
+  },
+  "disclosure-trigger#materialFabricacao-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-materialFabricacao-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-materialFabricacao-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Vocês entregam para todo o Brasil?"
+    }
+  },
+  "disclosure-content#materialFabricacao-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-materialFabricacao-novaHome"
+    ]
+  },
+  "rich-text#content-materialFabricacao-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. Realizamos entregas em todo o território nacional através de transportadoras parceiras."
+    }
+  },
+  "disclosure-layout#limpezaOrganizadores-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#limpezaOrganizadores-novaHome",
+      "disclosure-content#limpezaOrganizadores-novaHome"
+    ]
+  },
+  "disclosure-trigger#limpezaOrganizadores-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-limpezaOrganizadores-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-limpezaOrganizadores-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Os produtos chegam montados?"
+    }
+  },
+  "disclosure-content#limpezaOrganizadores-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-limpezaOrganizadores-novaHome"
+    ]
+  },
+  "rich-text#content-limpezaOrganizadores-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A maioria dos produtos é enviada montada ou com montagem extremamente simples, dependendo do modelo adquirido."
+    }
+  },
+  "disclosure-layout#solicitarOrcamento-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#solicitarOrcamento-novaHome",
+      "disclosure-content#solicitarOrcamento-novaHome"
+    ]
+  },
+  "disclosure-trigger#solicitarOrcamento-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-solicitarOrcamento-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-solicitarOrcamento-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### É possível comprar diretamente pelo site?"
+    }
+  },
+  "disclosure-content#solicitarOrcamento-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-solicitarOrcamento-novaHome"
+    ]
+  },
+  "rich-text#content-solicitarOrcamento-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. Diversos produtos já estão disponíveis para compra online. Configurações especiais ou projetos personalizados podem ser solicitados diretamente à nossa equipe comercial."
+    }
+  },
+  "disclosure-layout#atendimentoBrasil-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#atendimentoBrasil-novaHome",
+      "disclosure-content#atendimentoBrasil-novaHome"
+    ]
+  },
+  "disclosure-trigger#atendimentoBrasil-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-atendimentoBrasil-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-atendimentoBrasil-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Posso solicitar um orçamento para grandes quantidades?"
+    }
+  },
+  "disclosure-content#atendimentoBrasil-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-atendimentoBrasil-novaHome"
+    ]
+  },
+  "rich-text#content-atendimentoBrasil-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. Atendemos desde compras unitárias até projetos completos para hospitais, clínicas, laboratórios e empresas."
+    }
+  },
+  "disclosure-layout#trocaPlacaEmbalagem-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#trocaPlacaEmbalagem-novaHome",
+      "disclosure-content#trocaPlacaEmbalagem-novaHome"
+    ]
+  },
+  "disclosure-trigger#trocaPlacaEmbalagem-novaHome": {
+    "props": {
+      "blockClass": ["trigger-faq-maduset", "trocaPlacaEmbalagem"]
+    },
+    "children": [
+      "rich-text#trigger-trocaPlacaEmbalagem-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-trocaPlacaEmbalagem-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Como acompanhar meu pedido?"
+    }
+  },
+  "disclosure-content#trocaPlacaEmbalagem-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-trocaPlacaEmbalagem-novaHome"
+    ]
+  },
+  "rich-text#content-trocaPlacaEmbalagem-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Após a confirmação da compra, nossa equipe fornecerá as informações necessárias para acompanhamento da produção e envio."
+    }
+  },
+  "disclosure-layout#contatoMadu-novaHome": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#contatoMadu-novaHome",
+      "disclosure-content#contatoMadu-novaHome"
+    ]
+  },
+  "disclosure-trigger#contatoMadu-novaHome": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-contatoMadu-novaHome",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-contatoMadu-novaHome": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Como entrar em contato com a MAD.U?"
+    }
+  },
+  "disclosure-content#contatoMadu-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-contatoMadu-novaHome"
+    ]
+  },
+  "rich-text#content-contatoMadu-novaHome": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Você pode entrar em contato através do WhatsApp, formulário do site ou pelos demais canais oficiais de atendimento. Nossa equipe está pronta para esclarecer dúvidas e auxiliar na escolha do produto ideal."
+    }
   }
 }

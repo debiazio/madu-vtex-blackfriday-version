@@ -73,9 +73,10 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
-  /* .sliderTrack--prateleira-novaHome {
-    width: 200% !important;
-  } */
+  .sliderTrack--prateleira-novaHome{
+    width: 1000%!important;
+  }
+
 
   .sliderLeftArrow--slider-mobile-Cards-novaHome,
   .sliderArrows--slider-navegueSegmentos-novaHome {

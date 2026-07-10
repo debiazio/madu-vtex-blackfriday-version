@@ -7,7 +7,8 @@
     },
     "children": [
       "rich-text#titulo-nossosClientes-novaHome",
-      "flex-layout.row#linha-logosNossosClientes-novaHome"
+      "responsive-layout.desktop#nossosClientes-novaHome-desktop",
+      "responsive-layout.mobile#nossosClientes-novaHome-mobile"
     ]
   },
   "rich-text#titulo-nossosClientes-novaHome": {
@@ -16,7 +17,13 @@
       "text": "# nossos **clientes**"
     }
   },
-  "flex-layout.row#linha-logosNossosClientes-novaHome":{
+  // desktop
+  "responsive-layout.desktop#nossosClientes-novaHome-desktop": {
+    "children": [
+      "flex-layout.row#linha-logosNossosClientes-novaHome"
+    ]
+  },
+  "flex-layout.row#linha-logosNossosClientes-novaHome": {
     "props": {
       "blockClass": "linha-logosNossosClientes-novaHome"
     },
@@ -24,12 +31,88 @@
       "image#nossosClientes-novaHome"
     ]
   },
-  "image#nossosClientes-novaHome":{
+  "image#nossosClientes-novaHome": {
     "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1e95b9dd-d491-4310-a236-dd49a4f7da7c___a37f586d9cf82c4538651d2fe5c1aadc.webp",
       "alt": "Nossos clientes",
       "title": "Nossos clientes",
       "blockClass": "image-nossosClientes-novaHome"
+    }
+  },
+  // mobile
+  "responsive-layout.mobile#nossosClientes-novaHome-mobile": {
+    "children": [
+      "flex-layout.row#linha-imgs-nossosClientes-mobile"
+    ]
+  },
+  "flex-layout.row#linha-imgs-nossosClientes-mobile": {
+    "props": {
+      "blockClass": "linha-imgs-nossosClientes-mobile"
+    },
+    "children": [
+      "image#1-img",
+      "image#2-img",
+      "image#3-img",
+      "image#4-img",
+      "image#5-img",
+      "image#6-img",
+      "image#7-img",
+      "image#9-img",
+      "image#8-img"
+    ]
+  },
+  "image#1-img": {
+    "props": {
+      "blockClass": "icons-nossosClientes",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/0227c1fb-2109-4378-9f8c-feff3fa9fa2c___f95158228aba2505bb0322ad78148283.png"
+    }
+  },
+  "image#2-img": {
+    "props": {
+      "blockClass": "icons-nossosClientes",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/302b70ca-b7a6-44d9-baea-a96e3376c9a6___165116e69c4a9748cddd497fd54da4ef.png"
+    }
+  },
+  "image#3-img": {
+    "props": {
+      "blockClass": "icons-nossosClientes",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c1fad671-3181-4a77-947a-4639ea32b2af___15f4648071c427fc5fabeaa3937dc5cf.png"
+    }
+  },
+  "image#4-img": {
+    "props": {
+      "blockClass": "icons-nossosClientes",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f68264a4-0602-420b-b765-2f60cce40ad8___c81cc6a386ae47723720e14396c2892e.png"
+    }
+  },
+  "image#5-img": {
+    "props": {
+      "blockClass": "icons-nossosClientes",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/5e7c73dd-a8f6-43fc-bd3b-cfef82fec0cd___5bc370ab31239f70c3a7e9c91df3ea99.png"
+    }
+  },
+  "image#6-img": {
+    "props": {
+      "blockClass": "icons-nossosClientes",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6bd30941-bfbb-4f60-8590-ef98ed3e3af9___16692d9aa2430fcc2436c4e0ac7a7583.png"
+    }
+  },
+  "image#7-img": {
+    "props": {
+      "blockClass": "icons-nossosClientes",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/308da2b3-e8b3-4ce7-a919-9dd78dc442ec___8a10ec56ecc17f24c5fbb3b945570f1f.png"
+    }
+  },
+  "image#8-img": {
+    "props": {
+      "blockClass": "icons-nossosClientes",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/781de471-46ac-4728-a95e-98fd06b22d41___507ec9b233128d1f0439dd1bdfa43f8e.png"
+    }
+  },
+  "image#9-img": {
+    "props": {
+      "blockClass": "icons-nossosClientes",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c5d5209a-335d-49fd-adad-f5bc3019f660___f7f4ead2e57e10ed22683f848ce94884.png"
     }
   }
 }

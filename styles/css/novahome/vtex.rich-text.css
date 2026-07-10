@@ -70,10 +70,16 @@
   line-height: 103%;
   letter-spacing: 0%;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .container--titulo-nossasRedes-novaHome{
+    width: 60%;
+  }
+
+
   .container--titulo--maduHome{
     width: 50%;
   }

@@ -4,16 +4,20 @@
   border: none;
 }
 
-.videoContainer--video-banner-home{
+.videoContainer--video-banner-home {
   border: none;
   margin-bottom: 20px;
 }
 
-.videoElement--video-maduhome{
+.videoElement--video-maduhome {
   border-radius: 20px;
 }
 
 @media only screen and (min-width: 640px) {
+  .videoContainer--video-maduhome {
+    padding: 0 37px;
+  }
+
   .videoContainer {
     height: 700px;
   }

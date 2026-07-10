@@ -10,9 +10,10 @@
       "flex-layout.row#linha-maisVendidosExpand-novaHome",
       "flex-layout.row#linha-nossosClientes",
       "responsive-layout.desktop#video-novaHome",
+      "responsive-layout.mobile#video-novaHome",
       "flex-layout.row#linha-nossasRedesSociais-novaHome",
-      "flex-layout.row#linhaFAQs-maduset"
-      // "flex-layout.row#novidades-novahome"
+      "flex-layout.row#linhaFAQs-novaHome",
+      "flex-layout.row#novidades-novahome"
     ]
   }
 }

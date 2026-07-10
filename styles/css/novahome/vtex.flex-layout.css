@@ -102,8 +102,14 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linha-imgs-nossosClientes-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+
   .flexRowContent--prateleira-novaHome {
-    max-width: unset;
+    max-width: 90vw;
   }
 
   .flexRow--linha-maisVendidos-novaHome {
@@ -115,7 +121,7 @@
   }
 
   .flexRowContent--linha-novaHome {
-    
+
     padding-left: 37px;
   }
 
