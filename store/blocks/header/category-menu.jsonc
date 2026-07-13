@@ -8,11 +8,11 @@
       "menu-item#cat-carrinhos-alterado",
       "menu-item#cat-armarios",
       "menu-item#cat-estantes",
-      "menu-item#cat-acessorios-n",
       "menu-item#cat-organizadores",
       "menu-item#cat-linhas",
+      "menu-item#cat-acessorios-n",
       "menu-item#cat-ver-todos",
-      "menu-item#made-for-you",
+      "menu-item#sobre-a-madu",
       "menu-item#catalogo",
       "menu-item#atendimento"
     ]
@@ -374,8 +374,8 @@
         "type": "internal",
         "noFollow": false,
         "href": "/moveis",
-        "tagTitle": "+ Ver Todos",
-        "text": "+ Ver Todos"
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
       },
       "blockClass": "menu-principal-item"
     }
@@ -396,7 +396,7 @@
       ]
     }
   },
-  "menu-item#made-for-you": {
+  "menu-item#sobre-a-madu": {
     "props": {
       "id": "menu-item-made-for-you",
       "type": "custom",
@@ -405,8 +405,8 @@
         "type": "internal",
         "href": "/made-for-you",
         "noFollow": true,
-        "tagTitle": "Made for You",
-        "text": "Made for You"
+        "tagTitle": "Sobre a Madu",
+        "text": "Sobre a Madu"
       },
       "blockClass": "menu-principal-item"
     }
@@ -420,8 +420,8 @@
         "type": "internal",
         "href": "/catalogo",
         "noFollow": true,
-        "tagTitle": "Catálogo",
-        "text": "Catálogo"
+        "tagTitle": "Catálogos",
+        "text": "Catálogos"
       },
       "blockClass": "menu-principal-item"
     }
@@ -459,7 +459,7 @@
       "menu-item#cat-organizadores-mobile",
       "menu-item#nossas-linhas-mobile",
       "menu-item#cat-ver-todos-mobile",
-      "menu-item#made-for-you",
+      "menu-item#sobre-a-madu",
       "menu-item#catalogo",
       "menu-item#atendimento"
     ]
@@ -736,8 +736,8 @@
         "type": "internal",
         "href": "/moveis",
         "noFollow": false,
-        "tagTitle": "+ Ver Todos",
-        "text": "+ Ver Todos"
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
       },
       "blockClass": "menu-principal-item"
     }

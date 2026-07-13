@@ -1,4 +1,3 @@
-
 .styledLinkContent--menu-principal-item:hover {
   color: #8282C8;
 }
@@ -40,9 +39,14 @@
 .styledLinkContent--menu-principal-item {
   display: flex;
   align-items: center;
-  font-weight: bold;
-  color: black;
-  font-family: "Poppins" sans-serif !important;
+  color: #2D2D2D;
+  font-family: "Poppins Light", sans-serif !important;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 122%;
+  letter-spacing: 0%;
+
 }
 
 .styledLinkIcon--menu-principal-item {
@@ -67,7 +71,7 @@
 .styledLinkContainer--menu-principal-item {
   margin: 0;
   padding: 0;
-  border-right: 2px solid #C7C7C7;
+  /* border-right: 2px solid #C7C7C7; */
   display: flex;
   align-items: center;
   padding: 0 20px;
