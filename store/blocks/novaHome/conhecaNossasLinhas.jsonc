@@ -38,7 +38,7 @@
   },
   "link#one-Linhas-novaHome": {
     "props": {
-      "href": "",
+      "href": "/one/",
       "blockClass": "cards-linhas-novaHome"
     },
     "children": [
@@ -70,7 +70,7 @@
   },
   "link#extra-Linhas-novaHome": {
     "props": {
-      "href": "",
+      "href": "/extra/",
       "blockClass": "cards-linhas-novaHome"
     },
     "children": [
@@ -118,7 +118,7 @@
   },
   "link#expand-Linhas-novaHome": {
     "props": {
-      "href": "",
+      "href": "/expand/",
       "blockClass": "cards-linhas-novaHome"
     },
     "children": [

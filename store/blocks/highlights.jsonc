@@ -1,0 +1,77 @@
+{
+  "vtex.product-highlights@2.x:product-highlights": {
+    "props": {
+      "blockClass": "highlights-tagcolecao"
+    },
+    "children": [
+      "product-highlight-wrapper"
+    ]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "highlights-whapper-tagcolecao"
+    },
+    "children": [
+      "condition-layout.product#tag-colecao-one",
+      "condition-layout.product#tag-colecao-extra",
+      "condition-layout.product#tag-colecao-expand"
+    ]
+  },
+  // CONDICAO DA LINHA ONE
+  "condition-layout.product#tag-colecao-one": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productClusters",
+          "arguments": {
+            "id": "155"
+          }
+        }
+      ],
+      "Then": "image#tag-one"
+    }
+  },
+  "image#tag-one": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/eebfc070-7498-41b6-a26d-de73a6fa530c___8852785df7ef650eb384118673fcb5df.png"
+    }
+  },
+  // CONDICAO LINHA EXTRA
+  "condition-layout.product#tag-colecao-extra": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productClusters",
+          "arguments": {
+            "id": "156"
+          }
+        }
+      ],
+      "Then": "image#tag-extra"
+    }
+  },
+  "image#tag-extra": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8d5aaa98-34cc-407a-859e-14d92cc3b8ec___105206320cf786a572893e00867861e1.png"
+    }
+  },
+  // CONDICAO LINHA EXPAND
+  "condition-layout.product#tag-colecao-expand": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productClusters",
+          "arguments": {
+            "id": "157"
+          }
+        }
+      ],
+      "Then": "image#tag-expand"
+    }
+  },
+  "image#tag-expand": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a555580c-a0bb-4b34-b771-a5887b201450___752dbb7cd9cb328d4f221c179eef2cb0.png"
+    }
+  }
+}

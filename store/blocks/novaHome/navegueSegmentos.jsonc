@@ -49,7 +49,7 @@
   "link#hospitar-novaHome": {
     "props": {
       "blockClass": "link-segmentos-novaHome",
-      "href": "#"
+      "href": "/hospitais/"
     },
     "children": [
       "image#image-segmentos-novahome",
