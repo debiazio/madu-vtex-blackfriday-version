@@ -967,6 +967,10 @@
   margin: 0;
 }
 
+.flexRowContent--main-header .stretchChildrenWidth{
+  width: 100%!important;
+}
+
 .flexRowContent--main-header {
   display: flex;
   flex-direction: row;

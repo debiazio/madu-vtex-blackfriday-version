@@ -155,16 +155,13 @@
       "blockClass": "sticky-header"
     },
     "children": [
-      "flex-layout.row#3-desktop"
+      "flex-layout.row#menus-desktop"
     ]
   },
-  "flex-layout.row#3-desktop": {
+  "flex-layout.row#menus-desktop": {
     "props": {
       "blockClass": "main-header",
-      "horizontalAlign": "left",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true
+      "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#category-menu"
