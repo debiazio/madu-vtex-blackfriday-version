@@ -12,7 +12,15 @@
     "props": {
       "blocClass": "listContext-novahome",
 
+
       "images": [
+        {
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4f4ed9b6-07a8-4e89-9002-80fdecd8b9ce___a20dbee1484b1a52f3c30e0a7940b58e.webp",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/37dfb811-30c9-470d-be7c-65e3f113397b___5490dd1e4ca63860bf7d877dca6b3942.webp",
+          "link": {
+            "url": "#"
+          }
+        },
         {
           "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/102ef035-0e22-4652-98d4-6fba6112113f___9c08e34460e9fd23b2796add47a951d7.webp",
           "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/15bb13b5-171b-4d0a-80a5-6f5523e1685f___4ea31d94563956f7d32728769dc029c6.webp",

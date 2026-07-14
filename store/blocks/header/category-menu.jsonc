@@ -173,6 +173,7 @@
     },
     "children": [
       "menu-item#linhas-madu-one",
+      "menu-item#linhas-madu-two",
       "menu-item#linhas-madu-extra",
       "menu-item#linhas-maduOne-expand",
       "menu-item#linhas-maduOne-express",
@@ -180,6 +181,26 @@
 
     ]
   },
+    // SUBMENU MADU two
+    "menu-item#linhas-madu-two": {
+      "props": {
+        "type": "custom",
+        "id": "menu-item-linhas",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/two/",
+          "noFollow": false,
+          "tagTitle": "Two",
+          "text": "Two"
+        },
+        // "iconProps": {
+        //   "id": "nav-thin-caret--right",
+        //   "isActive": true
+        // },
+        "iconPosition": "right"
+      }
+    },
   // SUBMENU MADU ONE
   "menu-item#linhas-madu-one": {
     "props": {

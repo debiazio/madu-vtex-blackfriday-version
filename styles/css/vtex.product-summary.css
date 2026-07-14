@@ -56,11 +56,11 @@
 
 .productBrand {
   font-size: 15px;
-  line-height: 25px;
+  line-height: 18px;
   color: #3A3434;
   display: block;
   overflow: hidden;
-  font-weight: 900;
+  font-weight: 500;
   font-family: "Poppins" sans-serif !important;
 }
 

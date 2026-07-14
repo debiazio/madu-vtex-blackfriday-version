@@ -1,5 +1,7 @@
-.imageElement--slider-novaHome{
-  max-height: 100%!important;
+.imageElement--slider-novaHome {
+  max-height: unset !important;
+  height: 607px !important;
+  width: 1920px !important;
 }
 
 .imageElement--img-icones-redesSociais-novaHome {
@@ -25,4 +27,13 @@
 .imageElement--img-icones-redesSociais-novaHome:active {
   transform: translateY(-2px) scale(1.01);
   transition-duration: 0.15s;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .imageElement--slider-novaHome {
+    height: 600px !important;
+    width: 600px !important;
+  }
 }
