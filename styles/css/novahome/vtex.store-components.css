@@ -1,3 +1,20 @@
+.imageElement--icons-nossosClientes{
+  height: max-content;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.4s ease;
+     will-change: transform, box-shadow;
+}
+
+.imageElement--icons-nossosClientes:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+.imageElement--icons-nossosClientes:active {
+  transform: translateY(-2px) scale(1.01);
+  transition-duration: 0.15s;
+}
+
 .imageElement--slider-novaHome {
   max-height: unset !important;
   height: 607px !important;

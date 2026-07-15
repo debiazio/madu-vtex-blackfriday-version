@@ -7,8 +7,9 @@
     },
     "children": [
       "rich-text#titulo-nossosClientes-novaHome",
-      "responsive-layout.desktop#nossosClientes-novaHome-desktop",
-      "responsive-layout.mobile#nossosClientes-novaHome-mobile"
+       "flex-layout.row#linha-imgs-nossosClientes-mobile"
+      // "responsive-layout.desktop#nossosClientes-novaHome-desktop",
+      // "responsive-layout.mobile#nossosClientes-novaHome-mobile"
     ]
   },
   "rich-text#titulo-nossosClientes-novaHome": {
@@ -40,14 +41,15 @@
     }
   },
   // mobile
-  "responsive-layout.mobile#nossosClientes-novaHome-mobile": {
-    "children": [
-      "flex-layout.row#linha-imgs-nossosClientes-mobile"
-    ]
-  },
+  // "responsive-layout.mobile#nossosClientes-novaHome-mobile": {
+  //   "children": [
+  //     "flex-layout.row#linha-imgs-nossosClientes-mobile"
+  //   ]
+  // },
   "flex-layout.row#linha-imgs-nossosClientes-mobile": {
     "props": {
-      "blockClass": "linha-imgs-nossosClientes-mobile"
+      "blockClass": "linha-imgs-nossosClientes-mobile",
+      "colSizing": "auto"
     },
     "children": [
       "image#1-img",

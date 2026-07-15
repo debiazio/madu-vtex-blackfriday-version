@@ -1,3 +1,19 @@
+.flexRowContent--linha-imgs-nossosClientes-mobile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flexRowContent--linha-imgs-nossosClientes-mobile .stretchChildrenWidth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRow--linha-imgs-nossosClientes-mobile {
+  width: 100%;
+}
+
 .flexRow--linhaSliderMobile-cards-conhecaLinhas-maduHome {
   padding-top: 14px;
   padding-bottom: 38px;
