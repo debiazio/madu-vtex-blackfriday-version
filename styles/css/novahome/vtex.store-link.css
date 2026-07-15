@@ -1,4 +1,11 @@
-.childrenContainer--link-segmentos-novaHome{
+.link--link-linha-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.childrenContainer--link-segmentos-novaHome {
   display: flex;
   flex-direction: column;
 }

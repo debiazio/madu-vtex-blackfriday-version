@@ -1,4 +1,6 @@
-
+.slide--slider-novaHome{
+  max-height: 607px;
+}
 
 .sliderTrack--slider-mobile-Cards-novaHome {
   width: 400% !important;
@@ -75,8 +77,12 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
-  .sliderTrack--prateleira-novaHome{
-    width: 1000%!important;
+.sliderRightArrow--slider-mobile-Cards-novaHome{
+  margin-right: 20px;
+}
+
+  .sliderTrack--prateleira-novaHome {
+    width: 1000% !important;
   }
 
 

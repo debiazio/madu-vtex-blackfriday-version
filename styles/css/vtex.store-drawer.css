@@ -1,14 +1,25 @@
-.closeIconContainer{
-    display:none;
+.closeIconContainer {
+  display: none;
 }
-.openIconContainer{
-    margin-right:10px;
+
+.openIconContainer {
+  margin-right: 10px;
 }
-.openIconContainer .menuIcon{
-    width:29px;
-    height:19px;
-    overflow:visible;
+
+.openIconContainer .menuIcon {
+  width: 29px;
+  height: 19px;
+  overflow: visible;
 }
-.childrenContainer{
-    padding:8px;
+
+.childrenContainer {
+  padding: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .openIconContainer .menuIcon {
+    width: 12px;
+    height: 12px;
+    overflow: visible;
+  }
 }

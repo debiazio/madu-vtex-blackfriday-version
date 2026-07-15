@@ -1,3 +1,17 @@
+.flexRowContent--linha-nossosClientes{
+  padding-left: unset;
+}
+
+.flexRow--mobile-linhaEsquerda{
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRowContent--mobile-linhaEsquerda{
+  display: flex;
+  gap: 5px;
+}
+
 .flexRowContent--linha-imgs-nossosClientes-mobile {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

@@ -2,6 +2,9 @@
   width: 19px;
   height: 19px;
   overflow: visible;
+  background-color: #EFEFEF;
+  padding: 4px 10px 12px 6px;
+  border-radius: 100px;
 }
 
 .minicartQuantityBadgeDefault {
@@ -95,9 +98,16 @@
   min-height: auto;
 }
 
+  .minicartContainer :global(.vtex-button__label) {
+    padding-bottom: 7px;
+  }
+
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .minicartIconContainer .cartIcon {
+  background-color: #FFFFFF;
+}
 
   .minicartCheckoutButton {
   margin: 20px 16px 39px;

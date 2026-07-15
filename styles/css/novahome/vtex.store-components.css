@@ -1,9 +1,18 @@
-.imageElement--icons-nossosClientes{
+.imageElement--icone-login {
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  background-color: #EFEFEF;
+  border-radius: 100px
+}
+
+
+.imageElement--icons-nossosClientes {
   height: max-content;
   transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
     box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
     border-color 0.4s ease;
-     will-change: transform, box-shadow;
+  will-change: transform, box-shadow;
 }
 
 .imageElement--icons-nossosClientes:hover {
@@ -50,7 +59,10 @@
 /* MOBILE */
 @media screen and (max-width: 1024px) {
   .imageElement--slider-novaHome {
-    height: 600px !important;
-    width: 600px !important;
+    max-height: 400px !important;
+  }
+
+  .imageElement--icone-login {
+    background-color: #FFFFFF;
   }
 }

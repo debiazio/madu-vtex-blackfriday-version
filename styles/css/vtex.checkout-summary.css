@@ -17,8 +17,14 @@
 
 .price {
   color: #8282C8;
-  font: 16px "Poppins SemiBold";
-  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins Light", sans-serif !important;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 122%;
+  letter-spacing: 0%;
 }
 
 .summarySmallContent--minicart-summary-header :global(.vtex-checkout-summary-0-x-summaryItemLabel) {

@@ -39,7 +39,6 @@
       "search-bar"
     ]
   },
-
   // ------------------------------------
   // minha conta e carrinho
   // ------------------------------------
@@ -58,7 +57,7 @@
   // COLUNA DO LOGIN
   "flex-layout.row#2-desktop-col-2-1": {
     "children": [
-      "login",
+      "link#linha-login",
       "minicart-summary#header",
       "minicart.v2"
     ],
@@ -67,20 +66,36 @@
       "preventHorizontalStretch": true
     }
   },
-  "login": {
+  "link#linha-login": {
     "props": {
-      "hideIconLabel": false,
-      "showIconProfile": false,
-      "optionsTitle": "Acesse sua conta",
-      "emailAndPasswordTitle": "Login",
-      "accessCodeTitle": "Receba sua chave por e-mail",
-      "emailPlaceholder": "E-mail",
-      "passwordPlaceholder": "Senha",
-      "accessCodePlaceholder": "Insira o código de acesso",
-      "showPasswordVerificationIntoTooltip": true,
-      "blockClass": "minha-conta"
+      "blockClass": "link-linha-login",
+      "href": "/login"
+    },
+    "children": [
+      "image#imagem-login"
+    ]
+  },
+  "image#imagem-login":{
+    "props": {
+      "blockClass": "icone-login",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b10ba1cb-d6a3-4eec-82a3-db4cf794ab3c___1d701a665136bff5c67aba930c02cafc.svg",
+      "alt": "Icone login"
     }
   },
+  // "login": {
+  //   "props": {
+  //     "hideIconLabel": false,
+  //     "showIconProfile": false,
+  //     "optionsTitle": "Acesse sua conta",
+  //     "emailAndPasswordTitle": "Login",
+  //     "accessCodeTitle": "Receba sua chave por e-mail",
+  //     "emailPlaceholder": "E-mail",
+  //     "passwordPlaceholder": "Senha",
+  //     "accessCodePlaceholder": "Insira o código de acesso",
+  //     "showPasswordVerificationIntoTooltip": true,
+  //     "blockClass": "minha-conta"
+  //   }
+  // },
   // componente do carrinho
   "minicart-summary#header": {
     "blocks": [

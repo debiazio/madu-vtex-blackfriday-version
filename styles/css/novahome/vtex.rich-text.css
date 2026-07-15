@@ -1,3 +1,7 @@
+.container--nossosClientes-novaHome {
+  padding-left: 37px;
+}
+
 .headingLevel3--texto-receba-novahome {
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;
@@ -75,17 +79,27 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
-  .container--titulo-nossasRedes-novaHome{
+
+  .wrapper--titulo-nossasRedes-novaHome {
+    display: flex;
+    justify-content: center;
+  }
+
+  .paragraph--titulo-nossasRedes-novaHome {
+    width: 60%;
+  }
+
+  .container--titulo-nossasRedes-novaHome {
     width: 60%;
   }
 
 
-  .container--titulo--maduHome{
+  .container--titulo--maduHome {
     width: 50%;
   }
 
   .headingLevel1--titulo--maduHome,
-  .paragraph--titulo--maduHome{
+  .paragraph--titulo--maduHome {
     padding: 0;
     margin: 0;
   }

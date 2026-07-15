@@ -35,8 +35,6 @@
       "sticky-layout#3-desktop"
     ]
   },
-
-
   // "flex-layout.row#1-desktop": {
   //   "children": [
   //     "flex-layout.col#header-col1",
@@ -95,9 +93,6 @@
       "rich-text#numero-whatsapp"
     ]
   },
-
-
-
   "flex-layout.col#email": {
     "props": {
       "blockClass": "coluna-tel-notif"
@@ -217,7 +212,7 @@
       // "flex-layout.row#btn-orcamento"
     ]
   },
-  "flex-layout.row#btn-orcamento":{
+  "flex-layout.row#btn-orcamento": {
     "props": {
       "blockClass": "btn-orcamento-mobile",
       "colSizing": "auto"
@@ -238,13 +233,10 @@
       "fullWidth": true
     }
   },
-
   "flex-layout.row#3-mobile": {
     "children": [
-      // "minicart-summary#header",
-      // "minicart.v2",
-      "login",
-      "drawer"
+      "flex-layout.row#mobile-linhaEsquerda",
+      "flex-layout.row#mobile-linhaDireita"
     ],
     "props": {
       "blockClass": [
@@ -255,6 +247,24 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+  "flex-layout.row#mobile-linhaEsquerda": {
+    "props": {
+      "blockClass": "mobile-linhaEsquerda"
+    },
+    "children": [
+      "link#linha-login",
+      "minicart-summary#header",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.row#mobile-linhaDireita": {
+    "props": {
+      "blockClass": "mobile-linhaDireita"
+    },
+    "children": [
+      "drawer"
+    ]
   },
   "logo#mobile": {
     "props": {

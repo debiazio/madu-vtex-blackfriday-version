@@ -1,7 +1,7 @@
 {
   "flex-layout.row#linha-nossosClientes": {
     "props": {
-      "blockClass": "linha-novaHome",
+      "blockClass": ["linha-novaHome", "linha-nossosClientes"],
       "fullWidth": true,
       "preventHorizontalStretch": true
     },
@@ -14,7 +14,7 @@
   },
   "rich-text#titulo-nossosClientes-novaHome": {
     "props": {
-      "blockClass": "titulo--maduHome",
+      "blockClass": ["titulo--maduHome", "nossosClientes-novaHome"],
       "text": "# nossos **clientes**"
     }
   },
