@@ -69,8 +69,8 @@
   },
   "login": {
     "props": {
-      "hideIconLabel": true,
-      "showIconProfile": true,
+      "hideIconLabel": false,
+      "showIconProfile": false,
       "optionsTitle": "Acesse sua conta",
       "emailAndPasswordTitle": "Login",
       "accessCodeTitle": "Receba sua chave por e-mail",
