@@ -1,6 +1,6 @@
 .flexRowContent--linha-imgs-nossosClientes-mobile {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .flexRowContent--linha-imgs-nossosClientes-mobile .stretchChildrenWidth {
@@ -118,6 +118,10 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linha-imgs-nossosClientes-mobile .stretchChildrenWidth:last-child {
+    display: none;
+  }
+
   .flexRowContent--linha-imgs-nossosClientes-mobile {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
