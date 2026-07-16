@@ -16,7 +16,7 @@
   "rich-text#titulo-maisVendidosExpand-novaHome": {
     "props": {
       "blockClass": "titulo--maduHome",
-      "text": "# + vendidos **linha EXPAND**"
+      "text": "# + vendidos **linha eXPAND**"
     }
   },
   "flex-layout.row#prateleira-maisVendidosExpand-novaHome": {
@@ -32,7 +32,7 @@
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout#prateleira-maisvendidos-novahomeExtra"
+      "slider-layout#prateleira-maisvendidos-novahomeExpand"
     ],
     "props": {
       // "category": "6/7",
@@ -42,10 +42,10 @@
       "maxItems": 20
     }
   },
-  "slider-layout#prateleira-maisvendidos-novahomeExtra": {
+  "slider-layout#prateleira-maisvendidos-novahomeExpand": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },

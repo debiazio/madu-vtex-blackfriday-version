@@ -167,7 +167,7 @@
     display: unset;
   }
 
-  .flexRowContent--linha-novaHome {
-    max-width: unset;
+  .flexRowContent--linha-nossosClientes {
+    padding-left: unset!important;
   }
 }

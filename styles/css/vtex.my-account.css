@@ -25,6 +25,10 @@
   color: #FFFFFF;
 }
 
+iframe{
+  border-radius: 20px;
+}
+
 
 /* CSS ROLETA ABAIXO  */
 .emailInputContainer--inputs-form-roleta input {
