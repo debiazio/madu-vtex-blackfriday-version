@@ -1,3 +1,14 @@
+.paragraph--texto-deals {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .container--nossosClientes-novaHome {
   padding-left: 37px;
 }

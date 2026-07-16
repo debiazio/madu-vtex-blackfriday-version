@@ -1,0 +1,116 @@
+{
+  "flex-layout.row#deals-novaHome": {
+    "props": {
+      "blockClass": [
+        "linha-novaHome",
+        "linha-deals-novaHome"
+      ],
+      "colSizing": "equal",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#deals-5x-novaHome",
+      "flex-layout.row#deals-compraSegura-novaHome",
+      "flex-layout.row#deals-design-novaHome",
+      "flex-layout.row#deals-garantia-novaHome"
+    ]
+  },
+  "flex-layout.row#deals-5x-novaHome": {
+    "props": {
+      "blockClass": "colunas-deals",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#5x-novahome",
+      "rich-text#5x-novahome"
+    ]
+  },
+  "image#5x-novahome": {
+    "props": {
+      "blockClass": "img-deals",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/df8a4f4c-6b4a-4d4c-bab6-4aa9a0514072___c0593c9d585e59055f74da827b63fdcf.svg"
+    }
+  },
+  "rich-text#5x-novahome": {
+    "props": {
+      "blockClass": "texto-deals",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "parcele em até 5x sem juros"
+    }
+  },
+  "flex-layout.row#deals-compraSegura-novaHome": {
+    "props": {
+      "blockClass": "colunas-deals",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#compraSegura-novahome",
+      "rich-text#compraSegura-novahome"
+    ]
+  },
+  "image#compraSegura-novahome": {
+    "props": {
+      "blockClass": "img-deals",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/aa088666-3374-4cff-9a83-b0355e428f83___f3a5d36a32851b154d87f97d51022ec0.svg"
+    }
+  },
+  "rich-text#compraSegura-novahome": {
+    "props": {
+      "blockClass": "texto-deals",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "COMPRA SEGURA"
+    }
+  },
+  "flex-layout.row#deals-design-novaHome": {
+    "props": {
+      "blockClass": "colunas-deals",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#design-novahome",
+      "rich-text#design-novahome"
+    ]
+  },
+  "image#design-novahome": {
+    "props": {
+      "blockClass": "img-deals",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fb59dbe3-9c51-41c1-84e0-53525db92eeb___785c3e7af8369195ec2be5357400318d.svg"
+    }
+  },
+  "rich-text#design-novahome": {
+    "props": {
+      "blockClass": "texto-deals",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "DESIGN ORIGINAL DO BRASIL"
+    }
+  },
+  "flex-layout.row#deals-garantia-novaHome": {
+    "props": {
+      "blockClass": "colunas-deals",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#garantia-novahome",
+      "rich-text#garantia-novahome"
+    ]
+  },
+  "image#garantia-novahome": {
+    "props": {
+      "blockClass": "img-deals",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/320fc931-b405-417d-9077-dd61093fefdc___9146e0039376c3ebb0090f32b0c277b2.svg"
+    }
+  },
+  "rich-text#garantia-novahome": {
+    "props": {
+      "blockClass": "texto-deals",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "GARANTIA DE FÁBRICA"
+    }
+  }
+}

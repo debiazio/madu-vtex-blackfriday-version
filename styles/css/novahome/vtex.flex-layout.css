@@ -1,13 +1,31 @@
-.flexRowContent--linha-nossosClientes{
+.flexRowContent--colunas-deals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRow--linha-deals-novaHome {
+  background-color: #F4F4F4;
+  margin-top: -4px;
+}
+
+.flexRowContent--linha-deals-novaHome {
+  flex-direction: row !important;
+  justify-content: space-between !important;
+
+}
+
+.flexRowContent--linha-nossosClientes {
   padding-left: unset;
 }
 
-.flexRow--mobile-linhaEsquerda{
+.flexRow--mobile-linhaEsquerda {
   display: flex;
   flex-direction: row;
 }
 
-.flexRowContent--mobile-linhaEsquerda{
+.flexRowContent--mobile-linhaEsquerda {
   display: flex;
   gap: 5px;
 }
@@ -140,6 +158,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    padding: 37px;
+    gap: 5px;
   }
 
   .flexRowContent--prateleira-novaHome {
@@ -168,6 +188,6 @@
   }
 
   .flexRowContent--linha-nossosClientes {
-    padding-left: unset!important;
+    padding-left: unset !important;
   }
 }

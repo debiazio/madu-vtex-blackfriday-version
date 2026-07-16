@@ -1,29 +1,28 @@
 {
   "flex-layout.row#linha-nossosClientes": {
     "props": {
-      "blockClass": ["linha-novaHome", "linha-nossosClientes"],
+      "blockClass": [
+        "linha-novaHome",
+        "linha-nossosClientes"
+      ],
       "fullWidth": true,
       "preventHorizontalStretch": true
     },
     "children": [
       "rich-text#titulo-nossosClientes-novaHome",
-       "flex-layout.row#linha-imgs-nossosClientes-mobile"
-      // "responsive-layout.desktop#nossosClientes-novaHome-desktop",
-      // "responsive-layout.mobile#nossosClientes-novaHome-mobile"
+      "flex-layout.row#linha-imgs-nossosClientes-mobile"
     ]
   },
   "rich-text#titulo-nossosClientes-novaHome": {
     "props": {
-      "blockClass": ["titulo--maduHome", "nossosClientes-novaHome"],
+      "blockClass": [
+        "titulo--maduHome",
+        "nossosClientes-novaHome"
+      ],
       "text": "# nossos **clientes**"
     }
   },
   // desktop
-  "responsive-layout.desktop#nossosClientes-novaHome-desktop": {
-    "children": [
-      "flex-layout.row#linha-logosNossosClientes-novaHome"
-    ]
-  },
   "flex-layout.row#linha-logosNossosClientes-novaHome": {
     "props": {
       "blockClass": "linha-logosNossosClientes-novaHome"
@@ -67,61 +66,61 @@
   "image#1-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/0956dc40-6790-4a65-8fbb-9b306591f20d___1323f58105c9af25738e4080bb993948.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/9d9d5ace-c72d-47fa-8238-041b01495062___f06f082c5aa3475677eb20f0d65afec1.png"
     }
   },
   "image#2-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/72fb5441-6ec6-4ab4-b20a-3272d657eed3___8b742632b0aa25b68d1e824f97d6d5f4.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/89a6af65-7a7f-4905-b408-b1c1ff645bc5___74a374d26d0c964963300ae4afc645a3.png"
     }
   },
   "image#3-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f2a2bcad-065f-4e43-8595-ff53b3f6c5de___374597c143d80f1f9e1ea31115559bf1.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c9017ffc-0c5a-4f15-8281-1555097d663f___710c812aca4b7212ead6250f8c72c4a3.png"
     }
   },
   "image#4-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/2d29383b-4f23-4344-8496-7f31c2291bf1___4732e003bbab1d67aebea5ea16fc7704.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/5373537a-167f-4442-9b66-58a1e9874c0c___88e56dd90754533f29bdabe5a647d08c.png"
     }
   },
   "image#5-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/995889ab-69b7-42a9-883f-1ebcb47b3440___87a9910d99080ff56453a80cf205e088.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/acd93e77-ee16-49f8-928f-197099d18ffe___f331d1b5a0e77a8f08b2eef8ae7d9eba.png"
     }
   },
   "image#6-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c97e358a-130a-4e9a-9fa2-2daf26d510d8___9ee481db33dcc36720aacf033c0f1cce.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1b93a422-c473-499f-ba43-0c795bfab0b4___decdf5b1f8d08359cdcdc2497676b0b2.png"
     }
   },
   "image#7-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/651ed513-a0e4-4ac0-9c31-cd10dfaa3e5d___d59afa290af72959fdaa3991e2b24386.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/afef07d8-b877-4ee3-a250-ad7e98a7b820___d56681d9b74d9d8e2a6f371ac4630ca3.png"
     }
   },
   "image#8-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a1476c82-b413-49e9-aed0-a8a3467c4a79___59f580c6ede38a7e873d6b40e8444453.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e890969e-f991-44e8-b861-9e89035614d1___d86eecbe7a92ef929d3fee343b917e94.png"
     }
   },
   "image#9-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/2b1b48b1-60c0-47f7-adaa-d5ed6bffb6e9___a5f5ab3ee6dd83832dc76d27f1c27565.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/28984fac-cb7a-49db-9cfc-8b7113a40a82___13fc36500aa13c7a0883849124cbb3f8.png"
     }
   },
   "image#10-img": {
     "props": {
       "blockClass": "icons-nossosClientes",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/188eca4f-0dd8-46bc-9ac8-ee61ae5f2c21___96d5188fd61395f54819a9e5d437409f.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/aa2110c8-a681-4134-b88f-be723260cff5___9c4c2464a50563b090c6a19cc208ec6e.png"
     }
   }
 }
