@@ -10,18 +10,27 @@
       "blockClass": "linha-video-novaHome"
     },
     "children": [
-      "video#videoMobile-maduHome"
+      // "video#videoMobile-maduHome"
+      "iframe#videoMobile-maduNovaHome"
     ]
   },
-  "video#videoMobile-maduHome": {
+  "iframe#videoMobile-maduNovaHome": {
     "props": {
-      "height": "600px",
-      "loop": true,
-      "autoPlay": true,
-      "muted": false,
-      "controlsType": "native",
-      "blockClass": "video-maduhome",
-      "src": "https://stermax.com.br/images_idealine/mobile-video-madu-hospitalar2026-novahome.mp4"
+      "src": "https://www.youtube.com/embed/bWu3wQYxcg8?si=cJooZwDjMTeZg3US",
+      "width": 317,
+      "height": 186,
+      "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     }
   }
+  // "video#videoMobile-maduHome": {
+  //   "props": {
+  //     "height": "600px",
+  //     "loop": true,
+  //     "autoPlay": true,
+  //     "muted": false,
+  //     "controlsType": "native",
+  //     "blockClass": "video-maduhome",
+  //     "src": "https://stermax.com.br/images_idealine/mobile-video-madu-hospitalar2026-novahome.mp4"
+  //   }
+  // }
 }
