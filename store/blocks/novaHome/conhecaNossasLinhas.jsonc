@@ -102,7 +102,7 @@
   },
   "link#set-Linhas-novaHome": {
     "props": {
-      "href": "/set/",
+      "href": "/maduset/",
       "blockClass": "cards-linhas-novaHome"
     },
     "children": [

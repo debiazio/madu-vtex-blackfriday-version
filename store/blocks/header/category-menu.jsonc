@@ -177,7 +177,8 @@
       "menu-item#linhas-madu-extra",
       "menu-item#linhas-maduOne-expand",
       "menu-item#linhas-maduOne-express",
-      "menu-item#linhas-madubox-editado"
+      "menu-item#linhas-madubox-editado",
+      "menu-item#linhas-madu-gourmet"
 
     ]
   },
@@ -193,6 +194,26 @@
           "noFollow": false,
           "tagTitle": "Two",
           "text": "Two"
+        },
+        // "iconProps": {
+        //   "id": "nav-thin-caret--right",
+        //   "isActive": true
+        // },
+        "iconPosition": "right"
+      }
+    },
+    // SUBMENU MADU gourmet
+    "menu-item#linhas-madu-gourmet": {
+      "props": {
+        "type": "custom",
+        "id": "menu-item-linhas",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/gourmet/",
+          "noFollow": false,
+          "tagTitle": "Gourmet",
+          "text": "Gourmet"
         },
         // "iconProps": {
         //   "id": "nav-thin-caret--right",
@@ -622,10 +643,12 @@
     },
     "children": [
       "menu-item#linhas-madu-one-mobile",
+      "menu-item#linhas-madu-two",
       "menu-item#linhas-madu-extra-mobile",
       "menu-item#linhas-maduOne-expand-mobile",
       "menu-item#linhas-maduOne-express-mobile",
-      "menu-item#madubox-mobile"
+      "menu-item#madubox-mobile-teste",
+      "menu-item#linhas-madu-gourmet"
     ]
   },
   "menu-item#linhas-madu-one-mobile": {
@@ -734,7 +757,7 @@
       }
     }
   },
-  "menu-item#madubox-mobile": {
+  "menu-item#madubox-mobile-teste": {
     "props": {
       "blockClass": "menu-principal-item",
       "type": "custom",
@@ -742,7 +765,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/madubox",
+        "href": "/madubox/",
         "noFollow": false,
         "tagTitle": "Box",
         "text": "Box"
