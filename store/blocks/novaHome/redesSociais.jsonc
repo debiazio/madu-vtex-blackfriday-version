@@ -4,6 +4,7 @@
       "blockClass": "linha-novaHome",
       "colSizing": "auto"
     },
+    "title": "Linha Redes sociais",
     "children": [
       "rich-text#titulo-nossasRedes-novaHome",
       "flex-layout.row#icones-redesSociais-novaHome"

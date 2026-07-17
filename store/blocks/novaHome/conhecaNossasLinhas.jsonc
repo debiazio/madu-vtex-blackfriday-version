@@ -10,6 +10,7 @@
       "fullWidth": true,
       "colSizing": "auto"
     },
+    "title": "Conheça as linhas - Desktop",
     "children": [
       "rich-text#titulo-conhecaNossasLinhas-maduHome",
       "flex-layout.row#linhas-cards-conhecaLinhas-maduHome"

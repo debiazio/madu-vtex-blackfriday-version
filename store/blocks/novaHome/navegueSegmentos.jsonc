@@ -8,6 +8,7 @@
       "colSizing": "auto",
       "preventHorizontalStretch": true
     },
+    "title": "Linha segmentos",
     "children": [
       "rich-text#titulo-navegueSegmentos-novaHome",
       "flex-layout.row#linhaSlider-navegueSegmentos-novaHome"

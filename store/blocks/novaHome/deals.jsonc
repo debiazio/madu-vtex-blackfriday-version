@@ -9,6 +9,7 @@
       "fullWidth": true,
       "preventHorizontalStretch": true
     },
+    "title": "Linha Deals",
     "children": [
       "flex-layout.row#deals-5x-novaHome",
       "flex-layout.row#deals-compraSegura-novaHome",

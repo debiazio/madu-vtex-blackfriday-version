@@ -8,6 +8,7 @@
       "colSizing": "auto",
       "preventHorizontalStretch": true
     },
+    "title": "Linha mais vendidos Linha Expand",
     "children": [
       "rich-text#titulo-maisVendidosExpand-novaHome",
       "flex-layout.row#prateleira-maisVendidosExpand-novaHome"

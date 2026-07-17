@@ -4,6 +4,7 @@
       "blockClass": "banner-inicial-novaHome",
       "fullWidth": true
     },
+    "title": "Linha Banner Principal",
     "children": [
       "list-context.image-list#home-banner-novaHome"
     ]

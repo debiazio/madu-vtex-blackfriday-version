@@ -10,6 +10,7 @@
       "fullWidth": true,
       "colSizing": "auto"
     },
+    "title": "Conheça as linhas - Mobile",
     "children": [
       "rich-text#titulo-conhecaNossasLinhas-mobile-maduHome",
       "flex-layout.row#linhaSliderMobile-cards-conhecaLinhas-maduHome"

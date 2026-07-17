@@ -9,6 +9,7 @@
       "fullWidth": true,
       "blockClass": "linha-video-novaHome"
     },
+    "title": "Linha vídeo Desktop",
     "children": [
       // "video#videoDesktop-maduHome"
       "iframe#video-maduNovaHome"
@@ -20,7 +21,7 @@
       "src": "https://www.youtube.com/embed/bWu3wQYxcg8?si=cJooZwDjMTeZg3US",
       "width": 1044,
       "height": 613,
-      
+
       "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     }
   }

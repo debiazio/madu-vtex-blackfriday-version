@@ -8,6 +8,7 @@
       "colSizing": "auto",
       "preventHorizontalStretch": true
     },
+    "title": "Mais vendidos Linha One",
     "children": [
       "rich-text#titulo-maisVendidos-novaHome",
       "flex-layout.row#prateleira-maisVendidos-novaHome"

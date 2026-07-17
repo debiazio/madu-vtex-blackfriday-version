@@ -4,6 +4,7 @@
       "blockClass": "linhaFAQs-maduset",
       "fullWidth": true
     },
+    "title": "Faq",
     "children": [
       "flex-layout.row#textos-faq-novaHome",
       "flex-layout.row#disclosure-faq-novaHome"

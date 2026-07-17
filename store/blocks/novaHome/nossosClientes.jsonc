@@ -8,6 +8,7 @@
       "fullWidth": true,
       "preventHorizontalStretch": true
     },
+    "title": "Linha nossos Clientes",
     "children": [
       "rich-text#titulo-nossosClientes-novaHome",
       "flex-layout.row#linha-imgs-nossosClientes-mobile"

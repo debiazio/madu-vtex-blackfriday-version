@@ -9,6 +9,7 @@
       "fullWidth": true,
       "blockClass": "linha-video-novaHome"
     },
+    "title": "Linha vídeo mobile",
     "children": [
       // "video#videoMobile-maduHome"
       "iframe#videoMobile-maduNovaHome"

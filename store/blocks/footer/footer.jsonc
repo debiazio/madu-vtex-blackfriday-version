@@ -17,6 +17,7 @@
     "props": {
       "blockClass": "conteiner-botao-atendimento-whatsapp"
     },
+    "title": "Linha botao whatsapp",
     "children": [
       "link#botao-atendimento-whatsapp"
     ]
@@ -28,6 +29,7 @@
       "label": "Atendimento",
       "target": "_blank"
     },
+    "title": "Link botao whats",
     "children": [
       "image#atendimento-whatsapp"
     ]
