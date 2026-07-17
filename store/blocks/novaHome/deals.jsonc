@@ -71,14 +71,14 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "image#design-novahome",
+      "image#designBrasil-novahome",
       "rich-text#design-novahome"
     ]
   },
-  "image#design-novahome": {
+  "image#designBrasil-novahome": {
     "props": {
       "blockClass": "img-deals",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fb59dbe3-9c51-41c1-84e0-53525db92eeb___785c3e7af8369195ec2be5357400318d.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/320fc931-b405-417d-9077-dd61093fefdc___9146e0039376c3ebb0090f32b0c277b2.svg"
     }
   },
   "rich-text#design-novahome": {
@@ -95,14 +95,14 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "image#garantia-novahome",
+      "image#garantiaFabrica-novahome",
       "rich-text#garantia-novahome"
     ]
   },
-  "image#garantia-novahome": {
+  "image#garantiaFabrica-novahome": {
     "props": {
       "blockClass": "img-deals",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/320fc931-b405-417d-9077-dd61093fefdc___9146e0039376c3ebb0090f32b0c277b2.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fb59dbe3-9c51-41c1-84e0-53525db92eeb___785c3e7af8369195ec2be5357400318d.svg"
     }
   },
   "rich-text#garantia-novahome": {

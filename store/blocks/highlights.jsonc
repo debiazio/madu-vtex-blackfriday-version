@@ -14,7 +14,12 @@
     "children": [
       "condition-layout.product#tag-colecao-one",
       "condition-layout.product#tag-colecao-extra",
-      "condition-layout.product#tag-colecao-expand"
+      "condition-layout.product#tag-colecao-expand",
+      "condition-layout.product#tag-colecao-two",
+      "condition-layout.product#tag-colecao-express",
+      "condition-layout.product#tag-colecao-set",
+      "condition-layout.product#tag-colecao-gourmet",
+      "condition-layout.product#tag-colecao-box"
     ]
   },
   // CONDICAO DA LINHA ONE
@@ -22,9 +27,9 @@
     "props": {
       "conditions": [
         {
-          "subject": "productClusters",
+          "subject": "brandId",
           "arguments": {
-            "id": "155"
+            "id": "2000003"
           }
         }
       ],
@@ -33,7 +38,7 @@
   },
   "image#tag-one": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/eebfc070-7498-41b6-a26d-de73a6fa530c___8852785df7ef650eb384118673fcb5df.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbdf2eb-1758-4f7a-9759-9181c687f8e0___213cf17ba35421a3655f03a4ce40ded1.svg"
     }
   },
   // CONDICAO LINHA EXTRA
@@ -41,9 +46,9 @@
     "props": {
       "conditions": [
         {
-          "subject": "productClusters",
+          "subject": "brandId",
           "arguments": {
-            "id": "156"
+            "id": "2000002"
           }
         }
       ],
@@ -52,7 +57,7 @@
   },
   "image#tag-extra": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8d5aaa98-34cc-407a-859e-14d92cc3b8ec___105206320cf786a572893e00867861e1.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f5efb6be-4340-47ac-ad03-b39bc01cf937___9ade971228315d45c5caa430364d19ae.svg"
     }
   },
   // CONDICAO LINHA EXPAND
@@ -60,9 +65,9 @@
     "props": {
       "conditions": [
         {
-          "subject": "productClusters",
+          "subject": "brandId",
           "arguments": {
-            "id": "157"
+            "id": "2000006"
           }
         }
       ],
@@ -71,7 +76,103 @@
   },
   "image#tag-expand": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a555580c-a0bb-4b34-b771-a5887b201450___752dbb7cd9cb328d4f221c179eef2cb0.png"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/78276acc-6151-4fa8-bcb6-e45c92a2cea3___ad117dcae9c8a7fb715eeb6a5fa5867e.svg"
+    }
+  },
+  // CONDICAO LINHA TWO
+  "condition-layout.product#tag-colecao-two": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000008"
+          }
+        }
+      ],
+      "Then": "image#tag-two"
+    }
+  },
+  "image#tag-two": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fc0d247c-20dc-4eb5-8c53-cf6a3e66f1d1___a7b94887a8b6ec8367c2e8a7d39cab6b.svg"
+    }
+  },
+  // CONDICAO LINHA express
+  "condition-layout.product#tag-colecao-express": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000008"
+          }
+        }
+      ],
+      "Then": "image#tag-express"
+    }
+  },
+  "image#tag-express": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/dc5ddb00-3529-480c-be3d-ac1d100b780a___407de8a01700e5d07845650d8686e0e5.svg"
+    }
+  },
+  // CONDICAO LINHA set
+  "condition-layout.product#tag-colecao-set": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000007"
+          }
+        }
+      ],
+      "Then": "image#tag-set"
+    }
+  },
+  "image#tag-set": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/dc5ddb00-3529-480c-be3d-ac1d100b780a___407de8a01700e5d07845650d8686e0e5.svg"
+    }
+  },
+  // CONDICAO LINHA gourmet
+  "condition-layout.product#tag-colecao-gourmet": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000009"
+          }
+        }
+      ],
+      "Then": "image#tag-gourmet"
+    }
+  },
+  "image#tag-gourmet": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/222c0abe-82d4-41ad-9e07-cf349c2ac96b___847cc0c6ad0328a9d41532d9bb19dd9f.svg"
+    }
+
+  },
+  // CONDICAO LINHA box
+  "condition-layout.product#tag-colecao-box": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": {
+            "id": "2000004"
+          }
+        }
+      ],
+      "Then": "image#tag-box"
+    }
+  },
+  "image#tag-box": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/164f8e36-9a15-41ea-bae2-9f956d2154e5___b4b4de6bf3dc57a62f7a89326ea71ad3.svg"
     }
   }
 }

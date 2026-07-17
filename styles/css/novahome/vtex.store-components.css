@@ -59,7 +59,7 @@
 /* MOBILE */
 @media screen and (max-width: 1024px) {
   .imageElement--slider-novaHome {
-    max-height: 400px !important;
+    width: 100vw;
   }
 
   .imageElement--icone-login {

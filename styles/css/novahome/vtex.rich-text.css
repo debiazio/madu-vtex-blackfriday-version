@@ -90,6 +90,9 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .paragraph--texto-deals {
+  font-size: 10px;
+}
 
   .wrapper--titulo-nossasRedes-novaHome {
     display: flex;
