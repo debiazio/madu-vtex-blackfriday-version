@@ -1,3 +1,7 @@
+.flexRowContent--linha-tagcolecao{
+  display: contents;
+}
+
 .flexRowContent--colunas-deals {
   display: flex;
   flex-direction: column;

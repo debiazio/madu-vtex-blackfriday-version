@@ -1,15 +1,10 @@
 {
-  "vtex.product-highlights@2.x:product-highlights": {
+  "flex-layout.row#tag-colecao": {
     "props": {
-      "blockClass": "highlights-tagcolecao"
-    },
-    "children": [
-      "product-highlight-wrapper"
-    ]
-  },
-  "product-highlight-wrapper": {
-    "props": {
-      "blockClass": "highlights-whapper-tagcolecao"
+      "blockClass": "linha-tagcolecao",
+      "fullWidth": true,
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
     },
     "children": [
       "condition-layout.product#tag-colecao-one",
@@ -38,7 +33,8 @@
   },
   "image#tag-one": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbdf2eb-1758-4f7a-9759-9181c687f8e0___213cf17ba35421a3655f03a4ce40ded1.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbdf2eb-1758-4f7a-9759-9181c687f8e0___213cf17ba35421a3655f03a4ce40ded1.svg",
+      "blockClass": "image-tag"
     }
   },
   // CONDICAO LINHA EXTRA
@@ -57,7 +53,8 @@
   },
   "image#tag-extra": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f5efb6be-4340-47ac-ad03-b39bc01cf937___9ade971228315d45c5caa430364d19ae.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f5efb6be-4340-47ac-ad03-b39bc01cf937___9ade971228315d45c5caa430364d19ae.svg",
+      "blockClass": "image-tag"
     }
   },
   // CONDICAO LINHA EXPAND
@@ -76,7 +73,8 @@
   },
   "image#tag-expand": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/78276acc-6151-4fa8-bcb6-e45c92a2cea3___ad117dcae9c8a7fb715eeb6a5fa5867e.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/78276acc-6151-4fa8-bcb6-e45c92a2cea3___ad117dcae9c8a7fb715eeb6a5fa5867e.svg",
+      "blockClass": "image-tag"
     }
   },
   // CONDICAO LINHA TWO
@@ -95,7 +93,8 @@
   },
   "image#tag-two": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fc0d247c-20dc-4eb5-8c53-cf6a3e66f1d1___a7b94887a8b6ec8367c2e8a7d39cab6b.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fc0d247c-20dc-4eb5-8c53-cf6a3e66f1d1___a7b94887a8b6ec8367c2e8a7d39cab6b.svg",
+      "blockClass": "image-tag"
     }
   },
   // CONDICAO LINHA express
@@ -114,7 +113,8 @@
   },
   "image#tag-express": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/dc5ddb00-3529-480c-be3d-ac1d100b780a___407de8a01700e5d07845650d8686e0e5.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/dc5ddb00-3529-480c-be3d-ac1d100b780a___407de8a01700e5d07845650d8686e0e5.svg",
+      "blockClass": "image-tag"
     }
   },
   // CONDICAO LINHA set
@@ -133,7 +133,8 @@
   },
   "image#tag-set": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/dc5ddb00-3529-480c-be3d-ac1d100b780a___407de8a01700e5d07845650d8686e0e5.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/dc5ddb00-3529-480c-be3d-ac1d100b780a___407de8a01700e5d07845650d8686e0e5.svg",
+      "blockClass": "image-tag"
     }
   },
   // CONDICAO LINHA gourmet
@@ -152,9 +153,9 @@
   },
   "image#tag-gourmet": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/222c0abe-82d4-41ad-9e07-cf349c2ac96b___847cc0c6ad0328a9d41532d9bb19dd9f.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/222c0abe-82d4-41ad-9e07-cf349c2ac96b___847cc0c6ad0328a9d41532d9bb19dd9f.svg",
+      "blockClass": "image-tag"
     }
-
   },
   // CONDICAO LINHA box
   "condition-layout.product#tag-colecao-box": {
@@ -172,7 +173,8 @@
   },
   "image#tag-box": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/164f8e36-9a15-41ea-bae2-9f956d2154e5___b4b4de6bf3dc57a62f7a89326ea71ad3.svg"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/164f8e36-9a15-41ea-bae2-9f956d2154e5___b4b4de6bf3dc57a62f7a89326ea71ad3.svg",
+      "blockClass": "image-tag"
     }
   }
 }

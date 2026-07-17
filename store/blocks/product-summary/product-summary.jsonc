@@ -1,7 +1,7 @@
 {
   "product-summary.shelf": {
     "children": [
-      "vtex.product-highlights@2.x:product-highlights",
+      "flex-layout.row#tag-colecao",
       "stack-layout#prodsum",
       "flex-layout.col#product-info-summary",
       "condition-layout.product#produtos-selecionados-btnComprar"
