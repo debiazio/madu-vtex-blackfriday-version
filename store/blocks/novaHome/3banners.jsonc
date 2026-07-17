@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#linha-3banners-novaHome": {
+    "props": {
+      "blockClass": [
+        "linha-novaHome",
+        "linha-maisVendidos-novaHome"
+      ],
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "title": "Linha Banners triplos",
+    "children": [
+      "image#banner1-novahome",
+      "image#banner2-novahome",
+      "image#banner3-novahome"
+    ]
+  },
+  "image#banner1-novahome":{
+
+  },
+"image#banner2-novahome":{
+
+},
+"image#banner3-novahome":{
+
+}
+}

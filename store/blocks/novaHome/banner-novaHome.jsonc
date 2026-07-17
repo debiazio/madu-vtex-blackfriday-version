@@ -12,8 +12,6 @@
   "list-context.image-list#home-banner-novaHome": {
     "props": {
       "blocClass": "listContext-novahome",
-
-
       "images": [
         {
           "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/53c32f38-4fd6-48a0-914a-4f53c8a92aa6___f07549ef1bfcbb4cf131b96809163c17.webp",

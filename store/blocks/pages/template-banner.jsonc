@@ -12,18 +12,29 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "image#banner-template-banner",
+
+      "list-context.image-list#bannertemplate-novaHome",
       "rich-text#titulo-template-banner"
     ],
     "title": "Linha 1 "
   },
-  "image#banner-template-banner":{
+    "list-context.image-list#bannertemplate-novaHome": {
     "props": {
-      "blockClass": "banner-template",
-      "src": "assets/banners/desktop/balck-madu.webp",
-      "alt": "Banner categoria"
+      "blocClass": "listContext-novahome",
+      "images": [
+        {
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/53c32f38-4fd6-48a0-914a-4f53c8a92aa6___f07549ef1bfcbb4cf131b96809163c17.webp",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d9d2bd86-112e-4644-878f-3562d231775a___d427218bd589c7b692af97da98f0a90c.webp",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
     },
-    "title": "Banner template"
+    "title": "Banners",
+    "children": [
+      "slider-layout#home-novaHome"
+    ]
   },
   "rich-text#titulo-template-banner": {
     "props": {
@@ -46,7 +57,7 @@
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 9,
-        "queryField": "147",
+        "queryField": "165",
         "mapField": "productClusterIds"
       }
     },
@@ -97,7 +108,7 @@
       "search-content",
       "flex-layout.row#fetchmore"
 
-    ] 
+    ]
   },
   "search-content": {
     "blocks": [
