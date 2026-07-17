@@ -199,4 +199,9 @@
   .flexRowContent--linha-nossosClientes {
     padding-left: unset !important;
   }
+
+  .flexRowContent--linha-banner3-novaHome{
+  flex-direction: column!important;
+  gap: 5px;
+}
 }

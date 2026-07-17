@@ -1,5 +1,5 @@
 .minicartIconContainer .cartIcon {
-  width: 19px;
+  width: 16px;
   height: 19px;
   overflow: visible;
   background-color: #EFEFEF;
@@ -98,20 +98,22 @@
   min-height: auto;
 }
 
-  .minicartContainer :global(.vtex-button__label) {
-    padding-bottom: 7px;
-  }
+.minicartContainer :global(.vtex-button__label) {
+  padding-bottom: 7px;
+}
 
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+
   .minicartIconContainer .cartIcon {
-  background-color: #FFFFFF;
-}
+    background-color: #FFFFFF;
+    padding: 3px 10px 10px 6px;
+  }
 
   .minicartCheckoutButton {
-  margin: 20px 16px 39px;
-}
+    margin: 20px 16px 39px;
+  }
 
   .minicartSummary {
     padding: 0;

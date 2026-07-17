@@ -1,15 +1,31 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#home-banner",
-      "flex-layout.row#shop-by-category",
-      // "responsive-layout.desktop#categorias",
-      // "responsive-layout.mobile#categorias",
-      "__fold__",
-      "flex-layout.row#mais-vendidos-madu-extra",
-      "flex-layout.row#mais-vendidos-madu-one",
-      "flex-layout.row#banner-final",
-      "flex-layout.row#banner-nossos-clientes"
+      // "list-context.image-list#home-banner",
+      // "flex-layout.row#shop-by-category",
+      // // "responsive-layout.desktop#categorias",
+      // // "responsive-layout.mobile#categorias",
+      // "__fold__",
+      // "flex-layout.row#mais-vendidos-madu-extra",
+      // "flex-layout.row#mais-vendidos-madu-one",
+      // "flex-layout.row#banner-final",
+      // "flex-layout.row#banner-nossos-clientes"
+      // home antiga acima
+      "flex-layout.row#banner-inicial-novaHome",
+      "flex-layout.row#deals-novaHome",
+      "responsive-layout.desktop#conhecaNosasLinhas",
+      "responsive-layout.mobile#conhecaNosasLinhas",
+      // "flex-layout.row#navegueSegmentos-novaHome",
+      "flex-layout.row#linha-maisVendidos-novaHome",
+      "flex-layout.row#linha-3banners-novaHome",
+      "flex-layout.row#linha-maisVendidosExtra-novaHome",
+      "flex-layout.row#linha-3banners-2-novaHome",
+      "flex-layout.row#linha-maisVendidosExpand-novaHome",
+      "flex-layout.row#linha-nossosClientes",
+      "responsive-layout.desktop#video-novaHome",
+      "responsive-layout.mobile#video-novaHome",
+      "flex-layout.row#linha-nossasRedesSociais-novaHome",
+      "flex-layout.row#linhaFAQs-novaHome"
     ],
     "parent": {
       "header": "header"
@@ -118,9 +134,8 @@
       "infinite": false,
       "fullWidth": false,
       "showNavigationArrows": "always",
-      "showPaginationDots":"always",
+      "showPaginationDots": "always",
       "blockClass": "prateleira-home-madu-extra"
-
     }
   },
   // MADU ONE
@@ -194,7 +209,7 @@
     ]
   },
   // titulo nossos clientes
-  "rich-text#titulo-nossos-clientes":{
+  "rich-text#titulo-nossos-clientes": {
     "props": {
       "text": "nossos clientes",
       "blockClass": "titulo-nossos-clientes"
