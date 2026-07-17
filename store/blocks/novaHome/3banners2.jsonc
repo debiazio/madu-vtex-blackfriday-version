@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#linha-3banners-novaHome": {
+  "flex-layout.row#linha-3banners-2-novaHome": {
     "props": {
       "blockClass": [
         "linha-novaHome",
@@ -11,12 +11,12 @@
     },
     "title": "Linha Banners triplos",
     "children": [
-      "image#banner1-novahome",
-      "image#banner2-novahome",
-      "image#banner3-novahome"
+      "image#segundo-banner1-novahome",
+      "image#segundo-banner2-novahome",
+      "image#segundo-banner3-novahome"
     ]
   },
-  "image#banner1-novahome": {
+  "image#segundo-banner1-novahome": {
     "props": {
       "blockClass": "img-banner-triplo",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/501a7a08-a381-43f9-bb4e-3dd04212470e___f44ff9f1c068e0aa69630cb82805b956.png",
@@ -26,7 +26,7 @@
     },
     "title": "Imagem primeira"
   },
-  "image#banner2-novahome": {
+  "image#segundo-banner2-novahome": {
     "props": {
       "blockClass": "img-banner-triplo",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/21488b02-8b6f-436b-ac36-573f257fa1e5___226ab6372f126c73127352c684bc8ea6.png",
@@ -36,7 +36,7 @@
     },
     "title": "Imagem do meio"
   },
-  "image#banner3-novahome": {
+  "image#segundo-banner3-novahome": {
     "props": {
       "blockClass": "img-banner-triplo",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b3150ae9-cdce-4cda-b308-fb3ba4a8768f___d01463cfe9380055104be46adf8c3a94.png",
