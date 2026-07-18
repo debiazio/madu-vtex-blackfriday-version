@@ -65,11 +65,18 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .imageElement--icons-nossosClientes{
+    height: auto;
+    width: max-content;
+  }
+
   .imageElement--slider-novaHome {
     width: 100vw!important;
   }
 
   .imageElement--icone-login {
     background-color: #FFFFFF;
+    width: 18px;
+    height: 16px;
   }
 }

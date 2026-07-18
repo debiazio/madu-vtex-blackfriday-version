@@ -3,8 +3,9 @@
   height: 19px;
   overflow: visible;
   background-color: #EFEFEF;
-  padding: 4px 10px 12px 6px;
+  padding: 8px;
   border-radius: 100px;
+  margin-bottom: 3px;
 }
 
 .minicartQuantityBadgeDefault {
@@ -108,7 +109,8 @@
 
   .minicartIconContainer .cartIcon {
     background-color: #FFFFFF;
-    padding: 3px 10px 10px 6px;
+    padding: 6px 8px 6px 8px;
+    margin-bottom: 4px;
   }
 
   .minicartCheckoutButton {

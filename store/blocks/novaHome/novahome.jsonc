@@ -2,7 +2,7 @@
   "store.custom#novahome": {
     "blocks": [
       "flex-layout.row#banner-inicial-novaHome",
-      "flex-layout.row#deals-novaHome",
+      "flex-layout.row#deals-edited-novaHome",
       "responsive-layout.desktop#conhecaNosasLinhas",
       "responsive-layout.mobile#conhecaNosasLinhas",
       // "flex-layout.row#navegueSegmentos-novaHome",

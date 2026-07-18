@@ -1,7 +1,7 @@
 {
   "flex-layout.row#linha-nossasRedesSociais-novaHome": {
     "props": {
-      "blockClass": "linha-novaHome",
+      "blockClass": ["linha-novaHome", "linha-redesSociais"],
       "colSizing": "auto"
     },
     "title": "Linha Redes sociais",

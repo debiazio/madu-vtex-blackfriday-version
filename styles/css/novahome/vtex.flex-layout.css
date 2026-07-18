@@ -17,12 +17,19 @@
 .flexRow--linha-deals-novaHome {
   background-color: #F4F4F4;
   margin-top: -4px;
+  display: flex;
+  align-items: center;
+  align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .flexRowContent--linha-deals-novaHome {
+  display: flex;
   flex-direction: row !important;
   justify-content: space-between !important;
   padding: 18px 0 14px 0 !important;
+  max-width: 1200px;
 }
 
 .flexRowContent--linha-nossosClientes {
@@ -159,6 +166,9 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linha-redesSociais{
+    padding-left: 0!important;
+  }
   .flexRowContent--linha-imgs-nossosClientes-mobile .stretchChildrenWidth:last-child {
     display: none;
   }

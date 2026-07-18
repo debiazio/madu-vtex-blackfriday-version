@@ -1,8 +1,7 @@
 {
-  "flex-layout.row#deals-novaHome": {
+  "flex-layout.row#deals-edited-novaHome": {
     "props": {
       "blockClass": [
-        "linha-novaHome",
         "linha-deals-novaHome"
       ],
       "colSizing": "equal",
