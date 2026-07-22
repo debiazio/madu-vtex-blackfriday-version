@@ -5,6 +5,12 @@
         {
           "subject": "productId",
           "arguments": {
+            "id": "528"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
             "id": "526"
           }
         },
