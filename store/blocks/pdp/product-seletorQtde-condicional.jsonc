@@ -11,6 +11,18 @@
         {
           "subject": "productId",
           "arguments": {
+            "id": "525"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "529"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
             "id": "526"
           }
         },
