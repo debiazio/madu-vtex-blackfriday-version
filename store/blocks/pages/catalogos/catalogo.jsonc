@@ -1,0 +1,38 @@
+{
+  "store.custom#catalogo": {
+    "blocks": [
+      "flex-layout.row#banner-catalogo",
+      "flex-layout.row#linha-catagolos"
+    ]
+  },
+  // ===================
+  // Banner Catálogo
+  // ===================
+  "flex-layout.row#banner-catalogo": {
+    "props": {
+      "blockClass": "bannerCatalogo",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#banner-catalogo"
+    ]
+  },
+  "rich-text#banner-catalogo": {
+    "props": {
+      "blockClass": "tituloCatalogos",
+      "text": "## Catálogos",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#linha-catagolos": {
+    "props": {
+      "blockClass": "linha-catalogos",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#catalogo-linha-one",
+      "flex-layout.col#catalogo-linha-set"
+    ]
+  }
+}

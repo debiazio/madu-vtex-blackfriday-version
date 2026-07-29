@@ -1,3 +1,20 @@
+.link--linkLerCatalogo {
+  width: 100%;
+  display: block;
+  padding: 13px;
+  text-decoration: none;
+  font-family: "Poppins" !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  border: 1px solid #939393;
+  border-radius: 100px;
+}
+
 .link--link-banner-final-madubox {
   text-decoration: none;
   cursor: pointer;

@@ -1,0 +1,38 @@
+{
+  "flex-layout.col#catalogo-linha-set": {
+    "props": {
+      "blockClass": "linhasCatalogos",
+      "colSizing": "auto",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#capacatalogo-set",
+      "rich-text#titulo-set",
+      "link#lerCatalogo-set",
+      "btn-linha-set"
+    ]
+  },
+  "image#capacatalogo-set": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c9cfd7fb-611a-46c1-9667-4551f7f524fb___276a8a2635f2770037accf68a65d1fcb.webp",
+      "alt": "capa catálogo"
+    }
+  },
+  "rich-text#titulo-set": {
+    "props": {
+      "blockClass": "titulo-catalogo",
+      "text": "Linha Set",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "link#lerCatalogo-set": {
+    "props": {
+      "blockClass": "linkLerCatalogo",
+      "label": "Ler catálogo",
+      "href": "https://stermax.com.br/images_idealine/catalogosMadu/madu-set-catalogo.pdf",
+      "target": "_blank"
+    }
+  }
+}
+// ftp://u883137428.bruno@stermax.com.br/catalogosMadu/madu-set-catalogo.pdf

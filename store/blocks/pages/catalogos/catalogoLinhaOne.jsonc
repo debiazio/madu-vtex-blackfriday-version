@@ -1,0 +1,37 @@
+{
+  "flex-layout.col#catalogo-linha-one": {
+    "props": {
+      "blockClass": "linhasCatalogos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#capacatalogo-one",
+      "rich-text#titulo-one",
+      "link#lerCatalogo-one",
+      "btn-linha-one"
+    ]
+  },
+  "btn-linha-one":{},
+  "image#capacatalogo-one": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/af3f8707-a06f-45ec-9b49-950e48d815ea___1a9d6e4dd931ce0d41e96cc9516c8e1b.webp",
+      "alt": "capa catálogo"
+    }
+  },
+  "rich-text#titulo-one": {
+    "props": {
+      "blockClass": "titulo-catalogo",
+      "text": "Linha One",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "link#lerCatalogo-one": {
+    "props": {
+      "blockClass": "linkLerCatalogo",
+      "label": "Ler catálogo",
+      "href": "https://stermax.com.br/images_idealine/catalogosMadu/MDU_Catalogo-de-Produtos-Web-Ajuste%201.pdf",
+      "target": "_blank"
+    }
+  }
+}
