@@ -14,7 +14,8 @@
   },
   "image#capacatalogo-set": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c9cfd7fb-611a-46c1-9667-4551f7f524fb___276a8a2635f2770037accf68a65d1fcb.webp",
+      "blockClass": "capaCatalogo",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/038cf6c3-399c-4e15-afda-46c0114e2255___063d211dd5059a74b8439df38ed4bba3.webp",
       "alt": "capa catálogo"
     }
   },
@@ -30,9 +31,8 @@
     "props": {
       "blockClass": "linkLerCatalogo",
       "label": "Ler catálogo",
-      "href": "https://stermax.com.br/images_idealine/catalogosMadu/madu-set-catalogo.pdf",
+      "href": "https://stermax.com.br/images_idealine/catalogosMadu/LA_MADU_Folder-SET_Digital.pdf",
       "target": "_blank"
     }
   }
 }
-// ftp://u883137428.bruno@stermax.com.br/catalogosMadu/madu-set-catalogo.pdf

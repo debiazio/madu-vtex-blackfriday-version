@@ -1,0 +1,38 @@
+{
+  "flex-layout.col#catalogo-nossasLinhas": {
+    "props": {
+      "blockClass": "linhasCatalogos",
+      "colSizing": "auto",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#capacatalogo-nossasLinhas",
+      "rich-text#titulo-nossasLinhas",
+      "link#lerCatalogo-nossasLinhas",
+      "btn-nossas-linhas"
+    ]
+  },
+  "image#capacatalogo-nossasLinhas": {
+    "props": {
+      "blockClass": "capaCatalogo",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/5647a88d-1ce5-4648-b15a-0aee7ebc5637___880015d912808885d284b04568881f22.webp",
+      "alt": "capa catálogo"
+    }
+  },
+  "rich-text#titulo-nossasLinhas": {
+    "props": {
+      "blockClass": "titulo-catalogo",
+      "text": "Conheça as Linhas",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "link#lerCatalogo-nossasLinhas": {
+    "props": {
+      "blockClass": "linkLerCatalogo",
+      "label": "Ler catálogo",
+      "href": "https://stermax.com.br/images_idealine/catalogosMadu/456.1_AF_MAD.U_CatalogoDigital.pdf",
+      "target": "_blank"
+    }
+  }
+}

@@ -14,6 +14,7 @@
   "btn-linha-one":{},
   "image#capacatalogo-one": {
     "props": {
+      "blockClass": "capaCatalogo",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/af3f8707-a06f-45ec-9b49-950e48d815ea___1a9d6e4dd931ce0d41e96cc9516c8e1b.webp",
       "alt": "capa catálogo"
     }

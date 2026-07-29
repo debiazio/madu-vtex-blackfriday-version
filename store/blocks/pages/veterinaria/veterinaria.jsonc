@@ -1,0 +1,8 @@
+{
+  "store.custom#veterinaria":{
+    "blocks": [
+      "flex-layout.row#bannerInicio-vet",
+      "flex-layout.row#clinicaIdeal-vet"
+    ]
+  }
+}

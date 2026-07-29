@@ -31,11 +31,11 @@
     "path": "/nossas-linhas",
     "isSitemapEntry": true
   },
-  "store.custom#catalogo":{
+  "store.custom#catalogo": {
     "path": "/catalogo",
     "isSitemapEntry": true
   },
-  "store.custom#madubox":{
+  "store.custom#madubox": {
     "path": "/madubox",
     "isSitemapEntry": true
   },
@@ -63,8 +63,12 @@
     "path": "/video-maduset",
     "isSitemapEntry": true
   },
-  "store.custom#maduset":{
+  "store.custom#maduset": {
     "path": "/maduset",
+    "isSitemapEntry": true
+  },
+  "store.custom#veterinaria": {
+    "path": "/veterinaria",
     "isSitemapEntry": true
   }
 }

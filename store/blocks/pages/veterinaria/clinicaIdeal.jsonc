@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#clinicaIdeal-vet":{
+    "props": {
+      "blockClass": "linha-clinicaIdeal-vet",
+      "fullWidth": true
+    },
+    "children": [
+      
+    ]
+  }
+}

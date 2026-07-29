@@ -1,0 +1,45 @@
+{
+  "flex-layout.row#bannerInicio-vet": {
+    "props": {
+      "blockClass": "",
+      "fullWidth": true
+    },
+    "title": "Linha Banner Principal",
+    "children": [
+      "list-context.image-list#home-banner-vet"
+    ]
+  },
+  "list-context.image-list#home-banner-vet": {
+    "props": {
+      "blocClass": "listContext-novahome",
+      "images": [
+        {
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/53c32f38-4fd6-48a0-914a-4f53c8a92aa6___f07549ef1bfcbb4cf131b96809163c17.webp",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d9d2bd86-112e-4644-878f-3562d231775a___d427218bd589c7b692af97da98f0a90c.webp",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    },
+    "children": [
+      "slider-layout#veterinaria"
+    ]
+  },
+  "slider-layout#veterinaria": {
+    "props": {
+      "title": "Slider home",
+      "blockClass": "slider-vet",
+      "maxwidth": "1200",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 50,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never"
+    }
+  }
+}
