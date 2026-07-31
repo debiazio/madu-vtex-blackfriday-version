@@ -1502,6 +1502,11 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .flexRowContent--disclosure-faq-maduset{
+    width: unset;
+    max-width: unset;
+  }
+
   .flexColChild--page-imagem--made-for-you{
     padding: 0 40px;
   }

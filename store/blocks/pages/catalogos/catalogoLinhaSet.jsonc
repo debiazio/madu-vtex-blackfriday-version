@@ -30,7 +30,7 @@
   "link#lerCatalogo-set": {
     "props": {
       "blockClass": "linkLerCatalogo",
-      "label": "Ler catálogo",
+      "label": "Ler PDF",
       "href": "https://stermax.com.br/images_idealine/catalogosMadu/LA_MADU_Folder-SET_Digital.pdf",
       "target": "_blank"
     }

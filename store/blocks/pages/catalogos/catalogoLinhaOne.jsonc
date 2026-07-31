@@ -30,7 +30,7 @@
   "link#lerCatalogo-one": {
     "props": {
       "blockClass": "linkLerCatalogo",
-      "label": "Ler catálogo",
+      "label": "Ler PDF",
       "href": "https://stermax.com.br/images_idealine/catalogosMadu/MDU_Catalogo-de-Produtos-Web-Ajuste%201.pdf",
       "target": "_blank"
     }

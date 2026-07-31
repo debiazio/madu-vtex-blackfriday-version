@@ -30,8 +30,8 @@
   "link#lerCatalogo-nossasLinhas": {
     "props": {
       "blockClass": "linkLerCatalogo",
-      "label": "Ler catálogo",
-      "href": "https://stermax.com.br/images_idealine/catalogosMadu/456.1_AF_MAD.U_CatalogoDigital.pdf",
+      "label": "Ler PDF",
+      "href": "https://stermax.com.br/images_idealine/catalogosMadu/456.1_AF_MAD.U_CatalogoDigital_Final.pdf",
       "target": "_blank"
     }
   }
