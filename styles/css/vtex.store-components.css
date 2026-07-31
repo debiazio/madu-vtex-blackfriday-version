@@ -987,9 +987,7 @@
 
 /* MADE FOR YOU */
 .imageElement--imagem--made-for-you {
-  transition: transform 0.3s ease-out;
   max-width: 100%;
-  width: 80%;
   margin: 40px;
 }
 
@@ -1000,11 +998,7 @@
   width: 60%;
 }
 
-.imageElement--imagem-banner-avaliacoes:hover,
-.imageElement--imagem--made-for-you:hover {
-  transition: transform 0.3s ease-out;
-  transform: scale(1.01) rotateX(10deg) rotateY(10deg);
-}
+
 
 
 .imageElement--avaliacao-avatar {

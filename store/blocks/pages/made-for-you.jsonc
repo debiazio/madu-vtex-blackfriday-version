@@ -2,7 +2,7 @@
   "store.custom#made-for-you": {
     "blocks": [
       "flex-layout.row#made-for-you",
-      "flex-layout.row#banner-final",
+      // "flex-layout.row#banner-final",
       "flex-layout.row#avaliacoes"
     ]
   },
@@ -26,31 +26,31 @@
   },
   "image#imagem--made-for-you": {
     "props": {
-      "src": "assets/future-mad-removebg-preview.png",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/579b0feb-3b54-4b6d-8832-71438c2f8847___d028102cfbd673a41f14066c94252749.webp",
       "blockClass": "imagem--made-for-you"
     }
   },
   "flex-layout.col#page-texto--made-for-you": {
     "children": [
-      "rich-text#texto--made-for-you",
-      "link#page-link--made-for-you"
+      "rich-text#titulo-quemSomos",
+      "rich-text#texto--made-for-you"
     ],
     "props": {
       "width": "50%",
-      "blockClass": "page-texto--made-for-you"
+      "blockClass": "page-texto--made-for-you",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#titulo-quemSomos":{
+    "props": {
+      "text": "quem somos",
+      "blockClass": "titulo-quemSomos"
     }
   },
   "rich-text#texto--made-for-you": {
     "props": {
-      "text": "A **MAD.U** inova com **a maior linha de mobiliário técnico do mundo**. São milhões de possibilidades de configurações, através de módulos, acessórios e cores, criando o mobiliário perfeito para as mais diversas necessidades.\n\nIntegrante do **Grupo MFM**, que atua a mais de **30 anos** no segmento de fabricação de equipamentos da área de saúde, a **MAD.U** traz ao mercado um produto pensado, desenvolvido e **fabricado 100% no Brasil**.\n\nContamos com uma completa infraestrutura de design, engenharia, produção, qualidade, marketing e demais setores, entregando ao mercado produtos inovadores e fabricados com qualidade assegurada.\n\nUm **mobiliário perfeito** para atender diversas aplicações, podendo ser utilizado através de ambientações completas ou em uso individual. Os produtos **MAD.U** permitem que cada cliente tenha em seu ambiente um **móvel ideal** para sua utilização.\n\nConheça a **MAD.U** e descubra um novo conceito de mobiliário!",
+      "text": "Na MAD.U, acreditamos que a organização tem o poder de transformar pessoas, empresas e ambientes. \n\n Somos uma indústria brasileira, localizada em Pinhais, no Paraná, integrante do Grupo MFM, que há mais de 34 anos constrói uma história baseada em inovação, qualidade e confiança. \n\n Desenvolvemos soluções modulares inteligentes para organizar espaços e facilitar a rotina de quem faz acontecer. Cada produto é pensado para unir funcionalidade, resistência e design, ajudando nossos clientes a trabalhar melhor, ganhar eficiência e aproveitar mais o seu tempo. \n\n Porque as necessidades evoluem, os ambientes mudam e as pessoas também.É por isso que criamos soluções que acompanham essa transformação. \n\n Somos a MAD.U. E acreditamos que, quando a organização muda, tudo muda.",
       "blockClass": "texto--made-for-you"
-    }
-  },
-  "link#page-link--made-for-you": {
-    "props": {
-      "label": "CONHEÇA NOSSAS LINHAS",
-      "href": "/nossas-linhas",
-      "blockClass": "link-ver-mais"
     }
   },
   // LINHA AVALIACOES
@@ -59,28 +59,12 @@
       "blockClass": "content-avaliacoes"
     },
     "children": [
-      "flex-layout.col#imagem",
+
       "flex-layout.col#avaliacoes"
     ]
   },
-  "flex-layout.col#imagem": {
-    "props": {
-      "width": "30%",
-      "blockClass": "coluna-banner-img-avaliacoes"
-    },
-    "children": [
-      "image#avaliacoes"
-    ]
-  },
-  "image#avaliacoes": {
-    "props": {
-      "src": "assets/color-your-worldwebp.webp",
-      "blockClass": "imagem-banner-avaliacoes"
-    }
-  },
   "flex-layout.col#avaliacoes": {
     "props": {
-      "width": "70%",
       "blockClass": "coluna-avaliacoes"
     },
     "children": [
@@ -89,6 +73,11 @@
   },
   "slider-layout#page-avaliacoes": {
     "children": [
+      "flex-layout.col#avaliacao9",
+      "flex-layout.col#avaliacao10",
+      "flex-layout.col#avaliacao11",
+      "flex-layout.col#avaliacao12",
+      "flex-layout.col#avaliacao13",
       "flex-layout.col#avaliacao1",
       "flex-layout.col#avaliacao2",
       "flex-layout.col#avaliacao3",
@@ -104,7 +93,7 @@
       "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "itemsPerPage": {
-        "desktop": 2,
+        "desktop": 3,
         "tablet": 2,
         "phone": 1
       },
@@ -766,5 +755,390 @@
       "text": "Fiz uma compra de um carro com gavetas recentemente, fui muito bem atendida. Produto de qualidade excelente! Recomendo",
       "blockClass": "avaliacao-descricao"
     }
+  },
+  // nona avaliacao
+"flex-layout.col#avaliacao9": {
+  "props": {
+    "blockClass": "conteiner-avaliacao",
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "flex-layout.row#avaliacao9-heading",
+    "flex-layout.row#estrelas",
+    "rich-text#avaliacao9"
+  ]
+},
+"flex-layout.row#avaliacao9-heading": {
+  "props": {
+    "blockClass": "avaliacao-heading",
+    "preventHorizontalStretch": true
+  },
+  "children": [
+    "flex-layout.col#aval9-avatar-nome-data",
+    "flex-layout.col#google"
+  ]
+},
+// COLUNA DO AVATAR, NOME E DATA
+"flex-layout.col#aval9-avatar-nome-data": {
+  "props": {
+    "blockClass": "avaliacao-col-nome-data",
+    "width": "70%"
+  },
+  "children": [
+    "flex-layout.col#aval9-coluna-avatar",
+    "flex-layout.col#aval9-coluna-nome-data"
+  ]
+},
+// COLUNA DO AVATAR
+"flex-layout.col#aval9-coluna-avatar": {
+  "props": {
+    "blockClass": "coluna-avatar"
+  },
+  "children": [
+    "image#avaliacao9-imagem"
+  ]
+},
+// AVATAR
+"image#avaliacao9-imagem": {
+  "props": {
+    "src": "assets/nona.png",
+    "blockClass": "avaliacao-avatar"
   }
+},
+// NOME E DATA
+"flex-layout.col#aval9-coluna-nome-data": {
+  "props": {
+    "blockClass": "coluna-nome-data"
+  },
+  "children": [
+    "rich-text#avaliacao9-nome",
+    "rich-text#avaliacao9-data"
+  ]
+},
+"rich-text#avaliacao9-nome": {
+  "props": {
+    "text": "Isabella Alves",
+    "blockClass": "avaliacao-nome"
+  }
+},
+"rich-text#avaliacao9-data": {
+  "props": {
+    "text": "10/07/2026",
+    "blockClass": "avaliacao-data"
+  }
+},
+"rich-text#avaliacao9": {
+  "props": {
+    "text": "Produtos de excelente qualidade! Adquiri alguns mobiliários da Madu para a minha clínica de estética e fiquei muito satisfeita. Além de lindos, são muito bem acabados e trouxeram ainda mais sofisticação ao ambiente. Com certeza comprarei novamente em outras cores. Recomendo! 👏🏻👏🏻👏🏻",
+    "blockClass": "avaliacao-descricao"
+  }
+},
+// decima avaliacao
+"flex-layout.col#avaliacao10": {
+  "props": {
+    "blockClass": "conteiner-avaliacao",
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "flex-layout.row#avaliacao10-heading",
+    "flex-layout.row#estrelas",
+    "rich-text#avaliacao10"
+  ]
+},
+"flex-layout.row#avaliacao10-heading": {
+  "props": {
+    "blockClass": "avaliacao-heading",
+    "preventHorizontalStretch": true
+  },
+  "children": [
+    "flex-layout.col#aval10-avatar-nome-data",
+    "flex-layout.col#google"
+  ]
+},
+// COLUNA DO AVATAR, NOME E DATA
+"flex-layout.col#aval10-avatar-nome-data": {
+  "props": {
+    "blockClass": "avaliacao-col-nome-data",
+    "width": "70%"
+  },
+  "children": [
+    "flex-layout.col#aval10-coluna-avatar",
+    "flex-layout.col#aval10-coluna-nome-data"
+  ]
+},
+// COLUNA DO AVATAR
+"flex-layout.col#aval10-coluna-avatar": {
+  "props": {
+    "blockClass": "coluna-avatar"
+  },
+  "children": [
+    "image#avaliacao10-imagem"
+  ]
+},
+// AVATAR
+"image#avaliacao10-imagem": {
+  "props": {
+    "src": "assets/decima.png",
+    "blockClass": "avaliacao-avatar"
+  }
+},
+// NOME E DATA
+"flex-layout.col#aval10-coluna-nome-data": {
+  "props": {
+    "blockClass": "coluna-nome-data"
+  },
+  "children": [
+    "rich-text#avaliacao10-nome",
+    "rich-text#avaliacao10-data"
+  ]
+},
+"rich-text#avaliacao10-nome": {
+  "props": {
+    "text": "Compras Hospital Memorial",
+    "blockClass": "avaliacao-nome"
+  }
+},
+"rich-text#avaliacao10-data": {
+  "props": {
+    "text": "2 anos atrás",
+    "blockClass": "avaliacao-data"
+  }
+},
+"rich-text#avaliacao10": {
+  "props": {
+    "text": "Compramos carrinhos para doses. Atendeu nossa expectativa. Bom atendimento da empresa.",
+    "blockClass": "avaliacao-descricao"
+  }
+},
+// decima primeira avaliacao
+"flex-layout.col#avaliacao11": {
+  "props": {
+    "blockClass": "conteiner-avaliacao",
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "flex-layout.row#avaliacao11-heading",
+    "flex-layout.row#estrelas",
+    "rich-text#avaliacao11"
+  ]
+},
+"flex-layout.row#avaliacao11-heading": {
+  "props": {
+    "blockClass": "avaliacao-heading",
+    "preventHorizontalStretch": true
+  },
+  "children": [
+    "flex-layout.col#aval11-avatar-nome-data",
+    "flex-layout.col#google"
+  ]
+},
+// COLUNA DO AVATAR, NOME E DATA
+"flex-layout.col#aval11-avatar-nome-data": {
+  "props": {
+    "blockClass": "avaliacao-col-nome-data",
+    "width": "70%"
+  },
+  "children": [
+    "flex-layout.col#aval11-coluna-avatar",
+    "flex-layout.col#aval11-coluna-nome-data"
+  ]
+},
+// COLUNA DO AVATAR
+"flex-layout.col#aval11-coluna-avatar": {
+  "props": {
+    "blockClass": "coluna-avatar"
+  },
+  "children": [
+    "image#avaliacao11-imagem"
+  ]
+},
+// AVATAR
+"image#avaliacao11-imagem": {
+  "props": {
+    "src": "assets/decimoprimeiro.png",
+    "blockClass": "avaliacao-avatar"
+  }
+},
+// NOME E DATA
+"flex-layout.col#aval11-coluna-nome-data": {
+  "props": {
+    "blockClass": "coluna-nome-data"
+  },
+  "children": [
+    "rich-text#avaliacao11-nome",
+    "rich-text#avaliacao11-data"
+  ]
+},
+"rich-text#avaliacao11-nome": {
+  "props": {
+    "text": "Thiago Silva Souza",
+    "blockClass": "avaliacao-nome"
+  }
+},
+"rich-text#avaliacao11-data": {
+  "props": {
+    "text": "3 anos atrás",
+    "blockClass": "avaliacao-data"
+  }
+},
+"rich-text#avaliacao11": {
+  "props": {
+    "text": "Mobiliário técnico muito bom, excelente qualidade.",
+    "blockClass": "avaliacao-descricao"
+  }
+},
+// decima segunda avaliacao
+"flex-layout.col#avaliacao12": {
+  "props": {
+    "blockClass": "conteiner-avaliacao",
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "flex-layout.row#avaliacao12-heading",
+    "flex-layout.row#estrelas",
+    "rich-text#avaliacao12"
+  ]
+},
+"flex-layout.row#avaliacao12-heading": {
+  "props": {
+    "blockClass": "avaliacao-heading",
+    "preventHorizontalStretch": true
+  },
+  "children": [
+    "flex-layout.col#aval12-avatar-nome-data",
+    "flex-layout.col#google"
+  ]
+},
+// COLUNA DO AVATAR, NOME E DATA
+"flex-layout.col#aval12-avatar-nome-data": {
+  "props": {
+    "blockClass": "avaliacao-col-nome-data",
+    "width": "70%"
+  },
+  "children": [
+    "flex-layout.col#aval12-coluna-avatar",
+    "flex-layout.col#aval12-coluna-nome-data"
+  ]
+},
+// COLUNA DO AVATAR
+"flex-layout.col#aval12-coluna-avatar": {
+  "props": {
+    "blockClass": "coluna-avatar"
+  },
+  "children": [
+    "image#avaliacao12-imagem"
+  ]
+},
+// AVATAR
+"image#avaliacao12-imagem": {
+  "props": {
+    "src": "assets/doze.png",
+    "blockClass": "avaliacao-avatar"
+  }
+},
+// NOME E DATA
+"flex-layout.col#aval12-coluna-nome-data": {
+  "props": {
+    "blockClass": "coluna-nome-data"
+  },
+  "children": [
+    "rich-text#avaliacao12-nome",
+    "rich-text#avaliacao12-data"
+  ]
+},
+"rich-text#avaliacao12-nome": {
+  "props": {
+    "text": "Nícholas Pierri",
+    "blockClass": "avaliacao-nome"
+  }
+},
+"rich-text#avaliacao12-data": {
+  "props": {
+    "text": "3 anos atrás",
+    "blockClass": "avaliacao-data"
+  }
+},
+"rich-text#avaliacao12": {
+  "props": {
+    "text": "Produto muito além das expectativas. Muito satisfeito.",
+    "blockClass": "avaliacao-descricao"
+  }
+},
+// decima terceira avaliacao
+"flex-layout.col#avaliacao13": {
+  "props": {
+    "blockClass": "conteiner-avaliacao",
+    "preventVerticalStretch": true
+  },
+  "children": [
+    "flex-layout.row#avaliacao13-heading",
+    "flex-layout.row#estrelas",
+    "rich-text#avaliacao13"
+  ]
+},
+"flex-layout.row#avaliacao13-heading": {
+  "props": {
+    "blockClass": "avaliacao-heading",
+    "preventHorizontalStretch": true
+  },
+  "children": [
+    "flex-layout.col#aval13-avatar-nome-data",
+    "flex-layout.col#google"
+  ]
+},
+// COLUNA DO AVATAR, NOME E DATA
+"flex-layout.col#aval13-avatar-nome-data": {
+  "props": {
+    "blockClass": "avaliacao-col-nome-data",
+    "width": "70%"
+  },
+  "children": [
+    "flex-layout.col#aval13-coluna-avatar",
+    "flex-layout.col#aval13-coluna-nome-data"
+  ]
+},
+// COLUNA DO AVATAR
+"flex-layout.col#aval13-coluna-avatar": {
+  "props": {
+    "blockClass": "coluna-avatar"
+  },
+  "children": [
+    "image#avaliacao13-imagem"
+  ]
+},
+// AVATAR
+"image#avaliacao13-imagem": {
+  "props": {
+    "src": "assets/treze.png",
+    "blockClass": "avaliacao-avatar"
+  }
+},
+// NOME E DATA
+"flex-layout.col#aval13-coluna-nome-data": {
+  "props": {
+    "blockClass": "coluna-nome-data"
+  },
+  "children": [
+    "rich-text#avaliacao13-nome",
+    "rich-text#avaliacao13-data"
+  ]
+},
+"rich-text#avaliacao13-nome": {
+  "props": {
+    "text": "Timóteo Bandeira",
+    "blockClass": "avaliacao-nome"
+  }
+},
+"rich-text#avaliacao13-data": {
+  "props": {
+    "text": "3 anos atrás",
+    "blockClass": "avaliacao-data"
+  }
+},
+"rich-text#avaliacao13": {
+  "props": {
+    "text": "Amei a linha de produtos da MAD.U! Excelente qualidade e entrega rápida, recomendo!",
+    "blockClass": "avaliacao-descricao"
+  }
+}
 }

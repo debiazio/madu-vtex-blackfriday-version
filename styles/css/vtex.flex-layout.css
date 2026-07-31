@@ -1394,12 +1394,12 @@
   background-color: white;
 }
 
-.flexColChild--coluna-banner-img-avaliacoes,
+
 .flexColChild--page-imagem--made-for-you {
-  perspective: 500px;
-  /* Cria efeito 3D */
-  display: inline-block;
-  /* Garante que o contêiner se ajuste ao tamanho da imagem */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexRow--page-linha-made-for-you {
@@ -1502,6 +1502,10 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .flexColChild--page-imagem--made-for-you{
+    padding: 0 40px;
+  }
+
   .flexRowContent--linha-catalogos {
     flex-direction: column;
     align-items: center;
