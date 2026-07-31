@@ -25,7 +25,9 @@
       "responsive-layout.desktop#video-novaHome",
       "responsive-layout.mobile#video-novaHome",
       "flex-layout.row#linha-nossasRedesSociais-novaHome",
-      "flex-layout.row#linhaFAQs-novaHome"
+      "flex-layout.row#linhaFAQs-novaHome",
+      "controllervisualization"
+      // "flex-layout.row#linhaFAQs-seo"
     ],
     "parent": {
       "header": "header"

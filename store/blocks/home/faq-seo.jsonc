@@ -1,0 +1,219 @@
+{
+  "controllervisualization": {
+    "props": {
+      "active": true,
+      "blockId": "linhaFAQs-seo"
+    },
+    "children": [
+      "flex-layout.row#linhaFAQs-seo"
+    ]
+  },
+  "flex-layout.row#linhaFAQs-seo": {
+    "props": {
+      "blockClass": "linhaFAQs-seo",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-faqSeo",
+      "flex-layout.row#disclosure-faq-seo"
+    ]
+  },
+  "flex-layout.row#titulo-faqSeo": {
+    "props": {
+      "blockClass": "linha-titulo-faqSeo"
+    },
+    "children": [
+      "rich-text#tituloFaqSeo"
+    ]
+  },
+  "rich-text#tituloFaqSeo": {
+    "props": {
+      "blockClass": "tituloFaqSeo",
+      "text": "### Perguntas frequentes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    },
+    "title": "Titulo FAQ SEO"
+  },
+   "flex-layout.row#disclosure-faq-seo": {
+    "props": {
+      "blockClass": "disclosure-faq-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "disclosure-layout-group#faq-seo"
+    ]
+  },
+  "disclosure-layout-group#faq-seo": {
+    "props": {
+      "blockClass": "group-faq-maduset"
+    },
+    "children": [
+      "disclosure-layout#pergunta01",
+      "disclosure-layout#pergunta02",
+      "disclosure-layout#pergunta03",
+      "disclosure-layout#pergunta04"
+    ]
+  },
+  "disclosure-layout#pergunta01": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#pergunta01",
+      "disclosure-content#pergunta01"
+    ]
+  },
+  "disclosure-trigger#pergunta01": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-pergunta01",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-pergunta01": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Lorem ipsum dolor sit amet?"
+    },
+    "title": "Pergunta01"
+  },
+  "disclosure-content#pergunta01": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-pergunta01"
+    ]
+  },
+  "rich-text#content-pergunta01": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Et quis quia est expedita cumque et beatae natus. Sit sunt nobis sit sapiente consectetur vel deleniti eaque ut sunt repellat ut perspiciatis nulla aut accusantium velit."
+    },
+    "title": "Resposta01"
+  },
+  "disclosure-layout#pergunta02": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#pergunta02",
+      "disclosure-content#pergunta02"
+    ]
+  },
+  "disclosure-trigger#pergunta02": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-pergunta02",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-pergunta02": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Lorem ipsum sit amet?"
+    },
+    "title": "Pergunta02"
+  },
+  "disclosure-content#pergunta02": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-pergunta02"
+    ]
+  },
+  "rich-text#content-pergunta02": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Lorem ipsum dolor sit amet. Eos commodi dolor ab inventore commodi est eligendi debitis eum inventore praesentium aut consequatur natus est corporis obcaecati. Et quis quia est expedita cumque et beatae natus. Sit sunt nobis sit sapiente consectetur vel deleniti eaque ut sunt repellat ut perspiciatis nulla aut accusantium velit."
+    },
+    "title": "Resposta02"
+  },
+  "disclosure-layout#pergunta03": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#pergunta03",
+      "disclosure-content#pergunta03"
+    ]
+  },
+  "disclosure-trigger#pergunta03": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-pergunta03",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-pergunta03": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Lorem ipsum?"
+    }
+    ,"title": "Pergunta03"
+  },
+  "disclosure-content#pergunta03": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-pergunta03"
+    ]
+  },
+  "rich-text#content-pergunta03": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Lorem ipsum dolor sit amet. Ut expedita aliquam ut numquam iusto aut voluptas officia est neque vero eum velit nisi sit omnis molestiae a temporibus fuga. Eos incidunt dolores eum laudantium dolor ut necessitatibus dolores non dicta consequatur. Et omnis nostrum ex voluptatem asperiores non nisi quod 33 quia eveniet nam provident nihil id aliquam galisum sed voluptatibus eveniet? In odit tempore vel unde quia id neque voluptatem vel nostrum molestiae. Ea dolor veritatis qui perferendis accusantium est doloremque blanditiis ut laboriosam dolores ut quia inventore ut magnam voluptas. Sed magnam inventore sit modi accusamus qui omnis dolorem. Et ipsa fugiat ut laboriosam expedita ad perferendis tenetur et odio similique qui voluptates vero et illum nulla eum internos laboriosam. Eum atque quam non molestiae inventore aut pariatur harum qui quam laboriosam est velit galisum et esse possimus."
+    },
+    "title": "Resposta03"
+  },
+  "disclosure-layout#pergunta04": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#pergunta04",
+      "disclosure-content#pergunta04"
+    ]
+  },
+  "disclosure-trigger#pergunta04": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-pergunta04",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-pergunta04": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Lorem ipsum dolor?"
+    },
+    "title": "Pergunta04"
+  },
+  "disclosure-content#pergunta04": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-pergunta04"
+    ]
+  },
+  "rich-text#content-pergunta04": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Ex molestiae vero eum enim quia At internos nihil sit adipisci voluptatem. Et illum nisi ea consequatur atque est sunt modi et officia molestiae et consequatur minima est voluptas aliquam qui molestiae dolorem. Est minus fugit et dolore similique ab ipsam totam 33 vitae porro sed tempora amet sit atque harum. Ut laboriosam voluptas et dolor fugit eum quam culpa quo sint consequatur ut minima laboriosam. Non aspernatur neque aut rerum nisi eos perferendis quaerat qui veniam magnam."
+    },
+    "title": "Resposta04"
+  }
+
+}
