@@ -59,9 +59,17 @@
       "blockClass": "content-avaliacoes"
     },
     "children": [
-
+      "rich-text#titulo-depoimentos",
       "flex-layout.col#avaliacoes"
     ]
+  },
+  "rich-text#titulo-depoimentos":{
+    "props": {
+      "blockClass": "titulo-quemSomos",
+      "text": "Depoimentos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   },
   "flex-layout.col#avaliacoes": {
     "props": {
