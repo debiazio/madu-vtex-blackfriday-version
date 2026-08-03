@@ -1,45 +1,75 @@
 {
-  "flex-layout.row#bannerInicio-vet": {
+  "flex-layout.row#primeiraLinha-vet": {
     "props": {
-      "blockClass": "",
+      "blockClass": "primeiraLinha-vet",
+      "colSizing": "auto",
       "fullWidth": true
     },
-    "title": "Linha Banner Principal",
     "children": [
-      "list-context.image-list#home-banner-vet"
-    ]
+      "flex-layout.row#linhaTextos-primeiraLinha-vet",
+      "flex-layout.row#linhaImagem-primeiraLinha-vet"
+    ],
+    "title": "Banner incial"
   },
-  "list-context.image-list#home-banner-vet": {
+  "flex-layout.row#linhaTextos-primeiraLinha-vet": {
     "props": {
-      "blocClass": "listContext-novahome",
-      "images": [
-        {
-          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/53c32f38-4fd6-48a0-914a-4f53c8a92aa6___f07549ef1bfcbb4cf131b96809163c17.webp",
-          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d9d2bd86-112e-4644-878f-3562d231775a___d427218bd589c7b692af97da98f0a90c.webp",
-          "link": {
-            "url": "#"
-          }
-        }
-      ]
+      "blockClass": "linhaTextos-primeiraLinha-vet",
+      "colSizing": "auto"
     },
     "children": [
-      "slider-layout#veterinaria"
+      "image#img-banner-inicial-vet",
+      "rich-text#titulo-vet",
+      "rich-text#subtitulo-vet",
+      "link#solicitarCotacao-vet"
     ]
   },
-  "slider-layout#veterinaria": {
+  "image#img-banner-inicial-vet": {
     "props": {
-      "title": "Slider home",
-      "blockClass": "slider-vet",
-      "maxwidth": "1200",
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "arrowSize": 50,
-      "infinite": true,
-      "showNavigationArrows": "always",
-      "showPaginationDots": "never"
-    }
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d7ca8026-603d-4b09-aa97-ba8c539b751e___59642f20662c55a47049251d5d57b31b.webp",
+      "alt": "Imagem madupet",
+      "blockClass": "madupet-img"
+    },
+    "title": "Imagem madupet"
+  },
+  "rich-text#titulo-vet": {
+    "props": {
+      "blockClass": "titulo-vet",
+      "text": "# Organização que acompanha \n # a **rotina veterinária**"
+    },
+    "title": "Título"
+  },
+  "rich-text#subtitulo-vet": {
+    "props": {
+      "blockClass": "subtitulo-vet",
+      "text": "Para clínicas, hospitais veterinários e laboratórios que \n buscam mais organização, mobilidade e eficiência."
+    },
+    "title": "Subtítulo"
+  },
+  "link#solicitarCotacao-vet": {
+    "props": {
+      "href": "#",
+      "label": "conheça as soluções",
+      "blockClass": "link-solicitarCotacao-vet",
+      "target": "_blank"
+    },
+    "title": "Link soluções"
+  },
+  "flex-layout.row#linhaImagem-primeiraLinha-vet": {
+    "props": {
+      "blockClass": "linhaImagem-primeiraLinha-vet",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-vet"
+    ],
+    "title": "Linha Imagem lp vet"
+  },
+  "image#imagem-vet": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6168976f-a000-4552-b841-919044eb020a___3bb8c700fe32e4f3566346dbb5ed0ec7.webp",
+      "alt": "imagem madu veterinaria",
+      "blockClass": "imagem-banner-inicial-maduset"
+    },
+    "title": "Imagem banner inicial"
   }
 }

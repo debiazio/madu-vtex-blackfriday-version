@@ -1,0 +1,16 @@
+.imageElement--img-linhaOne-vet{
+  padding-top: 42px;
+  padding-bottom: 21px;
+}
+
+.imageElement--madupet-img {
+  width: 100%;
+  height: auto;
+  padding: 24px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .imageElement--madupet-img{
+    max-width: 65vw;
+  }
+}

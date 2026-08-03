@@ -1,0 +1,138 @@
+{
+  "flex-layout.row#linhaOne-vet": {
+    "props": {
+      "blockClass": "linhas-vet",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#titulo-linhaOne-vet",
+      "flex-layout.col#img-linhaOne-vet",
+      "flex-layout.col#produto-linhaOne-vet"
+    ]
+  },
+  // coluna titulo one
+  "flex-layout.col#titulo-linhaOne-vet": {
+    "props": {
+      "blockClass": "coluna-linhaOne-Vet"
+    },
+    "children": [
+      "rich-text#titulo-linhaOne-vet"
+    ]
+  },
+  "rich-text#titulo-linhaOne-vet": {
+    "props": {
+      "blockClass": "titulo-linhaOne-vet",
+      "text": "## Uma estrutura  \n ## preparada para \n ## **apoiar** \n ##  **atendimentos,** \n ## **procedimentos** \n ## **e emergências.**"
+    }
+  },
+  // img one
+  "flex-layout.col#img-linhaOne-vet": {
+    "props": {
+      "blockClass": "col-img-OneVet"
+    },
+    "children": [
+      "image#img-linhaOne-Vet"
+    ]
+  },
+  "image#img-linhaOne-Vet": {
+    "props": {
+      "blockClass": "img-linhaOne-vet",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d33c8c18-d6cd-4325-a288-3c0da01459b6___957e7ad4e0296da1dba30e11d57879da.webp",
+      "alt": "Linha one"
+    }
+  },
+  // produto
+  "flex-layout.col#produto-linhaOne-vet": {
+    "props": {
+      "blockClass": "produto-linhaOne-Vet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#linha-titulo-produtoLinhaOne-vet",
+      "rich-text#titulo-produtoLinhaOne-vet",
+      "rich-text#subtitulo-produtoLinhaOne-vet",
+      "flex-layout.row#imagens-produtos-LinhaOne-vet",
+      "flex-layout.row#links-produto-linhaOne-vet"
+    ]
+  },
+  "flex-layout.row#linha-titulo-produtoLinhaOne-vet": {
+    "props":{
+      "blockClass": "linha-titulo-produtoLinhaOne-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children":[
+      "rich-text#linha",
+      "image#tag-one-vet"
+    ]
+  },
+    "image#tag-one-vet": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbdf2eb-1758-4f7a-9759-9181c687f8e0___213cf17ba35421a3655f03a4ce40ded1.svg",
+      "blockClass": "image-tag-vet"
+    }
+  },
+  "rich-text#linha":{
+    "props": {
+      "text": "Linha",
+      "blockClass": "linha"
+    },
+    "title": "Linha"
+  },
+  "rich-text#titulo-produtoLinhaOne-vet": {
+    "props": {
+      "blockClass": "titulo-produtoLinhaOne-vet",
+      "text": "Carrinho de Emergência \n Veterinária MAD.U ONE 560"
+    }
+  },
+  "rich-text#subtitulo-produtoLinhaOne-vet": {
+        "props": {
+      "blockClass": "subtitulo-produtoLinhaOne-vet",
+      "text": "O ONE 560 reúne quatro gavetas, acessórios técnicos, mobilidade e tecnologia antimicrobiana em uma configuração completa para atendimentos, procedimentos e emergências veterinárias."
+    }
+  },
+  "flex-layout.row#imagens-produtos-LinhaOne-vet": {
+    "props": {
+      "blockClass": "imagens-produtos-LinhaOne-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#rectangulo",
+      "image#rectangulo",
+      "image#rectangulo"
+    ]
+  },
+  "image#rectangulo":{
+    "props": {
+      "blockClass": "img-rectangulo-vet",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/075b9bb3-8daa-4302-a216-8ef516bd888f___815366dc04805ee2f55fe2fb5d9ee0c5.webp"
+    }
+  },
+  "flex-layout.row#links-produto-linhaOne-vet": {
+    "props": {
+      "blockClass": "links-produto-linhaOne-vet"
+    },
+    "children": [
+      "link#verproduto-linhaOne-vet",
+      "link#falarVendedor-linhaOne-vet"
+    ],
+    "title": "Links produto linha one"
+  },
+  "link#verproduto-linhaOne-vet":{
+    "props": {
+      "blockClass": "link-falarEspec-hospitais",
+      "href": "#",
+      "label": "ver produto"
+    },
+    "title": "Link ver produto"
+  },
+  "link#falarVendedor-linhaOne-vet":{
+     "props": {
+      "blockClass": "link-falarConsultor-vet",
+      "href": "#",
+      "label": "falar com consultor"
+    },
+    "title": "Link falar com consultor"
+  }
+}

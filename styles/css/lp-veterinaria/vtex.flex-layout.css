@@ -1,0 +1,78 @@
+.flexRowContent--imagens-produtos-LinhaOne-vet{
+  padding-bottom: 32px;
+}
+
+.flexRow--linha-titulo-produtoLinhaOne-vet{
+  padding: 20px 0;
+}
+
+.flexRowContent--linha-titulo-produtoLinhaOne-vet {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexRow--linhas-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--linhas-vet {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--linhaTextos-primeiraLinha-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flexRowContent--linhaTextos-primeiraLinha-vet .stretchChildrenWidth {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.flexRow--primeiraLinha-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00A277;
+}
+
+.flexRow--linhaTextos-primeiraLinha-vet {
+  max-width: max-content;
+}
+
+.flexRowContent--primeiraLinha-vet,
+.flexRow--linhaTextos-primeiraLinha-vet {
+  background-color: #00A277;
+}
+
+.flexRowContent--primeiraLinha-vet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRowContent--linhaTextos-primeiraLinha-vet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 45px;
+  }
+
+  .flexRowContent--primeiraLinha-vet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+}
