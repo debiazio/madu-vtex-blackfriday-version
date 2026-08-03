@@ -83,7 +83,8 @@
       "flex-layout.row#banner-categorias",
       // "flex-layout.row#banner-pesquisa",
       // "flex-layout.row#conheca-nossas-linhas",
-      "flex-layout.row#result"
+      "flex-layout.row#result",
+      "controllervisualization"
     ],
     "props": {
       "pagination": "infinite-scroll",

@@ -1,3 +1,17 @@
+.trigger--trigger-disclosure-lermais {
+  display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: unset;
+    border-radius: 10px;
+    border: 1px solid #AEAEAE;
+    height: 50px;
+    min-width: 150px;
+    justify-content: center;
+    width: fit-content!important;
+    cursor: pointer;
+}
+
 .trigger--trigger-class {
   padding: 0;
   margin: 0;

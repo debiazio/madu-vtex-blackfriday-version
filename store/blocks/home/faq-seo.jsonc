@@ -5,7 +5,8 @@
       "blockId": "linhaFAQs-seo"
     },
     "children": [
-      "flex-layout.row#linhaFAQs-seo"
+      "flex-layout.row#linhaFAQs-seo",
+      "flex-layout.row#linha-lermais"
     ]
   },
   "flex-layout.row#linhaFAQs-seo": {
@@ -35,7 +36,7 @@
     },
     "title": "Titulo FAQ SEO"
   },
-   "flex-layout.row#disclosure-faq-seo": {
+  "flex-layout.row#disclosure-faq-seo": {
     "props": {
       "blockClass": "disclosure-faq-maduset",
       "colSizing": "auto"
@@ -157,8 +158,8 @@
     "props": {
       "blockClass": "text-trigger-faq-madu",
       "text": "### Lorem ipsum?"
-    }
-    ,"title": "Pergunta03"
+    },
+    "title": "Pergunta03"
   },
   "disclosure-content#pergunta03": {
     "props": {
@@ -214,6 +215,144 @@
       "text": "#### Ex molestiae vero eum enim quia At internos nihil sit adipisci voluptatem. Et illum nisi ea consequatur atque est sunt modi et officia molestiae et consequatur minima est voluptas aliquam qui molestiae dolorem. Est minus fugit et dolore similique ab ipsam totam 33 vitae porro sed tempora amet sit atque harum. Ut laboriosam voluptas et dolor fugit eum quam culpa quo sint consequatur ut minima laboriosam. Non aspernatur neque aut rerum nisi eos perferendis quaerat qui veniam magnam."
     },
     "title": "Resposta04"
+  },
+  // --------------------
+  // linha ler mais
+  // --------------------
+  // ÍCONE DO DISCLOSURE
+  "disclosure-state-indicator#configSet-lermais": {
+    "props": {
+      "Show": "icon-caret#down-configSet-lermais",
+      "Hide": "icon-caret#up-configSet-lermais"
+    }
+  },
+  "icon-caret#down-configSet-lermais": {
+    "props": {
+      "blockClass": "caret-baixo-lermais",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-configSet-lermais": {
+    "props": {
+      "blockClass": "cima-configSet-lermais",
+      "orientation": "up"
+    }
+  },
+  // -----------------------------------
+  "flex-layout.row#linha-lermais": {
+    "props": {
+      "blockClass": "linha-lermais",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#textos-lermais",
+      "flex-layout.row#textosLermasAdicionais"
+    ],
+    "title": "Linha Ler Mais"
+  },
+  "flex-layout.row#textos-lermais": {
+    "props": {
+      "blockClass": "linha-textosLerMais",
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#titulo1-lermais",
+      "rich-text#conteudo1-lermais",
+      "rich-text#titulo2-lermais",
+      "rich-text#conteudo2-lermais"
+    ]
+  },
+  "rich-text#titulo1-lermais": {
+    "props": {
+      "text": "## Titulo 1",
+      "blockClass": "titulo-lermais"
+    },
+    "title": "Titulo 1 Ler Mais"
+  },
+  "rich-text#titulo2-lermais": {
+    "props": {
+      "text": "## Titulo 2",
+      "blockClass": "titulo-lermais"
+    },
+    "title": "Titulo 2 Ler Mais"
+  },
+  "rich-text#conteudo1-lermais": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "blockClass": "conteudo-lermais"
+    },
+    "title": "Conteúdo 1 Ler Mais"
+  },
+  "rich-text#conteudo2-lermais": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "blockClass": "conteudo-lermais"
+    },
+    "title": "Conteúdo 2 Ler Mais"
+  },
+  "flex-layout.row#textosLermasAdicionais": {
+    "props": {
+      "blockClass": "linha-btnLerMais"
+    },
+    "children": [
+      "disclosure-layout-group#lermais"
+    ]
+  },
+  "disclosure-layout-group#lermais": {
+    "props": {
+      "blockClass": "group-disclosure-lermais"
+    },
+    "children": [
+      "disclosure-layout#btn-lermais"
+    ]
+  },
+  "disclosure-layout#btn-lermais": {
+    "props": {
+      "blockClass": "layout-disclosure-lermais"
+    },
+    "children": [
+      "disclosure-trigger#btn-lermais",
+      "disclosure-content#btn-lermais"
+    ]
+  },
+  "disclosure-trigger#btn-lermais": {
+    "props": {
+      "blockClass": "trigger-disclosure-lermais"
+    },
+    "children": [
+      "rich-text#trigger-btnLerMais",
+      "disclosure-state-indicator#configSet-lermais"
+    ]
+  },
+  "rich-text#trigger-btnLerMais": {
+    "props": {
+      "blockClass": "texto-btnLerMais",
+      "text": "Ler mais"
+    },
+    "title": "Botão Ler Mais"
+  },
+  "disclosure-content#btn-lermais": {
+    "props": {
+      "blockClass": "content-disclosure-lermais"
+    },
+    "children": [
+      "rich-text#titulo2-lermais-debaixo",
+      "rich-text#conteudo-lermais"
+    ]
+  },
+  "rich-text#titulo2-lermais-debaixo": {
+    "props": {
+      "text": "## Titulo 3",
+      "blockClass": "titulo-lermais"
+    },
+    "title": "Titulo Ler Mais - hidden"
+  },
+  "rich-text#conteudo-lermais": {
+    "props": {
+      "blockClass": "conteudo-lermais",
+      "text": "Lorem ipsum dolor sit amet. Eos commodi dolor ab inventore commodi est eligendi debitis eum inventore praesentium aut consequatur natus est corporis obcaecati. Et quis quia est expedita cumque et beatae natus. Sit sunt nobis sit sapiente consectetur vel deleniti eaque ut sunt repellat ut perspiciatis nulla aut accusantium velit."
+    },
+    "title": "conteudo Ler mais - hidden"
   }
-
 }

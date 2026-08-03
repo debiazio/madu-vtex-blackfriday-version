@@ -7,6 +7,23 @@
   font-family: "Poppins", sans-serif!important;
 }
 
+/* Esconde o texto original "Ler Mais" */
+:global(.vtex-disclosure-layout-1-x-trigger--trigger-disclosure-lermais) :global(.vtex-rich-text-0-x-paragraph--texto-btnLerMais) {
+  font-size: 0;
+}
+
+/* Estado recolhido → "Ler Mais" */
+:global(.vtex-disclosure-layout-1-x-trigger--trigger-disclosure-lermais) :global(.vtex-rich-text-0-x-paragraph--texto-btnLerMais)::after {
+  content: "Ler Mais";
+  font-size: 1rem; /* ajuste pro tamanho original */
+}
+
+/* Estado expandido → "Ler menos" */
+:global(.vtex-disclosure-layout-1-x-trigger--visible) :global(.vtex-rich-text-0-x-paragraph--texto-btnLerMais)::after {
+  content: "Ler menos";
+}
+
+
 #nav-thin-caret--left,
 #nav-thin-caret--right {
   width: 10px;
