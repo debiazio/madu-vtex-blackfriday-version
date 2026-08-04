@@ -2,11 +2,13 @@
   "flex-layout.row#maiorOrganizacao-vet": {
     "props": {
       "blockClass": "linha-maiorOrganizacao-vet",
-      "fullWidth": true
+      "fullWidth": true,
+      "preventHorizontalStretch": true
     },
     "children": [
       "flex-layout.row#textos-maiorOrg-vet",
-      "responsive-layout.desktop#img-maiorOrg-vet"
+      "responsive-layout.desktop#img-maiorOrg-vet",
+      "flex-layout.row#links-maiorOrg-vet"
     ],
     "title": "Linha maior organização"
   },
@@ -62,5 +64,34 @@
       "blockClass": "img-maiorOrg-vet"
     },
     "title": "Imagem maior organização"
+  },
+  // ====================
+  // links
+  "flex-layout.row#links-maiorOrg-vet": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": ["links-estanteVet", "links-maiorOrg-vet"]
+    },
+    "children": [
+      "link#verproduto-maiorOrg-vet",
+      "link#falarVendedor-maiorOrg-vet"
+    ],
+    "title": "Linha links maior organização"
+  },
+  "link#verproduto-maiorOrg-vet": {
+    "props": {
+      "blockClass": "link-verProduto",
+      "href": "https://www.pensemadu.com.br/gaveteiro-plastico-antimicrobiano-numero-4-tampa-madu-one/p",
+      "label": "ver produto"
+    },
+    "title": "Link ver produto"
+  },
+  "link#falarVendedor-maiorOrg-vet": {
+    "props": {
+      "blockClass": "link-falarConsultor-vet",
+      "href": "#",
+      "label": "falar com consultor"
+    },
+    "title": "Link falar com consultor"
   }
 }

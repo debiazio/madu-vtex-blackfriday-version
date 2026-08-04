@@ -1,3 +1,28 @@
+.flexRowContent--links-maiorOrg-vet {
+  padding: 37px 0 65px 0;
+}
+
+.flexRowContent--textos-maiorOrg-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRow--linha-maiorOrganizacao-vet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--linha-maiorOrganizacao-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+}
+
 .flexColChild--coluna-meio-conteudo-estanteVet {
   display: flex;
   flex-direction: column;
