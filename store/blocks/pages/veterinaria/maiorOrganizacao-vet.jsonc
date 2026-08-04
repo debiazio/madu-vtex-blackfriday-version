@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#maiorOrganizacao-vet": {
+    "props": {
+      "blockClass": "linha-maiorOrganizacao-vet",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textos-maiorOrg-vet",
+      "responsive-layout.desktop#img-maiorOrg-vet"
+    ],
+    "title": "Linha maior organização"
+  },
+  "flex-layout.row#textos-maiorOrg-vet": {
+    "props": {
+      "blockClass": "textos-maiorOrg-vet"
+    },
+    "children": [
+      "rich-text#titulo-maiorOrg-vet",
+      "rich-text#subtitulo-maiorOrg-vet"
+    ],
+    "title": "Linha textos maior organização"
+  },
+  "rich-text#titulo-maiorOrg-vet": {
+    "props": {
+      "text": "## Mais organização na rotina veterinária",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-maiorOrg-vet"
+    },
+    "title": "Titulo maior organização"
+  },
+  "rich-text#subtitulo-maiorOrg-vet": {
+    "props": {
+      "text": "Bins antimicrobianos com tampa para separar medicamentos, insumos e pequenos materiais, facilitando a identificação e o acesso durante atendimentos, curativos, coletas e internações.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-maiorOrg-vet"
+    },
+    "title": "Subitulo maior organização"
+  },
+  // ----------------------
+  // imagem desktop
+  // ----------------------
+  "responsive-layout.desktop#img-maiorOrg-vet": {
+    "children": [
+      "flex-layout.row#img-maiorOrg-vet"
+    ],
+    "title": "Desktop - img maior organização"
+  },
+  "flex-layout.row#img-maiorOrg-vet":{
+    "props": {
+      "blockClass": "linha-img-maiorOrg-vet"
+    },
+    "children":[
+      "image#img-maiorOrg-vet"
+    ]
+  },
+  "image#img-maiorOrg-vet":{
+    "props":{
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e38eaebc-dd1d-4189-83ad-ee3a8a77dd01___3af91b4f6a58f95bda4e242f4d697c19.webp",
+      "alt": "Imagem maior organização",
+      "blockClass": "img-maiorOrg-vet"
+    },
+    "title": "Imagem maior organização"
+  }
+}
