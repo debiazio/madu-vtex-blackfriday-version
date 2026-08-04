@@ -1,3 +1,8 @@
+
+.imageElement--imagem-banner-inicial-maduset{
+  border-radius: 0 0 50% 50%;
+}
+
 .imageElement--img-linhaOne-vet{
   padding-top: 42px;
   padding-bottom: 21px;
@@ -7,6 +12,10 @@
   width: 100%;
   height: auto;
   padding: 24px 0;
+}
+
+.imageElement--icon-estanteVet{
+  min-width: 40px;
 }
 
 @media screen and (max-width: 1024px) {

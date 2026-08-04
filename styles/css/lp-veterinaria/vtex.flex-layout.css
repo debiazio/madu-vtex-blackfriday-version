@@ -1,20 +1,37 @@
-.flexCol--coluna-direita-conteudo-estanteVet{
+.flexColChild--coluna-meio-conteudo-estanteVet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--linha-estante-vet {
+  padding: 65px 0;
+}
+
+.flexRowContent--links-estanteVet {
+  gap: 8px
+}
+
+.flexRowContent--linhaImagem-primeiraLinha-vet {
+  background-color: #FFA207;
+}
+
+.flexCol--coluna-direita-conteudo-estanteVet {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
-.flexRowContent--linhasLaterais-estenteVet,
-.flexRowContent--linhasLaterais-estanteVet{
+.flexRowContent--linhasLaterais-estanteVet {
   gap: 10px;
 }
 
-.flexCol--colunas-conteudo-estanteVet{
+.flexCol--colunas-conteudo-estanteVet {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .flexRowContent--estanteVet {
@@ -114,6 +131,32 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--links-estanteVet {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0 0 45px;
+  }
+
+  .flexRowContent--conteudo-estanteVet {
+    padding: 0 10px;
+  }
+
+  .flexRowContent--estanteVet {
+    padding: 0 45px;
+  }
+
+  .flexRowContent--linhasLaterais-estanteVet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .flexRowContent--conteudo-estanteVet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
   .flexRowContent--links-produto-linhaOne-vet {
     justify-content: flex-start;
     gap: 10px;

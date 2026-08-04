@@ -1,3 +1,39 @@
+.paragraph--textos-laterais {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 12px;
+  color: #7A7A7A;
+  line-height: 97%;
+  letter-spacing: 0%;
+
+}
+
+.container--subtitulo-estanteVet {
+  max-width: 40vw;
+}
+
+.headingLevel2--titulo-estanteVet {
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  line-height: 97%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--subtitulo-estanteVet {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 12px;
+  color: #767676;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+
 .paragraph--linha {
   margin: 0;
   font-family: "Poppins Light", sans-serif !important;
@@ -73,6 +109,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .container--subtitulo-estanteVet{
+    max-width: unset;
+  }
 
   .strong--titulo-linhaOne-vet,
   .headingLevel2--titulo-linhaOne-vet {
