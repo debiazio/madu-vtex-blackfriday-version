@@ -2,7 +2,8 @@
   "store.custom#veterinaria":{
     "blocks": [
        "flex-layout.row#primeiraLinha-vet",
-       "flex-layout.row#linhaOne-vet"
+       "flex-layout.row#linhaOne-vet",
+       "flex-layout.row#estante-vet"
     ]
   }
 }

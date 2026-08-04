@@ -1,3 +1,47 @@
+.link--link-falarConsultor-vet {
+  text-decoration: none;
+  color: #727272;
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.link--link-verProduto {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Poppins Bold", sans-serif !important;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.label--link-falarConsultor-vet:hover {
+  background-color: #e5e5e5;
+}
+.label--link-falarConsultor-vet {
+  background-color: #FFFFFF;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+  border: 1px solid #727272;
+}
+
+
+.label--link-verProduto:hover {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  background-color: #80C2A8;
+}
+
+.label--link-verProduto {
+  background-color: #4CAB86;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+}
+
+
 .link--link-solicitarCotacao-vet {
   display: flex;
   flex-direction: row;

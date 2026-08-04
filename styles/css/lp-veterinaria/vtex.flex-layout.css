@@ -1,8 +1,60 @@
-.flexRowContent--imagens-produtos-LinhaOne-vet{
+.flexCol--coluna-direita-conteudo-estanteVet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexRowContent--linhasLaterais-estenteVet,
+.flexRowContent--linhasLaterais-estanteVet{
+  gap: 10px;
+}
+
+.flexCol--colunas-conteudo-estanteVet{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.flexRowContent--estanteVet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flexRow--linha-estante-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FAFAFA;
+}
+
+.flexRowContent--linha-estante-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.flexRowContent--linhas-vet .stretchChildrenWidth:last-child {
+  padding-left: 75px;
+}
+
+.flexRowContent--links-produto-linhaOne-vet {
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexRowContent--imagens-produtos-LinhaOne-vet {
   padding-bottom: 32px;
 }
 
-.flexRow--linha-titulo-produtoLinhaOne-vet{
+.flexRow--linha-titulo-produtoLinhaOne-vet {
   padding: 20px 0;
 }
 
@@ -10,6 +62,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 5px;
 }
 
 .flexRow--linhas-vet {
@@ -61,11 +114,33 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--links-produto-linhaOne-vet {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .flexRowContent--imagens-produtos-LinhaOne-vet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .flexRowContent--linhas-vet {
+    flex-direction: column;
+    padding: 64px 24px;
+  }
+
   .flexRowContent--linhaTextos-primeiraLinha-vet {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 45px;
+  }
+
+  .flexRowContent--linhas-vet .stretchChildrenWidth:last-child {
+    padding-left: unset;
   }
 
   .flexRowContent--primeiraLinha-vet {

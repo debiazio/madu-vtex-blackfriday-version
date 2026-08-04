@@ -111,7 +111,8 @@
   },
   "flex-layout.row#links-produto-linhaOne-vet": {
     "props": {
-      "blockClass": "links-produto-linhaOne-vet"
+      "blockClass": "links-produto-linhaOne-vet",
+      "preventHorizontalStretch": true
     },
     "children": [
       "link#verproduto-linhaOne-vet",
@@ -121,7 +122,7 @@
   },
   "link#verproduto-linhaOne-vet":{
     "props": {
-      "blockClass": "link-falarEspec-hospitais",
+      "blockClass": "link-verProduto",
       "href": "#",
       "label": "ver produto"
     },

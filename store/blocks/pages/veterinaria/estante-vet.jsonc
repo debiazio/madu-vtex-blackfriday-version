@@ -1,0 +1,303 @@
+{
+  "flex-layout.row#estante-vet":{
+    "props": {
+      "blockClass": "linha-estante-vet",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulos-estante-vet",
+      "flex-layout.row#conteudo-estante-vet",
+      "flex-layout.row#links-estante-vet"
+    ]
+  },
+  // ====================
+  // titulos
+  "flex-layout.row#titulos-estante-vet":{
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "estanteVet"
+    },
+    "children": [
+      "rich-text#titulo-estante-vet",
+      "rich-text#subtitulo-estante-vet"
+    ],
+    "title": "Linha titulos estantes"
+  },
+  "rich-text#titulo-estante-vet":{
+    "props": {
+      "text": "Estante Giratória com 96 Bins",
+      "blockClass": "titulo-estanteVet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    },
+    "title": "Titulo estante"
+  },
+  "rich-text#subtitulo-estante-vet":{
+    "props": {
+      "text": "Organização de alta capacidade, com armazenamento nos dois lados para manter medicamentos, insumos e pequenos materiais identificados e acessíveis.",
+      "blockClass": "subtitulo-estanteVet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    },
+    "title": "subtitulo estante"
+  },
+    // ====================
+  // conteudo
+  "flex-layout.row#conteudo-estante-vet":{
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "conteudo-estanteVet"
+    },
+    "children": [
+      "flex-layout.col#coluna1-conteudo-estante-vet",
+      "flex-layout.col#coluna2-conteudo-estante-vet",
+      "flex-layout.col#coluna3-conteudo-estante-vet"
+    ],
+    "title": "Linha conteúdo Estante"
+  },
+  // coluna 1
+  "flex-layout.col#coluna1-conteudo-estante-vet":{
+    "props": {
+      "blockClass": "colunas-conteudo-estanteVet",
+      "preventVerticalStretch": true
+    },
+    "title": "Coluna 1 Conteúdo Estante Vet",
+    "children": [
+      "flex-layout.row#linha-tampo-estante-vet",
+      "flex-layout.row#linha-96bins-estante-vet",
+      "flex-layout.row#linha-antimicrobiana-estante-vet"
+    ]
+  },
+  "flex-layout.row#linha-tampo-estante-vet":{
+    "props": {
+      "blockClass": "linhasLaterais-estanteVet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#tampo",
+      "image#tampo-icon-vet"
+    ],
+    "title": "Linhas Laterais"
+  },
+  "rich-text#tampo":{
+    "props": {
+      "text": "Tampo em INOX",
+      "textAlignment": "RIGHT",
+      "blockClass": "textos-laterais"
+    },
+    "title": "Texto Tampo em INOX"
+  },
+  "image#tampo-icon-vet":{
+    "props": {
+      "blockClass": "icon-estanteVet",
+      "title": "Icone tampo",
+      "alt": "icone tampo",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/eae5132a-1b58-40ff-af5d-a76547fe113a___d8c5303f1b434437d17e193ebe6cd1c7.svg"
+    },
+    "title": "Icone estante"
+  },
+  "flex-layout.row#linha-96bins-estante-vet":{
+    "props": {
+      "blockClass": "linhasLaterais-estanteVet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#96bins",
+      "image#96bins-icon-vet"
+    ],
+    "title": "Linhas Laterais"
+  },
+  "rich-text#96bins":{
+    "props": {
+      "text": "96 bins tamanho 4",
+      "textAlignment": "RIGHT",
+      "blockClass": "textos-laterais"
+    },
+    "title": "Texto 96 bins tamanho 4"
+  },
+  "image#96bins-icon-vet":{
+    "props": {
+      "blockClass": "icon-estanteVet",
+      "title": "Icone 96 bins",
+      "alt": "icone 96 bins",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8ef44e08-5005-4ec9-8e72-f5a3a126ef47___86444c0517eeebb64d4448128344427d.svg"
+    },
+    "title": "Icone estante"
+  },
+  "flex-layout.row#linha-antimicrobiana-estante-vet":{
+    "props": {
+      "blockClass": "linhasLaterais-estanteVet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#antimicrobiana",
+      "image#antimicrobiana-icon-vet"
+    ],
+    "title": "Linhas Laterais"
+  },
+  "rich-text#antimicrobiana":{
+    "props": {
+      "text": "Bins com tampa e ação antimicrobiana",
+      "textAlignment": "RIGHT",
+      "blockClass": "textos-laterais"
+    },
+    "title": "Texto Bins com tampa e ação antimicrobiana"
+  },
+  "image#antimicrobiana-icon-vet":{
+    "props": {
+      "blockClass": "icon-estanteVet",
+      "title": "Icone antimicrobiana",
+      "alt": "icone antimicrobiana",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/0b63f973-4e6b-421a-9967-2eadb542b92b___bac487f863aa2de57fc86d6d247de37a.svg"
+    },
+    "title": "Icone estante"
+  },
+  // coluna 2 -IMAGEM
+  "flex-layout.col#coluna2-conteudo-estante-vet":{
+    "props": {
+      "blockClass": "coluna-meio-conteudo-estanteVet",
+      "preventVerticalStretch": true
+    },
+    "title": "Coluna 2 Conteúdo Estante Vet",
+    "children": [
+      "image#estante"
+    ]
+  },
+  "image#estante":{
+    "props": {
+      "blockClass": "img-estante",
+      "alt": "Imagem estante",
+      "title": "Imagem estante",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d8543611-b25a-4261-b8e4-9b5694331206___acd26f6ee450be8cb86a9d2290e9b98e.webp"
+    },
+    "title": "Imagem estante"
+  },
+  // coluna 3
+  "flex-layout.col#coluna3-conteudo-estante-vet":{
+    "props": {
+      "blockClass": "coluna-direita-conteudo-estanteVet",
+      "preventVerticalStretch": true
+    },
+    "title": "Coluna 3 Conteúdo Estante Vet",
+    "children": [
+      "flex-layout.row#linha-12prat-estante-vet",
+      "flex-layout.row#linha-6caixas-estante-vet",
+      "flex-layout.row#linha-rodizios-estante-vet"
+    ]
+  },
+  "flex-layout.row#linha-12prat-estante-vet":{
+    "props": {
+      "blockClass": "linhasLaterais-estenteVet",
+      "preventHorizontalStretch": true
+    },
+    "title": "Linhas Laterais",
+    "children": [
+      "image#prateleiras-vet",
+      "rich-text#prateleiras-vet"
+    ]
+  },
+  "rich-text#prateleiras-vet":{
+    "props": {
+      "text": "12 prateleiras internas;",
+      "textAlignment": "LEFT",
+      "blockClass": "textos-laterais"
+    },
+    "title": "Texto 12 prateleiras internas;"
+  },
+  "image#prateleiras-vet":{
+    "props": {
+      "blockClass": "icon-estanteVet",
+      "title": "Icone prateleiras",
+      "alt": "icone prateleiras",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/3dfc248e-2dbb-4ec5-9730-65ae35c4779c___d4f003b962e56f623bbe60c68c79f241.svg"
+    },
+    "title": "Icone prateleiras"
+  },
+  "flex-layout.row#linha-6caixas-estante-vet":{
+    "props": {
+      "blockClass": "linhasLaterais-estenteVet",
+      "preventHorizontalStretch": true
+    },
+    "title": "Linhas Laterais",
+    "children": [
+      "image#6caixas",
+      "rich-text#6caixas"
+    ]
+  },
+  "rich-text#6caixas":{
+    "props": {
+      "text": "6 caixas laterais",
+      "textAlignment": "LEFT",
+      "blockClass": "textos-laterais"
+    },
+    "title": "Texto 6 caixas laterais"
+  },
+  "image#6caixas":{
+    "props": {
+      "blockClass": "icon-estanteVet",
+      "title": "Icone 6 caixas laterais",
+      "alt": "icone 6 caixas laterais",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/de4baea8-38a0-4638-8601-fc93976c6beb___35fc67a2bb9361a90c052d4d44712bba.svg"
+    },
+    "title": "Icone 6 caixas"
+  },
+
+  "flex-layout.row#linha-rodizios-estante-vet":{
+    "props": {
+      "blockClass": "linhasLaterais-estenteVet",
+      "preventHorizontalStretch": true
+    },
+    "title": "Linhas Laterais",
+    "children": [
+      "image#rodizios",
+      "rich-text#rodizios"
+    ]
+  },
+  "rich-text#rodizios":{
+    "props": {
+      "text": "Rodízios carenados 360° com trava.",
+      "textAlignment": "LEFT",
+      "blockClass": "textos-laterais"
+    },
+    "title": "Texto Rodízios carenados 360° com trava."
+  },
+  "image#rodizios":{
+    "props": {
+      "blockClass": "icon-estanteVet",
+      "title": "Icone rodizios",
+      "alt": "icone rodizios",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/31382704-be5a-4896-85d3-9ff8de92824e___4280e58ef629815437edebceb8fa7023.svg"
+    },
+    "title": "Icone rodizios"
+  },
+    // ====================
+  // links
+  "flex-layout.row#links-estante-vet":{
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "links-estanteVet"
+    },
+    "children": [
+      "link#verproduto-estante-vet",
+      "link#falarVendedor-estante-vet"
+    ],
+    "title": "Linha links Estante"
+  },
+  "link#verproduto-estante-vet":{
+    "props": {
+      "blockClass": "link-verProduto",
+      "href": "#",
+      "label": "ver produto"
+    },
+    "title": "Link ver produto"
+  },
+  "link#falarVendedor-estante-vet":{
+     "props": {
+      "blockClass": "link-falarConsultor-vet",
+      "href": "#",
+      "label": "falar com consultor"
+    },
+    "title": "Link falar com consultor"
+  }
+}
