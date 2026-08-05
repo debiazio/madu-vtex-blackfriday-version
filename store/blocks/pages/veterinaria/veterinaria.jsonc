@@ -4,7 +4,11 @@
        "flex-layout.row#primeiraLinha-vet",
        "flex-layout.row#linhaOne-vet",
        "flex-layout.row#estante-vet",
-       "flex-layout.row#maiorOrganizacao-vet"
+       "flex-layout.row#maiorOrganizacao-vet",
+       "flex-layout.row#banner-amarelo-vet",
+       "responsive-layout.desktop#linhaExpress-vet",
+       "responsive-layout.mobile#linhaExpress-vet"
+
     ]
   }
 }

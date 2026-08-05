@@ -1,0 +1,290 @@
+{
+  "responsive-layout.desktop#linhaExpress-vet":{
+    "children": [
+      "flex-layout.row#linhaExpress-vet"
+    ]
+  },
+  "flex-layout.row#linhaExpress-vet": {
+    "props": {
+      "blockClass": "linhaExpress-vet",
+      "fullWidth": true
+    },
+    "title": "linhaExpress-vet",
+    "children": [
+      "flex-layout.col#coluna1-linhaExpress-vet",
+      "flex-layout.col#coluna2-linhaExpress-vet"
+    ]
+  },
+  "flex-layout.col#coluna1-linhaExpress-vet": {
+    "props": {
+      "blockClass": "coluna-linhaExpress-vet",
+      "preventVerticalStretch": true
+    },
+    "title": "Coluna Linha Express",
+    "children": [
+      "flex-layout.row#imagem-bancada-linhaExpress-vet",
+      "flex-layout.row#textos-linhaExpress-vet",
+      "flex-layout.row#links-linhaExpress-vet"
+    ]
+  },
+  "flex-layout.row#imagem-bancada-linhaExpress-vet": {
+    "title": "Linha imagem-bancada-linhaExpress-vet",
+    "props": {
+      "blockClass": "linha-imagem-bancada-linhaExpress-vet"
+    },
+    "children": [
+      "image#cachorrinho-linhaExpress-vet"
+    ]
+  },
+  "image#cachorrinho-linhaExpress-vet": {
+    "props": {
+      "blockClass": "cachorrinho-linhaExpress-vet",
+      "alt": "Bancada profissional",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/33da0134-7fe2-4b33-9181-057d33a1084d___d5cf27c4a2b51644205b00472d71356a.webp",
+      "title": "Bancada Profissional em Inox | MAD.U Express"
+    },
+    "title": "Imagem Bancada Profissional"
+  },
+  "flex-layout.row#textos-linhaExpress-vet": {
+    "props": {
+      "blockClass": "linha-textos-linhaExpress-vet",
+      "preventHorizontalStretch": true
+    },
+    "title": "Linha textos linha Express vet",
+    "children": [
+      "rich-text#titulo-linhaExpress-Vet",
+      "rich-text#subtitulo-linhaExpress-Vet"
+    ]
+  },
+  "rich-text#titulo-linhaExpress-Vet": {
+    "props": {
+      "blockClass": "titulo-linhaExpress-Vet",
+      "text": "Bancada Profissional em Inox | MAD.U Express",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER"
+    },
+    "title": "Texto Bancada Profissional em Inox"
+  },
+  "rich-text#subtitulo-linhaExpress-Vet": {
+    "props": {
+      "blockClass": "subtitulo-linhaExpress-Vet",
+      "text": "A bancada concentra o espaço de atendimento ou preparo e a organização dos insumos em um mesmo ponto de trabalho, reduzindo deslocamentos e facilitando o acesso aos materiais durante a rotina.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER"
+    },
+    "title": "Texto subtítulo Bancada Profissional em Inox"
+  },
+  "flex-layout.row#links-linhaExpress-vet": {
+    "title": "Linha links ver produto linha Express",
+    "props": {
+      "blockClass": "linha-links-linhaExpress-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#verProduto-linhaExpress-vet",
+      "link#falarVendedor-linhaExpress-vet"
+    ]
+  },
+  "link#verProduto-linhaExpress-vet": {
+    "props": {
+      "blockClass": "link-verProduto",
+      "href": "https://www.pensemadu.com.br/bancada-profissional-em-inox-24-bins-3-big-bins-madu-express/p",
+      "label": "ver produto"
+    },
+    "title": "Ver produto LinhaExpressVet"
+  },
+  "link#falarVendedor-linhaExpress-vet": {
+    "props": {
+      "blockClass": "link-falarConsultor-vet",
+      "href": "#",
+      "label": "falar com consultor"
+    },
+    "title": "Link falar com consultor"
+  },
+  // ======================
+  // coluna 2
+  // =====================
+  "flex-layout.col#coluna2-linhaExpress-vet": {
+    "props": {
+      "blockClass": "coluna-linhaExpress-vet",
+      "preventVerticalStretch": true
+    },
+    "title": "Coluna Linha Express",
+    "children": [
+      "flex-layout.row#textosColuna2-linhaExpres-vet",
+      "flex-layout.row#produtosColuna2-linhaExpres-vet"
+    ]
+  },
+  "flex-layout.row#textosColuna2-linhaExpres-vet": {
+    "title": "Textos coluna 2",
+    "props": {
+      "blockClass": "textosColuna2-linhaExpres-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#linhaimagem-linhaExpress-vet",
+      "rich-text#continuacaoTitulo-linhaExpress-vet",
+      "rich-text#subtitulo-linhaExpress-vet"
+    ]
+  },
+  "flex-layout.row#linhaimagem-linhaExpress-vet": {
+    "title": "Linha Linha e imagem",
+    "props": {
+      "blockClass": "linha-titulo-linhaExpress-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#linha",
+      "image#tag-express-vet"
+    ]
+  },
+  "image#tag-express-vet": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/dc5ddb00-3529-480c-be3d-ac1d100b780a___407de8a01700e5d07845650d8686e0e5.svg",
+      "blockClass": "image-tag-vet"
+    }
+  },
+  "rich-text#continuacaoTitulo-linhaExpress-vet": {
+    "title": "continuacaoTitulo-linhaExpress-vet",
+    "props": {
+      "blockClass": "continuacaoTitulo-linhaExpress-vet",
+      "text": "Soluções em Aço Inox"
+    }
+  },
+  "rich-text#subtitulo-linhaExpress-vet": {
+    "title": "subtitulo-linhaExpress-vet",
+    "props": {
+      "blockClass": "subtitulo-linhaExpress-vet",
+      "text": "A Linha Express reúne carrinhos e estantes com estrutura em aço inox e módulos em PSAI resistente e lavável. Soluções desenvolvidas para facilitar a organização, o acesso aos materiais e a limpeza em clínicas, hospitais e laboratórios veterinários."
+    }
+  },
+  "flex-layout.row#produtosColuna2-linhaExpres-vet": {
+    "title": "produtosColuna2-linhaExpres-vet",
+    "props": {
+      "blockClass": "produtosColuna2-linhaExpres-vet"
+    },
+    "children": [
+      "flex-layout.col#carrinhoTampo-linhaExpress-vet",
+      "flex-layout.col#prateleiras-linhaExpress-vet"
+    ]
+  },
+  // ========================
+  // produto 1
+  "flex-layout.col#carrinhoTampo-linhaExpress-vet": {
+    "title": "Coluna carrinhoTampo-linhaExpress-vet",
+    "props": {
+      "blockClass": "subcoluna-produtos-linhaExpressVet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#carrinho-linhaExpress-vet",
+      "rich-text#titulo-subcoluna-carrinho-linhaExpress-vet",
+      "flex-layout.row#links-carrinho-subcoluna-linhaExpress-vet"
+    ]
+  },
+  "image#carrinho-linhaExpress-vet": {
+    "title": "Carrinho-linhaExpress-vet",
+    "props": {
+      "blockClass": "subcoluna-imagemProduto",
+      "alt": "Carrinho BigBin Express",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fe8cbac6-ba00-4d4c-84ce-14c608684199___9c18cacba82a562f19535b4c8ab5c4b9.webp"
+    }
+  },
+  "rich-text#titulo-subcoluna-carrinho-linhaExpress-vet": {
+    "title": "titulo-subcoluna-carrinho-linhaExpress-vet",
+    "props": {
+      "blockClass": "titulo-subcoluna-produto-linhaExpress-vet",
+      "text": "Carrinho Express com tampo INOX e Big Bin",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#links-carrinho-subcoluna-linhaExpress-vet": {
+    "title": "links-carrinho-subcoluna-linhaExpress-vet",
+    "props": {
+      "blockClass": "links-produto-subcoluna-linhaExpress-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#verProduto-carrinho-vet",
+      "link#falarVendedor-carrinho-vet"
+    ]
+  },
+  "link#verProduto-carrinho-vet": {
+    "props": {
+      "blockClass": "link-verProduto",
+      "href": "https://www.pensemadu.com.br/carrinho-auxiliar-inox-big-bin-madu-express/p",
+      "label": "ver produto"
+    },
+    "title": "Link ver produto carrinho"
+  },
+  "link#falarVendedor-carrinho-vet": {
+    "props": {
+      "blockClass": "link-falarConsultor-vet",
+      "href": "#",
+      "label": "falar com consultor"
+    },
+    "title": "Link falar com consultor"
+  },
+  // ========================
+  // produto 2
+  "flex-layout.col#prateleiras-linhaExpress-vet": {
+    "title": "Coluna parateleiras-linhaExpress-vet",
+    "props": {
+      "blockClass": "subcoluna-produtos-linhaExpressVet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#prateleiras-linhaExpress-vet",
+      "rich-text#titulo-subcoluna-prateleiras-linhaExpress-vet",
+      "flex-layout.row#links-prateleiras-subcoluna-linhaExpress-vet"
+    ]
+  },
+  "image#prateleiras-linhaExpress-vet": {
+    "title": "Prateleiras-linhaExpress-vet",
+    "props": {
+      "blockClass": "subcoluna-imagemProduto",
+      "alt": "Prateleiras baixas Express",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7fce3773-7d90-4ce0-b926-ccb5f6f6688b___8d54f0a4c656ca33841e3b73b13332d8.webp"
+    }
+  },
+  "rich-text#titulo-subcoluna-prateleiras-linhaExpress-vet": {
+    "title": "titulo-subcoluna-prateleiras-linhaExpress-vet",
+    "props": {
+      "blockClass": "titulo-subcoluna-produto-linhaExpress-vet",
+      "text": "Prateleiras Baixa Express",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#links-prateleiras-subcoluna-linhaExpress-vet": {
+    "title": "links-parateleiras-subcoluna-linhaExpress-vet",
+    "props": {
+      "blockClass": "links-produto-subcoluna-linhaExpress-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link#verProduto-prateleiras-vet",
+      "link#falarVendedor-prateleiras-vet"
+    ]
+  },
+  "link#verProduto-prateleiras-vet": {
+    "props": {
+      "blockClass": "link-verProduto",
+      "href": "https://www.pensemadu.com.br/estante-organizadora-inox-18-prateleiras-madu-express/p",
+      "label": "ver produto"
+    },
+    "title": "Link ver produto prateleiras"
+  },
+  "link#falarVendedor-prateleiras-vet": {
+    "props": {
+      "blockClass": "link-falarConsultor-vet",
+      "href": "#",
+      "label": "falar com consultor"
+    },
+    "title": "Link falar com consultor"
+  }
+}

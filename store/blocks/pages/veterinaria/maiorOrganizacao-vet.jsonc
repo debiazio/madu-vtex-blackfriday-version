@@ -8,6 +8,7 @@
     "children": [
       "flex-layout.row#textos-maiorOrg-vet",
       "responsive-layout.desktop#img-maiorOrg-vet",
+      "responsive-layout.mobile#img-maiorOrg-vet",
       "flex-layout.row#links-maiorOrg-vet"
     ],
     "title": "Linha maior organização"
@@ -41,6 +42,32 @@
     "title": "Subitulo maior organização"
   },
   // ----------------------
+  // imagem mobile
+  // ----------------------
+  "responsive-layout.mobile#img-maiorOrg-vet": {
+    "children": [
+      "flex-layout.row#mobile-img-maiorOrg-vet"
+    ],
+    "title": "Mobile - img maior organização"
+  },
+  "flex-layout.row#mobile-img-maiorOrg-vet": {
+    "props": {
+      "blockClass": "linha-img-maiorOrg-vet"
+    },
+    "children": [
+      "image#mobile-img-maiorOrg-vet"
+    ],
+    "title": "Mobile -Linha img maior organização"
+  },
+  "image#mobile-img-maiorOrg-vet": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fe4858ac-34f4-4747-a440-86615decb9ee___937bf73c74e29b16388c19f02c20a701.webp",
+      "alt": "Imagem maior organização",
+      "blockClass": "img-maiorOrg-vet"
+    },
+    "title": "Imagem maior organização - mobile"
+  },
+  // ----------------------
   // imagem desktop
   // ----------------------
   "responsive-layout.desktop#img-maiorOrg-vet": {
@@ -49,16 +76,16 @@
     ],
     "title": "Desktop - img maior organização"
   },
-  "flex-layout.row#img-maiorOrg-vet":{
+  "flex-layout.row#img-maiorOrg-vet": {
     "props": {
       "blockClass": "linha-img-maiorOrg-vet"
     },
-    "children":[
+    "children": [
       "image#img-maiorOrg-vet"
     ]
   },
-  "image#img-maiorOrg-vet":{
-    "props":{
+  "image#img-maiorOrg-vet": {
+    "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e38eaebc-dd1d-4189-83ad-ee3a8a77dd01___3af91b4f6a58f95bda4e242f4d697c19.webp",
       "alt": "Imagem maior organização",
       "blockClass": "img-maiorOrg-vet"
@@ -70,7 +97,10 @@
   "flex-layout.row#links-maiorOrg-vet": {
     "props": {
       "preventHorizontalStretch": true,
-      "blockClass": ["links-estanteVet", "links-maiorOrg-vet"]
+      "blockClass": [
+        "links-estanteVet",
+        "links-maiorOrg-vet"
+      ]
     },
     "children": [
       "link#verproduto-maiorOrg-vet",

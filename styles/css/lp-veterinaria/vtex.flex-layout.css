@@ -1,5 +1,106 @@
+.flexRowContent--linha-mobile-linhaExpres-vet {
+  padding: 61px 21px;
+}
+
+.flexRowContent--links-produto-subcoluna-linhaExpress-vet {
+  gap: 24px;
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--produtosColuna2-linhaExpres-vet {
+  gap: 20px;
+}
+
+.flexCol--subcoluna-produtos-linhaExpressVet {
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 276px;
+  border-radius: 24px;
+  justify-content: space-between;
+}
+
+.flexRowContent--linha-links-linhaExpress-vet {
+  gap: 8px
+}
+
+.flexCol--coluna-linhaExpress-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+}
+
+
+
+.flexRowContent--textosColuna2-linhaExpres-vet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRowContent--linha-textos-linhaExpress-vet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRow--linhaExpress-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 94px 0 105px 0;
+}
+
+.flexRowContent--linhaExpress-vet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  gap: 16px;
+}
+
+.flexRowContent--linha-textos-bannerAmarelo-vet {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 80%;
+}
+
+.flexRow--linhas-bannerAmarelo-vet {
+  background-color: #FFA207;
+  background-image: url('https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f42b0a02-b7ee-4de9-955d-31129115d13b___ee5485aaf1d63d17603cb5118d22bb0f.webp');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: calc(100% - 20px) center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--linhas-bannerAmarelo-vet {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.flexRowContent--linha-maiorOrganizacao-vet {
+  padding: 65px 0;
+}
+
 .flexRowContent--links-maiorOrg-vet {
-  padding: 37px 0 65px 0;
+  padding: 37px 0 0 0;
 }
 
 .flexRowContent--textos-maiorOrg-vet {
@@ -156,6 +257,43 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linha-links-linhaExpress-vet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 32px 0;
+  }
+
+  .flexRowContent--linha-titulo-linhaExpress-vet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px
+  }
+
+  .flexRowContent--linha-textos-bannerAmarelo-vet {
+    max-width: unset;
+  }
+
+  .flexRow--linhas-bannerAmarelo-vet {
+    background-position: center;
+    background-size: contain;
+  }
+
+  .flexRowContent--linhas-bannerAmarelo-vet {
+    flex-direction: column;
+    padding: 35px 45px;
+    gap: 23px;
+  }
+
+  .flexRowContent--linha-maiorOrganizacao-vet {
+    padding: 65px 45px;
+  }
+
+  .flexRow--links-maiorOrg-vet {
+    white-space: nowrap;
+  }
+
   .flexRowContent--links-estanteVet {
     display: flex;
     flex-direction: row;

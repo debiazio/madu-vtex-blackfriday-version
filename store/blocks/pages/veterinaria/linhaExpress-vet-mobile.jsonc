@@ -1,0 +1,29 @@
+{
+  "responsive-layout.mobile#linhaExpress-vet":{
+    "children": [
+
+      "flex-layout.row#mobile-linhaExpres-vet"
+
+    ]
+  },
+  "flex-layout.row#mobile-linhaExpres-vet":{
+    "title": "Linha mobile linhaExpress-vet",
+    "props": {
+      "blockClass": "linha-mobile-linhaExpres-vet"
+    },
+    "children": [
+      "flex-layout.row#textosColuna2-linhaExpres-vet",
+      "flex-layout.row#imagem-bancada-linhaExpress-vet",
+      "flex-layout.row#textos-linhaExpress-vet",
+      "flex-layout.row#links-linhaExpress-vet",
+      "flex-layout.row#slider-produtos-linhaExpress-vet"
+    ]
+  },
+  "flex-layout.row#slider-produtos-linhaExpress-vet":{
+    "title": "linha-slider-produtos-linhaExpress-vet",
+    "props": {
+      "blockClass": "linha-slider-produtos-linhaExpress-vet"
+    }
+  }
+
+}

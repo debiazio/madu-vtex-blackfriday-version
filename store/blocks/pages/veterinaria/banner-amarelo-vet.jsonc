@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#banner-amarelo-vet": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "linha-banner-amareloVet"
+    },
+    "children": [
+      "flex-layout.row#linha-inferior-bannerAmarelo-vet"
+    ],
+    "title": "Linha Banner Amarelo"
+  },
+
+  "flex-layout.row#linha-inferior-bannerAmarelo-vet": {
+    "props": {
+      "blockClass": "linhas-bannerAmarelo-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "equal"
+    },
+    "title": "Linhas banner amarelo",
+    "children": [
+      "flex-layout.row#linha-textos-bannerAmarelo-vet",
+      "flex-layout.row#linha-link-bannerAmarelo-vet"
+    ]
+  },
+  "flex-layout.row#linha-textos-bannerAmarelo-vet": {
+    "props": {
+      "blockClass": "linha-textos-bannerAmarelo-vet",
+      "preventHorizontalStretch": true,
+      "width": "50%"
+
+    },
+    "children": [
+      "rich-text#titulo-bannerAmarelo-vet",
+      "rich-text#subtitulo-bannerAmarelo-vet"
+    ],
+    "title": "Textos banner amarelo"
+  },
+  "rich-text#titulo-bannerAmarelo-vet":{
+    "props": {
+      "text": "### Tudo no lugar para \n ### uma **rotina mais fluida.**",
+      "blockClass": "titulo-bannerAmarelo-vet"
+    },
+    "title": "Texto Tudo no lugar para uma rotina mais fluida."
+  },
+  "rich-text#subtitulo-bannerAmarelo-vet":{
+    "props": {
+      "text": "Soluções para organizar materiais, otimizar espaços e manter os itens de uso frequente mais próximos da equipe veterinária.",
+      "blockClass": "subtitulo-bannerAmarelo-vet"
+    },
+    "title": "Texto subtitulo banner amarelo"
+  },
+  "flex-layout.row#linha-link-bannerAmarelo-vet": {
+    "props": {
+      "blockClass": "linha",
+      "width": "50%"
+    },
+    "title": "Linha link banner amarelo",
+    "children": [
+      "link#bannerAmarelo-connhecaSolucoes-vet"
+    ]
+  },
+  "link#bannerAmarelo-connhecaSolucoes-vet":{
+    "props": {
+      "blockClass": "bannerAmarelo-connhecaSolucoes-vet",
+      "href": "#",
+      "label": "Conheça as próximas soluções ↓"
+    },
+    "title": "Link conheça as soluções"
+  }
+}
