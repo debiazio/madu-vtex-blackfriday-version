@@ -123,6 +123,7 @@
 }
 
 .link--link-falarConsultor-vet {
+  display: flex;
   text-decoration: none;
   color: #727272;
   font-family: "Poppins Bold", sans-serif !important;
@@ -165,6 +166,7 @@
   background-color: #4CAB86;
   border-radius: 100px;
   padding: 5px 20px 5px 20px;
+  display: block;
 }
 
 

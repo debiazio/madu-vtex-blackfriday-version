@@ -16,8 +16,8 @@
        "flex-layout.row#banner-verde-vet",
        "flex-layout.row#produtos-linhaVet-vet",
        "flex-layout.row#banner-laranja-vet",
-       "flex-layout.row#linhaFAQs-vet"
-
+       "flex-layout.row#linhaFAQs-vet",
+        "controllervisualization"
     ]
   }
 }

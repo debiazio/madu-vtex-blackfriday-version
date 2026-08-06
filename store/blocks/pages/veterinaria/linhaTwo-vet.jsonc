@@ -148,8 +148,7 @@
   "flex-layout.row#links-produto-linhaTwo-vet":{
     "title": "linha links-produto-linhaTwo-vet",
     "props": {
-      "blockClass": "links-produto-linhaTwo-vet",
-      "preventHorizontalStretch": true
+      "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
       "link#vertudo-linhaTwo-vet",
@@ -217,9 +216,7 @@
   "flex-layout.row#links-produto2-linhaTwo-vet":{
     "title": "linha links-produto-linhaTwo-vet",
     "props": {
-      "blockClass": "links-produto-linhaTwo-vet",
-      "preventHorizontalStretch": true,
-      "colSizing": "auto"
+      "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
       "link#vertudo2-linhaTwo-vet",
@@ -287,8 +284,7 @@
   "flex-layout.row#links-produto3-linhaTwo-vet":{
     "title": "linha links-produto-linhaTwo-vet",
     "props": {
-      "blockClass": "links-produto-linhaTwo-vet",
-      "preventHorizontalStretch": true
+      "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
       "link#vertudo3-linhaTwo-vet",

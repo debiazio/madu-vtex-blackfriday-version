@@ -162,8 +162,7 @@
   "flex-layout.row#links-produto-linhaBoxSet-vet":{
     "title": "linha links-produto-linhaBoxSet-vet",
     "props": {
-      "blockClass": "links-produto-linhaTwo-vet",
-      "preventHorizontalStretch": true
+      "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
       "link#vertudo-linhaBoxSet-vet",
@@ -231,9 +230,7 @@
   "flex-layout.row#links-produto2-linhaBoxSet-vet":{
     "title": "linha links-produto-linhaBoxSet-vet",
     "props": {
-      "blockClass": "links-produto-linhaTwo-vet",
-      "preventHorizontalStretch": true,
-      "colSizing": "auto"
+      "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
       "link#vertudo2-linhaBoxSet-vet",
@@ -301,8 +298,7 @@
   "flex-layout.row#links-produto3-linhaBoxSet-vet":{
     "title": "linha links-produto-linhaBoxSet-vet",
     "props": {
-      "blockClass": "links-produto-linhaTwo-vet",
-      "preventHorizontalStretch": true
+      "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
       "link#vertudo3-linhaBoxSet-vet",
@@ -370,8 +366,7 @@
   "flex-layout.row#links-produto4-linhaBoxSet-vet":{
     "title": "linha links-produto-linhaBoxSet-vet",
     "props": {
-      "blockClass": "links-produto-linhaTwo-vet",
-      "preventHorizontalStretch": true
+      "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
       "link#vertudo4-linhaBoxSet-vet",

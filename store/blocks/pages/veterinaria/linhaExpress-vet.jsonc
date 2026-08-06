@@ -206,9 +206,7 @@
   "flex-layout.row#links-carrinho-subcoluna-linhaExpress-vet": {
     "title": "links-carrinho-subcoluna-linhaExpress-vet",
     "props": {
-      "blockClass": "links-produto-subcoluna-linhaExpress-vet",
-      "preventHorizontalStretch": true,
-      "colSizing": "auto"
+      "blockClass": "links-produto-subcoluna-linhaExpress-vet"
     },
     "children": [
       "link#verProduto-carrinho-vet",
@@ -266,8 +264,7 @@
   "flex-layout.row#links-prateleiras-subcoluna-linhaExpress-vet": {
     "title": "links-parateleiras-subcoluna-linhaExpress-vet",
     "props": {
-      "blockClass": "links-produto-subcoluna-linhaExpress-vet",
-      "preventHorizontalStretch": true
+      "blockClass": "links-produto-subcoluna-linhaExpress-vet"
     },
     "children": [
       "link#verProduto-prateleiras-vet",
