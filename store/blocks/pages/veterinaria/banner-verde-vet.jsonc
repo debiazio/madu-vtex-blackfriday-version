@@ -65,7 +65,7 @@
     "title": "Link ver produto banner verde",
     "props": {
       "blockClass": "verProduto-bannerVerde-vet",
-      "href": "",
+      "href": "#",
       "label": "ver produtos"
     }
   },
@@ -73,8 +73,9 @@
     "title": "Link falar com vendedor bannerVerde-vet",
     "props": {
       "blockClass": "falarVendedor-vet",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20ajuda%20para%20encontrar%20a%20configura%C3%A7%C3%A3o%20ideal%20para%20minha%20rotina",
+      "label": "falar com consultor",
+      "target": "_blank"
     }
   },
     // ====================================================

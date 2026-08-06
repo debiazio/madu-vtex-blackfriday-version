@@ -47,10 +47,9 @@
   },
   "link#solicitarCotacao-vet": {
     "props": {
-      "href": "#",
+      "href": "#linhaone",
       "label": "CONHEÇA OS PRODUTOS",
-      "blockClass": "link-solicitarCotacao-vet",
-      "target": "_blank"
+      "blockClass": "link-solicitarCotacao-vet"
     },
     "title": "Link soluções"
   },

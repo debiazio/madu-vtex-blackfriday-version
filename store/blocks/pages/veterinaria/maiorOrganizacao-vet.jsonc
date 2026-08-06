@@ -119,8 +119,9 @@
   "link#falarVendedor-maiorOrg-vet": {
     "props": {
       "blockClass": "link-falarConsultor-vet",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Gaveta%20Pl%C3%A1stica%20Bin%20Antimicrobiana%20N%C2%BA%204%20com%20Tampa%20%E2%80%93%20MAD.U%20ONE",
+      "label": "falar com consultor",
+          "target": "_blank"
     },
     "title": "Link falar com consultor"
   }

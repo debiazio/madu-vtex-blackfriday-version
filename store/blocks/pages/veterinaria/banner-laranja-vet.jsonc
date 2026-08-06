@@ -65,8 +65,9 @@
     "title": "Link falar com vendedor bannerLaranja-vet",
     "props": {
       "blockClass": "falarVendedor-bannerLaranja-vet",
-      "href": "#",
-      "label": "Solicitar atendimento"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20descobrir%20como%20equipar%20meus%20ambientes%20com%20solu%C3%A7%C3%B5es%20t%C3%A9cnicas%2C%20funcionais%20e%20de%20alto%20padr%C3%A3o",
+      "label": "Solicitar atendimento",
+      "target": "_blank"
     }
   },
     // ====================================================

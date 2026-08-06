@@ -7,7 +7,8 @@
   "flex-layout.row#mobile-linhaExpres-vet": {
     "title": "Linha mobile linhaExpress-vet",
     "props": {
-      "blockClass": "linha-mobile-linhaExpres-vet"
+      "blockClass": "linha-mobile-linhaExpres-vet",
+      "htmlId": "linhaExpress"
     },
     "children": [
       "flex-layout.row#textosColuna2-linhaExpres-vet",

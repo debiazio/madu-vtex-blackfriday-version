@@ -168,8 +168,9 @@
     "title": "link falar com vendedor produto 1",
     "props": {
       "blockClass": "link-falarVendedor",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20Veterin%C3%A1rio%20com%203%20Gavetas%2C%20Nicho%20e%20Suportes%20para%20Cilindros",
+      "label": "falar com consultor",
+      "target": "_blank"
     }
   },
   // ==================
@@ -237,8 +238,9 @@
     "title": "link falar com vendedor produto 2",
     "props": {
       "blockClass": "link-falarVendedor",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20de%20Emerg%C3%AAncia%20Veterin%C3%A1ria%20com%206%20Gavetas",
+      "label": "falar com consultor",
+      "target": "_blank"
     }
   },
     // ==================
@@ -305,8 +307,9 @@
     "title": "link falar com vendedor produto 3",
     "props": {
       "blockClass": "link-falarVendedor",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20Auxiliar%20Veterin%C3%A1rio%20com%20Bins%20e%20Big%20Bin",
+      "label": "falar com consultor",
+      "target": "_blank"
     }
   },
   //  ==================

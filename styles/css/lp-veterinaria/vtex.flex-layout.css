@@ -1,3 +1,9 @@
+.flexRow--linhaExpress-vet,
+.flexRow--linhas-vet {
+  scroll-margin-top: 60px;
+}
+
+
 .flexRowContent--linha-links-bannerVerde-vet {
   white-space: nowrap;
   display: flex;

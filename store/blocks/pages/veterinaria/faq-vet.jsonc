@@ -49,68 +49,157 @@
       "blockClass": "group-faq-maduset"
     },
     "children": [
-      "disclosure-layout#pesonalizar-vet",
+      "disclosure-layout#ondeComprar-vet",
+      "disclosure-layout#personalizarSobMedida-vet",
+      "disclosure-layout#registroAnvisa-vet",
+      "disclosure-layout#identidadeVisual-vet",
       "disclosure-layout#diferencaLinhas-vet",
+      "disclosure-layout#fabricadoBrasil-vet",
       "disclosure-layout#carrinhosAmbientes-vet",
+      "disclosure-layout#materialFabricacao-vet",
+      "disclosure-layout#materiaisUtilizados-vet",
       "disclosure-layout#setReorganizado-vet",
+      "disclosure-layout#travasFechaduras-vet",
       "disclosure-layout#higienizar-vet",
-      "disclosure-layout#acessoriosAcompanham-vet",
-      "disclosure-layout#escolherSolucao-vet",
-      "disclosure-layout#solicitarOrcamento-vet",
-      "disclosure-layout#materiaisFabricacao-vet"
+      "disclosure-layout#itensAcompanham-vet",
+      "disclosure-layout#binsForaMobiliario-vet",
+      "disclosure-layout#escolherCarrinho-vet"
     ]
   },
-  "disclosure-layout#pesonalizar-vet": {
-    "props": {
-      "blockClass": "layout-faq-maduset"
-    },
+
+  "disclosure-layout#ondeComprar-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
     "children": [
-      "disclosure-trigger#pesonalizar-vet",
-      "disclosure-content#pesonalizar-vet"
+      "disclosure-trigger#ondeComprar-vet",
+      "disclosure-content#ondeComprar-vet"
     ]
   },
-  "disclosure-trigger#pesonalizar-vet": {
-    "props": {
-      "blockClass": "trigger-faq-maduset"
-    },
+  "disclosure-trigger#ondeComprar-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
     "children": [
-      "rich-text#trigger-pesonalizar-vet",
+      "rich-text#trigger-ondeComprar-vet",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-pesonalizar-vet": {
+  "rich-text#trigger-ondeComprar-vet": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
-      "text": "### Os produtos MAD.U podem ser personalizados?"
+      "text": "### Onde posso comprar os móveis veterinários da MAD.U?"
     }
   },
-  "disclosure-content#pesonalizar-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset"
-    },
-    "children": [
-      "rich-text#content-pesonalizar-vet"
-    ]
+  "disclosure-content#ondeComprar-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-ondeComprar-vet"]
   },
-  "rich-text#content-pesonalizar-vet": {
+  "rich-text#content-ondeComprar-vet": {
     "props": {
       "blockClass": "content-faq-maduset",
-      "text": "#### Sim. Grande parte dos produtos MAD.U pode ser configurada de acordo com a rotina e o espaço de cada projeto. É possível avaliar número de gavetas, cores, materiais, travas, módulos, bins e acessórios adicionais. Nossa equipe ajuda você a combinar as possibilidades compatíveis e criar uma solução pensada para a sua clínica veterinária."
+      "text": "#### Os produtos estão disponíveis no site oficial da MAD.U. Para configurações personalizadas, Projetos Especiais ou compras em volume, fale com um consultor pelo botão do WhatsApp disponível no site."
     }
   },
-  "disclosure-layout#diferencaLinhas-vet": {
+
+  "disclosure-layout#personalizarSobMedida-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#personalizarSobMedida-vet",
+      "disclosure-content#personalizarSobMedida-vet"
+    ]
+  },
+  "disclosure-trigger#personalizarSobMedida-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-personalizarSobMedida-vet",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-personalizarSobMedida-vet": {
     "props": {
-      "blockClass": "layout-faq-maduset"
-    },
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Os produtos MAD.U podem ser personalizados ou desenvolvidos sob medida?"
+    }
+  },
+  "disclosure-content#personalizarSobMedida-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-personalizarSobMedida-vet"]
+  },
+  "rich-text#content-personalizarSobMedida-vet": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. Grande parte dos produtos MAD.U pode ser configurada conforme a rotina, o espaço e as necessidades de cada projeto. É possível avaliar alterações em número de gavetas, cores, materiais, travas, módulos, bins e acessórios compatíveis. Para demandas que não são atendidas pelas configurações do catálogo, a MAD.U também conta com o serviço de Projetos Especiais, no qual a equipe analisa o fluxo de trabalho da clínica ou do hospital veterinário e avalia o desenvolvimento de mobiliários com dimensões ou funcionalidades específicas. Essa opção é indicada principalmente para redes, projetos arquitetônicos e operações com necessidades personalizadas."
+    }
+  },
+
+  "disclosure-layout#registroAnvisa-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#registroAnvisa-vet",
+      "disclosure-content#registroAnvisa-vet"
+    ]
+  },
+  "disclosure-trigger#registroAnvisa-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-registroAnvisa-vet",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-registroAnvisa-vet": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Os produtos MAD.U precisam de registro na ANVISA?"
+    }
+  },
+  "disclosure-content#registroAnvisa-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-registroAnvisa-vet"]
+  },
+  "rich-text#content-registroAnvisa-vet": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Não. Os produtos MAD.U são dispensados de registro na ANVISA, conforme determinação da GGTPS (Gerência Geral de Produtos para Saúde). Isso simplifica a documentação em processos de compra de clínicas e hospitais veterinários."
+    }
+  },
+
+  "disclosure-layout#identidadeVisual-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#identidadeVisual-vet",
+      "disclosure-content#identidadeVisual-vet"
+    ]
+  },
+  "disclosure-trigger#identidadeVisual-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-identidadeVisual-vet",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-identidadeVisual-vet": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Posso aplicar a identidade visual da minha clínica nos móveis?"
+    }
+  },
+  "disclosure-content#identidadeVisual-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-identidadeVisual-vet"]
+  },
+  "rich-text#content-identidadeVisual-vet": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### É possível avaliar cores e personalizações compatíveis com cada linha, incluindo a gravação da logomarca em produtos selecionados. As possibilidades variam conforme o material e a configuração do mobiliário e devem ser confirmadas com um consultor MAD.U."
+    }
+  },
+
+  "disclosure-layout#diferencaLinhas-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
     "children": [
       "disclosure-trigger#diferencaLinhas-vet",
       "disclosure-content#diferencaLinhas-vet"
     ]
   },
   "disclosure-trigger#diferencaLinhas-vet": {
-    "props": {
-      "blockClass": "trigger-faq-maduset"
-    },
+    "props": { "blockClass": "trigger-faq-maduset" },
     "children": [
       "rich-text#trigger-diferencaLinhas-vet",
       "disclosure-state-indicator#configSet-maduset"
@@ -119,36 +208,60 @@
   "rich-text#trigger-diferencaLinhas-vet": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
-      "text": "### Qual é a diferença entre as linhas ONE, TWO e Express?"
+      "text": "### Qual é a diferença entre as linhas ONE, TWO e EXPRESS?"
     }
   },
   "disclosure-content#diferencaLinhas-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset"
-    },
-    "children": [
-      "rich-text#content-diferencaLinhas-vet"
-    ]
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-diferencaLinhas-vet"]
   },
   "rich-text#content-diferencaLinhas-vet": {
     "props": {
       "blockClass": "content-faq-maduset",
-      "text": "#### A Linha ONE reúne soluções mais robustas, com tecnologia antimicrobiana aplicada em toda a estrutura. A Linha TWO oferece diferentes combinações de gavetas, nichos, bins e acessórios. A Linha Express se destaca pelas estruturas em aço inox e pelos módulos resistentes e laváveis."
+      "text": "#### A Linha ONE reúne configurações premium, com estrutura em aço, alto nível de personalização e tecnologia antimicrobiana nos componentes especificados em cada produto. A Linha TWO combina modularidade, gavetas, nichos, bins e acessórios em configurações versáteis para diferentes rotinas. Já a Linha EXPRESS utiliza estruturas em aço inox e módulos organizadores em materiais como PETG e PSAI, favorecendo resistência, visualização e facilidade de limpeza."
     }
   },
-  "disclosure-layout#carrinhosAmbientes-vet": {
+
+  "disclosure-layout#fabricadoBrasil-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#fabricadoBrasil-vet",
+      "disclosure-content#fabricadoBrasil-vet"
+    ]
+  },
+  "disclosure-trigger#fabricadoBrasil-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-fabricadoBrasil-vet",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-fabricadoBrasil-vet": {
     "props": {
-      "blockClass": "layout-faq-maduset"
-    },
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Os produtos MAD.U são fabricados no Brasil?"
+    }
+  },
+  "disclosure-content#fabricadoBrasil-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-fabricadoBrasil-vet"]
+  },
+  "rich-text#content-fabricadoBrasil-vet": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. A MAD.U integra o Grupo MFM, que fabrica equipamentos para a área da saúde desde 1991, e produz 100% no Brasil, em Pinhais (PR), com infraestrutura própria de design, engenharia, polímeros e usinagem metálica."
+    }
+  },
+
+  "disclosure-layout#carrinhosAmbientes-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
     "children": [
       "disclosure-trigger#carrinhosAmbientes-vet",
       "disclosure-content#carrinhosAmbientes-vet"
     ]
   },
   "disclosure-trigger#carrinhosAmbientes-vet": {
-    "props": {
-      "blockClass": "trigger-faq-maduset"
-    },
+    "props": { "blockClass": "trigger-faq-maduset" },
     "children": [
       "rich-text#trigger-carrinhosAmbientes-vet",
       "disclosure-state-indicator#configSet-maduset"
@@ -157,36 +270,91 @@
   "rich-text#trigger-carrinhosAmbientes-vet": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
-      "text": "### Os carrinhos podem ser utilizados em diferentes ambientes?"
+      "text": "### Os carrinhos podem ser usados em diferentes ambientes da clínica?"
     }
   },
   "disclosure-content#carrinhosAmbientes-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset"
-    },
-    "children": [
-      "rich-text#content-carrinhosAmbientes-vet"
-    ]
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-carrinhosAmbientes-vet"]
   },
   "rich-text#content-carrinhosAmbientes-vet": {
     "props": {
       "blockClass": "content-faq-maduset",
-      "text": "#### Sim. Conforme o modelo e a configuração, os carrinhos veterinários podem acompanhar rotinas de emergência, medicação, curativos, coleta, procedimentos e internação. A mobilidade ajuda a manter materiais e insumos próximos da equipe em diferentes áreas da clínica."
+      "text": "#### Sim. Os carrinhos apresentados na Linha Vet podem circular entre consultórios, salas de procedimento, internação e áreas de apoio. Todos possuem rodízios com giro 360°, facilitando o deslocamento entre os ambientes, e contam com sistemas de trava para estabilização no ponto de uso. As possibilidades de gavetas, bins, nichos e acessórios variam conforme cada produto e podem ser avaliadas de acordo com a rotina da clínica ou do hospital veterinário."
     }
   },
-  "disclosure-layout#setReorganizado-vet": {
+
+  "disclosure-layout#materialFabricacao-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#materialFabricacao-vet",
+      "disclosure-content#materialFabricacao-vet"
+    ]
+  },
+  "disclosure-trigger#materialFabricacao-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-materialFabricacao-vet",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-materialFabricacao-vet": {
     "props": {
-      "blockClass": "layout-faq-maduset"
-    },
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Qual material é utilizado na fabricação dos produtos MAD.U?"
+    }
+  },
+  "disclosure-content#materialFabricacao-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-materialFabricacao-vet"]
+  },
+  "rich-text#content-materialFabricacao-vet": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Depende da linha. A Linha ONE combina chassi em aço com tratamento anticorrosivo por galvanização e componentes em polímero injetado com tecnologia antimicrobiana, com opção de partes metálicas em aço inoxidável não-magnético, além de elementos de fixação em aço inox e trilhos em inox e poliacetal. A Linha EXPRESS utiliza estrutura em aço inox e módulos em PSAI resistente e lavável. Bins, caixas e maletas organizadoras são produzidos em polímero resistente. Todos os produtos são fabricados no Brasil pelo Grupo MFM."
+    }
+  },
+
+  "disclosure-layout#materiaisUtilizados-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#materiaisUtilizados-vet",
+      "disclosure-content#materiaisUtilizados-vet"
+    ]
+  },
+  "disclosure-trigger#materiaisUtilizados-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-materiaisUtilizados-vet",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-materiaisUtilizados-vet": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Quais materiais são utilizados nos produtos MAD.U?"
+    }
+  },
+  "disclosure-content#materiaisUtilizados-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-materiaisUtilizados-vet"]
+  },
+  "rich-text#content-materiaisUtilizados-vet": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Os materiais variam conforme a linha e a configuração. Os produtos podem combinar aço, polímeros injetados, PETG, PSAI e componentes com tecnologia antimicrobiana. A composição exata está disponível na ficha técnica de cada produto."
+    }
+  },
+
+  "disclosure-layout#setReorganizado-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
     "children": [
       "disclosure-trigger#setReorganizado-vet",
       "disclosure-content#setReorganizado-vet"
     ]
   },
   "disclosure-trigger#setReorganizado-vet": {
-    "props": {
-      "blockClass": "trigger-faq-maduset"
-    },
+    "props": { "blockClass": "trigger-faq-maduset" },
     "children": [
       "rich-text#trigger-setReorganizado-vet",
       "disclosure-state-indicator#configSet-maduset"
@@ -195,36 +363,60 @@
   "rich-text#trigger-setReorganizado-vet": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
-      "text": "### O MAD.U SET pode ser reorganizado conforme a necessidade?"
+      "text": "### O MAD.U SET pode ser reorganizado?"
     }
   },
   "disclosure-content#setReorganizado-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset"
-    },
-    "children": [
-      "rich-text#content-setReorganizado-vet"
-    ]
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-setReorganizado-vet"]
   },
   "rich-text#content-setReorganizado-vet": {
     "props": {
       "blockClass": "content-faq-maduset",
-      "text": "#### Sim. Os módulos do MAD.U SET podem ser reposicionados para criar diferentes formas de organização dentro das configurações compatíveis. Assim, o espaço interno pode acompanhar mudanças na rotina, nos materiais ou nos procedimentos."
+      "text": "#### Sim. O MAD.U SET utiliza módulos encaixáveis que podem ser combinados e reposicionados conforme a rotina. O sistema ajuda a organizar, identificar e separar medicamentos, frascos, tubos e outros itens compatíveis com cada módulo."
     }
   },
-  "disclosure-layout#higienizar-vet": {
+
+  "disclosure-layout#travasFechaduras-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#travasFechaduras-vet",
+      "disclosure-content#travasFechaduras-vet"
+    ]
+  },
+  "disclosure-trigger#travasFechaduras-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-travasFechaduras-vet",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-travasFechaduras-vet": {
     "props": {
-      "blockClass": "layout-faq-maduset"
-    },
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Os móveis MAD.U possuem travas ou fechaduras?"
+    }
+  },
+  "disclosure-content#travasFechaduras-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-travasFechaduras-vet"]
+  },
+  "rich-text#content-travasFechaduras-vet": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Algumas configurações podem receber fechadura individual, fecho geral ou lacre e sistemas de trava central. A disponibilidade depende da linha e do produto. Consulte a ficha técnica ou fale com um consultor MAD.U."
+    }
+  },
+
+  "disclosure-layout#higienizar-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
     "children": [
       "disclosure-trigger#higienizar-vet",
       "disclosure-content#higienizar-vet"
     ]
   },
   "disclosure-trigger#higienizar-vet": {
-    "props": {
-      "blockClass": "trigger-faq-maduset"
-    },
+    "props": { "blockClass": "trigger-faq-maduset" },
     "children": [
       "rich-text#trigger-higienizar-vet",
       "disclosure-state-indicator#configSet-maduset"
@@ -237,169 +429,106 @@
     }
   },
   "disclosure-content#higienizar-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset"
-    },
-    "children": [
-      "rich-text#content-higienizar-vet"
-    ]
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-higienizar-vet"]
   },
   "rich-text#content-higienizar-vet": {
     "props": {
       "blockClass": "content-faq-maduset",
-      "text": "#### Os produtos MAD.U utilizam materiais como aço inox, aço carbono e polímeros de engenharia, conforme cada modelo. As superfícies e os componentes são pensados para facilitar a limpeza no uso profissional, sempre respeitando as orientações de higienização de cada material."
+      "text": "#### Os materiais utilizados, como aço inox, PETG, PSAI e polímeros injetados, possuem superfícies que facilitam a limpeza. Componentes removíveis também podem facilitar o acesso durante a higienização. Os produtos e métodos de limpeza devem ser compatíveis com cada material e com as orientações da MAD.U."
     }
   },
-  "disclosure-layout#acessoriosAcompanham-vet": {
-    "props": {
-      "blockClass": "layout-faq-maduset"
-    },
+
+  "disclosure-layout#itensAcompanham-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
     "children": [
-      "disclosure-trigger#acessoriosAcompanham-vet",
-      "disclosure-content#acessoriosAcompanham-vet"
+      "disclosure-trigger#itensAcompanham-vet",
+      "disclosure-content#itensAcompanham-vet"
     ]
   },
-  "disclosure-trigger#acessoriosAcompanham-vet": {
-    "props": {
-      "blockClass": "trigger-faq-maduset"
-    },
+  "disclosure-trigger#itensAcompanham-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
     "children": [
-      "rich-text#trigger-acessoriosAcompanham-vet",
+      "rich-text#trigger-itensAcompanham-vet",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-acessoriosAcompanham-vet": {
+  "rich-text#trigger-itensAcompanham-vet": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
-      "text": "### Os acessórios apresentados nas imagens acompanham o produto?"
+      "text": "### Os itens apresentados nas imagens acompanham o produto?"
     }
   },
-  "disclosure-content#acessoriosAcompanham-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset"
-    },
-    "children": [
-      "rich-text#content-acessoriosAcompanham-vet"
-    ]
+  "disclosure-content#itensAcompanham-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-itensAcompanham-vet"]
   },
-  "rich-text#content-acessoriosAcompanham-vet": {
+  "rich-text#content-itensAcompanham-vet": {
     "props": {
       "blockClass": "content-faq-maduset",
-      "text": "#### Cada produto possui uma configuração específica. Para saber exatamente o que está incluído, consulte a descrição na página do produto. Itens utilizados na ambientação ou na demonstração podem não fazer parte da configuração apresentada."
+      "text": "#### As imagens podem apresentar medicamentos, frascos, cilindros, instrumentos, acessórios e outros itens utilizados apenas para exemplificar possibilidades de organização e uso. Esses elementos não acompanham o produto, salvo quando estiverem expressamente informados no campo \"O que acompanha esta configuração\"."
     }
   },
-  "disclosure-layout#escolherSolucao-vet": {
-    "props": {
-      "blockClass": "layout-faq-maduset"
-    },
+
+  "disclosure-layout#binsForaMobiliario-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
     "children": [
-      "disclosure-trigger#escolherSolucao-vet",
-      "disclosure-content#escolherSolucao-vet"
+      "disclosure-trigger#binsForaMobiliario-vet",
+      "disclosure-content#binsForaMobiliario-vet"
     ]
   },
-  "disclosure-trigger#escolherSolucao-vet": {
-    "props": {
-      "blockClass": "trigger-faq-maduset"
-    },
+  "disclosure-trigger#binsForaMobiliario-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
     "children": [
-      "rich-text#trigger-escolherSolucao-vet",
+      "rich-text#trigger-binsForaMobiliario-vet",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-escolherSolucao-vet": {
+  "rich-text#trigger-binsForaMobiliario-vet": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
-      "text": "### Como escolher a solução ideal para minha clínica?"
+      "text": "### Os bins e caixas organizadoras podem ser usados fora dos carrinhos e estantes?"
     }
   },
-  "disclosure-content#escolherSolucao-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset"
-    },
-    "children": [
-      "rich-text#content-escolherSolucao-vet"
-    ]
+  "disclosure-content#binsForaMobiliario-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-binsForaMobiliario-vet"]
   },
-  "rich-text#content-escolherSolucao-vet": {
+  "rich-text#content-binsForaMobiliario-vet": {
     "props": {
       "blockClass": "content-faq-maduset",
-      "text": "#### Considere o tipo de atendimento, a quantidade de materiais, o espaço disponível e a necessidade de mobilidade. Nossa equipe pode ajudar você a comparar carrinhos veterinários, bancadas, estantes, bins e acessórios para encontrar a solução mais adequada à sua rotina."
+      "text": "#### Sim. As caixas organizadoras e bins MAD.U podem ser usados encaixados no mobiliário ou separadamente, em bancadas, prateleiras e áreas de apoio. Como são empilháveis, com tampa e área para etiquetas, dá pra levar apenas o compartimento necessário até o ponto de atendimento."
     }
   },
-  "disclosure-layout#solicitarOrcamento-vet": {
-    "props": {
-      "blockClass": "layout-faq-maduset"
-    },
+
+  "disclosure-layout#escolherCarrinho-vet": {
+    "props": { "blockClass": "layout-faq-maduset" },
     "children": [
-      "disclosure-trigger#solicitarOrcamento-vet",
-      "disclosure-content#solicitarOrcamento-vet"
+      "disclosure-trigger#escolherCarrinho-vet",
+      "disclosure-content#escolherCarrinho-vet"
     ]
   },
-  "disclosure-trigger#solicitarOrcamento-vet": {
-    "props": {
-      "blockClass": "trigger-faq-maduset"
-    },
+  "disclosure-trigger#escolherCarrinho-vet": {
+    "props": { "blockClass": "trigger-faq-maduset" },
     "children": [
-      "rich-text#trigger-solicitarOrcamento-vet",
+      "rich-text#trigger-escolherCarrinho-vet",
       "disclosure-state-indicator#configSet-maduset"
     ]
   },
-  "rich-text#trigger-solicitarOrcamento-vet": {
+  "rich-text#trigger-escolherCarrinho-vet": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
-      "text": "### Como solicitar um orçamento?"
+      "text": "### O que considerar ao escolher um carrinho para hospital ou veterinária?"
     }
   },
-  "disclosure-content#solicitarOrcamento-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset"
-    },
-    "children": [
-      "rich-text#content-solicitarOrcamento-vet"
-    ]
+  "disclosure-content#escolherCarrinho-vet": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-escolherCarrinho-vet"]
   },
-  "rich-text#content-solicitarOrcamento-vet": {
+  "rich-text#content-escolherCarrinho-vet": {
     "props": {
       "blockClass": "content-faq-maduset",
-      "text": "#### Clique em \"Falar com um consultor\" ou em um dos botões de atendimento pelo WhatsApp. Conte um pouco sobre o espaço e a rotina da sua clínica, e nossa equipe apresenta os produtos e as configurações compatíveis com a sua necessidade."
-    }
-  },
-  "disclosure-layout#materiaisFabricacao-vet": {
-    "props": {
-      "blockClass": "layout-faq-maduset"
-    },
-    "children": [
-      "disclosure-trigger#materiaisFabricacao-vet",
-      "disclosure-content#materiaisFabricacao-vet"
-    ]
-  },
-  "disclosure-trigger#materiaisFabricacao-vet": {
-    "props": {
-      "blockClass": "trigger-faq-maduset"
-    },
-    "children": [
-      "rich-text#trigger-materiaisFabricacao-vet",
-      "disclosure-state-indicator#configSet-maduset"
-    ]
-  },
-  "rich-text#trigger-materiaisFabricacao-vet": {
-    "props": {
-      "blockClass": "text-trigger-faq-madu",
-      "text": "### Quais materiais são utilizados na fabricação?"
-    }
-  },
-  "disclosure-content#materiaisFabricacao-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset"
-    },
-    "children": [
-      "rich-text#content-materiaisFabricacao-vet"
-    ]
-  },
-  "rich-text#content-materiaisFabricacao-vet": {
-    "props": {
-      "blockClass": "content-faq-maduset",
-      "text": "#### Os materiais variam conforme a linha e o produto. As soluções MAD.U podem reunir estruturas em aço carbono, componentes e tampos em aço inox, além de gavetas, bins e módulos produzidos em polímeros resistentes. Consulte a página de cada produto para conhecer sua composição."
+      "text": "#### Comece pelo que o carrinho precisa carregar. Avalie o número de gavetas, o espaço disponível na clínica e os acessórios de apoio ao atendimento, como suporte de soro, suporte para cilindro de oxigênio e suporte para caixas de perfurocortantes. Na MAD.U, o carrinho está disponível em diferentes configurações, como o ONE 560, com tecnologia antimicrobiana."
     }
   }
 }

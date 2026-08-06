@@ -179,7 +179,7 @@
     },
     "title": "Imagem estante"
   },
-  "responsive-layout.mobile#estante":{
+  "responsive-layout.mobile#estante": {
     "children": [
       "image#estante-mobile-vet"
     ]
@@ -314,8 +314,9 @@
   "link#falarVendedor-estante-vet": {
     "props": {
       "blockClass": "link-falarConsultor-vet",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Estante%20Girat%C3%B3ria%20com%2096%20Bins",
+      "label": "falar com consultor",
+      "target": "_blank"
     },
     "title": "Link falar com consultor"
   }

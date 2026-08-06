@@ -439,6 +439,18 @@
           "arguments": {
             "id": "539"
           }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "540"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "541"
+          }
         }
       ],
       "matchType": "any",

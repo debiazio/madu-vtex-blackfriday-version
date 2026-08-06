@@ -7,7 +7,8 @@
   "flex-layout.row#linhaExpress-vet": {
     "props": {
       "blockClass": "linhaExpress-vet",
-      "fullWidth": true
+      "fullWidth": true,
+      "htmlId": "linhaExpress"
     },
     "title": "linhaExpress-vet",
     "children": [
@@ -97,8 +98,9 @@
   "link#falarVendedor-linhaExpress-vet": {
     "props": {
       "blockClass": "link-falarConsultor-vet",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Bancada%20Profissional%20em%20Inox%20%7C%20MAD.U%20Express",
+      "label": "falar com consultor",
+      "target": "_blank"
     },
     "title": "Link falar com consultor"
   },
@@ -224,8 +226,9 @@
   "link#falarVendedor-carrinho-vet": {
     "props": {
       "blockClass": "link-falarConsultor-vet",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20Express%20com%20Tampo%20Inox%20e%20Big%20Bin",
+      "label": "falar com consultor",
+      "target": "_blank"
     },
     "title": "Link falar com consultor"
   },
@@ -282,8 +285,9 @@
   "link#falarVendedor-prateleiras-vet": {
     "props": {
       "blockClass": "link-falarConsultor-vet",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20Prateleiras%20Baixa%20Express",
+      "label": "falar com consultor",
+      "target": "_blank"
     },
     "title": "Link falar com consultor"
   }

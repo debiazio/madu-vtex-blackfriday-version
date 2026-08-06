@@ -182,8 +182,9 @@
     "title": "link falar com vendedor produto 1",
     "props": {
       "blockClass": "link-falarVendedor",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Maleta%20Home%20Care%20MAD.U%20BOX",
+      "label": "falar com consultor",
+      "target": "_blank"
     }
   },
   // ==================
@@ -251,8 +252,9 @@
     "title": "link falar com vendedor produto 2",
     "props": {
       "blockClass": "link-falarVendedor",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Maleta%20de%20Medicamentos%20Controlados%20%7C%20MAD.U%20BOX",
+      "label": "falar com consultor",
+      "target": "_blank"
     }
   },
     // ==================
@@ -284,7 +286,7 @@
       "blockClass": "titulo-produto-linhaTwo-vet",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Maleta de Medicamentos Controlados | MAD.U BOX"
+      "text": "Maleta PET Coleta MAD.U BOX"
     }
   },
   "rich-text#subtitulo-produto3-linhaBoxSet-vet":{
@@ -311,7 +313,7 @@
     "title": "link ver tudo produto 3",
     "props": {
       "blockClass": "link-vertudo",
-      "href": "",
+      "href": "/maleta-coleta-veterinaria-4-modulos-bin-madu-set/p",
       "label": "ver produto"
     }
   },
@@ -319,8 +321,9 @@
     "title": "link falar com vendedor produto 3",
     "props": {
       "blockClass": "link-falarVendedor",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Maleta%20PET%20Coleta%20MAD.U%20BOX",
+      "label": "falar com consultor",
+      "target": "_blank"
     }
   },
     // ==================
@@ -379,7 +382,7 @@
     "title": "link ver tudo produto 4",
     "props": {
       "blockClass": "link-vertudo",
-      "href": "",
+      "href": "/maleta-organizadora-veterinaria-madu-set-cinza/p",
       "label": "ver produto"
     }
   },
@@ -387,8 +390,9 @@
     "title": "link falar com vendedor produto 4",
     "props": {
       "blockClass": "link-falarVendedor",
-      "href": "#",
-      "label": "falar com consultor"
+      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Maleta%20PET%20Care%20MAD.U%20BOX",
+      "label": "falar com consultor",
+      "target": "_blank"
     }
   },
   //  ==================
