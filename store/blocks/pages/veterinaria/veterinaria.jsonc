@@ -12,7 +12,11 @@
        "responsive-layout.mobile#linhaTwo-vet",
        "flex-layout.row#organizador-vet",
        "responsive-layout.desktop#linhaBoxSet-vet",
-       "responsive-layout.mobile#linhaBoxSet-vet"
+       "responsive-layout.mobile#linhaBoxSet-vet",
+       "flex-layout.row#banner-verde-vet",
+       "flex-layout.row#produtos-linhaVet-vet",
+       "flex-layout.row#banner-laranja-vet",
+       "flex-layout.row#linhaFAQs-vet"
 
     ]
   }

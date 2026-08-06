@@ -34,21 +34,21 @@
   "rich-text#titulo-vet": {
     "props": {
       "blockClass": "titulo-vet",
-      "text": "# Organização que acompanha \n # a **rotina veterinária**"
+      "text": "# Móveis que acompanham \n # a **rotina veterinária**"
     },
     "title": "Título"
   },
   "rich-text#subtitulo-vet": {
     "props": {
       "blockClass": "subtitulo-vet",
-      "text": "Para clínicas, hospitais veterinários e laboratórios que \n buscam mais organização, mobilidade e eficiência."
+      "text": "Móveis para clínicas, hospitais e laboratórios veterinários que buscam organização, mobilidade e eficiência."
     },
     "title": "Subtítulo"
   },
   "link#solicitarCotacao-vet": {
     "props": {
       "href": "#",
-      "label": "conheça as soluções",
+      "label": "CONHEÇA OS PRODUTOS",
       "blockClass": "link-solicitarCotacao-vet",
       "target": "_blank"
     },

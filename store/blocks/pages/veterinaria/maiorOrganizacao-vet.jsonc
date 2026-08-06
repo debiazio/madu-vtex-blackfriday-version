@@ -25,7 +25,7 @@
   },
   "rich-text#titulo-maiorOrg-vet": {
     "props": {
-      "text": "## Mais organização na rotina veterinária",
+      "text": "## BINS PARA ORGANIZAR A ROTINA VETERINÁRIA",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "titulo-maiorOrg-vet"

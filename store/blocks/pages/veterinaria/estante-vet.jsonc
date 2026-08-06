@@ -35,7 +35,7 @@
   },
   "rich-text#subtitulo-estante-vet": {
     "props": {
-      "text": "Organização de alta capacidade, com armazenamento nos dois lados para manter medicamentos, insumos e pequenos materiais identificados e acessíveis.",
+      "text": "Organização de alta capacidade, com armazenamento nos dois lados para manter medicamentos, insumos e pequenos materiais identificados e acessíveis na rotina veterinária.",
       "blockClass": "subtitulo-estanteVet",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -138,7 +138,7 @@
   },
   "rich-text#antimicrobiana": {
     "props": {
-      "text": "Bins com \n tampa e ação \n antimicrobiana",
+      "text": "Bins com tampa \n e proteção \n antimicrobiana",
       "textAlignment": "RIGHT",
       "blockClass": "textos-laterais"
     },

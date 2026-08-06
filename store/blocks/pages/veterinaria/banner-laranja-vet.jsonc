@@ -1,0 +1,83 @@
+{
+  "flex-layout.row#banner-laranja-vet":{
+    "title": "Banner laranja",
+    "props": {
+      "blockClass": "linha-bannerLaranja-vet",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textosLink-banner-laranja-vet",
+      "image#doguinho-bannerLaranja-vet"
+    ]
+  },
+  // ====================================================
+  // linha textos
+  // ====================================================
+  "flex-layout.row#textosLink-banner-laranja-vet":{
+    "title": "Linha textos e link banner laranja",
+    "props": {
+      "blockClass": "linha-textos-banner-verde-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#textos-bannerLaranja-vet",
+      "flex-layout.row#links-bannerLaranja-vet"
+    ]
+  },
+  "flex-layout.row#textos-bannerLaranja-vet":{
+    "title": "Linha textos banner laranja",
+    "props": {
+      "blockClass": "linha-textos-bannerVerde-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-bannerLaranja-vet",
+      "rich-text#subtitulo-bannerLaranja-vet"
+    ]
+  },
+  "rich-text#titulo-bannerLaranja-vet":{
+    "title": "Titulo banner laranja",
+    "props": {
+      "blockClass": "titulo-bannerLaranja-vet",
+      "text": "### Sua clínica merece um \n ### mobiliário à altura da \n ### excelência do seu \n ### atendimento."
+    }
+  },
+  "rich-text#subtitulo-bannerLaranja-vet":{
+    "title": "subtitulo-bannerLaranja-vet",
+    "props": {
+      "blockClass": "subtitulo-bannerLaranja-vet",
+      "text": "Converse com um especialista MAD.U e descubra como equipar seus ambientes com soluções técnicas, funcionais e de alto padrão."
+    }
+  },
+  "flex-layout.row#links-bannerLaranja-vet":{
+    "title": "Links banner laranja",
+    "props": {
+      "blockClass": "linha-links-bannerVerde-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#falarVendedor-bannerLaranja-vet"
+    ]
+  },
+
+  "link#falarVendedor-bannerLaranja-vet":{
+    "title": "Link falar com vendedor bannerLaranja-vet",
+    "props": {
+      "blockClass": "falarVendedor-bannerLaranja-vet",
+      "href": "#",
+      "label": "Solicitar atendimento"
+    }
+  },
+    // ====================================================
+  // linha imagem
+  // ====================================================
+  "image#doguinho-bannerLaranja-vet":{
+    "title": "Imagem cachorrinho banner laranja",
+    "props": {
+      "blockClass": "doguinho-bannerLaranja-vet",
+      "alt": "cachorrinho",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/0448046a-c47b-4621-b0ed-34073fb8ce9d___286ea753f9fb2e62491633cb320d2bbc.webp"
+    }
+  }
+}

@@ -1,3 +1,63 @@
+.flexRowContent--linha-links-bannerVerde-vet {
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--linha-textos-bannerVerde-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.flexRowContent--linha-textos-banner-verde-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 36px;
+}
+
+.flexRow--linha-bannerLaranja-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFA207;
+}
+
+.flexRow--linha-bannerVerde-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00A277;
+  background-image: url('https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/84ea3ca1-e7c5-4222-ac65-d8ff8930092f___263b4050a561c0663fe4c2a52edbab42.webp');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: calc(100% - 60px) center;
+}
+
+.flexRowContent--linha-bannerLaranja-vet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  position: relative;
+  padding: 51px 0 46px 0;
+}
+.flexRowContent--linha-bannerVerde-vet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  position: relative;
+  padding: 51px 0 46px 0;
+}
+
 .flexRowContent--linha-produtos-linhaTwo-vet {
   gap: 22px;
 }
@@ -333,6 +393,27 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRow--linha-bannerLaranja-vet,
+  .flexRow--linha-bannerVerde-vet {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right 105% bottom 50px;
+  }
+
+  .flexRowContent--linha-textos-banner-verde-vet {
+    padding: 0 21px;
+  }
+
+  .flexRow--linha-bannerLaranja-vet,
+  .flexRow--linha-bannerVerde-vet {
+    min-height: 580px;
+  }
+
+  .flexRowContent--linha-bannerLaranja-vet,
+  .flexRowContent--linha-bannerVerde-vet {
+    flex-direction: column;
+  }
+
   .flexRowContent--linha-organizador {
     /* background */
     background-image: url('https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7194c8a5-ea1d-44be-81bd-24f549838df6___2b7a62339719a03ef9fd5992736d3b6b.webp');

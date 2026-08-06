@@ -22,7 +22,7 @@
   "rich-text#titulo-linhaOne-vet": {
     "props": {
       "blockClass": "titulo-linhaOne-vet",
-      "text": "## Uma estrutura  \n ## preparada para \n ## **apoiar** \n ##  **atendimentos,** \n ## **procedimentos** \n ## **e emergências.**"
+      "text": "## Um carrinho \n ## preparado para \n ## apoiar \n ##  **atendimentos,** \n ## **procedimentos** \n ## **e emergências.**"
     }
   },
   // img one

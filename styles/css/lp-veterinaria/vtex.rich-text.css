@@ -1,16 +1,65 @@
-.container--subtitulo-produto-linhaTwo-vet{
+.paragraph--subtitulo-bannerLaranja-vet {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  text-decoration-skip-ink: auto;
+  margin: 0;
+}
+
+.headingLevel3--titulo-bannerLaranja-vet {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 32px;
+  color: #000000;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.paragraph--subtitulo-bannerVerde-vet {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 108%;
+  letter-spacing: -4%;
+  margin: 0;
+}
+
+.headingLevel3--titulo-bannerVerde-vet {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 108%;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.strong--titulo-bannerVerde-vet {
+  font-family: "Poppins Black", sans-serif !important;
+}
+
+.container--subtitulo-produto-linhaTwo-vet {
   margin-bottom: 15px;
 }
 
-.paragraph--subtitulo-produto-linhaTwo-vet{
+.paragraph--subtitulo-produto-linhaTwo-vet {
   font-family: "Poppins", sans-serif !important;
-font-weight: 400;
-font-size: 12px;
-color: #7D7D7D;
-line-height: 97%;
-letter-spacing: 0%;
-text-align: center;
-margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  color: #7D7D7D;
+  line-height: 97%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0;
 }
 
 .paragraph--titulo-produto-linhaTwo-vet {
@@ -271,6 +320,10 @@ margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
+.headingLevel3--titulo-bannerLaranja-vet {
+  font-size: 24px;
+}
+
   .paragraph--titulo-maiorOrg-vet {
     font-size: 12px;
   }

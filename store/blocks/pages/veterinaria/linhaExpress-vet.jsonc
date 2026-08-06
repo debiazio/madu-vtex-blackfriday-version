@@ -150,7 +150,7 @@
     "title": "continuacaoTitulo-linhaExpress-vet",
     "props": {
       "blockClass": "continuacaoTitulo-linhaExpress-vet",
-      "text": "Soluções em Aço Inox"
+      "text": "MÓVEIS EM AÇO INOX"
     }
   },
   "rich-text#subtitulo-linhaExpress-vet": {
@@ -196,7 +196,7 @@
     "title": "titulo-subcoluna-carrinho-linhaExpress-vet",
     "props": {
       "blockClass": "titulo-subcoluna-produto-linhaExpress-vet",
-      "text": "Carrinho Express com tampo INOX e Big Bin",
+      "text": "Carrinho Express com Tampo Inox e Big Bin",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }

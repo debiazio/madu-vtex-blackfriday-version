@@ -92,7 +92,7 @@
   "rich-text#subtitulo-linhaBoxSet-vet": {
     "title": "subtitulo-linhatwo-vet",
     "props": {
-      "text": "Cada projeto possui uma realidade diferente. Por isso desenvolvemos linhas capazes de atender desde clínicas compactas até grandes hospitais veterinários.",
+      "text": "Cada projeto possui uma realidade diferente. Por isso criamos maletas e organizadores que atendem desde clínicas compactas até grandes hospitais veterinários.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "subtitulo-linhatwo-vet"

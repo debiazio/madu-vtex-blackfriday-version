@@ -1,0 +1,91 @@
+{
+  "flex-layout.row#banner-verde-vet":{
+    "title": "Banner verde",
+    "props": {
+      "blockClass": "linha-bannerVerde-vet",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textosLink-banner-verde-vet",
+      "image#doguinho-bannerVerde-vet"
+    ]
+  },
+  // ====================================================
+  // linha textos
+  // ====================================================
+  "flex-layout.row#textosLink-banner-verde-vet":{
+    "title": "Linha textos e link banner verde",
+    "props": {
+      "blockClass": "linha-textos-banner-verde-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#textos-bannerVerde-vet",
+      "flex-layout.row#links-bannerVerde-vet"
+    ]
+  },
+  "flex-layout.row#textos-bannerVerde-vet":{
+    "title": "Linha textos banner verde",
+    "props": {
+      "blockClass": "linha-textos-bannerVerde-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-bannerVerde-vet",
+      "rich-text#subtitulo-bannerVerde-vet"
+    ]
+  },
+  "rich-text#titulo-bannerVerde-vet":{
+    "title": "Titulo banner verde",
+    "props": {
+      "blockClass": "titulo-bannerVerde-vet",
+      "text": "### Encontre a configuração \n ### **ideal para sua rotina**"
+    }
+  },
+  "rich-text#subtitulo-bannerVerde-vet":{
+    "title": "subtitulo-bannerVerde-vet",
+    "props": {
+      "blockClass": "subtitulo-bannerVerde-vet",
+      "text": "Com o apoio de um consultor MAD.U, você pode avaliar módulos, acessórios e configurações compatíveis com cada produto e com as necessidades da sua operação veterinária."
+    }
+  },
+  "flex-layout.row#links-bannerVerde-vet":{
+    "title": "Links banner verde",
+    "props": {
+      "blockClass": "linha-links-bannerVerde-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#verProduto-vet",
+      "link#falarVendedor-vet"
+    ]
+  },
+  "link#verProduto-vet":{
+    "title": "Link ver produto banner verde",
+    "props": {
+      "blockClass": "verProduto-bannerVerde-vet",
+      "href": "",
+      "label": "ver produtos"
+    }
+  },
+  "link#falarVendedor-vet":{
+    "title": "Link falar com vendedor bannerVerde-vet",
+    "props": {
+      "blockClass": "falarVendedor-vet",
+      "href": "#",
+      "label": "falar com consultor"
+    }
+  },
+    // ====================================================
+  // linha imagem
+  // ====================================================
+  "image#doguinho-bannerVerde-vet":{
+    "title": "Imagem cachorrinho banner verde",
+    "props": {
+      "blockClass": "doguinho-bannerVerde-vet",
+      "alt": "cachorrinho",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b8c6b297-1312-4e62-90d2-a708a60d3e81___499696a69f1d1d0e5c2ffee75db6ad27.webp"
+    }
+  }
+}

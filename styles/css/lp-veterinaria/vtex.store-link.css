@@ -1,3 +1,58 @@
+.link--falarVendedor-bannerLaranja-vet {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 137%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #343434;
+  text-decoration: none;
+}
+
+.label--falarVendedor-bannerLaranja-vet {
+  background-color: #FFFFFF;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+}
+.link--falarVendedor-vet {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 137%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 5px 20px 5px 20px;
+}
+
+.label--falarVendedor-vet {
+  background-color: #FFA207;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+}
+
+.link--verProduto-bannerVerde-vet {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 137%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration: none;
+  text-decoration-thickness: 0%;
+  text-decoration-skip-ink: auto;
+}
+
+.label--verProduto-bannerVerde-vet {
+  color: #00A277;
+  background-color: #FFFFFF;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+}
+
 .link--link-falarVendedor:hover {
   background-color: #e5e5e5;
 }

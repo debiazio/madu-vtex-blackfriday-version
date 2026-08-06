@@ -1,3 +1,13 @@
+.imageElement--doguinho-bannerLaranja-vet,
+.imageElement--doguinho-bannerVerde-vet{
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: -50px;
+  bottom: auto;
+  width: auto;
+}
+
 .imageElement--subcoluna-imagemProduto {
   margin-top: 6px;
 }
@@ -23,6 +33,19 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .imageElement--doguinho-bannerLaranja-vet{
+    position: relative;
+    top: 30px;
+    bottom: unset;
+    width: 80%;
+  }
+  .imageElement--doguinho-bannerVerde-vet{
+    top: unset;
+    bottom: unset;
+    width: auto;
+  }
+
+
   .imageElement--subcoluna-imagemProduto {
     margin-top: 18px;
   }
