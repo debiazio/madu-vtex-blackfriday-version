@@ -5,7 +5,7 @@
       "blockId": "linhaFAQs-seo"
     },
     "children": [
-      "flex-layout.row#linhaFAQs-seo",
+      // "flex-layout.row#linhaFAQs-seo",
       "flex-layout.row#linha-lermais"
     ]
   },
