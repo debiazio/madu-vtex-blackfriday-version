@@ -1,0 +1,434 @@
+{
+  "responsive-layout.desktop#linhaBoxSet-vet":{
+    "children": [
+      "flex-layout.row#desktop-linhaBoxSet-vet"
+    ]
+  },
+  "flex-layout.row#desktop-linhaBoxSet-vet": {
+    "title": "linhaBoxSet",
+    "props": {
+      "blockClass": "linhaTwo-vet",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#textos-linhaBoxSet-vet",
+      "responsive-layout.desktop#produtos-linhaBoxSet-vet",
+      "responsive-layout.mobile#produtos-linhaBoxSet-vet"
+    ]
+  },
+  "responsive-layout.mobile#linhaBoxSet-vet":{
+    "children": [
+      "flex-layout.row#linhaBoxSet-vet"
+    ]
+  },
+  "flex-layout.row#linhaBoxSet-vet": {
+    "title": "linhaBoxSet",
+    "props": {
+      "blockClass": "linhaTwo-vet",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textos-linhaBoxSet-vet",
+      "responsive-layout.desktop#produtos-linhaBoxSet-vet",
+      "responsive-layout.mobile#produtos-linhaBoxSet-vet"
+
+    ]
+  },
+  "flex-layout.row#textos-linhaBoxSet-vet": {
+    "title": "Linha textos linhaBoxSet",
+    "props": {
+      "blockClass": "linha-textos-linhaTwo-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-linhaBoxSet-vet",
+      "rich-text#subtitulo-linhaBoxSet-vet"
+    ]
+  },
+  "flex-layout.row#linha-linhaBoxSet-vet": {
+    "title": "Texto linhaBoxSet",
+    "props": {
+      "blockClass": "linha-titulo-linhaExpress-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#linhas",
+      "image#tag-box-vet",
+      "rich-text#mais",
+      "image#tag-set-vet"
+    ]
+  },
+  "rich-text#linhas":{
+    "props": {
+      "text": "Linhas",
+      "blockClass": "linha"
+    },
+    "title": "Linha"
+  },
+  "rich-text#mais":{
+    "props": {
+      "text": "+",
+      "blockClass": "linha"
+    },
+    "title": "+"
+  },
+  "image#tag-box-vet": {
+    "title": "Tag box",
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/164f8e36-9a15-41ea-bae2-9f956d2154e5___b4b4de6bf3dc57a62f7a89326ea71ad3.svg",
+      "blockClass": "image-tag-vet"
+    }
+  },
+  "image#tag-set-vet": {
+    "title": "Tag box",
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/238e28cb-39b6-419b-8d9d-6f9f71be7070___2bee03d3a8a6f6b4b1bd1d974c5cba50.svg",
+      "blockClass": "image-tag-vet"
+    }
+  },
+  "rich-text#subtitulo-linhaBoxSet-vet": {
+    "title": "subtitulo-linhatwo-vet",
+    "props": {
+      "text": "Cada projeto possui uma realidade diferente. Por isso desenvolvemos linhas capazes de atender desde clínicas compactas até grandes hospitais veterinários.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "subtitulo-linhatwo-vet"
+    }
+  },
+  // ====================
+  //  produtos
+  // ====================
+  "responsive-layout.desktop#produtos-linhaBoxSet-vet":{
+    "children": [
+      "flex-layout.row#produtos-linhaBoxSet-vet"
+    ]
+  },
+  "flex-layout.row#produtos-linhaBoxSet-vet": {
+    "title": "Linha produtos-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "linha-produtos-linhaTwo-vet"
+    },
+    "children": [
+      "flex-layout.col#coluna1Produto-linhaBoxSet-vet",
+      "flex-layout.col#coluna2Produto-linhaBoxSet-vet",
+      "flex-layout.col#coluna3Produto-linhaBoxSet-vet",
+      "flex-layout.col#coluna4Produto-linhaBoxSet-vet"
+    ]
+  },
+  // =====================
+  // produto 1
+  "flex-layout.col#coluna1Produto-linhaBoxSet-vet": {
+    "title": "Coluna 1 produtos linhaBoxSet",
+    "props": {
+      "blockClass": "colunaProdutos-linhaTwo-Vet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#carrinhoVet3gav-linhaBoxSet-vet",
+      "rich-text#titulo-produto-linhaBoxSet-vet",
+      "rich-text#subtitulo-produto-linhaBoxSet-vet",
+      "flex-layout.row#links-produto-linhaBoxSet-vet"
+    ]
+  },
+  "image#carrinhoVet3gav-linhaBoxSet-vet": {
+    "title": "imagem carrinho veterinário 3 gavetas",
+    "props": {
+      "blockClass": "imagem-produto-linhaTwo-vet",
+      "alt": "maleta home care",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/63555090-7413-4046-8ca1-f5be35cc4e87___a3ede2d75f79616ff2824fc9e0b15808.webp"
+    }
+  },
+  "rich-text#titulo-produto-linhaBoxSet-vet":{
+    "title": "Linha titulo produto linha two",
+    "props": {
+      "blockClass": "titulo-produto-linhaTwo-vet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Maleta Home Care MAD.U BOX"
+    }
+  },
+  "rich-text#subtitulo-produto-linhaBoxSet-vet":{
+    "title": "subtitulo-produto-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "subtitulo-produto-linhaTwo-vet",
+      "text": "Leva medicamentos, insumos e materiais de apoio de forma organizada para atendimentos veterinários domiciliares e deslocamentos entre unidades.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#links-produto-linhaBoxSet-vet":{
+    "title": "linha links-produto-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "links-produto-linhaTwo-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link#vertudo-linhaBoxSet-vet",
+      "link#falarVendedor-linhaBoxSet-vet"
+    ]
+  },
+  "link#vertudo-linhaBoxSet-vet":{
+    "title": "link ver tudo produto 1",
+    "props": {
+      "blockClass": "link-vertudo",
+      "href": "https://www.pensemadu.com.br/maleta-home-care-veterinaria/p",
+      "label": "ver produto"
+    }
+  },
+  "link#falarVendedor-linhaBoxSet-vet":{
+    "title": "link falar com vendedor produto 1",
+    "props": {
+      "blockClass": "link-falarVendedor",
+      "href": "#",
+      "label": "falar com consultor"
+    }
+  },
+  // ==================
+  // produto 2
+  "flex-layout.col#coluna2Produto-linhaBoxSet-vet": {
+    "title": "Coluna 1 produtos linha Two",
+    "props": {
+      "blockClass": "colunaProdutos-linhaTwo-Vet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#produto2-linhaBoxSet-vet",
+      "rich-text#titulo-produto2-linhaBoxSet-vet",
+      "rich-text#subtitulo-produto2-linhaBoxSet-vet",
+      "flex-layout.row#links-produto2-linhaBoxSet-vet"
+    ]
+  },
+  "image#produto2-linhaBoxSet-vet": {
+    "title": "imagem produto 2",
+    "props": {
+      "blockClass": "imagem-produto-linhaTwo-vet",
+      "alt": "Maleta medicamentos",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1e863179-c552-4c66-ad99-328a415a37c3___d7e00d54b277f553074b721e6baac651.webp"
+    }
+  },
+  "rich-text#titulo-produto2-linhaBoxSet-vet":{
+    "title": "Linha titulo produto 2 linha two",
+    "props": {
+      "blockClass": "titulo-produto-linhaTwo-vet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Maleta de Medicamentos Controlados | MAD.U BOX"
+    }
+  },
+  "rich-text#subtitulo-produto2-linhaBoxSet-vet":{
+    "title": "subtitulo-produto-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "subtitulo-produto-linhaTwo-vet",
+      "text": "Compartimentos internos que ajudam a separar e identificar medicamentos de controle especial e insumos, mantendo os itens organizados e visíveis durante a rotina veterinária.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#links-produto2-linhaBoxSet-vet":{
+    "title": "linha links-produto-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "links-produto-linhaTwo-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#vertudo2-linhaBoxSet-vet",
+      "link#falarVendedor2-linhaBoxSet-vet"
+    ]
+  },
+  "link#vertudo2-linhaBoxSet-vet":{
+    "title": "link ver tudo produto 2",
+    "props": {
+      "blockClass": "link-vertudo",
+      "href": "https://www.pensemadu.com.br/maleta-psicotropicos-veterinaria-medicamento-controlado-animal/p",
+      "label": "ver produto"
+    }
+  },
+  "link#falarVendedor2-linhaBoxSet-vet":{
+    "title": "link falar com vendedor produto 2",
+    "props": {
+      "blockClass": "link-falarVendedor",
+      "href": "#",
+      "label": "falar com consultor"
+    }
+  },
+    // ==================
+  // produto 3
+  "flex-layout.col#coluna3Produto-linhaBoxSet-vet":{
+    "title": "Coluna 3 produtos linhaBoxSet",
+    "props": {
+      "blockClass": "colunaProdutos-linhaTwo-Vet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#produto3-linhaBoxSet-vet",
+      "rich-text#titulo-produto3-linhaBoxSet-vet",
+      "rich-text#subtitulo-produto3-linhaBoxSet-vet",
+      "flex-layout.row#links-produto3-linhaBoxSet-vet"
+    ]
+  },
+  "image#produto3-linhaBoxSet-vet": {
+    "title": "imagem produto 2",
+    "props": {
+      "blockClass": "imagem-produto-linhaTwo-vet",
+      "alt": "maleta pet coleta",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d996f0ac-a1ea-45a4-9b67-c07fc1d29682___9b94ff5f9edde4220221c0c6b169e60b.webp"
+    }
+  },
+  "rich-text#titulo-produto3-linhaBoxSet-vet":{
+    "title": "Linha titulo produto 2 linha two",
+    "props": {
+      "blockClass": "titulo-produto-linhaTwo-vet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Maleta de Medicamentos Controlados | MAD.U BOX"
+    }
+  },
+  "rich-text#subtitulo-produto3-linhaBoxSet-vet":{
+    "title": "subtitulo-produto-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "subtitulo-produto-linhaTwo-vet",
+      "text": "Organiza tubos, frascos e materiais de coleta em compartimentos específicos, facilitando a preparação e a conferência dos itens antes de cada atendimento veterinário.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#links-produto3-linhaBoxSet-vet":{
+    "title": "linha links-produto-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "links-produto-linhaTwo-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link#vertudo3-linhaBoxSet-vet",
+      "link#falarVendedor3-linhaBoxSet-vet"
+    ]
+  },
+  "link#vertudo3-linhaBoxSet-vet":{
+    "title": "link ver tudo produto 3",
+    "props": {
+      "blockClass": "link-vertudo",
+      "href": "",
+      "label": "ver produto"
+    }
+  },
+  "link#falarVendedor3-linhaBoxSet-vet":{
+    "title": "link falar com vendedor produto 3",
+    "props": {
+      "blockClass": "link-falarVendedor",
+      "href": "#",
+      "label": "falar com consultor"
+    }
+  },
+    // ==================
+  // produto 4
+  "flex-layout.col#coluna4Produto-linhaBoxSet-vet":{
+    "title": "Coluna 4 produtos linhaBoxSet",
+    "props": {
+      "blockClass": "colunaProdutos-linhaTwo-Vet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#produto4-linhaBoxSet-vet",
+      "rich-text#titulo-produto4-linhaBoxSet-vet",
+      "rich-text#subtitulo-produto4-linhaBoxSet-vet",
+      "flex-layout.row#links-produto4-linhaBoxSet-vet"
+    ]
+  },
+  "image#produto4-linhaBoxSet-vet": {
+    "title": "imagem produto 2",
+    "props": {
+      "blockClass": "imagem-produto-linhaTwo-vet",
+      "alt": "maleta pet care",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f439e85c-f72f-4613-8251-bf9d91228f54___f2218bd1663c2ba34d6a38a690911922.webp"
+    }
+  },
+  "rich-text#titulo-produto4-linhaBoxSet-vet":{
+    "title": "Linha titulo produto 2 linha two",
+    "props": {
+      "blockClass": "titulo-produto-linhaTwo-vet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Maleta PET Care MAD.U BOX"
+    }
+  },
+  "rich-text#subtitulo-produto4-linhaBoxSet-vet":{
+    "title": "subtitulo-produto-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "subtitulo-produto-linhaTwo-vet",
+      "text": "Solução compacta, com módulos, divisórias e caixa antimicrobiana para organizar medicamentos e pequenos insumos sem ocupar mais espaço do que a rotina veterinária exige.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#links-produto4-linhaBoxSet-vet":{
+    "title": "linha links-produto-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "links-produto-linhaTwo-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link#vertudo4-linhaBoxSet-vet",
+      "link#falarVendedor4-linhaBoxSet-vet"
+    ]
+  },
+  "link#vertudo4-linhaBoxSet-vet":{
+    "title": "link ver tudo produto 4",
+    "props": {
+      "blockClass": "link-vertudo",
+      "href": "",
+      "label": "ver produto"
+    }
+  },
+  "link#falarVendedor4-linhaBoxSet-vet":{
+    "title": "link falar com vendedor produto 4",
+    "props": {
+      "blockClass": "link-falarVendedor",
+      "href": "#",
+      "label": "falar com consultor"
+    }
+  },
+  //  ==================
+  //  produtos mobiel
+  "responsive-layout.mobile#produtos-linhaBoxSet-vet":{
+    "children": [
+      "flex-layout.row#slider-produtos-linhaBoxSet-vet"
+    ]
+  },
+  "flex-layout.row#slider-produtos-linhaBoxSet-vet": {
+    "title": "linha-slider-produtos-linhaBoxSet-vet",
+    "props": {
+      "blockClass": "linha-slider-produtos-linhaExpress-vet",
+      "fullWidth": true
+    },
+    "children": [
+      "slider-layout#slider-produtos-mobile-linhaBoxSet-vet"
+    ]
+  },
+  "slider-layout#slider-produtos-mobile-linhaBoxSet-vet": {
+    "title": "slider-produtos-mobile",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 2
+
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "slider-produtos-mobileVet"
+    },
+    "children": [
+      "flex-layout.col#coluna1Produto-linhaTwo-vet",
+      "flex-layout.col#coluna2Produto-linhaTwo-vet",
+      "flex-layout.col#coluna3Produto-linhaTwo-vet",
+      "flex-layout.col#coluna1Produto-linhaTwo-vet",
+      "flex-layout.col#coluna2Produto-linhaTwo-vet",
+      "flex-layout.col#coluna3Produto-linhaTwo-vet"
+    ]
+  }
+}

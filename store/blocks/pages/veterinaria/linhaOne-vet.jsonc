@@ -98,15 +98,28 @@
       "colSizing": "auto"
     },
     "children": [
-      "image#rectangulo",
-      "image#rectangulo",
-      "image#rectangulo"
+      "image#lixeira-linhaOne-vet",
+      "image#gavetas-linhaOne-vet",
+      "image#lateral-linhaOne-vet"
+
     ]
   },
-  "image#rectangulo":{
+  "image#lixeira-linhaOne-vet":{
     "props": {
       "blockClass": "img-rectangulo-vet",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/075b9bb3-8daa-4302-a216-8ef516bd888f___815366dc04805ee2f55fe2fb5d9ee0c5.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b621d220-35d6-4f91-93e3-427cb0fa1687___c202f0092a6a5f85db63ce86ceffbc60.webp"
+    }
+  },
+  "image#gavetas-linhaOne-vet":{
+    "props": {
+      "blockClass": "img-rectangulo-vet",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/60ca5621-48f3-42ce-87ff-724dbd9ef185___395d69e45096c2de9fae790a114557ce.webp"
+    }
+  },
+  "image#lateral-linhaOne-vet":{
+    "props": {
+      "blockClass": "img-rectangulo-vet",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ee4b5f07-8851-46b7-b0cd-b20f9d835517___b62ca65207fa186131aea82af7fc3087.webp"
     }
   },
   "flex-layout.row#links-produto-linhaOne-vet": {

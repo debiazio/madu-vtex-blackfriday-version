@@ -7,7 +7,12 @@
        "flex-layout.row#maiorOrganizacao-vet",
        "flex-layout.row#banner-amarelo-vet",
        "responsive-layout.desktop#linhaExpress-vet",
-       "responsive-layout.mobile#linhaExpress-vet"
+       "responsive-layout.mobile#linhaExpress-vet",
+       "responsive-layout.desktop#linhaTwo-vet",
+       "responsive-layout.mobile#linhaTwo-vet",
+       "flex-layout.row#organizador-vet",
+       "responsive-layout.desktop#linhaBoxSet-vet",
+       "responsive-layout.mobile#linhaBoxSet-vet"
 
     ]
   }

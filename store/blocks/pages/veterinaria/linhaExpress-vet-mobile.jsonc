@@ -1,12 +1,10 @@
 {
-  "responsive-layout.mobile#linhaExpress-vet":{
+  "responsive-layout.mobile#linhaExpress-vet": {
     "children": [
-
       "flex-layout.row#mobile-linhaExpres-vet"
-
     ]
   },
-  "flex-layout.row#mobile-linhaExpres-vet":{
+  "flex-layout.row#mobile-linhaExpres-vet": {
     "title": "Linha mobile linhaExpress-vet",
     "props": {
       "blockClass": "linha-mobile-linhaExpres-vet"
@@ -19,11 +17,35 @@
       "flex-layout.row#slider-produtos-linhaExpress-vet"
     ]
   },
-  "flex-layout.row#slider-produtos-linhaExpress-vet":{
+  "flex-layout.row#slider-produtos-linhaExpress-vet": {
     "title": "linha-slider-produtos-linhaExpress-vet",
     "props": {
-      "blockClass": "linha-slider-produtos-linhaExpress-vet"
-    }
-  }
+      "blockClass": "linha-slider-produtos-linhaExpress-vet",
+      "fullWidth": true
+    },
+    "children": [
+      "slider-layout#slider-produtos-mobile-linhaExpress-vet"
+    ]
+  },
+  "slider-layout#slider-produtos-mobile-linhaExpress-vet": {
+    "title": "slider-produtos-mobile",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 2
 
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "slider-produtos-mobileVet"
+    },
+    "children": [
+      "flex-layout.col#carrinhoTampo-linhaExpress-vet",
+      "flex-layout.col#prateleiras-linhaExpress-vet",
+      "flex-layout.col#carrinhoTampo-linhaExpress-vet",
+      "flex-layout.col#prateleiras-linhaExpress-vet"
+    ]
+  }
 }

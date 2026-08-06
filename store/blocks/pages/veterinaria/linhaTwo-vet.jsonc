@@ -1,0 +1,352 @@
+{
+  "responsive-layout.desktop#linhaTwo-vet":{
+    "children": [
+      "flex-layout.row#desktop-linhaTwo-vet"
+    ]
+  },
+  "flex-layout.row#desktop-linhaTwo-vet": {
+    "title": "linhaTwo-vet",
+    "props": {
+      "blockClass": "linhaTwo-vet",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#textos-linhaTwo-vet",
+      "responsive-layout.desktop#produtos-linhaTwo-vet",
+      "responsive-layout.mobile#produtos-linhaTwo-vet"
+    ]
+  },
+  "responsive-layout.mobile#linhaTwo-vet":{
+    "children": [
+      "flex-layout.row#linhaTwo-vet"
+    ]
+  },
+  "flex-layout.row#linhaTwo-vet": {
+    "title": "linhaTwo-vet",
+    "props": {
+      "blockClass": "linhaTwo-vet",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textos-linhaTwo-vet",
+      "responsive-layout.desktop#produtos-linhaTwo-vet",
+      "responsive-layout.mobile#produtos-linhaTwo-vet"
+
+    ]
+  },
+  "flex-layout.row#textos-linhaTwo-vet": {
+    "title": "Linha textos linha Two",
+    "props": {
+      "blockClass": "linha-textos-linhaTwo-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-linhaTwo-vet",
+      "rich-text#titulo-linhaTwo-vet",
+      "rich-text#subtitulo-linhaTwo-vet"
+    ]
+  },
+  "flex-layout.row#linha-linhaTwo-vet": {
+    "title": "Texto linha two",
+    "props": {
+      "blockClass": "linha-titulo-linhaExpress-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#linha",
+      "image#tag-two-vet"
+    ]
+  },
+  "image#tag-two-vet": {
+    "title": "Tag two",
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fc0d247c-20dc-4eb5-8c53-cf6a3e66f1d1___a7b94887a8b6ec8367c2e8a7d39cab6b.svg",
+      "blockClass": "image-tag-vet"
+    }
+  },
+  "rich-text#titulo-linhaTwo-vet": {
+    "title": "titulo linha TWO",
+    "props": {
+      "text": "### Carrinhos para diferentes rotinas veterinárias",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-linhaTwo-vet"
+    }
+  },
+  "rich-text#subtitulo-linhaTwo-vet": {
+    "title": "subtitulo-linhatwo-vet",
+    "props": {
+      "text": "A Linha TWO reúne carrinhos modulares com diferentes configurações de gavetas, nichos, bins e acessórios para organizar medicamentos, insumos e materiais próximos ao ponto de uso.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "subtitulo-linhatwo-vet"
+    }
+  },
+  // ====================
+  //  produtos
+  // ====================
+  "responsive-layout.desktop#produtos-linhaTwo-vet":{
+    "children": [
+      "flex-layout.row#produtos-linhaTwo-vet"
+    ]
+  },
+  "flex-layout.row#produtos-linhaTwo-vet": {
+    "title": "Linha produtos-linhaTwo-vet",
+    "props": {
+      "blockClass": "linha-produtos-linhaTwo-vet"
+    },
+    "children": [
+      "flex-layout.col#coluna1Produto-linhaTwo-vet",
+      "flex-layout.col#coluna2Produto-linhaTwo-vet",
+      "flex-layout.col#coluna3Produto-linhaTwo-vet"
+    ]
+  },
+  // =====================
+  // produto 1
+  "flex-layout.col#coluna1Produto-linhaTwo-vet": {
+    "title": "Coluna 1 produtos linha Two",
+    "props": {
+      "blockClass": "colunaProdutos-linhaTwo-Vet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#carrinhoVet3gav-linhaTwo-vet",
+      "rich-text#titulo-produto-linhaTwo-vet",
+      "rich-text#subtitulo-produto-linhaTwo-vet",
+      "flex-layout.row#links-produto-linhaTwo-vet"
+    ]
+  },
+  "image#carrinhoVet3gav-linhaTwo-vet": {
+    "title": "imagem carrinho veterinário 3 gavetas",
+    "props": {
+      "blockClass": "imagem-produto-linhaTwo-vet",
+      "alt": "Carrinho veterinario",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7d186078-0b46-4ce3-807f-b0190abfdfb9___af706cfadf0484f412c4c7b6f56c19f8.webp"
+    }
+  },
+  "rich-text#titulo-produto-linhaTwo-vet":{
+    "title": "Linha titulo produto linha two",
+    "props": {
+      "blockClass": "titulo-produto-linhaTwo-vet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Carrinho Veterinário com 3 Gavetas, Nicho e Suportes para Cilindros"
+    }
+  },
+  "rich-text#subtitulo-produto-linhaTwo-vet":{
+    "title": "subtitulo-produto-linhaTwo-vet",
+    "props": {
+      "blockClass": "subtitulo-produto-linhaTwo-vet",
+      "text": " Três formas de organização e apoio para dois cilindros em uma estrutura móvel.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#links-produto-linhaTwo-vet":{
+    "title": "linha links-produto-linhaTwo-vet",
+    "props": {
+      "blockClass": "links-produto-linhaTwo-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link#vertudo-linhaTwo-vet",
+      "link#falarVendedor-linhaTwo-vet"
+    ]
+  },
+  "link#vertudo-linhaTwo-vet":{
+    "title": "link ver tudo produto 1",
+    "props": {
+      "blockClass": "link-vertudo",
+      "href": "https://www.pensemadu.com.br/carrinho-emergencia-hospitalar-3-gavetas-nicho-madu-two/p",
+      "label": "ver produto"
+    }
+  },
+  "link#falarVendedor-linhaTwo-vet":{
+    "title": "link falar com vendedor produto 1",
+    "props": {
+      "blockClass": "link-falarVendedor",
+      "href": "#",
+      "label": "falar com consultor"
+    }
+  },
+  // ==================
+  // produto 2
+  "flex-layout.col#coluna2Produto-linhaTwo-vet": {
+    "title": "Coluna 1 produtos linha Two",
+    "props": {
+      "blockClass": "colunaProdutos-linhaTwo-Vet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#produto2-linhaTwo-vet",
+      "rich-text#titulo-produto2-linhaTwo-vet",
+      "rich-text#subtitulo-produto2-linhaTwo-vet",
+      "flex-layout.row#links-produto2-linhaTwo-vet"
+    ]
+  },
+  "image#produto2-linhaTwo-vet": {
+    "title": "imagem produto 2",
+    "props": {
+      "blockClass": "imagem-produto-linhaTwo-vet",
+      "alt": "Carrinho veterinario",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/326cf654-98bc-432b-ba1f-85284f18f85f___7cff5b0994f66dc6539964d8f3e90184.webp"
+    }
+  },
+  "rich-text#titulo-produto2-linhaTwo-vet":{
+    "title": "Linha titulo produto 2 linha two",
+    "props": {
+      "blockClass": "titulo-produto-linhaTwo-vet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Carrinho de Emergência Veterinária com 6 Gavetas"
+    }
+  },
+  "rich-text#subtitulo-produto2-linhaTwo-vet":{
+    "title": "subtitulo-produto-linhaTwo-vet",
+    "props": {
+      "blockClass": "subtitulo-produto-linhaTwo-vet",
+      "text": "Maior capacidade para organizar medicamentos, prontuários e materiais utilizados em emergências, procedimentos e internações.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#links-produto2-linhaTwo-vet":{
+    "title": "linha links-produto-linhaTwo-vet",
+    "props": {
+      "blockClass": "links-produto-linhaTwo-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#vertudo2-linhaTwo-vet",
+      "link#falarVendedor2-linhaTwo-vet"
+    ]
+  },
+  "link#vertudo2-linhaTwo-vet":{
+    "title": "link ver tudo produto 2",
+    "props": {
+      "blockClass": "link-vertudo",
+      "href": "https://www.pensemadu.com.br/carrinho-veterinario-6-gavetas-caixas-laterais-madu-two/p",
+      "label": "ver produto"
+    }
+  },
+  "link#falarVendedor2-linhaTwo-vet":{
+    "title": "link falar com vendedor produto 2",
+    "props": {
+      "blockClass": "link-falarVendedor",
+      "href": "#",
+      "label": "falar com consultor"
+    }
+  },
+    // ==================
+  // produto 3
+  "flex-layout.col#coluna3Produto-linhaTwo-vet":{
+    "title": "Coluna 3 produtos linha Two",
+    "props": {
+      "blockClass": "colunaProdutos-linhaTwo-Vet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#produto3-linhaTwo-vet",
+      "rich-text#titulo-produto3-linhaTwo-vet",
+      "rich-text#subtitulo-produto3-linhaTwo-vet",
+      "flex-layout.row#links-produto3-linhaTwo-vet"
+    ]
+  },
+  "image#produto3-linhaTwo-vet": {
+    "title": "imagem produto 2",
+    "props": {
+      "blockClass": "imagem-produto-linhaTwo-vet",
+      "alt": "Carrinho veterinario",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b49bfd6e-de6d-41e7-95a0-5d9458701294___19866deb2fd8a2da1b6163f47e3b2761.webp"
+    }
+  },
+  "rich-text#titulo-produto3-linhaTwo-vet":{
+    "title": "Linha titulo produto 2 linha two",
+    "props": {
+      "blockClass": "titulo-produto-linhaTwo-vet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Carrinho Auxiliar Veterinário com Bins e Big Bin"
+    }
+  },
+  "rich-text#subtitulo-produto3-linhaTwo-vet":{
+    "title": "subtitulo-produto-linhaTwo-vet",
+    "props": {
+      "blockClass": "subtitulo-produto-linhaTwo-vet",
+      "text": "Compartimentos de diferentes tamanhos para manter pequenos insumos e materiais de maior volume organizados e acessíveis.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#links-produto3-linhaTwo-vet":{
+    "title": "linha links-produto-linhaTwo-vet",
+    "props": {
+      "blockClass": "links-produto-linhaTwo-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link#vertudo3-linhaTwo-vet",
+      "link#falarVendedor3-linhaTwo-vet"
+    ]
+  },
+  "link#vertudo3-linhaTwo-vet":{
+    "title": "link ver tudo produto 3",
+    "props": {
+      "blockClass": "link-vertudo",
+      "href": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two/p",
+      "label": "ver produto"
+    }
+  },
+  "link#falarVendedor3-linhaTwo-vet":{
+    "title": "link falar com vendedor produto 3",
+    "props": {
+      "blockClass": "link-falarVendedor",
+      "href": "#",
+      "label": "falar com consultor"
+    }
+  },
+  //  ==================
+  //  produtos mobiel
+  "responsive-layout.mobile#produtos-linhaTwo-vet":{
+    "children": [
+      "flex-layout.row#slider-produtos-linhaTwo-vet"
+    ]
+  },
+  "flex-layout.row#slider-produtos-linhaTwo-vet": {
+    "title": "linha-slider-produtos-linhaTwo-vet",
+    "props": {
+      "blockClass": "linha-slider-produtos-linhaExpress-vet",
+      "fullWidth": true
+    },
+    "children": [
+      "slider-layout#slider-produtos-mobile-linhaTwo-vet"
+    ]
+  },
+  "slider-layout#slider-produtos-mobile-linhaTwo-vet": {
+    "title": "slider-produtos-mobile",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 2
+
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "slider-produtos-mobileVet"
+    },
+    "children": [
+      "flex-layout.col#coluna1Produto-linhaTwo-vet",
+      "flex-layout.col#coluna2Produto-linhaTwo-vet",
+      "flex-layout.col#coluna3Produto-linhaTwo-vet",
+      "flex-layout.col#coluna1Produto-linhaTwo-vet",
+      "flex-layout.col#coluna2Produto-linhaTwo-vet",
+      "flex-layout.col#coluna3Produto-linhaTwo-vet"
+    ]
+  }
+}

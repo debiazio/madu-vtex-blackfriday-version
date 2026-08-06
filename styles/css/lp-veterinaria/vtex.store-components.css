@@ -1,13 +1,13 @@
-.imageElement--subcoluna-imagemProduto{
+.imageElement--subcoluna-imagemProduto {
   margin-top: 6px;
 }
 
 
-.imageElement--imagem-banner-inicial-maduset{
+.imageElement--imagem-banner-inicial-maduset {
   border-radius: 0 0 50% 50%;
 }
 
-.imageElement--img-linhaOne-vet{
+.imageElement--img-linhaOne-vet {
   padding-top: 42px;
   padding-bottom: 21px;
 }
@@ -18,12 +18,16 @@
   padding: 24px 0;
 }
 
-.imageElement--icon-estanteVet{
+.imageElement--icon-estanteVet {
   min-width: 40px;
 }
 
 @media screen and (max-width: 1024px) {
-  .imageElement--madupet-img{
+  .imageElement--subcoluna-imagemProduto {
+    margin-top: 18px;
+  }
+
+  .imageElement--madupet-img {
     max-width: 65vw;
   }
 }

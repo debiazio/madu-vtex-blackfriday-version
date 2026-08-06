@@ -1,5 +1,64 @@
+.flexRowContent--linha-produtos-linhaTwo-vet {
+  gap: 22px;
+}
+
+.flexRow--linha-textos-linhaTwo-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--links-produto-linhaTwo-vet {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.flexCol--colunaProdutos-linhaTwo-Vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  padding: 6px;
+  max-width: 229px;
+  gap: 8px;
+}
+
+.flexRowContent--linha-textos-linhaTwo-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 60%;
+}
+
+.flexRow--linhaTwo-vet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3F3F3;
+}
+
+
+
+.flexRowContent--linhaTwo-vet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  gap: 26px;
+  padding: 82px 0 67px 0;
+}
+
 .flexRowContent--linha-mobile-linhaExpres-vet {
-  padding: 61px 21px;
+  padding: 61px 0;
 }
 
 .flexRowContent--links-produto-subcoluna-linhaExpress-vet {
@@ -221,6 +280,15 @@
   align-items: center;
 }
 
+.flexRowContent--linha-organizador {
+  /* background */
+  background-image: url('https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7194c8a5-ea1d-44be-81bd-24f549838df6___2b7a62339719a03ef9fd5992736d3b6b.webp');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left calc(100% - 40px);
+
+}
+
 .flexRowContent--linhaTextos-primeiraLinha-vet {
   display: flex;
   flex-direction: column;
@@ -256,12 +324,53 @@
   max-width: 1200px;
 }
 
+.flexRowContent--linha-titulo-linhaExpress-vet {
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 3px;
+}
+
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linha-organizador {
+    /* background */
+    background-image: url('https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7194c8a5-ea1d-44be-81bd-24f549838df6___2b7a62339719a03ef9fd5992736d3b6b.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: calc(50% - 50px) calc(25% - 80px);
+
+  }
+
+  .flexColChild--col-img-OneVet {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexRowContent--linha-slider-produtos-linhaExpress-vet {
+    padding-left: 21px;
+  }
+
+  .flexRow--linha-textos-linhaTwo-vet {
+    padding: 0 21px;
+  }
+
+  .flexRowContent--linha-textos-linhaTwo-vet {
+    max-width: 80%;
+  }
+
+  .flexRowContent--linha-textos-linhaExpress-vet,
+  .flexRowContent--linha-imagem-bancada-linhaExpress-vet,
+  .flexRow--textosColuna2-linhaExpres-vet {
+    padding: 0 21px;
+  }
+
   .flexRowContent--linha-links-linhaExpress-vet {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 32px 0;
+    padding: 32px 21px;
+    white-space: nowrap;
   }
 
   .flexRowContent--linha-titulo-linhaExpress-vet {

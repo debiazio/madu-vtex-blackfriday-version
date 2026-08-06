@@ -1,6 +1,9 @@
+.sliderTrack--slider-produtos-mobileVet {
+  width: 600% !important;
+  gap: 6px;
+}
 
-
-.sliderTrackContainer--slider-madubox{
+.sliderTrackContainer--slider-madubox {
   max-width: 1200px;
   border-radius: 20px;
 }

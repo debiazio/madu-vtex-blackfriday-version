@@ -1,0 +1,151 @@
+{
+  "flex-layout.row#organizador-vet": {
+    "props": {
+      "blockClass": ["linhas-vet", "linha-organizador"],
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#titulo-organizador-vet",
+      "flex-layout.col#img-organizador-vet",
+      "flex-layout.col#produto-organizador-vet"
+    ]
+  },
+  // coluna titulo one
+  "flex-layout.col#titulo-organizador-vet": {
+    "props": {
+      "blockClass": "coluna-linhaOne-Vet"
+    },
+    "children": [
+      "rich-text#titulo-organizador-vet"
+    ]
+  },
+  "rich-text#titulo-organizador-vet": {
+    "props": {
+      "blockClass": "titulo-linhaOne-vet",
+      "text": "## **Mais formas** \n ##  **de organizar. Mais** \n ##  **praticidade na** \n ##  **rotina.**"
+    }
+  },
+  // img
+  "flex-layout.col#img-organizador-vet": {
+    "props": {
+      "blockClass": "col-img-OneVet"
+    },
+    "children": [
+      "image#img-organizador-Vet"
+    ]
+  },
+  "image#img-organizador-Vet": {
+    "props": {
+      "blockClass": "img-linhaOne-vet",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/383ad47c-f853-45d6-979c-820ead10cdf0___1dbe08d6e2fe517b84e64b5b78df5b0a.webp",
+      "alt": "organizador"
+    }
+  },
+  // produto
+  "flex-layout.col#produto-organizador-vet": {
+    "props": {
+      "blockClass": "produto-linhaOne-Vet",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#linha-titulo-produtoOrganizador-vet",
+      "rich-text#titulo-produtoOrganizador-vet",
+      "rich-text#subtitulo-produtoOrganizador-vet",
+      "flex-layout.row#imagens-produtos-Organizador-vet",
+      "flex-layout.row#links-produto-organizador-vet"
+    ]
+  },
+  "flex-layout.row#linha-titulo-produtoOrganizador-vet": {
+    "props":{
+      "blockClass": "linha-titulo-produtoLinhaOne-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children":[
+      "rich-text#linha",
+      "image#tag-one-vet"
+    ]
+  },
+    "image#tag-one-vet": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbdf2eb-1758-4f7a-9759-9181c687f8e0___213cf17ba35421a3655f03a4ce40ded1.svg",
+      "blockClass": "image-tag-vet"
+    }
+  },
+  "rich-text#linha":{
+    "props": {
+      "text": "Linha",
+      "blockClass": "linha"
+    },
+    "title": "Linha"
+  },
+  "rich-text#titulo-produtoOrganizador-vet": {
+    "props": {
+      "blockClass": "titulo-produtoLinhaOne-vet",
+      "text": "Carrinho Organizador \n Veterinário com 3 Gavetas e 18 Bins"
+    }
+  },
+  "rich-text#subtitulo-produtoOrganizador-vet": {
+        "props": {
+      "blockClass": "subtitulo-produtoLinhaOne-vet",
+      "text": "Diferentes formas de organizar, acessar e movimentar materiais em uma única estrutura, pensada para acompanhar a rotina veterinária."
+    }
+  },
+  "flex-layout.row#imagens-produtos-Organizador-vet": {
+    "props": {
+      "blockClass": "imagens-produtos-LinhaOne-vet",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#organizador-frente-vet",
+      "image#organizador-ambientada-vet",
+      "image#organizador-frente2-vet"
+    ]
+  },
+  "image#organizador-frente-vet":{
+    "props": {
+      "blockClass": "img-rectangulo-vet",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b7d87fa5-c362-4a96-91d7-29b6a4e5739a___ee79a6e665af72f1a70a68eb6696d669.webp"
+    }
+  },
+  "image#organizador-ambientada-vet":{
+    "props": {
+      "blockClass": "img-rectangulo-vet",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8e866607-9ac2-4523-8aba-b8d173a35687___00670cc2ac8b7a8569764208dca16ff8.webp"
+    }
+  },
+  "image#organizador-frente2-vet":{
+    "props": {
+      "blockClass": "img-rectangulo-vet",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/33826d1d-ff55-48d3-bc51-893ac5cda941___8909135762327af69c4b0ed70b114c23.webp"
+    }
+  },
+  "flex-layout.row#links-produto-organizador-vet": {
+    "props": {
+      "blockClass": "links-produto-linhaOne-vet",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "link#verproduto-organizador-vet",
+      "link#falarVendedor-organizador-vet"
+    ],
+    "title": "Links produto linha one"
+  },
+  "link#verproduto-organizador-vet":{
+    "props": {
+      "blockClass": "link-verProduto",
+      "href": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two-1/p",
+      "label": "ver produto"
+    },
+    "title": "Link ver produto"
+  },
+  "link#falarVendedor-organizador-vet":{
+     "props": {
+      "blockClass": "link-falarConsultor-vet",
+      "href": "#",
+      "label": "falar com consultor"
+    },
+    "title": "Link falar com consultor"
+  }
+}
