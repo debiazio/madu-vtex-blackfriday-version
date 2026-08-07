@@ -1,6 +1,7 @@
 {
   "responsive-layout.mobile#linhaExpress-vet": {
     "children": [
+
       "flex-layout.row#mobile-linhaExpres-vet"
     ]
   },
@@ -11,6 +12,7 @@
       "htmlId": "linhaExpress"
     },
     "children": [
+
       "flex-layout.row#textosColuna2-linhaExpres-vet",
       "flex-layout.row#imagem-bancada-linhaExpress-vet",
       "flex-layout.row#textos-linhaExpress-vet",
@@ -25,7 +27,8 @@
       "fullWidth": true
     },
     "children": [
-      "slider-layout#slider-produtos-mobile-linhaExpress-vet"
+      "slidercustommobile"
+      // "slider-layout#slider-produtos-mobile-linhaExpress-vet"
     ]
   },
   "slider-layout#slider-produtos-mobile-linhaExpress-vet": {

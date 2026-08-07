@@ -77,7 +77,8 @@
     "madumfm2.appformmadu": "0.x",
     "madumfm2.form-lp-feirahospitalar": "0.x",
     "madumfm2.btdownload": "0.x",
-    "madumfm2.controllervisualization": "0.x"
+    "madumfm2.controllervisualization": "0.x",
+    "madumfm2.slidercustommobile": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x"
