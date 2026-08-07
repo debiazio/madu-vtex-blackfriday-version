@@ -322,7 +322,8 @@
       "fullWidth": true
     },
     "children": [
-      "slider-layout#slider-produtos-mobile-linhaTwo-vet"
+      "slidercustom-mobile-linha-two"
+      // "slider-layout#slider-produtos-mobile-linhaTwo-vet"
     ]
   },
   "slider-layout#slider-produtos-mobile-linhaTwo-vet": {

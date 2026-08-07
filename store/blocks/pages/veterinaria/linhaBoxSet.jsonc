@@ -404,30 +404,7 @@
       "fullWidth": true
     },
     "children": [
-      "slider-layout#slider-produtos-mobile-linhaBoxSet-vet"
-    ]
-  },
-  "slider-layout#slider-produtos-mobile-linhaBoxSet-vet": {
-    "title": "slider-produtos-mobile",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 0,
-        "tablet": 0,
-        "phone": 2
-
-      },
-      "infinite": true,
-      "showNavigationArrows": "never",
-      "showPaginationDots": "never",
-      "blockClass": "slider-produtos-mobileVet"
-    },
-    "children": [
-      "flex-layout.col#coluna1Produto-linhaTwo-vet",
-      "flex-layout.col#coluna2Produto-linhaTwo-vet",
-      "flex-layout.col#coluna3Produto-linhaTwo-vet",
-      "flex-layout.col#coluna1Produto-linhaTwo-vet",
-      "flex-layout.col#coluna2Produto-linhaTwo-vet",
-      "flex-layout.col#coluna3Produto-linhaTwo-vet"
+       "slidercustom-mobile-linha-boxset"
     ]
   }
 }

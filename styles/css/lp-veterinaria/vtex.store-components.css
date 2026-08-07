@@ -1,3 +1,7 @@
+.imageElement--imagem-banner-inicial-vet{
+  width: 35vw;
+}
+
 .imageElement--doguinho-bannerLaranja-vet,
 .imageElement--doguinho-bannerVerde-vet{
   height: auto;
@@ -12,10 +16,6 @@
   margin-top: 6px;
 }
 
-
-.imageElement--imagem-banner-inicial-maduset {
-  border-radius: 0 0 50% 50%;
-}
 
 .imageElement--img-linhaOne-vet {
   padding-top: 42px;
@@ -33,6 +33,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .imageElement--imagem-banner-inicial-vet{
+    max-width: 100%;
+    width: 100%!important;
+  }
   .imageElement--doguinho-bannerLaranja-vet{
     position: relative;
     top: 30px;

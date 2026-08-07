@@ -65,9 +65,9 @@
   },
   "image#imagem-vet": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f5c5d99f-a9b0-4ac8-8039-baf5f90d810c___4fd37465f5ae79c3cb9949c8866291b2.webp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8ea3b034-68e2-4b6b-829b-73b2ff7ea6eb___ac64570df5f5e35cee0b63065d73c963.webp",
       "alt": "imagem madu veterinaria",
-      "blockClass": "imagem-banner-inicial-maduset"
+      "blockClass": "imagem-banner-inicial-vet"
     },
     "title": "Imagem banner inicial"
   }

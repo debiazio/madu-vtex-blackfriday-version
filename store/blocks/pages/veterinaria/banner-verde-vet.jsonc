@@ -65,8 +65,9 @@
     "title": "Link ver produto banner verde",
     "props": {
       "blockClass": "verProduto-bannerVerde-vet",
-      "href": "#",
-      "label": "ver produtos"
+      "href": "https://www.pensemadu.com.br/mobiliario-veterinario",
+      "label": "ver produtos",
+      "target": "_blank"
     }
   },
   "link#falarVendedor-vet":{

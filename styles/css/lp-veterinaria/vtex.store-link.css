@@ -12,7 +12,7 @@
 .label--falarVendedor-bannerLaranja-vet {
   background-color: #FFFFFF;
   border-radius: 100px;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
 }
 .link--falarVendedor-vet {
   font-family: "Poppins Black", sans-serif !important;
@@ -23,13 +23,13 @@
   text-transform: uppercase;
   color: #FFFFFF;
   text-decoration: none;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .label--falarVendedor-vet {
   background-color: #FFA207;
   border-radius: 100px;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .link--verProduto-bannerVerde-vet {
@@ -50,7 +50,7 @@
   color: #00A277;
   background-color: #FFFFFF;
   border-radius: 100px;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .link--link-falarVendedor:hover {
@@ -70,7 +70,7 @@
   text-transform: uppercase;
   background-color: #FFFFFF;
   border-radius: 100px;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
   border: 1px solid #727272;
 }
 
@@ -94,7 +94,7 @@
   text-transform: uppercase;
   background-color: #4CAB86;
   border-radius: 100px;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .link--bannerAmarelo-connhecaSolucoes-vet:hover {
@@ -151,7 +151,7 @@
 .label--link-falarConsultor-vet {
   background-color: #FFFFFF;
   border-radius: 100px;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
   border: 1px solid #727272;
 }
 
@@ -165,7 +165,7 @@
 .label--link-verProduto {
   background-color: #4CAB86;
   border-radius: 100px;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
   display: block;
 }
 
@@ -188,31 +188,19 @@
 }
 
 .label--link-solicitarCotacao-vet:hover {
-  width: 208;
-  height: 47;
   opacity: 1;
-  top: 98px;
-  left: 20px;
-  border-radius: 100px;
-  padding-top: 5px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-  gap: 10px;
   background-color: #ffffffc3;
 }
 
 .label--link-solicitarCotacao-vet {
   background-color: #FFFFFF;
-  width: 252;
-  height: 47;
   opacity: 1;
   top: 519px;
   left: 83px;
   border-radius: 100px;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-right: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   padding-left: 20px;
   gap: 10px;
   white-space: nowrap;
@@ -231,9 +219,9 @@
     top: 371px;
     left: 91px;
     border-radius: 100px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-left: 20px;
     gap: 10px;
   }

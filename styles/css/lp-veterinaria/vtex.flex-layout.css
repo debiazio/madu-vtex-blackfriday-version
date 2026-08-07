@@ -1,6 +1,6 @@
 .flexRowContent--links-produto-subcoluna-linhaExpress-vet .stretchChildrenWidth,
-.flexRowContent--links-produto-linhaTwo-vet .stretchChildrenWidth{
-  width: 100%!important;
+.flexRowContent--links-produto-linhaTwo-vet .stretchChildrenWidth {
+  width: 100% !important;
 }
 
 .flexRow--linhaExpress-vet,
@@ -37,6 +37,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #FFA207;
+  margin-top: 90px;
 }
 
 .flexRow--linha-bannerVerde-vet {
@@ -59,6 +60,7 @@
   position: relative;
   padding: 51px 0 46px 0;
 }
+
 .flexRowContent--linha-bannerVerde-vet {
   display: flex;
   flex-direction: row;
@@ -94,7 +96,7 @@
   justify-content: space-between;
   background-color: #FFFFFF;
   border-radius: 24px;
-  padding: 6px;
+  padding: 6px 6px 16px 6px;
   max-width: 229px;
   gap: 8px;
 }
@@ -268,9 +270,6 @@
   gap: 8px
 }
 
-.flexRowContent--linhaImagem-primeiraLinha-vet {
-  background-color: #FFA207;
-}
 
 .flexCol--coluna-direita-conteudo-estanteVet {
   display: flex;
@@ -405,6 +404,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRow--linha-bannerLaranja-vet {
+    margin-top: unset;
+  }
+
   .flexRow--linha-bannerLaranja-vet,
   .flexRow--linha-bannerVerde-vet {
     background-repeat: no-repeat;
@@ -499,7 +502,7 @@
   .flexRowContent--links-estanteVet {
     display: flex;
     flex-direction: row;
-    padding: 30px 0 0 45px;
+    padding: 30px 0 0 0;
   }
 
   .flexRowContent--conteudo-estanteVet {
@@ -523,7 +526,8 @@
   }
 
   .flexRowContent--links-produto-linhaOne-vet {
-    justify-content: flex-start;
+    padding-top: unset;
+    justify-content: center;
     gap: 10px;
   }
 
