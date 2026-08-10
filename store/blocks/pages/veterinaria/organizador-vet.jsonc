@@ -48,7 +48,7 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "flex-layout.row#linha-titulo-produtoOrganizador-vet",
+      // "flex-layout.row#linha-titulo-produtoOrganizador-vet",
       "rich-text#titulo-produtoOrganizador-vet",
       "rich-text#subtitulo-produtoOrganizador-vet",
       "flex-layout.row#imagens-produtos-Organizador-vet",

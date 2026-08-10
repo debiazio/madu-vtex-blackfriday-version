@@ -1,3 +1,8 @@
+.flexRowContent--linhaProdutos-vet .stretchChildrenWidth{
+  display: flex;
+  flex-direction: column;
+}
+
 .flexRowContent--links-produto-subcoluna-linhaExpress-vet .stretchChildrenWidth,
 .flexRowContent--links-produto-linhaTwo-vet .stretchChildrenWidth {
   width: 100% !important;
@@ -404,6 +409,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linhaProdutos-vet{
+    padding-left: unset!important;
+  }
   .flexRow--linha-bannerLaranja-vet {
     margin-top: unset;
   }

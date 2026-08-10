@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#produtos-linhaVet-vet":{
+  "flex-layout.row#produtos-linhaVet-vet": {
     "title": "Linha Produtos linha vet",
     "props": {
       "blockClass": "linha-produtos-linhaVet-vet"
@@ -12,15 +12,26 @@
     "props": {
       "blockClass": [
         "linha-novaHome",
+        "linhaProdutos-vet",
         "linha-maisVendidos-novaHome"
       ],
-      "colSizing": "auto",
-      "preventHorizontalStretch": true
+      "colSizing": "auto"
     },
     "title": "Mais vendidos Linha One",
     "children": [
+      "responsive-layout.mobile#linhaVet-produtos",
+      "responsive-layout.desktop#linhaVet-produtos"
+    ]
+  },
+  "responsive-layout.desktop#linhaVet-produtos": {
+    "children": [
       "rich-text#titulo-produtos-linhaVet-novaHome",
       "flex-layout.row#prateleira-produtos-linhaVet-novaHome"
+    ]
+  },
+  "responsive-layout.mobile#linhaVet-produtos": {
+    "children": [
+      "slidercustom-mobile-linha-produtos-vet"
     ]
   },
   "rich-text#titulo-produtos-linhaVet-novaHome": {
@@ -48,7 +59,7 @@
       // "category": "6/54",
       "collection": "167",
       "blockClass": "prateleira-novaHome",
-       "orderBy": "OrderByTopSaleDESC",
+      "orderBy": "OrderByTopSaleDESC",
       "maxItems": 20
     }
   },
