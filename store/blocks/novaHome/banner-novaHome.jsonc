@@ -46,7 +46,11 @@
       "arrowSize": 50,
       "infinite": true,
       "showNavigationArrows": "always",
-      "showPaginationDots": "never"
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     }
   }
 }
