@@ -1,5 +1,5 @@
 {
-  "responsive-layout.desktop#linhaExpress-vet":{
+  "responsive-layout.desktop#linhaExpress-vet": {
     "children": [
       "flex-layout.row#linhaExpress-vet"
     ]
@@ -42,7 +42,11 @@
       "blockClass": "cachorrinho-linhaExpress-vet",
       "alt": "Bancada profissional",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/33da0134-7fe2-4b33-9181-057d33a1084d___d5cf27c4a2b51644205b00472d71356a.webp",
-      "title": "Bancada Profissional em Inox | MAD.U Express"
+      "title": "Bancada Profissional em Inox | MAD.U Express",
+      "link": {
+        "url": "https://www.pensemadu.com.br/bancada-profissional-em-inox-24-bins-3-big-bins-madu-express/p",
+        "newTab": true
+      }
     },
     "title": "Imagem Bancada Profissional"
   },
@@ -191,7 +195,11 @@
     "props": {
       "blockClass": "subcoluna-imagemProduto",
       "alt": "Carrinho BigBin Express",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fe8cbac6-ba00-4d4c-84ce-14c608684199___9c18cacba82a562f19535b4c8ab5c4b9.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fe8cbac6-ba00-4d4c-84ce-14c608684199___9c18cacba82a562f19535b4c8ab5c4b9.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-auxiliar-inox-big-bin-madu-express/p",
+        "newTab": true
+      }
     }
   },
   "rich-text#titulo-subcoluna-carrinho-linhaExpress-vet": {
@@ -249,7 +257,11 @@
     "props": {
       "blockClass": "subcoluna-imagemProduto",
       "alt": "Prateleiras baixas Express",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7fce3773-7d90-4ce0-b926-ccb5f6f6688b___8d54f0a4c656ca33841e3b73b13332d8.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7fce3773-7d90-4ce0-b926-ccb5f6f6688b___8d54f0a4c656ca33841e3b73b13332d8.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/estante-organizadora-inox-18-prateleiras-madu-express/p",
+        "newTab": true
+      }
     }
   },
   "rich-text#titulo-subcoluna-prateleiras-linhaExpress-vet": {

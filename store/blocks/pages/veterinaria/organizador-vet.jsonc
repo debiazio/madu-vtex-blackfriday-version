@@ -1,7 +1,10 @@
 {
   "flex-layout.row#organizador-vet": {
     "props": {
-      "blockClass": ["linhas-vet", "linha-organizador"],
+      "blockClass": [
+        "linhas-vet",
+        "linha-organizador"
+      ],
       "fullWidth": true
     },
     "children": [
@@ -38,7 +41,11 @@
     "props": {
       "blockClass": "img-linhaOne-vet",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/383ad47c-f853-45d6-979c-820ead10cdf0___1dbe08d6e2fe517b84e64b5b78df5b0a.webp",
-      "alt": "organizador"
+      "alt": "organizador",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two-1/p",
+        "newTab": true
+      }
     }
   },
   // produto
@@ -56,23 +63,23 @@
     ]
   },
   "flex-layout.row#linha-titulo-produtoOrganizador-vet": {
-    "props":{
+    "props": {
       "blockClass": "linha-titulo-produtoLinhaOne-vet",
       "preventHorizontalStretch": true,
       "colSizing": "auto"
     },
-    "children":[
+    "children": [
       "rich-text#linha",
       "image#tag-one-vet"
     ]
   },
-    "image#tag-one-vet": {
+  "image#tag-one-vet": {
     "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbdf2eb-1758-4f7a-9759-9181c687f8e0___213cf17ba35421a3655f03a4ce40ded1.svg",
       "blockClass": "image-tag-vet"
     }
   },
-  "rich-text#linha":{
+  "rich-text#linha": {
     "props": {
       "text": "Linha",
       "blockClass": "linha"
@@ -86,7 +93,7 @@
     }
   },
   "rich-text#subtitulo-produtoOrganizador-vet": {
-        "props": {
+    "props": {
       "blockClass": "subtitulo-produtoLinhaOne-vet",
       "text": "Diferentes formas de organizar, acessar e movimentar materiais em uma única estrutura, pensada para acompanhar a rotina veterinária."
     }
@@ -103,22 +110,34 @@
       "image#organizador-frente2-vet"
     ]
   },
-  "image#organizador-frente-vet":{
+  "image#organizador-frente-vet": {
     "props": {
       "blockClass": "img-rectangulo-vet",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b7d87fa5-c362-4a96-91d7-29b6a4e5739a___ee79a6e665af72f1a70a68eb6696d669.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b7d87fa5-c362-4a96-91d7-29b6a4e5739a___ee79a6e665af72f1a70a68eb6696d669.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two-1/p",
+        "newTab": true
+      }
     }
   },
-  "image#organizador-ambientada-vet":{
+  "image#organizador-ambientada-vet": {
     "props": {
       "blockClass": "img-rectangulo-vet",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8e866607-9ac2-4523-8aba-b8d173a35687___00670cc2ac8b7a8569764208dca16ff8.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8e866607-9ac2-4523-8aba-b8d173a35687___00670cc2ac8b7a8569764208dca16ff8.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two-1/p",
+        "newTab": true
+      }
     }
   },
-  "image#organizador-frente2-vet":{
+  "image#organizador-frente2-vet": {
     "props": {
       "blockClass": "img-rectangulo-vet",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/33826d1d-ff55-48d3-bc51-893ac5cda941___8909135762327af69c4b0ed70b114c23.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/33826d1d-ff55-48d3-bc51-893ac5cda941___8909135762327af69c4b0ed70b114c23.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two-1/p",
+        "newTab": true
+      }
     }
   },
   "flex-layout.row#links-produto-organizador-vet": {
@@ -132,7 +151,7 @@
     ],
     "title": "Links produto linha one"
   },
-  "link#verproduto-organizador-vet":{
+  "link#verproduto-organizador-vet": {
     "props": {
       "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two-1/p",
@@ -140,8 +159,8 @@
     },
     "title": "Link ver produto"
   },
-  "link#falarVendedor-organizador-vet":{
-     "props": {
+  "link#falarVendedor-organizador-vet": {
+    "props": {
       "blockClass": "link-falarConsultor-vet",
       "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20Organizador%20Veterin%C3%A1rio%20com%203%20Gavetas%20e%2018%20Bins",
       "label": "falar com consultor",

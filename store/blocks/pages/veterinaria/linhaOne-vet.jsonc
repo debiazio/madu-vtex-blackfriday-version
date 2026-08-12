@@ -39,7 +39,11 @@
     "props": {
       "blockClass": "img-linhaOne-vet",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/2f4e1478-ed9b-4f27-bba0-41c833671cff___4c4f4fbc33e3fe298f89d0868ef61387.webp",
-      "alt": "Linha one"
+      "alt": "Linha one",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-emergencia-hospitalar-4-gavetas-madu-one-560/p",
+        "newTab": true
+      }
     }
   },
   // produto
@@ -107,19 +111,31 @@
   "image#lixeira-linhaOne-vet": {
     "props": {
       "blockClass": "img-rectangulo-vet",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b621d220-35d6-4f91-93e3-427cb0fa1687___c202f0092a6a5f85db63ce86ceffbc60.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b621d220-35d6-4f91-93e3-427cb0fa1687___c202f0092a6a5f85db63ce86ceffbc60.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-emergencia-hospitalar-4-gavetas-madu-one-560/p",
+        "newTab": true
+      }
     }
   },
   "image#gavetas-linhaOne-vet": {
     "props": {
       "blockClass": "img-rectangulo-vet",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/60ca5621-48f3-42ce-87ff-724dbd9ef185___395d69e45096c2de9fae790a114557ce.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/60ca5621-48f3-42ce-87ff-724dbd9ef185___395d69e45096c2de9fae790a114557ce.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-emergencia-hospitalar-4-gavetas-madu-one-560/p",
+        "newTab": true
+      }
     }
   },
   "image#lateral-linhaOne-vet": {
     "props": {
       "blockClass": "img-rectangulo-vet",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ee4b5f07-8851-46b7-b0cd-b20f9d835517___b62ca65207fa186131aea82af7fc3087.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ee4b5f07-8851-46b7-b0cd-b20f9d835517___b62ca65207fa186131aea82af7fc3087.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-emergencia-hospitalar-4-gavetas-madu-one-560/p",
+        "newTab": true
+      }
     }
   },
   "flex-layout.row#links-produto-linhaOne-vet": {

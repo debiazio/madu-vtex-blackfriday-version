@@ -63,7 +63,11 @@
     "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fe4858ac-34f4-4747-a440-86615decb9ee___937bf73c74e29b16388c19f02c20a701.webp",
       "alt": "Imagem maior organização",
-      "blockClass": "img-maiorOrg-vet"
+      "blockClass": "img-maiorOrg-vet",
+    "link": {
+      "url": "https://www.pensemadu.com.br/bins-kits-e-unitario/",
+      "newTab": true
+    }
     },
     "title": "Imagem maior organização - mobile"
   },
@@ -88,7 +92,11 @@
     "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e38eaebc-dd1d-4189-83ad-ee3a8a77dd01___3af91b4f6a58f95bda4e242f4d697c19.webp",
       "alt": "Imagem maior organização",
-      "blockClass": "img-maiorOrg-vet"
+      "blockClass": "img-maiorOrg-vet",
+            "link": {
+        "url": "https://www.pensemadu.com.br/bins-kits-e-unitario/",
+        "newTab": true
+      }
     },
     "title": "Imagem maior organização"
   },

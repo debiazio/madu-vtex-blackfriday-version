@@ -1,5 +1,5 @@
 {
-  "responsive-layout.desktop#linhaBoxSet-vet":{
+  "responsive-layout.desktop#linhaBoxSet-vet": {
     "children": [
       "flex-layout.row#desktop-linhaBoxSet-vet"
     ]
@@ -17,7 +17,7 @@
       "responsive-layout.mobile#produtos-linhaBoxSet-vet"
     ]
   },
-  "responsive-layout.mobile#linhaBoxSet-vet":{
+  "responsive-layout.mobile#linhaBoxSet-vet": {
     "children": [
       "flex-layout.row#linhaBoxSet-vet"
     ]
@@ -32,7 +32,6 @@
       "flex-layout.row#textos-linhaBoxSet-vet",
       "responsive-layout.desktop#produtos-linhaBoxSet-vet",
       "responsive-layout.mobile#produtos-linhaBoxSet-vet"
-
     ]
   },
   "flex-layout.row#textos-linhaBoxSet-vet": {
@@ -61,14 +60,14 @@
       "image#tag-set-vet"
     ]
   },
-  "rich-text#linhas":{
+  "rich-text#linhas": {
     "props": {
       "text": "Linhas",
       "blockClass": "linha"
     },
     "title": "Linha"
   },
-  "rich-text#mais":{
+  "rich-text#mais": {
     "props": {
       "text": "+",
       "blockClass": "linha"
@@ -101,7 +100,7 @@
   // ====================
   //  produtos
   // ====================
-  "responsive-layout.desktop#produtos-linhaBoxSet-vet":{
+  "responsive-layout.desktop#produtos-linhaBoxSet-vet": {
     "children": [
       "flex-layout.row#produtos-linhaBoxSet-vet"
     ]
@@ -138,10 +137,14 @@
     "props": {
       "blockClass": "imagem-produto-linhaTwo-vet",
       "alt": "maleta home care",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/63555090-7413-4046-8ca1-f5be35cc4e87___a3ede2d75f79616ff2824fc9e0b15808.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/63555090-7413-4046-8ca1-f5be35cc4e87___a3ede2d75f79616ff2824fc9e0b15808.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/maleta-home-care-veterinaria/p",
+        "newTab": true
+      }
     }
   },
-  "rich-text#titulo-produto-linhaBoxSet-vet":{
+  "rich-text#titulo-produto-linhaBoxSet-vet": {
     "title": "Linha titulo produto linha two",
     "props": {
       "blockClass": "titulo-produto-linhaTwo-vet",
@@ -150,7 +153,7 @@
       "text": "Maleta Home Care MAD.U BOX"
     }
   },
-  "rich-text#subtitulo-produto-linhaBoxSet-vet":{
+  "rich-text#subtitulo-produto-linhaBoxSet-vet": {
     "title": "subtitulo-produto-linhaBoxSet-vet",
     "props": {
       "blockClass": "subtitulo-produto-linhaTwo-vet",
@@ -159,7 +162,7 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#links-produto-linhaBoxSet-vet":{
+  "flex-layout.row#links-produto-linhaBoxSet-vet": {
     "title": "linha links-produto-linhaBoxSet-vet",
     "props": {
       "blockClass": "links-produto-linhaTwo-vet"
@@ -169,7 +172,7 @@
       "link#falarVendedor-linhaBoxSet-vet"
     ]
   },
-  "link#vertudo-linhaBoxSet-vet":{
+  "link#vertudo-linhaBoxSet-vet": {
     "title": "link ver tudo produto 1",
     "props": {
       "blockClass": "link-vertudo",
@@ -177,7 +180,7 @@
       "label": "ver produto"
     }
   },
-  "link#falarVendedor-linhaBoxSet-vet":{
+  "link#falarVendedor-linhaBoxSet-vet": {
     "title": "link falar com vendedor produto 1",
     "props": {
       "blockClass": "link-falarVendedor",
@@ -206,10 +209,14 @@
     "props": {
       "blockClass": "imagem-produto-linhaTwo-vet",
       "alt": "Maleta medicamentos",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1e863179-c552-4c66-ad99-328a415a37c3___d7e00d54b277f553074b721e6baac651.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1e863179-c552-4c66-ad99-328a415a37c3___d7e00d54b277f553074b721e6baac651.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/maleta-psicotropicos-veterinaria-medicamento-controlado-animal/p",
+        "newTab": true
+      }
     }
   },
-  "rich-text#titulo-produto2-linhaBoxSet-vet":{
+  "rich-text#titulo-produto2-linhaBoxSet-vet": {
     "title": "Linha titulo produto 2 linha two",
     "props": {
       "blockClass": "titulo-produto-linhaTwo-vet",
@@ -218,7 +225,7 @@
       "text": "Maleta de Medicamentos Controlados | MAD.U BOX"
     }
   },
-  "rich-text#subtitulo-produto2-linhaBoxSet-vet":{
+  "rich-text#subtitulo-produto2-linhaBoxSet-vet": {
     "title": "subtitulo-produto-linhaBoxSet-vet",
     "props": {
       "blockClass": "subtitulo-produto-linhaTwo-vet",
@@ -227,7 +234,7 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#links-produto2-linhaBoxSet-vet":{
+  "flex-layout.row#links-produto2-linhaBoxSet-vet": {
     "title": "linha links-produto-linhaBoxSet-vet",
     "props": {
       "blockClass": "links-produto-linhaTwo-vet"
@@ -237,7 +244,7 @@
       "link#falarVendedor2-linhaBoxSet-vet"
     ]
   },
-  "link#vertudo2-linhaBoxSet-vet":{
+  "link#vertudo2-linhaBoxSet-vet": {
     "title": "link ver tudo produto 2",
     "props": {
       "blockClass": "link-vertudo",
@@ -245,7 +252,7 @@
       "label": "ver produto"
     }
   },
-  "link#falarVendedor2-linhaBoxSet-vet":{
+  "link#falarVendedor2-linhaBoxSet-vet": {
     "title": "link falar com vendedor produto 2",
     "props": {
       "blockClass": "link-falarVendedor",
@@ -254,9 +261,9 @@
       "target": "_blank"
     }
   },
-    // ==================
+  // ==================
   // produto 3
-  "flex-layout.col#coluna3Produto-linhaBoxSet-vet":{
+  "flex-layout.col#coluna3Produto-linhaBoxSet-vet": {
     "title": "Coluna 3 produtos linhaBoxSet",
     "props": {
       "blockClass": "colunaProdutos-linhaTwo-Vet",
@@ -274,10 +281,14 @@
     "props": {
       "blockClass": "imagem-produto-linhaTwo-vet",
       "alt": "maleta pet coleta",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d996f0ac-a1ea-45a4-9b67-c07fc1d29682___9b94ff5f9edde4220221c0c6b169e60b.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d996f0ac-a1ea-45a4-9b67-c07fc1d29682___9b94ff5f9edde4220221c0c6b169e60b.webp",
+    "link": {
+      "url": "https://devmadu--madumfm2.myvtex.com/maleta-coleta-veterinaria-4-modulos-bin-madu-set/p",
+      "newTab": true
+    }
     }
   },
-  "rich-text#titulo-produto3-linhaBoxSet-vet":{
+  "rich-text#titulo-produto3-linhaBoxSet-vet": {
     "title": "Linha titulo produto 2 linha two",
     "props": {
       "blockClass": "titulo-produto-linhaTwo-vet",
@@ -286,7 +297,7 @@
       "text": "Maleta PET Coleta MAD.U BOX"
     }
   },
-  "rich-text#subtitulo-produto3-linhaBoxSet-vet":{
+  "rich-text#subtitulo-produto3-linhaBoxSet-vet": {
     "title": "subtitulo-produto-linhaBoxSet-vet",
     "props": {
       "blockClass": "subtitulo-produto-linhaTwo-vet",
@@ -295,7 +306,7 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#links-produto3-linhaBoxSet-vet":{
+  "flex-layout.row#links-produto3-linhaBoxSet-vet": {
     "title": "linha links-produto-linhaBoxSet-vet",
     "props": {
       "blockClass": "links-produto-linhaTwo-vet"
@@ -305,7 +316,7 @@
       "link#falarVendedor3-linhaBoxSet-vet"
     ]
   },
-  "link#vertudo3-linhaBoxSet-vet":{
+  "link#vertudo3-linhaBoxSet-vet": {
     "title": "link ver tudo produto 3",
     "props": {
       "blockClass": "link-vertudo",
@@ -313,7 +324,7 @@
       "label": "ver produto"
     }
   },
-  "link#falarVendedor3-linhaBoxSet-vet":{
+  "link#falarVendedor3-linhaBoxSet-vet": {
     "title": "link falar com vendedor produto 3",
     "props": {
       "blockClass": "link-falarVendedor",
@@ -322,9 +333,9 @@
       "target": "_blank"
     }
   },
-    // ==================
+  // ==================
   // produto 4
-  "flex-layout.col#coluna4Produto-linhaBoxSet-vet":{
+  "flex-layout.col#coluna4Produto-linhaBoxSet-vet": {
     "title": "Coluna 4 produtos linhaBoxSet",
     "props": {
       "blockClass": "colunaProdutos-linhaTwo-Vet",
@@ -342,10 +353,14 @@
     "props": {
       "blockClass": "imagem-produto-linhaTwo-vet",
       "alt": "maleta pet care",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f439e85c-f72f-4613-8251-bf9d91228f54___f2218bd1663c2ba34d6a38a690911922.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f439e85c-f72f-4613-8251-bf9d91228f54___f2218bd1663c2ba34d6a38a690911922.webp",
+    "link": {
+      "url": "https://devmadu--madumfm2.myvtex.com/maleta-organizadora-veterinaria-madu-set-cinza/p",
+      "newTab": true
+    }
     }
   },
-  "rich-text#titulo-produto4-linhaBoxSet-vet":{
+  "rich-text#titulo-produto4-linhaBoxSet-vet": {
     "title": "Linha titulo produto 2 linha two",
     "props": {
       "blockClass": "titulo-produto-linhaTwo-vet",
@@ -354,7 +369,7 @@
       "text": "Maleta PET Care MAD.U BOX"
     }
   },
-  "rich-text#subtitulo-produto4-linhaBoxSet-vet":{
+  "rich-text#subtitulo-produto4-linhaBoxSet-vet": {
     "title": "subtitulo-produto-linhaBoxSet-vet",
     "props": {
       "blockClass": "subtitulo-produto-linhaTwo-vet",
@@ -363,7 +378,7 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#links-produto4-linhaBoxSet-vet":{
+  "flex-layout.row#links-produto4-linhaBoxSet-vet": {
     "title": "linha links-produto-linhaBoxSet-vet",
     "props": {
       "blockClass": "links-produto-linhaTwo-vet"
@@ -373,7 +388,7 @@
       "link#falarVendedor4-linhaBoxSet-vet"
     ]
   },
-  "link#vertudo4-linhaBoxSet-vet":{
+  "link#vertudo4-linhaBoxSet-vet": {
     "title": "link ver tudo produto 4",
     "props": {
       "blockClass": "link-vertudo",
@@ -381,7 +396,7 @@
       "label": "ver produto"
     }
   },
-  "link#falarVendedor4-linhaBoxSet-vet":{
+  "link#falarVendedor4-linhaBoxSet-vet": {
     "title": "link falar com vendedor produto 4",
     "props": {
       "blockClass": "link-falarVendedor",
@@ -392,7 +407,7 @@
   },
   //  ==================
   //  produtos mobiel
-  "responsive-layout.mobile#produtos-linhaBoxSet-vet":{
+  "responsive-layout.mobile#produtos-linhaBoxSet-vet": {
     "children": [
       "flex-layout.row#slider-produtos-linhaBoxSet-vet"
     ]
@@ -404,7 +419,7 @@
       "fullWidth": true
     },
     "children": [
-       "slidercustom-mobile-linha-boxset"
+      "slidercustom-mobile-linha-boxset"
     ]
   }
 }

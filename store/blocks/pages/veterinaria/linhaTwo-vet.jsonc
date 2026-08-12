@@ -1,5 +1,5 @@
 {
-  "responsive-layout.desktop#linhaTwo-vet":{
+  "responsive-layout.desktop#linhaTwo-vet": {
     "children": [
       "flex-layout.row#desktop-linhaTwo-vet"
     ]
@@ -17,7 +17,7 @@
       "responsive-layout.mobile#produtos-linhaTwo-vet"
     ]
   },
-  "responsive-layout.mobile#linhaTwo-vet":{
+  "responsive-layout.mobile#linhaTwo-vet": {
     "children": [
       "flex-layout.row#linhaTwo-vet"
     ]
@@ -32,7 +32,6 @@
       "flex-layout.row#textos-linhaTwo-vet",
       "responsive-layout.desktop#produtos-linhaTwo-vet",
       "responsive-layout.mobile#produtos-linhaTwo-vet"
-
     ]
   },
   "flex-layout.row#textos-linhaTwo-vet": {
@@ -88,7 +87,7 @@
   // ====================
   //  produtos
   // ====================
-  "responsive-layout.desktop#produtos-linhaTwo-vet":{
+  "responsive-layout.desktop#produtos-linhaTwo-vet": {
     "children": [
       "flex-layout.row#produtos-linhaTwo-vet"
     ]
@@ -124,10 +123,14 @@
     "props": {
       "blockClass": "imagem-produto-linhaTwo-vet",
       "alt": "Carrinho veterinario",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7d186078-0b46-4ce3-807f-b0190abfdfb9___af706cfadf0484f412c4c7b6f56c19f8.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7d186078-0b46-4ce3-807f-b0190abfdfb9___af706cfadf0484f412c4c7b6f56c19f8.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-emergencia-hospitalar-3-gavetas-nicho-madu-two/p",
+        "newTab": true
+      }
     }
   },
-  "rich-text#titulo-produto-linhaTwo-vet":{
+  "rich-text#titulo-produto-linhaTwo-vet": {
     "title": "Linha titulo produto linha two",
     "props": {
       "blockClass": "titulo-produto-linhaTwo-vet",
@@ -136,7 +139,7 @@
       "text": "Carrinho Veterinário com 3 Gavetas, Nicho e Suportes para Cilindros"
     }
   },
-  "rich-text#subtitulo-produto-linhaTwo-vet":{
+  "rich-text#subtitulo-produto-linhaTwo-vet": {
     "title": "subtitulo-produto-linhaTwo-vet",
     "props": {
       "blockClass": "subtitulo-produto-linhaTwo-vet",
@@ -145,7 +148,7 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#links-produto-linhaTwo-vet":{
+  "flex-layout.row#links-produto-linhaTwo-vet": {
     "title": "linha links-produto-linhaTwo-vet",
     "props": {
       "blockClass": "links-produto-linhaTwo-vet"
@@ -155,7 +158,7 @@
       "link#falarVendedor-linhaTwo-vet"
     ]
   },
-  "link#vertudo-linhaTwo-vet":{
+  "link#vertudo-linhaTwo-vet": {
     "title": "link ver tudo produto 1",
     "props": {
       "blockClass": "link-vertudo",
@@ -163,7 +166,7 @@
       "label": "ver produto"
     }
   },
-  "link#falarVendedor-linhaTwo-vet":{
+  "link#falarVendedor-linhaTwo-vet": {
     "title": "link falar com vendedor produto 1",
     "props": {
       "blockClass": "link-falarVendedor",
@@ -192,10 +195,14 @@
     "props": {
       "blockClass": "imagem-produto-linhaTwo-vet",
       "alt": "Carrinho veterinario",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/326cf654-98bc-432b-ba1f-85284f18f85f___7cff5b0994f66dc6539964d8f3e90184.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/326cf654-98bc-432b-ba1f-85284f18f85f___7cff5b0994f66dc6539964d8f3e90184.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-veterinario-6-gavetas-caixas-laterais-madu-two/p",
+        "newTab": true
+      }
     }
   },
-  "rich-text#titulo-produto2-linhaTwo-vet":{
+  "rich-text#titulo-produto2-linhaTwo-vet": {
     "title": "Linha titulo produto 2 linha two",
     "props": {
       "blockClass": "titulo-produto-linhaTwo-vet",
@@ -204,7 +211,7 @@
       "text": "Carrinho de Emergência Veterinária com 6 Gavetas"
     }
   },
-  "rich-text#subtitulo-produto2-linhaTwo-vet":{
+  "rich-text#subtitulo-produto2-linhaTwo-vet": {
     "title": "subtitulo-produto-linhaTwo-vet",
     "props": {
       "blockClass": "subtitulo-produto-linhaTwo-vet",
@@ -213,7 +220,7 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#links-produto2-linhaTwo-vet":{
+  "flex-layout.row#links-produto2-linhaTwo-vet": {
     "title": "linha links-produto-linhaTwo-vet",
     "props": {
       "blockClass": "links-produto-linhaTwo-vet"
@@ -223,7 +230,7 @@
       "link#falarVendedor2-linhaTwo-vet"
     ]
   },
-  "link#vertudo2-linhaTwo-vet":{
+  "link#vertudo2-linhaTwo-vet": {
     "title": "link ver tudo produto 2",
     "props": {
       "blockClass": "link-vertudo",
@@ -231,7 +238,7 @@
       "label": "ver produto"
     }
   },
-  "link#falarVendedor2-linhaTwo-vet":{
+  "link#falarVendedor2-linhaTwo-vet": {
     "title": "link falar com vendedor produto 2",
     "props": {
       "blockClass": "link-falarVendedor",
@@ -240,9 +247,9 @@
       "target": "_blank"
     }
   },
-    // ==================
+  // ==================
   // produto 3
-  "flex-layout.col#coluna3Produto-linhaTwo-vet":{
+  "flex-layout.col#coluna3Produto-linhaTwo-vet": {
     "title": "Coluna 3 produtos linha Two",
     "props": {
       "blockClass": "colunaProdutos-linhaTwo-Vet",
@@ -260,10 +267,14 @@
     "props": {
       "blockClass": "imagem-produto-linhaTwo-vet",
       "alt": "Carrinho veterinario",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b49bfd6e-de6d-41e7-95a0-5d9458701294___19866deb2fd8a2da1b6163f47e3b2761.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b49bfd6e-de6d-41e7-95a0-5d9458701294___19866deb2fd8a2da1b6163f47e3b2761.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two/p",
+        "newTab": true
+      }
     }
   },
-  "rich-text#titulo-produto3-linhaTwo-vet":{
+  "rich-text#titulo-produto3-linhaTwo-vet": {
     "title": "Linha titulo produto 2 linha two",
     "props": {
       "blockClass": "titulo-produto-linhaTwo-vet",
@@ -272,7 +283,7 @@
       "text": "Carrinho Auxiliar Veterinário com Bins e Big Bin"
     }
   },
-  "rich-text#subtitulo-produto3-linhaTwo-vet":{
+  "rich-text#subtitulo-produto3-linhaTwo-vet": {
     "title": "subtitulo-produto-linhaTwo-vet",
     "props": {
       "blockClass": "subtitulo-produto-linhaTwo-vet",
@@ -281,7 +292,7 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#links-produto3-linhaTwo-vet":{
+  "flex-layout.row#links-produto3-linhaTwo-vet": {
     "title": "linha links-produto-linhaTwo-vet",
     "props": {
       "blockClass": "links-produto-linhaTwo-vet"
@@ -291,7 +302,7 @@
       "link#falarVendedor3-linhaTwo-vet"
     ]
   },
-  "link#vertudo3-linhaTwo-vet":{
+  "link#vertudo3-linhaTwo-vet": {
     "title": "link ver tudo produto 3",
     "props": {
       "blockClass": "link-vertudo",
@@ -299,7 +310,7 @@
       "label": "ver produto"
     }
   },
-  "link#falarVendedor3-linhaTwo-vet":{
+  "link#falarVendedor3-linhaTwo-vet": {
     "title": "link falar com vendedor produto 3",
     "props": {
       "blockClass": "link-falarVendedor",
@@ -310,7 +321,7 @@
   },
   //  ==================
   //  produtos mobiel
-  "responsive-layout.mobile#produtos-linhaTwo-vet":{
+  "responsive-layout.mobile#produtos-linhaTwo-vet": {
     "children": [
       "flex-layout.row#slider-produtos-linhaTwo-vet"
     ]
@@ -333,7 +344,6 @@
         "desktop": 0,
         "tablet": 0,
         "phone": 2
-
       },
       "infinite": true,
       "showNavigationArrows": "never",

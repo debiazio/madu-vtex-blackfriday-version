@@ -175,7 +175,11 @@
       "blockClass": "img-estante",
       "alt": "Imagem estante",
       "title": "Imagem estante",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/efda11f8-55d8-4b54-8d26-932dbb57ce60___622c8bb9b9826576206be871bf92bc37.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/efda11f8-55d8-4b54-8d26-932dbb57ce60___622c8bb9b9826576206be871bf92bc37.webp",
+      "link": {
+        "url": "https://www.pensemadu.com.br/estante-96-bins-suportes-laterais-madu-one-740/p",
+        "newTab": true
+      }
     },
     "title": "Imagem estante"
   },
@@ -189,7 +193,11 @@
       "blockClass": "img-estante",
       "alt": "Imagem estante",
       "title": "Imagem estante",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7500ad77-3ada-4b0a-b00f-178deb032587___2d935b84d972b581924ce40620c66eda.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7500ad77-3ada-4b0a-b00f-178deb032587___2d935b84d972b581924ce40620c66eda.webp",
+    "link": {
+      "url": "https://www.pensemadu.com.br/estante-96-bins-suportes-laterais-madu-one-740/p",
+      "newTab": true
+    }
     },
     "title": "Imagem estante mobile"
   },

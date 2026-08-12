@@ -1,9 +1,9 @@
-.flexRowContent--linha-banner3-novaHome{
-  flex-direction: row!important;
+.flexRowContent--linha-banner3-novaHome {
+  flex-direction: row !important;
   gap: 5px;
 }
 
-.flexRowContent--linha-tagcolecao{
+.flexRowContent--linha-tagcolecao {
   display: contents;
 }
 
@@ -20,8 +20,8 @@
   display: flex;
   align-items: center;
   align-items: center;
-    flex-direction: row;
-    justify-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .flexRowContent--linha-deals-novaHome {
@@ -115,7 +115,7 @@
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  padding: 60px 0 60px 0;
+  padding: 30px 0 30px 0;
 }
 
 .flexRowContent--linha-recebaNovidades-novaHome {
@@ -166,9 +166,10 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
-  .flexRowContent--linha-redesSociais{
-    padding-left: 0!important;
+  .flexRowContent--linha-redesSociais {
+    padding-left: 0 !important;
   }
+
   .flexRowContent--linha-imgs-nossosClientes-mobile .stretchChildrenWidth:last-child {
     display: none;
   }
@@ -194,8 +195,7 @@
   }
 
   .flexRowContent--linha-novaHome {
-
-    padding-left: 37px;
+    padding: 37px;
   }
 
   .flexRow--linhaSlider-navegueSegmentos-novaHome {
@@ -210,8 +210,8 @@
     padding-left: unset !important;
   }
 
-  .flexRowContent--linha-banner3-novaHome{
-  flex-direction: column!important;
-  gap: 5px;
-}
+  .flexRowContent--linha-banner3-novaHome {
+    flex-direction: column !important;
+    gap: 5px;
+  }
 }
