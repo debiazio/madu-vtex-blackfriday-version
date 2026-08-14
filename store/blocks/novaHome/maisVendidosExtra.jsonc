@@ -46,7 +46,7 @@
       "slider-layout#prateleira-maisvendidos-novahomeExtra"
     ],
     "props": {
-      // "category": "6/7",
+      
       "collection": "156",
       "orderBy": "OrderByTopSaleDESC",
       "blockClass": "prateleira-novaHome",
