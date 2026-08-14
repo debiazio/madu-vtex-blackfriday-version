@@ -1,4 +1,14 @@
 {
+  "responsive-layout.mobile#linha-maisVendidos-novaHome":{
+    "children": [
+      "slidercustom-mobile-linha-produtos-155"
+    ]
+  },
+  "responsive-layout.desktop#linha-maisVendidos-novaHome":{
+    "children": [
+      "flex-layout.row#linha-maisVendidos-novaHome"
+    ]
+  },
   "flex-layout.row#linha-maisVendidos-novaHome": {
     "props": {
       "blockClass": [

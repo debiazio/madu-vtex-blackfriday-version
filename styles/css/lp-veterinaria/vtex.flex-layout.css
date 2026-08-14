@@ -409,6 +409,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--linha-maisVendidos-novaHome {
+    padding: 0!important;
+  }
+
   .flexRowContent--linhaProdutos-vet{
     padding-left: unset!important;
   }
@@ -425,6 +429,10 @@
 
   .flexRowContent--linha-textos-banner-verde-vet {
     padding: 0 21px;
+  }
+
+  .flexRow--linha-bannerVerde-vet{
+    margin-bottom: 86px;
   }
 
   .flexRow--linha-bannerLaranja-vet,
