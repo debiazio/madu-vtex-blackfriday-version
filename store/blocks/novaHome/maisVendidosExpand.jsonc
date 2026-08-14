@@ -64,7 +64,11 @@
       "fullWidth": false,
       "showNavigationArrows": "always",
       "showPaginationDots": "never",
-      "blockClass": "prateleira-novaHome"
+      "blockClass": "prateleira-novaHome",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     }
   }
 }

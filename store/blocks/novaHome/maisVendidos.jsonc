@@ -1,10 +1,10 @@
 {
-  "responsive-layout.mobile#linha-maisVendidos-novaHome":{
+  "responsive-layout.mobile#linha-maisVendidos-novaHome": {
     "children": [
       "slidercustom-mobile-linha-produtos-155"
     ]
   },
-  "responsive-layout.desktop#linha-maisVendidos-novaHome":{
+  "responsive-layout.desktop#linha-maisVendidos-novaHome": {
     "children": [
       "flex-layout.row#linha-maisVendidos-novaHome"
     ]
@@ -49,7 +49,7 @@
       // "category": "6/54",
       "collection": "155",
       "blockClass": "prateleira-novaHome",
-       "orderBy": "OrderByTopSaleDESC",
+      "orderBy": "OrderByTopSaleDESC",
       "maxItems": 20
     }
   },
@@ -64,7 +64,11 @@
       "fullWidth": false,
       "showNavigationArrows": "always",
       "showPaginationDots": "never",
-      "blockClass": "prateleira-novaHome"
+      "blockClass": "prateleira-novaHome",
+      "autoplay": {
+        "timeout": 8000,
+        "stopOnHover": true
+      }
     }
   }
 }
