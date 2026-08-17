@@ -7,18 +7,18 @@
       // "list-context.image-list#madubox-page",
       // "flex-layout.row#desktop-banner-madubox",
       // "flex-layout.row#desktop-banner2-maletas-madubox",
-      "flex-layout.row#texto-subbanner-madubox",
+      // "flex-layout.row#texto-subbanner-madubox",
       "responsive-layout.mobile#diferencas-maletas-caixas",
       "responsive-layout.desktop#diferencas-maletas-caixas",
-      "responsive-layout.mobile#banner3-caracteristicas-madubox",
-      "responsive-layout.desktop#banner3-caracteristicas-madubox",
+      // "responsive-layout.mobile#banner3-caracteristicas-madubox",
+      // "responsive-layout.desktop#banner3-caracteristicas-madubox",
       "responsive-layout.desktop#handler",
       "flex-layout.row#desktop-detalhes-tecnicos-titulo",
       "flex-layout.row#desktop-detalhes-tecnicos-conteudo",
-      "responsive-layout.mobile#cores-madubox",
-      "responsive-layout.desktop#cores-madubox",
-      "flex-layout.row#desktop-combinam-combinam",
+      // "responsive-layout.mobile#cores-madubox",
+      // "responsive-layout.desktop#cores-madubox",
       "flex-layout.row#slider-madubox",
+      "flex-layout.row#desktop-combinam-combinam",
       "flex-layout.row#desktop-banner-final"
     ]
   },
@@ -37,12 +37,12 @@
   // =========================
   // BANNER INICIAL MADUBOX
   // ========================
-  "responsive-layout.desktop#imagem-banner-box":{
+  "responsive-layout.desktop#imagem-banner-box": {
     "children": [
       "flex-layout.row#imagem-banner-box"
     ]
   },
-  "flex-layout.row#imagem-banner-box":{
+  "flex-layout.row#imagem-banner-box": {
     "props": {
       "blockClass": "madu-box-banner"
     },
@@ -51,7 +51,7 @@
     ],
     "title": "Linha banner madubox"
   },
-  "image#banner-box":{
+  "image#banner-box": {
     "props": {
       "blockClass": "banner-box-image",
       "alt": "Banner box desktop",
@@ -59,12 +59,12 @@
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/66969f59-310e-4746-92cd-4d55c670904d___012462b0fc9c218a4b68ba1cc6f0c9e5.webp"
     }
   },
-  "responsive-layout.mobile#imagem-banner-box":{
+  "responsive-layout.mobile#imagem-banner-box": {
     "children": [
       "flex-layout.row#imagem-banner-box-mobile"
     ]
   },
-  "flex-layout.row#imagem-banner-box-mobile":{
+  "flex-layout.row#imagem-banner-box-mobile": {
     "props": {
       "blockClass": "madu-box-banner"
     },
@@ -73,7 +73,7 @@
     ],
     "title": "Linha banner madubox mobile"
   },
-  "image#banner-box-mobile":{
+  "image#banner-box-mobile": {
     "props": {
       "blockClass": "banner-box-image",
       "alt": "Banner box desktop",
@@ -81,7 +81,6 @@
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/97401824-5dc7-47e6-8b58-790ea76562cc___5cb9f7aee74a3068d95bc91fdf0f989e.webp"
     }
   },
-
   // "list-context.image-list#madubox-page": {
   //   "children": [
   //     "slider-layout#madubox-page"
@@ -2949,19 +2948,34 @@
       "height": 333,
       "images": [
         {
-          "mobileImage": "assets/madu-box/combinam/slider-mobile/carrinho-kart-mobile.webp"
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/carrinho-kart-mobile.webp",
+          "link": {
+            "url": "https://www.pensemadu.com.br/carrinho-transporte-5-caixas-tamanho-8-aco-carbono-madu-expand/p"
+          }
         },
         {
-          "mobileImage": "assets/madu-box/combinam/slider-mobile/expand-mobile.webp"
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/expand-mobile.webp",
+          "link": {
+            "url": "https://www.pensemadu.com.br/expand/"
+          }
         },
         {
-          "mobileImage": "assets/madu-box/combinam/slider-mobile/express-mobile.webp"
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/express-mobile.webp",
+          "link": {
+            "url": "https://www.pensemadu.com.br/express/"
+          }
         },
         {
-          "mobileImage": "assets/madu-box/combinam/slider-mobile/extra-mobile.webp"
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/extra-mobile.webp",
+          "link": {
+            "url": "https://www.pensemadu.com.br/maduextra-380/"
+          }
         },
         {
-          "mobileImage": "assets/madu-box/combinam/slider-mobile/set-mobile.webp"
+          "mobileImage": "assets/madu-box/combinam/slider-mobile/set-mobile.webp",
+          "link": {
+            "url": "https://www.pensemadu.com.br/maduset/"
+          }
         }
       ]
     }
@@ -2995,11 +3009,20 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "flex-layout.col#madubox-prat-exppress",
-      "flex-layout.col#madubox-linha-madu-set",
-      "flex-layout.col#madubox-carrinhos-expand",
-      "flex-layout.col#madubox-carrinhos-extra",
-      "flex-layout.col#madubox-carrinhos-kart"
+      "link#madubox-prat-exppress",
+      "link#madubox-maduset",
+      "link#madubox-carrinhos-expand",
+      "link#madubox-carrinhos-extra",
+      "link#madubox-carrinhos-kart"
+    ]
+  },
+  "link#madubox-prat-exppress": {
+    "props": {
+      "blockClass": "links-madubox-combinam",
+      "href": "https://www.pensemadu.com.br/express/"
+    },
+    "children": [
+      "flex-layout.col#madubox-prat-exppress"
     ]
   },
   // TEXTOS COMBINAM E SE COMBINAM
@@ -3027,6 +3050,15 @@
       "rich-text#label-express"
     ]
   },
+  "link#madubox-maduset": {
+    "props": {
+      "blockClass": "links-madubox-combinam",
+      "href": "https://www.pensemadu.com.br/maduset/"
+    },
+    "children": [
+      "flex-layout.col#madubox-linha-madu-set"
+    ]
+  },
   "flex-layout.col#madubox-linha-madu-set": {
     "props": {
       "blockClass": [
@@ -3036,6 +3068,15 @@
     },
     "children": [
       "rich-text#label-set"
+    ]
+  },
+  "link#madubox-carrinhos-expand": {
+    "props": {
+      "blockClass": "links-madubox-combinam",
+      "href": "https://www.pensemadu.com.br/expand/"
+    },
+    "children": [
+      "flex-layout.col#madubox-carrinhos-expand"
     ]
   },
   "flex-layout.col#madubox-carrinhos-expand": {
@@ -3049,6 +3090,15 @@
       "rich-text#label-expand"
     ]
   },
+  "link#madubox-carrinhos-extra": {
+    "props": {
+      "blockClass": "links-madubox-combinam",
+      "href": "https://www.pensemadu.com.br/madu-extra-380/"
+    },
+    "children": [
+      "flex-layout.col#madubox-carrinhos-extra"
+    ]
+  },
   "flex-layout.col#madubox-carrinhos-extra": {
     "props": {
       "blockClass": [
@@ -3058,6 +3108,15 @@
     },
     "children": [
       "rich-text#label-extra"
+    ]
+  },
+  "link#madubox-carrinhos-kart": {
+    "props": {
+      "blockClass": "links-madubox-combinam",
+      "href": "https://www.pensemadu.com.br/carrinho-transporte-5-caixas-tamanho-8-aco-carbono-madu-expand/p"
+    },
+    "children": [
+      "flex-layout.col#madubox-carrinhos-kart"
     ]
   },
   "flex-layout.col#madubox-carrinhos-kart": {

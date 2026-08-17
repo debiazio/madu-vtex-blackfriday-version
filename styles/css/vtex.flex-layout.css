@@ -386,11 +386,13 @@
 
 .flexRow--linha-diferencas {
   margin-bottom: 57px;
+  margin-top: 57px;
 }
 
 .flexRowContent--linha-diferencas {
   display: flow-root;
   background-color: #F5F5F5;
+  border-radius: 20px;
 }
 
 .flexRowContent--textos-coluna-esquerda-banner1-madubox .stretchChildrenWidth {
@@ -601,11 +603,11 @@
 
 
 .flexRowContent--linha-detalhes-tecnicos-madubox {
-  background-image: url(assets/fundo-colorido2.webp);
+  /* background-image: url(assets/fundo-colorido2.webp);
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-  height: 274px;
+  background-position: right; */
+  /* background-size: contain;
+  height: 274px; */
   display: flex;
   flex-direction: column;
   white-space: nowrap;
@@ -1861,7 +1863,7 @@
   }
 
   .flexRowContent--linha-detalhes-tecnicos-madubox {
-    background-position-x: 215px;
+    /* background-position-x: 215px; */
     height: 200px;
     margin-left: 15px;
   }
