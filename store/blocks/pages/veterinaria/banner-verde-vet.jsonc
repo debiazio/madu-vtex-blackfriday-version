@@ -57,11 +57,11 @@
       "colSizing": "auto"
     },
     "children": [
-      "componente-link-custom#verProduto-vet",
-      "componente-link-consultor#falarVendedor-vet"
+      "componente-link-custom-bannerVerde#verProduto-vet",
+      "componente-link-consultor-bannerVerde#falarVendedor-vet"
     ]
   },
-  "componente-link-custom#verProduto-vet": {
+  "componente-link-custom-bannerVerde#verProduto-vet": {
     "props": {
       "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/mobiliario-veterinario",
@@ -74,7 +74,7 @@
     },
     "title": "Link ver produto"
   },
-  "componente-link-consultor#falarVendedor-vet": {
+  "componente-link-consultor-bannerVerde#falarVendedor-vet": {
     "props": {
       "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+ajuda+para+encontrar+a+configura%C3%A7%C3%A3o+ideal+para+minha+rotina&type=phone_number&app_absent=0",
       "label": "Falar com Consultor",

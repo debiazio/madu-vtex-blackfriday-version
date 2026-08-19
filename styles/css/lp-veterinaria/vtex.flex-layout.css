@@ -1,4 +1,4 @@
-.flexRowContent--linhaProdutos-vet .stretchChildrenWidth{
+.flexRowContent--linhaProdutos-vet .stretchChildrenWidth {
   display: flex;
   flex-direction: column;
 }
@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 10px;
 }
 
 .flexRowContent--linha-textos-bannerVerde-vet {
@@ -410,12 +411,13 @@
 
 @media screen and (max-width: 1024px) {
   .flexRowContent--linha-maisVendidos-novaHome {
-    padding: 0!important;
+    padding: 0 !important;
   }
 
-  .flexRowContent--linhaProdutos-vet{
-    padding-left: unset!important;
+  .flexRowContent--linhaProdutos-vet {
+    padding-left: unset !important;
   }
+
   .flexRow--linha-bannerLaranja-vet {
     margin-top: unset;
   }
@@ -431,7 +433,7 @@
     padding: 0 21px;
   }
 
-  .flexRow--linha-bannerVerde-vet{
+  .flexRow--linha-bannerVerde-vet {
     margin-bottom: 86px;
   }
 

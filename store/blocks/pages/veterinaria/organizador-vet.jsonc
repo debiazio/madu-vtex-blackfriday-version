@@ -146,25 +146,33 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "link#verproduto-organizador-vet",
-      "link#falarVendedor-organizador-vet"
+      "componente-link-custom#verproduto-organizador-vet",
+      "componente-link-consultor#falarVendedor-organizador-vet"
     ],
     "title": "Links produto linha one"
   },
-  "link#verproduto-organizador-vet": {
+  "componente-link-custom#verproduto-organizador-vet": {
     "props": {
       "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two-1/p",
-      "label": "ver produto"
+      "label": "Ver Produto",
+      "productName": "Carrinho Organizador Profissional com 3 Gavetas e 18 Bins | MAD.U TWO",
+      "productLine": "two",
+      "ctaType": "ver_produto",
+      "productPosition": 6,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
-  "link#falarVendedor-organizador-vet": {
+  "componente-link-consultor#falarVendedor-organizador-vet": {
     "props": {
-      "blockClass": "link-falarConsultor-vet",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20Organizador%20Veterin%C3%A1rio%20com%203%20Gavetas%20e%2018%20Bins",
-      "label": "falar com consultor",
-      "target": "_blank"
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+Organizador+Veterin%C3%A1rio+com+3+Gavetas+e+18+Bins&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "Carrinho Organizador Profissional com 3 Gavetas e 18 Bins | MAD.U TWO",
+      "productLine": "two",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 6,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link falar com consultor"
   }
