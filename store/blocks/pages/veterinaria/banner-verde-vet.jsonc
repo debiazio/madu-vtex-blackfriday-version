@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#banner-verde-vet":{
+  "flex-layout.row#banner-verde-vet": {
     "title": "Banner verde",
     "props": {
       "blockClass": "linha-bannerVerde-vet",
@@ -13,7 +13,7 @@
   // ====================================================
   // linha textos
   // ====================================================
-  "flex-layout.row#textosLink-banner-verde-vet":{
+  "flex-layout.row#textosLink-banner-verde-vet": {
     "title": "Linha textos e link banner verde",
     "props": {
       "blockClass": "linha-textos-banner-verde-vet",
@@ -24,7 +24,7 @@
       "flex-layout.row#links-bannerVerde-vet"
     ]
   },
-  "flex-layout.row#textos-bannerVerde-vet":{
+  "flex-layout.row#textos-bannerVerde-vet": {
     "title": "Linha textos banner verde",
     "props": {
       "blockClass": "linha-textos-bannerVerde-vet",
@@ -35,21 +35,21 @@
       "rich-text#subtitulo-bannerVerde-vet"
     ]
   },
-  "rich-text#titulo-bannerVerde-vet":{
+  "rich-text#titulo-bannerVerde-vet": {
     "title": "Titulo banner verde",
     "props": {
       "blockClass": "titulo-bannerVerde-vet",
       "text": "### Encontre a configuração \n ### **ideal para sua rotina**"
     }
   },
-  "rich-text#subtitulo-bannerVerde-vet":{
+  "rich-text#subtitulo-bannerVerde-vet": {
     "title": "subtitulo-bannerVerde-vet",
     "props": {
       "blockClass": "subtitulo-bannerVerde-vet",
       "text": "Com o apoio de um consultor MAD.U, você pode avaliar módulos, acessórios e configurações compatíveis com cada produto e com as necessidades da sua operação veterinária."
     }
   },
-  "flex-layout.row#links-bannerVerde-vet":{
+  "flex-layout.row#links-bannerVerde-vet": {
     "title": "Links banner verde",
     "props": {
       "blockClass": "linha-links-bannerVerde-vet",
@@ -57,32 +57,39 @@
       "colSizing": "auto"
     },
     "children": [
-      "link#verProduto-vet",
-      "link#falarVendedor-vet"
+      "componente-link-custom#verProduto-vet",
+      "componente-link-consultor#falarVendedor-vet"
     ]
   },
-  "link#verProduto-vet":{
-    "title": "Link ver produto banner verde",
+  "componente-link-custom#verProduto-vet": {
     "props": {
-      "blockClass": "verProduto-bannerVerde-vet",
+      "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/mobiliario-veterinario",
-      "label": "ver produtos",
-      "target": "_blank"
-    }
+      "label": "Ver Produto",
+      "productName": "todos_produtos_veterinaria",
+      "productLine": "todos",
+      "ctaType": "ver_produto",
+      "productPosition": 8,
+      "pageName": "lp_veterinaria"
+    },
+    "title": "Link ver produto"
   },
-  "link#falarVendedor-vet":{
-    "title": "Link falar com vendedor bannerVerde-vet",
+  "componente-link-consultor#falarVendedor-vet": {
     "props": {
-      "blockClass": "falarVendedor-vet",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20ajuda%20para%20encontrar%20a%20configura%C3%A7%C3%A3o%20ideal%20para%20minha%20rotina",
-      "label": "falar com consultor",
-      "target": "_blank"
-    }
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+ajuda+para+encontrar+a+configura%C3%A7%C3%A3o+ideal+para+minha+rotina&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "todos_produtos_veterinaria",
+      "productLine": "todos",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 8,
+      "pageName": "lp_veterinaria"
+    },
+    "title": "Link falar com consultor"
   },
-    // ====================================================
+  // ====================================================
   // linha imagem
   // ====================================================
-  "image#doguinho-bannerVerde-vet":{
+  "image#doguinho-bannerVerde-vet": {
     "title": "Imagem cachorrinho banner verde",
     "props": {
       "blockClass": "doguinho-bannerVerde-vet",

@@ -144,25 +144,33 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "link#verproduto-linhaOne-vet",
-      "link#falarVendedor-linhaOne-vet"
+      "componente-link-custom#verproduto-linhaOne-vet",
+      "componente-link-consultor#falarVendedor-linhaOne-vet"
     ],
     "title": "Links produto linha one"
   },
-  "link#verproduto-linhaOne-vet": {
+  "componente-link-custom#verproduto-linhaOne-vet": {
     "props": {
       "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/carrinho-emergencia-hospitalar-4-gavetas-madu-one-560/p",
-      "label": "ver produto"
+      "label": "Ver Produto",
+      "productName": "Carrinho de Emergência Hospitalar com 4 Gavetas e Acessórios | MAD.U ONE 560",
+      "productLine": "one",
+      "ctaType": "ver_produto",
+      "productPosition": 1,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
-  "link#falarVendedor-linhaOne-vet": {
+  "componente-link-consultor#falarVendedor-linhaOne-vet": {
     "props": {
-      "blockClass": "link-falarConsultor-vet",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20de%20Emerg%C3%AAncia%20Veterin%C3%A1ria%20MAD.U%20ONE%20560",
-      "label": "falar com consultor",
-      "target": "_blank"
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+de+Emerg%C3%AAncia+Veterin%C3%A1ria+MAD.U+ONE+560&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "Carrinho de Emergência Hospitalar com 4 Gavetas e Acessórios | MAD.U ONE 560",
+      "productLine": "one",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 1,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link falar com consultor"
   }

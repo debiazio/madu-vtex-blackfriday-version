@@ -194,10 +194,10 @@
       "alt": "Imagem estante",
       "title": "Imagem estante",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7500ad77-3ada-4b0a-b00f-178deb032587___2d935b84d972b581924ce40620c66eda.webp",
-    "link": {
-      "url": "https://www.pensemadu.com.br/estante-96-bins-suportes-laterais-madu-one-740/p",
-      "newTab": true
-    }
+      "link": {
+        "url": "https://www.pensemadu.com.br/estante-96-bins-suportes-laterais-madu-one-740/p",
+        "newTab": true
+      }
     },
     "title": "Imagem estante mobile"
   },
@@ -306,25 +306,33 @@
       "blockClass": "links-estanteVet"
     },
     "children": [
-      "link#verproduto-estante-vet",
-      "link#falarVendedor-estante-vet"
+      "componente-link-custom#verproduto-estante-vet",
+      "componente-link-consultor#falarVendedor-estante-vet"
     ],
     "title": "Linha links Estante"
   },
-  "link#verproduto-estante-vet": {
+  "componente-link-custom#verproduto-estante-vet": {
     "props": {
       "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/estante-96-bins-suportes-laterais-madu-one-740/p",
-      "label": "ver produto"
+      "label": "Ver Produto",
+      "productName": "Estante Multiuso com 96 Bins e 6 Suportes Laterais | MAD.U One 740",
+      "productLine": "one",
+      "ctaType": "ver_produto",
+      "productPosition": 2,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
-  "link#falarVendedor-estante-vet": {
+  "componente-link-consultor#falarVendedor-estante-vet": {
     "props": {
-      "blockClass": "link-falarConsultor-vet",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Estante%20Girat%C3%B3ria%20com%2096%20Bins",
-      "label": "falar com consultor",
-      "target": "_blank"
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+a+Estante+Girat%C3%B3ria+com+96+Bins&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "Estante Multiuso com 96 Bins e 6 Suportes Laterais | MAD.U One 740",
+      "productLine": "one",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 2,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link falar com consultor"
   }

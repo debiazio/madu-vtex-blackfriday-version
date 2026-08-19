@@ -64,10 +64,10 @@
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fe4858ac-34f4-4747-a440-86615decb9ee___937bf73c74e29b16388c19f02c20a701.webp",
       "alt": "Imagem maior organização",
       "blockClass": "img-maiorOrg-vet",
-    "link": {
-      "url": "https://www.pensemadu.com.br/bins-kits-e-unitario/",
-      "newTab": true
-    }
+      "link": {
+        "url": "https://www.pensemadu.com.br/bins-kits-e-unitario/",
+        "newTab": true
+      }
     },
     "title": "Imagem maior organização - mobile"
   },
@@ -93,7 +93,7 @@
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e38eaebc-dd1d-4189-83ad-ee3a8a77dd01___3af91b4f6a58f95bda4e242f4d697c19.webp",
       "alt": "Imagem maior organização",
       "blockClass": "img-maiorOrg-vet",
-            "link": {
+      "link": {
         "url": "https://www.pensemadu.com.br/bins-kits-e-unitario/",
         "newTab": true
       }
@@ -111,26 +111,33 @@
       ]
     },
     "children": [
-      "link#verproduto-maiorOrg-vet",
-      "link#falarVendedor-maiorOrg-vet"
+      "componente-link-custom#verproduto-maiorOrg-vet",
+      "componente-link-consultor#falarVendedor-maiorOrg-vet"
     ],
     "title": "Linha links maior organização"
   },
-  "link#verproduto-maiorOrg-vet": {
+  "componente-link-custom#verproduto-maiorOrg-vet": {
     "props": {
       "blockClass": "link-verProduto",
-      "href": "https://www.pensemadu.com.br/bins-kits-e-unitario/",
-      "label": "ver produto",
-      "target": "_blank"
+      "href": "https://www.pensemadu.com.br/bins-kits-e-unitario",
+      "label": "Ver Produto",
+      "productName": "categoria_bins_e_kits",
+      "productLine": "one",
+      "ctaType": "ver_produto",
+      "productPosition": 3,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
-  "link#falarVendedor-maiorOrg-vet": {
+  "componente-link-consultor#falarVendedor-maiorOrg-vet": {
     "props": {
-      "blockClass": "link-falarConsultor-vet",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Gaveta%20Pl%C3%A1stica%20Bin%20Antimicrobiana%20N%C2%BA%204%20com%20Tampa%20%E2%80%93%20MAD.U%20ONE",
-      "label": "falar com consultor",
-      "target": "_blank"
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+a+Gaveta+Pl%C3%A1stica+Bin+Antimicrobiana+N%C2%BA+4+com+Tampa+%E2%80%93+MAD.U+ONE&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "categoria_bins_e_kits",
+      "productLine": "one",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 3,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link falar com consultor"
   }

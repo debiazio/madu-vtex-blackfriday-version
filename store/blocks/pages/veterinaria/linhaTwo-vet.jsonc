@@ -154,26 +154,34 @@
       "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
-      "link#vertudo-linhaTwo-vet",
-      "link#falarVendedor-linhaTwo-vet"
+      "componente-link-custom#vertudo-linhaTwo-vet",
+      "componente-link-consultor#falarVendedor-linhaTwo-vet"
     ]
   },
-  "link#vertudo-linhaTwo-vet": {
-    "title": "link ver tudo produto 1",
+  "componente-link-custom#vertudo-linhaTwo-vet": {
     "props": {
-      "blockClass": "link-vertudo",
+      "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/carrinho-emergencia-hospitalar-3-gavetas-nicho-madu-two/p",
-      "label": "ver produto"
-    }
+      "label": "Ver Produto",
+      "productName": "Carrinho de Emergência Hospitalar com 3 Gavetas, Nicho e Suportes para Cilindros | MAD.U TWO",
+      "productLine": "two",
+      "ctaType": "ver_produto",
+      "productPosition": 5,
+      "pageName": "lp_veterinaria"
+    },
+    "title": "Link ver produto"
   },
-  "link#falarVendedor-linhaTwo-vet": {
-    "title": "link falar com vendedor produto 1",
+  "componente-link-consultor#falarVendedor-linhaTwo-vet": {
     "props": {
-      "blockClass": "link-falarVendedor",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20Veterin%C3%A1rio%20com%203%20Gavetas%2C%20Nicho%20e%20Suportes%20para%20Cilindros",
-      "label": "falar com consultor",
-      "target": "_blank"
-    }
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+Veterin%C3%A1rio+com+3+Gavetas%2C+Nicho+e+Suportes+para+Cilindros&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "Carrinho de Emergência Hospitalar com 3 Gavetas, Nicho e Suportes para Cilindros | MAD.U TWO",
+      "productLine": "two",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 5,
+      "pageName": "lp_veterinaria"
+    },
+    "title": "Link falar com consultor"
   },
   // ==================
   // produto 2
@@ -226,26 +234,34 @@
       "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
-      "link#vertudo2-linhaTwo-vet",
-      "link#falarVendedor2-linhaTwo-vet"
+      "componente-link-custom#vertudo2-linhaTwo-vet",
+      "componente-link-consultor#falarVendedor2-linhaTwo-vet"
     ]
   },
-  "link#vertudo2-linhaTwo-vet": {
-    "title": "link ver tudo produto 2",
+  "componente-link-custom#vertudo2-linhaTwo-vet": {
     "props": {
-      "blockClass": "link-vertudo",
+      "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/carrinho-veterinario-6-gavetas-caixas-laterais-madu-two/p",
-      "label": "ver produto"
-    }
+      "label": "Ver Produto",
+      "productName": "Carrinho Multiuso Veterinário com 6 Gavetas e Caixas Laterais | MAD.U TWO",
+      "productLine": "two",
+      "ctaType": "ver_produto",
+      "productPosition": 5,
+      "pageName": "lp_veterinaria"
+    },
+    "title": "Link ver produto"
   },
-  "link#falarVendedor2-linhaTwo-vet": {
-    "title": "link falar com vendedor produto 2",
+  "componente-link-consultor#falarVendedor2-linhaTwo-vet": {
     "props": {
-      "blockClass": "link-falarVendedor",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20de%20Emerg%C3%AAncia%20Veterin%C3%A1ria%20com%206%20Gavetas",
-      "label": "falar com consultor",
-      "target": "_blank"
-    }
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+de+Emerg%C3%AAncia+Veterin%C3%A1ria+com+6+Gavetas&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "Carrinho Multiuso Veterinário com 6 Gavetas e Caixas Laterais | MAD.U TWO",
+      "productLine": "two",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 5,
+      "pageName": "lp_veterinaria"
+    },
+    "title": "Link falar com consultor"
   },
   // ==================
   // produto 3
@@ -298,26 +314,34 @@
       "blockClass": "links-produto-linhaTwo-vet"
     },
     "children": [
-      "link#vertudo3-linhaTwo-vet",
-      "link#falarVendedor3-linhaTwo-vet"
+      "componente-link-custom#vertudo3-linhaTwo-vet",
+      "componente-link-consultor#falarVendedor3-linhaTwo-vet"
     ]
   },
-  "link#vertudo3-linhaTwo-vet": {
-    "title": "link ver tudo produto 3",
+  "componente-link-custom#vertudo3-linhaTwo-vet": {
     "props": {
-      "blockClass": "link-vertudo",
+      "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/carrinho-organizador-3-gavetas-18-bins-madu-two/p",
-      "label": "ver produto"
-    }
+      "label": "Ver Produto",
+      "productName": "Carrinho Auxiliar Multiuso com 3 Gavetas, Bins e Big Bin | MAD.U TWO",
+      "productLine": "two",
+      "ctaType": "ver_produto",
+      "productPosition": 5,
+      "pageName": "lp_veterinaria"
+    },
+    "title": "Link ver produto"
   },
-  "link#falarVendedor3-linhaTwo-vet": {
-    "title": "link falar com vendedor produto 3",
+  "componente-link-consultor#falarVendedor3-linhaTwo-vet": {
     "props": {
-      "blockClass": "link-falarVendedor",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20Auxiliar%20Veterin%C3%A1rio%20com%20Bins%20e%20Big%20Bin",
-      "label": "falar com consultor",
-      "target": "_blank"
-    }
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+Auxiliar+Veterin%C3%A1rio+com+Bins+e+Big+Bin&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "Carrinho Auxiliar Multiuso com 3 Gavetas, Bins e Big Bin | MAD.U TWO",
+      "productLine": "two",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 5,
+      "pageName": "lp_veterinaria"
+    },
+    "title": "Link falar com consultor"
   },
   //  ==================
   //  produtos mobiel

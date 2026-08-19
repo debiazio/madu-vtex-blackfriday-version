@@ -87,24 +87,32 @@
       "colSizing": "auto"
     },
     "children": [
-      "link#verProduto-linhaExpress-vet",
-      "link#falarVendedor-linhaExpress-vet"
+      "componente-link-custom#verProduto-linhaExpress-vet",
+      "componente-link-consultor#falarVendedor-linhaExpress-vet"
     ]
   },
-  "link#verProduto-linhaExpress-vet": {
+  "componente-link-custom#verProduto-linhaExpress-vet": {
     "props": {
       "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/bancada-profissional-em-inox-24-bins-3-big-bins-madu-express/p",
-      "label": "ver produto"
+      "label": "Ver Produto",
+      "productName": "Bancada Profissional em Inox com 24 Bins Antimicrobianos e 3 Big Bins | MAD.U Express",
+      "productLine": "express",
+      "ctaType": "ver_produto",
+      "productPosition": 4,
+      "pageName": "lp_veterinaria"
     },
-    "title": "Ver produto LinhaExpressVet"
+    "title": "Link ver produto"
   },
-  "link#falarVendedor-linhaExpress-vet": {
+  "componente-link-consultor#falarVendedor-linhaExpress-vet": {
     "props": {
-      "blockClass": "link-falarConsultor-vet",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Bancada%20Profissional%20em%20Inox%20%7C%20MAD.U%20Express",
-      "label": "falar com consultor",
-      "target": "_blank"
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+a+Bancada+Profissional+em+Inox+%7C+MAD.U+Express&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "Bancada Profissional em Inox com 24 Bins Antimicrobianos e 3 Big Bins | MAD.U Express",
+      "productLine": "express",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 4,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link falar com consultor"
   },
@@ -217,24 +225,32 @@
       "blockClass": "links-produto-subcoluna-linhaExpress-vet"
     },
     "children": [
-      "link#verProduto-carrinho-vet",
-      "link#falarVendedor-carrinho-vet"
+      "componente-link-custom#verProduto-carrinho-vet",
+      "componente-link-consultor#falarVendedor-carrinho-vet"
     ]
   },
-  "link#verProduto-carrinho-vet": {
+  "componente-link-custom#verProduto-carrinho-vet": {
     "props": {
       "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/carrinho-auxiliar-inox-big-bin-madu-express/p",
-      "label": "ver produto"
+      "label": "Ver Produto",
+      "productName": "Carrinho Auxiliar em Aço Inox com Big Bin | MAD.U Express",
+      "productLine": "express",
+      "ctaType": "ver_produto",
+      "productPosition": 4,
+      "pageName": "lp_veterinaria"
     },
-    "title": "Link ver produto carrinho"
+    "title": "Link ver produto"
   },
-  "link#falarVendedor-carrinho-vet": {
+  "componente-link-consultor#falarVendedor-carrinho-vet": {
     "props": {
-      "blockClass": "link-falarConsultor-vet",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Carrinho%20Express%20com%20Tampo%20Inox%20e%20Big%20Bin",
-      "label": "falar com consultor",
-      "target": "_blank"
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+Express+com+Tampo+Inox+e+Big+Bin&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "Carrinho Auxiliar em Aço Inox com Big Bin | MAD.U Express",
+      "productLine": "express",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 4,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link falar com consultor"
   },
@@ -279,24 +295,32 @@
       "blockClass": "links-produto-subcoluna-linhaExpress-vet"
     },
     "children": [
-      "link#verProduto-prateleiras-vet",
-      "link#falarVendedor-prateleiras-vet"
+      "componente-link-custom#verProduto-prateleiras-vet",
+      "componente-link-consultor#falarVendedor-prateleiras-vet"
     ]
   },
-  "link#verProduto-prateleiras-vet": {
+  "componente-link-custom#verProduto-prateleiras-vet": {
     "props": {
       "blockClass": "link-verProduto",
       "href": "https://www.pensemadu.com.br/estante-organizadora-inox-18-prateleiras-madu-express/p",
-      "label": "ver produto"
+      "label": "Ver Produto",
+      "productName": "Estante Organizadora em Aço Inox com 3 Prateleiras e 18 Placas Modulares | MAD.U Express",
+      "productLine": "express",
+      "ctaType": "ver_produto",
+      "productPosition": 4,
+      "pageName": "lp_veterinaria"
     },
-    "title": "Link ver produto prateleiras"
+    "title": "Link ver produto"
   },
-  "link#falarVendedor-prateleiras-vet": {
+  "componente-link-consultor#falarVendedor-prateleiras-vet": {
     "props": {
-      "blockClass": "link-falarConsultor-vet",
-      "href": "https://wa.me/5541996878783?text=Ol%C3%A1%2C%20estou%20vindo%20da%20p%C3%A1gina%20de%20Veterin%C3%A1ria%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20Prateleiras%20Baixa%20Express",
-      "label": "falar com consultor",
-      "target": "_blank"
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+as+Prateleiras+Baixa+Express&type=phone_number&app_absent=0",
+      "label": "Falar com Consultor",
+      "productName": "Estante Organizadora em Aço Inox com 3 Prateleiras e 18 Placas Modulares | MAD.U Express",
+      "productLine": "express",
+      "ctaType": "falar_com_consultor",
+      "productPosition": 4,
+      "pageName": "lp_veterinaria"
     },
     "title": "Link falar com consultor"
   }
