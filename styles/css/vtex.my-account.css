@@ -30,6 +30,11 @@
   height: 15px;
 }
 
+/* :global(.vtex-button__label){
+  background-color: #32A078;
+} */
+
+
 :global(.vtex-disclosure-layout-1-x-trigger--hidden)
   :global(.vtex-rich-text-0-x-strong--texto-trigger-comoConfig-maduset) {
   background: #D8D8D8;

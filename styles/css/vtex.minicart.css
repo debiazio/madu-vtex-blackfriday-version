@@ -101,6 +101,7 @@
 
 .minicartContainer :global(.vtex-button__label) {
   padding-bottom: 7px;
+  background-color: transparent;
 }
 
 
