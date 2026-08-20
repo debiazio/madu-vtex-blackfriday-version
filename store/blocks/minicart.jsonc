@@ -9,6 +9,15 @@
       // "onClickBehavior": "go-to-product-page"
     }
   },
+  "add-to-cart-button#shelf": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "evento-add-ao-carrinho",
+      "unavailableText": "Produto indisponível",
+      "blockClass": "botao-comprar-shelf",
+      "text": "COMPRAR"
+    }
+  },
   "minicart.v2": {
     "props": {
       "customPixelEventId": "evento-add-ao-carrinho",

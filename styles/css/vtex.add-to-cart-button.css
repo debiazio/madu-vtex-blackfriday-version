@@ -4,6 +4,10 @@
   font-size: 20px;
 }
 
+.buttonText--botao-comprar-shelf::before{
+  font-size: 0;
+}
+
 :global(.vtex-flex-layout-0-x-flexRowContent--buy-button-pdp) .buttonText {
   color: #fff;
   font: 0 "Poppins SemiBold";

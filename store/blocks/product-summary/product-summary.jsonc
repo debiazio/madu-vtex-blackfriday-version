@@ -16,7 +16,7 @@
           "subject": "isProductAvailable"
         }
       ],
-      "Then": "product-summary-buy-button",
+      "Then": "add-to-cart-button#shelf",
       "Else": "overlay-trigger"
     }
   },
@@ -94,29 +94,12 @@
   //     "blockClass":"wishlist-shelf"
   //   }
   // },
-  "flex-layout.row#add-to-cart-summary": {
-    "children": [
-      "product-summary-sku-selector",
-      "add-to-cart-button"
-    ],
-    "props": {
-      "blockClass": "add-to-cart-summary",
-      "fullWidth": false,
-      "preventHorizontalStretch": false,
-      "preventVerticalStretch": false,
-      "colSizing": "auto"
-    }
-  },
+
   "product-summary-sku-selector": {
     "props": {
       "visibleVariations": [
         "Tamanho"
       ]
-    }
-  },
-  "add-to-cart-button": {
-    "props": {
-      "onClickBehavior": "go-to-product-page"
     }
   },
   "flex-layout.col#product-info-summary": {
