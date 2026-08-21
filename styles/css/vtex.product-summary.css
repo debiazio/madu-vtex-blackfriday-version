@@ -1,3 +1,11 @@
+.clearLink :global(.vtex-button){
+  border-radius: 100px;
+  border: none;
+}
+.clearLink :global(.vtex-button):hover{
+  background-color: #9494c8;
+}
+
 .brandName {
   text-align: center;
 }
