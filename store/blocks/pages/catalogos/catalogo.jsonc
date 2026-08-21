@@ -33,6 +33,7 @@
     "children": [
       "flex-layout.col#catalogo-nossasLinhas",
       "flex-layout.col#catalogo-linha-one",
+      "flex-layout.col#catalogo-linha-box",
       "flex-layout.col#catalogo-linha-set"
     ]
   }

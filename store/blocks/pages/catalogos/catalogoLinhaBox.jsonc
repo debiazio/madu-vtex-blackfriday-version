@@ -1,0 +1,38 @@
+{
+  "flex-layout.col#catalogo-linha-box": {
+    "props": {
+      "blockClass": "linhasCatalogos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#capacatalogo-box",
+      "rich-text#titulo-box",
+      "link#lerCatalogo-box",
+      "btn-linha-box"
+    ]
+  },
+  // "btn-linhabox":{},
+  "image#capacatalogo-box": {
+    "props": {
+      "blockClass": "capaCatalogo",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d38c7100-5350-4a0a-a882-837e0b202953___ed121111a46cdec87d0ac72358f77397.webp",
+      "alt": "capa catálogo"
+    }
+  },
+  "rich-text#titulo-box": {
+    "props": {
+      "blockClass": "titulo-catalogo",
+      "text": "Linha Box",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "link#lerCatalogo-box": {
+    "props": {
+      "blockClass": "linkLerCatalogo",
+      "label": "Ler PDF",
+      "href": "https://stermax.com.br/images_idealine/catalogosMadu/catalogo-madu-box.pdf",
+      "target": "_blank"
+    }
+  }
+}
