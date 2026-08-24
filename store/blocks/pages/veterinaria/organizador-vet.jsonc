@@ -62,17 +62,17 @@
       "flex-layout.row#links-produto-organizador-vet"
     ]
   },
-  "flex-layout.row#linha-titulo-produtoOrganizador-vet": {
-    "props": {
-      "blockClass": "linha-titulo-produtoLinhaOne-vet",
-      "preventHorizontalStretch": true,
-      "colSizing": "auto"
-    },
-    "children": [
-      "rich-text#linha",
-      "image#tag-one-vet"
-    ]
-  },
+  // "flex-layout.row#linha-titulo-produtoOrganizador-vet": {
+  //   "props": {
+  //     "blockClass": "linha-titulo-produtoLinhaOne-vet",
+  //     "preventHorizontalStretch": true,
+  //     "colSizing": "auto"
+  //   },
+  //   "children": [
+  //     "rich-text#linha",
+  //     "image#tag-one-vet"
+  //   ]
+  // },
   "image#tag-one-vet": {
     "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbdf2eb-1758-4f7a-9759-9181c687f8e0___213cf17ba35421a3655f03a4ce40ded1.svg",
@@ -159,21 +159,21 @@
       "productName": "Carrinho Organizador Profissional com 3 Gavetas e 18 Bins | MAD.U TWO",
       "productLine": "two",
       "ctaType": "ver_produto",
-      "productPosition": 6,
+      "productPosition": 3,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor-organizador-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+Organizador+Veterin%C3%A1rio+com+3+Gavetas+e+18+Bins&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+o+Carrinho+Organizador+Veterin%C3%A1rio+com+3+Gavetas+e+18+Bins&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Carrinho Organizador Profissional com 3 Gavetas e 18 Bins | MAD.U TWO",
       "productLine": "two",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 6,
+      "ctaType": "personalizar_produto",
+      "productPosition": 3,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   }
 }

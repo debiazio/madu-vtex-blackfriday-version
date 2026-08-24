@@ -124,21 +124,21 @@
       "productName": "categoria_bins_e_kits",
       "productLine": "one",
       "ctaType": "ver_produto",
-      "productPosition": 3,
+      "productPosition": 5,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor-maiorOrg-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+a+Gaveta+Pl%C3%A1stica+Bin+Antimicrobiana+N%C2%BA+4+com+Tampa+%E2%80%93+MAD.U+ONE&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+a+Gaveta+Pl%C3%A1stica+Bin+Antimicrobiana+N%C2%BA+4+com+Tampa+%E2%80%93+MAD.U+ONE&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "categoria_bins_e_kits",
       "productLine": "one",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 3,
+      "ctaType": "personalizar_produto",
+      "productPosition": 5,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   }
 }

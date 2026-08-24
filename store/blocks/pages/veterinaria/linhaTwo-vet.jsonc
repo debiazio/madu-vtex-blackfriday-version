@@ -166,22 +166,22 @@
       "productName": "Carrinho de Emergência Hospitalar com 3 Gavetas, Nicho e Suportes para Cilindros | MAD.U TWO",
       "productLine": "two",
       "ctaType": "ver_produto",
-      "productPosition": 5,
+      "productPosition": 7,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor-linhaTwo-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+Veterin%C3%A1rio+com+3+Gavetas%2C+Nicho+e+Suportes+para+Cilindros&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+o+Carrinho+Veterin%C3%A1rio+com+3+Gavetas%2C+Nicho+e+Suportes+para+Cilindros&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Carrinho de Emergência Hospitalar com 3 Gavetas, Nicho e Suportes para Cilindros | MAD.U TWO",
       "productLine": "two",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 5,
+      "ctaType": "personalizar_produto",
+      "productPosition": 7,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   // ==================
   // produto 2
@@ -246,22 +246,22 @@
       "productName": "Carrinho Multiuso Veterinário com 6 Gavetas e Caixas Laterais | MAD.U TWO",
       "productLine": "two",
       "ctaType": "ver_produto",
-      "productPosition": 5,
+      "productPosition": 7,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor2-linhaTwo-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+de+Emerg%C3%AAncia+Veterin%C3%A1ria+com+6+Gavetas&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+o+Carrinho+de+Emerg%C3%AAncia+Veterin%C3%A1ria+com+6+Gavetas&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Carrinho Multiuso Veterinário com 6 Gavetas e Caixas Laterais | MAD.U TWO",
       "productLine": "two",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 5,
+      "ctaType": "personalizar_produto",
+      "productPosition": 7,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   // ==================
   // produto 3
@@ -326,22 +326,22 @@
       "productName": "Carrinho Auxiliar Multiuso com 3 Gavetas, Bins e Big Bin | MAD.U TWO",
       "productLine": "two",
       "ctaType": "ver_produto",
-      "productPosition": 5,
+      "productPosition": 7,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor3-linhaTwo-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+Auxiliar+Veterin%C3%A1rio+com+Bins+e+Big+Bin&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+o+Carrinho+Auxiliar+Veterin%C3%A1rio+com+Bins+e+Big+Bin&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Carrinho Auxiliar Multiuso com 3 Gavetas, Bins e Big Bin | MAD.U TWO",
       "productLine": "two",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 5,
+      "ctaType": "personalizar_produto",
+      "productPosition": 7,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   //  ==================
   //  produtos mobiel

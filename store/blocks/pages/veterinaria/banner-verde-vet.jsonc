@@ -77,14 +77,14 @@
   "componente-link-consultor-bannerVerde#falarVendedor-vet": {
     "props": {
       "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+ajuda+para+encontrar+a+configura%C3%A7%C3%A3o+ideal+para+minha+rotina&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "label": "Personalizar Produto",
       "productName": "todos_produtos_veterinaria",
       "productLine": "todos",
-      "ctaType": "falar_com_consultor",
+      "ctaType": "personalizar_produto",
       "productPosition": 8,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   // ====================================================
   // linha imagem

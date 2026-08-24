@@ -99,22 +99,22 @@
       "productName": "Bancada Profissional em Inox com 24 Bins Antimicrobianos e 3 Big Bins | MAD.U Express",
       "productLine": "express",
       "ctaType": "ver_produto",
-      "productPosition": 4,
+      "productPosition": 6,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor-linhaExpress-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+a+Bancada+Profissional+em+Inox+%7C+MAD.U+Express&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+a+Bancada+Profissional+em+Inox+%7C+MAD.U+Express&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Bancada Profissional em Inox com 24 Bins Antimicrobianos e 3 Big Bins | MAD.U Express",
       "productLine": "express",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 4,
+      "ctaType": "personalizar_produto",
+      "productPosition": 6,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   // ======================
   // coluna 2
@@ -237,22 +237,22 @@
       "productName": "Carrinho Auxiliar em Aço Inox com Big Bin | MAD.U Express",
       "productLine": "express",
       "ctaType": "ver_produto",
-      "productPosition": 4,
+      "productPosition": 6,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor-carrinho-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+o+Carrinho+Express+com+Tampo+Inox+e+Big+Bin&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+o+Carrinho+Express+com+Tampo+Inox+e+Big+Bin&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Carrinho Auxiliar em Aço Inox com Big Bin | MAD.U Express",
       "productLine": "express",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 4,
+      "ctaType": "personalizar_produto",
+      "productPosition": 6,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   // ========================
   // produto 2
@@ -307,21 +307,21 @@
       "productName": "Estante Organizadora em Aço Inox com 3 Prateleiras e 18 Placas Modulares | MAD.U Express",
       "productLine": "express",
       "ctaType": "ver_produto",
-      "productPosition": 4,
+      "productPosition": 6,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor-prateleiras-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+as+Prateleiras+Baixa+Express&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+as+Prateleiras+Baixa+Express&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Estante Organizadora em Aço Inox com 3 Prateleiras e 18 Placas Modulares | MAD.U Express",
       "productLine": "express",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 4,
+      "ctaType": "personalizar_produto",
+      "productPosition": 6,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   }
 }

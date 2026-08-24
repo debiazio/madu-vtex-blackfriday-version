@@ -180,22 +180,22 @@
       "productName": "Maleta Home Care Veterinária com 4 Módulos, 2 Bins e MAD.U SET | MAD.U BOX",
       "productLine": "box",
       "ctaType": "ver_produto",
-      "productPosition": 7,
+      "productPosition": 4,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor-linhaBoxSet-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+a+Maleta+Home+Care+MAD.U+BOX&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+a+Maleta+Home+Care+MAD.U+BOX&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Maleta Home Care Veterinária com 4 Módulos, 2 Bins e MAD.U SET | MAD.U BOX",
       "productLine": "box",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 7,
+      "ctaType": "personalizar_produto",
+      "productPosition": 4,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   // ==================
   // produto 2
@@ -260,22 +260,22 @@
       "productName": "Maleta Psicotrópicos Veterinária com 1 Bin e Divisória | MAD.U BOX",
       "productLine": "box",
       "ctaType": "ver_produto",
-      "productPosition": 7,
+      "productPosition": 4,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor2-linhaBoxSet-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+a+Maleta+de+Medicamentos+Controlados+%7C+MAD.U+BOX&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+a+Maleta+de+Medicamentos+Controlados+%7C+MAD.U+BOX&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Maleta Psicotrópicos Veterinária com 1 Bin e Divisória | MAD.U BOX",
       "productLine": "box",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 7,
+      "ctaType": "personalizar_produto",
+      "productPosition": 4,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   // ==================
   // produto 3
@@ -340,22 +340,22 @@
       "productName": "Maleta de Coleta Veterinária com 4 Módulos, Bin e MAD.U SET | MAD.U BOX",
       "productLine": "box",
       "ctaType": "ver_produto",
-      "productPosition": 7,
+      "productPosition": 4,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor3-linhaBoxSet-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+a+Maleta+PET+Coleta+MAD.U+BOX&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+a+Maleta+PET+Coleta+MAD.U+BOX&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Maleta de Coleta Veterinária com 4 Módulos, Bin e MAD.U SET | MAD.U BOX",
       "productLine": "box",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 7,
+      "ctaType": "personalizar_produto",
+      "productPosition": 4,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   // ==================
   // produto 4
@@ -420,22 +420,22 @@
       "productName": "Maleta Veterinária Compacta com MAD.U SET e Caixa Antimicrobiana | MAD.U BOX",
       "productLine": "box",
       "ctaType": "ver_produto",
-      "productPosition": 7,
+      "productPosition": 4,
       "pageName": "lp_veterinaria"
     },
     "title": "Link ver produto"
   },
   "componente-link-consultor#falarVendedor4-linhaBoxSet-vet": {
     "props": {
-      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+mais+informa%C3%A7%C3%B5es+sobre+a+Maleta+PET+Care+MAD.U+BOX&type=phone_number&app_absent=0",
-      "label": "Falar com Consultor",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Veterin%C3%A1ria+e+quero+personalizar+a+Maleta+PET+Care+MAD.U+BOX&type=phone_number&app_absent=0",
+      "label": "Personalizar Produto",
       "productName": "Maleta Veterinária Compacta com MAD.U SET e Caixa Antimicrobiana | MAD.U BOX",
       "productLine": "box",
-      "ctaType": "falar_com_consultor",
-      "productPosition": 7,
+      "ctaType": "personalizar_produto",
+      "productPosition": 4,
       "pageName": "lp_veterinaria"
     },
-    "title": "Link falar com consultor"
+    "title": "Link Personalizar Produto"
   },
   //  ==================
   //  produtos mobiel
