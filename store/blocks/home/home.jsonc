@@ -12,7 +12,8 @@
       // "flex-layout.row#banner-nossos-clientes"
       // home antiga acima
       "flex-layout.row#banner-inicial-novaHome",
-      "flex-layout.row#deals-edited-novaHome",
+      "slider-nossos-clientes",
+      // "flex-layout.row#deals-edited-novaHome",
       "flex-layout.row#linha-3banners-novaHome",
       // "flex-layout.row#navegueSegmentos-novaHome",
       "responsive-layout.desktop#linha-maisVendidos-novaHome",
@@ -24,7 +25,7 @@
       "flex-layout.row#linha-3banners-2-novaHome",
       "responsive-layout.desktop#linhaExpand-maisVendidos-novaHome",
       "responsive-layout.mobile#linhaExpand-maisVendidos-novaHome",
-      "flex-layout.row#linha-nossosClientes",
+      // "flex-layout.row#linha-nossosClientes",
       "responsive-layout.desktop#video-novaHome",
       "responsive-layout.mobile#video-novaHome",
       "flex-layout.row#linha-nossasRedesSociais-novaHome",
