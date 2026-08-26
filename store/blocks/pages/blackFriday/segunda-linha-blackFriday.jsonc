@@ -1,0 +1,134 @@
+/**
+ * ==========================================================
+ *  BLACK FRIDAY — SEGUNDA LINHA (Conteúdo SEO)
+ *  Página: Black Friday MAD.U
+ *  Convenção de blockClass: kebab-case (minúsculas + hífen)
+ * ==========================================================
+ */
+// ==========================================================
+// SESSÃO: Segunda linha Black Friday
+// Contêiner principal que agrupa as 4 linhas de conteúdo
+// ==========================================================
+{
+  "flex-layout.row#segunda-linha-blackFriday": {
+    "props": {
+      "blockClass": "segunda-linha-black-friday",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#texto1-bf",
+      "flex-layout.row#texto2-bf",
+      "flex-layout.row#texto3-bf",
+      "flex-layout.row#texto4-bf"
+    ],
+    "title": "Segunda linha Black Friday"
+  },
+  // ==========================================================
+  // SESSÃO: Texto 1 — Black Friday MAD.U
+  // ==========================================================
+  "flex-layout.row#texto1-bf": {
+    "props": {
+      "blockClass": "linha-textos-bf"
+    },
+    "children": [
+      "rich-text#titulo1-textos-bf",
+      "rich-text#conteudotextos1-textos-bf"
+    ],
+    "title": "Linha dos textos Black Friday"
+  },
+  "rich-text#titulo1-textos-bf": {
+    "props": {
+      "blockClass": "titulo-textos-bf",
+      "text": "## 1. Black Friday MAD.U: ofertas em móveis e equipamento"
+    },
+    "title": "Título 1 textos Black Friday"
+  },
+  "rich-text#conteudotextos1-textos-bf": {
+    "props": {
+      "blockClass": "conteudo-textos-bf",
+      "text": "### Durante a Black Friday, a MAD.U reúne condições especiais em produtos selecionados para clínicas, hospitais, consultórios, veterinárias, escritórios, comércios e outros ambientes profissionais."
+    },
+    "title": "Conteúdo 1 textos Black Friday"
+  },
+  // ==========================================================
+  // SESSÃO: Texto 2 — Soluções MAD.U
+  // ==========================================================
+  "flex-layout.row#texto2-bf": {
+    "props": {
+      "blockClass": "linha-textos-bf"
+    },
+    "children": [
+      "rich-text#titulo2-textos-bf",
+      "rich-text#conteudotextos2-textos-bf"
+    ],
+    "title": "Linha dos textos Black Friday"
+  },
+  "rich-text#titulo2-textos-bf": {
+    "props": {
+      "blockClass": "titulo-textos-bf",
+      "text": "## 2. Encontre soluções MAD.U para o seu ambiente"
+    },
+    "title": "Título 2 textos Black Friday"
+  },
+  "rich-text#conteudotextos2-textos-bf": {
+    "props": {
+      "blockClass": "conteudo-textos-bf",
+      "text": "### Carrinhos, gaveteiros, módulos de organização e outros móveis funcionais fazem parte do portfólio MAD.U. Soluções desenvolvidas para facilitar a rotina, otimizar espaços e trazer mais organização para diferentes ambientes."
+    },
+    "title": "Conteúdo 2 textos Black Friday"
+  },
+  // ==========================================================
+  // SESSÃO: Texto 3 — Prepare-se para a Black Friday
+  // ==========================================================
+  "flex-layout.row#texto3-bf": {
+    "props": {
+      "blockClass": "linha-textos-bf"
+    },
+    "children": [
+      "rich-text#titulo3-textos-bf",
+      "rich-text#conteudotextos3-textos-bf"
+    ],
+    "title": "Linha dos textos Black Friday"
+  },
+  "rich-text#titulo3-textos-bf": {
+    "props": {
+      "blockClass": "titulo-textos-bf",
+      "text": "## 3. Prepare-se para a Black Friday"
+    },
+    "title": "Título 3 textos Black Friday"
+  },
+  "rich-text#conteudotextos3-textos-bf": {
+    "props": {
+      "blockClass": "conteudo-textos-bf",
+      "text": "### Cadastre-se ou acompanhe a MAD.U para não perder as próximas novidades e condições especiais da Black Friday."
+    },
+    "title": "Conteúdo 3 textos Black Friday"
+  },
+  // ==========================================================
+  // SESSÃO: Texto 4 — Black Friday MAD.U (encerramento)
+  // ==========================================================
+  "flex-layout.row#texto4-bf": {
+    "props": {
+      "blockClass": "linha-textos-bf"
+    },
+    "children": [
+      "rich-text#titulo4-textos-bf",
+      "rich-text#conteudotextos4-textos-bf"
+    ],
+    "title": "Linha dos textos Black Friday"
+  },
+  "rich-text#titulo4-textos-bf": {
+    "props": {
+      "blockClass": "titulo-textos-bf",
+      "text": "## 4. Black Friday MAD.U: "
+    },
+    "title": "Título 4 textos Black Friday"
+  },
+  "rich-text#conteudotextos4-textos-bf": {
+    "props": {
+      "blockClass": "conteudo-textos-bf",
+      "text": "### Mais organização, funcionalidade e oportunidades para o seu ambiente. Acompanhe esta página para conhecer as ofertas, produtos participantes e condições especiais da Black Friday MAD.U."
+    },
+    "title": "Conteúdo 4 textos Black Friday"
+  }
+}

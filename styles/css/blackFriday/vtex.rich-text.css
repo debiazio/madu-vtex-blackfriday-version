@@ -1,0 +1,75 @@
+.container--subtitulo-banner-bf {
+  max-width: 80%;
+}
+
+.headingLevel2--titulo-textos-bf {
+  font-family: "Poppins Bold" !important;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 108%;
+  letter-spacing: -3%;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.headingLevel3--conteudo-textos-bf {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #000000;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+.headingLevel1--titulo-banner-bf {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 96px;
+  color: #FFA008;
+  line-height: 104%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.headingLevel1--titulo2-banner-bf {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 45px;
+  color: #FFA008;
+  line-height: 104%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.headingLevel3--subtitulo-banner-bf {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 108%;
+  letter-spacing: 0%;
+}
+
+@media screen and (max-width: 1024px) {
+  .headingLevel3--subtitulo-banner-bf {
+    text-align: center;
+  }
+
+  .container--subtitulo-banner-bf {
+    max-width: unset;
+  }
+
+  .headingLevel1--titulo-banner-bf {
+    font-size: 76px;
+  }
+
+  .headingLevel1--titulo2-banner-bf {
+    font-size: 35px;
+  }
+}

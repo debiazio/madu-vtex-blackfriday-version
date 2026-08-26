@@ -1,0 +1,94 @@
+{
+  /**
+ * ==========================================================
+ *  BLACK FRIDAY — PRIMEIRA LINHA (Banner inicial)
+ *  Página: Black Friday MAD.U
+ *  Convenção de blockClass: kebab-case (minúsculas + hífen)
+ * ==========================================================
+ */
+  // ==========================================================
+  // SESSÃO: Primeira linha Black Friday (Banner inicial)
+  // Contêiner principal — divide o banner em 2 colunas:
+  // textos (esquerda) e imagem (direita)
+  // ==========================================================
+  "flex-layout.row#primeira-linha-blackFriday": {
+    "props": {
+      "blockClass": "primeira-linha-black-friday",
+      "colSizing": "equal",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#linhaTextos-primeiraLinha-blackFriday",
+      "flex-layout.row#linhaImagem-primeiraLinha-blackFriday"
+    ],
+    "title": "Banner inicial"
+  },
+  // ==========================================================
+  // SESSÃO: Linha de textos (coluna esquerda do banner)
+  // Contém logo, título e subtítulo
+  // ==========================================================
+  "flex-layout.row#linhaTextos-primeiraLinha-blackFriday": {
+    "props": {
+      "blockClass": "linha-textos-primeira-linha-black-friday",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#img-banner-inicial-blackFriday",
+      "rich-text#titulo-bf",
+      "rich-text#titulo2-bf",
+      "rich-text#subTitulo-bf"
+    ],
+    "title": "Linha de textos - Banner inicial"
+  },
+  "image#img-banner-inicial-blackFriday": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/62b25d82-175d-44e7-88af-150904157acf___72180380cc100fe93aa8ae7d8af4d137.svg",
+      "alt": "Madu styled",
+      "blockClass": "logo-banner-bf"
+    },
+    "title": "Logo MAD.U - Banner inicial"
+  },
+  "rich-text#titulo-bf": {
+    "props": {
+      "text": "# Black ",
+      "blockClass": "titulo-banner-bf"
+    },
+    "title": "Título banner Black Friday"
+  },
+  "rich-text#titulo2-bf": {
+    "props": {
+      "text": "# friday mad.u",
+      "blockClass": "titulo2-banner-bf"
+    },
+    "title": "Título banner Black Friday"
+  },
+  "rich-text#subTitulo-bf": {
+    "props": {
+      "text": "### A Black Friday MAD.U está chegando. Encontre oportunidades especiais para renovar, organizar e equipar ambientes profissionais com móveis funcionais, resistentes e pensados para diferentes necessidades.",
+      "blockClass": "subtitulo-banner-bf"
+    },
+    "title": "Subtítulo banner Black Friday"
+  },
+  // ==========================================================
+  // SESSÃO: Linha de imagem (coluna direita do banner)
+  // Contém a imagem principal da doutora
+  // ==========================================================
+  "flex-layout.row#linhaImagem-primeiraLinha-blackFriday": {
+    "props": {
+      "blockClass": "linha-imagem-primeira-linha-black-friday",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-bannerBlackFriday"
+    ],
+    "title": "Nome MAD.U - Banner inicial"
+  },
+  "image#imagem-bannerBlackFriday": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8ec8a53f-6a06-4a6f-a72d-3830a09ac00a___9ad8fc0b87f7402ad42825468d3df1e1.webp",
+      "alt": "Imagem doutora",
+      "blockClass": "imagem-banner-inicial-black-friday"
+    },
+    "title": "Imagem banner inicial"
+  }
+}
