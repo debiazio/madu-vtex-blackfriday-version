@@ -2,7 +2,8 @@
    "store.custom#blackfriday":{
     "blocks": [
       "flex-layout.row#primeira-linha-blackFriday",
-      "flex-layout.row#segunda-linha-blackFriday"
+      "flex-layout.row#segunda-linha-blackFriday",
+      "flex-layout.row#terceira-linha-blackFriday"
 
     ]
    }

@@ -1,0 +1,65 @@
+{
+  /**
+ * ==========================================================
+ *  BLACK FRIDAY — TERCEIRA LINHA (Formulário de cadastro)
+ *  Página: Black Friday MAD.U
+ *  Convenção de blockClass: kebab-case (minúsculas + hífen)
+ * ==========================================================
+ */
+  // ==========================================================
+  // SESSÃO: Terceira linha Black Friday (Formulário)
+  // Contêiner principal — divide a seção em 2 colunas:
+  // textos (esquerda) e formulário (direita)
+  // ==========================================================
+  "flex-layout.row#terceira-linha-blackFriday": {
+    "props": {
+      "blockClass": "terceira-linha-black-friday",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#col1-formulario-black-friday",
+      "flex-layout.col#col2-formulario-black-friday"
+    ],
+    "title": "Terceira linha Black Friday"
+  },
+  // ==========================================================
+  // SESSÃO: Coluna 1 — Textos do formulário
+  // Contém título e subtítulo do cadastro
+  // ==========================================================
+  "flex-layout.col#col1-formulario-black-friday": {
+    "props": {
+      "blockClass": "colunas-formulario-black-friday"
+    },
+    "children": [
+      "rich-text#titulo-formulario-black-friday",
+      "rich-text#subtitulo-formulario-black-friday"
+    ],
+    "title": "Coluna 1 - Formulário Black Friday"
+  },
+  "rich-text#titulo-formulario-black-friday": {
+    "props": {
+      "text": "prepare-se para a \n **black friday**",
+      "blockClass": "titulo-formulario-black-friday"
+    },
+    "title": "Título formulário Black Friday"
+  },
+  "rich-text#subtitulo-formulario-black-friday": {
+    "props": {
+      "text": "Cadastre-se na nossa lista e seja o primeiro a receber as novidades da Black Friday MAD.U.",
+      "blockClass": "subtitulo-formulario-black-friday"
+    },
+    "title": "Subtítulo formulário Black Friday"
+  },
+  // ==========================================================
+  // SESSÃO: Coluna 2 — Formulário de cadastro
+  // Contém o formulário (newsletter/lead) — children vazio,
+  // aguardando o bloco de formulário
+  // ==========================================================
+  "flex-layout.col#col2-formulario-black-friday": {
+    "props": {
+      "blockClass": "colunas-formulario-black-friday"
+    },
+    "children": [],
+    "title": "Coluna 2 - Formulário Black Friday"
+  }
+}

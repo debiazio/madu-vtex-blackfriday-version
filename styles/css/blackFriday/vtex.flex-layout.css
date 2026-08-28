@@ -1,3 +1,14 @@
+.flexRow--terceira-linha-black-friday {
+  background-color: #1B1B1B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--terceira-linha-black-friday {
+  max-width: 1400px;
+}
+
 .flexRowContent--linha-textos-bf .stretchChildrenWidth {
   width: 100% !important;
 }
@@ -23,7 +34,7 @@
 }
 
 .flexRowContent--primeira-linha-black-friday {
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .flexRow--linha-textos-primeira-linha-black-friday {
@@ -46,14 +57,24 @@
   display: block;
 }
 
+@media screen and (min-width: 1900px) {
+
+  .flexRowContent--terceira-linha-black-friday,
+  .flexRowContent--primeira-linha-black-friday {
+    max-width: 1600px;
+  }
+}
+
 
 @media screen and (max-width: 1024px) {
+
   .flexRowContent--segunda-linha-black-friday {
-  grid-template-columns: 1fr;
-  display: grid;
-  padding: 80px 40px;
-  gap: 50px
-}
+    grid-template-columns: 1fr;
+    display: grid;
+    padding: 80px 40px;
+    gap: 50px
+  }
+
   .flexRowContent--linha-textos-primeira-linha-black-friday {
     padding-top: 40px;
   }

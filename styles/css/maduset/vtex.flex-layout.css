@@ -1,4 +1,4 @@
-.flexRow--primeiraLinha-maduset{
+.flexRow--primeiraLinha-maduset {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +44,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 26px 0;
 
 }
@@ -86,7 +86,7 @@
 }
 
 .flexRowContent--linhaFAQs-maduset {
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,7 +140,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .flexCol--titulos-emacao-maduset {
@@ -164,7 +164,7 @@
 }
 
 .flexRowContent--linhavejaMaduSetAcao-maduset {
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .flexRowContent--linhavejaMaduSetAcao-maduset {
@@ -257,7 +257,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px;
   gap: 40px;
   padding: 67px 0;
 }
@@ -266,7 +266,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .flexRowContent--linhaDisclosure-comoXonfig-maduset .stretchChildrenWidth {
@@ -283,7 +283,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .flexRow--carac1-maduset {
@@ -329,7 +329,7 @@
 }
 
 .flexRowContent--linhaCaracteristicas-maduset {
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -337,7 +337,7 @@
 
 .flexRowContent--linhaInfinitasCombinacoes-maduset {
   padding: 0px 36px 0 36px;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .flexRowContent--linha-textoImagem-maduset {
@@ -406,7 +406,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .flexRowContent--linhaTextos-primeiraLinha-maduset {
@@ -424,10 +424,28 @@
   justify-content: flex-start;
 }
 
+@media screen and (min-width: 1900px) {
+
+  .flexRowContent--linhaGabaritoFaleConsultor-maduset,
+  .flexRowContent--primeiraLinha-maduset,
+  .flexRowContent--linhaInfinitasCombinacoes-maduset,
+  .flexRowContent--linhaCaracteristicas-maduset,
+  .flexRowContent--linha-liberdade-maduset,
+  .flexRowContent--linhaDisclosure-comoXonfig-maduset,
+  .flexRowContent--linhaKitsProntos-maduset,
+  .flexRowContent--linhavejaMaduSetAcao-maduset,
+  .flexRowContent--linhaGabaritoFaleConsultor-maduset,
+  .flexRowContent--linhaFAQs-maduset,
+  .flexRowContent--linhaPreFooter-maduset {
+    max-width: 1600px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .flexRow--linhaFAQs-maduset {
-  padding-top: unset;
-}
+    padding-top: unset;
+  }
+
   .flexRowContent--linhaInfinitasCombinacoes-maduset {
     padding: 63px 36px 0 36px;
   }
@@ -462,7 +480,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1400px;
     gap: 18px;
     padding: 24px 36px;
   }

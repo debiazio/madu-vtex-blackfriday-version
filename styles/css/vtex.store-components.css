@@ -1,15 +1,15 @@
-.imageElement--capaCatalogo{
+.imageElement--capaCatalogo {
   max-width: 285px;
   border-radius: 20px;
 }
 
-.skuSelectorContainer{
+.skuSelectorContainer {
   margin-bottom: 5px;
   display: flex;
   flex-direction: column-reverse;
 }
 
-.skuSelectorSubcontainer--colour{
+.skuSelectorSubcontainer--colour {
   display: none;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .productNameContainer .productBrand:last-child {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 0.7rem;
   font-weight: 200;
   white-space: nowrap;
@@ -37,7 +37,7 @@
 }
 
 .productReference {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 0.7rem;
   font-weight: 200;
 }
@@ -71,7 +71,7 @@
 }
 
 .productReference {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 0.7rem;
   font-weight: 200;
 }
@@ -84,7 +84,7 @@
 .productBrand {
   display: flex;
   flex-direction: column;
-  font-family: "Poppins", Sans-serif!important;
+  font-family: "Poppins", Sans-serif !important;
   font-size: 24px;
   font-weight: 600;
   color: #383838;
@@ -227,7 +227,7 @@
 .shippingTableLabel,
 .shippingTableCellDeliveryEstimate,
 .currencyContainer {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   font-size: .9em;
   font-weight: 700;
   color: #333;
@@ -307,13 +307,13 @@
   background-color: transparent;
   color: #ff0000;
   font-size: 15px;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 
 .container {
   padding-top: 0;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 0;
 }
 
@@ -386,16 +386,16 @@
   border-radius: 100px;
   /* height: 3.5em; */
   flex-direction: row-reverse;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 :global(.vtex-input-prefix__group),
-:global(.vtex-styleguide-9-x-input){
-  font-family: "Poppins", sans-serif!important;
+:global(.vtex-styleguide-9-x-input) {
+  font-family: "Poppins", sans-serif !important;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   color: #4F4242;
   font-size: 13px;
   border-radius: 0;
@@ -428,7 +428,7 @@
 
 /* PRATELEIRAS */
 .skuSelectorItem {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   height: auto;
   margin: 0;
   /* font-size: 13px; */
@@ -442,7 +442,7 @@
   color: #fff;
   font-size: 13px;
   padding: 5px;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 :global(.vtex-product-summary-2-x-element) .skuSelectorOptionsList {
@@ -464,8 +464,8 @@
   border-radius: 50%;
 }
 
-.skuSelectorItemImage{
-  height: auto!important;
+.skuSelectorItemImage {
+  height: auto !important;
 }
 
 .skuSelectorItemImageValue {
@@ -612,7 +612,7 @@
 }
 
 .productDescriptionText {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 
@@ -622,7 +622,7 @@
 }
 
 .skuSelectorName {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   color: #202020;
   font-size: 15px;
   font-weight: 700;
@@ -630,7 +630,7 @@
 }
 
 .skuSelectorOptionsList {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   margin-left: 0;
   gap: 10px;
 }
@@ -657,7 +657,7 @@
   padding: 10px 20px;
   color: #251203;
   font-size: 13px;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .diagonalCross {
@@ -702,7 +702,7 @@
 
 .shippingContainer :global(.vtex-button__label) {
   font-size: 0;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .shippingContainer :global(.vtex-button__label)::before {
@@ -710,7 +710,7 @@
   color: black;
   font-size: 15px;
   text-transform: capitalize;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 /* .shippingContainer {
@@ -825,7 +825,7 @@
 
 .shareLabel {
   font-size: 0;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   margin-bottom: 0;
 }
 
@@ -833,7 +833,7 @@
   content: "Compartilhe esse produto";
   font-size: 13px;
   color: #7B7979;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .shareSocialButton {
@@ -874,12 +874,12 @@
   font-size: 14px;
   color: #3A3434;
   padding: 10px 0;
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .subscriberContainer .title,
 .subscriberContainer .subscribeLabel {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 14px;
   color: #3A3434;
 }
@@ -901,7 +901,7 @@
 }
 
 .subscriberContainer :global(.vtex-styleguide-9-x-input) {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 13px;
   color: #3A3434;
 }
@@ -1014,7 +1014,7 @@
 
 /* CONTATO */
 .link--link-contato {
-  font-family: "Poppins", sans-serif!important;
+  font-family: "Poppins", sans-serif !important;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -1035,7 +1035,11 @@
   flex-direction: row;
 }
 
-
+@media screen and (min-width: 1900px) {
+  .container {
+    max-width: 1600px;
+  }
+}
 
 
 /* MOBILE */

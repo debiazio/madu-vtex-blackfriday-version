@@ -32,7 +32,7 @@
 
 .flexRowContent--linha-lermais,
 .flexRowContent--linha-textosLerMais {
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   flex-direction: column;
 }
@@ -48,8 +48,7 @@
 }
 
 .flexRowContent--disclosure-faq-maduset {
-  width: 1200px;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .flexRowContent--linhaFAQs-seo {
@@ -718,12 +717,12 @@
 }
 
 .flexRowContent--linha-maletas-frente-madubox {
-  max-width: 1200px;
+  max-width: 1400px;
   height: 341px;
 }
 
 .flexRowContent--linha-frente-banner-1 {
-  max-width: 1200px;
+  max-width: 1400px;
   height: 517px;
 }
 
@@ -954,7 +953,7 @@
 }
 
 .flexRowContent--topbar {
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1534,6 +1533,19 @@
   gap: 8.72px;
 }
 
+@media screen and (min-width: 1900px) {
+
+  .flexRowContent--topbar,
+  .flexRowContent--linha-frente-banner-1,
+  .flexRowContent--linha-maletas-frente-madubox,
+  .flexRowContent--disclosure-faq-maduset,
+  .flexRowContent--linha-lermais,
+  .flexRowContent--linha-textosLerMais {
+    max-width: 1600px;
+
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .flexRow--categorias-madu {
     margin: 40px 20px 20px 20px;
@@ -1554,9 +1566,10 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
-  .flexRow--linha-lermais{
+  .flexRow--linha-lermais {
     padding: 60px 45px
   }
+
   .flexRowContent--disclosure-faq-maduset {
     width: unset;
     max-width: unset;
