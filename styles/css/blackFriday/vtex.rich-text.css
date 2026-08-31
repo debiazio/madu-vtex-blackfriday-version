@@ -1,3 +1,7 @@
+.container--subtitulo-formulario-black-friday{
+  max-width: 70%;
+}
+
 .paragraph--titulo-formulario-black-friday {
   font-family: "Poppins Light", sans-serif !important;
   font-weight: 300;
@@ -6,6 +10,7 @@
   line-height: 108%;
   letter-spacing: -3%;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .paragraph--subtitulo-formulario-black-friday {
@@ -14,6 +19,7 @@
   font-size: 16px;
   color: #FFFFFF;
   line-height: 100%;
+  margin: 0;
   letter-spacing: 0%;
 
 }

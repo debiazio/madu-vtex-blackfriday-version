@@ -59,7 +59,9 @@
     "props": {
       "blockClass": "colunas-formulario-black-friday"
     },
-    "children": [],
+    "children": [
+      "formblack-friday"
+    ],
     "title": "Coluna 2 - Formulário Black Friday"
   }
 }
