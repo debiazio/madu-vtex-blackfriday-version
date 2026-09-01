@@ -6,26 +6,30 @@
     },
     "title": "Linha Banner Principal",
     "children": [
-      "list-context.image-list#home-banner-novaHome"
+      "scheduled-image-list#home-banner-home"
     ]
   },
-  "list-context.image-list#home-banner-novaHome": {
+  "scheduled-image-list#home-banner-home": {
     "props": {
       "blocClass": "listContext-novahome",
       "images": [
         {
-          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/53c32f38-4fd6-48a0-914a-4f53c8a92aa6___f07549ef1bfcbb4cf131b96809163c17.webp",
-          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d9d2bd86-112e-4644-878f-3562d231775a___d427218bd589c7b692af97da98f0a90c.webp",
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ad68f091-ca96-4fb2-b486-6427d80b9795___839a46697926e7675d00f9188b733942.png",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/179ea8ef-137f-472e-8713-47059e50ae8b___28a06f8964603ab25f326db303e8eeb8.png",
           "link": {
-            "url": "#"
-          }
+            "url": "https://www.pensemadu.com.br/veterinaria/"
+          },
+          "startDate": "01/01/2026",
+          "endDate": "31/12/2026"
         },
         {
-          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8989fcfe-b9cc-41a8-8b49-01f59841cd3e___6500b66773d2d28980f0829c911e6ed4.webp",
-          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6d70bf19-9db1-4ec4-88d6-dcf3f1c6c8c8___66e98805439cd4f580514a36be9fe1f8.webp",
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/98e241f0-9b91-4fbc-a80b-221842a0c7a5___3b6e85e8b91e16cb1103f963720a7319.png",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbe1119-19ce-42c5-a5f4-3a9ae9e71504___4270d6ec5847efb90f4abdcf8809f883.png",
           "link": {
-            "url": "#"
-          }
+            "url": "https://www.pensemadu.com.br/maduset/"
+          },
+          "startDate": "01/01/2026",
+          "endDate": "31/12/2026"
         }
       ]
     },
