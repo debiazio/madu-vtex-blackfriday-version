@@ -68,6 +68,17 @@
 
 
 @media screen and (max-width: 1024px) {
+  .flexCol--colunas-formulario-black-friday {
+    gap: 16px;
+  }
+
+  .flexRowContent--terceira-linha-black-friday {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    padding: 33px 33px;
+    gap: 33px;
+  }
 
   .flexRowContent--segunda-linha-black-friday {
     grid-template-columns: 1fr;

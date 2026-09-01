@@ -1,0 +1,738 @@
+{/**
+ * ==========================================================
+ *  BLACK FRIDAY LP — SEÇÃO FAQ
+ *  Página: Black Friday MAD.U
+ *  Sufixo dos componentes: -BlackFridayLP
+ * ==========================================================
+ */
+
+"flex-layout.row#linhaFAQs-BlackFridayLP": {
+  "props": {
+    "blockClass": "linhaFAQs-maduset",
+    "fullWidth": true
+  },
+  "title": "Faq",
+  "children": [
+    // "flex-layout.row#textos-faq-BlackFridayLP",
+    "flex-layout.row#disclosure-faq-BlackFridayLP"
+  ]
+},
+"flex-layout.row#textos-faq-BlackFridayLP": {
+  "props": {
+    "blockClass": "textos-faq-maduset"
+  },
+  "children": [
+    "rich-text#tituloFAQs-BlackFridayLP",
+    "rich-text#subTituloFAQs-BlackFridayLP"
+  ],
+  "title": "Textos FAQ"
+},
+"rich-text#tituloFAQs-BlackFridayLP": {
+  "props": {
+    "blockClass": "titulo-kitsprontos-maduset",
+    "text": "### FAQ",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  },
+  "title": "Título FAQ"
+},
+"rich-text#subTituloFAQs-BlackFridayLP": {
+  "props": {
+    "blockClass": "subtitulo-kitsprontos-maduset",
+    "text": "Perguntas frequentes",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  },
+  "title": "Subtítulo FAQ"
+},
+"flex-layout.row#disclosure-faq-BlackFridayLP": {
+  "props": {
+    "blockClass": "disclosure-faq-maduset",
+    "colSizing": "auto"
+  },
+  "children": [
+    "disclosure-layout-group#faq-BlackFridayLP"
+  ],
+  "title": "Disclosure FAQ"
+},
+"disclosure-layout-group#faq-BlackFridayLP": {
+  "props": {
+    "blockClass": "group-faq-maduset"
+  },
+  "children": [
+    "disclosure-layout#oqEhMadu-BlackFridayLP",
+    "disclosure-layout#paraQuaisSegmentos-BlackFridayLP",
+    "disclosure-layout#beneficiosPrincipais-BlackFridayLP",
+    "disclosure-layout#podeSerPersonalizada-BlackFridayLP",
+    "disclosure-layout#compativelCarrinhosGavetas-BlackFridayLP",
+    "disclosure-layout#identificacaoPorCores-BlackFridayLP",
+    "disclosure-layout#possuiPatente-BlackFridayLP",
+    "disclosure-layout#modulosSubstituidosReorganizados-BlackFridayLP",
+    "disclosure-layout#materialFabricacao-BlackFridayLP",
+    "disclosure-layout#limpezaOrganizadores-BlackFridayLP",
+    "disclosure-layout#solicitarOrcamento-BlackFridayLP",
+    "disclosure-layout#atendimentoBrasil-BlackFridayLP",
+    "disclosure-layout#trocaPlacaEmbalagem-BlackFridayLP",
+    "disclosure-layout#contatoMadu-BlackFridayLP"
+  ],
+  "title": "Grupo de FAQ"
+},
+
+// ==========================================================
+// FAQ 1 — O que é a MAD.U?
+// ==========================================================
+"disclosure-layout#oqEhMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#oqEhMadu-BlackFridayLP",
+    "disclosure-content#oqEhMadu-BlackFridayLP"
+  ],
+  "title": "FAQ - O que é a MAD.U?"
+},
+"disclosure-trigger#oqEhMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-oqEhMadu-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - O que é a MAD.U?"
+},
+"rich-text#trigger-oqEhMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### O que é a MAD.U?"
+  },
+  "title": "Pergunta - O que é a MAD.U?"
+},
+"disclosure-content#oqEhMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-oqEhMadu-BlackFridayLP"
+  ],
+  "title": "Conteúdo - O que é a MAD.U?"
+},
+"rich-text#content-oqEhMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### A MAD.U desenvolve mobiliário modular de alta qualidade para hospitais, clínicas, consultórios, laboratórios, farmácias, veterinárias, estéticas, escritórios e diversos outros ambientes profissionais. Nossos produtos combinam durabilidade, higiene, organização e personalização."
+  },
+  "title": "Resposta - O que é a MAD.U?"
+},
+
+// ==========================================================
+// FAQ 2 — Os produtos podem ser personalizados?
+// ==========================================================
+"disclosure-layout#paraQuaisSegmentos-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#paraQuaisSegmentos-BlackFridayLP",
+    "disclosure-content#paraQuaisSegmentos-BlackFridayLP"
+  ],
+  "title": "FAQ - Personalização"
+},
+"disclosure-trigger#paraQuaisSegmentos-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-paraQuaisSegmentos-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Personalização"
+},
+"rich-text#trigger-paraQuaisSegmentos-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Os produtos podem ser personalizados?"
+  },
+  "title": "Pergunta - Personalização"
+},
+"disclosure-content#paraQuaisSegmentos-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-paraQuaisSegmentos-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Personalização"
+},
+"rich-text#content-paraQuaisSegmentos-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Sim. Grande parte dos produtos da MAD.U é modular e permite diversas configurações de gavetas, acessórios, cores e opcionais, conforme a necessidade de cada projeto."
+  },
+  "title": "Resposta - Personalização"
+},
+
+// ==========================================================
+// FAQ 3 — Quais são os materiais utilizados?
+// ==========================================================
+"disclosure-layout#beneficiosPrincipais-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#beneficiosPrincipais-BlackFridayLP",
+    "disclosure-content#beneficiosPrincipais-BlackFridayLP"
+  ],
+  "title": "FAQ - Materiais"
+},
+"disclosure-trigger#beneficiosPrincipais-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-beneficiosPrincipais-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Materiais"
+},
+"rich-text#trigger-beneficiosPrincipais-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Quais são os materiais utilizados?"
+  },
+  "title": "Pergunta - Materiais"
+},
+"disclosure-content#beneficiosPrincipais-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-beneficiosPrincipais-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Materiais"
+},
+"rich-text#content-beneficiosPrincipais-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Nossos móveis são produzidos com materiais de alta resistência, desenvolvidos para oferecer longa vida útil, fácil higienização e excelente acabamento, ideais para ambientes que exigem altos padrões de limpeza."
+  },
+  "title": "Resposta - Materiais"
+},
+
+// ==========================================================
+// FAQ 4 — Os móveis são indicados apenas para hospitais?
+// ==========================================================
+"disclosure-layout#podeSerPersonalizada-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#podeSerPersonalizada-BlackFridayLP",
+    "disclosure-content#podeSerPersonalizada-BlackFridayLP"
+  ],
+  "title": "FAQ - Segmentos"
+},
+"disclosure-trigger#podeSerPersonalizada-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-podeSerPersonalizada-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Segmentos"
+},
+"rich-text#trigger-podeSerPersonalizada-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Os móveis são indicados apenas para hospitais?"
+  },
+  "title": "Pergunta - Segmentos"
+},
+"disclosure-content#podeSerPersonalizada-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-podeSerPersonalizada-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Segmentos"
+},
+"rich-text#content-podeSerPersonalizada-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Não. Embora sejam amplamente utilizados na área hospitalar, nossos produtos também atendem clínicas médicas, odontológicas, veterinárias, centros estéticos, laboratórios, farmácias, escritórios, escolas, indústrias e diversos outros segmentos."
+  },
+  "title": "Resposta - Segmentos"
+},
+
+// ==========================================================
+// FAQ 5 — Como escolher a configuração ideal?
+// ==========================================================
+"disclosure-layout#compativelCarrinhosGavetas-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#compativelCarrinhosGavetas-BlackFridayLP",
+    "disclosure-content#compativelCarrinhosGavetas-BlackFridayLP"
+  ],
+  "title": "FAQ - Configuração ideal"
+},
+"disclosure-trigger#compativelCarrinhosGavetas-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-compativelCarrinhosGavetas-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Configuração ideal"
+},
+"rich-text#trigger-compativelCarrinhosGavetas-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Como escolher a configuração ideal?"
+  },
+  "title": "Pergunta - Configuração ideal"
+},
+"disclosure-content#compativelCarrinhosGavetas-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-compativelCarrinhosGavetas-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Configuração ideal"
+},
+"rich-text#content-compativelCarrinhosGavetas-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Nossa equipe comercial pode auxiliar na escolha da melhor configuração de acordo com sua rotina, espaço disponível e necessidade de armazenamento."
+  },
+  "title": "Resposta - Configuração ideal"
+},
+
+// ==========================================================
+// FAQ 6 — Quais são as formas de pagamento?
+// ==========================================================
+"disclosure-layout#identificacaoPorCores-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#identificacaoPorCores-BlackFridayLP",
+    "disclosure-content#identificacaoPorCores-BlackFridayLP"
+  ],
+  "title": "FAQ - Formas de pagamento"
+},
+"disclosure-trigger#identificacaoPorCores-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-identificacaoPorCores-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Formas de pagamento"
+},
+"rich-text#trigger-identificacaoPorCores-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Quais são as formas de pagamento?"
+  },
+  "title": "Pergunta - Formas de pagamento"
+},
+"disclosure-content#identificacaoPorCores-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-identificacaoPorCores-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Formas de pagamento"
+},
+"rich-text#content-identificacaoPorCores-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Aceitamos:\n\n- PIX (com 5% de desconto);\n- Cartão de crédito em até 5x sem juros;\n- Boleto faturado para empresas, sujeito à análise de crédito."
+  },
+  "title": "Resposta - Formas de pagamento"
+},
+
+// ==========================================================
+// FAQ 7 — Qual é o prazo de fabricação?
+// ==========================================================
+"disclosure-layout#possuiPatente-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#possuiPatente-BlackFridayLP",
+    "disclosure-content#possuiPatente-BlackFridayLP"
+  ],
+  "title": "FAQ - Prazo de fabricação"
+},
+"disclosure-trigger#possuiPatente-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-possuiPatente-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Prazo de fabricação"
+},
+"rich-text#trigger-possuiPatente-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Qual é o prazo de fabricação?"
+  },
+  "title": "Pergunta - Prazo de fabricação"
+},
+"disclosure-content#possuiPatente-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-possuiPatente-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Prazo de fabricação"
+},
+"rich-text#content-possuiPatente-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### O prazo médio de fabricação é de 10 dias úteis, podendo variar conforme o volume do pedido e a personalização escolhida."
+  },
+  "title": "Resposta - Prazo de fabricação"
+},
+
+// ==========================================================
+// FAQ 8 — Qual é o prazo de entrega?
+// ==========================================================
+"disclosure-layout#modulosSubstituidosReorganizados-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#modulosSubstituidosReorganizados-BlackFridayLP",
+    "disclosure-content#modulosSubstituidosReorganizados-BlackFridayLP"
+  ],
+  "title": "FAQ - Prazo de entrega"
+},
+"disclosure-trigger#modulosSubstituidosReorganizados-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-modulosSubstituidosReorganizados-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Prazo de entrega"
+},
+"rich-text#trigger-modulosSubstituidosReorganizados-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Qual é o prazo de entrega?"
+  },
+  "title": "Pergunta - Prazo de entrega"
+},
+"disclosure-content#modulosSubstituidosReorganizados-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-modulosSubstituidosReorganizados-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Prazo de entrega"
+},
+"rich-text#content-modulosSubstituidosReorganizados-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### O prazo de entrega depende da região e é informado durante o orçamento ou no fechamento da compra."
+  },
+  "title": "Resposta - Prazo de entrega"
+},
+
+// ==========================================================
+// FAQ 9 — Vocês entregam para todo o Brasil?
+// ==========================================================
+"disclosure-layout#materialFabricacao-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#materialFabricacao-BlackFridayLP",
+    "disclosure-content#materialFabricacao-BlackFridayLP"
+  ],
+  "title": "FAQ - Entrega Brasil"
+},
+"disclosure-trigger#materialFabricacao-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-materialFabricacao-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Entrega Brasil"
+},
+"rich-text#trigger-materialFabricacao-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Vocês entregam para todo o Brasil?"
+  },
+  "title": "Pergunta - Entrega Brasil"
+},
+"disclosure-content#materialFabricacao-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-materialFabricacao-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Entrega Brasil"
+},
+"rich-text#content-materialFabricacao-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Sim. Realizamos entregas em todo o território nacional através de transportadoras parceiras."
+  },
+  "title": "Resposta - Entrega Brasil"
+},
+
+// ==========================================================
+// FAQ 10 — Os produtos chegam montados?
+// ==========================================================
+"disclosure-layout#limpezaOrganizadores-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#limpezaOrganizadores-BlackFridayLP",
+    "disclosure-content#limpezaOrganizadores-BlackFridayLP"
+  ],
+  "title": "FAQ - Montagem"
+},
+"disclosure-trigger#limpezaOrganizadores-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-limpezaOrganizadores-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Montagem"
+},
+"rich-text#trigger-limpezaOrganizadores-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Os produtos chegam montados?"
+  },
+  "title": "Pergunta - Montagem"
+},
+"disclosure-content#limpezaOrganizadores-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-limpezaOrganizadores-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Montagem"
+},
+"rich-text#content-limpezaOrganizadores-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### A maioria dos produtos é enviada montada ou com montagem extremamente simples, dependendo do modelo adquirido."
+  },
+  "title": "Resposta - Montagem"
+},
+
+// ==========================================================
+// FAQ 11 — É possível comprar diretamente pelo site?
+// ==========================================================
+"disclosure-layout#solicitarOrcamento-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#solicitarOrcamento-BlackFridayLP",
+    "disclosure-content#solicitarOrcamento-BlackFridayLP"
+  ],
+  "title": "FAQ - Compra pelo site"
+},
+"disclosure-trigger#solicitarOrcamento-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-solicitarOrcamento-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Compra pelo site"
+},
+"rich-text#trigger-solicitarOrcamento-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### É possível comprar diretamente pelo site?"
+  },
+  "title": "Pergunta - Compra pelo site"
+},
+"disclosure-content#solicitarOrcamento-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-solicitarOrcamento-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Compra pelo site"
+},
+"rich-text#content-solicitarOrcamento-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Sim. Diversos produtos já estão disponíveis para compra online. Configurações especiais ou projetos personalizados podem ser solicitados diretamente à nossa equipe comercial."
+  },
+  "title": "Resposta - Compra pelo site"
+},
+
+// ==========================================================
+// FAQ 12 — Posso solicitar um orçamento para grandes quantidades?
+// ==========================================================
+"disclosure-layout#atendimentoBrasil-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#atendimentoBrasil-BlackFridayLP",
+    "disclosure-content#atendimentoBrasil-BlackFridayLP"
+  ],
+  "title": "FAQ - Orçamento em quantidade"
+},
+"disclosure-trigger#atendimentoBrasil-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-atendimentoBrasil-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Orçamento em quantidade"
+},
+"rich-text#trigger-atendimentoBrasil-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Posso solicitar um orçamento para grandes quantidades?"
+  },
+  "title": "Pergunta - Orçamento em quantidade"
+},
+"disclosure-content#atendimentoBrasil-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-atendimentoBrasil-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Orçamento em quantidade"
+},
+"rich-text#content-atendimentoBrasil-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Sim. Atendemos desde compras unitárias até projetos completos para hospitais, clínicas, laboratórios e empresas."
+  },
+  "title": "Resposta - Orçamento em quantidade"
+},
+
+// ==========================================================
+// FAQ 13 — Como acompanhar meu pedido?
+// ==========================================================
+"disclosure-layout#trocaPlacaEmbalagem-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#trocaPlacaEmbalagem-BlackFridayLP",
+    "disclosure-content#trocaPlacaEmbalagem-BlackFridayLP"
+  ],
+  "title": "FAQ - Acompanhar pedido"
+},
+"disclosure-trigger#trocaPlacaEmbalagem-BlackFridayLP": {
+  "props": {
+    "blockClass": ["trigger-faq-maduset", "trocaPlacaEmbalagem"]
+  },
+  "children": [
+    "rich-text#trigger-trocaPlacaEmbalagem-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Acompanhar pedido"
+},
+"rich-text#trigger-trocaPlacaEmbalagem-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Como acompanhar meu pedido?"
+  },
+  "title": "Pergunta - Acompanhar pedido"
+},
+"disclosure-content#trocaPlacaEmbalagem-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-trocaPlacaEmbalagem-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Acompanhar pedido"
+},
+"rich-text#content-trocaPlacaEmbalagem-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Após a confirmação da compra, nossa equipe fornecerá as informações necessárias para acompanhamento da produção e envio."
+  },
+  "title": "Resposta - Acompanhar pedido"
+},
+
+// ==========================================================
+// FAQ 14 — Como entrar em contato com a MAD.U?
+// ==========================================================
+"disclosure-layout#contatoMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "layout-faq-maduset"
+  },
+  "children": [
+    "disclosure-trigger#contatoMadu-BlackFridayLP",
+    "disclosure-content#contatoMadu-BlackFridayLP"
+  ],
+  "title": "FAQ - Contato"
+},
+"disclosure-trigger#contatoMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "trigger-faq-maduset"
+  },
+  "children": [
+    "rich-text#trigger-contatoMadu-BlackFridayLP",
+    "disclosure-state-indicator#configSet-maduset"
+  ],
+  "title": "Trigger - Contato"
+},
+"rich-text#trigger-contatoMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "text-trigger-faq-madu",
+    "text": "### Como entrar em contato com a MAD.U?"
+  },
+  "title": "Pergunta - Contato"
+},
+"disclosure-content#contatoMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset"
+  },
+  "children": [
+    "rich-text#content-contatoMadu-BlackFridayLP"
+  ],
+  "title": "Conteúdo - Contato"
+},
+"rich-text#content-contatoMadu-BlackFridayLP": {
+  "props": {
+    "blockClass": "content-faq-maduset",
+    "text": "#### Você pode entrar em contato através do WhatsApp, formulário do site ou pelos demais canais oficiais de atendimento. Nossa equipe está pronta para esclarecer dúvidas e auxiliar na escolha do produto ideal."
+  },
+  "title": "Resposta - Contato"
+}
+}
