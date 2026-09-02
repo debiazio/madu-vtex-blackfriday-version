@@ -42,7 +42,7 @@
         "noFollow": false,
         "tagTitle": "Estantes",
         "text": "Estantes",
-        "href": "/moveis/estantes"
+        "href": "/estantes/"
       },
       "blockClass": "menu-principal-item"
     }
@@ -543,7 +543,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/moveis/estantes",
+        "href": "/estantes/",
         "noFollow": false,
         "tagTitle": "Estantes",
         "text": "Estantes"
