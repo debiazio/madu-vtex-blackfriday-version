@@ -128,7 +128,7 @@
         "noFollow": false,
         "tagTitle": "Armários",
         "text": "Armários",
-        "href": "/moveis/armarios"
+        "href": "/armarios"
       },
       "blockClass": "menu-principal-item"
     }
@@ -528,7 +528,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "moveis/armarios",
+        "href": "/armarios/",
         "noFollow": false,
         "tagTitle": "Armários",
         "text": "Armários"
