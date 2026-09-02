@@ -57,7 +57,7 @@
         "noFollow": false,
         "tagTitle": "Acessórios",
         "text": "Acessórios",
-        "href": "/moveis/modulos"
+        "href": "/modulos/"
       },
       "blockClass": "menu-principal-item",
       "iconProps": {
@@ -429,7 +429,7 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "href": "/moveis/organizadores",
+        "href": "/organizadores/",
         "tagTitle": "Organizadores",
         "text": "Organizadores"
       },
@@ -562,7 +562,7 @@
         "noFollow": false,
         "tagTitle": "Acessórios",
         "text": "Acessórios",
-        "href": "/moveis/modulos"
+        "href": "/modulos/"
       },
       "blockClass": "menu-principal-item"
     },
@@ -597,7 +597,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "moveis/organizadores",
+        "href": "/organizadores/",
         "noFollow": false,
         "tagTitle": "Organizadores",
         "text": "Organizadores"
