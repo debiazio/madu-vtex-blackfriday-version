@@ -122,8 +122,8 @@
       // "app-modalcep",
       "condition-layout.product#busca-cep-condicao",
 
-      "flex-layout.row#metodos-pagamento-pdp",
-      "image#bandeiras",
+      // "flex-layout.row#metodos-pagamento-pdp",
+      // "image#bandeiras",
       "flex-layout.row#contao-whatsapp"
     ]
   },
@@ -318,7 +318,7 @@
     "props": {
       "blockClass": "link-compre-pelo-wpp",
       "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20da%20MAD.U!",
-      "label": "Compre pelo Whatsapp",
+      "label": "Personalizar Produto",
       "target": "_blank"
     },
     "children": [
