@@ -25,7 +25,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/moveis/carrinhos",
+        "href": "/carrinhos/",
         "noFollow": false,
         "tagTitle": "Carrinhos",
         "text": "Carrinhos"
@@ -513,7 +513,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/moveis/carrinhos",
+        "href": "/carrinhos/",
         "noFollow": false,
         "tagTitle": "Carrinhos",
         "text": "Carrinhos"

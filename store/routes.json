@@ -74,5 +74,13 @@
   "store.custom#blackfriday": {
     "path": "/blackfriday",
     "isSitemapEntry": true
+  },
+  "store.custom#carrinhos-template-menu": {
+    "path": "/carrinhos",
+    "isSitemapEntry": true
+  },
+  "store.custom#armarios-template-menu": {
+    "path": "/armarios",
+    "isSitemapEntry": true
   }
 }

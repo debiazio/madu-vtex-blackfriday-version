@@ -1,33 +1,33 @@
 {
-  "store.custom#carrinhos-template-menu": {
+  "store.custom#armarios-template-menu": {
     "blocks": [
-      "flex-layout.row#template-carrinhos-linha-2",
+      "flex-layout.row#template-armarios-linha-2",
       "controllervisualization"
     ]
   },
-  "flex-layout.row#template-carrinhos-linha-2": {
+  "flex-layout.row#template-armarios-linha-2": {
     "props": {
       "blockClass": "template-copy-linha-2"
     },
     "children": [
-      "search-result-layout.customQuery#template-carrinhos-cat"
+      "search-result-layout.customQuery#template-armarios-cat"
     ]
   },
-  "search-result-layout.customQuery#template-carrinhos-cat": {
+  "search-result-layout.customQuery#template-armarios-cat": {
     "props": {
       "querySchema": {
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 9,
-        "queryField": "2",
+        "queryField": "3",
         "mapField": "c"
       }
     },
     "blocks": [
-      "search-result-layout.desktop#template-carrinhos"
+      "search-result-layout.desktop#template-armarios"
     ]
   },
-  "search-result-layout.desktop#template-carrinhos": {
+  "search-result-layout.desktop#template-armarios": {
     "props": {
       "pagination": "infinite-scroll",
       "preventRouteChange": true,
@@ -38,20 +38,20 @@
     "children": [
       "breadcrumb.search",
       // "search-title.v2",
-      "flex-layout.row#results#template-carrinhos-cat"
+      "flex-layout.row#results#template-armarios-cat"
     ]
   },
-  "flex-layout.row#results#template-carrinhos-cat": {
+  "flex-layout.row#results#template-armarios-cat": {
     "props": {
       "blockClass": "plp-page",
       "preventVerticalStretch": true
     },
     "children": [
-      "flex-layout.col#filter-template-carrinhos",
-      "flex-layout.col#search-template-carrinhos"
+      "flex-layout.col#filter-template-armarios",
+      "flex-layout.col#search-template-armarios"
     ]
   },
-  "flex-layout.col#filter-template-carrinhos": {
+  "flex-layout.col#filter-template-armarios": {
     "props": {
       "width": "20%",
       "blockClass": [
@@ -64,7 +64,7 @@
       "filter-navigator.v3"
     ]
   },
-  "flex-layout.col#search-template-carrinhos": {
+  "flex-layout.col#search-template-armarios": {
     "props": {
       "blockClass": "linha-template-search-container"
     },

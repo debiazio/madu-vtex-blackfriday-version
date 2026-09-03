@@ -57,6 +57,11 @@
   align-items: center;
 }
 
+.flexRowContent--linhaFAQs-seo .stretchChildrenWidth {
+  display: flex;
+  flex-direction: column;
+}
+
 .flexRowContent--linha-catalogos {
   display: flex;
   flex-direction: row;
@@ -175,6 +180,7 @@
 .flexRow--template-copy-linha-2,
 .flexRow--template-copy-line {
   background-color: #f7f7f7;
+  padding-top: 28px
 }
 
 .flexRowContent--template-copy-line {
