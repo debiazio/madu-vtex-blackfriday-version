@@ -115,7 +115,7 @@
   "rich-text#trigger-personalizarSobMedida-vet": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
-      "text": "### Os produtos MAD.U podem ser personalizados ou desenvolvidos sob medida?"
+      "text": "### Os produtos MAD.U podem ser personalizados?"
     }
   },
   "disclosure-content#personalizarSobMedida-vet": {
@@ -518,7 +518,7 @@
   "rich-text#trigger-escolherCarrinho-vet": {
     "props": {
       "blockClass": "text-trigger-faq-madu",
-      "text": "### O que considerar ao escolher um carrinho para hospital ou veterinária?"
+      "text": "### O que considerar ao escolher um carrinho para hospital ou clínica veterinária?"
     }
   },
   "disclosure-content#escolherCarrinho-vet": {
