@@ -1,7 +1,7 @@
 {
   "store.custom#carrinhos-template-menu": {
     "blocks": [
-      "faq-structured-data",
+      // "faq-structured-data",
       "flex-layout.row#template-carrinhos-linha-2",
       "controllervisualization"
     ]
