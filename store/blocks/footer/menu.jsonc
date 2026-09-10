@@ -10,7 +10,7 @@
       "menu-item#politica-troca-devol",
       "menu-item#entregas",
       "menu-item#formas-pagamento",
-      "menu-item#observacoes",
+      // "menu-item#observacoes",
       "menu-item#trabalhe-conosco"
     ]
   },
@@ -134,8 +134,7 @@
       "menu-item#politica-de-privacidade",
       "menu-item#politica-troca-devol",
       "menu-item#entregas",
-      "menu-item#formas-pagamento",
-      "menu-item#observacoes"
+      "menu-item#formas-pagamento"
     ]
   },
   // "menu-item#produtos-mobile": {

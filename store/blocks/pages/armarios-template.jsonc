@@ -1,6 +1,7 @@
 {
   "store.custom#armarios-template-menu": {
     "blocks": [
+      "faq-structured-data-armarios",
       "flex-layout.row#template-armarios-linha-2",
       "controllervisualization"
     ]
