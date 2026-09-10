@@ -79,7 +79,8 @@
     "madumfm2.btdownload": "0.x",
     "madumfm2.controllervisualization": "0.x",
     "madumfm2.slidercustommobile": "0.x",
-    "madumfm2.agendador-banners-home": "0.x"
+    "madumfm2.agendador-banners-home": "0.x",
+    "madumfm2.faq-carrinhos": "0.0.1"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x"
