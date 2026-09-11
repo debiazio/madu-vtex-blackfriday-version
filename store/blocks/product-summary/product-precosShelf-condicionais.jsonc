@@ -475,6 +475,42 @@
           "arguments": {
             "id": "549"
           }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "237"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "238"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "239"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "240"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "241"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "242"
+          }
         }
       ],
       "matchType": "any",
