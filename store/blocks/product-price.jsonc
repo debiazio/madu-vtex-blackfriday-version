@@ -12,7 +12,7 @@
   "product-installments":{
     "props": {
       "blockClass": "installments-pdp",
-      "message": "{hasMoreThanOne, select, true { ou em {installmentsNumber}X  {installmentValue} sem juros} false{ }}"
+      "message": "{hasMoreThanOne, select, true { ou em {installmentsNumber}X de {installmentValue} sem juros} false{ }}"
     }
   },
 

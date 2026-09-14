@@ -132,13 +132,13 @@
   "product-spot-price#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "por {spotPriceValue} à vista"
+      "message": "a partir de {spotPriceValue}"
     }
   },
   "product-installments#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "{hasMoreThanOne, select, true { em {installmentsNumber}X  {installmentValue} sem juros} false{ }}"
+      "message": "{hasMoreThanOne, select, true { ou em {installmentsNumber}X de  {installmentValue} sem juros} false{ }}"
     }
   }
 }
