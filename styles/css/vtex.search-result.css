@@ -79,6 +79,13 @@
   content: "Cor das Gavetas";
   font-size: 16px;
 }
+.filter__container--colore .filterTitleSpan--filterCol {
+  font-size: 0;
+}
+.filter__container--colore .filterTitleSpan--filterCol::after {
+  content: "Cores";
+  font-size: 16px;
+}
 
 /* cor das estruturas */
 .filter__container--colour .filterTitleSpan--filterCol {
@@ -89,6 +96,7 @@
   content: "Estrutura";
   font-size: 16px;
 }
+
 
 
 .filter__container--clearAllFilters {

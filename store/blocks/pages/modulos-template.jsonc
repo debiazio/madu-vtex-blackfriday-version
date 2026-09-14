@@ -1,34 +1,34 @@
 {
-  "store.custom#estantes-template-menu": {
+  "store.custom#modulos-template-menu": {
     "blocks": [
-      "faq-structureddata-estantes",
-      "flex-layout.row#template-estantes-linha-2",
+      "faq-structureddata-modulos",
+      "flex-layout.row#template-modulos-linha-2",
       "controllervisualization"
     ]
   },
-  "flex-layout.row#template-estantes-linha-2": {
+  "flex-layout.row#template-modulos-linha-2": {
     "props": {
       "blockClass": "template-copy-linha-2"
     },
     "children": [
-      "search-result-layout.customQuery#template-estantes-cat"
+      "search-result-layout.customQuery#template-modulos-cat"
     ]
   },
-  "search-result-layout.customQuery#template-estantes-cat": {
+  "search-result-layout.customQuery#template-modulos-cat": {
     "props": {
       "querySchema": {
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 9,
-        "queryField": "4",
+        "queryField": "5",
         "mapField": "c"
       }
     },
     "blocks": [
-      "search-result-layout.desktop#template-estantes"
+      "search-result-layout.desktop#template-modulos"
     ]
   },
-  "search-result-layout.desktop#template-estantes": {
+  "search-result-layout.desktop#template-modulos": {
     "props": {
       "pagination": "infinite-scroll",
       "preventRouteChange": true,
@@ -39,20 +39,20 @@
     "children": [
       "breadcrumb.search",
       // "search-title.v2",
-      "flex-layout.row#results#template-estantes-cat"
+      "flex-layout.row#results#template-modulos-cat"
     ]
   },
-  "flex-layout.row#results#template-estantes-cat": {
+  "flex-layout.row#results#template-modulos-cat": {
     "props": {
       "blockClass": "plp-page",
       "preventVerticalStretch": true
     },
     "children": [
-      "flex-layout.col#filter-template-estantes",
-      "flex-layout.col#search-template-estantes"
+      "flex-layout.col#filter-template-modulos",
+      "flex-layout.col#search-template-modulos"
     ]
   },
-  "flex-layout.col#filter-template-estantes": {
+  "flex-layout.col#filter-template-modulos": {
     "props": {
       "width": "20%",
       "blockClass": [
@@ -65,7 +65,7 @@
       "filter-navigator.v3"
     ]
   },
-  "flex-layout.col#search-template-estantes": {
+  "flex-layout.col#search-template-modulos": {
     "props": {
       "blockClass": "linha-template-search-container"
     },

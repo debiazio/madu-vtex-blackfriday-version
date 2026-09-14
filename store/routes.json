@@ -86,5 +86,13 @@
   "store.custom#estantes-template-menu": {
     "path": "/estantes",
     "isSitemapEntry": true
+  },
+  "store.custom#organizadores-template-menu": {
+    "path": "/organizadores",
+    "isSitemapEntry": true
+  },
+  "store.custom#modulos-template-menu": {
+    "path": "/acessorios",
+    "isSitemapEntry": true
   }
 }
