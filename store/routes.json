@@ -82,5 +82,9 @@
   "store.custom#armarios-template-menu": {
     "path": "/armarios",
     "isSitemapEntry": true
+  },
+  "store.custom#estantes-template-menu": {
+    "path": "/estantes",
+    "isSitemapEntry": true
   }
 }

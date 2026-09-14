@@ -57,7 +57,7 @@
         "noFollow": false,
         "tagTitle": "Acessórios",
         "text": "Acessórios",
-        "href": "/modulos/"
+        "href": "/acessorios/"
       },
       "blockClass": "menu-principal-item",
       "iconProps": {
@@ -562,7 +562,7 @@
         "noFollow": false,
         "tagTitle": "Acessórios",
         "text": "Acessórios",
-        "href": "/modulos/"
+        "href": "/acessorios/"
       },
       "blockClass": "menu-principal-item"
     },

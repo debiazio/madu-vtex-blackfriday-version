@@ -955,9 +955,13 @@
   font-size: 11.2px
 }
 
-  .paragraph--text-trigger-faq-madu {
-    font-family: "Poppins Bold", Sans-serif !important;
-  }
+.paragraph--text-trigger-faq-madu {
+  font-family: "Poppins Bold", Sans-serif !important;
+}
+
+.paragraph--content-faq-maduset {
+  padding: 0 12px;
+}
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
