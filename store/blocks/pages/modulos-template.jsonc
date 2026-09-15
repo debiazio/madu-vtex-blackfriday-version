@@ -20,7 +20,7 @@
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 9,
-        "queryField": "5",
+        "queryField": "28",
         "mapField": "c"
       }
     },
