@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#banner-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "banner-manual-uso-cuidados",
+      "fullWidth": true
+    },
+    "children": [
+      "image#banner-manual-uso-cuidados"
+    ]
+  },
+  "image#banner-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "img-manual-uso-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/5700b271-319b-4389-ab52-3ca18bf557e3___4ba1c56e8c8ca761b1df255587fdddf9.webp",
+      "alt": "Manual de uso"
+    }
+  }
+}

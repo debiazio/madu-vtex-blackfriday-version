@@ -1,0 +1,26 @@
+.flexRowContent--primeira-linha-manual-uso-cuidados {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 90px;
+}
+
+.flexColChild--colunas-imagem-manual-uso-cuidados {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCol--colunas-textos-manual-uso-cuidados {
+  padding: 0 90px;
+  padding-left: 200px;
+}
+
+
+.flexRowContent--linha-titulo-limpeza-manual-e-cuidados {
+  gap: 7px;
+}
+
+.flexRowContent--textos-imagem-manual-e-cuidados {
+  gap: 29px;
+}

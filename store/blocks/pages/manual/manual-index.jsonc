@@ -1,0 +1,8 @@
+{
+  "store.custom#manual-uso-cuidados":{
+    "blocks": [
+      "flex-layout.row#banner-manual-uso-cuidados",
+      "flex-layout.row#primeira-linha-manual-uso-cuidados"
+    ]
+  }
+}

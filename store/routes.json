@@ -94,5 +94,9 @@
   "store.custom#modulos-template-menu": {
     "path": "/acessorios",
     "isSitemapEntry": true
+  },
+  "store.custom#manual-uso-cuidados": {
+    "path": "/manual-uso-cuidados",
+    "isSitemapEntry": true
   }
 }
