@@ -17,7 +17,8 @@
     "children": [
       "flex-layout.row#titulo-limpeza-manual-e-cuidados",
       "flex-layout.row#manterTudoLimpo-limpeza-manual-e-cuidados",
-      "flex-layout.row#cuidados-limpeza-manual-e-cuidados"
+      "flex-layout.row#cuidados-limpeza-manual-e-cuidados",
+      "flex-layout.row#capacidadeCarga-limpeza-manual-e-cuidados"
     ]
   },
   "flex-layout.row#titulo-limpeza-manual-e-cuidados": {
@@ -52,13 +53,13 @@
       "rich-text#manterTudoLimpo-limpeza-manual-e-cuidados"
     ]
   },
-  "image#produto-limpo-manual-e-cuidados":{
+  "image#produto-limpo-manual-e-cuidados": {
     "props": {
       "blockClass": "img-textos-manual-e-cuidados",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/2df03b8f-8bd0-414e-b58b-b42a66f06ac1___db794cb00b9dda1a9ca984db6eb81411.svg"
     }
   },
-  "rich-text#manterTudoLimpo-limpeza-manual-e-cuidados":{
+  "rich-text#manterTudoLimpo-limpeza-manual-e-cuidados": {
     "props": {
       "blockClass": "manterTudoLimpo-limpeza-manual-e-cuidados",
       "text": "**Mantenha o produto limpo**\nNossos componentes são resistentes aos principais produtos de limpeza do mercado. No entanto, evite o uso de produtos abrasivos e quimicamente agressivos."
@@ -69,21 +70,21 @@
       "blockClass": "textos-imagem-manual-e-cuidados",
       "preventHorizontalStretch": true
     },
-    "children":[
+    "children": [
       "image#cuidados-rodizios-manual-e-cuidados",
       "rich-text#cuidados-rodizios-limpeza-manual-e-cuidados"
     ]
   },
-  "image#cuidados-rodizios-manual-e-cuidados":{
+  "image#cuidados-rodizios-manual-e-cuidados": {
     "props": {
       "blockClass": "img-textos-manual-e-cuidados",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/eb6dca0c-939c-401e-bd56-1a6a4098b3b8___9c89be34a8388b398e79ae758709b018.svg"
     }
   },
-  "rich-text#cuidados-rodizios-limpeza-manual-e-cuidados":{
+  "rich-text#cuidados-rodizios-limpeza-manual-e-cuidados": {
     "props": {
       "blockClass": "textos-imagem-manual-e-cuidados",
-      "text": "**Cuidados com as rodas e rodízios**\nmantenha-os sempre limpos. O acúmulo de sujeira pode dificultar a locomoção."
+      "text": "**Cuidados com as rodas e rodízios**\n Mantenha-os sempre limpos. O acúmulo de sujeira pode dificultar a locomoção."
     }
   },
   "flex-layout.col#coluna-imagem-limpeza-manual-uso-cuidados": {
@@ -95,10 +96,33 @@
       "image#rodizios-manual-e-cuidados"
     ]
   },
-  "image#rodizios-manual-e-cuidados":{
+  "image#rodizios-manual-e-cuidados": {
     "props": {
       "blockClass": "imgMaior-rodizios-manual-e-cuidados",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/037f9938-c444-4f5f-852b-d62cb88e1a3b___ea0322657c16d569c6047dc0d8254392.webp"
+    }
+  },
+
+  "flex-layout.row#capacidadeCarga-limpeza-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#capacidadeCarga-limpeza-manual-e-cuidados",
+      "rich-text#capacidadeCarga-limpeza-manual-e-cuidados"
+    ]
+  },
+  "image#capacidadeCarga-limpeza-manual-e-cuidados": {
+    "props": {
+      "blockClass": "img-textos-manual-e-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/313000c3-1e5b-4883-a37b-842110b4d3b5___0d23c76e6e88caff71405be729e922ec.svg"
+    }
+  },
+  "rich-text#capacidadeCarga-limpeza-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "text": "**Capacidade de carga**\n Não exceder o peso máximo total recomendado que está indicado para o produto ou suas partes."
     }
   }
 }

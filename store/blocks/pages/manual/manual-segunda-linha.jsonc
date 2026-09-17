@@ -1,0 +1,104 @@
+{
+  "flex-layout.row#segunda-linha-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "primeira-linha-manual-uso-cuidados",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-imagem-seguranca-manual-uso-cuidados",
+      "flex-layout.col#coluna-textos-seguranca-manual-uso-cuidados"
+    ]
+  },
+  "flex-layout.col#coluna-textos-seguranca-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "colunas-textos-manual-uso-cuidados",
+      "width": "60%"
+    },
+    "children": [
+      "flex-layout.row#titulo-seguranca-manual-e-cuidados",
+      "flex-layout.row#manterTudoLimpo-seguranca-manual-e-cuidados",
+      "flex-layout.row#cuidados-seguranca-manual-e-cuidados"
+    ]
+  },
+  "flex-layout.row#titulo-seguranca-manual-e-cuidados": {
+    "props": {
+      "blockClass": "linha-titulo-limpeza-manual-e-cuidados",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#numero1-manual-e-cuidados",
+      "rich-text#titulo-seguranca-manual-e-cuidados"
+    ]
+  },
+  "image#numero1-manual-e-cuidados": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/54769b49-71b0-4944-97e1-15275e721f7d___0b6ae0c90e09a4b7ddf1b20cc66e0d65.svg",
+      "alt": "1"
+    }
+  },
+  "rich-text#titulo-seguranca-manual-e-cuidados": {
+    "props": {
+      "blockClass": "titulo-limpeza-manual-e-cuidados",
+      "text": "Segurança locomoção"
+    }
+  },
+  "flex-layout.row#manterTudoLimpo-seguranca-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#atencao-ao-deslocar-manual-e-cuidados",
+      "rich-text#manterTudoLimpo-seguranca-manual-e-cuidados"
+    ]
+  },
+  "image#atencao-ao-deslocar-manual-e-cuidados": {
+    "props": {
+      "blockClass": "img-textos-manual-e-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/029feefc-439f-42af-8837-f46967cbd4a2___26f65fef688643c5fcea3ab3d71c0a7e.svg"
+    }
+  },
+  "rich-text#manterTudoLimpo-seguranca-manual-e-cuidados": {
+    "props": {
+      "blockClass": "manterTudoLimpo-limpeza-manual-e-cuidados",
+      "text": "**Atenção ao deslocar**\nEvite acidentes. Ao locomover o produto, não apoie o peso do seu corpo sobre ele."
+    }
+  },
+  "flex-layout.row#cuidados-seguranca-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#cuidados-rodizios-manual-e-cuidados",
+      "rich-text#cuidados-rodizios-seguranca-manual-e-cuidados"
+    ]
+  },
+  "image#cuidados-rodizios-manual-e-cuidados": {
+    "props": {
+      "blockClass": "img-textos-manual-e-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/837190ab-03b1-4bdc-83cf-c9008551ced2___0a7141ae4620031bce7ddd743ab726e6.svg"
+    }
+  },
+  "rich-text#cuidados-rodizios-seguranca-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "text": "**Uso dos freios**\n Ao travar as rodas, tenha em mente que rampas muito íngremes podem dificultar a frenagem total do mobiliário."
+    }
+  },
+  "flex-layout.col#coluna-imagem-seguranca-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "colunas-imagem-manual-uso-cuidados",
+      "width": "40%"
+    },
+    "children": [
+      "image#seguranca-rodizios-manual-e-cuidados"
+    ]
+  },
+  "image#seguranca-rodizios-manual-e-cuidados": {
+    "props": {
+      "blockClass": "imgMaior-rodizios-manual-e-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7490cae5-e78c-4c12-a19c-40f8b98d05de___829cdc3fbbe3f4b2b93d7d8b3a8bf267.webp"
+    }
+  }
+}
