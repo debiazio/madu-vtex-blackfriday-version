@@ -11,7 +11,8 @@
       "menu-item#entregas",
       "menu-item#formas-pagamento",
       // "menu-item#observacoes",
-      "menu-item#trabalhe-conosco"
+      "menu-item#trabalhe-conosco",
+      "menu-item#manuais-cuidados"
     ]
   },
   "menu-item#made-for-you-footer": {
@@ -116,6 +117,21 @@
         "noFollow": true,
         "tagTitle": "Trabalhe Conosco",
         "text": "Trabalhe Conosco"
+      }
+    }
+  },
+  "menu-item#manuais-cuidados": {
+    "props": {
+      "id": "menu-item-manuais-cuidados",
+      "blockClass": "menu-item-footer-inst",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/manual-uso-cuidados/",
+        "noFollow": true,
+        "tagTitle": "Manual de uso e cuidados",
+        "text": "Manual de uso e cuidados"
       }
     }
   },

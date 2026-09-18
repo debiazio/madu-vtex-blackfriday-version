@@ -1,0 +1,127 @@
+{
+  "flex-layout.row#terceira-linha-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "primeira-linha-manual-uso-cuidados",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-textos-usoGavetas-manual-uso-cuidados",
+      "flex-layout.col#coluna-imagem-usoGavetas-manual-uso-cuidados"
+    ]
+  },
+  "flex-layout.col#coluna-textos-usoGavetas-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "colunas-textos-manual-uso-cuidados",
+      "width": "60%"
+    },
+    "children": [
+      "flex-layout.row#titulo-usoGavetas-manual-e-cuidados",
+      "flex-layout.row#manterTudoLimpo-usoGavetas-manual-e-cuidados",
+      "flex-layout.row#cuidados-usoGavetas-manual-e-cuidados",
+      "flex-layout.row#aberturas-manual-e-cuidados"
+    ]
+  },
+  "flex-layout.row#titulo-usoGavetas-manual-e-cuidados": {
+    "props": {
+      "blockClass": "linha-titulo-limpeza-manual-e-cuidados",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#numero3-manual-e-cuidados",
+      "rich-text#titulo-usoGavetas-manual-e-cuidados"
+    ]
+  },
+  "image#numero3-manual-e-cuidados": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fc43c03b-0656-4a58-86e0-535c133f4908___fc900b1ef4b15cd05a57ce9505a7bfd2.svg",
+      "alt": "3"
+    }
+  },
+  "rich-text#titulo-usoGavetas-manual-e-cuidados": {
+    "props": {
+      "blockClass": "titulo-limpeza-manual-e-cuidados",
+      "text": "Uso das gavetas"
+    }
+  },
+  "flex-layout.row#manterTudoLimpo-usoGavetas-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#atencao-ao-deslocar-manual-e-cuidados",
+      "rich-text#manterTudoLimpo-usoGavetas-manual-e-cuidados"
+    ]
+  },
+  "image#atencao-ao-deslocar-manual-e-cuidados": {
+    "props": {
+      "blockClass": "img-textos-manual-e-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/aa92c66c-71f9-4024-baeb-f1f01944b240___c8d3ff0669ebcc761691bc289ba6bdcf.svg"
+    }
+  },
+  "rich-text#manterTudoLimpo-usoGavetas-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "text": "**Risco de tombamento**\n Cuidado ao abrir diversas gavetas ao mesmo tempo. Isso altera o centro de gravidade e pode causar tombamento."
+    }
+  },
+  "flex-layout.row#cuidados-usoGavetas-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#cuidados-rodizios-manual-e-cuidados",
+      "rich-text#cuidados-rodizios-usoGavetas-manual-e-cuidados"
+    ]
+  },
+  "image#cuidados-rodizios-manual-e-cuidados": {
+    "props": {
+      "blockClass": "img-textos-manual-e-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/837190ab-03b1-4bdc-83cf-c9008551ced2___0a7141ae4620031bce7ddd743ab726e6.svg"
+    }
+  },
+  "rich-text#cuidados-rodizios-usoGavetas-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "text": "**Travas de segurança e remoção**\n Nossas gavetas possuem travas escalonadas. Para remoção completa, utilize as travas vermelhas localizadas nos trilhos. Não lubrifique os trilhos para não perder essa trava de segurança."
+    }
+  },
+  "flex-layout.row#aberturas-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#aberturas-manual-e-cuidados",
+      "rich-text#aberturas-manual-e-cuidados"
+    ]
+  },
+  "image#aberturas-manual-e-cuidados": {
+    "props": {
+      "blockClass": "img-textos-manual-e-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/89e643b6-d49c-4537-bf93-909fb75f18fb___1b44b26c660e5b3b7141d584a3c26a03.svg"
+    }
+  },
+  "rich-text#aberturas-manual-e-cuidados": {
+    "props": {
+      "blockClass": "textos-imagem-manual-e-cuidados",
+      "text": "**Abertura e cuidados com os trilhos**\n As gavetas foram projetadas para oferecer resistência e evitar aberturas não intencionais. Possuem travas de abertura escalonada, que impedem a abertura indevida durante o deslocamento. Não lubrifique os trilhos, pois isso pode comprometer essa função."
+    }
+  },
+  "flex-layout.col#coluna-imagem-usoGavetas-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "colunas-imagem-manual-uso-cuidados",
+      "width": "40%"
+    },
+    "children": [
+      "image#usoGavetas-rodizios-manual-e-cuidados"
+    ]
+  },
+  "image#usoGavetas-rodizios-manual-e-cuidados": {
+    "props": {
+      "blockClass": "imgMaior-rodizios-manual-e-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/3cab57c0-25cf-4cef-bed9-8045169ffee5___3ffb088e9de7cc23b664918243adc5bc.webp"
+    }
+  }
+}

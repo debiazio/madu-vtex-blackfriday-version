@@ -2,6 +2,54 @@
   "condition-layout.product#produtos-selecionados-btnComprar": {
     "props": {
       "conditions": [
+                {
+          "subject": "productId",
+          "arguments": {
+            "id": "551"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "25"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "303"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "260"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "437"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "412"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "388"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "417"
+          }
+        },
         {
           "subject": "productId",
           "arguments": {

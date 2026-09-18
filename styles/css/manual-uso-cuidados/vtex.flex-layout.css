@@ -1,3 +1,32 @@
+.flexRow--quarta-linha-manual-uso-cuidados {
+  padding: 90px 15%;
+}
+
+.flexColChild--coluna-orientacoes-manual-cuidados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexCol--coluna-orientacoes-manual-cuidados {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.flexRowContent--quarta-linha-manual-uso-cuidados {
+  background-color: #F2F2F2;
+  padding: 5px 16px;
+  border-radius: 41px;
+  gap: 16px;
+}
+
+.flexCol--coluna-orientacoes-manual-cuidados {
+  display: flex;
+  flex-direction: row;
+}
+
 .flexRowContent--primeira-linha-manual-uso-cuidados {
   display: flex;
   flex-direction: row;
@@ -9,6 +38,12 @@
 .flexColChild--colunas-imagem-manual-uso-cuidados {
   display: flex;
   flex-direction: row;
+}
+
+.flexColChild--colunas-imagem-manual-uso-cuidados-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
 
 .flexCol--colunas-textos-manual-uso-cuidados {
@@ -23,4 +58,31 @@
 
 .flexRowContent--textos-imagem-manual-e-cuidados {
   gap: 29px;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRow--quarta-linha-manual-uso-cuidados {
+    padding: 32px 22px 75px 22px;
+    gap: unset;
+  }
+
+  .flexRowContent--primeira-linha-manual-uso-cuidados {
+    flex-direction: column;
+  }
+
+  .flexCol--colunas-textos-manual-uso-cuidados {
+    padding-left: unset;
+    padding: 0 25px;
+  }
+
+  .flexRowContent--linha-titulo-limpeza-manual-e-cuidados {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flexRowContent--textos-imagem-manual-e-cuidados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }

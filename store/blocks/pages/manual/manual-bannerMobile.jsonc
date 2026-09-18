@@ -1,0 +1,23 @@
+{
+  "responsive-layout.mobile#banner-manual-cuidados":{
+"children": [
+  "flex-layout.row#bannerMobile-manual-uso-cuidados"
+]
+  },
+   "flex-layout.row#bannerMobile-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "banner-manual-uso-cuidados",
+      "fullWidth": true
+    },
+    "children": [
+      "image#bannerMobile-manual-uso-cuidados"
+    ]
+  },
+  "image#bannerMobile-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "img-manual-uso-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ead8f117-9a6b-47f8-8495-12df13a284b5___9026cfbc65564a7d140a2b877caaf5e8.webp",
+      "alt": "Manual de uso mobile"
+    }
+  }
+}

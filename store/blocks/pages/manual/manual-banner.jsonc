@@ -1,4 +1,9 @@
 {
+  "responsive-layout.desktop#banner-manual-cuidados": {
+    "children": [
+      "flex-layout.row#banner-manual-uso-cuidados"
+    ]
+  },
   "flex-layout.row#banner-manual-uso-cuidados": {
     "props": {
       "blockClass": "banner-manual-uso-cuidados",

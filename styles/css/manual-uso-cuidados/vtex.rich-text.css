@@ -1,3 +1,12 @@
+.paragraph--textos-quartaLinha-manual-cuidados {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 16px;
+  color: #535353;
+  line-height: 108%;
+  letter-spacing: 0%;
+}
+
 .paragraph--titulo-limpeza-manual-e-cuidados {
   color: #535353;
   font-family: "Poppins Black", sans-serif;
@@ -29,4 +38,23 @@
 .container--manterTudoLimpo-limpeza-manual-e-cuidados,
 .container--textos-imagem-manual-e-cuidados {
   max-width: 70%;
+}
+
+.container--textos-imagem-manual-e-cuidados:last-child {
+  max-width: 90%;
+}
+
+@media screen and (max-width: 1024px) {
+  .paragraph--textos-quartaLinha-manual-cuidados{
+    font-size: 12px;
+  }
+  .paragraph--titulo-limpeza-manual-e-cuidados {
+    font-size: 20px;
+  }
+
+  .paragraph--textos-imagem-manual-e-cuidados,
+  .strong--textos-imagem-manual-e-cuidados{
+    font-size: 12px;
+  }
+
 }

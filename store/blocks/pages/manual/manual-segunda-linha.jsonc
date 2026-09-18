@@ -1,4 +1,9 @@
 {
+  "responsive-layout.desktop#segunda-linha-manual-cuidados": {
+    "children": [
+      "flex-layout.row#segunda-linha-manual-uso-cuidados"
+    ]
+  },
   "flex-layout.row#segunda-linha-manual-uso-cuidados": {
     "props": {
       "blockClass": "primeira-linha-manual-uso-cuidados",
@@ -26,14 +31,14 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "image#numero1-manual-e-cuidados",
+      "image#numero2-manual-e-cuidados",
       "rich-text#titulo-seguranca-manual-e-cuidados"
     ]
   },
-  "image#numero1-manual-e-cuidados": {
+  "image#numero2-manual-e-cuidados": {
     "props": {
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/54769b49-71b0-4944-97e1-15275e721f7d___0b6ae0c90e09a4b7ddf1b20cc66e0d65.svg",
-      "alt": "1"
+      "alt": "2"
     }
   },
   "rich-text#titulo-seguranca-manual-e-cuidados": {
@@ -60,7 +65,7 @@
   },
   "rich-text#manterTudoLimpo-seguranca-manual-e-cuidados": {
     "props": {
-      "blockClass": "manterTudoLimpo-limpeza-manual-e-cuidados",
+      "blockClass": "textos-imagem-manual-e-cuidados",
       "text": "**Atenção ao deslocar**\nEvite acidentes. Ao locomover o produto, não apoie o peso do seu corpo sobre ele."
     }
   },
@@ -88,7 +93,7 @@
   },
   "flex-layout.col#coluna-imagem-seguranca-manual-uso-cuidados": {
     "props": {
-      "blockClass": "colunas-imagem-manual-uso-cuidados",
+      "blockClass": "colunas-imagem-manual-uso-cuidados-second",
       "width": "40%"
     },
     "children": [

@@ -61,7 +61,7 @@
   },
   "rich-text#manterTudoLimpo-limpeza-manual-e-cuidados": {
     "props": {
-      "blockClass": "manterTudoLimpo-limpeza-manual-e-cuidados",
+      "blockClass": "textos-imagem-manual-e-cuidados",
       "text": "**Mantenha o produto limpo**\nNossos componentes são resistentes aos principais produtos de limpeza do mercado. No entanto, evite o uso de produtos abrasivos e quimicamente agressivos."
     }
   },

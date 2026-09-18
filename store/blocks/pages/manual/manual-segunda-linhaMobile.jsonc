@@ -1,0 +1,17 @@
+{
+  "responsive-layout.mobile#segunda-linha-manual-cuidados":{
+    "children": [
+      "flex-layout.row#segunda-linhaMobile-manual-uso-cuidados"
+    ]
+  },
+  "flex-layout.row#segunda-linhaMobile-manual-uso-cuidados":{
+        "props": {
+      "blockClass": "primeira-linha-manual-uso-cuidados",
+      "colSizing": "auto"
+    },
+        "children": [
+          "flex-layout.col#coluna-textos-seguranca-manual-uso-cuidados",
+          "flex-layout.col#coluna-imagem-seguranca-manual-uso-cuidados"
+    ]
+  }
+}

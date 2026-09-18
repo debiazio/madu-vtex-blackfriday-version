@@ -1,0 +1,55 @@
+{
+  "flex-layout.row#quarta-linha-manual-uso-cuidados": {
+    "props": {
+      "blockClass": "quarta-linha-manual-uso-cuidados"
+    },
+    "children": [
+      "flex-layout.col#orientacoes-esquerda-manual-cuidados",
+      "flex-layout.col#orientacoes-direita-manual-cuidados"
+    ]
+  },
+  "flex-layout.col#orientacoes-esquerda-manual-cuidados": {
+    "props": {
+      "blockClass": "coluna-orientacoes-manual-cuidados"
+    },
+    "children": [
+      "image#caixa-manual-cuidados",
+      "rich-text#textos-partes-manual-cuidados"
+    ]
+  },
+  "image#caixa-manual-cuidados": {
+    "props": {
+      "blockClass": "img-quartaLinha-manual-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f731c2e5-f29d-4195-9eb2-1eeb8bc63592___c610b309147dc172c70eeb0d561c9d67.svg",
+      "alt": "imagem caixa"
+    }
+  },
+  "rich-text#textos-partes-manual-cuidados": {
+    "props": {
+      "blockClass": "textos-quartaLinha-manual-cuidados",
+      "text": "Algumas partes e/ou acessórios poderão ser enviados separadamente"
+    }
+  },
+  "flex-layout.col#orientacoes-direita-manual-cuidados": {
+    "props": {
+      "blockClass": "coluna-orientacoes-manual-cuidados"
+    },
+    "children": [
+      "image#doc-manual-cuidados",
+      "rich-text#textos-alteracoes-manual-cuidados"
+    ]
+  },
+  "image#doc-manual-cuidados": {
+    "props": {
+      "blockClass": "img-quartaLinha-manual-cuidados",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/65b6baa3-427b-422a-9b4e-a4d3fe90ba71___f3b33e68d952baa171a8f5b16073b54e.svg",
+      "alt": "Documento"
+    }
+  },
+  "rich-text#textos-alteracoes-manual-cuidados": {
+    "props": {
+      "text": "Não altere qualquer característica operacional ou construtiva do produto.",
+      "blockClass": "textos-quartaLinha-manual-cuidados"
+    }
+  }
+}
