@@ -1,0 +1,24 @@
+{
+  "responsive-layout.desktop#imagem-banner-box": {
+    "children": [
+      "flex-layout.row#imagem-banner-box"
+    ]
+  },
+  "flex-layout.row#imagem-banner-box": {
+    "props": {
+      "blockClass": "madu-box-banner",
+      "fullWidth": true
+    },
+    "children": [
+      "image#banner-box"
+    ],
+    "title": "Linha banner madubox"
+  },
+  "image#banner-box": {
+    "props": {
+      "blockClass": "banner-box-image",
+      "alt": "Banner box desktop",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4c715bcf-2400-4d9b-a372-bc853f9da8ff___38432f0dd9e0741c0181076753fabb96.webp"
+    }
+  }
+}

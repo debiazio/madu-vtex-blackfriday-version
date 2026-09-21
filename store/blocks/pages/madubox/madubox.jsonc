@@ -4,11 +4,7 @@
       "responsive-layout.mobile#handler-simples",
       "responsive-layout.desktop#imagem-banner-box",
       "responsive-layout.mobile#imagem-banner-box",
-      // "list-context.image-list#madubox-page",
-      // "flex-layout.row#desktop-banner-madubox",
-      // "flex-layout.row#desktop-banner2-maletas-madubox",
-      // "flex-layout.row#texto-subbanner-madubox",
-      "responsive-layout.mobile#diferencas-maletas-caixas",
+      // "responsive-layout.mobile#diferencas-maletas-caixas",
       "responsive-layout.desktop#diferencas-maletas-caixas",
       // "responsive-layout.mobile#banner3-caracteristicas-madubox",
       // "responsive-layout.desktop#banner3-caracteristicas-madubox",
@@ -37,29 +33,7 @@
   // =========================
   // BANNER INICIAL MADUBOX
   // ========================
-  "responsive-layout.desktop#imagem-banner-box": {
-    "children": [
-      "flex-layout.row#imagem-banner-box"
-    ]
-  },
-  "flex-layout.row#imagem-banner-box": {
-    "props": {
-      "blockClass": "madu-box-banner"
-    },
-    "children": [
-      "image#banner-box"
-    ],
-    "title": "Linha banner madubox"
-  },
-  "image#banner-box": {
-    "props": {
-      "blockClass": "banner-box-image",
-      "alt": "Banner box desktop",
-      "title": "Banner box desktop",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/66969f59-310e-4746-92cd-4d55c670904d___012462b0fc9c218a4b68ba1cc6f0c9e5.webp"
-    }
-  },
-  "responsive-layout.mobile#imagem-banner-box": {
+    "responsive-layout.mobile#imagem-banner-box": {
     "children": [
       "flex-layout.row#imagem-banner-box-mobile"
     ]
@@ -620,187 +594,8 @@
       "text": "Facilidade\n de limpeza"
     }
   },
-  //INIVIO BLOCO - NOVO BANNER -DIFERENCAS - **MOBILE**
-  "responsive-layout.mobile#diferencas-maletas-caixas": {
-    "children": [
-      "flex-layout.row#conteiner-diferencas-maletas-caixas-mobile"
-    ]
-  },
-  "flex-layout.row#conteiner-diferencas-maletas-caixas-mobile": {
-    "props": {
-      "blockClass": "conteiner-diferencas-maletas-caixas-mobile"
-    },
-    "children": [
-      "flex-layout.row#linha-superior-diferencas-maletas-caixas-mobile",
-      "flex-layout.row#linha-meio-diferencas-maletas-caixas-mobile",
-      "flex-layout.row#linha-inferior-diferencas-maletas-caixas-mobile"
-    ]
-  },
-  // MOBILE- LINHA SUPERIOR - DIFERENCAS
-  "flex-layout.row#linha-superior-diferencas-maletas-caixas-mobile": {
-    "props": {
-      "blockClass": "linha-superior-diferencas-maletas-caixas-mobile"
-    },
-    "children": [
-      "image#texto-diferencas"
-    ]
-  },
-  // MOBILE- LINHA media - DIFERENCAS
-  "flex-layout.row#linha-meio-diferencas-maletas-caixas-mobile": {
-    "props": {
-      "blockClass": "linha-meio-diferencas-maletas-caixas-mobile"
-    },
-    "children": [
-      "image#maleta-preta-diferencas",
-      "image#caixa-vermelha-diferencas"
-    ]
-  },
-  // MOBILE- LINHA INFERIOR - DIFERENCAS
-  "flex-layout.row#linha-inferior-diferencas-maletas-caixas-mobile": {
-    "props": {
-      "blockClass": "linha-inferior-diferencas-maletas-caixas-mobile"
-    },
-    "children": [
-      "rich-text#texto-maletas-diferencas-madubox",
-      "rich-text#texto-caixas-diferencas-madubox"
-    ]
-  },
-  //INICIO BLOCO -  NOVO BANNER -DIFERENCAS - ** DESKTOP **
-  "responsive-layout.desktop#diferencas-maletas-caixas": {
-    "children": [
-      "flex-layout.row#banner-sobre-banner3-diferencas"
-    ]
-  },
-  "flex-layout.row#banner-sobre-banner3-diferencas": {
-    "props": {
-      "blockClass": "linha-diferencas",
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.row#banner-diferencas-linha-deslocada"
-    ]
-  },
-  "flex-layout.row#banner-diferencas-linha-deslocada": {
-    "props": {
-      "blockClass": "linha-deslocada-diferencas-madubox",
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.row#diferencas-linha-imagens",
-      "flex-layout.row#diferencas-linha-textos"
-    ]
-  },
-  // LINHA DE IMAGENS -DIFERENCAS
-  "flex-layout.row#diferencas-linha-imagens": {
-    "props": {
-      "blockClass": "linha-imagens",
-      "colSizing": "equal"
-    },
-    "children": [
-      "flex-layout.col#coluna-imagem-maleta-preta",
-      "flex-layout.col#coluna-imagem-diferencas",
-      "flex-layout.col#coluna-imagem-caixa-vermelha"
-    ]
-  },
-  // IMAGENS - DIFERENCAS
-  "flex-layout.col#coluna-imagem-maleta-preta": {
-    "props": {
-      "blockClass": "coluna-imagem-maleta-preta",
-      "colSizing": "auto"
-    },
-    "children": [
-      "image#maleta-preta-diferencas"
-    ]
-  },
-  "image#maleta-preta-diferencas": {
-    "props": {
-      "blockClass": [
-        "imagens-diferencas-madubox",
-        "imagem-maleta-preta"
-      ],
-      "alt": "Imagens diferenças",
-      "src": "assets/madu-box/banner-maletas/maleta-preta.webp"
-    }
-  },
-  "flex-layout.col#coluna-imagem-diferencas": {
-    "props": {
-      "blockClass": "coluna-diferencas",
-      "colSizing": "auto"
-    },
-    "children": [
-      "image#texto-diferencas"
-    ]
-  },
-  "image#texto-diferencas": {
-    "props": {
-      "blockClass": [
-        "imagens-diferencas-madubox",
-        "diferencas-texto"
-      ],
-      "alt": "Imagens diferenças",
-      "src": "assets/madu-box/banner-maletas/diferencas.webp"
-    }
-  },
-  "flex-layout.col#coluna-imagem-caixa-vermelha": {
-    "props": {
-      "blockClass": "coluna-imagem-caixa-vermelha",
-      "colSizing": "auto"
-    },
-    "children": [
-      "image#caixa-vermelha-diferencas"
-    ]
-  },
-  "image#caixa-vermelha-diferencas": {
-    "props": {
-      "blockClass": [
-        "imagens-diferencas-madubox",
-        "imagem-caixa-vermelha"
-      ],
-      "alt": "Imagens diferenças",
-      "src": "assets/madu-box/banner-maletas/caixa-vermelha.webp"
-    }
-  },
-  // LINHA TEXTOS - DIFERENCAS
-  "flex-layout.row#diferencas-linha-textos": {
-    "props": {
-      "blockClass": "linha-textos-diferencas",
-      "colSizing": "equal"
-    },
-    "children": [
-      "flex-layout.col#diferencas-madubox-coluna-esquerda",
-      "flex-layout.col#diferencas-madubox-coluna-direita"
-    ]
-  },
-  // COLUNAS TEXTOS DIFERENCAS
-  "flex-layout.col#diferencas-madubox-coluna-esquerda": {
-    "props": {
-      "blockClass": "colunas-textos-diferencas"
-    },
-    "children": [
-      "rich-text#texto-maletas-diferencas-madubox"
-    ]
-  },
-  "flex-layout.col#diferencas-madubox-coluna-direita": {
-    "props": {
-      "blockClass": "colunas-textos-diferencas"
-    },
-    "children": [
-      "rich-text#texto-caixas-diferencas-madubox"
-    ]
-  },
-  // TEXTOS DIFERENCAS
-  "rich-text#texto-maletas-diferencas-madubox": {
-    "props": {
-      "blockClass": "maleta-textos-diferencas-madubox",
-      "text": "Modelos compactos e fáceis de transportar. Todas as maletas possuem alça de transporte e fechos frontais, ideais para levar seus objetos com praticidade e segurança."
-    }
-  },
-  "rich-text#texto-caixas-diferencas-madubox": {
-    "props": {
-      "blockClass": "caixa-textos-diferencas-madubox",
-      "text": "Modelos maiores para quem precisa de mais espaço. As caixas não possuem alça de transporte, sendo perfeitas para organizar e armazenar itens em casa, no trabalho ou em qualquer ambiente."
-    }
-  },
+
+
   // **MOBILE** CARACTERISTICAS MADUBOX banner 3
   "responsive-layout.mobile#banner3-caracteristicas-madubox": {
     "children": [

@@ -1,0 +1,85 @@
+{
+  "responsive-layout.desktop#diferencas-maletas-caixas": {
+    "children": [
+      "flex-layout.row#linhaBox-estruturas-madubox"
+    ]
+  },
+  "flex-layout.row#linhaBox-estruturas-madubox": {
+    "props": {
+      "blockClass": "linhaBox-estruturas-madubox"
+    },
+    "children": [
+      "flex-layout.col#linhaBoxColuna1-estruturas-madubox",
+      "flex-layout.row#linhaBoxColuna2-estruturas-madubox"
+    ]
+  },
+  "flex-layout.col#linhaBoxColuna1-estruturas-madubox": {
+    "props": {
+      "blockClass": "linhaBoxColuna1-estruturas-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#tittle-estrutura-madubox",
+      "rich-text#subtittle-estrutura-madubox"
+    ]
+  },
+  "rich-text#tittle-estrutura-madubox": {
+    "props": {
+      "blockClass": "tittle-estrutura-madubox",
+      "text": "A SUA ESTRUTURA DE TRABALHO NÃO PODE SER UM IMPROVISO."
+    }
+  },
+  "rich-text#subtittle-estrutura-madubox": {
+    "props": {
+      "blockClass": "subtittle-estrutura-madubox",
+      "text": "Repor organizadores frágeis consome o seu tempo e o orçamento do espaço."
+    }
+  },
+  "flex-layout.row#linhaBoxColuna2-estruturas-madubox": {
+    "props": {
+      "blockClass": "linhaBoxColuna2-estruturas-madubox",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna1-img-estrutura",
+      "flex-layout.col#coluna2-img-estrutura"
+    ]
+  },
+  "flex-layout.col#coluna1-img-estrutura": {
+    "props": {
+      "blockClass": "coluna1-img-estrutura",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-estrutura",
+      "image#titulo-estrutura"
+    ]
+  },
+  "rich-text#titulo-estrutura": {
+    "props": {
+      "blockClass": "legenda-estrutura-madubox",
+      "text": "Por isso desenvolvemos a"
+    }
+  },
+  "image#titulo-estrutura": {
+    "props": {
+      "blockClass": "img-linhabox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c53bed92-b38d-4203-bcc7-533c0dab1baa___99561360faaa9427e71ad70e6c845b91.webp"
+    }
+  },
+  "flex-layout.col#coluna2-img-estrutura": {
+    "props": {
+      "blockClass": "coluna2-texto-estrutura",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#coluna2-texto-estrutura"
+    ]
+  },
+  "rich-text#coluna2-texto-estrutura": {
+    "props": {
+      "text": "Uma estrutura que une **resistência** e **organização** pra proteger seus equipamentos e durar de verdade.",
+      "blockClass": "coluna2-texto-estrutura"
+    }
+  }
+}

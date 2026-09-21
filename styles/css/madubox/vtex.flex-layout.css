@@ -1,0 +1,49 @@
+.flexCol--linhaBoxColuna1-estruturas-madubox{
+  padding-right: 160px;
+  gap: 16px;
+}
+
+.flexRowContent--linhaBoxColuna2-estruturas-madubox{
+  gap: 26px;
+}
+
+.flexCol--linhaBoxColuna1-estruturas-madubox {
+  display: flex;
+  justify-content: center;
+}
+
+.flexCol--linhaBoxColuna2-estruturas-madubox {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColChild--coluna2-texto-estrutura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColChild--linhaBoxColuna2-estruturas-madubox {
+  width: 100%;
+}
+
+.flexRow--linhaBoxColuna2-estruturas-madubox {
+  padding: 30px;
+  border: 1px solid #CFCFCF;
+  border-radius: 20px 1000px 1000px 20px;
+}
+
+.flexCol--coluna2-texto-estrutura {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexRowContent--linhaBox-estruturas-madubox {
+  margin: 60px 0;
+}
+
+.flexRowContent--linhaBoxColuna2-estruturas-madubox .stretchChildrenWidth {
+  width: fit-content;
+}

@@ -2,7 +2,25 @@
   "condition-layout.product#busca-cep-condicao": {
     "props": {
       "conditions": [
-                {
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "552"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "545"
+          }
+        },
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "546"
+          }
+        },
+        {
           "subject": "productId",
           "arguments": {
             "id": "551"
@@ -608,7 +626,6 @@
     }
   }
 }
-
 // 100
 // 45
 // 86
