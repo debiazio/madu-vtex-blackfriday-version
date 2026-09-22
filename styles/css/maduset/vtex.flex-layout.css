@@ -425,7 +425,8 @@
 }
 
 @media screen and (min-width: 1900px) {
-
+  .flexRowContent--linha-escolha-tamanho-ideal2-madubox,
+  .flexRowContent--linha-escolha-tamanho-dieal-madubox,
   .flexRowContent--linhaGabaritoFaleConsultor-maduset,
   .flexRowContent--primeiraLinha-maduset,
   .flexRowContent--linhaInfinitasCombinacoes-maduset,

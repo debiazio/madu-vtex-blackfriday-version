@@ -1,8 +1,53 @@
-.flexRowContent--linhaDuasOpcoes-madubox{
+.flexRowContent--linha-escolha-tamanho-ideal2-madubox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.flexRow--linha-escolha-tamanho-ideal2-madubox {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--linha-escolha-tamanho-dieal-madubox .stretchChildrenWidth:first-child {
+  padding: 6% 0;
+  ;
+}
+
+.flexCol--coluna-textos-escolha-madubox {
+  background-color: #8282C8;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 0 27px;
+}
+
+.flexColChild--coluna-img-escolha-madubox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRow--linha-escolha-tamanho-dieal-madubox {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--linha-escolha-tamanho-dieal-madubox {
+  max-width: 1400px;
+}
+
+.flexRowContent--linhaDuasOpcoes-madubox {
   gap: 18px;
 }
 
-.flexRow--linhaDuasOpcoes-madubox{
+.flexRow--linhaDuasOpcoes-madubox {
   padding: 50px 0;
 }
 
@@ -97,8 +142,24 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRowContent--coluna-duasOpcoes-maduset {
+    display: flex;
+    align-items: center;
+  }
+
+  .flexRowContent--linhaDuasOpcoes-madubox {
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .flexRow--linhaDuasOpcoes-madubox {
+    padding: 69px 19px;
+  }
+
   .flexRowContent--linhaBox-estruturas-madubox {
-    gap: 16px;
+    gap: 30px;
     display: flex;
     flex-direction: column;
   }

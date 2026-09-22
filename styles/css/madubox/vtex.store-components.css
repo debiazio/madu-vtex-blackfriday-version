@@ -1,9 +1,17 @@
+.imageElement--img-transparente-madubox{
+  width: 100%;
+}
+
 .imageElement--img-linhabox {
   min-width: 220px;
 }
 
 .imageElement--Lock-img{
   margin: 5px;
+}
+
+.imageElement--Lock-img{
+  min-width: 94px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#escolha-tamanho-ideal2-madubox": {
+    "props": {
+      "blockClass": "linha-escolha-tamanho-ideal2-madubox",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#titulo-tam-ideal-madubox",
+      "rich-text#subtitulo-tam-ideal-madubox"
+    ]
+  },
+  "rich-text#titulo-tam-ideal-madubox": {
+    "props": {
+      "blockClass": "titulo-tam-ideal-madubox",
+      "text": "## Escolha o **tamanho ideal**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#subtitulo-tam-ideal-madubox": {
+    "props": {
+      "blockClass": "conteudo-tam-ideal-madubox",
+      "text": "Mais espaço interno e tudo fácil de carregar. Encontre a configuração perfeita",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#escolha-tamanho-dieal-madubox": {
+    "props": {
+      "blockClass": "linha-escolha-tamanho-dieal-madubox",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#textos-escolha-madubox",
+      "flex-layout.col#img-escolha-madubox"
+    ]
+  },
+  "flex-layout.col#textos-escolha-madubox": {
+    "props": {
+      "blockClass": "coluna-textos-escolha-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-versao-transp-madubox",
+      "rich-text#conteudo-versao-transp-madubox"
+    ]
+  },
+  "rich-text#titulo-versao-transp-madubox": {
+    "props": {
+      "blockClass": "titulo-versao-transp-madubox",
+      "text": "versão \n **TRANSPARENTe**"
+    }
+  },
+  "rich-text#conteudo-versao-transp-madubox": {
+    "props": {
+      "text": "Pra quem prefere ter tudo à vista. \n A **versão transparente em PETG** está disponível pra todos os tamanhos da Linha BOX.",
+      "blockClass": "conteudo-versao-transp-madubox"
+    }
+  },
+  "flex-layout.col#img-escolha-madubox": {
+    "props": {
+      "blockClass": "coluna-img-escolha-madubox"
+    },
+    "children": [
+      "image#img-transparente-madubox"
+    ]
+  },
+  "image#img-transparente-madubox": {
+    "props": {
+      "blockClass": "img-transparente-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fcf26555-944e-44a1-8ee5-15bfd39be753___732c57267aaf546305c3b982f4c7e1c8.webp"
+    }
+  }
+}

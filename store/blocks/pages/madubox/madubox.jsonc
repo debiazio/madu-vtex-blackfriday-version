@@ -1,14 +1,15 @@
 {
   "store.custom#madubox": {
     "blocks": [
-      "responsive-layout.mobile#handler-simples",
       "responsive-layout.desktop#imagem-banner-box",
       "responsive-layout.mobile#imagem-banner-box",
       "flex-layout.row#linhaBox-estruturas-madubox",
       "flex-layout.row#linhaDuasOpcoes-madubox",
-      "responsive-layout.desktop#handler",
-      "flex-layout.row#desktop-detalhes-tecnicos-titulo",
-      "flex-layout.row#desktop-detalhes-tecnicos-conteudo",
+      "flex-layout.row#escolha-tamanho-dieal-madubox",
+      "flex-layout.row#escolha-tamanho-ideal2-madubox",
+
+      // "flex-layout.row#desktop-detalhes-tecnicos-titulo",
+      // "flex-layout.row#desktop-detalhes-tecnicos-conteudo",
       // "responsive-layout.mobile#cores-madubox",
       // "responsive-layout.desktop#cores-madubox",
       "flex-layout.row#slider-madubox",
@@ -16,95 +17,10 @@
       "flex-layout.row#desktop-banner-final"
     ]
   },
-  "responsive-layout.mobile#handler-simples": {
-    "children": [
-      "dropdownmobile"
-    ]
-  },
-  "dropdownmobile": {},
-  // APP CUSTOM PARA O DISCLOSURE -  CHAMDO APENASD NO LAYOUT DESKTOP
-  "responsive-layout.desktop#handler": {
-    "children": [
-      "handler-visualization"
-    ]
-  },
 
 
-  // SUBTITULO BANNER 1
-  "rich-text#subtitulo-banner1-madubox": {
-    "props": {
-      "text": "Organização, Estilo e Versatilidade em um só produto",
-      "blockClass": "subtitulo-banner1-madubox"
-    }
-  },
-  "rich-text#descricao-banner1-madubox": {
-    "props": {
-      "text": "As Maletas e Caixas MaduBox chegaram para transformar sua rotina, unindo praticidade, resistência e design inteligente. Produzidas em plástico PSI de alta qualidade, com tampa de acrílico transparente, elas permitem visualizar facilmente o conteúdo, manter tudo em ordem e ainda transportar seus itens com segurança e estilo.",
-      "blockClass": "descricao-banner1-madubox"
-    }
-  },
 
-  // LINHA DA FRENTE DO BANNER 1
-  "flex-layout.row#linha-front-banner1-banner-box": {
-    "props": {
-      "blockClass": "linha-frente-banner-1",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "flex-layout.col#banner1-coluna-esquerda",
-      "responsive-layout.desktop#coluna-direita",
-      "responsive-layout.mobile#imagem-mobile-banner1-madubox"
-    ]
-  },
-  "responsive-layout.desktop#coluna-direita": {
-    "children": [
-      "flex-layout.col#banner1-coluna-direita"
-    ]
-  },
-  // COLUNA DA ESQUERDA BANNER 1
-  "flex-layout.col#banner1-coluna-esquerda": {
-    "props": {
-      "blockClass": "coluna-esquerda-banner1-madubox",
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#textos-coluna-esquerda-banner1",
-      "link#compreagora-madubox"
-    ]
-  },
-  "flex-layout.row#textos-coluna-esquerda-banner1": {
-    "props": {
-      "blockClass": "textos-coluna-esquerda-banner1-madubox",
-      "colSizing": "auto"
-    },
-    "children": [
-      "responsive-layout.desktop#titulo-madubox",
-      "responsive-layout.mobile#titulo-madubox",
-      "rich-text#subtitulo-banner1-madubox",
-      "rich-text#descricao-banner1-madubox"
-    ]
-  },
-  // TITULO DESKTOP BANNER INICIAL
-  "responsive-layout.desktop#titulo-madubox": {
-    "children": [
-      "image#titulo1-banner1-madubox",
-      "image#titulo2-banner1-madubox"
-    ]
-  },
-  "image#titulo1-banner1-madubox": {
-    "props": {
-      "src": "assets/madu-box/banner-inicial/caixas-maletas-desktop.webp",
-      "blockClass": "titulo-banner1-madubox",
-      "alt": "Título MaduBox"
-    }
-  },
-  "image#titulo2-banner1-madubox": {
-    "props": {
-      "src": "assets/madu-box/banner-inicial/madubox-desktop.webp",
-      "blockClass": "titulo-banner1-madubox",
-      "alt": "Título MaduBox"
-    }
-  },
+
   // TITULO MOBILE
   "responsive-layout.mobile#titulo-madubox": {
     "children": [
@@ -153,19 +69,7 @@
       "blockClass": "imagem-banner1-madubox"
     }
   },
-  // MALETAS MADUBOX banner 2
-  "flex-layout.row#desktop-banner2-maletas-madubox": {
-    "props": {
-      "blockClass": "linha-maletas-madubox",
-      "fullWidth": true,
-      "colSizing": "auto"
-    },
-    "children": [
-      "responsive-layout.desktop#titulo-maletas",
-      "responsive-layout.mobile#titulo-maletas",
-      "flex-layout.row#linha-maletas-frente"
-    ]
-  },
+
   // TITULO MALETAS - DESKTOP
   "responsive-layout.desktop#titulo-maletas": {
     "children": [
