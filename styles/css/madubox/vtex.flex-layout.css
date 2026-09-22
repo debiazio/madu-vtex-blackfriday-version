@@ -1,9 +1,57 @@
-.flexCol--linhaBoxColuna1-estruturas-madubox{
+.flexRowContent--linhaDuasOpcoes-madubox{
+  gap: 18px;
+}
+
+.flexRow--linhaDuasOpcoes-madubox{
+  padding: 50px 0;
+}
+
+
+.flexRowContent--linha-safeLock,
+.flexRowContent--linha-easyLock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.flexRowContent--linha-safeLock,
+.flexRowContent--linha-easyLock {
+  border-radius: 200px 1000px 1000px 200px;
+}
+
+.flexRow--coluna-duasOpcoes-maduset,
+.flexCol--coluna-locks-duasOpcoes-maduset {
+  padding: 41px 30px;
+  gap: 23px;
+  background-color: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 20px;
+}
+
+.flexRowContent--linha-safeLock {
+  background-color: #D7461E;
+}
+
+.flexRowContent--linha-easyLock {
+  background-color: #00A277;
+}
+
+.flexCol--coluna-duasOpcoes-maduset {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRow--linhaDuasOpcoes-madubox {
+  background-color: #F4F4F4;
+}
+
+.flexCol--linhaBoxColuna1-estruturas-madubox {
   padding-right: 160px;
   gap: 16px;
 }
 
-.flexRowContent--linhaBoxColuna2-estruturas-madubox{
+.flexRowContent--linhaBoxColuna2-estruturas-madubox {
   gap: 26px;
 }
 
@@ -46,4 +94,29 @@
 
 .flexRowContent--linhaBoxColuna2-estruturas-madubox .stretchChildrenWidth {
   width: fit-content;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRowContent--linhaBox-estruturas-madubox {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRow--linhaBox-estruturas-madubox {
+    padding: 16px;
+  }
+
+  .flexRow--linhaBoxColuna2-estruturas-madubox {
+    padding: 12px;
+
+  }
+
+  .flexRowContent--linhaBoxColuna2-estruturas-madubox {
+    display: flex;
+  }
+
+  .flexCol--linhaBoxColuna1-estruturas-madubox {
+    padding-right: unset;
+  }
 }

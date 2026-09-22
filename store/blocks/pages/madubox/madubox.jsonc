@@ -4,10 +4,8 @@
       "responsive-layout.mobile#handler-simples",
       "responsive-layout.desktop#imagem-banner-box",
       "responsive-layout.mobile#imagem-banner-box",
-      // "responsive-layout.mobile#diferencas-maletas-caixas",
-      "responsive-layout.desktop#diferencas-maletas-caixas",
-      // "responsive-layout.mobile#banner3-caracteristicas-madubox",
-      // "responsive-layout.desktop#banner3-caracteristicas-madubox",
+      "flex-layout.row#linhaBox-estruturas-madubox",
+      "flex-layout.row#linhaDuasOpcoes-madubox",
       "responsive-layout.desktop#handler",
       "flex-layout.row#desktop-detalhes-tecnicos-titulo",
       "flex-layout.row#desktop-detalhes-tecnicos-conteudo",
@@ -30,82 +28,8 @@
       "handler-visualization"
     ]
   },
-  // =========================
-  // BANNER INICIAL MADUBOX
-  // ========================
-    "responsive-layout.mobile#imagem-banner-box": {
-    "children": [
-      "flex-layout.row#imagem-banner-box-mobile"
-    ]
-  },
-  "flex-layout.row#imagem-banner-box-mobile": {
-    "props": {
-      "blockClass": "madu-box-banner"
-    },
-    "children": [
-      "image#banner-box-mobile"
-    ],
-    "title": "Linha banner madubox mobile"
-  },
-  "image#banner-box-mobile": {
-    "props": {
-      "blockClass": "banner-box-image",
-      "alt": "Banner box desktop",
-      "title": "Banner box desktop",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/97401824-5dc7-47e6-8b58-790ea76562cc___5cb9f7aee74a3068d95bc91fdf0f989e.webp"
-    }
-  },
-  // "list-context.image-list#madubox-page": {
-  //   "children": [
-  //     "slider-layout#madubox-page"
-  //   ],
-  //   "props": {
-  //     "height": 570,
-  //     "images": [
-  //       {
-  //         "mobileImage": "assets/madu-box/banner-home/mobile/Banner-lancamento-madubox-mobile.webp",
-  //         "image": "assets/madu-box/banner-home/Banner-lancamento-madubox.webp",
-  //         "link": {
-  //           "url": "/madubox"
-  //         }
-  //       }
-  //     ],
-  //     "title": "Banner MaduBox"
-  //   }
-  // },
-  // "slider-layout#madubox-page": {
-  //   "props": {
-  //     "title": "Slider MaudBox",
-  //     "blockClass": "madu-box-slider",
-  //     "maxwidth": "1200",
-  //     "itemsPerPage": {
-  //       "desktop": 1,
-  //       "tablet": 1,
-  //       "phone": 1
-  //     },
-  //     "arrowSize": 50,
-  //     "infinite": false,
-  //     "showNavigationArrows": "always",
-  //     "showPaginationDots": "never"
-  //     // "autoplay": {
-  //     //   "timeout": 8000,
-  //     //   "stopOnHover": true
-  //     // }
-  //   }
-  // },
-  // ========================
-  // SUBBANNER MADUBOX
-  // ========================
-  "flex-layout.row#texto-subbanner-madubox": {
-    "props": {
-      "blockClass": "linha-texto-subbanner",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "rich-text#subtitulo-banner1-madubox",
-      "rich-text#descricao-banner1-madubox"
-    ]
-  },
+
+
   // SUBTITULO BANNER 1
   "rich-text#subtitulo-banner1-madubox": {
     "props": {
@@ -119,16 +43,7 @@
       "blockClass": "descricao-banner1-madubox"
     }
   },
-  "flex-layout.row#desktop-banner-madubox": {
-    "props": {
-      "blockClass": "linha-banner-madubox",
-      "fullWidth": true,
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.row#linha-front-banner1-banner-box"
-    ]
-  },
+
   // LINHA DA FRENTE DO BANNER 1
   "flex-layout.row#linha-front-banner1-banner-box": {
     "props": {

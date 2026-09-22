@@ -1,9 +1,9 @@
 {
-  "responsive-layout.desktop#diferencas-maletas-caixas": {
-    "children": [
-      "flex-layout.row#linhaBox-estruturas-madubox"
-    ]
-  },
+  // "responsive-layout.desktop#diferencas-maletas-caixas": {
+  //   "children": [
+  //     "flex-layout.row#linhaBox-estruturas-madubox"
+  //   ]
+  // },
   "flex-layout.row#linhaBox-estruturas-madubox": {
     "props": {
       "blockClass": "linhaBox-estruturas-madubox"

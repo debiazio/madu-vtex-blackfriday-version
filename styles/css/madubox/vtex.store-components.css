@@ -1,3 +1,14 @@
 .imageElement--img-linhabox {
   min-width: 220px;
 }
+
+.imageElement--Lock-img{
+  margin: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .imageElement--img-linhabox {
+    min-width: unset;
+    max-width: 100%;
+  }
+}

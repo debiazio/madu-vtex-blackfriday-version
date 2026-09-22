@@ -1,0 +1,131 @@
+{
+  "flex-layout.row#linhaDuasOpcoes-madubox": {
+    "props": {
+      "blockClass": "linhaDuasOpcoes-madubox"
+    },
+    "children": [
+      "flex-layout.col#duasOpcoes-maduset",
+      "flex-layout.row#oqEhModulo-maduset"
+    ]
+  },
+  "flex-layout.col#duasOpcoes-maduset": {
+    "props": {
+      "blockClass": "coluna-locks-duasOpcoes-maduset",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-2opcoes-maduset",
+      "flex-layout.row#safeLock",
+      "flex-layout.row#easylock"
+    ]
+  },
+  "rich-text#titulo-2opcoes-maduset": {
+    "props": {
+      "blockClass": "titulo-2opcoes-maduset",
+      "text": "### Duas opções \n ### **de fechamento** \n Para cada necessidade um nível de segurança."
+    }
+  },
+  "flex-layout.row#safeLock": {
+    "props": {
+      "blockClass": "linha-safeLock",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#safeLock-title",
+      "image#safeLock-img"
+    ]
+  },
+  "rich-text#safeLock-title": {
+    "props": {
+      "blockClass": "Lock-title",
+      "text": "**SAFE lock** \n Pra situações que exigem maior controle e segurança dos materiais."
+    }
+  },
+  "image#safeLock-img": {
+    "props": {
+      "blockClass": "Lock-img",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/50d2aff4-8caa-4710-b562-e96284415be8___5d25e3a69bee34198441802a9d2b7172.webp"
+    }
+  },
+  "flex-layout.row#easylock": {
+    "props": {
+      // "blockClass": "linha-safeLock",
+      "blockClass": "linha-easyLock",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#easyLock-title",
+      "image#easyLock-img"
+    ]
+  },
+  "rich-text#easyLock-title": {
+    "props": {
+      "blockClass": "Lock-title",
+      "text": "**EASY lock** \n Acesso rápido e prático, para itens sem necessidade de restrição."
+    }
+  },
+  "image#easyLock-img": {
+    "props": {
+      "blockClass": "Lock-img",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/65b095e3-7195-4193-b66c-12ee01ee40a6___8d7ec5f7be75171cd4894c2bb0598571.webp"
+    }
+  },
+  // ======================================================
+  // o que é um módulo?
+  // ======================================================
+  "flex-layout.row#oqEhModulo-maduset": {
+    "props": {
+      "blockClass": "coluna-duasOpcoes-maduset",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#oqEhmodulo-coluna1-madubox",
+      "flex-layout.col#oqEhmodulo-coluna2-madubox"
+    ]
+  },
+  "flex-layout.col#oqEhmodulo-coluna1-madubox":{
+    "props": {
+      "blockClass": "oqEhmodulo-colunas"
+    },
+    "children": [
+      "rich-text#titulo-oqEModulo-madubox",
+      "rich-text#conteudo-oqEModulo-madubox",
+      "image#conhecamaduset"
+    ]
+  },
+  "rich-text#titulo-oqEModulo-madubox":{
+    "props": {
+      "text": "### O que é um \n ### **Módulo?**",
+      "blockClass": "titulo-2opcoes-maduset"
+    }
+  },
+  "rich-text#conteudo-oqEModulo-madubox":{
+    "props": {
+      "text": "O módulo é a nossa unidade de medida e a base usada para montar o Open Set. Na sua BOX, ele serve como referência de tamanho, ajudando você a visualizar o espaço interno. \n **O módulo é apenas uma referência e não acompanha a maleta.**",
+      "blockClass": "conteudo-lock"
+    }
+  },
+  "image#conhecamaduset":{
+    "props": {
+      "blockClass": "link-toMaduset-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8004149f-fa8c-415b-bb49-1ead15172083___a77a6a7b32df84e8238dfc16368047b0.svg",
+      "link": {
+        "url": "/maduset/"
+      }
+    }
+  },
+  "flex-layout.col#oqEhmodulo-coluna2-madubox":{
+    "props": {
+      "blockClass": "oqEhmodulo-colunas"
+    },
+    "children": [
+      "image#1modulo-madubox"
+    ]
+  },
+  "image#1modulo-madubox":{
+    "props": {
+      "blockClass": "1modulo-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/962f9d11-2a4b-499c-80e4-c2e408afb0d8___53222240e6f0d85e4af99b943d22f834.webp"
+    }
+  }
+}

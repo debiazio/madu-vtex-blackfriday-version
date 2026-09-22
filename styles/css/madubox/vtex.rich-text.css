@@ -1,3 +1,59 @@
+.container--Lock-title{
+  padding: 19px;
+}
+
+.strong--Lock-title {
+  margin: 0;
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 97%;
+  letter-spacing: 0%;
+}
+
+.paragraph--Lock-title {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 97%;
+  letter-spacing: 0%;
+
+}
+
+.headingLevel3--titulo-2opcoes-maduset {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 24px;
+  color: #333333;
+  line-height: 97%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.strong--titulo-2opcoes-maduset {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 97%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
+}
+
+.paragraph--titulo-2opcoes-maduset {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7E7E7E;
+  line-height: 97%;
+  letter-spacing: 0%;
+
+}
+
 .paragraph--tittle-estrutura-madubox {
   padding: 0;
   margin: 0;
@@ -54,4 +110,30 @@
   letter-spacing: -3%;
   text-transform: uppercase;
   color: #333333;
+}
+
+@media screen and (max-width: 1024px) {
+  .paragraph--legenda-estrutura-madubox {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .paragraph--coluna2-texto-estrutura,
+  .strong--coluna2-texto-estrutura {
+    font-size: 16px;
+  }
+
+  .flexCol--linhaBoxColuna1-estruturas-madubox {
+    padding: 0 29px;
+  }
+
+  .paragraph--tittle-estrutura-madubox {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .paragraph--subtittle-estrutura-madubox {
+    font-size: 16px;
+    text-align: center;
+  }
 }

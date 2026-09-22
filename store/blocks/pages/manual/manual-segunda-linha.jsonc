@@ -79,12 +79,7 @@
       "rich-text#cuidados-rodizios-seguranca-manual-e-cuidados"
     ]
   },
-  "image#cuidados-rodizios-manual-e-cuidados": {
-    "props": {
-      "blockClass": "img-textos-manual-e-cuidados",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/837190ab-03b1-4bdc-83cf-c9008551ced2___0a7141ae4620031bce7ddd743ab726e6.svg"
-    }
-  },
+
   "rich-text#cuidados-rodizios-seguranca-manual-e-cuidados": {
     "props": {
       "blockClass": "textos-imagem-manual-e-cuidados",

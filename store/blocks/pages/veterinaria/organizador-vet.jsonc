@@ -73,19 +73,7 @@
   //     "image#tag-one-vet"
   //   ]
   // },
-  "image#tag-one-vet": {
-    "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbdf2eb-1758-4f7a-9759-9181c687f8e0___213cf17ba35421a3655f03a4ce40ded1.svg",
-      "blockClass": "image-tag-vet"
-    }
-  },
-  "rich-text#linha": {
-    "props": {
-      "text": "Linha",
-      "blockClass": "linha"
-    },
-    "title": "Linha"
-  },
+
   "rich-text#titulo-produtoOrganizador-vet": {
     "props": {
       "blockClass": "titulo-produtoLinhaOne-vet",
