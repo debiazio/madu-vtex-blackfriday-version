@@ -1,3 +1,7 @@
+.label--link-comprar-tamanhos{
+  white-space: nowrap;
+}
+
 .label--personalizar-madubox {
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;
@@ -45,6 +49,7 @@
 }
 
 
+.link--personalizar-madubox,
 .link--link-comprar-tamanhos,
 .link--linha-link-tamanhos-madubox {
   text-decoration: none;
@@ -73,4 +78,11 @@
   padding: 8px;
   width: 100%;
   justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .label--personalizar-madubox,
+  .label--link-comprar-tamanhos{
+    font-size: 16px;
+  }
 }

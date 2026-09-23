@@ -1,4 +1,8 @@
-.imageElement--img-transparente-madubox{
+.imageElement--imgs-varAlt {
+  height: fit-content;
+}
+
+.imageElement--img-transparente-madubox {
   width: 100%;
 }
 
@@ -6,11 +10,11 @@
   min-width: 220px;
 }
 
-.imageElement--Lock-img{
+.imageElement--Lock-img {
   margin: 5px;
 }
 
-.imageElement--Lock-img{
+.imageElement--Lock-img {
   min-width: 94px;
 }
 

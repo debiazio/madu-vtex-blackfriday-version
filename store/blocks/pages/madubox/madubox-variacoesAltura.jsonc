@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#variacoesAltura-madubox": {
+    "props": {
+      "blockClass": "linha-variacoesAltura-madubox",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-varAltura-madubox",
+      "flex-layout.row#imagens-varAltura-madubox"
+    ]
+  },
+  "rich-text#titulo-varAltura-madubox": {
+    "props": {
+      "blockClass": "tituloVarAltura-madubox",
+      "text": "todos os tamanhos possuem \n **variações de alturas:**",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.row#imagens-varAltura-madubox":{
+    "props": {
+      "blockClass": "linha-imagens-varAltura-madubox",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#tamanhoP-varAlt-madubox",
+      "image#tamanhoM-varAlt-madubox",
+      "image#tamanhoG-varAlt-madubox",
+      "image#tamanhoGG-varAlt-madubox"
+    ]
+  },
+        "image#tamanhoP-varAlt-madubox":{
+          "props": {
+            "blockClass": "imgs-varAlt",
+            "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a7a9d4f2-4511-40f9-bfe3-9758b6d61f87___7f5745218bba86909c6c4b1bb9773a70.webp"
+          }
+        },
+      "image#tamanhoM-varAlt-madubox":{
+        "props": {
+          "blockClass": "imgs-varAlt",
+          "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/09dfd639-6b60-4d75-9565-12c614c4b342___2d0343680d8a6931203fcde919e71713.webp"
+        }
+      },
+      "image#tamanhoG-varAlt-madubox":{
+        "props": {
+          "blockClass": "imgs-varAlt",
+          "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b556161e-4687-4296-9d00-7ae941881cfb___6923c193c6f3e757bbb4a3993f4e5569.webp"
+        }
+      },
+      "image#tamanhoGG-varAlt-madubox":{
+        "props": {
+          "blockClass": "imgs-varAlt",
+          "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ba662dff-6469-4e1b-8f7d-e51d03c5cf2e___f77eb6dc3ee8d1a2f247c4466554bc2e.webp"
+        }
+      }
+}

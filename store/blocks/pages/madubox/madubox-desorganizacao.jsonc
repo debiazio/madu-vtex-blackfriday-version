@@ -2,7 +2,8 @@
   "flex-layout.row#desorganizacao-madubox": {
     "props": {
       "blockClass": "linha-desorganizacao-madubox",
-      "fullWidth": true
+      "fullWidth": true,
+      "preventHorizontalStretch": true
     },
     "children": [
       "rich-text#titulo-desorganizacao-madubox",
@@ -21,7 +22,7 @@
   },
   "rich-text#subtitulo-desorganizacao-madubox": {
     "props": {
-      "blockClass": "titulo-desorganizacao-madubox",
+      "blockClass": "subtitulo-desorganizacao-madubox",
       "text": "Escolha a estrutura que acompanha o seu ritmo de atendimentos. Compra segura com garantia de fábrica.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -47,7 +48,7 @@
     "props": {
       "blockClass": "personalizar-madubox",
       "label": "PERSONALIZAR MINHA BOX",
-      "href": "#"
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+da+Madu+Box+e+quero+personalizar+a+minha+BOX%21+Pode+me+ajudar%3F&type=phone_number&app_absent=0"
     }
   }
 }

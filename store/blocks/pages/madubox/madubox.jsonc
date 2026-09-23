@@ -11,6 +11,7 @@
       "responsive-layout.mobile#escolha-tamanho-ideal2-madubox",
 
       "flex-layout.row#desorganizacao-madubox",
+      // "flex-layout.row#variacoesAltura-madubox",
 
       // "flex-layout.row#desktop-detalhes-tecnicos-titulo",
       // "flex-layout.row#desktop-detalhes-tecnicos-conteudo",

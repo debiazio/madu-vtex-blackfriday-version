@@ -1,5 +1,14 @@
+/* .flexRowContent--linha-desorganizacao-madubox .stretchChildrenWidth{
+  width: 100%!important;
+} */
+
+.flexRowContent--linhas-botoes-desorganizacao-madubox{
+  gap: 26px;
+}
+
 .flexRow--linha-desorganizacao-madubox {
   display: flex;
+  padding: 70px 0;
   flex-direction: column;
   align-items: center;
   background-color: #F4F4F4;
@@ -179,6 +188,14 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .flexRow--linha-desorganizacao-madubox{
+    padding: 70px 22px;
+  }
+  .flexRowContent--linhas-botoes-desorganizacao-madubox{
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+  }
 
   .flexRowContent--linha-escolha-tamanho-dieal-madubox {
     padding: 22px;

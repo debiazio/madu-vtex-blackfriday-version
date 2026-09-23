@@ -1,4 +1,4 @@
-.paragraph--titulo-desorganizacao-madubox{
+.paragraph--subtitulo-desorganizacao-madubox{
   font-family: "Poppins Light", sans-serif !important;
 font-weight: 300;
 font-size: 24px;
@@ -267,6 +267,13 @@ text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
+  .paragraph--subtitulo-desorganizacao-madubox{
+    font-size: 16px;
+  }
+  .headingLevel2--titulo-desorganizacao-madubox{
+    white-space: normal;
+    font-size: 24px;
+  }
   .paragraph--titulo-tam-ideal-madubox {
     margin: 0;
   }
