@@ -1,0 +1,76 @@
+.label--personalizar-madubox {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 14px;
+  color: #8282C8;
+  line-height: 97%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.link--personalizar-madubox {
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  display: flex;
+  border-radius: 100px;
+  padding: 8px;
+  width: 100%;
+  justify-content: center;
+}
+
+.flexRowContent--linha-escolha-tamanho-ideal2-madubox {
+  max-width: 1400px;
+}
+
+.link--linha-link-tamanhos-madubox {
+  /* background-color: #F2F2F280; */
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.link--linha-link-tamanhos-madubox {
+  background: linear-gradient(135deg,
+      #e6e6e6 0%,
+      #f2f2f2a4 30%,
+      #f2f2f2a4 70%,
+      #e6e6e6 100%);
+  background-size: 200% 200%;
+  background-position: 0% 0%;
+  transition: background-position 0.8s ease, background-color 0.8s ease;
+}
+
+.link--linha-link-tamanhos-madubox:hover {
+  background-position: 100% 100%;
+}
+
+
+.link--link-comprar-tamanhos,
+.link--linha-link-tamanhos-madubox {
+  text-decoration: none;
+}
+
+.label--link-comprar-tamanhos {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 900;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 97%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.link--link-comprar-tamanhos:hover {
+  background-color: #80C2A8;
+}
+
+.link--link-comprar-tamanhos {
+  border-radius: 100px;
+  background-color: #00A277;
+  display: flex;
+  border-radius: 100px;
+  padding: 8px;
+  width: 100%;
+  justify-content: center;
+}

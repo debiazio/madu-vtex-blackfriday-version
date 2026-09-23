@@ -1,12 +1,49 @@
 {
+  "responsive-layout.mobile#escolha-tamanho-ideal2-madubox": {
+    "children": [
+      "flex-layout.row#mobile-escolha-tamanho-ideal2-madubox"
+    ]
+  },
+  "responsive-layout.desktop#escolha-tamanho-ideal2-madubox": {
+    "children": [
+      "flex-layout.row#escolha-tamanho-ideal2-madubox"
+    ]
+  },
   "flex-layout.row#escolha-tamanho-ideal2-madubox": {
+    "props": {
+      "blockClass": "linha-escolha-tamanho-ideal2-madubox",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#titulo-tam-ideal-madubox",
+      "responsive-layout.mobile#titulo-tam-ideal-madubox",
+      "rich-text#subtitulo-tam-ideal-madubox",
+      "responsive-layout.desktop#produtos-escolha-madubox",
+      "responsive-layout.mobile#produtos-escolha-madubox"
+    ]
+  },
+  "flex-layout.row#mobile-escolha-tamanho-ideal2-madubox": {
     "props": {
       "blockClass": "linha-escolha-tamanho-ideal2-madubox",
       "fullWidth": true
     },
     "children": [
-      "rich-text#titulo-tam-ideal-madubox",
-      "rich-text#subtitulo-tam-ideal-madubox"
+      "responsive-layout.desktop#titulo-tam-ideal-madubox",
+      "responsive-layout.mobile#titulo-tam-ideal-madubox",
+      "rich-text#subtitulo-tam-ideal-madubox",
+      "responsive-layout.desktop#produtos-escolha-madubox",
+      "responsive-layout.mobile#produtos-escolha-madubox"
+    ]
+  },
+  "responsive-layout.desktop#titulo-tam-ideal-madubox": {
+    "children": [
+      "rich-text#titulo-tam-ideal-madubox"
+    ]
+  },
+  "responsive-layout.mobile#titulo-tam-ideal-madubox": {
+    "children": [
+      "rich-text#mobile-titulo-tam-ideal-madubox"
     ]
   },
   "rich-text#titulo-tam-ideal-madubox": {
@@ -17,12 +54,379 @@
       "textPosition": "CENTER"
     }
   },
+  "rich-text#mobile-titulo-tam-ideal-madubox": {
+    "props": {
+      "blockClass": "titulo-tam-ideal-madubox",
+      "text": "## Escolha o \n **tamanho ideal**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
   "rich-text#subtitulo-tam-ideal-madubox": {
     "props": {
       "blockClass": "conteudo-tam-ideal-madubox",
       "text": "Mais espaço interno e tudo fácil de carregar. Encontre a configuração perfeita",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
+    }
+  },
+  "responsive-layout.mobile#produtos-escolha-madubox": {
+    "children": [
+      "slider-madubox"
+    ]
+  },
+  "responsive-layout.desktop#produtos-escolha-madubox": {
+    "children": [
+      "flex-layout.row#produtos-escolha-madubox"
+    ]
+  },
+  "flex-layout.row#produtos-escolha-madubox": {
+    "props": {
+      "blockClass": "linha-produtos-escolha-madubox"
+    },
+    "children": [
+      "link#tamanho3-linha-madubox",
+      "link#tamanho4-linha-madubox",
+      "link#tamanho6-linha-madubox",
+      "link#tamanho8-linha-madubox",
+      "link#tamanho10-linha-madubox",
+      "link#tamanho12-linha-madubox"
+    ]
+  },
+  "link#tamanho3-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "/maleta-organizadora-multiuso-tamanho-3-com-alca-transporte-madu-box/p?skuId=2606"
+    },
+    "children": [
+      "flex-layout.col#tamanho3-madubox"
+    ]
+  },
+  "flex-layout.col#tamanho3-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-tamanho3-madubox",
+      "rich-text#subtitulo-tamanho3-madubox",
+      "image#img-tamanho3-madubox",
+      "rich-text#preco-tamanho3-madubox",
+      "link#comprar-tamanho3"
+    ]
+  },
+  "rich-text#titulo-tamanho3-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "tamanho 3"
+    }
+  },
+  "rich-text#subtitulo-tamanho3-madubox": {
+    "props": {
+      "blockClass": "subtitulo-tamanhos-madubox",
+      "text": "24x24cm | 3 módulos"
+    }
+  },
+  "image#img-tamanho3-madubox": {
+    "props": {
+      "blockClass": "img-tamanhos-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c7e819de-16a2-4043-bde5-2ce5d52883d2___46236049765a5419325993350848fbf0.webp",
+      "alt": "tamanho 3"
+    }
+  },
+  "rich-text#preco-tamanho3-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "A partir de:\n **R$ 229,00**"
+    }
+  },
+  "link#comprar-tamanho3": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar",
+      "openNewTab": true,
+      "href": "/maleta-organizadora-multiuso-tamanho-3-com-alca-transporte-madu-box/p"
+    }
+  },
+  "link#tamanho4-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "/maleta-organizadora-multiuso-tamanho-4-com-alca-transporte-madu-box/p?skuId=2636"
+    },
+    "children": [
+      "flex-layout.col#tamanho4-madubox"
+    ]
+  },
+  "flex-layout.col#tamanho4-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-tamanho4-madubox",
+      "rich-text#subtitulo-tamanho4-madubox",
+      "image#img-tamanho4-madubox",
+      "rich-text#preco-tamanho4-madubox",
+      "link#comprar-tamanho4"
+    ]
+  },
+  "rich-text#titulo-tamanho4-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "tamanho 4"
+    }
+  },
+  "rich-text#subtitulo-tamanho4-madubox": {
+    "props": {
+      "blockClass": "subtitulo-tamanhos-madubox",
+      "text": "32x32cm | 4 módulos"
+    }
+  },
+  "image#img-tamanho4-madubox": {
+    "props": {
+      "blockClass": "img-tamanhos-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e2693c48-8da4-4823-918a-fbc68c042b0a___bc2396b2e369a235523ee9cb715dd049.webp",
+      "alt": "tamanho 4"
+    }
+  },
+  "rich-text#preco-tamanho4-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "A partir de:\n **R$ 269,00**"
+    }
+  },
+  "link#comprar-tamanho4": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar",
+      "openNewTab": true,
+      "href": "/maleta-organizadora-multiuso-tamanho-4-com-alca-transporte-madu-box/p?skuId=2636"
+    }
+  },
+  "link#tamanho6-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "/caixa-organizadora-multiuso-com-fecho-tamanho-6-madu-box/p?skuId=2673"
+    },
+    "children": [
+      "flex-layout.col#tamanho6-madubox"
+    ]
+  },
+  "flex-layout.col#tamanho6-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-tamanho6-madubox",
+      "rich-text#subtitulo-tamanho6-madubox",
+      "image#img-tamanho6-madubox",
+      "rich-text#preco-tamanho6-madubox",
+      "link#comprar-tamanho6"
+    ]
+  },
+  "rich-text#titulo-tamanho6-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "tamanho 6"
+    }
+  },
+  "rich-text#subtitulo-tamanho6-madubox": {
+    "props": {
+      "blockClass": "subtitulo-tamanhos-madubox",
+      "text": "24x43cm | 6 módulos"
+    }
+  },
+  "image#img-tamanho6-madubox": {
+    "props": {
+      "blockClass": "img-tamanhos-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b1d45622-9f9a-4db1-afe4-98673e851434___cbd1904ff7d6d77b14072e1285c5565e.webp",
+      "alt": "tamanho 6"
+    }
+  },
+  "rich-text#preco-tamanho6-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "A partir de:\n **R$ 269,00**"
+    }
+  },
+  "link#comprar-tamanho6": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar",
+      "openNewTab": true,
+      "href": "/caixa-organizadora-multiuso-com-fecho-tamanho-6-madu-box/p?skuId=2673"
+    }
+  },
+  "link#tamanho8-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "/caixa-organizadora-multiuso-com-fecho-tamanho-8-madu-box/p?skuId=2710"
+    },
+    "children": [
+      "flex-layout.col#tamanho8-madubox"
+    ]
+  },
+  "flex-layout.col#tamanho8-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-tamanho8-madubox",
+      "rich-text#subtitulo-tamanho8-madubox",
+      "image#img-tamanho8-madubox",
+      "rich-text#preco-tamanho8-madubox",
+      "link#comprar-tamanho8"
+    ]
+  },
+  "rich-text#titulo-tamanho8-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "tamanho 8"
+    }
+  },
+  "rich-text#subtitulo-tamanho8-madubox": {
+    "props": {
+      "blockClass": "subtitulo-tamanhos-madubox",
+      "text": "24x24cm | 8 módulos"
+    }
+  },
+  "image#img-tamanho8-madubox": {
+    "props": {
+      "blockClass": "img-tamanhos-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/427222e6-b93a-48c8-b581-e068af40b5d5___a0b9f58ccf07129eff167ad4ff5d31c2.webp",
+      "alt": "tamanho 8"
+    }
+  },
+  "rich-text#preco-tamanho8-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "A partir de:\n **R$ 299,00**"
+    }
+  },
+  "link#comprar-tamanho8": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar",
+      "openNewTab": true,
+      "href": "/caixa-organizadora-multiuso-com-fecho-tamanho-8-madu-box/p?skuId=2710"
+    }
+  },
+  "link#tamanho10-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/caixa-organizadora-multiuso-com-fecho-tamanho-10-madu-box/p?skuId=2747"
+    },
+    "children": [
+      "flex-layout.col#tamanho10-madubox"
+    ]
+  },
+  "flex-layout.col#tamanho10-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-tamanho10-madubox",
+      "rich-text#subtitulo-tamanho10-madubox",
+      "image#img-tamanho10-madubox",
+      "rich-text#preco-tamanho10-madubox",
+      "link#comprar-tamanho10"
+    ]
+  },
+  "rich-text#titulo-tamanho10-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "tamanho 10"
+    }
+  },
+  "rich-text#subtitulo-tamanho10-madubox": {
+    "props": {
+      "blockClass": "subtitulo-tamanhos-madubox",
+      "text": "39x43cm | 10 módulos"
+    }
+  },
+  "image#img-tamanho10-madubox": {
+    "props": {
+      "blockClass": "img-tamanhos-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/624f16a6-6fe2-44aa-8c51-cc6976690411___fd47e571d79ecd1b8e84291ab4f13f6b.webp",
+      "alt": "tamanho 10"
+    }
+  },
+  "rich-text#preco-tamanho10-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "A partir de:\n **R$ 329,00**"
+    }
+  },
+  "link#comprar-tamanho10": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/caixa-organizadora-multiuso-com-fecho-tamanho-10-madu-box/p?skuId=2747"
+    }
+  },
+  "link#tamanho12-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "/caixa-organizadora-multiuso-com-fecho-tamanho-12-madu-box/p?skuId=2784"
+    },
+    "children": [
+      "flex-layout.col#tamanho12-madubox"
+    ]
+  },
+  "flex-layout.col#tamanho12-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-tamanho12-madubox",
+      "rich-text#subtitulo-tamanho12-madubox",
+      "image#img-tamanho12-madubox",
+      "rich-text#preco-tamanho12-madubox",
+      "link#comprar-tamanho12"
+    ]
+  },
+  "rich-text#titulo-tamanho12-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "tamanho 12"
+    }
+  },
+  "rich-text#subtitulo-tamanho12-madubox": {
+    "props": {
+      "blockClass": "subtitulo-tamanhos-madubox",
+      "text": "46x43cm | 12 módulos"
+    }
+  },
+  "image#img-tamanho12-madubox": {
+    "props": {
+      "blockClass": "img-tamanhos-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7aff238c-00c6-4aec-a3e5-e4df2c853b54___ea0e3b9bea6ba4f48b08e669d477f147.webp",
+      "alt": "tamanho 12"
+    }
+  },
+  "rich-text#preco-tamanho12-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "A partir de:\n **R$ 349,00**"
+    }
+  },
+  "link#comprar-tamanho12": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar",
+      "openNewTab": true,
+      "href": "/caixa-organizadora-multiuso-com-fecho-tamanho-12-madu-box/p?skuId=2784"
     }
   }
 }

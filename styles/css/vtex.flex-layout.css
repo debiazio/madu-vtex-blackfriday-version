@@ -1540,7 +1540,8 @@
 }
 
 @media screen and (min-width: 1900px) {
-
+  .flexRowContent--linha-produtos-escolha-madubox,
+  .flexRowContent--linha-desorganizacao-madubox,
   .flexRowContent--topbar,
   .flexRowContent--linha-frente-banner-1,
   .flexRowContent--linha-maletas-frente-madubox,

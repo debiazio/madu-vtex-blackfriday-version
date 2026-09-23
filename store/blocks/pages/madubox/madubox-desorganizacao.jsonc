@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#desorganizacao-madubox": {
+    "props": {
+      "blockClass": "linha-desorganizacao-madubox",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#titulo-desorganizacao-madubox",
+      "rich-text#subtitulo-desorganizacao-madubox",
+      "flex-layout.row#botoes-desorganizacao-madubox"
+
+    ]
+  },
+  "rich-text#titulo-desorganizacao-madubox": {
+    "props": {
+      "blockClass": "titulo-desorganizacao-madubox",
+      "text": "## Acabe com a desorganização hoje",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#subtitulo-desorganizacao-madubox": {
+    "props": {
+      "blockClass": "titulo-desorganizacao-madubox",
+      "text": "Escolha a estrutura que acompanha o seu ritmo de atendimentos. Compra segura com garantia de fábrica.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#botoes-desorganizacao-madubox":{
+    "props": {
+      "blockClass": "linhas-botoes-desorganizacao-madubox"
+    },
+    "children": [
+      "link#querominhabox-madubox",
+      "link#personalizar-madubox"
+    ]
+  },
+  "link#querominhabox-madubox": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "QUERO A MINHA MAD.U BOX",
+      "href": "/maletas-e-caixas/"
+    }
+  },
+  "link#personalizar-madubox": {
+    "props": {
+      "blockClass": "personalizar-madubox",
+      "label": "PERSONALIZAR MINHA BOX",
+      "href": "#"
+    }
+  }
+}
