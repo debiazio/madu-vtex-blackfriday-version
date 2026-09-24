@@ -2,8 +2,7 @@
   "flex-layout.row#variacoesAltura-madubox": {
     "props": {
       "blockClass": "linha-variacoesAltura-madubox",
-      "fullWidth": true,
-      "preventHorizontalStretch": true
+      "fullWidth": true
     },
     "children": [
       "rich-text#titulo-varAltura-madubox",

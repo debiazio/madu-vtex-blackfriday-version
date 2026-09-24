@@ -1,0 +1,316 @@
+{
+  "responsive-layout.mobile#solucoes-combinadas-madubox": {
+    "children": [
+      "flex-layout.row#mobile-solucoes-combinadas-madubox"
+    ]
+  },
+  "responsive-layout.desktop#solucoes-combinadas-madubox": {
+    "children": [
+      "flex-layout.row#solucoes-combinadas-madubox"
+    ]
+  },
+  "flex-layout.row#solucoes-combinadas-madubox": {
+    "props": {
+      "blockClass": "linha-escolha-tamanho-ideal2-madubox",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#titulo-solucoes-madubox",
+      "responsive-layout.mobile#titulo-solucoes-combinadas-madubox",
+      "image#subtitulo-solucoes-madubox",
+      "responsive-layout.desktop#produtos-solucoes-combinadas-madubox",
+      "responsive-layout.mobile#produtos-solucoes-combinadas-madubox"
+    ]
+  },
+  "flex-layout.row#mobile-solucoes-combinadas-madubox": {
+    "props": {
+      "blockClass": "linha-escolha-tamanho-ideal2-madubox",
+      "fullWidth": true
+    },
+    "children": [
+      "responsive-layout.desktop#titulo-solucoes-madubox",
+      "responsive-layout.mobile#titulo-solucoes-combinadas-madubox",
+      "image#subtitulo-solucoes-madubox",
+      "responsive-layout.desktop#produtos-solucoes-combinadas-madubox",
+      "responsive-layout.mobile#produtos-solucoes-combinadas-madubox"
+    ]
+  },
+  "responsive-layout.desktop#titulo-solucoes-madubox": {
+    "children": [
+      "rich-text#titulo-solucoes-combinadas-madubox"
+    ]
+  },
+  "responsive-layout.mobile#titulo-solucoes-combinadas-madubox": {
+    "children": [
+      "rich-text#mobile-titulo-solucoes-combinadas-madubox"
+    ]
+  },
+  "rich-text#titulo-solucoes-combinadas-madubox": {
+    "props": {
+      "blockClass": "titulo-tam-ideal-madubox",
+      "text": "## **soluções combinadas**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#mobile-titulo-solucoes-combinadas-madubox": {
+    "props": {
+      "blockClass": "titulo-tam-ideal-madubox",
+      "text": "## **soluções** \n **combinadas**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#subtitulo-solucoes-madubox": {
+    "props": {
+      "blockClass": "conteudo-tam-ideal-madubox",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d7e5f5b1-eeee-4dc9-8f83-a140152425c1___399291850642115915684dfb0dd0c554.svg"
+    }
+  },
+  "responsive-layout.mobile#produtos-solucoes-combinadas-madubox": {
+    "children": [
+      "slider-madubox-solucoes"
+    ]
+  },
+  "responsive-layout.desktop#produtos-solucoes-combinadas-madubox": {
+    "children": [
+      "flex-layout.row#solComb-produtos-escolha-madubox"
+    ]
+  },
+  "flex-layout.row#solComb-produtos-escolha-madubox": {
+    "props": {
+      "blockClass": "linha-produtos-escolha-madubox"
+    },
+    "children": [
+      "link#solComb-tamanho3-linha-madubox",
+      "link#solComb-tamanho4-linha-madubox",
+      "link#solComb-tamanho6-linha-madubox",
+      "link#solComb-tamanho8-linha-madubox"
+    ]
+  },
+  "link#solComb-tamanho3-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "/maleta-organizadora-multiuso-tamanho-3-com-alca-transporte-madu-box/p?skuId=2606"
+    },
+    "children": [
+      "flex-layout.col#solComb-tamanho3-madubox"
+    ]
+  },
+  "flex-layout.col#solComb-tamanho3-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#solComb-img-tamanho3-madubox",
+      "rich-text#solComb-titulo-tamanho3-madubox",
+      "rich-text#solComb-subtitulo-tamanho3-madubox",
+      "rich-text#solComb-preco-tamanho3-madubox",
+      "link#solComb-comprar-tamanho3"
+    ]
+  },
+  "rich-text#solComb-titulo-tamanho3-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "SAÚDE CLÍNICA E COLETA"
+    }
+  },
+  "rich-text#solComb-subtitulo-tamanho3-madubox": {
+    "props": {
+      "blockClass": "subtitulo-solucoes-madubox",
+      "text": "Organize ampolas, tubos e medicamentos. Segurança de verdade pros seus insumos no consultório ou no transporte."
+    }
+  },
+  "image#solComb-img-tamanho3-madubox": {
+    "props": {
+      "blockClass": "img-solucoes-combinadas",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f18d7985-5ce1-42a4-bd36-79203e640994___336a7fae432accccd8116b0c61c836ce.webp",
+      "alt": "kit 1"
+    }
+  },
+  "rich-text#solComb-preco-tamanho3-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "**R$ 299,90**"
+    }
+  },
+  "link#solComb-comprar-tamanho3": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar kit",
+      "openNewTab": true,
+      "href": "/maleta-de-coleta/pmaleta-organizadora-multiuso-tamanho-3-com-alca-transporte-madu-box/p"
+    }
+  },
+  "link#solComb-tamanho4-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "/maleta-organizadora-multiuso-tamanho-4-com-alca-transporte-madu-box/p?skuId=2636"
+    },
+    "children": [
+      "flex-layout.col#solComb-tamanho4-madubox"
+    ]
+  },
+  "flex-layout.col#solComb-tamanho4-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#solComb-img-tamanho4-madubox",
+      "rich-text#solComb-titulo-tamanho4-madubox",
+      "rich-text#solComb-subtitulo-tamanho4-madubox",
+      "rich-text#solComb-preco-tamanho4-madubox",
+      "link#solComb-comprar-tamanho4"
+    ]
+  },
+  "rich-text#solComb-titulo-tamanho4-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "ODONTOLOGIA"
+    }
+  },
+  "rich-text#solComb-subtitulo-tamanho4-madubox": {
+    "props": {
+      "blockClass": "subtitulo-solucoes-madubox",
+      "text": "Estrutura resistente pra proteger resinas e instrumentais. Feita pra acompanhar o ritmo intenso do seu consultório."
+    }
+  },
+  "image#solComb-img-tamanho4-madubox": {
+    "props": {
+      "blockClass": "img-solucoes-combinadas",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4cbeee34-d51a-4883-b9f2-429ddab61421___02ca26ff060d4539003cf89d11465a55.webp",
+      "alt": "kit box-set"
+    }
+  },
+  "rich-text#solComb-preco-tamanho4-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "**R$ 399,90**"
+    }
+  },
+  "link#solComb-comprar-tamanho4": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar kit",
+      "openNewTab": true,
+      "href": "/-maleta-sedacao-4-modulos-easy-lock-madu-box/p"
+    }
+  },
+  "link#solComb-tamanho6-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "/-maleta-sedacao-4-modulos-easy-lock-madu-box/p"
+    },
+    "children": [
+      "flex-layout.col#solComb-tamanho6-madubox"
+    ]
+  },
+  "flex-layout.col#solComb-tamanho6-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#solComb-img-tamanho6-madubox",
+      "rich-text#solComb-titulo-tamanho6-madubox",
+      "rich-text#solComb-subtitulo-tamanho6-madubox",
+      "rich-text#solComb-preco-tamanho6-madubox",
+      "link#solComb-comprar-tamanho6"
+    ]
+  },
+  "rich-text#solComb-titulo-tamanho6-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "ESTÉTICA AVANÇADA"
+    }
+  },
+  "rich-text#solComb-subtitulo-tamanho6-madubox": {
+    "props": {
+      "blockClass": "subtitulo-solucoes-madubox",
+      "text": " O espaço exato pros seus protocolos. Acomode frascos e pequenos aparelhos pra agilizar os seus atendimentos."
+    }
+  },
+  "image#solComb-img-tamanho6-madubox": {
+    "props": {
+      "blockClass": "img-solucoes-combinadas",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/81785cab-89dd-4979-9099-fbfcfb468253___438dc79dd4ea82235666f122b799323b.webp",
+      "alt": "kit-completo"
+    }
+  },
+  "rich-text#solComb-preco-tamanho6-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "**R$ 299,90**"
+    }
+  },
+  "link#solComb-comprar-tamanho6": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar kit",
+      "openNewTab": true,
+      "href": "/-maleta-estetica-transparente-4-modulos-madu-set-madu-box/p"
+    }
+  },
+  "link#solComb-tamanho8-linha-madubox": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "/-maleta-estetica-transparente-4-modulos-madu-set-madu-box/p"
+    },
+    "children": [
+      "flex-layout.col#solComb-tamanho8-madubox"
+    ]
+  },
+  "flex-layout.col#solComb-tamanho8-madubox": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#solComb-img-tamanho8-madubox",
+      "rich-text#solComb-titulo-tamanho8-madubox",
+      "rich-text#solComb-subtitulo-tamanho8-madubox",
+      "rich-text#solComb-preco-tamanho8-madubox",
+      "link#solComb-comprar-tamanho8"
+    ]
+  },
+  "rich-text#solComb-titulo-tamanho8-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "MAQUIAGEM E MANICURE"
+    }
+  },
+  "rich-text#solComb-subtitulo-tamanho8-madubox": {
+    "props": {
+      "blockClass": "subtitulo-solucoes-madubox",
+      "text": "Organize esmaltes e maquiagens com segurança e não perca tempo procurando materiais."
+    }
+  },
+  "image#solComb-img-tamanho8-madubox": {
+    "props": {
+      "blockClass": "img-solucoes-combinadas",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7e4804b7-23ff-45e0-9640-a19a66d5ceae___d1898f0fa12b6c19e8da814bc5599eb1.webp",
+      "alt": "maquiagem-manicure"
+    }
+  },
+  "rich-text#solComb-preco-tamanho8-madubox": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "**R$ 249,90**"
+    }
+  },
+  "link#solComb-comprar-tamanho8": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar kit",
+      "openNewTab": true,
+      "href": "/caixa-organizadora-multiuso-com-fecho-tamanho-8-madu-box/p?skuId=2710"
+    }
+  }
+}

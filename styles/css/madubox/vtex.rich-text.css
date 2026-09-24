@@ -1,11 +1,31 @@
-.paragraph--subtitulo-desorganizacao-madubox{
-  font-family: "Poppins Light", sans-serif !important;
-font-weight: 300;
-font-size: 24px;
-color: #7E7E7E;
+.paragraph--tituloVarAltura-madubox {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  line-height: 97%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #393939;
+}
+
+.strong--tituloVarAltura-madubox {
+font-family: "Poppins Black", sans-serif !important;
+font-weight: 900;
 line-height: 97%;
 letter-spacing: 0%;
-text-align: center;
+text-transform: uppercase;
+}
+
+
+.paragraph--subtitulo-desorganizacao-madubox {
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 24px;
+  color: #7E7E7E;
+  line-height: 97%;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .heading--titulo-desorganizacao-madubox {
@@ -62,6 +82,17 @@ text-align: center;
   text-transform: uppercase;
 }
 
+.paragraph--subtitulo-solucoes-madubox {
+  padding-top: 16px;
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 12px;
+  color: #7E7E7E;
+  line-height: 157%;
+  letter-spacing: 0%;
+}
+
 .paragraph--subtitulo-tamanhos-madubox {
   margin: 0;
   font-family: "Poppins", sans-serif !important;
@@ -70,7 +101,6 @@ text-align: center;
   color: #7E7E7E;
   line-height: 97%;
   letter-spacing: 0%;
-
 }
 
 .container--titulo-tam-ideal-madubox,
@@ -267,13 +297,19 @@ text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
-  .paragraph--subtitulo-desorganizacao-madubox{
+  .paragraph--tituloVarAltura-madubox{
+    font-size: 20px;
+    text-align: center;
+  }
+  .paragraph--subtitulo-desorganizacao-madubox {
     font-size: 16px;
   }
-  .headingLevel2--titulo-desorganizacao-madubox{
+
+  .headingLevel2--titulo-desorganizacao-madubox {
     white-space: normal;
     font-size: 24px;
   }
+
   .paragraph--titulo-tam-ideal-madubox {
     margin: 0;
   }

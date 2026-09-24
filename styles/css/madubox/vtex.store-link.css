@@ -80,7 +80,13 @@
   justify-content: center;
 }
 
+.link--personalizar-madubox:hover{
+  background-color: #c0c0c5;
+}
+
+
 @media screen and (max-width: 1024px) {
+
   .label--personalizar-madubox,
   .label--link-comprar-tamanhos{
     font-size: 16px;

@@ -1,3 +1,13 @@
+.flexRowContent--linha-imagens-varAltura-madubox {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flexRow--linha-btnLerMais {
+  display: flex;
+  align-items: center;
+}
+
 .flexRowContent--linha-btnLerMais {
   display: flex;
   flex-direction: column;
@@ -1540,6 +1550,8 @@
 }
 
 @media screen and (min-width: 1900px) {
+
+  .flexRowContent--linha-variacoesAltura-madubox,
   .flexRowContent--linha-produtos-escolha-madubox,
   .flexRowContent--linha-desorganizacao-madubox,
   .flexRowContent--topbar,
