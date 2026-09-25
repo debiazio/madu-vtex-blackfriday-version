@@ -6,22 +6,14 @@
       "flex-layout.row#linhaBox-estruturas-madubox",
       "flex-layout.row#linhaDuasOpcoes-madubox",
       "flex-layout.row#escolha-tamanho-dieal-madubox",
-
       "responsive-layout.desktop#escolha-tamanho-ideal2-madubox",
       "responsive-layout.mobile#escolha-tamanho-ideal2-madubox",
-
       "flex-layout.row#desorganizacao-madubox",
       "flex-layout.row#variacoesAltura-madubox",
       "responsive-layout.mobile#solucoes-combinadas-madubox",
-      "responsive-layout.desktop#solucoes-combinadas-madubox",  
-
-      // "flex-layout.row#desktop-detalhes-tecnicos-titulo",
-      // "flex-layout.row#desktop-detalhes-tecnicos-conteudo",
-      // "responsive-layout.mobile#cores-madubox",
-      // "responsive-layout.desktop#cores-madubox",
-      // "flex-layout.row#slider-madubox",
-
-      "flex-layout.row#desktop-banner-final"
+      "responsive-layout.desktop#solucoes-combinadas-madubox",
+      "flex-layout.row#desorganizacao-2-madubox"
+      //  "flex-layout.row#linhaFAQs-madubox"
     ]
   },
 

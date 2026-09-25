@@ -1,0 +1,589 @@
+{
+  "flex-layout.row#linhaFAQs-madubox": {
+    "props": {
+      "blockClass": "linhaFAQs-madubox",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textos-faq-madubox",
+      "flex-layout.row#disclosure-faq-madubox"
+    ]
+  },
+  "flex-layout.row#textos-faq-madubox": {
+    "props": {
+      "blockClass": "textos-faq-maduset"
+    },
+    "children": [
+      "rich-text#tituloFAQs-madubox",
+      "rich-text#subTituloFAQs-madubox"
+    ]
+  },
+  "rich-text#tituloFAQs-madubox": {
+    "props": {
+      "blockClass": "titulo-kitsprontos-maduset",
+      "text": "### FAQ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#subTituloFAQs-madubox": {
+    "props": {
+      "blockClass": "subtitulo-kitsprontos-maduset",
+      "text": "Perguntas frequentes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#disclosure-faq-madubox": {
+    "props": {
+      "blockClass": "disclosure-faq-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "disclosure-layout-group#faq-madubox"
+    ]
+  },
+  "disclosure-layout-group#faq-madubox": {
+    "props": {
+      "blockClass": "group-faq-maduset"
+    },
+    "children": [
+      "disclosure-layout#oqEhMadubox-madubox",
+      "disclosure-layout#paraQuaisSegmentos-madubox",
+      "disclosure-layout#beneficiosPrincipais-madubox",
+      "disclosure-layout#podeSerPersonalizada-madubox",
+      "disclosure-layout#compativelCarrinhosGavetas-madubox",
+      "disclosure-layout#identificacaoPorCores-madubox",
+      "disclosure-layout#possuiPatente-madubox",
+      "disclosure-layout#modulosSubstituidosReorganizados-madubox",
+      "disclosure-layout#materialFabricacao-madubox",
+      "disclosure-layout#limpezaOrganizadores-madubox",
+      "disclosure-layout#solicitarOrcamento-madubox",
+      "disclosure-layout#atendimentoBrasil-madubox",
+      "disclosure-layout#trocaPlacaEmbalagem-madubox"
+    ]
+  },
+
+  // O que é
+  "disclosure-layout#oqEhMadubox-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#oqEhMadubox-madubox",
+      "disclosure-content#oqEhMadubox-madubox"
+    ]
+  },
+  "disclosure-trigger#oqEhMadubox-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-oqEhMadubox-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-oqEhMadubox-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O que é a MAD.U BOX?"
+    }
+  },
+  "disclosure-content#oqEhMadubox-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-oqEhMadubox-madubox"
+    ]
+  },
+  "rich-text#content-oqEhMadubox-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A MAD.U BOX é uma solução inteligente para organização, identificação e armazenamento de medicamentos, insumos e materiais. Seu sistema modular permite personalizar a organização conforme a necessidade de cada ambiente, proporcionando mais praticidade, segurança e agilidade na rotina."
+    }
+  },
+
+  // Para quais segmentos
+  "disclosure-layout#paraQuaisSegmentos-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#paraQuaisSegmentos-madubox",
+      "disclosure-content#paraQuaisSegmentos-madubox"
+    ]
+  },
+  "disclosure-trigger#paraQuaisSegmentos-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-paraQuaisSegmentos-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-paraQuaisSegmentos-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Para quais segmentos a MAD.U BOX é indicada?"
+    }
+  },
+  "disclosure-content#paraQuaisSegmentos-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-paraQuaisSegmentos-madubox"
+    ]
+  },
+  "rich-text#content-paraQuaisSegmentos-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A MAD.U BOX pode ser utilizada em hospitais, clínicas, consultórios, laboratórios, farmácias, centros de estética, veterinárias, home care e diversos ambientes que necessitam de organização eficiente de medicamentos e materiais."
+    }
+  },
+
+  // FAQ - Benefícios da MAD.U BOX
+  "disclosure-layout#beneficiosPrincipais-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#beneficiosPrincipais-madubox",
+      "disclosure-content#beneficiosPrincipais-madubox"
+    ]
+  },
+  "disclosure-trigger#beneficiosPrincipais-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-beneficiosPrincipais-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-beneficiosPrincipais-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Quais são os principais benefícios da MAD.U BOX?"
+    }
+  },
+  "disclosure-content#beneficiosPrincipais-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-beneficiosPrincipais-madubox"
+    ]
+  },
+  "rich-text#content-beneficiosPrincipais-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Entre os principais benefícios estão: \n\n- Organização visual inteligente; \n- Agilidade na localização dos itens; \n- Redução de erros operacionais; \n- Melhor aproveitamento do espaço; \n- Facilidade de reposição e controle; \n- Sistema modular e personalizável; \n- Material resistente e de alta durabilidade."
+    }
+  },
+
+  // FAQ - Personalização da MAD.U BOX
+  "disclosure-layout#podeSerPersonalizada-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#podeSerPersonalizada-madubox",
+      "disclosure-content#podeSerPersonalizada-madubox"
+    ]
+  },
+  "disclosure-trigger#podeSerPersonalizada-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-podeSerPersonalizada-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-podeSerPersonalizada-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### A MAD.U BOX pode ser personalizada?"
+    }
+  },
+  "disclosure-content#podeSerPersonalizada-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-podeSerPersonalizada-madubox"
+    ]
+  },
+  "rich-text#content-podeSerPersonalizada-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. Os módulos e organizadores podem ser configurados de acordo com a necessidade de cada operação, permitindo criar soluções específicas para diferentes fluxos de trabalho."
+    }
+  },
+
+  // FAQ - Compatibilidade com carrinhos e gavetas
+  "disclosure-layout#compativelCarrinhosGavetas-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#compativelCarrinhosGavetas-madubox",
+      "disclosure-content#compativelCarrinhosGavetas-madubox"
+    ]
+  },
+  "disclosure-trigger#compativelCarrinhosGavetas-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-compativelCarrinhosGavetas-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-compativelCarrinhosGavetas-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O sistema é compatível com carrinhos e gavetas?"
+    }
+  },
+  "disclosure-content#compativelCarrinhosGavetas-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-compativelCarrinhosGavetas-madubox"
+    ]
+  },
+  "rich-text#content-compativelCarrinhosGavetas-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. A MAD.U BOX foi desenvolvida para se adaptar aos mobiliários técnicos da MAD.U e também pode ser utilizada em gavetas, armários, bancadas e outros espaços de armazenamento."
+    }
+  },
+
+  // FAQ - Identificação por cores
+  "disclosure-layout#identificacaoPorCores-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#identificacaoPorCores-madubox",
+      "disclosure-content#identificacaoPorCores-madubox"
+    ]
+  },
+  "disclosure-trigger#identificacaoPorCores-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-identificacaoPorCores-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-identificacaoPorCores-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Como funciona a identificação por cores?"
+    }
+  },
+  "disclosure-content#identificacaoPorCores-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-identificacaoPorCores-madubox"
+    ]
+  },
+  "rich-text#content-identificacaoPorCores-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Os organizadores podem ser utilizados com diferentes cores para criar categorias visuais, facilitando a identificação rápida de medicamentos, materiais ou processos específicos."
+    }
+  },
+
+  // FAQ - Patente da MAD.U BOX
+  "disclosure-layout#possuiPatente-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#possuiPatente-madubox",
+      "disclosure-content#possuiPatente-madubox"
+    ]
+  },
+  "disclosure-trigger#possuiPatente-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-possuiPatente-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-possuiPatente-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### A MAD.U BOX possui patente?"
+    }
+  },
+  "disclosure-content#possuiPatente-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-possuiPatente-madubox"
+    ]
+  },
+  "rich-text#content-possuiPatente-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. A MAD.U BOX é um produto patenteado, desenvolvido exclusivamente pela MAD.U, oferecendo uma solução inovadora e diferenciada para organização inteligente."
+    }
+  },
+
+  // FAQ - Módulos substituídos ou reorganizados
+  "disclosure-layout#modulosSubstituidosReorganizados-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#modulosSubstituidosReorganizados-madubox",
+      "disclosure-content#modulosSubstituidosReorganizados-madubox"
+    ]
+  },
+  "disclosure-trigger#modulosSubstituidosReorganizados-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-modulosSubstituidosReorganizados-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-modulosSubstituidosReorganizados-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Os módulos podem ser substituídos ou reorganizados?"
+    }
+  },
+  "disclosure-content#modulosSubstituidosReorganizados-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-modulosSubstituidosReorganizados-madubox"
+    ]
+  },
+  "rich-text#content-modulosSubstituidosReorganizados-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. O sistema é modular e flexível. Os organizadores podem ser reposicionados, removidos ou substituídos conforme a evolução das necessidades da operação."
+    }
+  },
+
+  // FAQ - Material de fabricação
+  "disclosure-layout#materialFabricacao-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#materialFabricacao-madubox",
+      "disclosure-content#materialFabricacao-madubox"
+    ]
+  },
+  "disclosure-trigger#materialFabricacao-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-materialFabricacao-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-materialFabricacao-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Qual o material utilizado na fabricação?"
+    }
+  },
+  "disclosure-content#materialFabricacao-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-materialFabricacao-madubox"
+    ]
+  },
+  "rich-text#content-materialFabricacao-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A MAD.U BOX é produzida com materiais de alta qualidade, resistentes e adequados para ambientes que exigem durabilidade, organização e facilidade de higienização."
+    }
+  },
+
+  // FAQ - Limpeza dos organizadores
+  "disclosure-layout#limpezaOrganizadores-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#limpezaOrganizadores-madubox",
+      "disclosure-content#limpezaOrganizadores-madubox"
+    ]
+  },
+  "disclosure-trigger#limpezaOrganizadores-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-limpezaOrganizadores-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-limpezaOrganizadores-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### É fácil realizar a limpeza dos organizadores?"
+    }
+  },
+  "disclosure-content#limpezaOrganizadores-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-limpezaOrganizadores-madubox"
+    ]
+  },
+  "rich-text#content-limpezaOrganizadores-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. O design foi desenvolvido para facilitar a limpeza e a manutenção, contribuindo para ambientes mais organizados e seguros."
+    }
+  },
+
+  // FAQ - Como solicitar orçamento
+  "disclosure-layout#solicitarOrcamento-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#solicitarOrcamento-madubox",
+      "disclosure-content#solicitarOrcamento-madubox"
+    ]
+  },
+  "disclosure-trigger#solicitarOrcamento-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-solicitarOrcamento-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-solicitarOrcamento-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Como solicitar um orçamento?"
+    }
+  },
+  "disclosure-content#solicitarOrcamento-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-solicitarOrcamento-madubox"
+    ]
+  },
+  "rich-text#content-solicitarOrcamento-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Você pode solicitar um orçamento diretamente pelo formulário desta página ou entrar em contato com nossa equipe comercial. Um especialista MAD.U irá entender sua necessidade e indicar a melhor configuração para sua operação."
+    }
+  },
+
+  // FAQ - Atendimento em todo o Brasil
+  "disclosure-layout#atendimentoBrasil-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#atendimentoBrasil-madubox",
+      "disclosure-content#atendimentoBrasil-madubox"
+    ]
+  },
+  "disclosure-trigger#atendimentoBrasil-madubox": {
+    "props": {
+      "blockClass": "trigger-faq-maduset"
+    },
+    "children": [
+      "rich-text#trigger-atendimentoBrasil-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-atendimentoBrasil-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### A MAD.U atende todo o Brasil?"
+    }
+  },
+  "disclosure-content#atendimentoBrasil-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-atendimentoBrasil-madubox"
+    ]
+  },
+  "rich-text#content-atendimentoBrasil-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. A MAD.U possui estrutura para atender clientes em todo o território nacional, oferecendo suporte comercial e soluções personalizadas para cada projeto."
+    }
+  },
+
+  // FAQ - Troca de placa quando medicamento muda de embalagem
+  "disclosure-layout#trocaPlacaEmbalagem-madubox": {
+    "props": {
+      "blockClass": "layout-faq-maduset"
+    },
+    "children": [
+      "disclosure-trigger#trocaPlacaEmbalagem-madubox",
+      "disclosure-content#trocaPlacaEmbalagem-madubox"
+    ]
+  },
+  "disclosure-trigger#trocaPlacaEmbalagem-madubox": {
+    "props": {
+      "blockClass": [
+        "trigger-faq-maduset",
+        "trocaPlacaEmbalagem"
+      ]
+    },
+    "children": [
+      "rich-text#trigger-trocaPlacaEmbalagem-madubox",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-trocaPlacaEmbalagem-madubox": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Preciso trocar toda a placa quando um medicamento muda de embalagem?"
+    }
+  },
+  "disclosure-content#trocaPlacaEmbalagem-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset"
+    },
+    "children": [
+      "rich-text#content-trocaPlacaEmbalagem-madubox"
+    ]
+  },
+  "rich-text#content-trocaPlacaEmbalagem-madubox": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Não. Com a MAD.U BOX, você substitui apenas o SET do medicamento que sofreu alteração de tamanho ou apresentação. Toda a estrutura organizadora permanece a mesma, gerando economia, praticidade e maior vida útil para o sistema de organização. Essa é uma das grandes vantagens da tecnologia modular patenteada da MAD.U."
+    }
+  }
+}

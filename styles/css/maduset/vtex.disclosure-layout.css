@@ -2,10 +2,17 @@
   border-bottom: none !important;
 }
 
-
+.trigger--trocaPlacaEmbalagem--visible,
 .content--content-faq-maduset--visible {
   border-bottom: 1px solid #E3E3E3;
 }
+
+
+.trigger--trocaPlacaEmbalagem--hidden,
+.content--content-faq-maduset--visible:last-child {
+  border-bottom: unset!important;
+}
+
 
 .content--content-faq-maduset {
   background-color: #FFFFFF;

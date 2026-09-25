@@ -1,3 +1,12 @@
+.flexRowContent--linha-produtos-escolha-madubox .stretchChildrenWidth {
+  height: -webkit-fill-available;
+}
+
+.flexCol--coluna-tamanhos-madubox{
+  display: flex;
+  justify-content: space-between;
+}
+
 .flexRow--linha-variacoesAltura-madubox {
   padding: 64px 0;
 }
@@ -215,8 +224,33 @@
   width: fit-content;
 }
 
+.flexRow--linhaFAQs-madubox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding-bottom: 106px;
+}
+
+.flexRowContent--linhaFAQs-madubox .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexRowContent--linhaFAQs-madubox {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
 @media screen and (max-width: 1024px) {
-  .flexRow--linha-variacoesAltura-madubox{
+  .flexRow--linhaFAQs-madubox {
+    padding-top: unset;
+  }
+
+  .flexRow--linha-variacoesAltura-madubox {
     padding: 64px 22px;
   }
 

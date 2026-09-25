@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#desorganizacao-2-madubox": {
+    "props": {
+      "blockClass": "linha-desorganizacao-madubox",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-desorganizacao-2-madubox",
+      "rich-text#subtitulo-desorganizacao-2-madubox",
+      "flex-layout.row#botoes-desorganizacao-2-madubox"
+    ]
+  },
+  "rich-text#titulo-desorganizacao-2-madubox": {
+    "props": {
+      "blockClass": "titulo-desorganizacao-madubox",
+      "text": "## Acabe com a desorganização hoje",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#subtitulo-desorganizacao-2-madubox": {
+    "props": {
+      "blockClass": "subtitulo-desorganizacao-madubox",
+      "text": "Escolha a estrutura que acompanha o seu ritmo de atendimentos. Compra segura com garantia de fábrica.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#botoes-desorganizacao-2-madubox": {
+    "props": {
+      "blockClass": "linhas-botoes-desorganizacao-madubox"
+    },
+    "children": [
+      "link#querominhabox-desorganizacao-2-madubox",
+      "link#personalizar-desorganizacao-2-madubox"
+    ]
+  },
+  "link#querominhabox-desorganizacao-2-madubox": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "QUERO COMPRAR MEU KIT",
+      "href": "/maletas-e-caixas"
+    }
+  },
+  "link#personalizar-desorganizacao-2-madubox": {
+    "props": {
+      "blockClass": "personalizar-madubox",
+      "label": "PERSONALIZAR MEU KIT",
+      "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+da+Madu+Box+e+quero+personalizar+o+meu+Kit%21+Pode+me+ajudar%3F&type=phone_number&app_absent=0"
+    }
+  }
+}

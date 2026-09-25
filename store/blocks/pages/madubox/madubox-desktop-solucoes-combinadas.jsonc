@@ -80,7 +80,8 @@
   },
   "flex-layout.row#solComb-produtos-escolha-madubox": {
     "props": {
-      "blockClass": "linha-produtos-escolha-madubox"
+      "blockClass": "linha-produtos-escolha-madubox",
+      "preventVerticalStretch": true
     },
     "children": [
       "link#solComb-tamanho3-linha-madubox",
