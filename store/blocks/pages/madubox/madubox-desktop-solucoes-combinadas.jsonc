@@ -94,7 +94,7 @@
     "props": {
       "blockClass": "linha-link-tamanhos-madubox",
       "openNewTab": true,
-      "href": "/maleta-organizadora-multiuso-tamanho-3-com-alca-transporte-madu-box/p?skuId=2606"
+      "href": "https://www.pensemadu.com.br/maleta-de-coleta/p"
     },
     "children": [
       "flex-layout.col#solComb-tamanho3-madubox"
@@ -143,14 +143,14 @@
       "blockClass": "link-comprar-tamanhos",
       "label": "comprar kit",
       "openNewTab": true,
-      "href": "/maleta-de-coleta/pmaleta-organizadora-multiuso-tamanho-3-com-alca-transporte-madu-box/p"
+      "href": "https://www.pensemadu.com.br/maleta-de-coleta/p"
     }
   },
   "link#solComb-tamanho4-linha-madubox": {
     "props": {
       "blockClass": "linha-link-tamanhos-madubox",
       "openNewTab": true,
-      "href": "/maleta-organizadora-multiuso-tamanho-4-com-alca-transporte-madu-box/p?skuId=2636"
+      "href": "https://www.pensemadu.com.br/-maleta-sedacao-4-modulos-easy-lock-madu-box/p"
     },
     "children": [
       "flex-layout.col#solComb-tamanho4-madubox"
@@ -199,14 +199,14 @@
       "blockClass": "link-comprar-tamanhos",
       "label": "comprar kit",
       "openNewTab": true,
-      "href": "/-maleta-sedacao-4-modulos-easy-lock-madu-box/p"
+      "href": "https://www.pensemadu.com.br/-maleta-sedacao-4-modulos-easy-lock-madu-box/p"
     }
   },
   "link#solComb-tamanho6-linha-madubox": {
     "props": {
       "blockClass": "linha-link-tamanhos-madubox",
       "openNewTab": true,
-      "href": "/-maleta-sedacao-4-modulos-easy-lock-madu-box/p"
+      "href": "https://www.pensemadu.com.br/-maleta-estetica-transparente-4-modulos-madu-set-madu-box/p"
     },
     "children": [
       "flex-layout.col#solComb-tamanho6-madubox"
@@ -255,14 +255,14 @@
       "blockClass": "link-comprar-tamanhos",
       "label": "comprar kit",
       "openNewTab": true,
-      "href": "/-maleta-estetica-transparente-4-modulos-madu-set-madu-box/p"
+      "href": "https://www.pensemadu.com.br/-maleta-estetica-transparente-4-modulos-madu-set-madu-box/p"
     }
   },
   "link#solComb-tamanho8-linha-madubox": {
     "props": {
       "blockClass": "linha-link-tamanhos-madubox",
       "openNewTab": true,
-      "href": "/-maleta-estetica-transparente-4-modulos-madu-set-madu-box/p"
+      "href": "https://www.pensemadu.com.br/-maleta-rosa-maquiadora-manicure-caixas-antimicrobianas-madu-box/p"
     },
     "children": [
       "flex-layout.col#solComb-tamanho8-madubox"
@@ -311,7 +311,7 @@
       "blockClass": "link-comprar-tamanhos",
       "label": "comprar kit",
       "openNewTab": true,
-      "href": "/caixa-organizadora-multiuso-com-fecho-tamanho-8-madu-box/p?skuId=2710"
+      "href": "https://www.pensemadu.com.br/-maleta-rosa-maquiadora-manicure-caixas-antimicrobianas-madu-box/p"
     }
   }
 }

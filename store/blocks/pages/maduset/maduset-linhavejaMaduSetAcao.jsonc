@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#linhavejaMaduSetAcao-maduset": {
+    "props": {
+      "blockClass": "linhavejaMaduSetAcao-maduset",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#colunaTextosAcao-maduset",
+      "flex-layout.col#colunaVideoAcao-maduset"
+    ]
+  },
+  "flex-layout.col#colunaTextosAcao-maduset": {
+    "props": {
+      "blockClass": [
+        "colunasVejaEmAcao-maduset",
+        "titulos-emacao-maduset"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-vejaEmAcao-maduset",
+      "rich-text#subTitulo-vejaEmAcao-maduset"
+    ]
+  },
+  "rich-text#titulo-vejaEmAcao-maduset": {
+    "props": {
+      "blockClass": "titulo-vejaEmAcao-maduset",
+      "text": "### Veja o MAD.U \n ### **Set em ação**"
+    }
+  },
+  "rich-text#subTitulo-vejaEmAcao-maduset": {
+    "props": {
+      "blockClass": "subTitulo-vejaEmAcao-maduset",
+      "text": "Descubra como um sistema modular pode transformar a organização, identificação e gestão de diferentes operações."
+    }
+  },
+  "flex-layout.col#colunaVideoAcao-maduset": {
+    "props": {
+      "blockClass": [
+        "colunasVejaEmAcao-maduset",
+        "video-maduset-maduset"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "video#madu-set3"
+    ]
+  },
+  "video#madu-set3": {
+    "props": {
+      "width": "231px",
+      "height": "407px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "controlsType": "native",
+      "src": "https://stermax.com.br/images_idealine/MAD.U-SET%203.mp4",
+      "blockClass": "video-maduset-maduset",
+      "description": "Video mostrando a utilidade do Mad.u Set"
+    }
+  }
+}

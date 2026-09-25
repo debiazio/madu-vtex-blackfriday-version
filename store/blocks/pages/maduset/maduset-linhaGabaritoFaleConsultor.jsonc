@@ -1,0 +1,103 @@
+{
+    "flex-layout.row#linhaGabaritoFaleConsultor-maduset": {
+    "props": {
+      "blockClass": "linhaGabaritoFaleConsultor-maduset",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#colunaGabarito-maduset",
+      "flex-layout.col#colunaFaleConsultor-maduset"
+    ]
+  },
+  "flex-layout.col#colunaGabarito-maduset": {
+    "props": {
+      "blockClass": [
+        "colunasGabaritoConsultor-maduset",
+        "colunaGabarito-maduset"
+      ]
+    },
+    "children": [
+      "image#gabarito-maduset",
+      "flex-layout.row#textoLink-maduset"
+    ]
+  },
+  "image#gabarito-maduset": {
+    "props": {
+      "blockClass": "img-gabaritoSuporte-maduset",
+      "alt": "Imagem Gabarito",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/45022432-ccc1-4829-9265-f9557fa65966___7cfd28cf92721044a9ea22ff1ad30197.webp"
+    }
+  },
+  "flex-layout.row#textoLink-maduset": {
+    "props": {
+      "blockClass": "linhatextoLink-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#tituloGabarito-maduset",
+      "link#baixarPDF-maduset"
+    ]
+  },
+  "rich-text#tituloGabarito-maduset": {
+    "props": {
+      "text": "Imprima o gabarito e \n **confira as medidas reais.**",
+      "blockClass": "tituloGabaritoSuporte-maduset"
+    }
+  },
+  "link#baixarPDF-maduset": {
+    "props": {
+      "blockClass": [
+        "link-solicitarCotacao-maduset",
+        "link-baixarpdfConsultor-maduset"
+      ],
+      "label": "baixar pdf",
+      "href": "https://stermax.com.br/images_idealine/madu-set-para-impressão%201.pdf",
+      "target": "_blank"
+    }
+  },
+  "flex-layout.col#colunaFaleConsultor-maduset": {
+    "props": {
+      "blockClass": [
+        "colunasGabaritoConsultor-maduset",
+        "colunaFaleConsultor-maduset"
+      ]
+    },
+    "children": [
+      "image#suporte-maduset",
+      "flex-layout.row#textoLink-suporte-maduset"
+    ]
+  },
+  "image#suporte-maduset": {
+    "props": {
+      "blockClass": "img-gabaritoSuporte-maduset",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/da469eb9-64ff-423e-921b-9a1f8a240e9d___ce2502a7e4e316485190c7fc4645d69a.webp",
+      "alt": "Equipe Suporte"
+    }
+  },
+  "flex-layout.row#textoLink-suporte-maduset": {
+    "props": {
+      "blockClass": "linhatextoLink-maduset"
+    },
+    "children": [
+      "rich-text#tituloSuporte-maduset",
+      "link#suporte-maduset"
+    ]
+  },
+  "rich-text#tituloSuporte-maduset": {
+    "props": {
+      "text": "Precisa de ajuda? \n **Nossa equipe configura para você.**",
+      "blockClass": "tituloGabaritoSuporte-maduset"
+    }
+  },
+  "link#suporte-maduset": {
+    "props": {
+      "blockClass": [
+        "link-solicitarCotacao-maduset",
+        "link-baixarpdfConsultor-maduset"
+      ],
+      "label": "falar com consultor",
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%20vim%20da%20p%C3%A1gina%20Madu%20Set%2C%20quero%20um%20or%C3%A7amento",
+      "target": "_blank"
+    }
+  }
+}

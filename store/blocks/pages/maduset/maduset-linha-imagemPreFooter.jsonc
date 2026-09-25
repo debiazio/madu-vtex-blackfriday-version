@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#linha-imagemPreFooter-maduset": {
+    "props": {
+      "blockClass": "linha-imagemPreFooter-maduset",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#img-prefooter-maduset"
+    ]
+  },
+  "image#img-prefooter-maduset": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1b3f7040-6ada-4e54-a497-cfdb55f9b5b0___ac0846bd29f1994ee91fe9c5b91aa4c2.webp",
+      "alt": "Maduset aberta",
+      "blockClass": "img-prefooter-maduset"
+    }
+  }
+}

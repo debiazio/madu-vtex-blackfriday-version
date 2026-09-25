@@ -15,6 +15,7 @@
     .biggy-autocomplete{
         top: 9px;
         right: unset;
+        left: 10%;
         max-width: unset;
     }
 }

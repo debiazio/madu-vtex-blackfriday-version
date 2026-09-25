@@ -1,0 +1,283 @@
+{
+  "responsive-layout.mobile#kits-maduset-madubox": {
+    "children": [
+      "flex-layout.row#mobile-kits-maduset-madubox"
+    ]
+  },
+  "responsive-layout.desktop#kits-maduset-madubox": {
+    "children": [
+      "flex-layout.row#kits-maduset-madubox"
+    ]
+  },
+  "flex-layout.row#kits-maduset-madubox": {
+    "props": {
+      "blockClass": ["linha-escolha-tamanho-ideal2-madubox", "linha-kits-prontos-maduset"],
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "responsive-layout.desktop#titulo-solucoes-madubox",
+      "responsive-layout.mobile#titulo-kits-maduset-madubox",
+      "rich-text#subtitulo-kits-prontos-maduset",
+      "responsive-layout.desktop#produtos-kits-maduset-madubox",
+      "responsive-layout.mobile#produtos-kits-maduset-madubox"
+    ]
+  },
+  "flex-layout.row#mobile-kits-maduset-madubox": {
+    "props": {
+      "blockClass": ["linha-escolha-tamanho-ideal2-madubox", "linha-kits-prontos-maduset"],
+      "fullWidth": true
+    },
+    "children": [
+      "responsive-layout.desktop#titulo-solucoes-madubox",
+      "responsive-layout.mobile#titulo-kits-maduset-madubox",
+      "rich-text#subtitulo-kits-prontos-maduset",
+      "responsive-layout.desktop#produtos-kits-maduset-madubox",
+      "responsive-layout.mobile#produtos-kits-maduset-madubox"
+    ]
+  },
+  "responsive-layout.desktop#titulo-solucoes-madubox": {
+    "children": [
+      "rich-text#titulo-kits-maduset-madubox"
+    ]
+  },
+  "responsive-layout.mobile#titulo-kits-maduset-madubox": {
+    "children": [
+      "rich-text#mobile-titulo-kits-maduset-madubox"
+    ]
+  },
+  "rich-text#titulo-kits-maduset-madubox": {
+    "props": {
+      "blockClass": "titulo-tam-ideal-madubox",
+      "text": "## **kits prontos**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#mobile-titulo-kits-maduset-madubox": {
+    "props": {
+      "blockClass": "titulo-tam-ideal-madubox",
+      "text": "## **kits prontos**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#subtitulo-kits-prontos-maduset": {
+    "props": {
+      "blockClass": "conteudo-tam-ideal-madubox",
+      "text": "Soluções já configuradas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "responsive-layout.mobile#produtos-kits-maduset-madubox": {
+    "children": [
+      "slider-maduset"
+    ]
+  },
+  "responsive-layout.desktop#produtos-kits-maduset-madubox": {
+    "children": [
+      "flex-layout.row#kits-prontos-produtos-madubox"
+    ]
+  },
+  "flex-layout.row#kits-prontos-produtos-madubox": {
+    "props": {
+      "blockClass": "linha-produtos-escolha-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#kit1-maduset",
+      "link#kit2-maduset",
+      "link#kit3-maduset",
+      "link#kit4-maduset"
+    ]
+  },
+  "link#kit1-maduset": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/maleta-de-coleta/p"
+    },
+    "children": [
+      "flex-layout.col#kit1-maduset"
+    ]
+  },
+  "flex-layout.col#kit1-maduset": {
+    "props": {
+      "blockClass": ["coluna-tamanhos-madubox", "coluna-maduset-kits"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#kit1-maduset",
+      "rich-text#apartirde-maduset",
+      "rich-text#preco-kit1-maduset",
+      "link#botao-kit1-maduset"
+    ]
+  },
+  "rich-text#solComb-titulo-tamanho3-madubox": {
+    "props": {
+      "blockClass": "titulo-tamanhos-madubox",
+      "text": "SAÚDE CLÍNICA E COLETA"
+    }
+  },
+  "rich-text#apartirde-maduset": {
+    "props": {
+      "blockClass": "subtitulo-solucoes-madubox",
+      "text": "a partir de"
+    }
+  },
+  "image#kit1-maduset": {
+    "props": {
+      "blockClass": "img-solucoes-combinadas",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/85035b8d-2173-4549-ac24-ddc8b877d12f___18ecbf3c003214a2aff1bd232320f446.webp",
+      "alt": "kit 1"
+    }
+  },
+  "rich-text#preco-kit1-maduset": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "**R$ 299,90**"
+    }
+  },
+  "link#botao-kit1-maduset": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar kit",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/maleta-de-coleta/p"
+    }
+  },
+
+  // kit 2
+  "link#kit2-maduset": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/-maleta-sedacao-4-modulos-easy-lock-madu-box/p"
+    },
+    "children": [
+      "flex-layout.col#kit2-maduset"
+    ]
+  },
+  "flex-layout.col#kit2-maduset": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#kit2-maduset",
+      "rich-text#apartirde-maduset",
+      "rich-text#preco-kit2-maduset",
+      "link#botao-kit2-maduset"
+    ]
+  },
+  "image#kit2-maduset": {
+    "props": {
+      "blockClass": "img-solucoes-combinadas",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/5c512f0f-3dc2-4e67-aaff-49bedba9f4c9___ad15ba0d281492c6d13d9ed795122e6d.webp",
+      "alt": "kit 2"
+    }
+  },
+  "rich-text#preco-kit2-maduset": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "**R$ 299,90**"
+    }
+  },
+  "link#botao-kit2-maduset": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar kit",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/-maleta-sedacao-4-modulos-easy-lock-madu-box/p"
+    }
+  },
+  // kit 3
+  "link#kit3-maduset": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/-maleta-estetica-transparente-4-modulos-madu-set-madu-box/p"
+    },
+    "children": [
+      "flex-layout.col#kit3-maduset"
+    ]
+  },
+  "flex-layout.col#kit3-maduset": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#kit3-maduset",
+      "rich-text#apartirde-maduset",
+      "rich-text#kit3-preco-maduset",
+      "link#botao-kit3-maduset"
+    ]
+  },
+  "image#kit3-maduset": {
+    "props": {
+      "blockClass": "img-solucoes-combinadas",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/3bcc2bae-a721-48a0-b3b5-f4284bb8dd63___99343f52d62231a9754dfe0726d4cb4a.webp",
+      "alt": "kit3"
+    }
+  },
+  "rich-text#kit3-preco-maduset": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "**R$ 399,90**"
+    }
+  },
+  "link#botao-kit3-maduset": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar kit",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/-maleta-estetica-transparente-4-modulos-madu-set-madu-box/p"
+    }
+  },
+  // kit4
+  "link#kit4-maduset": {
+    "props": {
+      "blockClass": "linha-link-tamanhos-madubox",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/-maleta-rosa-maquiadora-manicure-caixas-antimicrobianas-madu-box/p"
+    },
+    "children": [
+      "flex-layout.col#kit4-maduset"
+    ]
+  },
+  "flex-layout.col#kit4-maduset": {
+    "props": {
+      "blockClass": "coluna-tamanhos-madubox",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#kit4-maduset",
+       "rich-text#apartirde-maduset",
+      "rich-text#kit4-preco-maduset",
+      "link#botao-kit4-maduset"
+    ]
+  },
+  "image#kit4-maduset": {
+    "props": {
+      "blockClass": "img-solucoes-combinadas",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/67fd490a-8760-4028-b13b-f8cd1985da16___208bb14448b73a5850e80df8eb02ab99.webp",
+      "alt": "kit4"
+    }
+  },
+  "rich-text#kit4-preco-maduset": {
+    "props": {
+      "blockClass": "preco-tamanhos-madubox",
+      "text": "**R$ 299,90**"
+    }
+  },
+  "link#botao-kit4-maduset": {
+    "props": {
+      "blockClass": "link-comprar-tamanhos",
+      "label": "comprar kit",
+      "openNewTab": true,
+      "href": "https://www.pensemadu.com.br/-maleta-rosa-maquiadora-manicure-caixas-antimicrobianas-madu-box/p"
+    }
+  }
+}

@@ -2,7 +2,7 @@
   height: -webkit-fill-available;
 }
 
-.flexCol--coluna-tamanhos-madubox{
+.flexCol--coluna-tamanhos-madubox {
   display: flex;
   justify-content: space-between;
 }
@@ -76,6 +76,10 @@
   max-width: 1400px;
 }
 
+.flexCol--coluna-maduset-kits {
+  gap: unset !important
+}
+
 .flexCol--coluna-tamanhos-madubox {
   gap: 8px
 }
@@ -87,6 +91,11 @@
   gap: 10px;
 }
 
+.flexRow--linha-kits-prontos-maduset{
+  background-color: #FAFAF5;
+  padding-top: 90px;
+  padding-bottom: unset!important;
+}
 .flexRow--linha-escolha-tamanho-ideal2-madubox {
   display: flex;
   justify-content: center;

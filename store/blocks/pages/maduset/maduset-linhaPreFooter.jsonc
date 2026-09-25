@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#linhaPreFooter-maduset": {
+    "props": {
+      "blockClass": "linhaPreFooter-maduset",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#empty-linhaPreFooter-maduset",
+      "flex-layout.col#titulo-linhaPreFooter-maduset",
+      "flex-layout.col#link-linhaPreFooter-maduset"
+    ]
+  },
+  "flex-layout.col#empty-linhaPreFooter-maduset": {
+    "props": {
+      "blockClass": "empty-maduset"
+    },
+    "children": [
+      "rich-text#empty-maduset"
+    ]
+  },
+  "rich-text#empty-maduset": {
+    "props": {
+      "text": "maduset",
+      "blockClass": "empty-maduset"
+    }
+  },
+  "flex-layout.col#titulo-linhaPreFooter-maduset": {
+    "props": {
+      "blockClass": "colunas-linhaPreFooter-maduset"
+    },
+    "children": [
+      "rich-text#texto-preFooter-maduset"
+    ]
+  },
+  "rich-text#texto-preFooter-maduset": {
+    "props": {
+      "text": "**Uma solução completa,** \n sofisticada e feita **sob medida** \n para quem **exige o melhor.**",
+      "blockClass": "texto-preFooter-maduset"
+    }
+  },
+  "flex-layout.col#link-linhaPreFooter-maduset": {
+    "props": {
+      "blockClass": "colunas-linkPreFooter-maduset"
+    },
+    "children": [
+      "link#solicitarCotacao-linhaprefooter-maduset"
+    ]
+  },
+  "link#solicitarCotacao-linhaprefooter-maduset": {
+    "props": {
+      "blockClass": "solicitarCotacao-linhaprefooter-maduset",
+      "label": "fazer cotação",
+      "href": "https://api.whatsapp.com/send?phone=5541996878783&text=Ol%C3%A1%20vim%20da%20p%C3%A1gina%20Madu%20Set%2C%20quero%20um%20or%C3%A7amento"
+    }
+  }
+}
