@@ -109,7 +109,7 @@
       "image#solComb-img-tamanho3-madubox",
       "rich-text#solComb-titulo-tamanho3-madubox",
       "rich-text#solComb-subtitulo-tamanho3-madubox",
-      "rich-text#solComb-preco-tamanho3-madubox",
+      // "rich-text#solComb-preco-tamanho3-madubox",
       "link#solComb-comprar-tamanho3"
     ]
   },
@@ -165,7 +165,7 @@
       "image#solComb-img-tamanho4-madubox",
       "rich-text#solComb-titulo-tamanho4-madubox",
       "rich-text#solComb-subtitulo-tamanho4-madubox",
-      "rich-text#solComb-preco-tamanho4-madubox",
+      // "rich-text#solComb-preco-tamanho4-madubox",
       "link#solComb-comprar-tamanho4"
     ]
   },
@@ -221,7 +221,7 @@
       "image#solComb-img-tamanho6-madubox",
       "rich-text#solComb-titulo-tamanho6-madubox",
       "rich-text#solComb-subtitulo-tamanho6-madubox",
-      "rich-text#solComb-preco-tamanho6-madubox",
+      // "rich-text#solComb-preco-tamanho6-madubox",
       "link#solComb-comprar-tamanho6"
     ]
   },
@@ -277,7 +277,7 @@
       "image#solComb-img-tamanho8-madubox",
       "rich-text#solComb-titulo-tamanho8-madubox",
       "rich-text#solComb-subtitulo-tamanho8-madubox",
-      "rich-text#solComb-preco-tamanho8-madubox",
+      // "rich-text#solComb-preco-tamanho8-madubox",
       "link#solComb-comprar-tamanho8"
     ]
   },

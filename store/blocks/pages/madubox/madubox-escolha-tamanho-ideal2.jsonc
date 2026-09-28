@@ -112,7 +112,7 @@
       "rich-text#titulo-tamanho3-madubox",
       "rich-text#subtitulo-tamanho3-madubox",
       "image#img-tamanho3-madubox",
-      "rich-text#preco-tamanho3-madubox",
+      // "rich-text#preco-tamanho3-madubox",
       "link#comprar-tamanho3"
     ]
   },
@@ -168,7 +168,7 @@
       "rich-text#titulo-tamanho4-madubox",
       "rich-text#subtitulo-tamanho4-madubox",
       "image#img-tamanho4-madubox",
-      "rich-text#preco-tamanho4-madubox",
+      // "rich-text#preco-tamanho4-madubox",
       "link#comprar-tamanho4"
     ]
   },
@@ -181,7 +181,7 @@
   "rich-text#subtitulo-tamanho4-madubox": {
     "props": {
       "blockClass": "subtitulo-tamanhos-madubox",
-      "text": "32x32cm | 4 módulos"
+      "text": "32x24cm | 4 módulos"
     }
   },
   "image#img-tamanho4-madubox": {
@@ -224,7 +224,7 @@
       "rich-text#titulo-tamanho6-madubox",
       "rich-text#subtitulo-tamanho6-madubox",
       "image#img-tamanho6-madubox",
-      "rich-text#preco-tamanho6-madubox",
+      // "rich-text#preco-tamanho6-madubox",
       "link#comprar-tamanho6"
     ]
   },
@@ -280,7 +280,7 @@
       "rich-text#titulo-tamanho8-madubox",
       "rich-text#subtitulo-tamanho8-madubox",
       "image#img-tamanho8-madubox",
-      "rich-text#preco-tamanho8-madubox",
+      // "rich-text#preco-tamanho8-madubox",
       "link#comprar-tamanho8"
     ]
   },
@@ -293,7 +293,7 @@
   "rich-text#subtitulo-tamanho8-madubox": {
     "props": {
       "blockClass": "subtitulo-tamanhos-madubox",
-      "text": "24x24cm | 8 módulos"
+      "text": "32x43cm | 8 módulos"
     }
   },
   "image#img-tamanho8-madubox": {
@@ -336,7 +336,7 @@
       "rich-text#titulo-tamanho10-madubox",
       "rich-text#subtitulo-tamanho10-madubox",
       "image#img-tamanho10-madubox",
-      "rich-text#preco-tamanho10-madubox",
+      // "rich-text#preco-tamanho10-madubox",
       "link#comprar-tamanho10"
     ]
   },
@@ -392,7 +392,7 @@
       "rich-text#titulo-tamanho12-madubox",
       "rich-text#subtitulo-tamanho12-madubox",
       "image#img-tamanho12-madubox",
-      "rich-text#preco-tamanho12-madubox",
+      // "rich-text#preco-tamanho12-madubox",
       "link#comprar-tamanho12"
     ]
   },
