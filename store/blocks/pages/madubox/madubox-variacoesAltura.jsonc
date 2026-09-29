@@ -33,25 +33,25 @@
         "image#tamanhoP-varAlt-madubox":{
           "props": {
             "blockClass": "imgs-varAlt",
-            "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/a7a9d4f2-4511-40f9-bfe3-9758b6d61f87___7f5745218bba86909c6c4b1bb9773a70.webp"
+            "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/6ad1e004-1ce7-4766-a3d0-2af61fec9b84___2be74fbb7e24c3da0ab8786f77128781.webp"
           }
         },
       "image#tamanhoM-varAlt-madubox":{
         "props": {
           "blockClass": "imgs-varAlt",
-          "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/09dfd639-6b60-4d75-9565-12c614c4b342___2d0343680d8a6931203fcde919e71713.webp"
+          "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/fa3a3102-1ede-45d0-89c4-2061ed37ca6f___4674c3b5458569ef05432b07e89db1f9.webp"
         }
       },
       "image#tamanhoG-varAlt-madubox":{
         "props": {
           "blockClass": "imgs-varAlt",
-          "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b556161e-4687-4296-9d00-7ae941881cfb___6923c193c6f3e757bbb4a3993f4e5569.webp"
+          "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/7709674f-53c5-46d2-88c6-34fa96530be6___64f96d8ba2e67ec5b3068dd14b26cb99.webp"
         }
       },
       "image#tamanhoGG-varAlt-madubox":{
         "props": {
           "blockClass": "imgs-varAlt",
-          "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ba662dff-6469-4e1b-8f7d-e51d03c5cf2e___f77eb6dc3ee8d1a2f247c4466554bc2e.webp"
+          "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/4929f499-50cb-46d2-963b-ece42a981d31___ec96bfaebc0b9a3b3fce33f83176c75d.webp"
         }
       }
 }
