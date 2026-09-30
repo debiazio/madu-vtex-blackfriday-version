@@ -94,5 +94,8 @@
   "store.custom#manual-uso-cuidados": {
     "path": "/manual-uso-cuidados",
     "isSitemapEntry": true
+  },
+  "store.custom#madubox": {
+    "path": "/madubox"
   }
 }

@@ -86,8 +86,8 @@
     "children": [
       "link#solComb-tamanho3-linha-madubox",
       "link#solComb-tamanho4-linha-madubox",
-      "link#solComb-tamanho6-linha-madubox",
-      "link#solComb-tamanho8-linha-madubox"
+      "link#solComb-tamanho6-linha-madubox"
+      // "link#solComb-tamanho8-linha-madubox"
     ]
   },
   "link#solComb-tamanho3-linha-madubox": {
