@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#banner-odonto": {
+    "title": "Banner Odontologia",
+    "props": {
+      "blockClass": "linha-banner-odonto",
+      "fullWidth": true
+    },
+    "children": [
+      "image#banner-desktop-odonto"
+    ]
+  },
+  "image#banner-desktop-odonto": {
+    "props": {
+      "blockClass": "banner-odonto",
+      "alt": "Banner Odontologia",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b1b41120-6e2f-4c2f-99c5-46d7c997f53d___597b84412db41e9c451850f7e6125211.webp"
+    }
+  }
+}

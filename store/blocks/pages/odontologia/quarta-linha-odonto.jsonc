@@ -1,0 +1,152 @@
+{
+  "flex-layout.row#quarta-linha-odonto": {
+    "title": "quarta-linha-odonto",
+    "props": {
+      "blockClass": "linha-quarta-linha-odonto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#tres-niveis-odonto",
+      "image#fundo-verde-madu-hosp",
+      "flex-layout.row#linha-produtos-odonto"
+    ]
+  },
+  "rich-text#tres-niveis-odonto": {
+    "props": {
+      "blockClass": "tres-niveis-odonto",
+      "text": "## Três níveis, \n ## **um só padrão de qualidade.**"
+    }
+  },
+  "image#fundo-verde-madu-hosp": {
+    "props": {
+      "blockClass": "fundo-verde-madu-hosp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1d373430-a6cc-4719-8871-be05d73e0792___a201951c1ee81e559f94c8ab182e03c1.svg"
+    }
+  },
+  "flex-layout.row#linha-produtos-odonto": {
+    "props": {
+      "blockClass": "linha-produtos-odonto",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#organizacao-essencial-odonto",
+      "flex-layout.col#secacao-completa-odonto",
+      "flex-layout.col#solucao-profissional-odonto"
+    ]
+  },
+  "flex-layout.col#organizacao-essencial-odonto": {
+    "props": {
+      "blockClass": "coluna-tres-opcoes"
+    },
+    "children": [
+      "rich-text#titulo-essencial-odonto",
+      "rich-text#titulo1-produto-odonto",
+      "image#produto1-odonto",
+      "rich-text#precos1-odonto",
+      "rich-text#atributos1-odonto"
+    ]
+  },
+  "rich-text#titulo-essencial-odonto": {
+    "props": {
+      "blockClass": "titulo-tres-produtos-odonto",
+      "text": "### Organização \n ### **Essencial**"
+    }
+  },
+  "rich-text#titulo1-produto-odonto": {
+    "props": {
+      "blockClass": "titulo-produto-3-odonto",
+      "text": "Carrinho Mini Multiuso 4 Gavetas | MAD.U TWO"
+    }
+  },
+  "image#produto1-odonto":{
+    "props": {
+      "blockClass": "img-produto-odonto",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e19e4fef-9794-4e5f-b9ff-270e456333e7___dba6a066607fb9ae61995a6882dfc5dc.webp"
+    }
+  },
+  "rich-text#precos1-odonto":{
+    "props": {
+      "blockClass": "precos-produto-odonto",
+      "text": "DE R$2.162,38 \n POR **R$1.729,90** \n **ou 10x de R$ 172,99 sem juros**"
+    }
+  },
+  "rich-text#atributos1-odonto":{
+    "props": {
+      "blockClass": "atributos-produto-odonto",
+      "text": "✓ 4 gavetas com frentes antimicrobianas \n ✓ 4 rodízios com freio \n ✓ Estrutura compacta \n ✓Tampo-bandeja com bordas elevadas \n ✓ Estrutura em aço carbono e PSAI"
+    }
+  },
+  "flex-layout.col#secacao-completa-odonto": {
+    "props": {
+      "blockClass": "coluna-tres-opcoes"
+    },
+    "children": [
+      "rich-text#titulo-sedacao-odonto",
+      "rich-text#titulo2-produto-odonto",
+      "image#produto1-odonto",
+      "rich-text#precos2-odonto",
+      "rich-text#atributos2-odonto"
+
+    ]
+  },
+  "rich-text#titulo-sedacao-odonto": {
+    "props": {
+      "text": "### Sedação \n ### **Completa**",
+      "blockClass": "titulo-tres-produtos-odonto"
+    }
+  },
+  "rich-text#titulo2-produto-odonto": {
+    "props": {
+      "blockClass": "titulo-produto-3-odonto",
+      "text": "Combo Carrinho de Sedação + Maleta | MAD.U TWO"
+    }
+  },
+    "rich-text#precos2-odonto":{
+    "props": {
+      "blockClass": "precos-produto-odonto",
+      "text": "DE R$3.142,71 \n POR **R$2.199,90** \n **ou 10x de R$ 219,99 sem juros**"
+    }
+  },
+    "rich-text#atributos2-odonto":{
+    "props": {
+      "blockClass": "atributos-produto-odonto",
+      "text": "✓ 3 gavetas com frentes antimicrobianas \n ✓ 2 suportes laterais pra cilindros \n ✓ Tampo em aço inox \n ✓ Maleta de sedação inclusa \n ✓ Mad.u SET \n ✓ Economia de R$ 99,90 vs. comprar separado"
+    }
+  },
+  "flex-layout.col#solucao-profissional-odonto": {
+    "props": {
+      "blockClass": "coluna-tres-opcoes"
+    },
+    "children": [
+      "rich-text#titulo-profissional-odonto",
+      "rich-text#titulo3-produto-odonto",
+      "image#produto1-odonto",
+      "rich-text#precos3-odonto",
+      "rich-text#atributos3-odonto"
+    ]
+  },
+  "rich-text#titulo-profissional-odonto": {
+    "props": {
+      "blockClass": "titulo-tres-produtos-odonto",
+      "text": "### Solução \n### **Profissional**"
+    }
+  },
+  "rich-text#titulo3-produto-odonto": {
+    "props": {
+      "blockClass": "titulo-produto-3-odonto",
+      "text": "Carrinho Beira-Leito 6 Gavetas com Acessórios | MAD.U ONE 560"
+    }
+  },
+  "rich-text#precos3-odonto":{
+    "props": {
+      "blockClass": "precos-produto-odonto",
+      "text": "DE R$4.577,67 \n POR **R$4.119,90** \n **ou 10x de R$ 411,99 sem juros**"
+    }
+  },
+  "rich-text#atributos3-odonto":{
+    "props": {
+      "blockClass": "atributos-produto-odonto",
+      "text": "✓ Tecnologia antimicrobianas \n ✓ 6 gavetas com acessórios e fecho unitário \n ✓ Prateleira suspensa giratória \n ✓Suporte para prontuário \n ✓Caixa lateral fixa \n ✓Dois dispensers \n ✓ Tampo em aço inox \n ✓  Rodízios emborrachados silencioso com rotação de 360°"
+    }
+  }
+}

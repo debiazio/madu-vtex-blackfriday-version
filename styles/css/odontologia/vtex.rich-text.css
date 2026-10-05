@@ -1,0 +1,99 @@
+.headingLevel2--tres-niveis-odonto {
+  margin: 0;
+  font-family: "Poppins Light", sans-serif !important;
+  font-size: 36px;
+  color: #E6E1DC;
+  line-height: 97%;
+  text-transform: uppercase;
+}
+
+.strong--tres-niveis-odonto {
+  font-family: "Poppins Bold", sans-serif !important;
+}
+
+.headingLevel1--titulo-fabrica-odonto {
+  margin: 0;
+  color: #7E7E7E;
+  font-family: "Poppins Bold", sans-serif !important;
+  line-height: 108%;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.paragraph--acompanham-odonto {
+  margin: 0;
+  font-family: "Poppins Bold", sans-serif !important;
+  line-height: 40%;
+  letter-spacing: -0%;
+  text-transform: uppercase;
+  color: #32A078;
+  font-size: 40px;
+  padding: 0 10px;
+}
+
+.paragraph--subtitulo-fabrica-odonto {
+  margin: 0;
+  color: #7E7E7E;
+  font-family: "Poppins", sans-serif !important;
+  line-height: 97%;
+  font-size: 24px;
+}
+
+
+.container--titulo-organizacao-odonto {
+  margin-left: 10%;
+}
+
+.container--acompanham-odonto {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.container--subtitulo-organizacao-odonto {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+.paragraph--titulo-organizacao-odonto {
+  font-family: "Poppins Light", sans-serif !important;
+  font-size: 32px;
+  color: #7E7E7E;
+  line-height: 108%;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.paragraph--subtitulo-organizacao-odonto {
+  font-family: "Poppins Light", sans-serif !important;
+  font-size: 24px;
+  color: #7E7E7E;
+  line-height: 108%;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.strong--titulo-organizacao-odonto {
+  font-family: "Poppins Black", sans-serif !important;
+  font-style: Bold;
+  line-height: 108%;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+}
+
+.strong--titulo-organizacao-odonto {
+  font-family: "Poppins Black", sans-serif !important;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 108%;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+}

@@ -1,0 +1,49 @@
+{
+  "flex-layout.row#terceira-linha-odonto":{
+    "title": "Madu Fabrica",
+    "props": {
+      "blockClass": "terceira-linha-ondonto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-fabrica-odonto",
+      "flex-layout.row#imagens-fabrica-odonto",
+      "rich-text#subtitulo-fabrica-odonto"
+    ]
+  },
+  "rich-text#titulo-fabrica-odonto":{
+    "props": {
+      "blockClass": "titulo-fabrica-odonto",
+      "text": "# A MAD.U fabrica carrinhos e móveis odontológicos "
+    }
+  },
+  "flex-layout.row#imagens-fabrica-odonto":{
+    "title": "Linha Organização Odonto",
+    "props": {
+      "blockClass": "linha-imagens-fabrica-odonto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#acompanham-odonto",
+      "rich-text#acompanham-odonto"
+    ]
+  },
+  "rich-text#acompanham-odonto":{
+    "props": {
+      "blockClass": "acompanham-odonto",
+      "text": "que acompanham sua rotina."
+    }
+  },
+  "image#acompanham-odonto":{
+    "props": {
+      "blockClass": "img-acompanham-odonto",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/38039607-2886-41f5-8395-41c53adf7111___1ee808842fa9406382f8665d3335ef1b.webp"
+    }
+  },
+  "rich-text#subtitulo-fabrica-odonto":{
+    "props": {
+      "blockClass": "subtitulo-fabrica-odonto",
+      "text": "Estrutura que acompanha o seu **dia a dia** e produtos desenhados pra cada etapa do atendimento. Mobiliário feito com **inteligência**, pra organizar sua rotina e deixar você livre pro que importa: **O cuidado com o paciente.** "
+    }
+  }
+}

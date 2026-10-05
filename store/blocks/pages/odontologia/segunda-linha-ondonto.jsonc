@@ -1,0 +1,55 @@
+{
+  "flex-layout.row#segunda-linha-odonto": {
+    "title": "Linha Organização Odonto",
+    "props": {
+      "blockClass": "segunda-linha-ondonto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-organizacao-odonto",
+      "flex-layout.row#imagens-organizacao-odonto",
+      "rich-text#subtitulo-organizacao-odonto"
+    ]
+  },
+  "rich-text#titulo-organizacao-odonto": {
+    "props": {
+      "text": "Cada dia de improviso \n **tem um preço**",
+      "blockClass": "titulo-organizacao-odonto"
+    }
+  },
+  "flex-layout.row#imagens-organizacao-odonto": {
+    "props": {
+      "blockClass": "linha-imagens-organizacao-odonto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#img-errada1-odontologia",
+      "image#img-errada2-odontologia",
+      "image#img-errada3-odontologia"
+    ]
+  },
+  "image#img-errada1-odontologia": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/dee33373-db96-4da0-b043-124527d849c6___4b426dc4519b926e17f76ebe244d7d95.webp",
+      "blockClass": "imagens-erros-odontologia"
+    }
+  },
+  "image#img-errada2-odontologia": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/d59cc9bf-2095-44aa-bbc9-23f1336fcab4___3d8c6bfbe1bd9c73f80e044e6876fa03.webp",
+      "blockClass": "imagens-erros-odontologia"
+    }
+  },
+  "image#img-errada3-odontologia": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/645fb4f9-5d94-4ec6-ac8e-680675966bc5___2f09b245f74da3eeb50904e5519d3086.webp",
+      "blockClass": "imagens-erros-odontologia"
+    }
+  },
+  "rich-text#subtitulo-organizacao-odonto": {
+    "props": {
+      "blockClass": "subtitulo-organizacao-odonto",
+      "text": "A pergunta não é 'quanto custa organizar?' E sim \n **quanto já custou não organizar.**"
+    }
+  }
+}

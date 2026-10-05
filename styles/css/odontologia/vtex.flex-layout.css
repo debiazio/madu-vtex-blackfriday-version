@@ -1,0 +1,62 @@
+.flexCol--coluna-tres-opcoes{
+  background-color: #E6E1DC;
+  border-radius: 20px;
+
+}
+
+.flexRowContent--linha-produtos-odonto{
+  position: relative;
+  z-index: 1;
+  gap: 28px;
+}
+
+.flexRowContent--linha-quarta-linha-odonto{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 50px 0;
+}
+
+.flexRow--linha-quarta-linha-odonto{
+  background-color: #32A078;
+}
+
+.flexRowContent--terceira-linha-ondonto{
+  padding: 50px 0;
+}
+
+.flexRow--terceira-linha-ondonto{
+  background-color: #F4F4F4;
+}
+
+.flexRowContent--linha-imagens-fabrica-odonto {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+}
+
+.flexRowContent--terceira-linha-ondonto {
+  display: flex;
+  flex-direction: column;
+  gap: 25px
+}
+
+.flexRowContent--segunda-linha-ondonto .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexRowContent--segunda-linha-ondonto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.flexRowContent--linha-imagens-organizacao-odonto {
+  display: flex;
+  gap: 38px;
+  justify-content: center;
+
+}
