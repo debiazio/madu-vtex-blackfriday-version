@@ -34,6 +34,9 @@
       "flex-layout.col#solucao-profissional-odonto"
     ]
   },
+  // ==============================
+  // produto essencial
+  // ==============================
   "flex-layout.col#organizacao-essencial-odonto": {
     "props": {
       "blockClass": "coluna-tres-opcoes"
@@ -41,9 +44,11 @@
     "children": [
       "rich-text#titulo-essencial-odonto",
       "rich-text#titulo1-produto-odonto",
-      "image#produto1-odonto",
+      "flex-layout.row#img-protuto-essencial",
       "rich-text#precos1-odonto",
-      "rich-text#atributos1-odonto"
+      "rich-text#atributos1-odonto",
+      "flex-layout.row#links-produtos-odonto",
+      "rich-text#texto-sub-produto-essencial"
     ]
   },
   "rich-text#titulo-essencial-odonto": {
@@ -58,24 +63,65 @@
       "text": "Carrinho Mini Multiuso 4 Gavetas | MAD.U TWO"
     }
   },
-  "image#produto1-odonto":{
+  "flex-layout.row#img-protuto-essencial": {
+    "props": {
+      "blockClass": "linha-3produtos-odonto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#produto1-odonto"
+    ]
+  },
+  "image#produto1-odonto": {
     "props": {
       "blockClass": "img-produto-odonto",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/e19e4fef-9794-4e5f-b9ff-270e456333e7___dba6a066607fb9ae61995a6882dfc5dc.webp"
     }
   },
-  "rich-text#precos1-odonto":{
+  "rich-text#precos1-odonto": {
     "props": {
       "blockClass": "precos-produto-odonto",
       "text": "DE R$2.162,38 \n POR **R$1.729,90** \n **ou 10x de R$ 172,99 sem juros**"
     }
   },
-  "rich-text#atributos1-odonto":{
+  "rich-text#atributos1-odonto": {
     "props": {
       "blockClass": "atributos-produto-odonto",
       "text": "✓ 4 gavetas com frentes antimicrobianas \n ✓ 4 rodízios com freio \n ✓ Estrutura compacta \n ✓Tampo-bandeja com bordas elevadas \n ✓ Estrutura em aço carbono e PSAI"
     }
   },
+  "flex-layout.row#links-produtos-odonto": {
+    "props": {
+      "blockClass": "linha-links-produtos-odonto"
+    },
+    "children": [
+      "link#produto-essencial",
+      "link#personalizar-produto-essencial"
+    ]
+  },
+  "link#produto-essencial": {
+    "props": {
+      "blockClass": "link-produtos-odonto",
+      "label": "ver produto agora"
+    }
+  },
+  "link#personalizar-produto-essencial": {
+    "props": {
+      "blockClass": "link-personalizar-produtos-odonto",
+      "label": "personalizar carrinho"
+    }
+  },
+  "rich-text#texto-sub-produto-essencial": {
+    "props": {
+      "blockClass": "texto-sub-odonto",
+      "text": "Ideal pra quem precisa organizar materiais gerais no consultório.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // ==============================
+  // solucao completa
+  // ==============================
   "flex-layout.col#secacao-completa-odonto": {
     "props": {
       "blockClass": "coluna-tres-opcoes"
@@ -83,10 +129,11 @@
     "children": [
       "rich-text#titulo-sedacao-odonto",
       "rich-text#titulo2-produto-odonto",
-      "image#produto1-odonto",
+      "flex-layout.row#img-protuto-essencial",
       "rich-text#precos2-odonto",
-      "rich-text#atributos2-odonto"
-
+      "rich-text#atributos2-odonto",
+      "flex-layout.row#links-produtos-completo-odonto",
+      "rich-text#texto-sub-produto-completo"
     ]
   },
   "rich-text#titulo-sedacao-odonto": {
@@ -101,18 +148,50 @@
       "text": "Combo Carrinho de Sedação + Maleta | MAD.U TWO"
     }
   },
-    "rich-text#precos2-odonto":{
+  "rich-text#precos2-odonto": {
     "props": {
       "blockClass": "precos-produto-odonto",
       "text": "DE R$3.142,71 \n POR **R$2.199,90** \n **ou 10x de R$ 219,99 sem juros**"
     }
   },
-    "rich-text#atributos2-odonto":{
+  "rich-text#atributos2-odonto": {
     "props": {
       "blockClass": "atributos-produto-odonto",
       "text": "✓ 3 gavetas com frentes antimicrobianas \n ✓ 2 suportes laterais pra cilindros \n ✓ Tampo em aço inox \n ✓ Maleta de sedação inclusa \n ✓ Mad.u SET \n ✓ Economia de R$ 99,90 vs. comprar separado"
     }
   },
+  "flex-layout.row#links-produtos-completo-odonto": {
+    "props": {
+      "blockClass": "linha-links-produtos-odonto"
+    },
+    "children": [
+      "link#solucao-completa",
+      "link#personalizar-solucao-completa"
+    ]
+  },
+  "link#solucao-completa": {
+    "props": {
+      "blockClass": "link-produtos-odonto",
+      "label": "quero o combo agora"
+    }
+  },
+  "link#personalizar-solucao-completa": {
+    "props": {
+      "blockClass": "link-personalizar-produtos-odonto",
+      "label": "personalizar combo"
+    }
+  },
+  "rich-text#texto-sub-produto-completo": {
+    "props": {
+      "blockClass": "texto-sub-odonto",
+      "text": "A solução completa pra quem faz sedação.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // ==============================
+  // produto profissional
+  // ==============================
   "flex-layout.col#solucao-profissional-odonto": {
     "props": {
       "blockClass": "coluna-tres-opcoes"
@@ -120,9 +199,11 @@
     "children": [
       "rich-text#titulo-profissional-odonto",
       "rich-text#titulo3-produto-odonto",
-      "image#produto1-odonto",
+      "flex-layout.row#img-protuto-essencial",
       "rich-text#precos3-odonto",
-      "rich-text#atributos3-odonto"
+      "rich-text#atributos3-odonto",
+      "flex-layout.row#links-produtos-profissional-odonto",
+      "rich-text#texto-sub-produto-profissional"
     ]
   },
   "rich-text#titulo-profissional-odonto": {
@@ -137,16 +218,45 @@
       "text": "Carrinho Beira-Leito 6 Gavetas com Acessórios | MAD.U ONE 560"
     }
   },
-  "rich-text#precos3-odonto":{
+  "rich-text#precos3-odonto": {
     "props": {
       "blockClass": "precos-produto-odonto",
       "text": "DE R$4.577,67 \n POR **R$4.119,90** \n **ou 10x de R$ 411,99 sem juros**"
     }
   },
-  "rich-text#atributos3-odonto":{
+  "rich-text#atributos3-odonto": {
     "props": {
       "blockClass": "atributos-produto-odonto",
       "text": "✓ Tecnologia antimicrobianas \n ✓ 6 gavetas com acessórios e fecho unitário \n ✓ Prateleira suspensa giratória \n ✓Suporte para prontuário \n ✓Caixa lateral fixa \n ✓Dois dispensers \n ✓ Tampo em aço inox \n ✓  Rodízios emborrachados silencioso com rotação de 360°"
+    }
+  },
+  "flex-layout.row#links-produtos-profissional-odonto": {
+    "props": {
+      "blockClass": "linha-links-produtos-odonto"
+    },
+    "children": [
+      "link#produto-profissional",
+      "link#personalizar-produto-profissional"
+    ]
+  },
+  "link#produto-profissional": {
+    "props": {
+      "blockClass": "link-produtos-odonto",
+      "label": "ver produto agora"
+    }
+  },
+  "link#personalizar-produto-profissional": {
+    "props": {
+      "blockClass": "link-personalizar-produtos-odonto",
+      "label": "personalizar carrinho"
+    }
+  },
+  "rich-text#texto-sub-produto-profissional": {
+    "props": {
+      "blockClass": "texto-sub-odonto",
+      "text": "Ideal pra quem precisa organizar materiais gerais no consultório.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   }
 }

@@ -1,3 +1,58 @@
+.container--atributos-produto-odonto {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.paragraph--texto-sub-odonto {
+  margin: 0;
+  color: #32A078;
+  font-family: "Poppins Black", sans-serif !important;
+  font-size: 12px;
+  line-height: 97%;
+}
+
+.paragraph--atributos-produto-odonto {
+  margin: 0;
+  color: #32A078;
+  font-family: "Poppins Bold", sans-serif !important;
+  font-size: 12px;
+  line-height: 97%;
+}
+
+.paragraph--precos-produto-odonto {
+  margin: 0;
+  color: #32A078;
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  line-height: 97%;
+  font-size: 16px;
+}
+
+.paragraph--titulo-produto-3-odonto {
+  margin: 0;
+  color: #32A078;
+  font-family: "Poppins", sans-serif !important;
+  line-height: 97%;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.headingLevel3--titulo-tres-produtos-odonto {
+  margin: 0;
+  color: #32A078;
+  font-family: "Poppins Light", sans-serif !important;
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 97%;
+}
+
+.strong--titulo-tres-produtos-odonto {
+  font-family: "Poppins Bold", sans-serif !important;
+}
+
 .headingLevel2--tres-niveis-odonto {
   margin: 0;
   font-family: "Poppins Light", sans-serif !important;

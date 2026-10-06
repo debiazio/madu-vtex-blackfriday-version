@@ -1,0 +1,45 @@
+.link--link-produtos-odonto:hover {
+  background-color: #75a593;
+}
+
+.link--link-produtos-odonto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #32A078;
+  border-radius: 100px;
+  padding: 12px;
+}
+
+.link--link-personalizar-produtos-odonto:hover {
+  background-color: #f1e3cb;
+}
+
+.link--link-personalizar-produtos-odonto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 100px;
+  padding: 12px;
+}
+
+.label--link-produtos-odonto {
+  font-family: "Poppins Black", sans-serif !important;
+  line-height: 97%;
+  color: #ffffff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.label--link-personalizar-produtos-odonto {
+  font-family: "Poppins Black", sans-serif !important;
+  line-height: 97%;
+  color: #FFAD20;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 16px;
+}

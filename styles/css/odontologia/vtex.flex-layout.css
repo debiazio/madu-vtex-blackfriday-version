@@ -1,31 +1,58 @@
-.flexCol--coluna-tres-opcoes{
-  background-color: #E6E1DC;
-  border-radius: 20px;
-
+.flexRowContent--linha-links-produtos-odonto .stretchChildrenWidth{
+  width: 100% !important;
 }
 
-.flexRowContent--linha-produtos-odonto{
+.flexRowContent--linha-links-produtos-odonto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.flexColChild--coluna-tres-opcoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRowContent--linha-3produtos-odonto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol--coluna-tres-opcoes {
+  background-color: #E6E1DC;
+  border-radius: 20px;
+  padding: 26px 20px;
+  gap: 20px;
+}
+
+.flexRowContent--linha-produtos-odonto {
   position: relative;
   z-index: 1;
   gap: 28px;
+  padding: 0 15%;
 }
 
-.flexRowContent--linha-quarta-linha-odonto{
+.flexRowContent--linha-quarta-linha-odonto {
   display: flex;
   flex-direction: column;
   position: relative;
   padding: 50px 0;
+  gap: 25px;
 }
 
-.flexRow--linha-quarta-linha-odonto{
+.flexRow--linha-quarta-linha-odonto {
   background-color: #32A078;
 }
 
-.flexRowContent--terceira-linha-ondonto{
+.flexRowContent--terceira-linha-ondonto {
   padding: 50px 0;
 }
 
-.flexRow--terceira-linha-ondonto{
+.flexRow--terceira-linha-ondonto {
   background-color: #F4F4F4;
 }
 
