@@ -4,7 +4,9 @@
       "flex-layout.row#banner-odonto",
       "flex-layout.row#segunda-linha-odonto",
       "flex-layout.row#terceira-linha-odonto",
-      "flex-layout.row#quarta-linha-odonto"
+      "flex-layout.row#quarta-linha-odonto",
+      "flex-layout.row#quinta-linha-odonto",
+      "flex-layout.row#sexta-linha-odonto"
     ]
   }
 }

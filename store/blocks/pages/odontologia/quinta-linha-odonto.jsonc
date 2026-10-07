@@ -1,0 +1,150 @@
+{
+  "flex-layout.row#quinta-linha-odonto": {
+    "props": {
+      "blockClass": "linha-quinta-linha-odonto"
+    },
+    "children": [
+      "flex-layout.col#monte-seuJeito-esquerda-odonto",
+      "flex-layout.col#monte-seuJeito-direta-odonto"
+    ]
+  },
+  "flex-layout.col#monte-seuJeito-esquerda-odonto": {
+    "props": {
+      "blockClass": "colunas-monte-seuJeito-odonto",
+      "colSizing": "auto",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-monteSeuJeito-odonto",
+      "rich-text#conteudo-monteSeuJeito-odonto"
+    ]
+  },
+  "rich-text#titulo-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "titulo-monte-seuJeito-odonto",
+      "text": "## monte do \n ## **seu jeito**"
+    }
+  },
+  "rich-text#conteudo-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "conteudo-monteSeuJeito-odonto",
+      "text": "### Não precisa do kit completo? \n ### **Carrinho e maleta também estão disponíveis separadamente. Escolha só o que sua rotina pede.**"
+    }
+  },
+  // ==============================
+  // coluna 2
+  // ==============================
+  "flex-layout.col#monte-seuJeito-direta-odonto": {
+    "props": {
+      "blockClass":
+        "coluna-2-monte-seuJeito-odonto"
+    },
+    "children": [
+      "flex-layout.row#monteSeuJeito-produto1-odonto",
+      "flex-layout.row#monteSeuJeito-produto2-odonto"
+    ]
+  },
+  "flex-layout.row#monteSeuJeito-produto1-odonto": {
+    "props": {
+      "blockClass": "linhas-monte-seuJeito-produtos-odonto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#produto1-monteSeuJeito-odonto",
+      "flex-layout.col#coluna-produto1-monteseujeito-textos-odonto"
+    ]
+  },
+  "image#produto1-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "produto-monteseuJeito-odonto",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/2ddc2092-f5bb-45a4-890e-434b9af81182___e69c235fdc74cbb61e79a1f2b6beb803.webp"
+    }
+  },
+  "flex-layout.col#coluna-produto1-monteseujeito-textos-odonto": {
+    "props": {
+      "blockClass": "coluna-produtos-monteseujeito-textos-odonto"
+    },
+    "children": [
+      "rich-text#titulo-produto1-monteSeuJeito-odonto",
+      "rich-text#preco-produto1-monteSeuJeito-odonto",
+      "rich-text#descritivos-produto1-monteSeuJeito-odonto",
+      "link#verCarrinho-monteSeuJeito-odonto"
+    ]
+  },
+  "rich-text#titulo-produto1-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "titulo-monteSeujeito-odonto",
+      "text": "**Carrinho de Sedação** \n Avulso"
+    }
+  },
+  "rich-text#preco-produto1-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "textos-monteSeujeito-odonto",
+      "text": "De R$ 2.119,90 \n **Por R$ 1.899,90 | 10x de R$ 189,99**"
+    }
+  },
+  "rich-text#descritivos-produto1-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "textos-monteSeujeito-odonto",
+      "text": "✓ 3 gavetas antimicrobianas \n ✓ Tampo em aço inox \n ✓ 2 suportes para cilindros \n ✓ Rodízios Work com freio"
+    }
+  },
+  "link#verCarrinho-monteSeuJeito-odonto":{
+    "props": {
+      "blockClass": "links-monteSeuJeito-odonto",
+      "label": "ver carrinho avulso"
+    }
+  },
+  // produto 2
+  "flex-layout.row#monteSeuJeito-produto2-odonto": {
+    "props": {
+      "blockClass": "linhas-monte-seuJeito-produtos-odonto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#produto2-monteSeuJeito-odonto",
+      "flex-layout.col#coluna-produto2-monteseujeito-textos-odonto"
+    ]
+  },
+  "image#produto2-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "produto-monteseuJeito-odonto",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f75a3db9-2629-4fcf-99e4-d3503cd65bd7___bbf36d32021835d601ab8e0ed7f59b08.webp"
+    }
+  },
+  "flex-layout.col#coluna-produto2-monteseujeito-textos-odonto": {
+    "props": {
+      "blockClass": "coluna-produtos-monteseujeito-textos-odonto"
+    },
+    "children": [
+      "rich-text#titulo-produto2-monteSeuJeito-odonto",
+      "rich-text#preco-produto2-monteSeuJeito-odonto",
+      "rich-text#descritivos-produto2-monteSeuJeito-odonto",
+      "link#verCarrinho2-monteSeuJeito-odonto"
+    ]
+  },
+  "rich-text#titulo-produto2-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "titulo-monteSeujeito-odonto",
+      "text": "**Maleta de Sedação** \n Avulsa"
+    }
+  },
+  "rich-text#preco-produto2-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "textos-monteSeujeito-odonto",
+      "text": "De R$ 655,90 \n **Por R$ 399,90 | 10x de R$ 39,99**"
+    }
+  },
+  "rich-text#descritivos-produto2-monteSeuJeito-odonto": {
+    "props": {
+      "blockClass": "textos-monteSeujeito-odonto",
+      "text": "✓ MAD.U SET com 16 peças OPEN SET \n ✓ Fechamento Easy Lock \n ✓ Módulos organizadores coloridos"
+    }
+  },
+  "link#verCarrinho2-monteSeuJeito-odonto":{
+    "props": {
+      "blockClass": "links-monteSeuJeito-odonto",
+      "label": "ver maleta avulsa"
+    }
+  }
+}

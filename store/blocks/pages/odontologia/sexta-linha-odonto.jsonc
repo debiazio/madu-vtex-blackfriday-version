@@ -1,0 +1,297 @@
+{
+  "flex-layout.row#sexta-linha-odonto": {
+    "props": {
+      "blockClass": "sexta-linha-odonto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-organizadores-odonto",
+      "flex-layout.row#subtextos-organizadores-odonto",
+      "flex-layout.row#produtos-organizadores-odonto"
+    ]
+  },
+  "rich-text#titulo-organizadores-odonto": {
+    "props": {
+      "blockClass": "titulo-organizadores-odonto",
+      "text": "## Organizadores odontológicos antimicrobianos. \n ## **Complementos pra cada detalhe da rotina**"
+    }
+  },
+  "flex-layout.row#subtextos-organizadores-odonto": {
+    "props": {
+      "blockClass": "linha-subtextos-organizadores-odonto",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#subtexto1-organizadores-odonto",
+      "rich-text#subtexto2-organizadores-odonto"
+    ]
+  },
+  "rich-text#subtexto1-organizadores-odonto": {
+    "props": {
+      "blockClass": "firstchild-subtextos-orgs-odonto",
+      "text": "A estrutura resolve o fluxo do atendimento. Os **bins antimicrobianos** e a **caixa organizadora odontológica** resolvem o que vai dentro dela. Na gaveta, na bancada, no armário, na maleta ou na prateleira.",
+      "textAlignment": "RIGHT"
+    }
+  },
+  "rich-text#subtexto2-organizadores-odonto": {
+    "props": {
+      "blockClass": "lastchild-subtextos-orgs-odonto",
+      "text": "Instrumentos odontológicos separados por procedimento, **material à mão sem bagunçar o tampo**, acessórios fácil de localizar. Organização que se adapta ao seu consultório, por um valor que **cabe no orçamento.**",
+      "textAlignment": "LEFT"
+    }
+  },
+  // ==========================================
+  // produtos
+  // ==========================================
+  "flex-layout.row#produtos-organizadores-odonto": {
+    "props": {
+      "blockClass": "linha-produtos-organizadores-odonto"
+    },
+    "children": [
+      "flex-layout.col#cx-org1-odonto",
+      "flex-layout.col#bin-avulso-odonto",
+      "flex-layout.col#card-kit-bins-odonto-2",
+      "flex-layout.col#kit10-bins-odonto-final"
+    ]
+  },
+  // produto 1
+  "flex-layout.col#cx-org1-odonto": {
+    "props": {
+      "blockClass": "colunacx-org1-odonto",
+      "colSizing": "auto",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-cx-org1-odonto",
+      "flex-layout.row#img-cx-org1-odonto",
+      "rich-text#subtitulo-cx-org1-odonto",
+      "rich-text#atributos-cx-org1-odonto",
+      "link#ver-produto1-org-odonto"
+    ]
+  },
+  "rich-text#titulo-cx-org1-odonto": {
+    "props": {
+      "blockClass": "titulo-cx-org-odonto",
+      "text": "**Caixa Organizadora Multiuso** \n Antimicrobiana para Instrumentos Odontológicos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#img-cx-org1-odonto": {
+    "props": {
+      "blockClass": "linha-img-cx-org1-odonto"
+    },
+    "children": [
+      "image#imagem-prod1-odonto"
+    ]
+  },
+  "image#imagem-prod1-odonto": {
+    "props": {
+      "blockClass": "img-prod-odonto",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/3771ac7a-d5ce-4f98-9b09-56b9a68ceec1___ab1b6d23a23a73fbdaf01bd9c785ccbd.png"
+    }
+  },
+  "rich-text#subtitulo-cx-org1-odonto": {
+    "props": {
+      "blockClass": "subtitulo-cx-org1-odonto",
+      "text": "Formato compacto que aproveita gavetas, armários, bancadas e estantes. Ideal pra organizar pequenos materiais, acessórios e componentes do dia a dia no consultório odontológico.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#atributos-cx-org1-odonto": {
+    "props": {
+      "blockClass": "subtitulo-cx-org1-odonto",
+      "text": "✓ Ação antimicrobiana \n ✓ Empilhável  | ocupa menos espaço \n  ✓ Fácil higienização",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "link#ver-produto1-org-odonto": {
+    "props": {
+      "blockClass": "link-produtos-odonto",
+      "label": "ver produto agora",
+      "href": "/caixinha-organizadora-plastica-antimicrobiana-madu-one/p"
+    }
+  },
+  // produto 2
+  "flex-layout.col#bin-avulso-odonto": {
+    "props": {
+      "blockClass": "colunacx-org1-odonto",
+      "colSizing": "auto",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-bin-avulso-odonto",
+      "flex-layout.row#img-bin-avulso-odonto",
+      "rich-text#subtitulo-bin-avulso-odonto",
+      "rich-text#atributos-bin-avulso-odonto",
+      "link#ver-bin-avulso-odonto"
+    ]
+  },
+  "rich-text#titulo-bin-avulso-odonto": {
+    "props": {
+      "blockClass": "titulo-cx-org-odonto",
+      "text": "**Bin Antimicrobiano Avulso** \n para Instrumentos Odontológicos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#img-bin-avulso-odonto": {
+    "props": {
+      "blockClass": "linha-img-cx-org1-odonto"
+    },
+    "children": [
+      "image#imagem-bin-avulso-odonto"
+    ]
+  },
+  "image#imagem-bin-avulso-odonto": {
+    "props": {
+      "blockClass": "img-prod-odonto",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c8ef2c0d-ba99-445b-8f04-ebdd118aff19___f39e427931f74c3dbdd50ef75c06a765.png"
+    }
+  },
+  "rich-text#subtitulo-bin-avulso-odonto": {
+    "props": {
+      "blockClass": "subtitulo-cx-org1-odonto",
+      "text": "Compartimento individual pra instrumentos de uso frequente. Combine quantos bins precisar pra organizar sua bancada, gaveta ou armários de atendimento.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#atributos-bin-avulso-odonto": {
+    "props": {
+      "blockClass": "subtitulo-cx-org1-odonto",
+      "text": "✓ Material antimicrobiano \n ✓ Compatível com bins do kit \n ✓ Fácil higienização",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "link#ver-bin-avulso-odonto": {
+    "props": {
+      "blockClass": "link-produtos-odonto",
+      "label": "VER PRODUTO AGORA",
+      "href": "/gaveteiro-plastico-antimicrobiano-numero-4-tampa-madu-one/p"
+    }
+  },
+  // produto 3
+  "flex-layout.col#card-kit-bins-odonto-2": {
+    "props": {
+      "blockClass": "colunacx-org1-odonto",
+      "colSizing": "auto",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-kit-bins-odonto-2",
+      "flex-layout.row#imagem-kit-bins-odonto-2",
+      "rich-text#descricao-kit-bins-odonto-2",
+      "rich-text#atributos-kit-bins-odonto-2",
+      "link#ver-kit-bins-odonto-2"
+    ]
+  },
+  "rich-text#titulo-kit-bins-odonto-2": {
+    "props": {
+      "blockClass": "titulo-cx-org-odonto",
+      "text": "**Kit 5 Bins Antimicrobianos** \n para Consultório Odontológico",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#imagem-kit-bins-odonto-2": {
+    "props": {
+      "blockClass": "linha-img-cx-org1-odonto"
+    },
+    "children": [
+      "image#foto-kit-bins-odonto-2"
+    ]
+  },
+  "image#foto-kit-bins-odonto-2": {
+    "props": {
+      "blockClass": "img-prod-odonto",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/c2a34834-052f-4455-a69d-5e2bb4ee5d36___e0f12604087c7acf2695eb07b2e8ac55.png"
+    }
+  },
+  "rich-text#descricao-kit-bins-odonto-2": {
+    "props": {
+      "blockClass": "subtitulo-cx-org1-odonto",
+      "text": "5 bins pra separar instrumentos por procedimento. A medida certa pra padronizar gavetas, bancadas ou armários no consultório. Biossegurança e praticidade com economia.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#atributos-kit-bins-odonto-2": {
+    "props": {
+      "blockClass": "subtitulo-cx-org1-odonto",
+      "text": "✓ 5 compartimentos antimicrobianos \n ✓ Separação por tipo de procedimento \n ✓ Economia de R$ 5,00 por unidade vs. bin avulso",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "link#ver-kit-bins-odonto-2": {
+    "props": {
+      "blockClass": "link-produtos-odonto",
+      "label": "ver produto agora",
+      "href": "/-kit-5-bins-antimicrobianos/p"
+    }
+  },
+  // produto 4
+  "flex-layout.col#kit10-bins-odonto-final": {
+    "props": {
+      "blockClass": "colunacx-org1-odonto",
+      "colSizing": "auto",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-kit10-bins-odonto-final",
+      "flex-layout.row#img-kit10-bins-odonto-final",
+      "rich-text#subtitulo-kit10-bins-odonto-final",
+      "rich-text#atributos-kit10-bins-odonto-final",
+      "link#ver-kit10-bins-odonto-final"
+    ]
+  },
+  "rich-text#titulo-kit10-bins-odonto-final": {
+    "props": {
+      "blockClass": "titulo-cx-org-odonto",
+      "text": "**Kit 10 Bins Antimicrobianos** \n para Consultório Odontológico",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#img-kit10-bins-odonto-final": {
+    "props": {
+      "blockClass": "linha-img-cx-org1-odonto"
+    },
+    "children": [
+      "image#imagem-kit10-bins-odonto-final"
+    ]
+  },
+  "image#imagem-kit10-bins-odonto-final": {
+    "props": {
+      "blockClass": "img-prod-odonto",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/37c1c9f8-eb8e-45aa-80ff-10fae8137da4___1ccd35984a8a0d7a4050e6103d25aa36.png"
+    }
+  },
+  "rich-text#subtitulo-kit10-bins-odonto-final": {
+    "props": {
+      "blockClass": "subtitulo-cx-org1-odonto",
+      "text": "10 bins pra separar instrumentos por especialidade. Melhor custo-benefício pra consultórios de alto fluxo. Economia de R$ 10,00 por unidade em relação ao bin avulso.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#atributos-kit10-bins-odonto-final": {
+    "props": {
+      "blockClass": "subtitulo-cx-org1-odonto",
+      "text": "✓ Material antimicrobiano \n ✓ Empilhável, otimiza espaço na bancada \n ✓ Compatível com os bins avulsos da mesma linha",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "link#ver-kit10-bins-odonto-final": {
+    "props": {
+      "blockClass": "link-produtos-odonto",
+      "label": "ver produto agora",
+      "href": "/kit-10-bins-antimicrobianos/p"
+    }
+  }
+}

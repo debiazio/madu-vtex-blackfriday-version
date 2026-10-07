@@ -1,7 +1,11 @@
+
+.link--links-monteSeuJeito-odonto:hover,
 .link--link-produtos-odonto:hover {
-  background-color: #75a593;
+  background-color: #144118;
+  transition: background-color 0.6s ease;
 }
 
+.link--links-monteSeuJeito-odonto,
 .link--link-produtos-odonto {
   display: flex;
   justify-content: center;
@@ -10,10 +14,7 @@
   background-color: #32A078;
   border-radius: 100px;
   padding: 12px;
-}
-
-.link--link-personalizar-produtos-odonto:hover {
-  background-color: #f1e3cb;
+  transition: background-color 0.6s ease;
 }
 
 .link--link-personalizar-produtos-odonto {
@@ -24,8 +25,15 @@
   background-color: #ffffff;
   border-radius: 100px;
   padding: 12px;
+  transition: background-color 0.6s ease;
 }
 
+.link--link-personalizar-produtos-odonto:hover {
+  background-color: #144118;
+}
+
+
+.label--links-monteSeuJeito-odonto,
 .label--link-produtos-odonto {
   font-family: "Poppins Black", sans-serif !important;
   line-height: 97%;

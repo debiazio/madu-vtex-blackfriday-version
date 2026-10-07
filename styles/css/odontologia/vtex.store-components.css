@@ -1,3 +1,18 @@
+.imageElement--img-prod-odonto{
+  max-width: 80%;
+}
+
+.imageElement--produto-monteseuJeito-odonto{
+  position: relative;
+  transition: transform 0.3s ease;
+  left: -25px;
+}
+
+.imageElement--produto-monteseuJeito-odonto:hover{
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
 .imageElement--banner-odonto {
   width: 100%;
 }
