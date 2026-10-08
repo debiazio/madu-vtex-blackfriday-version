@@ -1,3 +1,65 @@
+.link--link-produtos-normais-odonto,
+.link--link-destaque-odonto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.childrenContainer--link-produtos-normais-odonto,
+.childrenContainer--link-destaque-odonto {
+  height: 100%;
+}
+
+
+/* enfeite produto destaque inicia */
+
+.link--link-destaque-odonto {
+  text-decoration: none;
+  background-color: #ffad20;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+
+  box-shadow: 0 0 0 rgba(255, 173, 32, 0);
+  animation: brilho-discreto 2.8s ease-in-out infinite;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.label--link-destaque-odonto {
+  font-family: "Poppins Bold", sans-serif !important;
+  line-height: 97%;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.link--link-destaque-odonto:hover {
+  animation: none;
+  box-shadow: 0 0 12px 3px rgba(255, 173, 32, 0.55);
+}
+
+@keyframes brilho-discreto {
+
+  0%,
+  100% {
+    box-shadow: 0 0 3px 1px rgba(255, 173, 32, 0.18);
+  }
+
+  50% {
+    box-shadow: 0 0 8px 2px rgba(255, 173, 32, 0.38);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link--link-destaque-odonto {
+    animation: none;
+  }
+}
+
+/* enfeite produto destaque fim */
+
 
 .link--links-monteSeuJeito-odonto:hover,
 .link--link-produtos-odonto:hover {
@@ -51,3 +113,6 @@
   white-space: nowrap;
   font-size: 16px;
 }
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {}

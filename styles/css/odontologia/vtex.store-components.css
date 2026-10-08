@@ -1,14 +1,14 @@
-.imageElement--img-prod-odonto{
+.imageElement--img-prod-odonto {
   max-width: 80%;
 }
 
-.imageElement--produto-monteseuJeito-odonto{
+.imageElement--produto-monteseuJeito-odonto {
   position: relative;
   transition: transform 0.3s ease;
   left: -25px;
 }
 
-.imageElement--produto-monteseuJeito-odonto:hover{
+.imageElement--produto-monteseuJeito-odonto:hover {
   transform: scale(1.03);
   transition: transform 0.3s ease;
 }
@@ -21,4 +21,15 @@
   position: absolute;
   top: 50px;
   right: 0;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .imageElement--fundo-verde-madu-hosp{
+    top: unset;
+    right: -35px;
+  }
+  .imageElement--imagens-erros-odontologia {
+    max-width: 60vw;
+  }
 }

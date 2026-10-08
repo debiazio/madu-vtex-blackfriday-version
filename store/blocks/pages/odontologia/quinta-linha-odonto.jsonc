@@ -74,13 +74,13 @@
   "rich-text#titulo-produto1-monteSeuJeito-odonto": {
     "props": {
       "blockClass": "titulo-monteSeujeito-odonto",
-      "text": "**Carrinho de Sedação** \n Avulso"
+      "text": "**Carrinho de Sedação** \n MAD.U TWO"
     }
   },
   "rich-text#preco-produto1-monteSeuJeito-odonto": {
     "props": {
       "blockClass": "textos-monteSeujeito-odonto",
-      "text": "De R$ 2.119,90 \n **Por R$ 1.899,90 | 10x de R$ 189,99**"
+      "text": "De R$ 2.599,90 \n **Por R$ 2.349,90 | 10x de R$ 234,99**"
     }
   },
   "rich-text#descritivos-produto1-monteSeuJeito-odonto": {
@@ -92,13 +92,14 @@
   "link#verCarrinho-monteSeuJeito-odonto":{
     "props": {
       "blockClass": "links-monteSeuJeito-odonto",
-      "label": "ver carrinho avulso"
+      "label": "ver carrinho avulso",
+      "href": "/carrinho-sedacao-3-gavetas-azul-marinho-tampo-inox-madu-two/p"
     }
   },
   // produto 2
   "flex-layout.row#monteSeuJeito-produto2-odonto": {
     "props": {
-      "blockClass": "linhas-monte-seuJeito-produtos-odonto",
+      "blockClass": ["linhas-monte-seuJeito-produtos-odonto", "linhas-monte-seuJeito-produtos-odonto-2" ],
       "colSizing": "auto"
     },
     "children": [
@@ -109,7 +110,7 @@
   "image#produto2-monteSeuJeito-odonto": {
     "props": {
       "blockClass": "produto-monteseuJeito-odonto",
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/f75a3db9-2629-4fcf-99e4-d3503cd65bd7___bbf36d32021835d601ab8e0ed7f59b08.webp"
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/09591548-9de0-409a-a0ec-8ef11364b0a9___cffc346b4ab243a92f0113588400292e.webp"
     }
   },
   "flex-layout.col#coluna-produto2-monteseujeito-textos-odonto": {
@@ -126,13 +127,13 @@
   "rich-text#titulo-produto2-monteSeuJeito-odonto": {
     "props": {
       "blockClass": "titulo-monteSeujeito-odonto",
-      "text": "**Maleta de Sedação** \n Avulsa"
+      "text": "**Maleta de Sedação EASY LOCK** \n MAD.U BOX"
     }
   },
   "rich-text#preco-produto2-monteSeuJeito-odonto": {
     "props": {
       "blockClass": "textos-monteSeujeito-odonto",
-      "text": "De R$ 655,90 \n **Por R$ 399,90 | 10x de R$ 39,99**"
+      "text": "De R$ 655,90 \n **Por R$ 479,90 | 10x de R$ 47,99**"
     }
   },
   "rich-text#descritivos-produto2-monteSeuJeito-odonto": {
@@ -144,7 +145,8 @@
   "link#verCarrinho2-monteSeuJeito-odonto":{
     "props": {
       "blockClass": "links-monteSeuJeito-odonto",
-      "label": "ver maleta avulsa"
+      "label": "ver maleta avulsa",
+      "href": "/-maleta-sedacao-4-modulos-easy-lock-madu-box/p"
     }
   }
 }

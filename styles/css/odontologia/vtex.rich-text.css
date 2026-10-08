@@ -1,3 +1,7 @@
+.container--atributos-produto-odonto {
+  border-top: 2px solid #ffad20;
+}
+
 .headingLevel2--titulo-organizadores-odonto {
   margin: 0;
   font-family: "Poppins Light", sans-serif !important;
@@ -142,6 +146,7 @@
   font-family: "Poppins Bold", sans-serif !important;
   font-size: 12px;
   line-height: 97%;
+  padding-top: 20px;
 }
 
 .paragraph--precos-produto-odonto {
@@ -274,4 +279,52 @@
   line-height: 108%;
   letter-spacing: -4%;
   text-transform: uppercase;
+}
+
+/* MOBILE */
+@media screen and (max-width: 1024px) {
+  .headingLevel2--titulo-organizadores-odonto {
+    text-align: center;
+  }
+
+  .container--firstchild-subtextos-orgs-odonto {
+    padding-right: unset;
+    padding-bottom: 12px;
+  }
+
+  .container--lastchild-subtextos-orgs-odonto {
+    padding-top: 12px;
+    border-top: 2px solid #32A078;
+    padding-left: unset;
+    border-left: unset;
+  }
+
+  .paragraph--firstchild-subtextos-orgs-odonto,
+  .paragraph--lastchild-subtextos-orgs-odonto {
+    text-align: center;
+  }
+
+  .paragraph--firstchild-subtextos-orgs-odonto,
+  .paragraph--lastchild-subtextos-orgs-odonto,
+  .headingLevel3--conteudo-monteSeuJeito-odonto,
+  .paragraph--subtitulo-fabrica-odonto {
+    font-size: 1.1rem;
+  }
+
+  .container--titulo-organizacao-odonto {
+    margin-left: unset;
+  }
+
+  .paragraph--acompanham-odonto {
+    font-size: 1rem;
+  }
+
+  .headingLevel2--titulo-organizadores-odonto,
+  .headingLevel2--titulo-monte-seuJeito-odonto,
+  .headingLevel2--tres-niveis-odonto,
+  .headingLevel1--titulo-fabrica-odonto,
+  .paragraph--subtitulo-organizacao-odonto,
+  .paragraph--titulo-organizacao-odonto {
+    font-size: 1.5rem;
+  }
 }
