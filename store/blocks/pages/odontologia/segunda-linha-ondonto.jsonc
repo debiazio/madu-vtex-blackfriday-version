@@ -1,4 +1,16 @@
 {
+  "responsive-layout.mobile#segunda-linha-odonto": {
+    "children": [
+      "rich-text#titulo-organizacao-odonto",
+      "slider-odonto-imgs",
+      "rich-text#subtitulo-organizacao-odonto"
+    ]
+  },
+  "responsive-layout.desktop#segunda-linha-odonto": {
+    "children": [
+      "flex-layout.row#segunda-linha-odonto"
+    ]
+  },
   "flex-layout.row#segunda-linha-odonto": {
     "title": "Linha Organização Odonto",
     "props": {

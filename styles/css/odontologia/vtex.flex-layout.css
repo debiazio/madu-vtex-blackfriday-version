@@ -230,8 +230,12 @@
     gap: 12px;
   }
 
+  .flexRowContent--linha-quarta-linha-odonto{
+    padding: unset;
+    gap: 12px;
+  }
+
   .flexRowContent--sexta-linha-odonto,
-  .flexRowContent--linha-quarta-linha-odonto,
   .flexRowContent--terceira-linha-ondonto,
   .flexRowContent--segunda-linha-ondonto {
     padding: 33px 20px;

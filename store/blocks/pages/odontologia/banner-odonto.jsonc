@@ -1,16 +1,15 @@
 {
+  "responsive-layout.desktop#banner-odonto": {
+    "children": [
+      "image#banner-desktop-odonto"
+    ]
+  },
   "flex-layout.row#banner-odonto": {
     "title": "Banner Odontologia",
     "props": {
       "blockClass": "linha-banner-odonto",
       "fullWidth": true
     },
-    "children": [
-      "responsive-layout.desktop#banner-odonto",
-      "responsive-layout.mobile#banner-odonto"
-    ]
-  },
-  "responsive-layout.desktop#banner-odonto": {
     "children": [
       "image#banner-desktop-odonto"
     ]

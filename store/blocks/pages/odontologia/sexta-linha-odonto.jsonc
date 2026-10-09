@@ -7,7 +7,8 @@
     "children": [
       "rich-text#titulo-organizadores-odonto",
       "flex-layout.row#subtextos-organizadores-odonto",
-      "flex-layout.row#produtos-organizadores-odonto"
+      "responsive-layout.desktop#produtos-organizadores-odonto",
+      "responsive-layout.mobile#produtos-organizadores-odonto"
     ]
   },
   "rich-text#titulo-organizadores-odonto": {
@@ -43,6 +44,16 @@
   // ==========================================
   // produtos
   // ==========================================
+  "responsive-layout.desktop#produtos-organizadores-odonto": {
+    "children": [
+      "flex-layout.row#produtos-organizadores-odonto"
+    ]
+  },
+  "responsive-layout.mobile#produtos-organizadores-odonto": {
+    "children": [
+      "flex-layout.row#produtos-organizadores-odonto"
+    ]
+  },
   "flex-layout.row#produtos-organizadores-odonto": {
     "props": {
       "blockClass": "linha-produtos-organizadores-odonto"

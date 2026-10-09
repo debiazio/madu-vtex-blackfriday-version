@@ -8,7 +8,8 @@
     "children": [
       "rich-text#tres-niveis-odonto",
       "image#fundo-verde-madu-hosp",
-      "flex-layout.row#linha-produtos-odonto"
+      "responsive-layout.desktop#produtos-destaque-odonto",
+      "responsive-layout.mobile#produtos-destaque-odonto"
     ]
   },
   "rich-text#tres-niveis-odonto": {
@@ -22,6 +23,16 @@
       "blockClass": "fundo-verde-madu-hosp",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1d373430-a6cc-4719-8871-be05d73e0792___a201951c1ee81e559f94c8ab182e03c1.svg"
     }
+  },
+  "responsive-layout.mobile#produtos-destaque-odonto":{
+    "children": [
+      "slider-odonto-produtos-destaque"
+    ]
+  },
+  "responsive-layout.desktop#produtos-destaque-odonto":{
+    "children": [
+      "flex-layout.row#linha-produtos-odonto"
+    ]
   },
   "flex-layout.row#linha-produtos-odonto": {
     "props": {
@@ -267,7 +278,7 @@
   "rich-text#titulo3-produto-odonto": {
     "props": {
       "blockClass": "titulo-produto-3-odonto",
-      "text": "CCarrinho Beira Leito 6 Gavetas com Acessórios | MAD.U ONE 560"
+      "text": "Carrinho Beira Leito 6 Gavetas com Acessórios | MAD.U ONE 560"
     }
   },
   "flex-layout.row#img-protuto-profissional": {

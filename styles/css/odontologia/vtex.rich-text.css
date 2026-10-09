@@ -283,6 +283,18 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .container--tres-niveis-odonto{
+    padding-top: 22px;
+    padding-left: 20px;
+  }
+
+  .paragraph--subtitulo-organizacao-odonto{
+    padding: 0 20px 20px 20px;
+  }
+
+  .paragraph--titulo-organizacao-odonto{
+    padding: 20px 0 0 20px;
+  }
   .paragraph--subtitulo-kitsprontos-maduset{
     white-space: unset;
     padding: 0 20px;
