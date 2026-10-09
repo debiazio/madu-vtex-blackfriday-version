@@ -6,7 +6,8 @@
       "flex-layout.row#terceira-linha-odonto",
       "flex-layout.row#quarta-linha-odonto",
       "flex-layout.row#quinta-linha-odonto",
-      "flex-layout.row#sexta-linha-odonto"
+      "flex-layout.row#sexta-linha-odonto",
+      "flex-layout.row#linhaFAQs-odonto"
     ]
   }
 }

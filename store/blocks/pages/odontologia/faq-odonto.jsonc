@@ -1,0 +1,438 @@
+{
+  "flex-layout.row#linhaFAQs-odonto": {
+    "props": {
+      "blockClass": "linhaFAQs-maduset",
+      "fullWidth": true
+    },
+    "title": "Faq",
+    "children": [
+      "flex-layout.row#textos-faq-odonto",
+      "flex-layout.row#disclosure-faq-odonto"
+    ]
+  },
+  "flex-layout.row#textos-faq-odonto": {
+    "props": {
+      "blockClass": "textos-faq-maduset"
+    },
+    "children": [
+      "rich-text#tituloFAQs-odonto",
+      "rich-text#subTituloFAQs-odonto"
+    ]
+  },
+  "rich-text#tituloFAQs-odonto": {
+    "props": {
+      "blockClass": "titulo-kitsprontos-maduset",
+      "text": "### FAQ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#subTituloFAQs-odonto": {
+    "props": {
+      "blockClass": "subtitulo-kitsprontos-maduset",
+      "text": "Perguntas frequentes sobre o Combo de Sedação Odontológica e HOF",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#disclosure-faq-odonto": {
+    "props": {
+      "blockClass": "disclosure-faq-maduset",
+      "colSizing": "auto"
+    },
+    "children": [
+      "disclosure-layout-group#faq-odonto"
+    ]
+  },
+  "disclosure-layout-group#faq-odonto": {
+    "props": {
+      "blockClass": "group-faq-maduset"
+    },
+    "children": [
+      "disclosure-layout#comboSedacao-odonto",
+      "disclosure-layout#finalidadeCombo-odonto",
+      "disclosure-layout#indicacaoHof-odonto",
+      "disclosure-layout#itensCombo-odonto",
+      "disclosure-layout#carrinhoTwo-odonto",
+      "disclosure-layout#suporteCilindro-odonto",
+      "disclosure-layout#madUBox-odonto",
+      "disclosure-layout#madUSet-odonto",
+      "disclosure-layout#publicoCombo-odonto",
+      "disclosure-layout#travaFechadura-odonto",
+      "disclosure-layout#acessoriosCombo-odonto",
+      "disclosure-layout#registroAnvisa-odonto"
+    ]
+  },
+
+  "disclosure-layout#comboSedacao-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#comboSedacao-odonto",
+      "disclosure-content#comboSedacao-odonto"
+    ]
+  },
+  "disclosure-trigger#comboSedacao-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-comboSedacao-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-comboSedacao-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O que é o Combo de Sedação Odontológica MAD.U?"
+    }
+  },
+  "disclosure-content#comboSedacao-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-comboSedacao-odonto"]
+  },
+  "rich-text#content-comboSedacao-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### O Combo de Sedação Odontológica MAD.U é um conjunto de mobiliário técnico para organizar e transportar os materiais da sedação em consultórios odontológicos e em procedimentos de Harmonização Orofacial (HOF). Ele reúne três itens: um carrinho MAD.U TWO de 3 gavetas com 2 suportes para cilindro com velcro, uma maleta MAD.U BOX de 4 módulos e um MAD.U SET já configurado para medicamentos."
+    }
+  },
+
+  "disclosure-layout#finalidadeCombo-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#finalidadeCombo-odonto",
+      "disclosure-content#finalidadeCombo-odonto"
+    ]
+  },
+  "disclosure-trigger#finalidadeCombo-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-finalidadeCombo-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-finalidadeCombo-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Para que serve o Combo de Sedação Odontológica?"
+    }
+  },
+  "disclosure-content#finalidadeCombo-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-finalidadeCombo-odonto"]
+  },
+  "rich-text#content-finalidadeCombo-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### O combo serve para centralizar, em um só ponto móvel, os materiais e medicamentos usados na sedação odontológica. O carrinho TWO leva os insumos e os cilindros até a cadeira, a BOX transporta os kits entre salas e o SET separa os medicamentos por encaixe. A organização interna segue a rotina da equipe e o protocolo adotado pelo cirurgião-dentista."
+    }
+  },
+
+  "disclosure-layout#indicacaoHof-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#indicacaoHof-odonto",
+      "disclosure-content#indicacaoHof-odonto"
+    ]
+  },
+  "disclosure-trigger#indicacaoHof-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-indicacaoHof-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-indicacaoHof-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O combo é indicado para procedimentos de Harmonização Orofacial (HOF)?"
+    }
+  },
+  "disclosure-content#indicacaoHof-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-indicacaoHof-odonto"]
+  },
+  "rich-text#content-indicacaoHof-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. Desenvolvemos o combo também para a rotina de HOF, em que a equipe precisa de acesso rápido e organizado aos itens durante o atendimento. O carrinho acompanha o profissional na sala de procedimento, e a maleta BOX facilita levar o kit para outra sala ou outra unidade da clínica."
+    }
+  },
+
+  "disclosure-layout#itensCombo-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#itensCombo-odonto",
+      "disclosure-content#itensCombo-odonto"
+    ]
+  },
+  "disclosure-trigger#itensCombo-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-itensCombo-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-itensCombo-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O que acompanha o Combo de Sedação Odontológica?"
+    }
+  },
+  "disclosure-content#itensCombo-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-itensCombo-odonto"]
+  },
+  "rich-text#content-itensCombo-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Acompanham o combo três itens:\n\n1x Carrinho MAD.U TWO de 3 gavetas com 2 suportes para cilindro com velcro;\n1x Maleta MAD.U BOX de 4 módulos;\n1x MAD.U SET configurado para medicamentos.\n\nCilindros, medicamentos e insumos não acompanham o produto."
+    }
+  },
+
+  "disclosure-layout#carrinhoTwo-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#carrinhoTwo-odonto",
+      "disclosure-content#carrinhoTwo-odonto"
+    ]
+  },
+  "disclosure-trigger#carrinhoTwo-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-carrinhoTwo-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-carrinhoTwo-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O que é o carrinho MAD.U TWO e por que ele faz parte do combo?"
+    }
+  },
+  "disclosure-content#carrinhoTwo-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-carrinhoTwo-odonto"]
+  },
+  "rich-text#content-carrinhoTwo-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### O MAD.U TWO é a linha de carrinhos intermediária da MAD.U, entre a ONE e a EXTRA. Tem estrutura robusta em aço, rodízios Work de 7,5 cm com freios e carros normalizados para uso desde a UTI até o escritório. No combo, funciona como carrinho auxiliar odontológico: 3 gavetas para os materiais da sedação e 2 suportes para manter os cilindros firmes durante o deslocamento."
+    }
+  },
+
+  "disclosure-layout#suporteCilindro-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#suporteCilindro-odonto",
+      "disclosure-content#suporteCilindro-odonto"
+    ]
+  },
+  "disclosure-trigger#suporteCilindro-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-suporteCilindro-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-suporteCilindro-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O carrinho do combo serve como carrinho para cilindro de oxigênio?"
+    }
+  },
+  "disclosure-content#suporteCilindro-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-suporteCilindro-odonto"]
+  },
+  "rich-text#content-suporteCilindro-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. O carrinho TWO do combo tem 2 suportes para cilindro com cintas de velcro, que mantêm os cilindros, como o de oxigênio, presos à estrutura durante o transporte e o atendimento. Os cilindros não acompanham o combo e devem ser adquiridos com o fornecedor de gases medicinais da clínica."
+    }
+  },
+
+  "disclosure-layout#madUBox-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#madUBox-odonto",
+      "disclosure-content#madUBox-odonto"
+    ]
+  },
+  "disclosure-trigger#madUBox-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-madUBox-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-madUBox-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O que é a MAD.U BOX?"
+    }
+  },
+  "disclosure-content#madUBox-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-madUBox-odonto"]
+  },
+  "rich-text#content-madUBox-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A MAD.U BOX é a nossa linha de maletas e caixas organizadoras em polímero, com tampas e fechos, modulares e empilháveis. No combo, a BOX de 4 módulos funciona como maleta organizadora para odontologia: separa os itens do kit de sedação e facilita o transporte manual entre salas, sem misturar materiais."
+    }
+  },
+
+  "disclosure-layout#madUSet-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#madUSet-odonto",
+      "disclosure-content#madUSet-odonto"
+    ]
+  },
+  "disclosure-trigger#madUSet-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-madUSet-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-madUSet-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O que é o MAD.U SET e como ele organiza os medicamentos?"
+    }
+  },
+  "disclosure-content#madUSet-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-madUSet-odonto"]
+  },
+  "rich-text#content-madUSet-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### O MAD.U SET é a nossa linha de organização de medicamentos por encaixe modular, criada para separar e fracionar itens farmacológicos. No combo, ele chega configurado para as medicações usadas na rotina de sedação, o que agiliza a conferência antes do procedimento. Os medicamentos não acompanham o produto, e a definição de cada item segue o protocolo do profissional responsável."
+    }
+  },
+
+  "disclosure-layout#publicoCombo-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#publicoCombo-odonto",
+      "disclosure-content#publicoCombo-odonto"
+    ]
+  },
+  "disclosure-trigger#publicoCombo-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-publicoCombo-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-publicoCombo-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Quem pode utilizar o Combo de Sedação Odontológica?"
+    }
+  },
+  "disclosure-content#publicoCombo-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-publicoCombo-odonto"]
+  },
+  "rich-text#content-publicoCombo-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### O combo é destinado a clínicas e consultórios odontológicos e a profissionais de Harmonização Orofacial que incluem a sedação no protocolo de atendimento. A escolha da técnica de sedação, dos medicamentos e dos equipamentos clínicos é responsabilidade do cirurgião-dentista habilitado; o combo organiza e transporta esses itens."
+    }
+  },
+
+  "disclosure-layout#travaFechadura-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#travaFechadura-odonto",
+      "disclosure-content#travaFechadura-odonto"
+    ]
+  },
+  "disclosure-trigger#travaFechadura-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-travaFechadura-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-travaFechadura-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O carrinho do combo tem trava ou fechadura?"
+    }
+  },
+  "disclosure-content#travaFechadura-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-travaFechadura-odonto"]
+  },
+  "rich-text#content-travaFechadura-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### A Linha TWO trabalha com fecho geral, que fecha todas as gavetas ao mesmo tempo e está disponível para carrinhos de até 7 gavetas. Cadeado e lacre não acompanham o produto e são vendidos separadamente. A fechadura com chave individual por gaveta é exclusiva da Linha ONE."
+    }
+  },
+
+  "disclosure-layout#acessoriosCombo-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#acessoriosCombo-odonto",
+      "disclosure-content#acessoriosCombo-odonto"
+    ]
+  },
+  "disclosure-trigger#acessoriosCombo-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-acessoriosCombo-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-acessoriosCombo-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### Posso adicionar acessórios ao combo depois da compra?"
+    }
+  },
+  "disclosure-content#acessoriosCombo-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-acessoriosCombo-odonto"]
+  },
+  "rich-text#content-acessoriosCombo-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Sim. A modularidade da MAD.U permite comprar novos acessórios ao longo do tempo para evoluir o carrinho conforme a rotina da clínica muda. Alguns acessórios são específicos de cada linha, então confira a compatibilidade com a Linha TWO na página do acessório antes de comprar."
+    }
+  },
+
+  "disclosure-layout#registroAnvisa-odonto": {
+    "props": { "blockClass": "layout-faq-maduset" },
+    "children": [
+      "disclosure-trigger#registroAnvisa-odonto",
+      "disclosure-content#registroAnvisa-odonto"
+    ]
+  },
+  "disclosure-trigger#registroAnvisa-odonto": {
+    "props": { "blockClass": "trigger-faq-maduset" },
+    "children": [
+      "rich-text#trigger-registroAnvisa-odonto",
+      "disclosure-state-indicator#configSet-maduset"
+    ]
+  },
+  "rich-text#trigger-registroAnvisa-odonto": {
+    "props": {
+      "blockClass": "text-trigger-faq-madu",
+      "text": "### O Combo de Sedação Odontológica precisa de registro na ANVISA?"
+    }
+  },
+  "disclosure-content#registroAnvisa-odonto": {
+    "props": { "blockClass": "content-faq-maduset" },
+    "children": ["rich-text#content-registroAnvisa-odonto"]
+  },
+  "rich-text#content-registroAnvisa-odonto": {
+    "props": {
+      "blockClass": "content-faq-maduset",
+      "text": "#### Não. Os itens do combo são mobiliário técnico de apoio e guarda, dispensados de registro na ANVISA conforme a GGTPS. Eles também não são equipamentos eletromédicos e não têm função"
+    }
+  }
+}

@@ -6,6 +6,12 @@
       "fullWidth": true
     },
     "children": [
+      "responsive-layout.desktop#banner-odonto",
+      "responsive-layout.mobile#banner-odonto"
+    ]
+  },
+  "responsive-layout.desktop#banner-odonto": {
+    "children": [
       "image#banner-desktop-odonto"
     ]
   },
@@ -14,6 +20,18 @@
       "blockClass": "banner-odonto",
       "alt": "Banner Odontologia",
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/b1b41120-6e2f-4c2f-99c5-46d7c997f53d___597b84412db41e9c451850f7e6125211.webp"
+    }
+  },
+  "responsive-layout.mobile#banner-odonto": {
+    "children": [
+      "image#banner-mobile-odonto"
+    ]
+  },
+  "image#banner-mobile-odonto": {
+    "props": {
+      "blockClass": "banner-odonto",
+      "alt": "Banner Odontologia",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/54e9a172-614e-4dbb-b400-3d7656206cc2___605b3c019f2d8ad2f5472a9a4500721a.webp"
     }
   }
 }
