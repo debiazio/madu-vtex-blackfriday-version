@@ -51,7 +51,7 @@
   },
   "responsive-layout.mobile#produtos-organizadores-odonto": {
     "children": [
-      "flex-layout.row#produtos-organizadores-odonto"
+       "slider-odonto-organizadores"
     ]
   },
   "flex-layout.row#produtos-organizadores-odonto": {
