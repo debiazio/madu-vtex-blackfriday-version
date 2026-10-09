@@ -1,6 +1,7 @@
 {
   "store.custom#odonto": {
     "blocks": [
+      "faq-structureddata-odonto",
       "responsive-layout.desktop#banner-odonto",
       "responsive-layout.mobile#banner-odonto",
       "responsive-layout.desktop#segunda-linha-odonto",
