@@ -15,7 +15,7 @@
   "rich-text#tres-niveis-odonto": {
     "props": {
       "blockClass": "tres-niveis-odonto",
-      "text": "## Três níveis, \n ## **um só padrão de qualidade.**"
+      "text": "## Diferentes categorias, \n ## **um só padrão**"
     }
   },
   "image#fundo-verde-madu-hosp": {
@@ -103,7 +103,7 @@
   "rich-text#precos1-odonto": {
     "props": {
       "blockClass": "precos-produto-odonto",
-      "text": "DE R$2.562,38 \n POR **R$2.349,90** \n **ou 10x de R$ 234,99 sem juros**"
+      "text": "DE R$2.599,90 \n POR **R$2.349,90** \n **ou 10x de R$ 234,99 sem juros**"
     }
   },
   "rich-text#atributos1-odonto": {
@@ -180,7 +180,7 @@
   "rich-text#titulo2-produto-odonto": {
     "props": {
       "blockClass": "titulo-produto-3-odonto",
-      "text": "Kit Carrinho de Sedação 3 Gavetas Cinza com Maleta BOX M + MAD.U SET | MAD.U"
+      "text": "Kit Carrinho de Sedação 3 Gavetas Cinza com Maleta BOX M + MAD.U SET | MAD.U TWO"
     }
   },
   "flex-layout.row#img-protuto-completo": {
@@ -201,7 +201,7 @@
   "rich-text#precos2-odonto": {
     "props": {
       "blockClass": "precos-produto-odonto",
-      "text": "DE R$3.142,71 \n POR **R$2.492,75** \n **ou 10x de R$ 249,27 sem juros**"
+      "text": "DE R$3.142,71 \n POR **R$2.679,90** \n **ou 10x de R$ 267,99 sem juros**"
     }
   },
   "rich-text#atributos2-odonto": {

@@ -14,7 +14,7 @@
   "rich-text#titulo-fabrica-odonto":{
     "props": {
       "blockClass": "titulo-fabrica-odonto",
-      "text": "# A MAD.U fabrica carrinhos e móveis odontológicos "
+      "text": "# A MAD.U fabrica mobiliário técnico modular"
     }
   },
   "flex-layout.row#imagens-fabrica-odonto":{
