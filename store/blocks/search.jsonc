@@ -384,6 +384,7 @@
   },
   "flex-layout.col#content": {
     "children": [
+      "queridinhos-msg", // renderiza uma mensagem somente na url /queridinhos-madu
       // "flex-layout.row#searchtitle",
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
