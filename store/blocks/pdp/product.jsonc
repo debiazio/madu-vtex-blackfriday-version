@@ -110,17 +110,20 @@
     "children": [
       "responsive-layout.desktop#nome-do-produto",
       "flex-layout.row#list-price-savings",
-      "condition-layout.product#preco-venda",
+      // "condition-layout.product#preco-venda",
+      "flex-layout.row#selling-price",
       // "flex-layout.row#aviso-valor-unitario",
       "sku-selector",
       "flex-layout.col#product-recommendations-custom",
       "similar-products-variants", //traz os produtos similares
-      "condition-layout.product#seletorQuantidade-condicao",
+      // "condition-layout.product#seletorQuantidade-condicao",
+      "flex-layout.row#quantidade-seletor-comprar",
       // "similares",
       "change-text-pdp-app",
       "bundle",
       // "app-modalcep",
-      "condition-layout.product#busca-cep-condicao",
+      // "condition-layout.product#busca-cep-condicao",
+      "flex-layout.row#busca-cep",
 
       // "flex-layout.row#metodos-pagamento-pdp",
       // "image#bandeiras",

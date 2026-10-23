@@ -4,7 +4,8 @@
       "flex-layout.row#tag-colecao",
       "stack-layout#prodsum",
       "flex-layout.col#product-info-summary",
-      "condition-layout.product#produtos-selecionados-btnComprar"
+      // "condition-layout.product#produtos-selecionados-btnComprar"
+      "condition-layout.product#disponibilidade-shelf"
     ]
   },
 
@@ -105,7 +106,8 @@
   "flex-layout.col#product-info-summary": {
     "children": [
       "product-summary-name",
-      "condition-layout.product#produtos-selecionados-precos"
+      "flex-layout.row#precificacao"
+      // "condition-layout.product#produtos-selecionados-precos"
     ],
     "props": {
       "blockClass": "product-info-summary"
