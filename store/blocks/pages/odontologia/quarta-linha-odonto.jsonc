@@ -24,12 +24,12 @@
       "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1d373430-a6cc-4719-8871-be05d73e0792___a201951c1ee81e559f94c8ab182e03c1.svg"
     }
   },
-  "responsive-layout.mobile#produtos-destaque-odonto":{
+  "responsive-layout.mobile#produtos-destaque-odonto": {
     "children": [
       "slider-odonto-produtos-destaque"
     ]
   },
-  "responsive-layout.desktop#produtos-destaque-odonto":{
+  "responsive-layout.desktop#produtos-destaque-odonto": {
     "children": [
       "flex-layout.row#linha-produtos-odonto"
     ]
@@ -43,13 +43,12 @@
       "link#pproduto-essencial-odonto",
       "link#pproduto-destaque-odonto",
       "link#pproduto-profissional-odonto"
-
     ]
   },
   // ==============================
   // produto essencial
   // ==============================
-    "link#pproduto-essencial-odonto":{
+  "link#pproduto-essencial-odonto": {
     "props": {
       "blockClass": "link-produtos-normais-odonto",
       "href": "/carrinho-sedacao-3-gavetas-azul-marinho-tampo-inox-madu-two/p"
@@ -67,7 +66,8 @@
       "rich-text#titulo-essencial-odonto",
       "rich-text#titulo1-produto-odonto",
       "flex-layout.row#img-protuto-essencial",
-      "rich-text#precos1-odonto",
+      "renderiza-preco-ondonto-566", //app custom para puxar o preco do produto do cadastro
+      // "rich-text#precos1-odonto",
       "rich-text#atributos1-odonto",
       "flex-layout.row#links-produtos-odonto",
       "rich-text#texto-sub-produto-essencial"
@@ -146,7 +146,7 @@
   // ==============================
   // solucao completa
   // ==============================
-  "link#pproduto-destaque-odonto":{
+  "link#pproduto-destaque-odonto": {
     "props": {
       "blockClass": "link-destaque-odonto",
       "href": "https://www.pensemadu.com.br/kit-carrinho-sedacao-3-gavetas-cinza-maleta-box-m-sets/p",
@@ -165,7 +165,8 @@
       "rich-text#titulo-sedacao-odonto",
       "rich-text#titulo2-produto-odonto",
       "flex-layout.row#img-protuto-completo",
-      "rich-text#precos2-odonto",
+      "renderiza-preco-ondonto-563", //app custom para puxar o preco do produto do cadastro
+      // "rich-text#precos2-odonto",
       "rich-text#atributos2-odonto",
       "flex-layout.row#links-produtos-completo-odonto",
       "rich-text#texto-sub-produto-completo"
@@ -231,7 +232,6 @@
       "blockClass": "link-personalizar-produtos-odonto",
       "label": "personalizar combo",
       "href": "https://api.whatsapp.com/send/?phone=5541996878783&text=Ol%C3%A1%2C+estou+vindo+da+p%C3%A1gina+de+Odontologia+e+quero+personalizar+o+Kit+Carrinho+de+Sedação+3+Gavetas+Cinza+com+Maleta+BOX+M+%2B+MAD.U+SET+%7C+MAD.U&type=phone_number&app_absent=0"
-
     }
   },
   "rich-text#texto-sub-produto-completo": {
@@ -245,7 +245,7 @@
   // ==============================
   // produto profissional
   // ==============================
-  "link#pproduto-profissional-odonto":{
+  "link#pproduto-profissional-odonto": {
     "props": {
       "blockClass": "link-produtos-normais-odonto",
       "href": "/copia-de-carrinho-beira-leito-6-gavetas-cinzas-com-acessorios-%7C-mad-u-one-560/p"
@@ -263,7 +263,8 @@
       "rich-text#titulo-profissional-odonto",
       "rich-text#titulo3-produto-odonto",
       "flex-layout.row#img-protuto-profissional",
-      "rich-text#precos3-odonto",
+      "renderiza-preco-ondonto-551", //app custom para puxar o preco do produto do cadastro
+      // "rich-text#precos3-odonto",
       "rich-text#atributos3-odonto",
       "flex-layout.row#links-produtos-profissional-odonto",
       "rich-text#texto-sub-produto-profissional"

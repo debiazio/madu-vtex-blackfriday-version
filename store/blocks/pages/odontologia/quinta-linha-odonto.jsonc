@@ -66,7 +66,8 @@
     },
     "children": [
       "rich-text#titulo-produto1-monteSeuJeito-odonto",
-      "rich-text#preco-produto1-monteSeuJeito-odonto",
+      "renderiza-preco-ondonto-566-monte", //app custom para puxar o preco do produto do cadastro
+      // "rich-text#preco-produto1-monteSeuJeito-odonto",
       "rich-text#descritivos-produto1-monteSeuJeito-odonto",
       "link#verCarrinho-monteSeuJeito-odonto"
     ]
@@ -119,7 +120,8 @@
     },
     "children": [
       "rich-text#titulo-produto2-monteSeuJeito-odonto",
-      "rich-text#preco-produto2-monteSeuJeito-odonto",
+      "renderiza-preco-ondonto-557-monte",
+      // "rich-text#preco-produto2-monteSeuJeito-odonto",
       "rich-text#descritivos-produto2-monteSeuJeito-odonto",
       "link#verCarrinho2-monteSeuJeito-odonto"
     ]
