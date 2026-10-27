@@ -432,7 +432,7 @@
   "rich-text#content-registroAnvisa-odonto": {
     "props": {
       "blockClass": "content-faq-maduset",
-      "text": "#### Não. Os itens do combo são mobiliário técnico de apoio e guarda, dispensados de registro na ANVISA conforme a GGTPS. Eles também não são equipamentos eletromédicos e não têm função"
+      "text": "#### Não. Os itens do combo são mobiliário técnico de apoio e guarda, dispensados de registro na ANVISA."
     }
   }
 }
