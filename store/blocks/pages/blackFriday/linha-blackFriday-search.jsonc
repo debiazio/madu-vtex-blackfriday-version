@@ -1,7 +1,7 @@
 {
   "flex-layout.row#template-copy-linha-2": {
     "props": {
-      "blockClass": "template-copy-linha-2"
+      "blockClass": ["template-copy-linha-2", "blackfriday"]
     },
     "children": [
       "search-result-layout.customQuery#template-copy-cat"

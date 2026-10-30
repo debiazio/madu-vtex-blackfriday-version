@@ -1,6 +1,7 @@
 {
   "store.home": {
-    "blocks": ["faq-structureddata-home",
+    "blocks": [
+      "faq-structureddata-home",
       // "list-context.image-list#home-banner",
       // "flex-layout.row#shop-by-category",
       // // "responsive-layout.desktop#categorias",

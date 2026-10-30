@@ -8,7 +8,7 @@
 
 "flex-layout.row#linhaFAQs-BlackFridayLP": {
   "props": {
-    "blockClass": "linhaFAQs-maduset",
+    "blockClass": ["linhaFAQs-maduset", "blackfriday"],
     "fullWidth": true
   },
   "title": "Faq",

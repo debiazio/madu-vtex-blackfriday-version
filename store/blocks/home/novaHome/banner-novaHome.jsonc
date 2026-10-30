@@ -6,31 +6,31 @@
     },
     "title": "Linha Banner Principal",
     "children": [
-      "scheduled-image-list#home-banner-home"
+      "scheduled-image-list#home-banner-blackfriday"
     ]
   },
-  "scheduled-image-list#home-banner-home": {
+  "scheduled-image-list#home-banner-blackfriday": {
     "props": {
       "blocClass": "listContext-novahome",
       "images": [
         {
-          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ad68f091-ca96-4fb2-b486-6427d80b9795___839a46697926e7675d00f9188b733942.png",
-          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/179ea8ef-137f-472e-8713-47059e50ae8b___28a06f8964603ab25f326db303e8eeb8.png",
+          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/258d3dad-d53b-4bfe-87ea-c3fbdc2e920e___807677a6eddb21e32a5b75b412f489ff.webp",
+          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/8c89deda-2568-4764-b783-a2e7d8a4a309___4778a1a42ed85be15378b210ccbe856f.webp",
           "link": {
-            "url": "https://www.pensemadu.com.br/veterinaria/"
-          },
-          "startDate": "01/01/2026",
-          "endDate": "31/12/2026"
-        },
-        {
-          "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/98e241f0-9b91-4fbc-a80b-221842a0c7a5___3b6e85e8b91e16cb1103f963720a7319.png",
-          "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbe1119-19ce-42c5-a5f4-3a9ae9e71504___4270d6ec5847efb90f4abdcf8809f883.png",
-          "link": {
-            "url": "https://www.pensemadu.com.br/maduset/"
+            "url": "https://www.pensemadu.com.br/black-friday/"
           },
           "startDate": "01/01/2026",
           "endDate": "31/12/2026"
         }
+        // {
+        //   "mobileImage": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/98e241f0-9b91-4fbc-a80b-221842a0c7a5___3b6e85e8b91e16cb1103f963720a7319.png",
+        //   "image": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/1cbe1119-19ce-42c5-a5f4-3a9ae9e71504___4270d6ec5847efb90f4abdcf8809f883.png",
+        //   "link": {
+        //     "url": "https://www.pensemadu.com.br/maduset/"
+        //   },
+        //   "startDate": "01/01/2026",
+        //   "endDate": "31/12/2026"
+        // }
       ]
     },
     "children": [
@@ -50,11 +50,11 @@
       "arrowSize": 50,
       "infinite": true,
       "showNavigationArrows": "always",
-      "showPaginationDots": "never",
-      "autoplay": {
-        "timeout": 8000,
-        "stopOnHover": true
-      }
+      "showPaginationDots": "never"
+      // "autoplay": {
+      //   "timeout": 8000,
+      //   "stopOnHover": true
+      // }
     }
   }
 }
