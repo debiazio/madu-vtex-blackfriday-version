@@ -16,6 +16,7 @@
       "slider-nossos-clientes",
       // "flex-layout.row#deals-edited-novaHome",
       "flex-layout.row#linha-3banners-novaHome",
+      "cronometro-blackfriday",
       // "flex-layout.row#navegueSegmentos-novaHome",
       "responsive-layout.desktop#linha-maisVendidos-novaHome",
       "responsive-layout.mobile#linha-maisVendidos-novaHome",
@@ -38,6 +39,7 @@
       "header": "header"
     }
   },
+  "cronometro-blackfriday":{},
   // SLIDER HOME - DESKTOP
   "list-context.image-list#home-banner": {
     "children": [
