@@ -27,25 +27,42 @@
   },
   "header-layout.desktop": {
     "children": [
-      // "slider-layout#home-banner",
-      // "modal-trigger#popup-cupom", //cupom popup
+      "modal-trigger#popup-blackfriday",
       "flex-layout.row#botao-atendimento-whatsapp",
-      // "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
       "sticky-layout#3-desktop"
     ]
   },
-  // "flex-layout.row#1-desktop": {
-  //   "children": [
-  //     "flex-layout.col#header-col1",
-  //     "flex-layout.col#header-col2"
-  //   ],
-  //   "props": {
-  //     "fullWidth": true,
-  //     "blockClass": "notification",
-  //     "preventHorizontalStretch": true
-  //   }
-  // },
+  // ==========================
+  // popup black friday
+  // ==========================
+  "modal-trigger#popup-blackfriday": {
+    "props": {
+      "trigger": "load"
+    },
+    "children": [
+      "modal-layout#popup-blackfriday"
+    ]
+  },
+  "modal-layout#popup-blackfriday": {
+    "props": {
+      "blockClass": "popup-blackfriday"
+    },
+    "children": [
+      "image#popup-blackfriday"
+    ]
+  },
+  "image#popup-blackfriday": {
+    "props": {
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/88acf410-547f-44c9-8cf2-a175e815deba___b413aec31b1bd5ff23bbf8c7758512c0.webp",
+      "alt": "Popup Black Friday",
+      "blockClass": "img-popup-blackfriday",
+      "link": {
+        "url": "/carrinho-hospitalar-5-gavetas-cinza-inox-suporte-equipamentos-madu-extra-385/p",
+        "newTab": true
+      }
+    }
+  },
   "flex-layout.col#header-col1": {
     "props": {
       "blockClass": "header-col1",
@@ -56,6 +73,9 @@
       "rich-text#notification-bar"
     ]
   },
+  // ==========================
+  // popup black friday
+  // ==========================
   "rich-text#notification-bar": {
     "props": {
       "text": "A maior linha de mobiliário técnico do Mundo!",
@@ -191,6 +211,7 @@
   },
   "header-layout.mobile": {
     "children": [
+      "modal-trigger#popup-blackfriday",
       "flex-layout.row#botao-atendimento-whatsapp",
       // "flex-layout.row#1-mobile",
       "sticky-layout#2-mobile"

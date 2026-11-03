@@ -1,3 +1,14 @@
+.container--popup-blackfriday {
+  background: #1e1e1e91;
+}
+
+.paper--popup-blackfriday {
+  /* max-height: 90%; */
+  max-width: 70vh !important;
+  overflow: hidden;
+  margin-bottom: -6px;
+}
+
 .closeIcon--roleta-header {
   width: 20px;
 }
@@ -106,8 +117,8 @@
 @media screen and (max-width: 1024px) {
   .paperNotFullScreen {
     /* margin: 6px !important; */
-    height: 90%;
-    overflow: auto;
+    /* height: 90%; */
+    overflow: hidden;
   }
 
   /* CSS ROLETA ABAIXO  */
