@@ -38,7 +38,7 @@
   // ==========================
   "modal-trigger#popup-blackfriday": {
     "props": {
-      "trigger": "load"
+      "trigger": "load-session"
     },
     "children": [
       "modal-layout#popup-blackfriday"
