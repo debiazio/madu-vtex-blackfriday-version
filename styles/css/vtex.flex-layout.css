@@ -1,3 +1,12 @@
+.flexRow--linha-badge-black-friday{
+  position: absolute;
+  z-index: 40;
+}
+
+.flexRowContent--linha-badge-black-friday .stretchChildrenWidth{
+  justify-content: end!important;
+}
+
 .flexRowContent--linha-imagens-varAltura-madubox {
   display: flex;
   align-items: flex-end;

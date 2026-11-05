@@ -2,6 +2,7 @@
   "product-summary.shelf": {
     "children": [
       "flex-layout.row#tag-colecao",
+      "flex-layout.row#badge-black-friday",
       "stack-layout#prodsum",
       "flex-layout.col#product-info-summary",
       // "condition-layout.product#produtos-selecionados-btnComprar"

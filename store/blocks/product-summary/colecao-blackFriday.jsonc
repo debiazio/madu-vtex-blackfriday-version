@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#badge-black-friday": {
+    "props": {
+      "blockClass": "linha-badge-black-friday",
+      "fullWidth": true,
+      "colSizing": "auto"
+    },
+    "children": [
+      "condition-layout.product#tag-colecao-blackFriday"
+    ]
+  },
+  "condition-layout.product#tag-colecao-blackFriday": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productClusters",
+          "arguments": {
+            "id": "174"
+          }
+        }
+      ],
+      "Then": "image#black-friday-badge"
+    }
+  },
+  "image#black-friday-badge":{
+    "props": {
+      "blockClass": "badge-black-friday",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/ddc50dfb-4945-4dfa-bad8-e994f4456f41___3d34891accee71a1e97c75c4676f2cf7.png"
+    }
+  }
+}
