@@ -9,6 +9,39 @@
       // "onClickBehavior": "go-to-product-page"
     }
   },
+  "condition-layout.product#botaocomprar-colecao-blackFriday": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productClusters",
+          "arguments": {
+            "id": "174"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#botaocomprarblack",
+      "Else": "add-to-cart-button#shelf"
+    }
+  },
+  "flex-layout.row#botaocomprarblack": {
+    "props": {
+      "blockClass": "linha-btnBlack"
+    },
+    "children": [
+      "add-to-cart-button#black"
+    ]
+  },
+  "add-to-cart-button#black": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "evento-add-ao-carrinho",
+      "unavailableText": "Produto indisponível",
+      "blockClass": ["botao-comprar-shelf", "botaoComprarBlack"],
+      "text": "COMPRAR"
+    }
+  },
+
+
   "add-to-cart-button#shelf": {
     "props": {
       "addToCartFeedback": "customEvent",

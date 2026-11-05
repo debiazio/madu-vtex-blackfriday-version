@@ -57,7 +57,8 @@
       "stack-layout"
     ],
     "props": {
-      "width": "50%"
+      "width": "50%",
+      "blockClass": "left-col"
     }
   },
   "stack-layout": {
@@ -65,6 +66,7 @@
       "blockClass": "product-image"
     },
     "children": [
+      // "flex-layout.row#badge-black-friday",
       "flex-layout.row#product-image"
     ]
   },
@@ -108,6 +110,7 @@
       "blockClass": "coluna-direita-produto"
     },
     "children": [
+
       "responsive-layout.desktop#nome-do-produto",
       "flex-layout.row#list-price-savings",
       // "condition-layout.product#preco-venda",

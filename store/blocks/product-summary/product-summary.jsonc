@@ -18,7 +18,8 @@
           "subject": "isProductAvailable"
         }
       ],
-      "Then": "add-to-cart-button#shelf",
+      // "Then": "add-to-cart-button#shelf",
+      "Then": "condition-layout.product#botaocomprar-colecao-blackFriday",
       "Else": "overlay-trigger"
     }
   },

@@ -51,6 +51,8 @@
 .image {
   height: 100% !important;
   border-radius: 5px;
+  max-width: unset!important;
+
 }
 
 .nameContainer {
