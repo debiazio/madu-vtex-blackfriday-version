@@ -1,3 +1,7 @@
+.imageContainer{
+  width: 100%;
+}
+
 .clearLink :global(.vtex-button){
   border-radius: 100px;
   border: none;
@@ -93,7 +97,7 @@
   }
 
   .element {
-    padding: 5px 10px;
+    padding: 5px 0px;
     ;
   }
 

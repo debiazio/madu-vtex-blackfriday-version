@@ -1,19 +1,23 @@
-.flexRowContent--linha-btnBlack :global(.vtex-button){
+.flexRowContent--linha-btnBlack :global(.vtex-button) {
   background-color: #000000;
 }
 
-.flexRowContent--linha-btnBlack :global(.vtex-button):hover{
-  background-color: #FFA527!important;
+.flexRowContent--linha-btnBlack :global(.vtex-button):hover {
+  background-color: #FFA527 !important;
 }
 
 
-.flexRow--linha-badge-black-friday{
-  position: absolute;
+.flexRow--linha-badge-black-friday {
+  position: relative;
   z-index: 40;
+  top: -20px;
 }
 
-.flexRowContent--linha-badge-black-friday .stretchChildrenWidth{
-  justify-content: end!important;
+.flexRowContent--linha-badge-black-friday {
+  justify-content: end !important;
+}
+.flexRowContent--linha-badge-black-friday .stretchChildrenWidth {
+  justify-content: end !important;
 }
 
 .flexRowContent--linha-imagens-varAltura-madubox {
@@ -1584,6 +1588,10 @@
 }
 
 @media screen and (max-width: 1300px) {
+  .flexColChild--filterCol {
+    background-color: transparent;
+  }
+
   .flexRow--categorias-madu {
     margin: 40px 20px 20px 20px;
   }
