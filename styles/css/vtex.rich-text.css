@@ -1,3 +1,11 @@
+.container--fretegratispiscando{
+  position: absolute;
+  top: 68%;
+  right: 16px;
+}
+
+
+
 .paragraph--titulo-quemSomos {
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;

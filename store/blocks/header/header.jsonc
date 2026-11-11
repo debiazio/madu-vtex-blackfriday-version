@@ -38,7 +38,7 @@
   // ==========================
   "modal-trigger#popup-blackfriday": {
     "props": {
-      "trigger": "load-session"
+      "trigger": "load"
     },
     "children": [
       "modal-layout#popup-blackfriday"
@@ -49,12 +49,25 @@
       "blockClass": "popup-blackfriday"
     },
     "children": [
-      "image#popup-blackfriday"
+      "modal-header#botao-close",
+      "image#popup-blackfriday",
+      "rich-text#fretegratis"
     ]
+  },
+  "rich-text#fretegratis":{
+    "props": {
+      "text": "FRETE GRÁTIS",
+      "blockClass": "fretegratispiscando"
+    }
+  },
+  "modal-header#botao-close":{
+    "props": {
+      "showCloseButton": true
+    }
   },
   "image#popup-blackfriday": {
     "props": {
-      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/88acf410-547f-44c9-8cf2-a175e815deba___b413aec31b1bd5ff23bbf8c7758512c0.webp",
+      "src": "https://madumfm2.vtexassets.com/assets/vtex.file-manager-graphql/images/89bc067f-48cb-4265-9098-8e9d0ed62795___7023ecf6cca5e92003b5f6b6bbff1b87.webp",
       "alt": "Popup Black Friday",
       "blockClass": "img-popup-blackfriday",
       "link": {
