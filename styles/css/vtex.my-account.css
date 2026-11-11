@@ -26,6 +26,7 @@
 :global(.vtex-rich-text-0-x-paragraph--fretegratispiscando) {
   color: #ffa527;
   font-size: 48px;
+  text-align: right;
   margin: 0;
   font-family: "Poppins Black", sans-serif !important;
   font-weight: 900;

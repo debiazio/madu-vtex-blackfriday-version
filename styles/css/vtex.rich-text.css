@@ -1,4 +1,4 @@
-.container--fretegratispiscando{
+.container--fretegratispiscando {
   position: absolute;
   top: 68%;
   right: 16px;
@@ -973,6 +973,18 @@
 
 /* MOBILE */
 @media screen and (max-width: 1024px) {
+  .container--fretegratispiscando {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    top: unset;
+  }
+
+  .paragraph--fretegratispiscando{
+    font-size: 2.5em;
+  }
+
+
   .paragraph--content-faq-maduset {
     padding: 0 12px;
     font-size: 12px;
